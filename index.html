@@ -1,22 +1,9 @@
-<!DOCTYPE html>
-    <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Helen Tran; Product Designer</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        
-        
-        <link rel="stylesheet" href="/css/style.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    </head>
-    <body>
+---
+layout: default
+title: Helen Tran; Product Designer
+---
 
-            			<header class="introduction">
+			<header class="introduction">
 				<div class="wrapper text-center">
 					<div class="avatar">
 						<span class="avatar__wrap">
@@ -42,47 +29,31 @@
 
 				<div class="wrapper">
 					<section class="writing__post">
-						
+						{% for post in site.posts limit:1 %}
 						<h5 class="section-header section-header--first text-center">Latest Journal Entry</h5>
 						<article class="post-listing--latest">
 							<header class="post-header text-center">
-								<h2 class="post-latest__title"><a href="/2014/09/19/from-the-desk.html">From the Desk of the Politely Angry</a></h2>
+								<h2 class="post-latest__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 								<hr class="seperator small">
-								<h6 class="meta"><time datetime="2014-09-19 00:00:00 -0400">September 19 2014</time> • <a href="/tag/tech culture/" rel="tag">tech culture</a>, <a href="/tag/life/" rel="tag">life</a>, <a href="/tag/thoughts/" rel="tag">thoughts</a></h6>
+								{% include tags.html %}
 							</header>
-							<p><p>I sat in the audience while someone stood in front of me using sex and women as punchlines in his talk. Throughout the hour, he flashed hentai images, a gif of a monkey masturbating, and stopped scrubbing a video on a frame of a woman to remark, “Nice rack.” All this while littering his talk with dick jokes and an explanation of a conceptual video which centered around the idea of the domination of a...</p>
+							<p>{{ post.content | truncatewords: 75 }}</p>
 						</article>
-						
+						{% endfor %}
 
 						<h5 class="section-header text-center">Older Entries</h5>
 						<div class="post-listing text-center">
-						
-							<article class="post-listing--single first">
-								<h6 class="meta"><time datetime="2014-07-16 00:00:00 -0400">July 16 2014</time> • <a href="/tag/tech/" rel="tag">tech</a>, <a href="/tag/life/" rel="tag">life</a></h6>
-								<h3><a href="/2014/07/16/JIBO.html">JIBO and Our Relationships with Personal Electronics</a></h3>
+						{% for post in site.posts offset: 1 %}
+							<article class="post-listing--single{% if forloop.first %} first{% endif %}{% if forloop.last %} last{% endif %}">
+								{% include tags.html %}
+								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 							</article>
-						
-							<article class="post-listing--single">
-								<h6 class="meta"><time datetime="2014-06-25 00:00:00 -0400">June 25 2014</time> • <a href="/tag/thoughts/" rel="tag">thoughts</a>, <a href="/tag/life/" rel="tag">life</a></h6>
-								<h3><a href="/2014/06/25/this-is-water.html">This is Water</a></h3>
-							</article>
-						
-							<article class="post-listing--single last">
-								<h6 class="meta"><time datetime="2014-01-18 00:00:00 -0500">January 18 2014</time> • <a href="/tag/design/" rel="tag">design</a>, <a href="/tag/trends/" rel="tag">trends</a></h6>
-								<h3><a href="/2014/01/18/the-future-of-ui.html">The Future of UI and the Dream of the '90s</a></h3>
-							</article>
-						
+						{% endfor %}
 						</div>
 					</section>
 				</div>
 
-				            <footer class="site-footer text-center">
-            	<div class="wrapper">
-	        		<p class="h5 social">Follow me on <a href="http://twitter.com/tranhelen" class="twitter">Twitter</a>, <a href="http://dribbble.com/tranhelen" class="dribbble">Dribbble</a>, <a href="http://instagram.com/tranhelen" class="instagram">Instagram</a></p>
-	            	<p class="copyright">2014 &copy; Helen Tran • This website was made out of 10,000 of my salty tears.
-                    <span class="break"></span>The full website is available on <a href="https://github.com/tranhelen/helentran">Github</a> for educational purposes.</p>
-	            </div>
-            </footer>
+				{% include footer.html %}
 
 				<script>
 					$('#toggleProfile').on('click',function(evt) {
@@ -92,8 +63,3 @@
 				</script>
 
 			</div>
-
-            
-    </body>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-</html>
