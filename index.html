@@ -30,7 +30,7 @@ title: Helen Tran; Product Designer
 				<div class="wrapper">
 					<section class="writing__post">
 						{% for post in site.posts limit:1 %}
-						<h5 class="section-header section-header--first text-center">Latest Journal Entry</h5>
+						<h5 class="section-header section-header--first text-center">Latest Entry</h5>
 						<article class="post-listing--latest">
 							<header class="post-header text-center">
 								<h2 class="post-latest__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -44,12 +44,16 @@ title: Helen Tran; Product Designer
 						<h5 class="section-header text-center">Older Entries</h5>
 						<div class="post-listing text-center">
 						{% for post in site.posts offset: 1 %}
-							<article class="post-listing--single{% if forloop.first %} first{% endif %}{% if forloop.last %} last{% endif %}">
+							<article class="post-listing--single{% if forloop.first %} first{% endif %}">
 								{% include tags.html %}
 								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 							</article>
 						{% endfor %}
 						</div>
+
+						<h5 class="rss text-center">
+							<a href="feed.xml" class="text-center">RSS feed</a>
+						</h5>
 					</section>
 				</div>
 
