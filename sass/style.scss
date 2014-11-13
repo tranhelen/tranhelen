@@ -50,28 +50,18 @@ $instagram: #47759a;
 	$bp2: 924px;
 	$bp3: 1235px;
 
-/* White background theme */
+/* Homepage Variables */
+	/* Main */
+	$colorPrimary: #1AADDB;
+	$colorLines: darken($colorPrimary,10%);
+
 	/* Links */
-	$colorLink: #69a4d9;
+	$colorLink: #ECF300;
 	$colorLinkHover: lighten($colorLink,20%);
-	$colorLinkIntro: lighten($colorLink,20%);
-	$colorLinkIntroH: lighten($colorLinkIntro,20%);
 
 	/* Text */
-	$colorText: #535864;
-	$colorTextLight: lighten($colorText,20%);
-	$colorTextHeading: darken($colorText,20%);
-
-	/* Footer */
-	$footer: #f9f9f9;
-	$footerText: #999999;
-
-	/* Footnotes, Meta, Resources */
-	$meta: $footer;
-
-	/* Misc */
-	$colorAccent: #d8c9de;
-	$colorAccentNeu: #f1f4f8;
+	$colorText: #ffffff;
+	$colorTextBody: darken($colorText,20%);
 
 @mixin at-query ($breakpoint) {
 	@media screen and (min-width: $breakpoint) {
@@ -95,6 +85,8 @@ input,
 textarea,
 button,
 select {
+	background-color: $colorPrimary;
+	border: 5px solid $colorLines;
 	color: $colorText;
 	font-family: $stack2;
 	font-size: em(18px);
@@ -151,6 +143,7 @@ h6 {
 .h6 { @extend h6; }
 
 p {
+	color: $colorTextBody;
 	line-height: em(30px);
 	margin: 0 0 ($unit);
 
@@ -230,41 +223,6 @@ ul, ol {
 /*------------------------------------*\
     #Header
 \*------------------------------------*/
-
-.hide {
-	display: none;
-}
-
-.introduction {
-	background: #3760c1 url('../img/background.png') no-repeat;
-	background-size: 100%;
-	color: $footerText;
-	padding: ($unit / 2) 0 ($unit / 4);
-
-	@include at-query($bp2) {
-		padding: ($unit * 1.5) 0 $unit;
-	}
-
-	a {
-		color: $colorLinkIntro;
-
-		&:hover {
-			color: $colorLinkIntroH;
-		}
-	}
-
-	h2 {
-		color: #e4ebfb;
-	}
-
-	h4 {
-		color: #c9d3e8;
-	}
-
-	.seperator {
-		opacity: 0.2;
-	}
-}
 
 .avatar {
 
