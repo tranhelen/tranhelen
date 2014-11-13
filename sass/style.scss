@@ -116,27 +116,11 @@ h5, h6 {
 h1 {
   font-size: em(32px);
   line-height: em(20px);
-
-  @include at-query($bp1) {
-  	font-size: em(38px);
-  }
-
-  @include at-query($bp2) {
-  	font-size: em(44px);
-  }
 }
 
 h2 {
   font-size: em(24px);
   line-height: em(20px);
-
-  @include at-query($bp1) {
-  	font-size: em(30px);
-  }
-
-  @include at-query($bp2) {
-  	font-size: em(36px);
-  }
 }
 
 h3 {
@@ -157,10 +141,6 @@ h5 {
 h6 {
   font-size: em(10px);
   line-height: em(25px);
-
-  @include at-query($bp2) {
-  	font-size: em(12px);
-  }
 }
 
 .h1 { @extend h1; }
@@ -180,10 +160,6 @@ p {
 	}
 }
 
-.symbol__at {
-	font-size: em(12px);
-}
-
 /*------------------------------------*\
     #Basics
 \*------------------------------------*/
@@ -199,43 +175,6 @@ a {
 	&:hover {
 		color: $colorLinkHover;
 	}
-}
-
-blockquote {
-	border-left: 5px solid $colorAccentNeu;
-	font-style: italic;
-	margin: ($unit * 1.5) 0;
-	padding-left: ($unit * 1.5);
-
-	@include at-query($bp2) {
-		border: 0;
-		margin: ($unit * 2) 0 ($unit * 2) -5%;
-		padding: 0;
-		text-align: center;
-		width: 110%;
-
-		p {
-			font-size: em(24px);
-			line-height: em(30px);
-			margin: 0;
-		}
-	}
-
-	@include at-query($bp3) {
-		margin-left: -20%;
-		width: 140%;
-	}
-}
-
-figure {
-	margin: 0;
-}
-
-figcaption {
-	@extend h6;
-
-	font-weight: 500;
-	text-transform: none;
 }
 
 img {
@@ -278,83 +217,14 @@ ul, ol {
     #Layout
 \*------------------------------------*/
 
-.break {
-	display: none;
 
-	@include at-query($bp1) {
-		display: block;
-	}
-}
-
-.content {
-	box-shadow: 0 0 6px rgba(#000,0.3);
-	overflow-x: hidden;
-	padding: ($unit * 2) 0 0;
-
-	@include at-query($bp1) {
-		padding-top: ($unit * 3);
-	}
-
-	&.content--page {
-		box-shadow: none;
-	}
-}
-
-.section-header {
-	color: $colorTextLight;
-	margin: ($unit * 2) 0;
-
-	@include at-query($bp1) {
-		margin: ($unit * 3) 0;
-	}
-
-	&.section-header--first {
-		margin-top: 0;
-	}
-}
-
-.seperator {
-	border: 0;
-	border-top: 1px solid $colorAccentNeu;
-	margin: ($unit * 1.5) 0;
-
-	@include at-query($bp2) {
-		margin: ($unit * 2) 0;
-	}
-
-	&.small {	
-		border: 0;
-		background-color: $colorAccentNeu;
-		height: 3px;
-		margin: ($unit * 1.5) auto;
-		width: ($unit * 1.5);
-	}
-}
-
-.wrapper {
-	padding: 0 ($unit * 2);
-
-	@include at-query($bp1) {
-		padding: 0 ($unit * 3);
-		margin: 0 auto;
-		max-width: 800px;
-	}
-
-	@include at-query($bp2) {
-		padding: 0;
-	}
-}
 
 /*------------------------------------*\
     #Navigations
 \*------------------------------------*/
 
 .breadcrumb {
-	margin: 0 0 ($unit * 1.5);
 
-	@include at-query($bp2) {
-		margin-bottom: ($unit * 2);
-	}
 }
 
 /*------------------------------------*\
@@ -397,61 +267,7 @@ ul, ol {
 }
 
 .avatar {
-	background-color: rgba(#fff,0.1);
-	border-radius: 999px;
-	display: inline-block;
-	height: 52px;
-	opacity: 0.8;
-	width: 52px;	
 
-	@include transition;
-
-	&:hover {
-		opacity: 1;
-	}
-
-	@include at-query($bp2) {
-		height: 100px;
-		width: 100px;
-	}
-}
-
-.avatar__wrap {
-	display: inline-block;
-	margin: 4px auto;
-	background-color: rgba(#fff,0.2);
-	border-radius: 999px;
-	height: 44px;
-	width: 44px;
-
-	@include at-query($bp2) {
-		height: 88px;
-		margin-top: 6px;
-		width: 88px;
-	}
-}
-
-.avatar__img {
-	margin: 4px auto;
-	border-radius: 999px;
-	box-shadow: 0 0 6px rgba(#000,0.3);
-	height: 36px;
-	width: 36px;
-
-	@include at-query($bp2) {
-		height: 72px;
-		margin-top: 8px;
-		width: 72px;
-	}
-}
-
-.introduction__profile {
-	display: none;
-	padding: $unit 0 ($unit / 2);
-
-	@include at-query($bp2) {
-		padding: ($unit * 2) 0;
-	}
 }
 
 /*------------------------------------*\
@@ -459,178 +275,11 @@ ul, ol {
 \*------------------------------------*/
 
 .site-footer {
-	background-color: $footer;
-	line-height: em(20px);
-	padding: ($unit * 1.5) 0;
 
-	.copyright {
-		color: $footerText;
-		font-family: $stack1;
-		font-size: em(10px);
-		font-weight: 500;
-		line-height: em(24px);
-		margin: 0;
-		text-transform: none;
-	}
-}
-
-.social {
-	color: $footerText;
-
-	.dribbble,
-	.instagram,
-	.twitter {
-		@include transition;
-	}
-
-	.dribbble {
-		color: $dribbble;
-
-		&:hover {
-			color: lighten($dribbble,20%);
-		}
-	}
-
-	.instagram {
-		color: $instagram;
-
-		&:hover {
-			color: lighten($instagram,20%);
-		}
-	}
-
-	.twitter {
-		color: $twitter;
-
-		&:hover {
-			color: lighten($twitter,20%);
-		}
-	}
 }
 
 /*------------------------------------*\
     #Blog
 \*------------------------------------*/
 
-.figure--aside {
-	@include at-query($bp1) {
-		display: inline-block;
-		float: left;
-		margin: ($unit / 2) ($unit * 3) 0 0;		
-		width: 30%;
-	}
-}
-
-.figure__caption {
-	text-transform: none;
-	padding: ($unit / 4) ($unit / 2);
-}
-
-.figure__img {
-	margin-left: -20%;
-	max-width: 140%;
-	width: 140%;
-}
-
-.figure--large {
-	margin: $unit 0;
-}
-
-.footnote {
-	margin-top: ($unit * 1.5);
-
-	p {
-		font-size: em(14px);
-		font-style: italic;
-		line-height: em(28px);
-		margin: 0;
-
-		@include at-query($bp2) {
-			font-size: em(16px);
-		}
-	}
-}
-
-.meta {
-	color: $colorTextLight;
-
-	.writing-single__header & {
-		line-height: em(24px);
-		margin-bottom: 0;
-	}
-}
-
-.post-header {
-	margin-bottom: ($unit * 1);
-}
-
-.post-listing--single {
-	margin-bottom: ($unit * 1.5);
-}
-
-.resources { 
-	margin-top: $unit;
-}
-
-.resources__title {
-	margin-bottom: ($unit / 2);
-}
-
-.resources__list {
-	margin-left: 24px;
-
-	li {
-		margin-bottom: ($unit / 2);
-	}
-}
-
-.rss {
-	margin-top: $unit;
-	margin-bottom: ($unit * 3);
-}
-
-.tags {
-	background-color: $meta;
-	margin: ($unit * 1.5) 0;
-	padding: $unit ($unit * 1.5) ($unit * 0.75);
-}
-
-.tags__listing {
-	margin: 0;
-	padding: 0;
-
-	-webkit-column-count: 2;
-	   -moz-column-count: 2;
-	        column-count: 2;
-
-	@include at-query($bp1) {
-		-webkit-column-count: 3;
-		   -moz-column-count: 3;
-		        column-count: 3;		
-	}
-
-	@include at-query($bp2) {
-		-webkit-column-count: 4;
-		   -moz-column-count: 4;
-		        column-count: 4;
-	}
-}
-
-.writing__single {
-	@include at-query($bp1) {
-		margin-top: ($unit * 2);
-	}
-
-	@include at-query($bp2) {
-		margin-top: ($unit * 3);
-	}
-}
-
-.writing-single__header {
-	margin-bottom: ($unit * 1.5);
-}
-
-.writing-single__title {
-	color: $colorTextHeading;
-}
 

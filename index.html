@@ -3,37 +3,67 @@ layout: default
 title: Helen Tran; Product Designer
 ---
 
+			<div class="grid">
+				<div class="grid__item one-third">
+					<div class="avatar">
+						<img src="img/avatar-one-clr.png">
+					</div>
+					<div class="avatar_wrap">
+						<img src="img/avatar-one-bw.png">
+					</div>
+				</div>
+				<div class="grid__item one-third">
+					<div class="avatar">
+						<img src="img/avatar-two-clr.png">
+					</div>
+					<div class="avatar_wrap">
+						<img src="img/avatar-two-bw.png">
+					</div>
+				</div>
+				<div class="grid__item one-third">
+					<div class="avatar">
+						<img src="img/avatar-three-clr.png">
+					</div>
+					<div class="avatar_wrap">
+						<img src="img/avatar-three-bw.png">
+					</div>
+				</div>
+			</div>
+
 			<h3>Intro</h3>
 			<h1>Helen Tran</h1>
 			<h2>Product Designer & Serial Student</h2>
 
-			<p>I spend my days at large-ish company looking at how we can change the future of commerce. I primarily focus on the relationships our developers have with our company and build tools to make that experience easier.</p>
+			<p>I spend my days @Shopify looking at how we can change the future of commerce. I primarily focus on the relationships our developers have with our company and build tools to make that experience easier.</p>
 			<p>In my spare-time, I am usually trapped in a book somewhere.</p>
-
-			<img src="avatar.png">
 
 			<h3>Work</h3>
 
-			{% for posts in work %}
-				<ul>
-				{% for post in posts %}
+			<ul>
+			{% for post in site.categories.work %}
 					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-				{% endfor %}
-				</ul>
 			{% endfor %}
+			</ul>
 
 			<h3>Writing</h3>
 
 			<ul>
-			{% for post in site.posts %}
-				<li><a href="{{ post.external_url }}">{{ post.title }}</a></li>
+			{% for post in site.categories.writing %}
+				{% if post.external_url %}
+					<li><a href="{{ post.external_url }}" class="external" onclick="_gaq.push(['_trackPageview', '{{ post.url }}']);">{{ post.title }}</a></li>
+				{% else %}
+					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+				{% endif %}
 			{% endfor %}
 			</ul>
 
 			<h3>Communities</h3>
 
 			<ul>
-				<li><a href="http://twitter.com/tranhelen" class="twitter">Twitter</a></li>
-				<li><a href="http://dribbble.com/tranhelen" class="dribbble">Dribbble</a></li>
-				<li><a href="http://instagram.com/tranhelen" class="instagram">Instagram</a></li>
+				<li><a href="http://twitter.com/tranhelen">Twitter</a></li>
+				<li><a href="http://dribbble.com/tranhelen">Dribbble</a></li>
+				<li><a href="http://instagram.com/tranhelen">Instagram</a></li>
+				<li><a href="">Github Repo</a></li>
 			</ul>
+
+
