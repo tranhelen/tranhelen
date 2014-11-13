@@ -159,6 +159,10 @@ ul li {
     #Basics
 \*------------------------------------*/
 
+.borders {
+	opacity: 0;
+}
+
 #border-top,
 #border-right,
 #border-bottom,
@@ -261,6 +265,7 @@ ul, ol {
 
 .avvies {
 	margin: -($unit / 4) 0 $unit (-$unit);
+	opacity: 0;
 
 	@include clearfix;
 
@@ -331,6 +336,7 @@ ul, ol {
 }
 
 .section-body {
+	opacity: 0;
 	@include at-query($bp2) {
 		margin-left: ($unit * 6);
 	}
@@ -339,6 +345,7 @@ ul, ol {
 .section-title {
 	border-left: 1px solid $colorAccent;
 	color: rgba($colorText,0.5);
+	opacity: 0;
 	padding-left: 18px;
 	margin-bottom: $unit;
 	margin-left: -$unit;

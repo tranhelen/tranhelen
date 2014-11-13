@@ -16,13 +16,15 @@
     </head>
     <body>
 
-      			<div id="border-left"></div>
-			<div id="border-right"></div>
-			<div id="border-bottom"></div>
-			<div id="border-top"></div>
-			
+      			<div class="borders load">
+				<div id="border-left"></div>
+				<div id="border-right"></div>
+				<div id="border-bottom"></div>
+				<div id="border-top"></div>
+			</div>
+
 			<div class="section">
-				<div class="avvies">
+				<div class="avvies load">
 					<div class="avatar">
 						<img src="img/avatar-one-clr.png">
 						<div class="avatar__wrap">
@@ -45,9 +47,9 @@
 			</div>
 
 			<div class="section">
-				<h3 class="h6 section-title">Intro</h3>
+				<h3 class="h6 section-title load">Intro</h3>
 
-				<div class="section-body introduction">
+				<div class="section-body introduction load">
 					<h1 class="h3 introduction-name">Helen Tran</h1>
 					<h2 class="h4 introduction-title">Product Designer & Serial Student</h2>
 
@@ -58,9 +60,9 @@
 
 			<div class="lists">
 				<div class="section">
-					<h3 class="h6 section-title">Work</h3>
+					<h3 class="h6 section-title load">Work</h3>
 
-					<div class="section-body">
+					<div class="section-body load">
 						<ul class="list--nobullet list--main">
 						
 								<li><a href="/work/2014/11/13/timber.html">Timber; Shopify's official front-end boilerplate</a></li>
@@ -70,9 +72,9 @@
 				</div>
 
 				<div class="section">
-					<h3 class="h6 section-title">Writing</h3>
+					<h3 class="h6 section-title load">Writing</h3>
 
-					<div class="section-body">
+					<div class="section-body load">
 						<ul class="list--nobullet list--main">
 						
 							
@@ -96,9 +98,9 @@
 				</div>
 
 				<div class="section">
-					<h3 class="h6 section-title">Communities</h3>
+					<h3 class="h6 section-title load">Communities</h3>
 
-					<div class="section-body">
+					<div class="section-body load">
 						<ul class="list--nobullet list--main">
 							<li><a href="http://twitter.com/tranhelen">Twitter</a></li>
 							<li><a href="http://dribbble.com/tranhelen">Dribbble</a></li>
@@ -111,6 +113,12 @@
             
     </body>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('.load').each(function(i) {
+          $(this).delay((i++) * 400).fadeTo(1000, 1); })
+      });
+    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
