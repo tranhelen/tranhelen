@@ -9,7 +9,8 @@
     <script>
       $(function() {
         $('.load').each(function(i) {
-          $(this).delay((i++) * 400).fadeTo(1000, 1); })
+          $(this).delay((i++) * 400).animate({left:0, opacity:"1"});
+        })
       });
     </script>
     <script>
