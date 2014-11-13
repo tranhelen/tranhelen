@@ -14,11 +14,86 @@
         <link rel="stylesheet" href="/css/style.css">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     </head>
-    <body>
+    <body class="timber">
 
-    this is the template for timber
+    <h1 id="timber-shopifys-official-front-end-boilerplate">Timber; Shopify’s official front-end boilerplate</h1>
 
-      <p>This is the main body of this article that you have yet to look through.</p>
+<p>The first team I was placed on at Shopify was the Themes Team. The mandate of this team is to make it easier for Theme Developers to work with Shopify as well as maintain a group of free themes that can serve our customer base.</p>
+
+<p>In the process of learning how to build my first theme I found out through experience that it was not quite as easy as it should be. @Veronica and I were onboarded at the same time and after a few months it became clear what the biggest pain points were.</p>
+
+<p>After I finished my first theme, I was looking for a new project to sink my teeth into. </p>
+
+<p>I initially had worked on a requirements document with @Paul and @Veronica but I knew we could do better. I thought that a boilerplate was the perfect way to get across requirements while teaching people the simplest way to build a Shopify theme. Unbeknownst to me, the developer I was working with for Lookbook was also thinking about trying to solve this problem.</p>
+
+<p>Fast forward a couple of weeks later, Carson and I were in the midst of forming the foundations for Timber.</p>
+
+<h2 id="the-problem">The Problem</h2>
+
+<p>When first learning to build a new Shopify theme, you find out that there is a list of requirements that must be satisfied before it is published. Each theme goes through multiple checkpoints with our Shopify theme gurus and in order to be accepted into the Theme Store (the internal team follows the same process) you have to satisify all requirements.</p>
+
+<p>Theme requirements could range from basic asks like displaying products on a collection page or technical work like including Google rich snippets. This list of requirements or must-haves in a theme had to be compiled by piecing apart other themes, checking off two differing lists of requirements from Shopify’s docs somewhere, following @Tetsuro’s theme tutorial, or seemingly through osmosis. You had to also balance this against learning liquid which had confusing documentation (it has since been rewritten by @Tetsuro) or Googling to see what other people had done.</p>
+
+<h2 id="key-findings-and-the-project-objectives">Key Findings and the Project Objectives</h2>
+
+<p>We lined up some interviews with some fresh and veteran theme developers and spoke to them about the Shopify development process. From their interviews we learned:</p>
+
+<p>• After their first themes, people built boilerplates to work from and to build faster.</p>
+
+<p>• Knowledge of our currently available resources (like Skeleton or our Theme Gem) was low.</p>
+
+<p>• They relied on forums, Mark Dunkley’s cheat sheet or Google to learn the required liquid tags.</p>
+
+<p>• A grid system was considered a valuable add, as it would jumpstart development quickly and would remove the onus on the developers to incorporate or build their own.</p>
+
+<p>• All disciplines were involved in building, not just developers.</p>
+
+<p>From these we formed the initial product requirements/strategy:</p>
+
+<p>• The framework/boilerplate had to be easily marketable and it had to appeal to more than just developers. Theme designers are a varied bunch. A github repo just would not work.</p>
+
+<p>• The boilerplate had to include everything you needed to include to pass the Shopify theme gurus’ testing.</p>
+
+<p>• It had to include all the liquid tags you need to create just about every type of store you wanted.</p>
+
+<p>• The theme had to educate you while not being intrusive/irritating. It had to be well-commented so you would never have to ask what a liquid tag or template did.</p>
+
+<p>• The grid system had to be light, easy-to-use and easy-to-learn.</p>
+
+<p>• It should not define any styles beyond what is absolutely necessary.</p>
+
+<p>• It had to be well-documented.</p>
+
+<h2 id="branding">Branding</h2>
+
+<p>During some initial exploration about building concepts, I became enamoured with the word “Timber.” I pitched the idea to Carson and shortly after we planned a meeting with the Themes Team to hear their ideas for what we should name it.</p>
+
+<p>After an hour-long brain-dump firestorm with the Themes Team and a lightning round of old-fashioned democracy, our framework was  named Timber.</p>
+
+<h3 id="art-direction">Art Direction</h3>
+
+<p>Timber is a husky word. When you think Timber, wood grains, planks, and trees come to mind. If you are Canadian or a beaver enthusiast, you most likely also have a lumberjack somewhere in your thoughts. This leads to some pretty kitschy ideas but literal representations of Timber was not exactly what I was looking for.</p>
+
+<p>In my inital explorations of the word Timber I had come across architectural drawings of gable roofs. These lines were then incorporated into Timber’s graphics and I developed the colour scheme from colour-dropping different types of wood.</p>
+
+<h2 id="building-timber-and-iterations">Building Timber and Iterations</h2>
+
+<p>From our experiences, we decided the best grid framework to incorporate was CSS Wizardry’s grids. It had the right balance of flexibility, ease of learning and Harry Roberts has done a great job of documenting it. </p>
+
+<p>From there, Carson and I split responsibilities: I focused on designing the documentation while Carson worked on the development portion of Timber. </p>
+
+<p>The inital round of Timber’s documentation was a lot shorter than it is right now. My first kick at the design was released but it later proved to be difficult to read (by myself, even) and the content had outgrew the design system very quickly.</p>
+
+<p>In the second iteration of Timber’s documentation, readability was my first goal. I dimmed the colour palette, simplified the heading system and massaged the content so it was quicker and easier to read. The result is what you see now, but a Designer’s work is never done!</p>
+
+<h2 id="the-results">The Results</h2>
+
+<p>Timber was not only adopted externally but internally. Shopify’s Theme Team uses Timber to build our new themes and is being incorporated into our older themes as the new standard. This drastically simplifies the codebase(s) and makes it easier for developers to pick up any of our free themes and modify them quickly.</p>
+
+<p>Timber is now the best way to get started on making Shopify themes. Our developers can also rest assured that thanks to the hard work of @carson, Timber is always updated with Shopify’s latest theme features like the most recent release of theme internationalization.</p>
+
+<p>For more about Timber, @Carson also wrote a piece about it on the Shopify partners blog. If you are a Shopify theme developer yourself, we’re always open to feedback.</p>
+
 
             
     </body>

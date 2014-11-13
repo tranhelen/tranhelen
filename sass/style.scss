@@ -63,6 +63,19 @@ $instagram: #47759a;
 	$colorLink: $colorAccent;
 	$colorLinkHover: $colorText;
 
+/* Post Variables */
+	/* Main */
+	$postColorPrimary: #ffffff;
+	$postColorAccent: #ECF300;
+
+	/* Text */
+	$postColorText: #333333;
+	$postColorTextBody: darken($postColorText,5%);
+
+	/* Links */
+	$postColorLink: $colorAccent;
+	$postColorLinkHover: $postColorText;
+
 @mixin at-query ($breakpoint) {
 	@media screen and (min-width: $breakpoint) {
 		@content;
@@ -80,26 +93,13 @@ $instagram: #47759a;
     #Typography
 \*------------------------------------*/
 
-body {
-	background: $colorPrimary url('/img/background.gif') repeat;
-	background-position: -80px 0;
-	padding: 0 ($unit + 5);
-
-	@include at-query($bp2) {
-		background-position: 0 0;
-		padding: 0 ($unit + 5) 0 0;
-	}
-}
-
-body,
+body.homepage,
 input,
 textarea,
 button,
 select {
 	color: $colorText;
 	font-family: $stack2;
-	font-size: em(18px);
-	line-height: em(26px);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -147,17 +147,20 @@ h6 {
 .h5 { @extend h5; }
 .h6 { @extend h6; }
 
-p,
-ul li {
-	color: $colorTextBody;
-	margin: 0 0 ($unit / 2);
-	font-size: em(15px);
-	line-height: em(26px);
-}
-
 /*------------------------------------*\
     #Basics
 \*------------------------------------*/
+
+body.homepage {
+	background: $colorPrimary url('/img/background.gif') repeat;
+	background-position: -80px 0;
+	padding: 0 ($unit + 5);
+
+	@include at-query($bp2) {
+		background-position: 0 0;
+		padding: 0 ($unit * 2) 0 0;
+	}
+}
 
 .borders {
 	opacity: 0;
@@ -201,33 +204,11 @@ ul li {
 	bottom: 0;
 }
 
-a {
-	border-bottom: 1px solid rgba(255,255,255,0.2);
-	color: $colorLink;
-	text-decoration: none;
-
-	@include transition;
-
-	&:active,
-	&:focus,
-	&:hover {
-		border-color: $colorPrimary;
-		color: $colorLinkHover;
-	}
-}
-
-img {
-}
-
 ul, ol {
+	color: $postColorTextBody;
+	font-family: $stack2;
 	margin: 0 0 $unit;
 	padding: 0;
-}
-
-.list--main {
-	li a{
-		color: $colorText;
-	}	
 }
 
 .list--nobullet {
@@ -273,94 +254,139 @@ ul, ol {
     #Homepage
 \*------------------------------------*/
 
-.avvies {
-	margin: -($unit / 4) 0 $unit (-$unit);
-
-	@include clearfix;
-
-	@include at-query($bp1) {
-		margin-left: ($unit * 9) + 1;
+.homepage {
+	p,
+	ul li {
+		color: $colorTextBody;
+		margin: 0 0 ($unit / 2);
+		font-size: em(15px);
+		line-height: em(26px);		
 	}
 
-	@include at-query($bp2) {
-		margin-left: ($unit * 6);
+	a {
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+		color: $colorLink;
+		text-decoration: none;
+
+		@include transition;
+
+		&:active,
+		&:focus,
+		&:hover {
+			border-color: $colorPrimary;
+			color: $colorLinkHover;
+		}
 	}
-}
 
-.avatar {
-	float: left;
-	position: relative;
-	margin-right: 2px;
-	margin-bottom: -9px;
+	.avvies {
+		margin: -($unit / 4) 0 $unit (-$unit);
 
-	img {
-		max-height: ($unit * 6);
+		@include clearfix;
+
+		@include at-query($bp1) {
+			margin-left: ($unit * 9) + 1;
+		}
+
+		@include at-query($bp2) {
+			margin-left: ($unit * 6);
+		}
 	}
-}
 
-.avatar__wrap {
-    max-height: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
+	.avatar {
+		float: left;
+		position: relative;
+		margin-right: 2px;
+		margin-bottom: -9px;
 
-	@include transition;
-
-	.avatar:hover & {
-	    max-height: ($unit * 6);
-	    opacity: 1;
-	    @include transition;
+		img {
+			max-height: ($unit * 6);
+		}
 	}
-}
 
-.introduction {
-	@include at-query($bp2) {
-		max-width: 760px;
+	.avatar__wrap {
+	    max-height: 0;
+	    overflow: hidden;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+
+		@include transition;
+
+		.avatar:hover & {
+		    max-height: ($unit * 6);
+		    opacity: 1;
+		    @include transition;
+		}
 	}
-}
 
-.introduction-name {
-	margin-bottom: 0;
-}
-
-.introduction-title {
-	font-weight: 400;
-}
-
-.lists {
-	@include at-query($bp1) {
-		margin-left: ($unit * 10) + 1;
+	.introduction {
+		@include at-query($bp2) {
+			max-width: 760px;
+		}
 	}
-}
 
-.section {
-	margin-bottom: $unit * 2;
-	margin-left: ($unit - 5);
+	.introduction-name {
+		margin-bottom: 0;
+	}
 
-	@include at-query($bp2) {
+	.introduction-title {
+		font-weight: 400;
+	}
+
+	.lists {
+		@include at-query($bp1) {
+			margin-left: ($unit * 10) + 1;
+		}
+	}
+
+	.list--main {
+		li a {
+			color: $colorText;
+		}
+	}
+
+	.section {
+		margin-bottom: $unit * 2;
+		margin-left: ($unit - 5);
+
+		@include at-query($bp2) {
+			margin-left: -$unit;
+		}
+	}
+
+	.section-body {
+		@include at-query($bp2) {
+			margin-left: ($unit * 6);
+		}
+	}
+
+	.section-title {
+		border-left: 1px solid $colorAccent;
+		color: rgba($colorText,0.5);
+		padding-left: 18px;
+		margin-bottom: $unit;
 		margin-left: -$unit;
+
+		@include at-query($bp2) {
+			border-left: 0;
+			border-right: 1px solid $colorAccent;
+			text-align: right;
+			padding-right: $unit / 2;
+			width: ($unit * 7) + 1;
+		}
 	}
 }
 
-.section-body {
-	@include at-query($bp2) {
-		margin-left: ($unit * 6);
+/*------------------------------------*\
+    #Timber
+\*------------------------------------*/
+
+body {
+	background-image: none;
+	background-color: #fff;
+
+	p {
+		color: $postColorText;
 	}
 }
 
-.section-title {
-	border-left: 1px solid $colorAccent;
-	color: rgba($colorText,0.5);
-	padding-left: 18px;
-	margin-bottom: $unit;
-	margin-left: -$unit;
-
-	@include at-query($bp2) {
-		border-left: 0;
-		border-right: 1px solid $colorAccent;
-		text-align: right;
-		padding-right: $unit / 2;
-		width: ($unit * 7) + 1;
-	}
-}
