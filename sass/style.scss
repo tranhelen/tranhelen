@@ -34,8 +34,8 @@
 	text-rendering:optimizeLegibility
 }
 
-$stack1: "Helvetica Neue",Helvetica,Arial,sans-serif;
-$stack2: "Minion Pro",Georgia,Times,Times New Roman,serif;
+$stack1: "Brandon Text", "Helvetica Neue",Helvetica,Arial,sans-serif;
+$stack2: "Adobe Caslon Pro", "Minion Pro",Georgia,Times,Times New Roman,serif;
 
 $baseFontSize: 16px;
 $unit: 24px;
@@ -55,13 +55,13 @@ $instagram: #47759a;
 	$colorPrimary: #1AADDB;
 	$colorLines: darken($colorPrimary,10%);
 
-	/* Links */
-	$colorLink: #ECF300;
-	$colorLinkHover: lighten($colorLink,20%);
-
 	/* Text */
 	$colorText: #ffffff;
-	$colorTextBody: darken($colorText,20%);
+	$colorTextBody: darken($colorText,10%);
+
+	/* Links */
+	$colorLink: #ECF300;
+	$colorLinkHover: $colorText;
 
 @mixin at-query ($breakpoint) {
 	@media screen and (min-width: $breakpoint) {
@@ -80,13 +80,21 @@ $instagram: #47759a;
     #Typography
 \*------------------------------------*/
 
+body {
+	background-color: $colorPrimary;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	border: 5px solid $colorLines;
+}
+
 body,
 input,
 textarea,
 button,
 select {
-	background-color: $colorPrimary;
-	border: 5px solid $colorLines;
 	color: $colorText;
 	font-family: $stack2;
 	font-size: em(18px);
@@ -144,20 +152,21 @@ h6 {
 
 p {
 	color: $colorTextBody;
-	line-height: em(30px);
-	margin: 0 0 ($unit);
-
-	@include at-query($bp2) {
-		font-size: em(19px);
-		line-height: em(30px);
-	}
+	margin: 0 0 ($unit / 2);
+	font-size: em(15px);
+	line-height: em(26px);
 }
 
 /*------------------------------------*\
     #Basics
 \*------------------------------------*/
 
+h2 {
+	font-weight: 400;
+}
+
 a {
+	border-bottom: 1px solid rgba(255,255,255,0.5);
 	color: $colorLink;
 	text-decoration: none;
 
@@ -166,14 +175,12 @@ a {
 	&:active,
 	&:focus,
 	&:hover {
+		border-color: $colorPrimary;
 		color: $colorLinkHover;
 	}
 }
 
 img {
-	-ms-interpolation-mode: bicubic;
-	max-width: 100%;
-	width: 100%;
 }
 
 ul, ol {
@@ -210,7 +217,38 @@ ul, ol {
     #Layout
 \*------------------------------------*/
 
+.avvies {
+	margin-top: -5px;
 
+	@include clearfix;
+}
+
+.avatar {
+	float: left;
+	position: relative;
+	margin-right: 2px;
+
+	img {
+		max-height: 120px;
+	}
+}
+
+.avatar__wrap {
+    max-height: 0;
+    overflow: hidden;
+	opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+	@include transition;
+
+	.avatar:hover & {
+	    max-height: 120px;
+	    opacity: 1;
+	    @include transition;
+	}
+}
 
 /*------------------------------------*\
     #Navigations
