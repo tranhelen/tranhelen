@@ -8,9 +8,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>
       $(function() {
-        $('.load').each(function(i) {
+        $('.load').animate({opacity: "1"},1500);
+        $('.load-right').each(function(i) {
           $(this).delay((i++) * 400).animate({left:0, opacity:"1"});
-        })
+        });
       });
     </script>
     <script>

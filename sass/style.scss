@@ -260,7 +260,12 @@ ul, ol {
 }
 
 .load {
+	opacity: 0;
+}
+
+.load-right {
 	left: 100px;
+	opacity: 0;
 	position: relative;
 }
 
@@ -270,7 +275,6 @@ ul, ol {
 
 .avvies {
 	margin: -($unit / 4) 0 $unit (-$unit);
-	opacity: 0;
 
 	@include clearfix;
 
@@ -297,7 +301,6 @@ ul, ol {
 .avatar__wrap {
     max-height: 0;
     overflow: hidden;
-	opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -341,7 +344,6 @@ ul, ol {
 }
 
 .section-body {
-	opacity: 0;
 	@include at-query($bp2) {
 		margin-left: ($unit * 6);
 	}
@@ -350,7 +352,6 @@ ul, ol {
 .section-title {
 	border-left: 1px solid $colorAccent;
 	color: rgba($colorText,0.5);
-	opacity: 0;
 	padding-left: 18px;
 	margin-bottom: $unit;
 	margin-left: -$unit;
