@@ -38,7 +38,7 @@ $stack1: "Brandon Text", "Helvetica Neue",Helvetica,Arial,sans-serif;
 $stack2: "Adobe Caslon Pro", "Minion Pro",Georgia,Times,Times New Roman,serif;
 
 $baseFontSize: 16px;
-$unit: 24px;
+$unit: 20px;
 
 $dribbble: #d43a75;
 $twitter: #55acee;
@@ -54,13 +54,14 @@ $instagram: #47759a;
 	/* Main */
 	$colorPrimary: #1AADDB;
 	$colorLines: darken($colorPrimary,10%);
+	$colorAccent: #ECF300;
 
 	/* Text */
 	$colorText: #ffffff;
-	$colorTextBody: darken($colorText,10%);
+	$colorTextBody: darken($colorText,5%);
 
 	/* Links */
-	$colorLink: #ECF300;
+	$colorLink: $colorAccent;
 	$colorLinkHover: $colorText;
 
 @mixin at-query ($breakpoint) {
@@ -81,13 +82,15 @@ $instagram: #47759a;
 \*------------------------------------*/
 
 body {
-	background-color: $colorPrimary;
-}
-
-html {
+	background: $colorPrimary url('/img/background.gif') repeat;
+	background-position: -75px 0;
+	padding: 0 $unit;
 	height: 100%;
 	width: 100%;
 	border: 5px solid $colorLines;
+}
+
+html {
 }
 
 body,
@@ -104,12 +107,12 @@ select {
 h1, h2, h3, h4, h5, h6 {
 	font-family: $stack1;
 	font-weight: 600;
-	margin: 0 0 ($unit / 3);
+	margin: 0 0 ($unit / 2);
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 }
 
-h5, h6 {
+h6 {
 	text-transform: uppercase;
 }
 
@@ -129,18 +132,14 @@ h3 {
 }
 
 h4 {
-  font-size: em(18px);
+  font-size: em(16px);
   line-height: em(24px);
 }
 
-h5 {
+h5,
+h6 {
   font-size: em(12px);
   line-height: em(18px);
-}
-
-h6 {
-  font-size: em(10px);
-  line-height: em(25px);
 }
 
 .h1 { @extend h1; }
@@ -150,7 +149,8 @@ h6 {
 .h5 { @extend h5; }
 .h6 { @extend h6; }
 
-p {
+p,
+ul li {
 	color: $colorTextBody;
 	margin: 0 0 ($unit / 2);
 	font-size: em(15px);
@@ -161,8 +161,16 @@ p {
     #Basics
 \*------------------------------------*/
 
-h2 {
+.introduction-name {
+	margin-bottom: 0;
+}
+
+.introduction-title {
 	font-weight: 400;
+}
+.section-title {
+	border-left: 1px solid $colorAccent;
+	padding-left: ($gutter / 2);
 }
 
 a {
@@ -184,11 +192,15 @@ img {
 }
 
 ul, ol {
-	margin: 0 0 $unit;
+	margin: 0 0 $unit $unit;
 	padding: 0;
 }
 
-.inline-list {
+.list-nobullet {
+	list-style-type: none;
+}
+
+.list-inline {
   list-style-type: none;
 
   li {
@@ -218,6 +230,7 @@ ul, ol {
 \*------------------------------------*/
 
 .avvies {
+	margin-bottom: $unit	;
 	margin-top: -5px;
 
 	@include clearfix;
@@ -227,6 +240,7 @@ ul, ol {
 	float: left;
 	position: relative;
 	margin-right: 2px;
+	margin-bottom: -9px;
 
 	img {
 		max-height: 120px;

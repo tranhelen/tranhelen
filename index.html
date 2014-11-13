@@ -24,24 +24,24 @@ title: Helen Tran; Product Designer
 				</div>
 			</div>
 
-			<h3>Intro</h3>
-			<h1>Helen Tran</h1>
-			<h2>Product Designer & Serial Student</h2>
+			<h3 class="h6 section-title">Intro</h3>
+			<h1 class="h3 introduction-name">Helen Tran</h1>
+			<h2 class="h4 introduction-title">Product Designer & Serial Student</h2>
 
 			<p>I spend my days <a href="http://shopify.com">@Shopify</a> looking at how we can change the future of commerce. I primarily focus on our relationships with developers and build products to make them stronger.</p>
 			<p>In my spare-time, I am usually trapped in a book somewhere or working on a side project.</p>
 
-			<h3>Work</h3>
+			<h3 class="h6 section-title">Work</h3>
 
-			<ul>
+			<ul class="list-nobullet">
 			{% for post in site.categories.work %}
 					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 			{% endfor %}
 			</ul>
 
-			<h3>Writing</h3>
+			<h3 class="h6 section-title">Writing</h3>
 
-			<ul>
+			<ul class="list-nobullet">
 			{% for post in site.categories.writing %}
 				{% if post.external_url %}
 					<li><a href="{{ post.external_url }}" class="external" onclick="_gaq.push(['_trackPageview', '{{ post.url }}']);">{{ post.title }}</a></li>
@@ -51,9 +51,9 @@ title: Helen Tran; Product Designer
 			{% endfor %}
 			</ul>
 
-			<h3>Communities</h3>
+			<h3 class="h6 section-title">Communities</h3>
 
-			<ul>
+			<ul class="list-nobullet">
 				<li><a href="http://twitter.com/tranhelen">Twitter</a></li>
 				<li><a href="http://dribbble.com/tranhelen">Dribbble</a></li>
 				<li><a href="http://instagram.com/tranhelen">Instagram</a></li>
