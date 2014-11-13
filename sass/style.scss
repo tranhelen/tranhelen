@@ -48,7 +48,6 @@ $instagram: #47759a;
 /* Breakpoints */
 	$bp1: 550px;
 	$bp2: 700px;
-	$bp3: 1235px;
 
 /* Homepage Variables */
 	/* Main */
@@ -83,29 +82,8 @@ $instagram: #47759a;
 
 body {
 	background: $colorPrimary url('/img/background.gif') repeat;
-	background-position: -75px 0;
-	border: 5px solid $colorLines;
-	border-width: 0 5px;
-	height: 100%;
+	background-position: -80px 0;
 	padding: 0 ($unit + 5);
-
-	&:before,
-	&:after {
-		content: "";
-		position: fixed;
-		background: $colorLines;
-		left: 0;
-		right: 0;
-		height: 5px;
-	}
-
-	&:before {
-		top: 0;
-	}
-
-	&:after {
-		bottom: 0;
-	}
 
 	@include at-query($bp2) {
 		background-position: 0 0;
@@ -181,6 +159,44 @@ ul li {
     #Basics
 \*------------------------------------*/
 
+#border-top,
+#border-right,
+#border-bottom,
+#border-left {
+	background: $colorLines;
+	position: fixed;
+}
+
+#border-left,
+#border-right {
+	top: 0;
+	bottom: 0;
+	width: 5px;
+}
+
+#border-left {
+	left: 0;
+}
+
+#border-right {
+	right: 0;
+}
+
+#border-top,
+#border-bottom {
+	left: 0;
+	right: 0;
+	height: 5px;
+}
+
+#border-top {
+	top: 0;
+}
+
+#border-bottom {
+	bottom: 0;
+}
+
 a {
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 	color: $colorLink;
@@ -244,16 +260,16 @@ ul, ol {
 \*------------------------------------*/
 
 .avvies {
-	margin: -5px 0 $unit (-$unit);
+	margin: -($unit / 4) 0 $unit (-$unit);
 
 	@include clearfix;
 
 	@include at-query($bp1) {
-		margin-left: 181px;
+		margin-left: ($unit * 9) + 1;
 	}
 
 	@include at-query($bp2) {
-		margin-left: 115px;
+		margin-left: ($unit * 6);
 	}
 }
 
@@ -264,7 +280,7 @@ ul, ol {
 	margin-bottom: -9px;
 
 	img {
-		max-height: 120px;
+		max-height: ($unit * 6);
 	}
 }
 
@@ -279,7 +295,7 @@ ul, ol {
 	@include transition;
 
 	.avatar:hover & {
-	    max-height: 120px;
+	    max-height: ($unit * 6);
 	    opacity: 1;
 	    @include transition;
 	}
@@ -287,7 +303,7 @@ ul, ol {
 
 .introduction {
 	@include at-query($bp2) {
-		max-width: 750px;
+		max-width: 760px;
 	}
 }
 
@@ -301,7 +317,7 @@ ul, ol {
 
 .lists {
 	@include at-query($bp1) {
-		margin-left: 201px;
+		margin-left: ($unit * 10) + 1;
 	}
 }
 
@@ -315,7 +331,9 @@ ul, ol {
 }
 
 .section-body {
-	margin-left: 115px;
+	@include at-query($bp2) {
+		margin-left: ($unit * 6);
+	}
 }
 
 .section-title {
@@ -330,6 +348,6 @@ ul, ol {
 		border-right: 1px solid $colorAccent;
 		text-align: right;
 		padding-right: $unit / 2;
-		width: 136px;
+		width: ($unit * 7) + 1;
 	}
 }
