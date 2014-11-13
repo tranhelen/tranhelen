@@ -46,8 +46,8 @@ $instagram: #47759a;
 
 
 /* Breakpoints */
-	$bp1: 500px;
-	$bp2: 924px;
+	$bp1: 550px;
+	$bp2: 700px;
 	$bp3: 1235px;
 
 /* Homepage Variables */
@@ -84,13 +84,33 @@ $instagram: #47759a;
 body {
 	background: $colorPrimary url('/img/background.gif') repeat;
 	background-position: -75px 0;
-	padding: 0 $unit;
-	height: 100%;
-	width: 100%;
 	border: 5px solid $colorLines;
-}
+	border-width: 0 5px;
+	height: 100%;
+	padding: 0 ($unit + 5);
 
-html {
+	&:before,
+	&:after {
+		content: "";
+		position: fixed;
+		background: $colorLines;
+		left: 0;
+		right: 0;
+		height: 5px;
+	}
+
+	&:before {
+		top: 0;
+	}
+
+	&:after {
+		bottom: 0;
+	}
+
+	@include at-query($bp2) {
+		background-position: 0 0;
+		padding: 0 ($unit + 5) 0 0;
+	}
 }
 
 body,
@@ -161,20 +181,8 @@ ul li {
     #Basics
 \*------------------------------------*/
 
-.introduction-name {
-	margin-bottom: 0;
-}
-
-.introduction-title {
-	font-weight: 400;
-}
-.section-title {
-	border-left: 1px solid $colorAccent;
-	padding-left: ($gutter / 2);
-}
-
 a {
-	border-bottom: 1px solid rgba(255,255,255,0.5);
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 	color: $colorLink;
 	text-decoration: none;
 
@@ -192,15 +200,21 @@ img {
 }
 
 ul, ol {
-	margin: 0 0 $unit $unit;
+	margin: 0 0 $unit;
 	padding: 0;
 }
 
-.list-nobullet {
+.list--main {
+	li a{
+		color: $colorText;
+	}	
+}
+
+.list--nobullet {
 	list-style-type: none;
 }
 
-.list-inline {
+.list--inline {
   list-style-type: none;
 
   li {
@@ -226,14 +240,21 @@ ul, ol {
 }
 
 /*------------------------------------*\
-    #Layout
+    #Homepage
 \*------------------------------------*/
 
 .avvies {
-	margin-bottom: $unit	;
-	margin-top: -5px;
+	margin: -5px 0 $unit (-$unit);
 
 	@include clearfix;
+
+	@include at-query($bp1) {
+		margin-left: 181px;
+	}
+
+	@include at-query($bp2) {
+		margin-left: 115px;
+	}
 }
 
 .avatar {
@@ -264,32 +285,51 @@ ul, ol {
 	}
 }
 
-/*------------------------------------*\
-    #Navigations
-\*------------------------------------*/
-
-.breadcrumb {
-
+.introduction {
+	@include at-query($bp2) {
+		max-width: 750px;
+	}
 }
 
-/*------------------------------------*\
-    #Header
-\*------------------------------------*/
-
-.avatar {
-
+.introduction-name {
+	margin-bottom: 0;
 }
 
-/*------------------------------------*\
-    #Footer
-\*------------------------------------*/
-
-.site-footer {
-
+.introduction-title {
+	font-weight: 400;
 }
 
-/*------------------------------------*\
-    #Blog
-\*------------------------------------*/
+.lists {
+	@include at-query($bp1) {
+		margin-left: 201px;
+	}
+}
 
+.section {
+	margin-bottom: $unit * 2;
+	margin-left: ($unit - 5);
 
+	@include at-query($bp2) {
+		margin-left: -$unit;
+	}
+}
+
+.section-body {
+	margin-left: 115px;
+}
+
+.section-title {
+	border-left: 1px solid $colorAccent;
+	color: rgba($colorText,0.5);
+	padding-left: 18px;
+	margin-bottom: $unit;
+	margin-left: -$unit;
+
+	@include at-query($bp2) {
+		border-left: 0;
+		border-right: 1px solid $colorAccent;
+		text-align: right;
+		padding-right: $unit / 2;
+		width: 136px;
+	}
+}
