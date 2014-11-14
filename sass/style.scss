@@ -69,11 +69,12 @@ $instagram: #47759a;
 	$postColorAccent: #ECF300;
 
 	/* Text */
-	$postColorText: #333333;
+	$postColorText: #777777;
+	$postColorTextHeader: #ffffff;
 	$postColorTextBody: darken($postColorText,5%);
 
 	/* Links */
-	$postColorLink: $colorAccent;
+	$postColorLink: #1AADDB;
 	$postColorLinkHover: $postColorText;
 
 @mixin at-query ($breakpoint) {
@@ -105,7 +106,7 @@ select {
 h1, h2, h3, h4, h5, h6 {
 	font-family: $stack1;
 	font-weight: 600;
-	margin: 0 0 ($unit / 2);
+	margin: 0 0 $unit;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 }
@@ -115,17 +116,17 @@ h6 {
 }
 
 h1 {
-  font-size: em(32px);
+  font-size: em(50px);
   line-height: em(20px);
 }
 
 h2 {
-  font-size: em(24px);
+  font-size: em(36px);
   line-height: em(20px);
 }
 
 h3 {
-  font-size: em(22px);
+  font-size: em(24px);
   line-height: em(20px);
 }
 
@@ -136,7 +137,7 @@ h4 {
 
 h5,
 h6 {
-  font-size: em(12px);
+  font-size: em(14px);
   line-height: em(18px);
 }
 
@@ -147,20 +148,15 @@ h6 {
 .h5 { @extend h5; }
 .h6 { @extend h6; }
 
+p,
+ul li {
+	font-size: em(18px);
+	line-height: em(30px);
+}
+
 /*------------------------------------*\
     #Basics
 \*------------------------------------*/
-
-body.homepage {
-	background: $colorPrimary url('/img/background.gif') repeat;
-	background-position: -80px 0;
-	padding: 0 ($unit + 5);
-
-	@include at-query($bp2) {
-		background-position: 0 0;
-		padding: 0 ($unit * 2) 0 0;
-	}
-}
 
 .borders {
 	opacity: 0;
@@ -205,8 +201,6 @@ body.homepage {
 }
 
 ul, ol {
-	color: $postColorTextBody;
-	font-family: $stack2;
 	margin: 0 0 $unit;
 	padding: 0;
 }
@@ -255,12 +249,21 @@ ul, ol {
 \*------------------------------------*/
 
 .homepage {
-	p,
+	background: $colorPrimary url('/img/background.gif') repeat;
+	background-position: -80px 0;
+	padding: 0 ($unit + 5);
+
+	@include at-query($bp2) {
+		background-position: 0 0;
+		padding: 0 ($unit * 2) 0 0;
+	}
+
 	ul li {
-		color: $colorTextBody;
 		margin: 0 0 ($unit / 2);
-		font-size: em(15px);
-		line-height: em(26px);		
+
+		@include at-query($bp2) {
+			margin: 0;
+		}
 	}
 
 	a {
@@ -279,7 +282,7 @@ ul, ol {
 	}
 
 	.avvies {
-		margin: -($unit / 4) 0 $unit (-$unit);
+		margin: 0 0 $unit (-$unit);
 
 		@include clearfix;
 
@@ -296,7 +299,7 @@ ul, ol {
 		float: left;
 		position: relative;
 		margin-right: 2px;
-		margin-bottom: -9px;
+		margin-bottom: -4px;
 
 		img {
 			max-height: ($unit * 6);
@@ -309,14 +312,16 @@ ul, ol {
 	    position: absolute;
 	    top: 0;
 	    left: 0;
+	    opacity: 0;
 
 		@include transition;
+	}
 
-		.avatar:hover & {
-		    max-height: ($unit * 6);
-		    opacity: 1;
-		    @include transition;
-		}
+	.avatar:hover .avatar__wrap {
+	    max-height: ($unit * 6);
+	    opacity: 1;
+
+	    @include transition;
 	}
 
 	.introduction {
@@ -378,15 +383,152 @@ ul, ol {
 }
 
 /*------------------------------------*\
-    #Timber
+    #Project
 \*------------------------------------*/
 
-body {
+.project {
 	background-image: none;
 	background-color: #fff;
 
-	p {
+	p,
+	ul li {
 		color: $postColorText;
+		font-family: $stack1;
+		font-size: em(16px);
+		line-height: em(32px);
+		margin: 0 0 $unit;
+	}
+
+	ul {
+		margin-left: ($unit * 3);
+
+		li {
+			margin-bottom: ($unit / 2);
+		}
+	}
+
+	a {
+		color: $postColorLink;
+
+		@include transition;
+
+		&:active,
+		&:hover,
+		&:focus {
+			color: $postColorLinkHover
+		}
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin: ($unit * 2) 0;
+		text-align: center;
+	}
+}
+
+.project__header {
+	position: relative;
+
+	img {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.project__breadcrumb {
+		display: none;
+	}
+}
+
+.project__headerdark {
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.project__breadcrumb {
+	.project__navigation & {
+		display: block;
+	}
+
+	@include at-query($bp1) {
+		position: absolute;
+		z-index: 5;
+		display: block;
+		left: $unit * 2;
+		top: $unit * 2;
+	}
+}
+
+.btn {
+	border-radius: 5px;
+	border: 2px solid #e7e7e7;
+	padding: ($unit / 3) ($unit / 2);
+	text-decoration: none;
+}
+
+.project__breadcrumb-back {
+	color: $postColorTextHeader;
+	opacity: 0.5;
+
+	@include transition;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	.page-navigation & {
+		color: red;
+	}
+}
+
+.project__body {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: $unit;
+
+	@include at-query($bp1) {
+		padding: ($unit * 2);
+	}
+
+	@include at-query($bp2) {
+		padding: ($unit * 2) ($unit * 2) ($unit * 3);
+	}
+}
+
+.project__navigation {
+	border-bottom: 1px solid #e7e7e7;
+	padding: $unit;
+}
+
+.project__title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: $postColorTextHeader;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+
+	h1 {
+		font-size: em(24px);
+		font-weight: 500;
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 0 $unit;
+
+		@include vertical;
+
+		@include at-query($bp2) {
+			font-size: em(50px);
+		}
 	}
 }
 

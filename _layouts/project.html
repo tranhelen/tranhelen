@@ -1,8 +1,25 @@
 <!DOCTYPE html>
     {% include header.html %}
-    <body class="timber">
+    <body class="project">
 
-    {{ content }}
+      <header class="project__header">
+        <img src="/img/{{ page.header }}" alt="{{ page.title }}">
+        <div class="project__headerdark"></div>
+        {% include breadcrumb.html %}
+        <div class="project__title">
+          <h1>{{ page.title }}</h1>
+        </div>
+      </header>
+
+      <div class="project__navigation">
+        <div class="nav-back medium--hide large--hide">
+          {% include breadcrumb.html %}
+        </div>
+      </div>
+
+      <div class="project__body">
+        {{ content }}
+      </div>
             
     </body>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
