@@ -40,9 +40,7 @@ $stack2: "Adobe Caslon Pro", "Minion Pro",Georgia,Times,Times New Roman,serif;
 $baseFontSize: 16px;
 $unit: 20px;
 
-$dribbble: #d43a75;
 $twitter: #55acee;
-$instagram: #47759a;
 
 
 /* Breakpoints */
@@ -158,48 +156,6 @@ ul li {
     #Basics
 \*------------------------------------*/
 
-.borders {
-	opacity: 0;
-}
-
-#border-top,
-#border-right,
-#border-bottom,
-#border-left {
-	background: $colorLines;
-	position: fixed;
-}
-
-#border-left,
-#border-right {
-	top: 0;
-	bottom: 0;
-	width: 5px;
-}
-
-#border-left {
-	left: 0;
-}
-
-#border-right {
-	right: 0;
-}
-
-#border-top,
-#border-bottom {
-	left: 0;
-	right: 0;
-	height: 5px;
-}
-
-#border-top {
-	top: 0;
-}
-
-#border-bottom {
-	bottom: 0;
-}
-
 ul, ol {
 	margin: 0 0 $unit;
 	padding: 0;
@@ -248,6 +204,48 @@ ul, ol {
     #Homepage
 \*------------------------------------*/
 
+.borders {
+	opacity: 0;
+}
+
+#border-top,
+#border-right,
+#border-bottom,
+#border-left {
+	background: $colorLines;
+	position: fixed;
+}
+
+#border-left,
+#border-right {
+	top: 0;
+	bottom: 0;
+	width: 5px;
+}
+
+#border-left {
+	left: 0;
+}
+
+#border-right {
+	right: 0;
+}
+
+#border-top,
+#border-bottom {
+	left: 0;
+	right: 0;
+	height: 5px;
+}
+
+#border-top {
+	top: 0;
+}
+
+#border-bottom {
+	bottom: 0;
+}
+
 .homepage {
 	background: $colorPrimary url('/img/background.gif') repeat;
 	background-position: -80px 0;
@@ -256,14 +254,6 @@ ul, ol {
 	@include at-query($bp2) {
 		background-position: 0 0;
 		padding: 0 ($unit * 2) 0 0;
-	}
-
-	ul li {
-		margin: 0 0 ($unit / 2);
-
-		@include at-query($bp2) {
-			margin: 0;
-		}
 	}
 
 	a {
@@ -281,6 +271,43 @@ ul, ol {
 		}
 	}
 
+	ul li {
+		margin: 0 0 ($unit / 2);
+
+		@include at-query($bp2) {
+			margin: 0;
+		}
+	}
+
+	.avatar {
+		float: left;
+		margin-bottom: -4px;
+		margin-right: 2px;
+		position: relative;
+
+		img {
+			max-height: ($unit * 6);
+		}
+	}
+
+	.avatar__wrap {
+    left: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+
+		@include transition;
+	}
+
+	.avatar:hover .avatar__wrap {
+	    max-height: ($unit * 6);
+	    opacity: 1;
+
+	    @include transition;
+	}
+
 	.avvies {
 		margin: 0 0 $unit (-$unit);
 
@@ -293,35 +320,6 @@ ul, ol {
 		@include at-query($bp2) {
 			margin-left: ($unit * 6);
 		}
-	}
-
-	.avatar {
-		float: left;
-		position: relative;
-		margin-right: 2px;
-		margin-bottom: -4px;
-
-		img {
-			max-height: ($unit * 6);
-		}
-	}
-
-	.avatar__wrap {
-	    max-height: 0;
-	    overflow: hidden;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    opacity: 0;
-
-		@include transition;
-	}
-
-	.avatar:hover .avatar__wrap {
-	    max-height: ($unit * 6);
-	    opacity: 1;
-
-	    @include transition;
 	}
 
 	.introduction {
@@ -338,21 +336,21 @@ ul, ol {
 		font-weight: 400;
 	}
 
-	.lists {
-		@include at-query($bp1) {
-			margin-left: ($unit * 10) + 1;
-		}
-	}
-
 	.list--main {
 		li a {
 			color: $colorText;
 		}
 	}
 
+	.lists {
+		@include at-query($bp1) {
+			margin-left: ($unit * 10) + 1;
+		}
+	}
+
 	.section {
 		margin-bottom: $unit * 2;
-		margin-left: ($unit - 5);
+		margin-left: $unit - 5;
 
 		@include at-query($bp2) {
 			margin-left: -$unit;
@@ -368,15 +366,15 @@ ul, ol {
 	.section-title {
 		border-left: 1px solid $colorAccent;
 		color: rgba($colorText,0.5);
-		padding-left: 18px;
 		margin-bottom: $unit;
 		margin-left: -$unit;
+		padding-left: 18px;
 
 		@include at-query($bp2) {
 			border-left: 0;
 			border-right: 1px solid $colorAccent;
-			text-align: right;
 			padding-right: $unit / 2;
+			text-align: right;
 			width: ($unit * 7) + 1;
 		}
 	}
@@ -387,25 +385,8 @@ ul, ol {
 \*------------------------------------*/
 
 .project {
-	background-image: none;
 	background-color: #fff;
-
-	p,
-	ul li {
-		color: $postColorText;
-		font-family: $stack1;
-		font-size: em(16px);
-		line-height: em(32px);
-		margin: 0 0 $unit;
-	}
-
-	ul {
-		margin-left: ($unit * 3);
-
-		li {
-			margin-bottom: ($unit / 2);
-		}
-	}
+	background-image: none;
 
 	a {
 		color: $postColorLink;
@@ -431,35 +412,52 @@ ul, ol {
 	}
 
 	hr {
-		margin: ($unit * 2) 0;
-		border: 0;
 		border-bottom: 1px solid #efefef;
+		border: 0;
+		margin: ($unit * 2) 0;
 	}
 
 	figure {
 		margin: 0;
 
 		img {
-			width: 100%;
 			max-width: 100%;
+			width: 100%;
 		}
 
 		@include at-query($bp2) {
-			width: 140%;
-			max-width: 140%;
 			margin-left: -20%;
+			max-width: 140%;
+			width: 140%;
+		}
+	}
+
+	p,
+	ul li {
+		color: $postColorText;
+		font-family: $stack1;
+		font-size: em(16px);
+		line-height: em(32px);
+		margin: 0 0 $unit;
+	}
+
+	ul {
+		margin-left: ($unit * 3);
+
+		li {
+			margin-bottom: ($unit / 2);
 		}
 	}
 
 	.btn {
-		border: 2px solid #e7e7e7;
 		border-radius: 4px;
+		border: 2px solid #e7e7e7;
 		color: rgba($postColorTextBody,0.5);
-		padding: ($unit / 2) ($unit * 0.75);
-		text-transform: uppercase;
 		font-size: em(12px);
-		text-decoration: none;
 		font-weight: bold;
+		padding: ($unit / 2) ($unit * 0.75);
+		text-decoration: none;
+		text-transform: uppercase;
 
 		&:hover {
 			color: $postColorTextBody;
@@ -471,8 +469,8 @@ ul, ol {
 
 		&.twitter {
 			background-color: $twitter;
-			color: #ffffff;
 			border: 2px solid $twitter;
+			color: #ffffff;
 			float: right;
 
 			&:hover {
@@ -480,20 +478,20 @@ ul, ol {
 			}
 		}
 	}
-
-	.hr--small {
-		width: 26px;
-		height: 3px;
-		border: 0;
-		background-color: rgba(255,255,255,0.4);
-		margin: 0 auto;
-	}
 }
 
 .header-img {
 	display: block;
-	width: 100%;
 	max-width: 100%;
+	width: 100%;
+}
+
+.hr--small {
+	background-color: rgba(255,255,255,0.4);
+	border: 0;
+	height: 3px;
+	margin: 0 auto;
+	width: 26px;
 }
 
 .notes {
@@ -508,6 +506,24 @@ ul, ol {
 	}
 }
 
+.partner-avvie {
+	border-radius: 99px;
+	box-shadow: 0 0 6px rgba(0,0,0,0.3);
+	height: 36px;
+	margin-bottom: 6px;
+	width: 36px;
+}
+
+.project__body {
+	margin: 0 auto;
+	max-width: 700px;
+	padding: ($unit * 2);
+
+	@include at-query($bp2) {
+		padding: ($unit * 2) ($unit * 2) ($unit * 3);
+	}
+}
+
 .project__header {
 	position: relative;
 
@@ -518,48 +534,11 @@ ul, ol {
 
 .project__headerdark {
 	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+	left: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
-	height: 100%;
 	width: 100%;
-}
-
-.project__breadcrumb {
-	.project__navigation & {
-		display: block;
-	}
-
-	@include at-query($bp1) {
-		position: absolute;
-		z-index: 5;
-		display: block;
-		left: $unit * 2;
-		top: $unit * 2;
-	}
-}
-
-.partner-avvie {
-	width: 36px;
-	height: 36px;
-	box-shadow: 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 99px;
-	margin-bottom: 6px;
-}
-
-.project__body {
-	max-width: 700px;
-	margin: 0 auto;
-	padding: ($unit * 2);
-
-	@include at-query($bp2) {
-		padding: ($unit * 2) ($unit * 2) ($unit * 3);
-	}
-}
-
-.project__navigation {
-	border-bottom: 1px solid #e7e7e7;
-	padding: $unit;
 }
 
 .project__info {
@@ -607,15 +586,11 @@ ul, ol {
 	.partner-link {
 		border: 0;
 	}
-
-	.wrapper {
-		@include vertical;
-	}
 }
 
 .project__info--mobile {
-	display: block;
 	border-bottom: 1px solid #e7e7e7;
+	display: block;
 	padding: $unit 0;
 
 	a {
@@ -636,12 +611,12 @@ ul, ol {
 }
 
 .project-header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
 	height: 100%;
+	left: 0;
+	position: absolute;
 	text-align: center;
+	top: 0;
+	width: 100%;
 
 	@include at-query($bp2) {
 		height: 50%;
@@ -651,8 +626,8 @@ ul, ol {
 		color: $postColorTextHeader;
 		font-size: em(24px);
 		font-weight: 500;
-		max-width: 900px;
 		margin: ($unit / 2) auto $unit;
+		max-width: 900px;
 		padding: 0 $unit;
 
 		@include vertical;
@@ -675,17 +650,17 @@ ul, ol {
 }
 
 .project-title {
+	height: 100%;
+	left: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
 	width: 100%;
-	height: 100%;
 
 	@include at-query($bp2) {
-		position: absolute;
 		bottom: 0;
-		width: 100%;		
 		height: auto;
+		position: absolute;
 		top: auto;
+		width: 100%;		
 	}
 }
