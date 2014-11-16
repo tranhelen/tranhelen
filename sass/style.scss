@@ -475,6 +475,7 @@ ul, ol {
 
 			&:hover {
 				background-color: darken($twitter,20%);
+				border-color: darken($twitter,20%);
 			}
 		}
 	}
@@ -524,7 +525,7 @@ ul, ol {
 	}
 }
 
-.project__header {
+.project-cover {
 	position: relative;
 
 	.hr--small {
@@ -532,7 +533,7 @@ ul, ol {
 	}
 }
 
-.project__headerdark {
+.project-coverdark {
 	background-color: rgba(0,0,0,0.4);
 	height: 100%;
 	left: 0;
@@ -541,7 +542,7 @@ ul, ol {
 	width: 100%;
 }
 
-.project__info {
+.project-info {
 	display: none;
 	text-align: center;
 
@@ -588,7 +589,7 @@ ul, ol {
 	}
 }
 
-.project__info--mobile {
+.project-info--mobile {
 	border-bottom: 1px solid #e7e7e7;
 	display: block;
 	padding: $unit 0;

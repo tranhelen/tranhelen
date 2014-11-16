@@ -2,15 +2,15 @@
     {% include header.html %}
     <body class="project load">
 
-      <header class="project__header">
+      <header class="project-cover">
         <img src="/img/project/{{ page.header }}" alt="{{ page.title }}" class="header-img">
-        <div class="project__headerdark"></div>
+        <div class="project-coverdark"></div>
           <div class="project-header">
             <div class="project-title">
               <h1>{{ page.title }}</h1>
             </div>
           </div>
-          <div class="project__info">
+          <div class="project-info">
             <hr class="hr--small">
             {% if page.partner_one %}
               <a href="{{ page.partner_oneurl }}" class="partner-link"><img src="{{ page.partner_oneimg }}" class="partner-avvie" alt="{{ page.partner_one }}"></a>
@@ -19,8 +19,7 @@
           </div>
         </div>
       </header>
-      <div class="project__info project__info--mobile">
-        <hr class="hr--small">
+      <div class="project-info project-info--mobile">
         {% if page.partner_one %}
           <a href="{{ page.partner_oneurl }}" class="partner-link"><img src="{{ page.partner_oneimg }}" class="partner-avvie" alt="{{ page.partner_one }}"></a>
         {% endif %}
