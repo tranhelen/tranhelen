@@ -3,67 +3,88 @@ layout: default
 title: Helen Tran; Product Designer
 ---
 
-			<header class="introduction">
-				<div class="wrapper text-center">
+			<div class="borders load-right">
+				<div id="border-left"></div>
+				<div id="border-right"></div>
+				<div id="border-bottom"></div>
+				<div id="border-top"></div>
+			</div>
+
+			<div class="section">
+				<div class="avvies load">
 					<div class="avatar">
-						<span class="avatar__wrap">
-							<a href="#"><img src="img/avatar.png" class="avatar__img" id="toggleProfile"></a>
-						</span>
+						<img src="img/avatar-one-clr.png">
+						<div class="avatar__wrap">
+							<img src="img/avatar-one-bw.png">
+						</div>
 					</div>
-					<div class="introduction__profile">
-						<h2>My name is Helen and I'm a Product Designer. I currently work <a href="http://shopify.com">@Shopify</a> and mentor designers <a href="http://bloc.io">@Bloc</a>.</h2>
-						<hr class="seperator small">
-						<div class="grid">
-							<div class="grid__item lap--one-half desk--one-half">
-								<h4 class="text-left">I split my spare time among a few hobbies: weightlifting, travelling, stalking stand-up comedians and reading. Sometimes I bake really fancy french treats; Redditors love them.</h4>
-							</div>
-							<div class="grid__item lap--one-half desk--one-half">
-								<h4 class="text-left">This blog is mostly about tech, design, start-ups and my thoughts on life. It may not be interesting, although, this one time I went viral for a couple of days. That was intense.</h4>
-							</div>
+					<div class="avatar">
+						<img src="img/avatar-two-clr.png">
+						<div class="avatar__wrap">
+							<img src="img/avatar-two-bw.png">
+						</div>
+					</div>
+					<div class="avatar">
+						<img src="img/avatar-three-clr.png">
+						<div class="avatar__wrap">
+							<img src="img/avatar-three-bw.png">
 						</div>
 					</div>
 				</div>
-			</header>
+			</div>
 
-			<div class="content">
+			<div class="section">
+				<h3 class="h6 section-title load-right">Intro</h3>
 
-				<div class="wrapper">
-					<section class="writing__post">
-						{% for post in site.posts limit:1 %}
-						<h5 class="section-header section-header--first text-center">Latest Entry</h5>
-						<article class="post-listing--latest">
-							<header class="post-header text-center">
-								<h2 class="post-latest__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-								<hr class="seperator small">
-								{% include tags.html %}
-							</header>
-							<p>{{ post.content | truncatewords: 75 }}</p>
-						</article>
+				<div class="section-body introduction load-right">
+					<h1 class="h2 introduction-name">Helen Tran</h1>
+					<h2 class="h3 introduction-title">Product Designer & Serial Student</h2>
+
+					<p>I spend my days <a href="http://shopify.com">@Shopify</a> looking at how we can change the future of commerce. I primarily focus on our relationships with developers and build products to make them stronger.</p>
+					<p>In my spare-time, I am usually trapped in a book somewhere or working on a side project.</p>
+				</div>
+			</div>
+
+			<div class="lists">
+				<div class="section">
+					<h3 class="h6 section-title load-right">Work</h3>
+
+					<div class="section-body load-right">
+						<ul class="list--nobullet list--main">
+						{% for post in site.categories.work %}
+								<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 						{% endfor %}
-
-						<h5 class="section-header text-center">Older Entries</h5>
-						<div class="post-listing text-center">
-						{% for post in site.posts offset: 1 %}
-							<article class="post-listing--single{% if forloop.first %} first{% endif %}">
-								{% include tags.html %}
-								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-							</article>
-						{% endfor %}
-						</div>
-
-						<h5 class="rss text-center">
-							<a href="feed.xml" class="text-center">RSS feed</a>
-						</h5>
-					</section>
+						</ul>
+					</div>
 				</div>
 
-				{% include footer.html %}
+				<div class="section">
+					<h3 class="h6 section-title load-right">Writing</h3>
 
-				<script>
-					$('#toggleProfile').on('click',function(evt) {
-						evt.preventDefault();
-						$('.introduction__profile').slideToggle();
-					});
-				</script>
+					<div class="section-body load-right">
+						<ul class="list--nobullet list--main">
+						{% for post in site.categories.writing %}
+							{% if post.external_url %}
+								<li><a href="{{ post.external_url }}" class="external" onclick="_gaq.push(['_trackPageview', '{{ post.url }}']);">{{ post.title }}</a></li>
+							{% else %}
+								<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+							{% endif %}
+						{% endfor %}
+						</ul>
+					</div>
+				</div>
 
+				<div class="section">
+					<h3 class="h6 section-title load-right">Communities</h3>
+
+					<div class="section-body load-right">
+						<ul class="list--nobullet list--main">
+							<li><a href="http://twitter.com/tranhelen">Twitter</a></li>
+							<li><a href="http://dribbble.com/tranhelen">Dribbble</a></li>
+							<li><a href="http://instagram.com/tranhelen">Instagram</a></li>
+							<li><a href="http://medium.com/@tranhelen">Medium</a></li>
+							<li><a href="https://github.com/tranhelen/tranhelen.github.io">Github Repo</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
