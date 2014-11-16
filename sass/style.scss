@@ -465,10 +465,15 @@ ul, ol {
 			color: $postColorTextBody;
 		}
 
+		&.back {
+			float: left;
+		}
+
 		&.twitter {
 			background-color: $twitter;
 			color: #ffffff;
-			border: 0;
+			border: 2px solid $twitter;
+			float: right;
 
 			&:hover {
 				background-color: darken($twitter,20%);
@@ -665,6 +670,8 @@ ul, ol {
 .project-footer {
 	border-top: 1px solid #e7e7e7;
 	padding: ($unit * 1.5) ($unit * 2);
+
+	@include clearfix;
 }
 
 .project-title {
