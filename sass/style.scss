@@ -145,7 +145,14 @@ h6 {
 p,
 ul li {
 	font-size: em(18px);
-	line-height: em(30px);
+}
+
+ul li {
+	line-height: em(24px);
+
+	@include at-query($bp2) {
+		line-height: em(30px);
+	}
 }
 
 /*------------------------------------*\
