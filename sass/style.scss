@@ -407,9 +407,13 @@ ul, ol {
 	h4,
 	h5,
 	h6 {
-		margin: ($unit * 2) 0;
+		margin: $unit 0;
 		text-align: center;
-	}
+
+		@include at-query($bp1) {
+			margin: ($unit * 2) 0;
+		}
+ 	}
 
 	hr {
 		border: 0;
@@ -442,7 +446,11 @@ ul, ol {
 	}
 
 	ul {
-		margin-left: ($unit * 3);
+		margin-left: $unit;
+
+		@include at-query($bp1) {
+			margin-left: ($unit * 3);
+		}
 
 		li {
 			margin-bottom: ($unit / 2);
@@ -453,9 +461,11 @@ ul, ol {
 		border-radius: 4px;
 		border: 2px solid #e7e7e7;
 		color: rgba($postColorTextBody,0.5);
+		display: block;
 		font-size: em(12px);
 		font-weight: bold;
 		padding: ($unit / 2) ($unit * 0.75);
+		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 
@@ -464,18 +474,29 @@ ul, ol {
 		}
 
 		&.back {
-			float: left;
+			width: 100%;
+			margin-bottom: $unit / 2;
+
+			@include at-query($bp1) {
+				float: left;
+				width: auto;
+			}
 		}
 
 		&.twitter {
 			background-color: $twitter;
 			border: 2px solid $twitter;
 			color: #ffffff;
-			float: right;
+			width: 100%;
 
 			&:hover {
 				background-color: darken($twitter,20%);
 				border-color: darken($twitter,20%);
+			}
+
+			@include at-query($bp1) {
+				float: right;
+				width: auto;
 			}
 		}
 	}
@@ -518,7 +539,11 @@ ul, ol {
 .project__body {
 	margin: 0 auto;
 	max-width: 700px;
-	padding: ($unit * 2);
+	padding: $unit;
+
+	@include at-query($bp1) {
+		padding: ($unit * 2);
+	}
 
 	@include at-query($bp2) {
 		padding: ($unit * 2) ($unit * 2) ($unit * 3);
@@ -592,7 +617,7 @@ ul, ol {
 .project-info--mobile {
 	border-bottom: 1px solid #e7e7e7;
 	display: block;
-	padding: $unit 0;
+	padding: $unit;
 
 	a {
 		color: $postColorLink;
@@ -645,9 +670,13 @@ ul, ol {
 
 .project-footer {
 	border-top: 1px solid #e7e7e7;
-	padding: ($unit * 1.5) ($unit * 2);
+	padding: $unit;
 
 	@include clearfix;
+
+	@include at-query($bp1) {
+		padding: ($unit * 1.5) ($unit * 2);
+	}
 }
 
 .project-title {
