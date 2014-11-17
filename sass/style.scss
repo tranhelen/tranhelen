@@ -436,7 +436,7 @@ ul, ol {
 	ul li {
 		color: $postColorText;
 		font-family: $stack1;
-		font-size: em(16px);
+		font-size: em(18px);
 		line-height: em(32px);
 		margin: 0 0 $unit;
 	}
@@ -458,8 +458,7 @@ ul, ol {
 		border: 2px solid #e7e7e7;
 		color: rgba($postColorTextBody,0.5);
 		display: block;
-		font-size: em(12px);
-		font-weight: bold;
+		font: bold em(12px) $stack1;
 		padding: ($unit / 2) ($unit * 0.75);
 		text-align: center;
 		text-decoration: none;
@@ -520,7 +519,7 @@ ul, ol {
 
 	p {
 		color: rgba($postColorTextBody, 0.5);
-		font-size: em(14px);
+		font-size: em(16px);
 	}
 }
 
