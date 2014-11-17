@@ -34,8 +34,8 @@
 	text-rendering:optimizeLegibility
 }
 
-$stack1: "Brandon Text", "Helvetica Neue",Helvetica,Arial,sans-serif;
-$stack2: "Adobe Caslon Pro", "Minion Pro",Georgia,Times,Times New Roman,serif;
+$stack1: "brandon-grotesque", "Helvetica Neue",Helvetica,Arial,sans-serif;
+$stack2: "adobe-caslon-pro", "Minion Pro",Georgia,Times,Times New Roman,serif;
 
 $baseFontSize: 16px;
 $unit: 20px;
@@ -92,11 +92,7 @@ $twitter: #55acee;
     #Typography
 \*------------------------------------*/
 
-body.homepage,
-input,
-textarea,
-button,
-select {
+body.homepage {
 	color: $colorText;
 	font-family: $stack2;
 }
