@@ -255,6 +255,8 @@ ul, ol {
 	a {
 		border-bottom: 1px solid rgba(255,255,255,0.2);
 		color: $colorLink;
+		display: inline-block;
+		line-height: em(15px);
 		text-decoration: none;
 
 		@include transition;
