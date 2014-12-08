@@ -336,6 +336,26 @@ ul, ol {
 		}
 	}
 
+	.external {
+			@include transition;
+			background: url('../img/external.png') no-repeat;
+			background-position: -16px 8px;
+
+			&:hover {
+				background-position: 0 8px;
+
+				a {
+					display: block;
+
+					@include transition;
+				}
+
+				a:hover {
+					transform: translate($unit,0);
+				}
+			}
+	}
+
 	.introduction {
 		@include at-query($bp2) {
 			max-width: 760px;
