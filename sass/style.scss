@@ -34,8 +34,8 @@
 	text-rendering:optimizeLegibility
 }
 
-$stack1: "brandon-grotesque", "Helvetica Neue",Helvetica,Arial,sans-serif;
-$stack2: "adobe-caslon-pro", "Minion Pro",Georgia,Times,Times New Roman,serif;
+$stack1: "soleil", "Helvetica Neue",Helvetica,Arial,sans-serif;
+$stack2: "Minion Pro",Georgia,Times,Times New Roman,serif;
 
 $baseFontSize: 16px;
 $unit: 20px;
@@ -662,9 +662,9 @@ ul, ol {
 
 		@include at-query($bp1) {
 			font-size: em(50px);
-		}		
+		}
 
-		@include at-query($bp2) {		
+		@include at-query($bp2) {
 			transform: none;
 		}
 	}
@@ -693,6 +693,6 @@ ul, ol {
 		height: auto;
 		position: absolute;
 		top: auto;
-		width: 100%;		
+		width: 100%;
 	}
 }
