@@ -51,7 +51,7 @@ $twitter: #55acee;
 	/* Main */
 	$colorPrimary: #1AADDB;
 	$colorLines: darken($colorPrimary,10%);
-	$colorAccent: #ECF300;
+	$colorAccent: #F2EF00;
 
 	/* Text */
 	$colorText: #ffffff;
@@ -208,6 +208,16 @@ ul, ol {
     #Homepage
 \*------------------------------------*/
 
+::selection {
+	background: $colorAccent;
+	color: $colorLines;
+}
+
+::-moz-selection {
+	background: $colorAccent;
+	color: $colorLines;
+}
+
 .borders {
 	opacity: 0;
 }
@@ -285,7 +295,7 @@ ul, ol {
 
 	.avatar {
 		float: left;
-		margin-bottom: -9px;
+		margin-bottom: -5px;
 		margin-right: 2px;
 		position: relative;
 
@@ -322,7 +332,7 @@ ul, ol {
 		}
 
 		@include at-query($bp2) {
-			margin-left: ($unit * 6);
+			margin-left: ($unit * 16) + 1;
 		}
 	}
 
@@ -333,7 +343,7 @@ ul, ol {
 	}
 
 	.introduction-name {
-		margin-bottom: 0;
+		margin-bottom: $unit / 4;
 	}
 
 	.introduction-title {
