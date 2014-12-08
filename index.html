@@ -65,7 +65,7 @@ title: Helen Tran; Product Designer
 						<ul class="list--nobullet list--main">
 						{% for post in site.categories.writing %}
 							{% if post.external_url %}
-								<li class="external"><a href="{{ post.external_url }}"><span class="external__content">{{ post.title }}</span></a></li>
+								<li class="external"><a href="{{ post.external_url }}">{{ post.title }}</a></li>
 							{% else %}
 								<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 							{% endif %}
@@ -79,10 +79,10 @@ title: Helen Tran; Product Designer
 
 					<div class="section-body load-right">
 						<ul class="list--nobullet list--main">
-							<li><a href="http://twitter.com/tranhelen">Twitter</a></li>
-							<li><a href="http://dribbble.com/tranhelen">Dribbble</a></li>
-							<li><a href="http://medium.com/@tranhelen">Medium</a></li>
-							<li><a href="https://github.com/tranhelen/tranhelen.github.io">Github Repo</a></li>
+							<li class="external"><a href="http://twitter.com/tranhelen">Twitter</a></li>
+							<li class="external"><a href="http://dribbble.com/tranhelen">Dribbble</a></li>
+							<li class="external"><a href="http://medium.com/@tranhelen">Medium</a></li>
+							<li class="external"><a href="https://github.com/tranhelen/tranhelen.github.io">Github Repo</a></li>
 						</ul>
 					</div>
 				</div>
