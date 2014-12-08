@@ -110,17 +110,17 @@ h6 {
 }
 
 h1 {
-  font-size: em(50px);
+  font-size: em(40px);
   line-height: em(20px);
 }
 
 h2 {
-  font-size: em(36px);
+  font-size: em(30px);
   line-height: em(20px);
 }
 
 h3 {
-  font-size: em(24px);
+  font-size: em(20px);
   line-height: em(20px);
 }
 
@@ -145,6 +145,7 @@ h6 {
 p,
 ul li {
 	font-size: em(18px);
+	line-height: em(30px);
 }
 
 ul li {
@@ -443,7 +444,7 @@ ul, ol {
 	ul li {
 		color: $postColorText;
 		font-family: $stack1;
-		font-size: em(18px);
+		font-size: em(15px);
 		line-height: em(32px);
 		margin: 0 0 $unit;
 	}
@@ -502,20 +503,20 @@ ul, ol {
 			}
 		}
 	}
+
+	.hr--small {
+		background-color: rgba(255,255,255,0.4);
+		border: 0;
+		height: 3px;
+		margin: 0 auto;
+		width: 26px;
+	}
 }
 
 .header-img {
 	display: block;
 	max-width: 100%;
 	width: 100%;
-}
-
-.hr--small {
-	background-color: rgba(255,255,255,0.4);
-	border: 0;
-	height: 3px;
-	margin: 0 auto;
-	width: 26px;
 }
 
 .notes {
@@ -526,7 +527,7 @@ ul, ol {
 
 	p {
 		color: rgba($postColorTextBody, 0.5);
-		font-size: em(16px);
+		font-size: em(13px);
 	}
 }
 
@@ -661,7 +662,7 @@ ul, ol {
 		@include vertical;
 
 		@include at-query($bp1) {
-			font-size: em(50px);
+			font-size: em(40px);
 		}
 
 		@include at-query($bp2) {
