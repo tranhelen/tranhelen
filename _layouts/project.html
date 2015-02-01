@@ -2,9 +2,34 @@
     {% include header.html %}
     <body class="project load">
 
-      <header class="project-cover">
-        <img src="/img/project/{{ page.header }}" alt="{{ page.title }}" class="header-img">
-        <div class="project-coverdark"></div>
+      {% if page.header %}
+
+        <header class="project-cover">
+          <img src="/img/project/{{ page.header }}" alt="{{ page.title }}" class="header-img">
+          <div class="project-coverdark"></div>
+            <div class="project-header">
+              <div class="project-title">
+                <h1>{{ page.title }}</h1>
+              </div>
+            </div>
+            <div class="project-info">
+              <hr class="hr--small">
+              {% if page.partner_one %}
+                <a href="{{ page.partner_oneurl }}" class="partner-link"><img src="{{ page.partner_oneimg }}" class="partner-avvie" alt="{{ page.partner_one }}"></a>
+              {% endif %}
+              <p><span class="byline">Worked with</span> <a href="{{ page.partner_oneurl }}">{{ page.partner_one }}</a> <span class="byline">at</span> <a href="{{ page.clienturl }}">{{ page.client }}</a></p>
+            </div>
+          </div>
+        </header>
+        <div class="project-info project-info--mobile">
+          {% if page.partner_one %}
+            <a href="{{ page.partner_oneurl }}" class="partner-link"><img src="{{ page.partner_oneimg }}" class="partner-avvie" alt="{{ page.partner_one }}"></a>
+          {% endif %}
+          <p><span class="byline">Worked with</span> <a href="{{ page.partner_oneurl }}">{{ page.partner_one }}</a> <span class="byline">at</span> <a href="{{ page.clienturl }}">{{ page.client }}</a></p>
+        </div>
+
+      {% else %}
+        <header class="no-project-cover">
           <div class="project-header">
             <div class="project-title">
               <h1>{{ page.title }}</h1>
@@ -17,14 +42,9 @@
             {% endif %}
             <p><span class="byline">Worked with</span> <a href="{{ page.partner_oneurl }}">{{ page.partner_one }}</a> <span class="byline">at</span> <a href="{{ page.clienturl }}">{{ page.client }}</a></p>
           </div>
-        </div>
-      </header>
-      <div class="project-info project-info--mobile">
-        {% if page.partner_one %}
-          <a href="{{ page.partner_oneurl }}" class="partner-link"><img src="{{ page.partner_oneimg }}" class="partner-avvie" alt="{{ page.partner_one }}"></a>
-        {% endif %}
-        <p><span class="byline">Worked with</span> <a href="{{ page.partner_oneurl }}">{{ page.partner_one }}</a> <span class="byline">at</span> <a href="{{ page.clienturl }}">{{ page.client }}</a></p>
-      </div>
+        </header>
+
+      {% endif %}
 
       <div class="project__body load">
         {{ content }}
