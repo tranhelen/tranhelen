@@ -1,6 +1,6 @@
 ---
-layout: null
-category: writing
+category: 'tech culture'
 title: From the Desk of the Politely Angry
-external_url: https://medium.com/@tranhelen/from-the-desk-of-the-politely-angry-72cbe0bfa0ae
 ---
+
+I sat in the audience while someone stood in front of me using sex and women as punchlines in his talk. Throughout the hour, he flashed hentai images, a gif of a monkey masturbating, and stopped scrubbing a video on a frame of a woman to remark, “Nice rack.” All this while littering his talk with dick jokes and an explanation of a conceptual video which centered around the idea of 

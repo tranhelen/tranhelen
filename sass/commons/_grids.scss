@@ -73,9 +73,9 @@ $use-markup-fix:        true!default;
  * that the breakpoint fires at.
  */
 $breakpoints: (
-    'lap' '(min-width: 481px)',
-    'laph' '(min-width: 769px)',
-    'desk' '(min-width: 1024px)'
+    'one' '(min-width: 840px)',
+    'two' '(min-width: 1000px)',
+    'three' '(min-width: 1100px)'
 )!default;
 
 
@@ -89,9 +89,9 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ('lap', 'laph', 'desk')!default;
-$breakpoint-has-push:   ('lap', 'laph', 'desk')!default;
-$breakpoint-has-pull:   ('lap', 'laph', 'desk')!default;
+$breakpoint-has-widths: ('one', 'two', 'three')!default;
+$breakpoint-has-push:   ('one', 'two', 'three')!default;
+$breakpoint-has-pull:   ('one', 'two', 'three')!default;
 
 
 /**

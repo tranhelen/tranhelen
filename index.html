@@ -3,87 +3,31 @@ layout: default
 title: Helen Tran; Product Designer
 ---
 
-			<div class="borders load-right">
-				<div id="border-left"></div>
-				<div id="border-right"></div>
-				<div id="border-bottom"></div>
-				<div id="border-top"></div>
-			</div>
+<div class="grid grid--full">
 
-			<div class="section">
-				<div class="avvies load">
-					<div class="avatar">
-						<img src="img/avatar-one-clr.png">
-						<div class="avatar__wrap">
-							<img src="img/avatar-one-bw.png">
-						</div>
-					</div>
-					<div class="avatar">
-						<img src="img/avatar-two-clr.png">
-						<div class="avatar__wrap">
-							<img src="img/avatar-two-bw.png">
-						</div>
-					</div>
-					<div class="avatar">
-						<img src="img/avatar-three-clr.png">
-						<div class="avatar__wrap">
-							<img src="img/avatar-three-bw.png">
-						</div>
-					</div>
+	<div class="grid__item one--one-half">
+		<div class="cover table">
+			<div class="cover-alignment table-cell table-bottom">
+				<div class="cover-text load">
+					<h1 class="name">Helen Tran</h1>
+					<h6>Product Designer</h6>
+					<p>I help shape the future of commerce at <a href="">Shopify</a> and mentor future UX Designers at <a href="">Bloc</a>. When I'm not travelling, I'm reading or at the gym. I share my thoughts and work here.</p>
+					<p>Follow me on <a href="">Twitter</a> and <a href="">Dribbble</a>.</p>
 				</div>
 			</div>
-
-			<div class="section">
-				<h3 class="h6 section-title load-right">Intro</h3>
-
-				<div class="section-body introduction load-right">
-					<h1 class="h2 introduction-name">Helen Tran</h1>
-					<h2 class="h3 introduction-title">Product Designer & Serial Student</h2>
-
-					<p>I spend my days <a href="http://shopify.com">@Shopify</a> looking at how we can change the future of commerce. I primarily focus on our relationships with developers and build products to make them stronger.</p>
-					<p>In my spare-time, I am usually trapped in a book somewhere or working on a side project.</p>
+		</div>
+	</div>
+	<div class="grid__item one--one-half">
+		<div class="post-listing">
+			{% for post in site.posts %}
+				<div class="post-listing__excerpt load-right">
+					<h6>{{ post.date | date:'%B %Y' }} • <a href="" class="post-category">{{ post.category }}</a></h6>
+					<a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a></li>
+					<p>{{ post.content | strip_html | truncatewords: 24 }}</p>
+					<p class="h6"><a href="{{ post.url }}">READ</a>
 				</div>
-			</div>
+			{% endfor %}
+		</div>
+	</div>
 
-			<div class="lists">
-				<div class="section">
-					<h3 class="h6 section-title load-right">Work</h3>
-
-					<div class="section-body load-right">
-						<ul class="list--nobullet list--main">
-						{% for post in site.categories.work %}
-								<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-						{% endfor %}
-						</ul>
-					</div>
-				</div>
-
-				<div class="section">
-					<h3 class="h6 section-title load-right">Writing</h3>
-
-					<div class="section-body load-right">
-						<ul class="list--nobullet list--main">
-						{% for post in site.categories.writing %}
-							{% if post.external_url %}
-								<li class="external"><a href="{{ post.external_url }}">{{ post.title }}</a></li>
-							{% else %}
-								<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-							{% endif %}
-						{% endfor %}
-						</ul>
-					</div>
-				</div>
-
-				<div class="section">
-					<h3 class="h6 section-title load-right">Communities</h3>
-
-					<div class="section-body load-right">
-						<ul class="list--nobullet list--main">
-							<li class="external"><a href="http://twitter.com/tranhelen">Twitter</a></li>
-							<li class="external"><a href="http://dribbble.com/tranhelen">Dribbble</a></li>
-							<li class="external"><a href="http://medium.com/@tranhelen">Medium</a></li>
-							<li class="external"><a href="https://github.com/tranhelen/tranhelen.github.io">Github Repo</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+</div>
