@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    {% include header-thisiswater.html %}
+    <body class="subpage-simple">
+
+      {% include navigation.html %}
+
+      <div class="subpage-body">
+        <h1>{{ page.title }}</h1>
+  
+        <div class="subpage-meta">
+          <p>This post is filed under <span class="h6"><a href="/tag/{{ page.tag }}" class="post-tag">{{ page.tag }}</a></span> • Published <span class="h6">{{ page.date | date:'%B %Y' }}</span></p>
+        </div>
+        
+        {{ content }}
+      </div>
+
+      <footer class="post-footer">
+        <div class="grid">
+          <div class="grid__item one-quarter">
+            <a href="/" class="btn">Home</a>
+          </div>
+          <div class="grid__item three-quarters text-right">
+            <a href="http://twitter.com/tranhelen" class="btn twitter"><span class="byline">Follow</span> @tranhelen</a>
+          </div>
+        </div>
+      </footer>
+
+    </body>
+    {% include footer.html %}
+</html>

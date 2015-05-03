@@ -4,8 +4,8 @@ tag: 'tech culture'
 title: From the Desk of the Politely Angry
 ---
 
-<div class="grid">
-	<div class="grid__item push--one--one-eighth one--six-eighths">
+<div class="grid grid--full">
+	<div class="grid__item push--one--two-twelfths one--eight-twelfths">
 		
 		<p>I sat in the audience while someone stood in front of me using sex and women as punchlines in his talk. Throughout the hour, he flashed hentai images, a gif of a monkey masturbating, and stopped scrubbing a video on a frame of a woman to remark, “Nice rack.” All this while littering his talk with dick jokes and an explanation of a conceptual video which centered around the idea of the domination of a woman. To my astonishment, his talk was punctuated by the sound of laughter from a handful of people in the audience.</p>
 

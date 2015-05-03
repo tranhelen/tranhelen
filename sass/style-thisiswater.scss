@@ -1,0 +1,624 @@
+/*------------------------------------*\
+    #About the File
+\*------------------------------------*/
+/*
+
+	Author 						Helen Tran, @tranhelen
+	Tools 						Codekit, Sublime Text 2
+	Approaches 					OOCSS, BEM
+	Site Generated with			Jekyll, Liquid, YAML
+
+	Table of Contents
+	#About the File
+	#Imports & Variables
+	#Typography
+	#Layout
+
+ */
+
+/*------------------------------------*\
+    #Imports & Variables
+\*------------------------------------*/
+
+@import "normalize";
+
+@import "commons/mixins";
+@import "commons/icons";
+@import "commons/grids";
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility
+}
+
+$stack1: "soleil", "Helvetica Neue",Helvetica,Arial,sans-serif;
+$stack2: "capitolium-2",Georgia,Times,Times New Roman,serif;
+
+$baseFontSize: 16px;
+$unit: 20px;
+
+$twitter: #55acee;
+
+
+/* Breakpoints */
+	$one: 560px;
+	$two: 840px;
+	$three: 1200px;
+	$four: 1600px;
+
+/* Homepage Variables */
+	/* Main */
+	$colorPrimary: #1AADDB;
+	$colorLines: darken($colorPrimary,10%);
+	$colorAccent: #F5A623;
+
+	/* Text */
+	$colorText: #fff;
+	$colorTextBody: #E9EFF4;
+
+	/* Links */
+	$colorLink: #1AADDB;
+	$colorLinkHover: $colorText;
+
+@mixin at-query ($breakpoint) {
+	@media screen and (min-width: $breakpoint) {
+		@content;
+	}
+}
+
+@function em($target, $context: $baseFontSize) {
+  @if $target == 0 {
+    @return 0;
+  }
+  @return $target / $context + 0em;
+}
+
+/*------------------------------------*\
+    #Typography
+\*------------------------------------*/
+
+body,
+html {
+	font-family: $stack1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $colorText;
+	font-family: $stack1;
+	font-weight: 600;
+	margin: 0 0 $unit;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+}
+
+.cover h1 {
+	font-family: $stack2;
+	font-size: em(64px);
+	line-height: em(20px);
+
+	&.name {
+		font-style: italic;
+		font-weight: 900;
+		text-transform: lowercase;
+	}
+}
+
+.subpage,
+.subpage-simple {
+	h1 {
+		line-height: em(20px);
+	}
+
+	h2 {
+		margin: 30px 0 15px;
+	}
+
+	h3 {
+		font-size: em(28px);
+		margin: 40px 0 10px;
+	}
+
+	h4 {
+		font-size: em(20px);
+		margin: 30px 0 10px;
+	}
+
+	@include at-query($two) {
+		h1 {
+			font-size: em(70px);
+			line-height: em(18px);
+			margin: 80px 0 40px;
+		}
+
+		h2 {
+			font-size: em(48px);
+			margin: 60px 0 35px;
+		}	
+
+		h3 {
+			font-size: em(36px);
+			margin: 50px 0 20px;
+		}
+
+		h4 {
+			font-size: em(24px);
+			margin: 40px 0 20px;
+		}
+
+		p {
+			font-size: em(20px);
+
+			&.footnote {
+				font-size: em(14px);
+			}
+		}
+	}
+}
+
+.subpage-simple {
+	h1 {
+		text-align: center;
+	}
+}
+
+h2 {
+	font-size: em(30px);
+	line-height: em(20px);
+}
+
+h3 {
+	font-size: em(20px);
+	line-height: em(20px);
+}
+
+h4 {
+	font-size: em(16px);
+	line-height: em(24px);
+}
+
+h5,
+h6 {
+	font-size: em(14px);
+	line-height: em(18px);
+	text-transform: uppercase;
+}
+
+.h1 { @extend h1; }
+.h2 { @extend h2; }
+.h3 { @extend h3; }
+.h4 { @extend h4; }
+.h5 { @extend h5; }
+.h6 { @extend h6; }
+
+p,
+ol li,
+ul li {
+	font-family: $stack2;
+	font-size: em(18px);
+	color: $colorTextBody;
+	line-height: em(26px);
+}
+
+ol li,
+ul li {
+	line-height: em(24px);
+
+	@include at-query($two) {
+		line-height: em(30px);
+	}
+}
+
+a {
+	color: #5AA3E8;
+	text-decoration: none;
+
+	&:hover {
+		color: lighten(#5AA3E8,15%);
+	}
+
+	@include transition;
+}
+
+p {
+	margin: 0 0 15px;
+}
+
+blockquote {
+	border-left: 3px solid #F8E71C;
+	font-style: italic;
+	margin: 0;
+
+	p {
+		color: #FFFDC5;
+		margin-left: 20px;
+	}
+
+	@include at-query($two) {
+		margin: 50px 0;
+	}
+
+	&.large {
+		border: 0;
+
+		p {
+			color: $colorTextBody;
+			font-size: em(25px);
+			font-style: normal;
+			font-weight: bold;
+			margin-left: 0;
+			text-align: center;
+		}
+	}
+}
+
+figure {
+	margin: 10px -20px;
+
+	@include at-query($one) {
+		margin: 20px -50px 10px;
+	}
+
+	@include at-query($two) {
+		margin: 30px 0;
+	}
+}
+
+figure.hero {
+	@include at-query($two) {
+		margin: 0;
+	}
+}
+
+figure.left {
+	margin: 25px -20px 15px;
+
+	figcaption {
+		margin: 10px 0 0;
+		text-align: center;
+	}
+
+	@include at-query($one) {
+		margin: 35px -50px 15px;
+	}
+
+	@include at-query($two) {
+	  margin: 10px 0;
+	  float: left;
+	  margin-right: 50px;
+	}
+}
+
+figure.sep {
+	margin: 20px -20px;
+
+	@include at-query($one) {
+		margin: 50px -50px;
+	}
+}
+
+figcaption {
+	color: #869D9A;
+	font-size: em(12px);
+	font-family: $stack1;
+	margin: 10px 20px 15px;
+	text-align: center;
+
+	@include at-query($two) {
+		text-align: left;
+		margin-left: 0;
+	}
+}
+
+figcaption.inline {
+	margin-top: 0;
+	margin-bottom: 15px;
+	text-align: center;
+
+	@include at-query($two) {
+		margin: 25px 0 0;
+		padding: 0;
+		text-align: right;
+	}
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid #DBDBDB;
+	margin: 20px auto;
+
+	@include at-query($two) {
+		margin: 50px auto;
+	}
+}
+
+hr.small {
+	width: 80px;
+}
+
+/*------------------------------------*\
+    #Basics
+\*------------------------------------*/
+
+ul, ol {
+	margin: 0 0 $unit;
+	padding: 0;
+}
+
+.list--nobullet {
+	list-style-type: none;
+}
+
+.list--inline {
+  list-style-type: none;
+
+  li {
+  	display: inline-block;
+  	margin-bottom: 0;
+  }
+}
+
+.btn {
+  border-radius: 4px;
+  border: 2px solid #e7e7e7;
+  color: #55acee;
+  display: inline-block;
+  font-size: em(14px);
+  font-weight: bold;
+  font-family: $stack1;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+  	background-color: #e7e7e7;
+  	border-color: #e7e7e7;
+  	color: #55acee;
+
+  	&.twitter {
+  		background-color: darken(#55acee,20%);
+  	}
+  }
+
+  &.twitter {
+  	background-color: #55acee;
+  	border: 0;
+  	color: white;
+  }
+}
+
+/*------------------------------------*\
+    #Helpers
+\*------------------------------------*/
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.load {
+	opacity: 0;
+}
+
+.load-right {
+	left: 100px;
+	opacity: 0;
+	position: relative;
+}
+
+.table {
+	display: table;
+}
+
+.table-cell {
+	display: table-cell;
+}
+
+.table-bottom {
+	vertical-align: bottom;
+}
+
+/*------------------------------------*\
+    #Homepage
+\*------------------------------------*/
+
+::selection {
+	background: #fffc00;
+	color: $colorLink;
+}
+
+::-moz-selection {
+	background: #fffc00;
+	color: $colorLink;
+}
+
+.cover {
+	background-image: url('../img/portrait.jpg');
+	background-position: center bottom;
+	background-size: cover;
+	height: 568px;
+	padding: 0 20px 30px 20px;
+	position: fixed;
+	text-align: center;
+
+	h6 {
+		color: #869D9A;
+	}
+	
+	p {
+		color: white;
+	}
+
+	.name {
+		color: #DCE3EF;
+		line-height: em(18px);
+		margin: 0;
+	}
+
+	@include at-query($one) {
+		background-position: center;
+		padding: 0 50px 30px 50px;
+	}
+
+	@include at-query($two) {
+		height: 100vh;
+		position: initial;
+	}
+
+	@include at-query($three) {
+		padding: 75px 75px 40px;
+	}
+
+	@include at-query($four) {
+		padding: 150px 150px 75px;
+	}
+}
+
+.post-listing {
+	background-color: white;
+	padding: 50px 20px 0;
+	position: absolute;
+	margin-top: 568px;
+
+	@include at-query($one) {
+		padding: 50px 50px 0;
+	}
+
+	@include at-query($two) {
+		height: 100vh;
+		margin-top: 0;
+		overflow-y: scroll;
+		position: initial;
+	}
+
+	@include at-query($three) {
+		padding: 100px 100px 0;
+	}
+
+	@include at-query($four) {
+		padding: 150px 150px 50px;
+	}
+}
+
+.post-listing__excerpt {
+	margin-bottom: 50px;
+
+	h2 {
+		margin-bottom: 5px;
+	}
+
+	h6 {
+		margin-bottom: 10px;
+	}
+
+	@include at-query($three) {
+		margin-bottom: 100px;
+	}
+}
+
+.post-tag {
+	color: $colorAccent;
+}
+
+.post-title {
+	color: $colorText;
+}
+
+/*------------------------------------*\
+    #Subpages
+\*------------------------------------*/
+
+.page-nav-cond {
+	color: #869D9A;
+
+	@include at-query($two) {
+		display: none;
+	}
+}
+
+.page-nav-ex {
+	color: #869D9A;
+	display: none;
+	
+	@include at-query($two) {
+		display: inline-block;
+	}
+}
+
+.post-header,
+.post-footer {
+	background-color: white;
+	padding: 15px;
+
+	@include at-query($two) {
+		padding: 20px;
+	}
+
+	@include at-query($three) {
+		padding: 30px;
+	}
+}
+
+.subpage,
+.subpage-simple {
+	background-color: #5AA3E8;
+
+	img {
+		width: 100%;
+	}
+}
+
+.subpage-body {
+	padding: 20px;
+	max-width: 1040px;
+	margin: 0 auto;
+
+	@include at-query($one) {
+		padding: 50px;
+	}
+
+	@include at-query($two) {
+		padding: 0 50px 100px;
+	}
+}
+
+.subpage-meta {
+	text-align: center;
+
+	p {
+		color: #E9EFF4;
+		font-size: em(12px);
+		font-family: $stack1;
+	}
+
+	.h6 {
+		font-size: em(20px);
+	}
+
+	.subpage-simple & {
+		margin: -10px 0 30px;
+	}
+
+	@include at-query($two) {
+		height: 293px;
+	  	padding-top: 205px;
+		text-align: right;
+
+		.subpage-simple & {
+			text-align: center;
+			padding-top: 0;
+			height: auto;
+			margin: -20px 0 50px;
+		}
+	}
+}
