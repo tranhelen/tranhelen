@@ -158,6 +158,12 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+.subpage-simple {
+	h1 {
+		text-align: center;
+	}
+}
+
 h2 {
 	font-size: em(30px);
 	line-height: em(20px);
@@ -599,9 +605,20 @@ ul, ol {
 		font-size: em(20px);
 	}
 
+	.subpage-simple & {
+		margin: -10px 0 30px;
+	}
+
 	@include at-query($two) {
 		height: 293px;
 	  	padding-top: 205px;
 		text-align: right;
+
+		.subpage-simple & {
+			text-align: center;
+			padding-top: 0;
+			height: auto;
+			margin: -20px 0 50px;
+		}
 	}
 }
