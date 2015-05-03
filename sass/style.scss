@@ -148,7 +148,9 @@ h1, h2, h3, h4, h5, h6 {
 			margin: 40px 0 20px;
 		}
 
-		p {
+		p,
+		ol li,
+		ul li {
 			font-size: em(20px);
 
 			&.footnote {
@@ -159,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .subpage-simple {
-	h1 {
+	h1,h2,h3,h4,h5,h6 {
 		text-align: center;
 	}
 }
@@ -599,6 +601,7 @@ ul, ol {
 		color: #869D9A;
 		font-size: em(12px);
 		font-family: $stack1;
+		line-height: em(32px);
 	}
 
 	.h6 {
