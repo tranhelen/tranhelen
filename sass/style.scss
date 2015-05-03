@@ -80,6 +80,11 @@ $twitter: #55acee;
     #Typography
 \*------------------------------------*/
 
+body,
+html {
+	font-family: $stack1;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: $colorText;
 	font-family: $stack1;
@@ -89,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-text-size-adjust: 100%;
 }
 
-h1 {
+.cover h1 {
 	font-family: $stack2;
 	font-size: em(64px);
 	line-height: em(20px);
@@ -98,6 +103,35 @@ h1 {
 		font-style: italic;
 		font-weight: 900;
 		text-transform: lowercase;
+	}
+}
+
+.subpage,
+.subpage-simple {
+	@include at-query($two) {
+		h1 {
+			font-size: em(70px);
+			line-height: em(18px);
+			margin: 80px 0 40px;
+		}
+
+		h2 {
+			font-size: em(48px);
+			margin: 60px 0 35px;
+		}	
+
+		h3 {
+			font-size: em(36px);
+			margin: 40px 0 10px;
+		}
+
+		p {
+			font-size: em(20px);
+
+			&.footnote {
+				font-size: em(14px);
+			}
+		}
 	}
 }
 
@@ -120,9 +154,6 @@ h5,
 h6 {
 	font-size: em(14px);
 	line-height: em(18px);
-}
-
-h6 {
 	text-transform: uppercase;
 }
 
@@ -166,6 +197,98 @@ p {
 	margin: 0 0 15px;
 }
 
+blockquote {
+	border-left: 3px solid #C7E3EA;
+	font-style: italic;
+	margin: 0;
+
+	p {
+		color: #4697AC;
+		margin-left: 20px;
+	}
+
+	@include at-query($two) {
+		margin: 50px 0;
+	}
+}
+
+figure {
+	margin: 10px -20px;
+
+	@include at-query($one) {
+		margin: 20px -50px 10px;
+	}
+
+	@include at-query($two) {
+		margin: 30px 0;
+	}
+}
+
+figure.hero {
+	@include at-query($two) {
+		margin: 0;
+	}
+}
+
+figure.left {
+	margin: 25px -20px 15px;
+
+	figcaption {
+		margin: 10px 0 0;
+		text-align: center;
+	}
+
+	@include at-query($one) {
+		margin: 35px -50px 15px;
+	}
+
+	@include at-query($two) {
+	  margin: 10px 0;
+	  float: left;
+	  margin-right: 50px;
+	}
+}
+
+figure.sep {
+	margin: 20px -20px;
+
+	@include at-query($one) {
+		margin: 50px -50px;
+	}
+}
+
+figcaption {
+	color: #869D9A;
+	font-size: em(12px);
+	font-family: $stack1;
+	margin: 10px 20px 15px;
+	text-align: center;
+
+	@include at-query($two) {
+		text-align: left;
+		margin-left: 0;
+	}
+}
+
+figcaption.inline {
+	margin-top: 0;
+	margin-bottom: 15px;
+	text-align: center;
+
+	@include at-query($two) {
+		margin: 25px 0 0;
+		padding: 0;
+		text-align: right;
+	}
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid #DBDBDB;
+	width: 80px;
+	margin: 20px auto;
+}
+
 /*------------------------------------*\
     #Basics
 \*------------------------------------*/
@@ -185,6 +308,36 @@ ul, ol {
   li {
   	display: inline-block;
   	margin-bottom: 0;
+  }
+}
+
+.btn {
+  border-radius: 4px;
+  border: 2px solid #e7e7e7;
+  color: $colorTextBody;
+  display: inline-block;
+  font-size: em(14px);
+  font-weight: bold;
+  font-family: $stack1;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+  	background-color: #e7e7e7;
+  	border-color: #e7e7e7;
+  	color: #55acee;
+
+  	&.twitter {
+  		background-color: darken(#55acee,20%);
+  	}
+  }
+
+  &.twitter {
+  	background-color: #55acee;
+  	border: 0;
+  	color: white;
   }
 }
 
@@ -330,4 +483,82 @@ ul, ol {
 
 .post-title {
 	color: $colorText;
+}
+
+/*------------------------------------*\
+    #Subpages
+\*------------------------------------*/
+
+.page-nav-cond {
+	color: #869D9A;
+
+	@include at-query($two) {
+		display: none;
+	}
+}
+
+.page-nav-ex {
+	color: #869D9A;
+	display: none;
+	
+	@include at-query($two) {
+		display: inline-block;
+	}
+}
+
+.post-header,
+.post-footer {
+	background-color: white;
+	padding: 15px;
+
+	@include at-query($two) {
+		padding: 20px;
+	}
+
+	@include at-query($three) {
+		padding: 30px;
+	}
+}
+
+.subpage,
+.subpage-simple {
+	background-color: #FAFAFA;
+
+	img {
+		width: 100%;
+	}
+}
+
+.subpage-body {
+	padding: 20px;
+	max-width: 940px;
+	margin: 0 auto;
+
+	@include at-query($one) {
+		padding: 50px;
+	}
+
+	@include at-query($two) {
+		padding: 0 0 100px;
+	}
+}
+
+.subpage-meta {
+	text-align: center;
+
+	p {
+		color: #869D9A;
+		font-size: em(12px);
+		font-family: $stack1;
+	}
+
+	.h6 {
+		font-size: em(20px);
+	}
+
+	@include at-query($two) {
+		height: 293px;
+	  	padding-top: 205px;
+		text-align: right;
+	}
 }

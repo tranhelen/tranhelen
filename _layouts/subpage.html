@@ -2,22 +2,44 @@
     {% include header.html %}
     <body class="subpage">
 
-      <header class="project-header">
-        {{ if page.previous.url }}
-          <a href="{{ page.previous.url }}">Previous</a>
-        {{ endif }}
-        {{ if page.next.url }}
-          <a href="{{ page.next.url }}">Next</a>
-        {{ endif }}
-      </header>
+      {% include navigation.html %}
 
-      <div class="project__body">
+      <div class="subpage-body">
+
+        <div class="grid">
+          <div class="grid__item one--one-quarter">
+
+            <div class="subpage-meta">
+                <p>This post is filed under
+                <br><span class="h6"><a href="/tag/{{ page.tag }}" class="post-tag">{{ page.tag }}</a></span></p>
+                <p>Published
+                <br><span class="h6">{{ page.date | date:'%B %Y' }}</span></p>
+            </div>
+          
+          </div>
+          <div class="grid__item one--three-quarters">
+          
+            <figure class="hero">
+              <img src="/img/post/{{ page.hero }}">
+              <figcaption>{{ page.hero_caption }}</figcaption>
+            </figure>
+          
+          </div>
+        </div>
+
+        <h1>{{ page.title }}</h1>
+        
         {{ content }}
       </div>
 
-      <footer class="project-footer">
-        <a href="/" class="btn back">Back home</a>
-        <a href="http://twitter.com/tranhelen" class="btn twitter"><span class="byline">Follow</span> @tranhelen</a>
+      <footer class="post-footer">
+        <div class="grid">
+          <div class="grid__item one-quarter">
+            <a href="/" class="btn">Home</a>
+          </div>
+          <div class="grid__item three-quarters text-right">
+            <a href="http://twitter.com/tranhelen" class="btn twitter"><span class="byline">Follow</span> @tranhelen</a>
+          </div>
         </div>
       </footer>
 
