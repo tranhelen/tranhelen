@@ -108,6 +108,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .subpage,
 .subpage-simple {
+	h1 {
+		line-height: em(20px);
+	}
+
+	h2 {
+		margin: 30px 0 15px;
+	}
+
+	h3 {
+		font-size: em(28px);
+		margin: 40px 0 10px;
+	}
+
+	h4 {
+		font-size: em(20px);
+		margin: 30px 0 10px;
+	}
+
 	@include at-query($two) {
 		h1 {
 			font-size: em(70px);
@@ -122,7 +140,12 @@ h1, h2, h3, h4, h5, h6 {
 
 		h3 {
 			font-size: em(36px);
-			margin: 40px 0 10px;
+			margin: 50px 0 20px;
+		}
+
+		h4 {
+			font-size: em(24px);
+			margin: 40px 0 20px;
 		}
 
 		p {
@@ -210,6 +233,19 @@ blockquote {
 	@include at-query($two) {
 		margin: 50px 0;
 	}
+
+	&.large {
+		border: 0;
+
+		p {
+			color: $colorTextBody;
+			font-size: em(25px);
+			font-style: normal;
+			font-weight: bold;
+			margin-left: 0;
+			text-align: center;
+		}
+	}
 }
 
 figure {
@@ -285,8 +321,15 @@ figcaption.inline {
 hr {
 	border: 0;
 	border-bottom: 1px solid #DBDBDB;
-	width: 80px;
 	margin: 20px auto;
+
+	@include at-query($two) {
+		margin: 50px auto;
+	}
+}
+
+hr.small {
+	width: 80px;
 }
 
 /*------------------------------------*\
@@ -531,7 +574,7 @@ ul, ol {
 
 .subpage-body {
 	padding: 20px;
-	max-width: 940px;
+	max-width: 1040px;
 	margin: 0 auto;
 
 	@include at-query($one) {
@@ -539,7 +582,7 @@ ul, ol {
 	}
 
 	@include at-query($two) {
-		padding: 0 0 100px;
+		padding: 0 50px 100px;
 	}
 }
 
