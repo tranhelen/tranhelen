@@ -1,4 +1,5 @@
 ---
+layout: subpage-simple
 category: life
 title: This is Water
 ---

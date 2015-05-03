@@ -1,4 +1,5 @@
 ---
+layout: subpage
 category: 'design trends'
 title: The Future of UI and the Dream of the '90s
 ---
