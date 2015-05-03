@@ -1,6 +1,6 @@
 ---
 layout: subpage-simple
-category: life
+tag: life
 title: This is Water
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: subpage
-category: 'design education'
+tag: 'design education'
 title: Deliberate Practice&#58; Becoming a Design Grand Master
 ---
 

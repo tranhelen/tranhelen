@@ -1,6 +1,6 @@
 ---
 layout: subpage-simple
-category: 'tech culture'
+tag: 'tech culture'
 title: From the Desk of the Politely Angry
 ---
 

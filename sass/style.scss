@@ -282,10 +282,6 @@ ul, ol {
 	}
 }
 
-.post-category {
-	color: $colorAccent;
-}
-
 .post-listing {
 	background-color: white;
 	padding: 50px 20px 0;
@@ -326,6 +322,10 @@ ul, ol {
 	@include at-query($three) {
 		margin-bottom: 100px;
 	}
+}
+
+.post-tag {
+	color: $colorAccent;
 }
 
 .post-title {

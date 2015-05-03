@@ -21,7 +21,7 @@ title: Helen Tran; Product Designer
 		<div class="post-listing">
 			{% for post in site.posts %}
 				<div class="post-listing__excerpt load-right">
-					<h6>{{ post.date | date:'%B %Y' }} • <a href="" class="post-category">{{ post.category }}</a></h6>
+					<h6>{{ post.date | date:'%B %Y' }} • <a href="/tag/{{ post.tag }}" class="post-tag">{{ post.tag }}</a></h6>
 					<a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a></li>
 					<p>{{ post.content | strip_html | truncatewords: 24 }}</p>
 					<p class="h6"><a href="{{ post.url }}">READ</a>
