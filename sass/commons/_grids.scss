@@ -48,8 +48,8 @@ $use-silent-classes:    false!default;
 /**
  * Would you like push and pull classes enabled?
  */
-$push:                  true;
-$pull:                  false!default;
+$push:                  true!default;
+$pull:                  true!default;
 
 
 /**
@@ -73,9 +73,10 @@ $use-markup-fix:        true!default;
  * that the breakpoint fires at.
  */
 $breakpoints: (
-    'lap' '(min-width: 481px)',
-    'laph' '(min-width: 769px)',
-    'desk' '(min-width: 1024px)'
+    'zero' '(min-width: 560px)',
+    'one' '(min-width: 840px)',
+    'two' '(min-width: 1000px)',
+    'three' '(min-width: 1100px)'
 )!default;
 
 
@@ -89,9 +90,9 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ('lap', 'laph', 'desk')!default;
-$breakpoint-has-push:   ('lap', 'laph', 'desk')!default;
-$breakpoint-has-pull:   ('lap', 'laph', 'desk')!default;
+$breakpoint-has-widths: ('zero', 'one', 'two', 'three')!default;
+$breakpoint-has-push:   ('zero', 'one', 'two', 'three')!default;
+$breakpoint-has-pull:   ('zero', 'one', 'two', 'three')!default;
 
 
 /**

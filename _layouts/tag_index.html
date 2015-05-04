@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+<ul>{% for tag in site.tags %}
+  <li><a href="/tag/{{ tag[0] }}">{{ tag[0] }}</a> <span>{{ tag[1].size }}</span></li>{% endfor %}
+</ul>
