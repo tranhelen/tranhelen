@@ -389,7 +389,7 @@ ul, ol {
   font-size: em(14px);
   font-weight: bold;
   font-family: $stack1;
-  padding: 10px 15px;
+  padding: 6px 15px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -401,12 +401,13 @@ ul, ol {
 
   	&.twitter {
   		background-color: darken(#55acee,20%);
+  		border-color: darken(#55acee,20%);
   	}
   }
 
   &.twitter {
   	background-color: #55acee;
-  	border: 0;
+  	border: 2px solid #55acee;
   	color: white;
   }
 }
