@@ -467,8 +467,8 @@ ul, ol {
 	background-image: url('../img/portrait.jpg');
 	background-position: center bottom;
 	background-size: cover;
-	height: 568px;
-	padding: 0 20px;
+	height: 500px;
+	padding: 0 20px 30px;
 	position: fixed;
 	text-align: center;
 
@@ -517,7 +517,7 @@ ul, ol {
 	background-color: white;
 	padding: 50px 20px 0;
 	position: absolute;
-	margin-top: 568px;
+	margin-top: 500px;
 
 	@include at-query($one) {
 		padding: 50px 50px 0;
