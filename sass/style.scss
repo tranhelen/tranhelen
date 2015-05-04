@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cover h1 {
 	font-family: $stack2;
-	font-size: em(64px);
+	font-size: em(48px);
 	line-height: em(20px);
 
 	&.name {
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 		h2 {
 			font-size: em(48px);
 			margin: 60px 0 35px;
-		}	
+		}
 
 		h3 {
 			font-size: em(36px);
@@ -467,7 +467,7 @@ ul, ol {
 	h6 {
 		color: #869D9A;
 	}
-	
+
 	p {
 		color: white;
 	}
@@ -579,7 +579,7 @@ ul, ol {
 .page-nav-ex {
 	color: #869D9A;
 	display: none;
-	
+
 	@include at-query($two) {
 		display: inline-block;
 	}
