@@ -104,6 +104,14 @@ h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		text-transform: lowercase;
 	}
+
+	@include at-query($two) {
+		font-size: em(60px);
+	}
+
+	@include at-query($three) {
+		font-size: em(72px);
+	}
 }
 
 .subpage,
@@ -460,7 +468,7 @@ ul, ol {
 	background-position: center bottom;
 	background-size: cover;
 	height: 568px;
-	padding: 0 20px 30px 20px;
+	padding: 0 20px;
 	position: fixed;
 	text-align: center;
 
@@ -486,6 +494,7 @@ ul, ol {
 	@include at-query($two) {
 		height: 100vh;
 		position: initial;
+		width: 100%;
 	}
 
 	@include at-query($three) {
@@ -494,6 +503,13 @@ ul, ol {
 
 	@include at-query($four) {
 		padding: 150px 150px 75px;
+	}
+}
+
+.cover-text {
+	@include at-query($two) {
+	  max-width: 400px;
+	  margin: 0 auto;
 	}
 }
 
@@ -525,7 +541,7 @@ ul, ol {
 	}
 
 	@include at-query($four) {
-		padding: 150px 150px 50px;
+		padding: 20% 20% 10%;
 	}
 
 	.tagpage & {
