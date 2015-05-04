@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 		h2 {
 			font-size: em(48px);
 			margin: 60px 0 35px;
-		}	
+		}
 
 		h3 {
 			font-size: em(36px);
@@ -239,17 +239,23 @@ blockquote {
 	@include at-query($two) {
 		margin: 50px 0;
 	}
+}
 
-	&.large {
-		border: 0;
+blockquote.large {
+	border: 0;
 
+	p {
+		color: $colorTextBody;
+		font-size: em(20px);
+		font-style: normal;
+		font-weight: bold;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	@include at-query($two) {
 		p {
-			color: $colorTextBody;
 			font-size: em(25px);
-			font-style: normal;
-			font-weight: bold;
-			margin-left: 0;
-			text-align: center;
 		}
 	}
 }
@@ -454,7 +460,7 @@ ul, ol {
 	h6 {
 		color: #869D9A;
 	}
-	
+
 	p {
 		color: white;
 	}
@@ -549,7 +555,7 @@ ul, ol {
 .page-nav-ex {
 	color: #869D9A;
 	display: none;
-	
+
 	@include at-query($two) {
 		display: inline-block;
 	}
