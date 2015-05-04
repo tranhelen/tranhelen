@@ -1,34 +1,57 @@
----
-cover_url: /img/cover-blog004.jpg
----
-  {% include header.html %}
+<!DOCTYPE html>
+    {% include header.html %}
+    
+    <body class="tagpage">
 
-  <div class="blog-cover">
-    <h1>All posts tagged &#8220;{{ page.tag }}&#8221;</h1>
-  </div>
+      <div class="tagpage-body">
 
+        <h1>Posts filed under &#8220;{{ page.tag }}&#8221;</h1>
+  
+        <div class="grid grid--full">
+          <div class="grid__item push--one--two-twelfths one--eight-twelfths">
+            <div class="post-listing">
+              {% for post in site.posts %}
+                {% for tag in post.tags %}
+                  {% if tag == page.tag %}
+                    <div class="post-listing__excerpt">
+                      <h6>{{ post.date | date:'%B %Y' }}</h6>
+                      <a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a></li>
+                      <p>{{ post.content | strip_html | truncatewords: 24 }}</p>
+                      <p class="h6"><a href="{{ post.url }}">READ</a>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            </div>
 
-  <div class="post-listing">
-  {% for post in site.posts %}
-    {% for tag in post.tags %}
-      {% if tag == page.tag %}
-        <p class="h3"><a href="{{ post.url }}">{{ post.title }}</a></p>
-        <div class="blog-meta">
-          <p class="small"><time datetime="{{ post.date }}">{{ post.date | date: "%B %d %Y" }}</time></p>
+            <hr class="small">
+
+            <h3>All topics</h4>
+            <div class="blog-meta tags-table">
+              <p>
+              {% for tag in site.tags %}
+                <span class="h6 tag"><a href="/tag/{{ tag[0] }}" class="post-tag">{{ tag[0] }} ({{ tag[1].size }})</a></span>
+              {% endfor %}
+              </p>
+            </div>
+
+          </div>
         </div>
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-  </div>
 
-  <div class="blog-meta">
-    <label class="small">All categories</label>
-    <hr>
-    <p class="small">
-    {% for tag in site.tags %}
-      <a href="/tag/{{ tag[0] }}" class="tag">{{ tag[0] }} ({{ tag[1].size }})</a>
-    {% endfor %}
-    </p>
-  </div>
+      </div>
 
-  {% include footer.html %}
+      <footer class="post-footer">
+        <div class="grid">
+          <div class="grid__item one-quarter">
+            <a href="/" class="btn">Home</a>
+          </div>
+          <div class="grid__item three-quarters text-right">
+            <a href="http://twitter.com/tranhelen" class="btn twitter"><span class="byline">Follow</span> @tranhelen</a>
+          </div>
+        </div>
+      </footer>
+      
+    </body>
+
+    {% include footer.html %}
+</html>

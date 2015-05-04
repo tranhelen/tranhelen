@@ -166,6 +166,17 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+.tagpage {
+	@include at-query($two) {
+		h1 {
+			font-size: em(70px);
+			line-height: em(18px);
+			margin: 80px 0 40px;
+			text-align: center;
+		}
+	}
+}
+
 h2 {
 	font-size: em(30px);
 	line-height: em(20px);
@@ -501,6 +512,12 @@ ul, ol {
 		margin-top: 0;
 		overflow-y: scroll;
 		position: initial;
+
+		.tagpage & {
+			height: auto;
+			overflow-y: auto;
+			position: initial;
+		}
 	}
 
 	@include at-query($three) {
@@ -509,6 +526,17 @@ ul, ol {
 
 	@include at-query($four) {
 		padding: 150px 150px 50px;
+	}
+
+	.tagpage & {
+		background-color: transparent;
+		margin-top: 30px;
+		padding: 0;
+		position: initial;
+
+		@include at-query($two) {
+			margin-top: 50px;
+		}
 	}
 }
 
@@ -624,4 +652,34 @@ ul, ol {
 			margin: -20px 0 50px;
 		}
 	}
+}
+
+/*------------------------------------*\
+    #Tag page
+\*------------------------------------*/
+
+.tagpage {
+	background-color: #FAFAFA;
+
+	.small {
+		margin-top: 0;
+	}
+}
+
+.tagpage-body {
+	padding: 20px;
+	max-width: 1040px;
+	margin: 0 auto;
+
+	@include at-query($one) {
+		padding: 50px;
+	}
+
+	@include at-query($two) {
+		padding: 0 50px 100px;
+	}
+}
+
+.tags-table .tag {
+	margin-right: 20px;
 }
