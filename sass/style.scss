@@ -474,7 +474,7 @@ ul, ol {
 	background-image: url('../img/portrait.jpg');
 	background-position: center bottom;
 	background-size: cover;
-	height: 568px;
+	height: 500px;
 	padding: 0 20px 30px 20px;
 	position: absolute;
 	top: 0;
@@ -594,16 +594,22 @@ ul, ol {
     #Subpages
 \*------------------------------------*/
 
-.page-nav-cond {
-	color: #869D9A;
+.page-nav-cond,
+.page-nav-ex {
+	color: #869D9A;	
 
+	a:hover & {
+		color: #5AA3E8;
+	}
+}
+
+.page-nav-cond {
 	@include at-query($two) {
 		display: none;
 	}
 }
 
 .page-nav-ex {
-	color: #869D9A;
 	display: none;
 
 	@include at-query($two) {
