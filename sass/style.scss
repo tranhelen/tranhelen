@@ -598,6 +598,8 @@ ul, ol {
 .page-nav-ex {
 	color: #869D9A;	
 
+	@include transition;
+
 	a:hover & {
 		color: #5AA3E8;
 	}

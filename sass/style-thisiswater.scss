@@ -369,12 +369,12 @@ ul, ol {
 .btn {
   border-radius: 4px;
   border: 2px solid #e7e7e7;
-  color: #55acee;
+  color: $colorTextBody;
   display: inline-block;
   font-size: em(14px);
   font-weight: bold;
   font-family: $stack1;
-  padding: 10px 15px;
+  padding: 6px 15px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -386,12 +386,13 @@ ul, ol {
 
   	&.twitter {
   		background-color: darken(#55acee,20%);
+  		border-color: darken(#55acee,20%);
   	}
   }
 
   &.twitter {
   	background-color: #55acee;
-  	border: 0;
+  	border: 2px solid #55acee;
   	color: white;
   }
 }
@@ -544,16 +545,24 @@ ul, ol {
     #Subpages
 \*------------------------------------*/
 
-.page-nav-cond {
-	color: #869D9A;
+.page-nav-cond,
+.page-nav-ex {
+	color: #869D9A;	
 
+	@include transition;
+
+	a:hover & {
+		color: #5AA3E8;
+	}
+}
+
+.page-nav-cond {
 	@include at-query($two) {
 		display: none;
 	}
 }
 
 .page-nav-ex {
-	color: #869D9A;
 	display: none;
 
 	@include at-query($two) {
