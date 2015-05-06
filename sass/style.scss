@@ -476,10 +476,7 @@ ul, ol {
 	background-size: cover;
 	height: 500px;
 	padding: 0 20px 30px 20px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
+	position: fixed;
 	text-align: center;
 
 	h6 {
@@ -528,6 +525,7 @@ ul, ol {
 	padding: 50px 20px 0;
 	position: absolute;
 	margin-top: 500px;
+	z-index: 2;
 
 	@include at-query($one) {
 		padding: 50px 50px 0;
