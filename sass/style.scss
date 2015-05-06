@@ -524,7 +524,7 @@ ul, ol {
 	background-color: white;
 	padding: 50px 20px 0;
 	position: absolute;
-	margin-top: 500px;
+	top: 500px;
 	z-index: 2;
 
 	@include at-query($one) {
@@ -533,7 +533,7 @@ ul, ol {
 
 	@include at-query($two) {
 		height: 100vh;
-		margin-top: 0;
+		top: 0;
 		overflow-y: scroll;
 		position: initial;
 
