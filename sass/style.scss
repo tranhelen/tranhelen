@@ -461,7 +461,10 @@ ul, ol {
 	background-size: cover;
 	height: 568px;
 	padding: 0 20px 30px 20px;
-	position: fixed;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
 	text-align: center;
 
 	h6 {
