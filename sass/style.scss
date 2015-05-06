@@ -96,13 +96,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .cover h1 {
 	font-family: $stack2;
-	font-size: em(64px);
+	font-size: em(48px);
 	line-height: em(20px);
 
 	&.name {
 		font-style: italic;
 		font-weight: 900;
 		text-transform: lowercase;
+	}
+
+	@include at-query($two) {
+		font-size: em(60px);
+	}
+
+	@include at-query($three) {
+		font-size: em(72px);
 	}
 }
 
@@ -136,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 		h2 {
 			font-size: em(48px);
 			margin: 60px 0 35px;
-		}	
+		}
 
 		h3 {
 			font-size: em(36px);
@@ -252,17 +260,23 @@ blockquote {
 	@include at-query($two) {
 		margin: 50px 0;
 	}
+}
 
-	&.large {
-		border: 0;
+blockquote.large {
+	border: 0;
 
+	p {
+		color: $colorTextBody;
+		font-size: em(20px);
+		font-style: normal;
+		font-weight: bold;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	@include at-query($two) {
 		p {
-			color: $colorTextBody;
 			font-size: em(25px);
-			font-style: normal;
-			font-weight: bold;
-			margin-left: 0;
-			text-align: center;
 		}
 	}
 }
@@ -381,7 +395,7 @@ ul, ol {
   font-size: em(14px);
   font-weight: bold;
   font-family: $stack1;
-  padding: 10px 15px;
+  padding: 6px 15px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -393,12 +407,13 @@ ul, ol {
 
   	&.twitter {
   		background-color: darken(#55acee,20%);
+  		border-color: darken(#55acee,20%);
   	}
   }
 
   &.twitter {
   	background-color: #55acee;
-  	border: 0;
+  	border: 2px solid #55acee;
   	color: white;
   }
 }
@@ -470,7 +485,7 @@ ul, ol {
 	h6 {
 		color: #869D9A;
 	}
-	
+
 	p {
 		color: white;
 	}
@@ -489,6 +504,7 @@ ul, ol {
 	@include at-query($two) {
 		height: 100vh;
 		position: initial;
+		width: 100%;
 	}
 
 	@include at-query($three) {
@@ -500,11 +516,18 @@ ul, ol {
 	}
 }
 
+.cover-text {
+	@include at-query($two) {
+	  max-width: 400px;
+	  margin: 0 auto;
+	}
+}
+
 .post-listing {
 	background-color: white;
 	padding: 50px 20px 0;
 	position: absolute;
-	margin-top: 568px;
+	margin-top: 500px;
 
 	@include at-query($one) {
 		padding: 50px 50px 0;
@@ -528,7 +551,7 @@ ul, ol {
 	}
 
 	@include at-query($four) {
-		padding: 150px 150px 50px;
+		padding: 20% 20% 10%;
 	}
 
 	.tagpage & {
@@ -582,7 +605,7 @@ ul, ol {
 .page-nav-ex {
 	color: #869D9A;
 	display: none;
-	
+
 	@include at-query($two) {
 		display: inline-block;
 	}
