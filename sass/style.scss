@@ -30,6 +30,7 @@
    -moz-box-sizing: border-box;
 		box-sizing: border-box;
 -webkit-font-smoothing:antialiased;
+	-webkit-text-size-adjust: 100%;
  text-rendering:optimizeLegibility;
 }
 
@@ -38,9 +39,6 @@ $stack2: "capitolium-2",Georgia,Times,Times New Roman,serif;
 
 $baseFontSize: 16px;
 $unit: 20px;
-
-$twitter: #55acee;
-
 
 /* Breakpoints */
 	$one: 560px;
@@ -55,12 +53,16 @@ $twitter: #55acee;
 	$colorAccent: #F5A623;
 
 	/* Text */
-	$colorText: #4F5A63;
+	$colorTextHeader: #4F5A63;
 	$colorTextBody: #6B7674;
+	$colorTextQuote: #4697AC;
 
 	/* Links */
-	$colorLink: #1AADDB;
-	$colorLinkHover: $colorText;
+	$colorLink: #5AA3E8;
+	$colorLinkHover: $colorTextHeader;
+
+/* Other Variables */
+	$twitter: #55acee;
 
 /*------------------------------------*\
     #Typography
@@ -72,103 +74,36 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: $colorText;
+	color: $colorTextHeader;
 	font-family: $stack1;
 	font-weight: 600;
 	margin: 0 0 $unit;
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-size-adjust: 100%;
-}
 
-.cover h1 {
-	font-family: $stack2;
-	font-size: em(48px);
-	line-height: em(20px);
-
-	&.name {
-		font-style: italic;
-		font-weight: 900;
-		text-transform: lowercase;
-	}
-
-	@include at-query($two) {
-		font-size: em(60px);
-	}
-
-	@include at-query($three) {
-		font-size: em(72px);
-	}
-}
-
-.subpage,
-.subpage-simple {
-	h1 {
-		line-height: em(20px);
-	}
-
-	h2 {
-		margin: 30px 0 15px;
-	}
-
-	h3 {
-		font-size: em(28px);
-		margin: 40px 0 10px;
-	}
-
-	h4 {
-		font-size: em(20px);
-		margin: 30px 0 10px;
-	}
-
-	@include at-query($two) {
-		h1 {
-			font-size: em(70px);
-			line-height: em(18px);
-			margin: 80px 0 40px;
-		}
-
-		h2 {
-			font-size: em(48px);
-			margin: 60px 0 35px;
-		}
-
-		h3 {
-			font-size: em(36px);
-			margin: 50px 0 20px;
-		}
-
-		h4 {
-			font-size: em(24px);
-			margin: 40px 0 20px;
-		}
-
-		p,
-		ol li,
-		ul li {
-			font-size: em(20px);
-
-			&.footnote {
-				font-size: em(14px);
-			}
-		}
-	}
-}
-
-.subpage-simple {
-	h1,h2,h3,h4,h5,h6 {
+	.subpage-simple & {
 		text-align: center;
 	}
 }
 
-.tagpage {
+h1 {
+	font-size: em(48px);
+	line-height: em(20px);
+
+	.tagpage & {
+		text-align: center;
+	}
+
 	@include at-query($two) {
-		h1 {
-			font-size: em(70px);
-			line-height: em(18px);
+		font-size: em(60px);
+
+		.tagpage & {
+			font-size: em(72px);
 			margin: 80px 0 40px;
-			text-align: center;
 		}
 	}
+
+	@include at-query($three) {
+		font-size: em(72px);
+	}	
 }
 
 h2 {
@@ -177,13 +112,17 @@ h2 {
 }
 
 h3 {
-	font-size: em(20px);
+	font-size: em(28px);
 	line-height: em(20px);
 }
 
 h4 {
-	font-size: em(16px);
+	font-size: em(20px);
 	line-height: em(24px);
+
+	@include at-query($two) {
+		font-size: em(24px);
+	}
 }
 
 h5,
@@ -200,51 +139,89 @@ h6 {
 .h5 { @extend h5; }
 .h6 { @extend h6; }
 
-p,
-ol li,
-ul li {
+.cover h1 {
 	font-family: $stack2;
-	font-size: em(18px);
-	color: $colorTextBody;
-	line-height: em(26px);
+	font-style: italic;
+	font-weight: 900;
+	text-transform: lowercase;
 }
 
-ol li,
-ul li {
-	line-height: em(24px);
+.subpage,
+.subpage-simple {
+	h2 {
+		margin: ($unit * 1.5) 0 ($unit * 0.75);
+	}
+
+	h3 {
+		margin: ($unit * 2) 0 ($unit / 2);
+	}
+
+	h4 {
+		margin-top: $unit * 1.5;
+	}
 
 	@include at-query($two) {
-		line-height: em(30px);
+		h1 {
+			margin: ($unit * 4) 0 ($unit * 2);
+		}
+
+		h2 {
+			margin: ($unit * 3) 0 $unit;
+		}
+
+		h3 {
+			margin: ($unit * 2.5) 0 $unit;
+		}
+
+		h4 {
+			margin: ($unit * 2) 0 $unit;
+		}
 	}
 }
 
+p,
+ol li,
+ul li {
+	color: $colorTextBody;
+	font-family: $stack2;
+	font-size: em(18px);
+	line-height: em(26px);
+	margin: 0 0 15px;
+
+	.subpage &,
+	.subpage-simple & {
+		font-size: em(20px);
+	}
+}
+
+ol li,
+ul li {
+	margin: 0 0 ($unit / 2) $unit;
+}
+
 a {
-	color: #5AA3E8;
+	color: $colorLink;
 	text-decoration: none;
 
 	&:hover {
-		color: lighten(#5AA3E8,15%);
+		color: lighten($colorLink,15%);
 	}
 
 	@include transition;
 }
 
-p {
-	margin: 0 0 15px;
-}
-
 blockquote {
-	border-left: 3px solid #C7E3EA;
+	border-left: 3px solid $colorTextQuote;
 	font-style: italic;
-	margin: 0;
+	margin: $unit 0;
 
 	p {
-		color: #4697AC;
+		color: $colorTextQuote;
 		margin-left: 20px;
 	}
 
 	@include at-query($two) {
-		margin: 50px 0;
+		margin: ($unit * 2) 0;
 	}
 }
 
@@ -252,17 +229,14 @@ blockquote.large {
 	border: 0;
 
 	p {
-		color: $colorTextBody;
-		font-size: em(20px);
+		color: $colorTextHeader;
 		font-style: normal;
 		font-weight: bold;
 		margin-left: 0;
 		text-align: center;
-	}
 
-	@include at-query($two) {
-		p {
-			font-size: em(25px);
+		@include at-query($two) {
+			font-size: em(28px);
 		}
 	}
 }
@@ -571,12 +545,16 @@ ul, ol {
 }
 
 .post-title {
-	color: $colorText;
+	color: $colorTextHeader;
 }
 
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
+
+.footnote {
+	font-size: em(14px);
+}
 
 .page-nav-cond,
 .page-nav-ex {

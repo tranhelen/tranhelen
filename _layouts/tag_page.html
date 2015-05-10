@@ -15,7 +15,7 @@
                   {% if tag == page.tag %}
                     <div class="post-listing__excerpt">
                       <h6>{{ post.date | date:'%B %Y' }}</h6>
-                      <a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a></li>
+                      <a href="{{ post.url }}"><h2 class="h3 post-title">{{ post.title }}</h2></a></li>
                       <p>{{ post.content | strip_html | truncatewords: 24 }}</p>
                       <p class="h6"><a href="{{ post.url }}">READ</a>
                     </div>
