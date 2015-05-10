@@ -23,15 +23,14 @@
 @import "normalize";
 
 @import "commons/mixins";
-@import "commons/icons";
 @import "commons/grids";
 
 * {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-			box-sizing: border-box;
-	-webkit-font-smoothing:antialiased;
-	text-rendering:optimizeLegibility
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+		box-sizing: border-box;
+-webkit-font-smoothing:antialiased;
+ text-rendering:optimizeLegibility;
 }
 
 $stack1: "soleil", "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -49,7 +48,7 @@ $twitter: #55acee;
 	$three: 1200px;
 	$four: 1600px;
 
-/* Homepage Variables */
+/* Colour Variables */
 	/* Main */
 	$colorPrimary: #1AADDB;
 	$colorLines: darken($colorPrimary,10%);
@@ -62,19 +61,6 @@ $twitter: #55acee;
 	/* Links */
 	$colorLink: #1AADDB;
 	$colorLinkHover: $colorText;
-
-@mixin at-query ($breakpoint) {
-	@media screen and (min-width: $breakpoint) {
-		@content;
-	}
-}
-
-@function em($target, $context: $baseFontSize) {
-  @if $target == 0 {
-    @return 0;
-  }
-  @return $target / $context + 0em;
-}
 
 /*------------------------------------*\
     #Typography
