@@ -4,8 +4,6 @@
 /*
 
 	Author 						Helen Tran, @tranhelen
-	Tools 						Codekit, Sublime Text 2
-	Approaches 					OOCSS, BEM
 	Site Generated with			Jekyll, Liquid, YAML
 
  */
@@ -15,28 +13,32 @@
 \*------------------------------------*/
 
 /* Colour Variables */
+	/* Shared */
+	$headerLink: #5AA3E8;
+	$headerLinkText: #869D9A;
+
 	/* Main */
-	$colorPrimary: #1AADDB;
 	$colorLines: #DBDBDB;
 	$colorAccent: #F5A623;
 
 	/* Text */
-	$colorTextHeader: #4F5A63;
-	$colorTextBody: #6B7674;
-	$colorTextQuote: #4697AC;
+	$colorTextHeader: #fff;
+	$colorTextBody: #E9EFF4;
+	$colorTextQuote: #FFFDC5;
 
 	/* Links */
-	$colorLink: #5AA3E8;
+	$colorLink: $colorAccent;
 	$colorLinkHover: $colorTextHeader;
 
 	/* Homepage Cover */
 	$colorTextCoverPrimary: #DCE3EF;
-	$colorTextCoverSecondary: #869D9A;
+	$colorTextCoverSecondary: $colorTextBody;
 	
 	/* Post Related */
-	$colorBGPost: #FAFAFA;
+	$colorBGPost: #5AA3E8;
 
 	/* Other */
+	$colorButton: #6B7674;
 	$selection: #fffc00;
 	$selectionText: $colorLink;
 	$twitter: #55acee;
@@ -51,6 +53,4 @@
 @import "partials/buttons";
 @import "partials/typography";
 
-@import "partials/homepage";
 @import "partials/subpage";
-@import "partials/tagpage";

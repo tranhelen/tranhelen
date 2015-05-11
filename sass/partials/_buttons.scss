@@ -4,8 +4,8 @@
 
 .btn {
   border-radius: 4px;
-  border: 2px solid #e7e7e7;
-  color: $colorTextBody;
+  border: 2px solid $colorLines;
+  color: $colorButton;
   display: inline-block;
   font-size: em(14px);
   font-weight: bold;
@@ -16,19 +16,19 @@
   text-transform: uppercase;
 
   &:hover {
-  	background-color: #e7e7e7;
-  	border-color: #e7e7e7;
-  	color: #55acee;
+  	background-color: $colorLines;
+  	border-color: $colorLines;
+  	color: white;
 
   	&.twitter {
-  		background-color: darken(#55acee,20%);
-  		border-color: darken(#55acee,20%);
+  		background-color: darken($twitter,20%);
+  		border-color: darken($twitter,20%);
   	}
   }
 
   &.twitter {
-  	background-color: #55acee;
-  	border: 2px solid #55acee;
+  	background-color: $twitter;
+  	border: 2px solid $twitter;
   	color: white;
   }
 }

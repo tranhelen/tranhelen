@@ -2,14 +2,18 @@
     #Subpages
 \*------------------------------------*/
 
+.post-header a {
+	color: $headerLink;
+}
+
 .page-nav-cond,
 .page-nav-ex {
-	color: $colorTextCoverSecondary;	
+	color: $headerLinkText;	
 
 	@include transition;
 
 	a:hover & {
-		color: $colorLink;
+		color: lighten($headerLinkText,20%);
 	}
 }
 

@@ -15,8 +15,11 @@
 \*------------------------------------*/
 
 /* Colour Variables */
+	/* Shared */
+	$headerLink: #5AA3E8;
+	$headerLinkText: #869D9A;
+
 	/* Main */
-	$colorPrimary: #1AADDB;
 	$colorLines: #DBDBDB;
 	$colorAccent: #F5A623;
 
@@ -37,6 +40,7 @@
 	$colorBGPost: #FAFAFA;
 
 	/* Other */
+	$colorButton: $colorTextBody;
 	$selection: #fffc00;
 	$selectionText: $colorLink;
 	$twitter: #55acee;
