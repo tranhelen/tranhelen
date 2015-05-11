@@ -80,6 +80,10 @@ h6 {
 	.cover & {
 		color: $colorTextCoverSecondary;
 	}
+
+	.subpage-meta & {
+		font-size: em(20px);
+	}
 }
 
 .h1 { @extend h1; }
@@ -150,6 +154,13 @@ ul li {
 	&.footnote {
 		font-size: em(14px);
 	}
+}
+
+.subpage-meta p {
+	color: $colorTextCoverSecondary;
+	font-size: em(12px);
+	font-family: $stack1;
+	line-height: em(32px);
 }
 
 ul, ol {
@@ -257,17 +268,17 @@ figcaption {
 		margin-left: 0;
 	}
 
+	.hero & {
+		@include at-query($two) {
+			text-align: left;		
+		}
+	}
+
 	.left & {
 		margin: ($unit / 2) 0 ($unit * 0.75);
 
 		@include at-query($one) {
 			margin-bottom: ($unit * 1.5);
-		}
-	}
-
-	&.hero {
-		@include at-query($two) {
-			text-align: left;			
 		}
 	}
 

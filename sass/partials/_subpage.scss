@@ -4,12 +4,12 @@
 
 .page-nav-cond,
 .page-nav-ex {
-	color: #869D9A;	
+	color: $colorTextCoverSecondary;	
 
 	@include transition;
 
 	a:hover & {
-		color: #5AA3E8;
+		color: $colorLink;
 	}
 }
 
@@ -30,14 +30,14 @@
 .post-header,
 .post-footer {
 	background-color: white;
-	padding: 15px;
+	padding: $unit * 0.75;
 
 	@include at-query($two) {
-		padding: 20px;
+		padding: $unit;
 	}
 
 	@include at-query($three) {
-		padding: 30px;
+		padding: $unit * 1.5;
 	}
 }
 
@@ -51,46 +51,35 @@
 }
 
 .subpage-body {
-	padding: 20px;
-	max-width: 1040px;
 	margin: 0 auto;
+	max-width: 1040px;
+	padding: $unit;
 
 	@include at-query($one) {
-		padding: 50px;
+		padding: ($unit * 2.5);
 	}
 
 	@include at-query($two) {
-		padding: 0 50px 100px;
+		padding: 0 ($unit * 2.5) ($unit * 5);
 	}
 }
 
 .subpage-meta {
 	text-align: center;
 
-	p {
-		color: #869D9A;
-		font-size: em(12px);
-		font-family: $stack1;
-		line-height: em(32px);
-	}
-
-	.h6 {
-		font-size: em(20px);
-	}
-
 	.subpage-simple & {
-		margin: -10px 0 30px;
+		margin: (-$unit / 2) 0 ($unit * 1.5);
 	}
 
 	@include at-query($two) {
-		margin-bottom: 45px;
+		margin-bottom: ($unit * 2);
 		text-align: right;
 
 		.subpage-simple & {
 			text-align: center;
 			padding-top: 0;
 			height: auto;
-			margin: -20px 0 50px;
+			margin: (-$unit) 0 ($unit * 2);
 		}
 	}
 }
