@@ -26,6 +26,11 @@ h1 {
 		text-align: center;
 	}
 
+	&.name {
+		color: $colorTextCoverPrimary;
+		margin: 0;
+	}
+
 	@include at-query($two) {
 		font-size: em(60px);
 
@@ -37,7 +42,7 @@ h1 {
 
 	@include at-query($three) {
 		font-size: em(72px);
-	}	
+	}
 }
 
 h2 {
@@ -71,6 +76,10 @@ h6 {
 	font-size: em(14px);
 	line-height: em(18px);
 	text-transform: uppercase;
+
+	.cover & {
+		color: $colorTextCoverSecondary;
+	}
 }
 
 .h1 { @extend h1; }
@@ -128,6 +137,10 @@ ul li {
 	font-size: em(18px);
 	line-height: em(26px);
 	margin: 0 0 15px;
+
+	.cover & {
+		color: white;
+	}
 
 	.subpage &,
 	.subpage-simple & {

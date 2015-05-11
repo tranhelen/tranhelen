@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    #About the File
+\*------------------------------------*/
+/*
+
+	Author 						Helen Tran, @tranhelen
+	Tools 						Codekit, Sublime Text 2
+	Approaches 					OOCSS, BEM
+	Site Generated with			Jekyll, Liquid, YAML
+
+ */
+
+/*------------------------------------*\
+    #Imports & Variables
+\*------------------------------------*/
+
+/* Colour Variables */
+	/* Main */
+	$colorPrimary: #1AADDB;
+	$colorLines: #DBDBDB;
+	$colorAccent: #F5A623;
+
+	/* Text */
+	$colorTextHeader: #4F5A63;
+	$colorTextBody: #6B7674;
+	$colorTextQuote: #4697AC;
+
+	/* Links */
+	$colorLink: #5AA3E8;
+	$colorLinkHover: $colorTextHeader;
+
+	/* Homepage Cover */
+	$colorTextCoverPrimary: #DCE3EF;
+	$colorTextCoverSecondary: #869D9A;
+	
+	/* Post Related */
+	$colorBGPost: #FAFAFA;
+
+	/* Other */
+	$selection: #fffc00;
+	$selectionText: $colorLink;
+	$twitter: #55acee;
+
+@import "normalize";
+
+@import "modules/mixins";
+@import "vendor/grids";
+
+@import "partials/base";
+@import "partials/helpers";
+@import "partials/buttons";
+@import "partials/typography";
+
+@import "partials/homepage";
+@import "partials/subpage";
+@import "partials/tagpage";

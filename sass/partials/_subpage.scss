@@ -1,0 +1,96 @@
+/*------------------------------------*\
+    #Subpages
+\*------------------------------------*/
+
+.page-nav-cond,
+.page-nav-ex {
+	color: #869D9A;	
+
+	@include transition;
+
+	a:hover & {
+		color: #5AA3E8;
+	}
+}
+
+.page-nav-cond {
+	@include at-query($two) {
+		display: none;
+	}
+}
+
+.page-nav-ex {
+	display: none;
+
+	@include at-query($two) {
+		display: inline-block;
+	}
+}
+
+.post-header,
+.post-footer {
+	background-color: white;
+	padding: 15px;
+
+	@include at-query($two) {
+		padding: 20px;
+	}
+
+	@include at-query($three) {
+		padding: 30px;
+	}
+}
+
+.subpage,
+.subpage-simple {
+	background-color: $colorBGPost;
+
+	img {
+		width: 100%;
+	}
+}
+
+.subpage-body {
+	padding: 20px;
+	max-width: 1040px;
+	margin: 0 auto;
+
+	@include at-query($one) {
+		padding: 50px;
+	}
+
+	@include at-query($two) {
+		padding: 0 50px 100px;
+	}
+}
+
+.subpage-meta {
+	text-align: center;
+
+	p {
+		color: #869D9A;
+		font-size: em(12px);
+		font-family: $stack1;
+		line-height: em(32px);
+	}
+
+	.h6 {
+		font-size: em(20px);
+	}
+
+	.subpage-simple & {
+		margin: -10px 0 30px;
+	}
+
+	@include at-query($two) {
+		margin-bottom: 45px;
+		text-align: right;
+
+		.subpage-simple & {
+			text-align: center;
+			padding-top: 0;
+			height: auto;
+			margin: -20px 0 50px;
+		}
+	}
+}

@@ -13,12 +13,12 @@
 
 ::selection {
 	background: $selection;
-	color: $sectionText;
+	color: $selectionText;
 }
 
 ::-moz-selection {
 	background: $selection;
-	color: $sectionText;
+	color: $selectionText;
 }
 
 $stack1: "soleil", "Helvetica Neue",Helvetica,Arial,sans-serif;

@@ -1,0 +1,90 @@
+/*------------------------------------*\
+    #Homepage
+\*------------------------------------*/
+
+.cover {
+	background-image: url('/img/portrait.jpg');
+	background-position: center bottom;
+	background-size: cover;
+	height: 500px;
+	padding: 0 $unit ($unit * 1.5);
+	position: fixed;
+	text-align: center;
+
+	@include at-query($one) {
+		background-position: center;
+		padding: 0 ($unit * 2.5) ($unit * 1.5);
+	}
+
+	@include at-query($two) {
+		height: 100vh;
+		position: initial;
+		width: 100%;
+	}
+
+	@include at-query($three) {
+		padding: ($unit * 3.75) ($unit * 3.75) ($unit * 2);
+	}
+
+	@include at-query($four) {
+		padding: ($unit * 7.5) ($unit * 7.5) ($unit * 3.75);
+	}
+}
+
+.cover-text {
+	@include at-query($two) {
+	  max-width: 400px;
+	  margin: 0 auto;
+	}
+}
+
+.post-listing {
+	background-color: white;
+	padding: ($unit * 2.5) $unit 0;
+	position: absolute;
+	top: 500px;
+	z-index: 2;
+
+	@include at-query($one) {
+		padding: ($unit * 2.5) ($unit * 2.5) 0;
+	}
+
+	@include at-query($two) {
+		height: 100vh;
+		overflow-y: scroll;
+		position: initial;
+		top: 0;
+	}
+
+	@include at-query($three) {
+		padding: ($unit * 5) ($unit * 5) 0;
+	}
+
+	@include at-query($four) {
+		padding: 20% 20% 10%;
+	}
+}
+
+.post-listing__excerpt {
+	margin-bottom: ($unit * 2.5);
+
+	h2 {
+		margin-bottom: ($unit / 4);
+	}
+
+	h6 {
+		margin-bottom: ($unit / 2);
+	}
+
+	@include at-query($three) {
+		margin-bottom: $unit * 5;
+	}
+}
+
+.post-tag {
+	color: $colorAccent;
+}
+
+.post-title {
+	color: $colorTextHeader;
+}

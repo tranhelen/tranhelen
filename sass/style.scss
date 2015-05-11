@@ -20,10 +20,6 @@
     #Imports & Variables
 \*------------------------------------*/
 
-@import "normalize";
-
-@import "modules/mixins";
-
 /* Colour Variables */
 	/* Main */
 	$colorPrimary: #1AADDB;
@@ -39,6 +35,10 @@
 	$colorLink: #5AA3E8;
 	$colorLinkHover: $colorTextHeader;
 
+	/* Homepage Cover */
+	$colorTextCoverPrimary: #DCE3EF;
+	$colorTextCoverSecondary: #869D9A;
+	
 	/* Post Related */
 	$colorBGPost: #FAFAFA;
 
@@ -47,11 +47,15 @@
 	$selectionText: $colorLink;
 	$twitter: #55acee;
 
+@import "normalize";
+
+@import "modules/mixins";
+@import "vendor/grids";
+
 @import "partials/base";
 @import "partials/helpers";
 @import "partials/buttons";
 @import "partials/typography";
-
 
 /*------------------------------------*\
     #Homepage
@@ -62,27 +66,13 @@
 	background-position: center bottom;
 	background-size: cover;
 	height: 500px;
-	padding: 0 20px 30px 20px;
+	padding: 0 $unit ($unit * 1.5);
 	position: fixed;
 	text-align: center;
 
-	h6 {
-		color: #869D9A;
-	}
-
-	p {
-		color: white;
-	}
-
-	.name {
-		color: #DCE3EF;
-		line-height: em(18px);
-		margin: 0;
-	}
-
 	@include at-query($one) {
 		background-position: center;
-		padding: 0 50px 30px 50px;
+		padding: 0 ($unit * 2.5) ($unit * 1.5);
 	}
 
 	@include at-query($two) {
@@ -92,11 +82,11 @@
 	}
 
 	@include at-query($three) {
-		padding: 75px 75px 40px;
+		padding: ($unit * 3.75) ($unit * 3.75) ($unit * 2);
 	}
 
 	@include at-query($four) {
-		padding: 150px 150px 75px;
+		padding: ($unit * 7.5) ($unit * 7.5) ($unit * 3.75);
 	}
 }
 
