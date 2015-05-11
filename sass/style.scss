@@ -39,129 +39,23 @@
 	$colorLink: #5AA3E8;
 	$colorLinkHover: $colorTextHeader;
 
-/* Other Variables */
+	/* Post Related */
+	$colorBGPost: #FAFAFA;
+
+	/* Other */
+	$selection: #fffc00;
+	$selectionText: $colorLink;
 	$twitter: #55acee;
 
 @import "partials/base";
+@import "partials/helpers";
+@import "partials/buttons";
 @import "partials/typography";
 
-/*------------------------------------*\
-    #Basics
-\*------------------------------------*/
-
-.list--nobullet {
-	list-style-type: none;
-}
-
-.list--inline {
-	list-style-type: none;
-
-	li {
-		display: inline-block;
-		margin-bottom: 0;
-	}
-}
-
-.btn {
-  border-radius: 4px;
-  border: 2px solid #e7e7e7;
-  color: $colorTextBody;
-  display: inline-block;
-  font-size: em(14px);
-  font-weight: bold;
-  font-family: $stack1;
-  padding: 6px 15px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  &:hover {
-  	background-color: #e7e7e7;
-  	border-color: #e7e7e7;
-  	color: #55acee;
-
-  	&.twitter {
-  		background-color: darken(#55acee,20%);
-  		border-color: darken(#55acee,20%);
-  	}
-  }
-
-  &.twitter {
-  	background-color: #55acee;
-  	border: 2px solid #55acee;
-  	color: white;
-  }
-}
-
-/*------------------------------------*\
-    #Helpers
-\*------------------------------------*/
-
-.text-center {
-	text-align: center;
-}
-
-.text-left {
-	text-align: left;
-}
-
-.text-right {
-	text-align: right;
-}
-
-.load {
-	opacity: 0;
-}
-
-.load-right {
-	left: 100px;
-	opacity: 0;
-	position: relative;
-}
-
-.table {
-	display: table;
-}
-
-.table-cell {
-	display: table-cell;
-	float: none;
-}
-
-.table-bottom {
-	vertical-align: bottom;
-}
-
-.two--table {
-	@include at-query($two) {
-		display: table;
-	}
-}
-
-.two--table-cell {
-	@include at-query($two) {
-		display: table-cell;
-		float: none;
-	}
-}
-
-.two--table-bottom {
-	vertical-align: bottom;
-}
 
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
-
-::selection {
-	background: #fffc00;
-	color: $colorLink;
-}
-
-::-moz-selection {
-	background: #fffc00;
-	color: $colorLink;
-}
 
 .cover {
 	background-image: url('../img/portrait.jpg');
@@ -326,7 +220,7 @@
 
 .subpage,
 .subpage-simple {
-	background-color: #FAFAFA;
+	background-color: $colorBGPost;
 
 	img {
 		width: 100%;

@@ -11,6 +11,16 @@
  text-rendering:optimizeLegibility;
 }
 
+::selection {
+	background: $selection;
+	color: $sectionText;
+}
+
+::-moz-selection {
+	background: $selection;
+	color: $sectionText;
+}
+
 $stack1: "soleil", "Helvetica Neue",Helvetica,Arial,sans-serif;
 $stack2: "capitolium-2",Georgia,Times,Times New Roman,serif;
 
@@ -22,4 +32,3 @@ $unit: 20px;
 	$two: 840px;
 	$three: 1200px;
 	$four: 1600px;
-
