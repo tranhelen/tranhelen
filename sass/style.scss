@@ -49,7 +49,7 @@ $unit: 20px;
 /* Colour Variables */
 	/* Main */
 	$colorPrimary: #1AADDB;
-	$colorLines: darken($colorPrimary,10%);
+	$colorLines: #DBDBDB;
 	$colorAccent: #F5A623;
 
 	/* Text */
@@ -205,9 +205,13 @@ ul li {
 	}
 }
 
-ol li,
-ul li {
-	margin: 0 0 ($unit / 2) $unit;
+ul, ol {
+	margin: 0 0 $unit;
+	padding: 0;
+
+	li {
+		margin: 0 0 ($unit / 2) $unit;
+	}
 }
 
 a {
@@ -280,14 +284,10 @@ figure.hero {
 figure.left {
 	margin-top: $unit * 1.5;
 
-	@include at-query($one) {
-		margin: 35px -50px 15px;
-	}
-
 	@include at-query($two) {
-		margin: 10px 0;
 		float: left;
-		margin-right: 50px;
+		margin: ($unit / 2) 0;
+		margin-right: ($unit * 2.5);
 	}
 }
 
@@ -307,25 +307,28 @@ figcaption {
 	text-align: center;
 
 	@include at-query($two) {
-		text-align: left;
 		margin-left: 0;
 	}
 
 	.left & {
 		margin: ($unit / 2) 0 ($unit * 0.75);
-		text-align: center;
 
 		@include at-query($one) {
 			margin-bottom: ($unit * 1.5);
 		}
 	}
 
+	&.hero {
+		@include at-query($two) {
+			text-align: left;			
+		}
+	}
+
 	&.inline {
 		margin: ($unit / 2) 0 ($unit * 1.5);
-		text-align: center;
 
 		@include at-query($two) {
-			margin: 0 0 30px;
+			margin-top: 0;
 			padding: 0;
 			text-align: right;
 		}
@@ -334,38 +337,33 @@ figcaption {
 
 hr {
 	border: 0;
-	border-bottom: 1px solid #DBDBDB;
-	margin: 20px auto;
+	border-bottom: 1px solid $colorLines;
+	margin: $unit auto;
 
 	@include at-query($two) {
-		margin: 50px auto;
+		margin: ($unit * 2.5) auto;
 	}
 }
 
 hr.small {
-	width: 80px;
+	width: ($unit * 4);
 }
 
 /*------------------------------------*\
     #Basics
 \*------------------------------------*/
 
-ul, ol {
-	margin: 0 0 $unit;
-	padding: 0;
-}
-
 .list--nobullet {
 	list-style-type: none;
 }
 
 .list--inline {
-  list-style-type: none;
+	list-style-type: none;
 
-  li {
-  	display: inline-block;
-  	margin-bottom: 0;
-  }
+	li {
+		display: inline-block;
+		margin-bottom: 0;
+	}
 }
 
 .btn {
