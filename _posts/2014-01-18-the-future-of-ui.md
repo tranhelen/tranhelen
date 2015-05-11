@@ -215,10 +215,16 @@ hero_caption: Minority Report (2002)
 		
 		<p><a href="http://www.codecademy.com/">Codecademy</a> encourages users not to shy away from development. Instead of leaving us with just their motto and brief description, they start a conversation asking potential students simple questions. This is a subtle yet effective way to teach users how to use their interface.</p>
 
-		<figure class="left">
-			<img src="/img/post/01-11fantastical.jpg">
-			<figcaption>Fantastical’s smart user input</figcaption>
-		</figure>
+		<div class="grid grid--center">
+			<div class="grid__item push--one-quarter one-half">
+
+				<figure class="left">
+					<img src="/img/post/01-11fantastical.jpg">
+					<figcaption>Fantastical’s smart user input</figcaption>
+				</figure>
+
+			</div>
+		</div>
 
 		<p><a href="http://flexibits.com/fantastical-iphone">Fantastical</a> eliminates the tedious task of inputting meta data associated with your events by providing a smart input which automatically translates your conversational sentences into an event. Keeping organized is no longer a chore.</p>
 		

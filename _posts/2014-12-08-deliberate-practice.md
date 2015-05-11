@@ -46,7 +46,6 @@ hero_caption: Pixar's Short; Geri's Game
 
 		<p><strong>Caveat</strong>: this approach of serious study may not work for some. It requires an enormous amount of self-motivation, discipline and consistency. Thankfully, there is some lenience. Deliberate practice is more of a marathon than a sprint so you can avoid burn-out easily while expanding your knowledge.</p>
 
-		<hr class="small">
 	</div>	
 </div>
 

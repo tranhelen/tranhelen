@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: em(48px);
-	line-height: em(20px);
+	line-height: em(18px);
 
 	.tagpage & {
 		text-align: center;
@@ -103,7 +103,6 @@ h1 {
 
 	@include at-query($three) {
 		font-size: em(72px);
-		line-height: em(18px);
 	}	
 }
 
@@ -200,6 +199,10 @@ ul li {
 	.subpage-simple & {
 		font-size: em(20px);
 	}
+
+	&.footnote {
+		font-size: em(14px);
+	}
 }
 
 ol li,
@@ -250,10 +253,10 @@ blockquote.large {
 }
 
 figure {
-	margin: ($unit / 2) 0 $unit;
+	margin: ($unit * 0.75) (-$unit) 0;
 
 	@include at-query($one) {
-		margin: ($unit / 2) (-$unit * 2) $unit;
+		margin: $unit (-$unit * 2.5) 0;
 	}
 
 	@include at-query($two) {
@@ -262,27 +265,29 @@ figure {
 }
 
 figure.hero {
+	margin-top: 0;
+
+	@include at-query($one) {
+		margin-top: $unit;
+		margin-bottom: $unit;
+	}
+
 	@include at-query($two) {
 		margin: 0;
 	}
 }
 
 figure.left {
-	margin: 25px -20px 15px;
-
-	figcaption {
-		margin: 10px 0 0;
-		text-align: center;
-	}
+	margin-top: $unit * 1.5;
 
 	@include at-query($one) {
 		margin: 35px -50px 15px;
 	}
 
 	@include at-query($two) {
-	  margin: 10px 0;
-	  float: left;
-	  margin-right: 50px;
+		margin: 10px 0;
+		float: left;
+		margin-right: 50px;
 	}
 }
 
@@ -305,17 +310,25 @@ figcaption {
 		text-align: left;
 		margin-left: 0;
 	}
-}
 
-figcaption.inline {
-	margin-top: 0;
-	margin-bottom: 15px;
-	text-align: center;
+	.left & {
+		margin: ($unit / 2) 0 ($unit * 0.75);
+		text-align: center;
 
-	@include at-query($two) {
-		margin: 0 0 30px;
-		padding: 0;
-		text-align: right;
+		@include at-query($one) {
+			margin-bottom: ($unit * 1.5);
+		}
+	}
+
+	&.inline {
+		margin: ($unit / 2) 0 ($unit * 1.5);
+		text-align: center;
+
+		@include at-query($two) {
+			margin: 0 0 30px;
+			padding: 0;
+			text-align: right;
+		}
 	}
 }
 
@@ -577,10 +590,6 @@ ul, ol {
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
-
-.footnote {
-	font-size: em(14px);
-}
 
 .page-nav-cond,
 .page-nav-ex {
