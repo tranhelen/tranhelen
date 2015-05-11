@@ -1,7 +1,8 @@
 ---
-layout: subpage-simple-thisiswater
+layout: subpage-simple
 tag: life
 title: This is Water
+special_css: thisiswater
 ---
 
 <div class="grid grid--full">

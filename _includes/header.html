@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
@@ -12,7 +13,11 @@
             <meta http-equiv="refresh" content="4; url=/">
         {% endif %}
         
-        <link rel="stylesheet" href="/css/theme/style.css">
+        {% if page.special_css == "thisiswater" %}
+            <link rel="stylesheet" href="/css/theme/style-thisiswater.css">
+        {% else %}
+            <link rel="stylesheet" href="/css/theme/style.css">
+        {% endif %}
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="//use.typekit.net/wdc5mpn.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
