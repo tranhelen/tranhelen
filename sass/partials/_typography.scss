@@ -1,0 +1,284 @@
+/*------------------------------------*\
+    #Typography
+\*------------------------------------*/
+
+body,
+html {
+	font-family: $stack1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $colorTextHeader;
+	font-family: $stack1;
+	font-weight: 600;
+	margin: 0 0 $unit;
+
+	.subpage-simple & {
+		text-align: center;
+	}
+}
+
+h1 {
+	font-size: em(48px);
+	line-height: em(18px);
+
+	.tagpage & {
+		text-align: center;
+	}
+
+	@include at-query($two) {
+		font-size: em(60px);
+
+		.tagpage & {
+			font-size: em(72px);
+			margin: 80px 0 40px;
+		}
+	}
+
+	@include at-query($three) {
+		font-size: em(72px);
+	}	
+}
+
+h2 {
+	font-size: em(30px);
+	line-height: em(20px);
+
+	@include at-query($two) {
+		.subpage &,
+		.subpage-simple & {
+			font-size: em(42px);
+		}
+	}
+}
+
+h3 {
+	font-size: em(28px);
+	line-height: em(20px);
+}
+
+h4 {
+	font-size: em(20px);
+	line-height: em(24px);
+
+	@include at-query($two) {
+		font-size: em(24px);
+	}
+}
+
+h5,
+h6 {
+	font-size: em(14px);
+	line-height: em(18px);
+	text-transform: uppercase;
+}
+
+.h1 { @extend h1; }
+.h2 { @extend h2; }
+.h3 { @extend h3; }
+.h4 { @extend h4; }
+.h5 { @extend h5; }
+.h6 { @extend h6; }
+
+.cover h1 {
+	font-family: $stack2;
+	font-style: italic;
+	font-weight: 900;
+	text-transform: lowercase;
+}
+
+.subpage,
+.subpage-simple {
+	h2 {
+		margin: ($unit * 1.5) 0 ($unit * 0.75);
+	}
+
+	h3 {
+		margin: ($unit * 2) 0 ($unit / 2);
+	}
+
+	h4 {
+		margin-top: $unit * 1.5;
+	}
+
+	@include at-query($two) {
+		h1 {
+			margin: ($unit * 4) 0 ($unit * 2);
+		}
+
+		h2 {
+			margin: ($unit * 3) 0 $unit;
+		}
+
+		h3 {
+			margin: ($unit * 2.5) 0 $unit;
+		}
+
+		h4 {
+			margin: ($unit * 2) 0 $unit;
+		}
+	}
+}
+
+p,
+ol li,
+ul li {
+	color: $colorTextBody;
+	font-family: $stack2;
+	font-size: em(18px);
+	line-height: em(26px);
+	margin: 0 0 15px;
+
+	.subpage &,
+	.subpage-simple & {
+		font-size: em(20px);
+	}
+
+	&.footnote {
+		font-size: em(14px);
+	}
+}
+
+ul, ol {
+	margin: 0 0 $unit;
+	padding: 0;
+
+	li {
+		margin: 0 0 ($unit / 2) $unit;
+	}
+}
+
+a {
+	color: $colorLink;
+	text-decoration: none;
+
+	&:hover {
+		color: lighten($colorLink,15%);
+	}
+
+	@include transition;
+}
+
+blockquote {
+	border-left: 3px solid $colorTextQuote;
+	font-style: italic;
+	margin: $unit 0;
+
+	p {
+		color: $colorTextQuote;
+		margin-left: 20px;
+	}
+
+	@include at-query($two) {
+		margin: ($unit * 2) 0;
+	}
+}
+
+blockquote.large {
+	border: 0;
+
+	p {
+		color: $colorTextHeader;
+		font-style: normal;
+		font-weight: bold;
+		margin-left: 0;
+		text-align: center;
+
+		@include at-query($two) {
+			font-size: em(28px);
+		}
+	}
+}
+
+figure {
+	margin: ($unit * 0.75) (-$unit) 0;
+
+	@include at-query($one) {
+		margin: $unit (-$unit * 2.5) 0;
+	}
+
+	@include at-query($two) {
+		margin: ($unit * 1.5) 0;
+	}
+}
+
+figure.hero {
+	margin-top: 0;
+
+	@include at-query($one) {
+		margin-top: $unit;
+		margin-bottom: $unit;
+	}
+
+	@include at-query($two) {
+		margin: 0;
+	}
+}
+
+figure.left {
+	margin-top: $unit * 1.5;
+
+	@include at-query($two) {
+		float: left;
+		margin: ($unit / 2) 0;
+		margin-right: ($unit * 2.5);
+	}
+}
+
+figure.sep {
+	margin: 20px -20px;
+
+	@include at-query($one) {
+		margin: 50px -50px;
+	}
+}
+
+figcaption {
+	color: #869D9A;
+	font-size: em(12px);
+	font-family: $stack1;
+	margin: 10px 20px 15px;
+	text-align: center;
+
+	@include at-query($two) {
+		margin-left: 0;
+	}
+
+	.left & {
+		margin: ($unit / 2) 0 ($unit * 0.75);
+
+		@include at-query($one) {
+			margin-bottom: ($unit * 1.5);
+		}
+	}
+
+	&.hero {
+		@include at-query($two) {
+			text-align: left;			
+		}
+	}
+
+	&.inline {
+		margin: ($unit / 2) 0 ($unit * 1.5);
+
+		@include at-query($two) {
+			margin-top: 0;
+			padding: 0;
+			text-align: right;
+		}
+	}
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid $colorLines;
+	margin: $unit auto;
+
+	@include at-query($two) {
+		margin: ($unit * 2.5) auto;
+	}
+}
+
+hr.small {
+	width: ($unit * 4);
+}

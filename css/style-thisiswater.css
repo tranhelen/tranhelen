@@ -1,12 +1,13 @@
 /*
-Error: File to import not found or unreadable: commons/icons.
+Error: File to import not found or unreadable: commons/mixins.
        Load paths:
          Compass::SpriteImporter
          /Users/tranhelen/Websites/tranhelen.github.io/sass
          /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets
          /Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets
-        on line 26 of /Users/tranhelen/Websites/tranhelen.github.io/sass/style-thisiswater.scss
+        on line 25 of /Users/tranhelen/Websites/tranhelen.github.io/sass/style-thisiswater.scss
 
+20:     #Imports & Variables
 21: \*------------------------------------*\/
 22: 
 23: @import "normalize";
@@ -17,10 +18,9 @@ Error: File to import not found or unreadable: commons/icons.
 28: 
 29: * {
 30: 	-webkit-box-sizing: border-box;
-31: 	   -moz-box-sizing: border-box;
 
 Backtrace:
-/Users/tranhelen/Websites/tranhelen.github.io/sass/style-thisiswater.scss:26
+/Users/tranhelen/Websites/tranhelen.github.io/sass/style-thisiswater.scss:25
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: commons/icons.\A        Load paths:\A          Compass::SpriteImporter\A          /Users/tranhelen/Websites/tranhelen.github.io/sass\A          /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets\A          /Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets\A         on line 26 of /Users/tranhelen/Websites/tranhelen.github.io/sass/style-thisiswater.scss\A \A 21: \*------------------------------------*/\A 22: \A 23: @import \"normalize\";\A 24: \A 25: @import \"commons/mixins\";\A 26: @import \"commons/icons\";\A 27: @import \"commons/grids\";\A 28: \A 29: * {\A 30: 	-webkit-box-sizing: border-box;\A 31: 	   -moz-box-sizing: border-box;"; }
+  content: "Error: File to import not found or unreadable: commons/mixins.\A        Load paths:\A          Compass::SpriteImporter\A          /Users/tranhelen/Websites/tranhelen.github.io/sass\A          /Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets\A          /Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets\A         on line 25 of /Users/tranhelen/Websites/tranhelen.github.io/sass/style-thisiswater.scss\A \A 20:     #Imports & Variables\A 21: \*------------------------------------*/\A 22: \A 23: @import \"normalize\";\A 24: \A 25: @import \"commons/mixins\";\A 26: @import \"commons/icons\";\A 27: @import \"commons/grids\";\A 28: \A 29: * {\A 30: 	-webkit-box-sizing: border-box;"; }
