@@ -16,15 +16,15 @@ hero_caption: Minority Report (2002)
 
 	</div>
 </div>
-<div class="grid">
-	<div class="grid__item push--one--one-quarter one--three-quarters">
+<div class="grid two--table">
+	<div class="grid__item push--one--one-quarter one--three-quarters two--table-cell">
 	
 		<figure>
 			<img src="/img/post/01-02thematrix.jpg">
 		</figure>
 	
 	</div>
-	<div class="grid__item pull--one--three-quarters one--one-quarter">
+	<div class="grid__item pull--one--three-quarters one--one-quarter two--table-cell two--table-bottom">
 
 		<figcaption class="inline">The Matrix (1999)</figcaption>
 	
@@ -72,15 +72,15 @@ hero_caption: Minority Report (2002)
 	</div>
 </div>
 
-<div class="grid">
-	<div class="grid__item push--one--one-quarter one--three-quarters">
+<div class="grid two--table">
+	<div class="grid__item push--one--one-quarter one--three-quarters two--table-cell">
 	
 		<figure>
 			<img src="/img/post/01-04journey.jpg">
 		</figure>
 	
 	</div>
-	<div class="grid__item pull--one--three-quarters one--one-quarter">
+	<div class="grid__item pull--one--three-quarters one--one-quarter two--table-cell two--table-bottom">
 
 		<figcaption class="inline">Journey (Thatgamecompany)</figcaption>
 	
@@ -97,15 +97,15 @@ hero_caption: Minority Report (2002)
 	</div>
 </div>
 
-<div class="grid">
-	<div class="grid__item push--one--one-quarter one--three-quarters">
+<div class="grid two--table">
+	<div class="grid__item push--one--one-quarter one--three-quarters two--table-cell">
 	
 		<figure>
 			<img src="/img/post/01-05apps.jpg">
 		</figure>
 	
 	</div>
-	<div class="grid__item pull--one--three-quarters one--one-quarter">
+	<div class="grid__item pull--one--three-quarters one--one-quarter two--table-cell two--table-bottom">
 
 		<figcaption class="inline">Clear (left), Duolingo (right)</figcaption>
 	
@@ -121,15 +121,15 @@ hero_caption: Minority Report (2002)
 	</div>
 </div>
 
-<div class="grid">
-	<div class="grid__item push--one--one-quarter one--three-quarters">
+<div class="grid two--table">
+	<div class="grid__item push--one--one-quarter one--three-quarters two--table-cell">
 	
 		<figure>
 			<img src="/img/post/01-06walle.jpg">
 		</figure>
 	
 	</div>
-	<div class="grid__item pull--one--three-quarters one--one-quarter">
+	<div class="grid__item pull--one--three-quarters one--one-quarter two--table-cell two--table-bottom">
 
 		<figcaption class="inline">Relating inanimate objects with human traits build emotional bonds that can last for days, months or even years</figcaption>
 	
@@ -191,15 +191,15 @@ hero_caption: Minority Report (2002)
 	</div>
 </div>
 
-<div class="grid">
-	<div class="grid__item push--one--one-quarter one--three-quarters">
+<div class="grid two--table">
+	<div class="grid__item push--one--one-quarter one--three-quarters two--table-cell">
 	
 		<figure>
 			<img src="/img/post/01-10codecademy.jpg">
 		</figure>
 	
 	</div>
-	<div class="grid__item pull--one--three-quarters one--one-quarter">
+	<div class="grid__item pull--one--three-quarters one--one-quarter two--table-cell two--table-bottom">
 
 		<figcaption class="inline">Codecademy’s conversational approach to education is approachable and unintimidating</figcaption>
 	
@@ -227,8 +227,8 @@ hero_caption: Minority Report (2002)
 	</div>
 </div>
 
-<div class="grid">
-	<div class="grid__item push--one--one-quarter one--three-quarters">
+<div class="grid two--table">
+	<div class="grid__item push--one--one-quarter one--three-quarters two--table-cell">
 	
 		<div class="grid grid--full">
 			<div class="grid__item push--zero--one-quarter zero--one-half">
@@ -239,9 +239,9 @@ hero_caption: Minority Report (2002)
 		</div>
 	
 	</div>
-	<div class="grid__item pull--one--three-quarters one--one-quarter">
+	<div class="grid__item pull--one--three-quarters one--one-quarter two--table-cell two--table-bottom">
 
-		<figcaption class="inline">Clear's discoverable copy inspires and serves as a small reward for a hard day's work<</figcaption>
+		<figcaption class="inline">Clear's discoverable copy inspires and serves as a small reward for a hard day's work</figcaption>
 	
 	</div>
 </div>
