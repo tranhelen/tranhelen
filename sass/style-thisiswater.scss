@@ -22,9 +22,8 @@
 
 @import "normalize";
 
-@import "commons/mixins";
-@import "commons/icons";
-@import "commons/grids";
+@import "modules/mixins";
+@import "vendor/grids";
 
 * {
 	-webkit-box-sizing: border-box;
