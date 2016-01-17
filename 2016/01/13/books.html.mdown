@@ -1,0 +1,120 @@
+    <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>46 books later</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        
+            <link rel="stylesheet" href="/css/theme/style.css">
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//use.typekit.net/wdc5mpn.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+    </head>
+
+    <body class="subpage-simple">
+
+            <header class="post-header">
+      	<div class="grid">
+	    	<div class="grid__item one-half">
+	    	    
+	      			<a href="/2016/01/13/books.html">&laquo; <span class="page-nav-cond">Previous</span><span class="page-nav-ex">46 books later</span></a>
+	      		
+	  		</div>
+	    	<div class="grid__item one-half text-right">
+		        
+	      	</div>
+       	</div>
+      </header>
+
+      <div class="subpage-body">
+        <h1>46 books later</h1>
+  
+        <div class="subpage-meta">
+          <p>This post is filed under <span class="h6"><a href="/tag/life" class="post-tag">life</a></span> • Published <span class="h6">January 2016</span>
+          </p>
+        </div>
+        
+        <p>In 2015 I told myself I would read more. So, I did just that and read 46 books. 46 wasn't my goal. I just said <i>more</i> and 46 is definitely <i>more</i>. Personally, I'm a big fan of resolutions that aren't tied to specific timelines or numbers. They lessen the pressure for me as I tend to ruin things for myself if I'm trying to achieve something specific.</p>
+
+<h2>The Best, the Okay and the Worst</h2>
+
+<p><b>The Systems Bible</b>
+
+"quote"
+
+That's how the book <i>starts.</i> If you're into nihilistic humour or you're Russian, buy this book now and never look back.</p>
+
+<p><b>Creativity, Inc</b>
+
+There are not many books which feel like they give you an accurate view of what it's like inside one of the world's most creative companies. This one does. Ed's advice on management is also a must for anyone in a leadership role.</p>
+
+<p><b>Moonwalking with Einstein</b>
+
+A well-written and true story about a guy who infiltrates the not-so-secret society of those who memorize cards and other pointless things.</p>
+
+<p><b>The Art of Asking</b>
+
+Sometimes books come to you during a time in your life in which you need them. This was this book for me, and it changed the way I thought about relationships and made me a forever fan of her thoughtful yet scattered writing. In the audiobook, she sings to you.</p>
+
+<p><b>Water for Elephants</b>
+
+I'm a hopeless romantic. I don't have to justify this one.</p>
+
+<p><b>Dataclysm</b>
+
+Christian Rudder takes you through some of the data behind OkCupid and other datasets. Sometimes he tells you stories. It's mostly fascinating, sometimes depressing if you're single.</p>
+
+<h3>The Full List</h3>
+
+<p>Books highlighted in green were worth the read and I recommend. Books highlighted in orange are books I wish I never read. Books highlighted in red are books I gave up on because life is too short.</p>
+
+<h2>How to Read</h2>
+
+<ul>
+	<li><b>Read only the books you want to read.</b> This seems like good advice in general, but not many people follow it. If a book you're reading makes you want to stop reading, then do so. Let's say you're an avid reader and read 52 books a year. Let's say you've got a spring in your step and you will live another 50 years. That's only time for 2500 books. There are millions out there. Make your choices count.</li>
+
+	<li><b>Read or listen to books.</b>
+	I've read some. I've listened to others. I prefer audiobooks in gneeral because I can do things with my hands. But, there's nothing else like new book smell. Don't be stuck to the formatting if it's less interesting or less convienant.</li>
+
+	<li><b>Read both non-fiction and fiction.</b>
+	I find that variety keeps my passion for reading strong. If I'm reading a lot of heavy books with lots of data, reading a lighter one in between with a fictional story becomes even more fun.</li>
+
+	<li><b>Read that guy's other book.</b>
+	Notice you like someone's voice? Great! Read their other book. You'll start finding authors who appeal to readers of these books and suddenly you're no longer in shortage of books to read. <i>There are literally thousands of books</i> written for people like you.</li>
+</ul>
+      </div>
+
+      <footer class="post-footer">
+        <div class="grid">
+          <div class="grid__item one-quarter">
+            <a href="/" class="btn">Home</a>
+          </div>
+          <div class="grid__item three-quarters text-right">
+            <a href="http://twitter.com/tranhelen" class="btn twitter"><span class="byline">Follow</span> @tranhelen</a>
+          </div>
+        </div>
+      </footer>
+
+    </body>
+        <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56289581-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="/js/track.js"></script>
+    <script src="/js/animations.js"></script>
+
+</html>
