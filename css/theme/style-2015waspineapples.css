@@ -2878,7 +2878,7 @@ html {
 
 /* line 10, ../../sass/partials/_typography.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  color: #fff;
+  color: #70440E;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   margin: 0 0 20px;
@@ -2955,7 +2955,7 @@ h6,
 .cover h5, .cover .h5, .cover
 h6, .cover
 .h6 {
-  color: #E9EFF4;
+  color: #413416;
 }
 /* line 79, ../../sass/partials/_typography.scss */
 .subpage-meta h5, .subpage-meta .h5, .subpage-meta
@@ -3021,7 +3021,7 @@ h6, .subpage-meta
 p,
 ol li,
 ul li {
-  color: #E9EFF4;
+  color: #413416;
   font-family: "utopia-std", Georgia, Times, Times New Roman, serif;
   font-size: 1.25em;
   line-height: 1.75em;
@@ -3050,7 +3050,7 @@ ul li.footnote {
 
 /* line 154, ../../sass/partials/_typography.scss */
 .subpage-meta p {
-  color: #83a5c1;
+  color: black;
   font-size: 0.75em;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 2em;
@@ -3104,7 +3104,7 @@ blockquote.large {
 }
 /* line 199, ../../sass/partials/_typography.scss */
 blockquote.large p {
-  color: #fff;
+  color: #70440E;
   font-style: normal;
   margin-left: 0;
   text-align: center;
@@ -3306,7 +3306,7 @@ a:hover .page-nav-cond, a:hover
 /* line 52, ../../sass/partials/_subpage.scss */
 .subpage,
 .subpage-simple {
-  background-color: #167BDA;
+  background-color: #FFD800;
 }
 /* line 56, ../../sass/partials/_subpage.scss */
 .subpage img,
