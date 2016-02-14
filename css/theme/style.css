@@ -2350,7 +2350,7 @@ hr.small {
 @media screen and (min-width: 560px) {
   /* line 47, ../../sass/partials/_homepage.scss */
   .bio--hide {
-    display: block;
+    display: block !important;
   }
 }
 
