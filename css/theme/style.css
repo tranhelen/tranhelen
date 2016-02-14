@@ -18,7 +18,6 @@
 /* Main */
 /* Text */
 /* Links */
-/* Homepage Cover */
 /* Post Related */
 /* Other */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
@@ -378,7 +377,7 @@ th {
  * 2. Remove any margins and paddings that might affect the grid system.
  * 3. Apply a negative `margin-left` to negate the columns’ gutters.
  */
-/* line 173, ../../sass/vendor/_grids.scss */
+/* line 171, ../../sass/vendor/_grids.scss */
 .grid {
   list-style: none;
   /* [1] */
@@ -406,7 +405,7 @@ th {
  * 4. Full-width unless told to behave otherwise.
  * 5. Required to combine fluid widths and fixed gutters.
  */
-/* line 200, ../../sass/vendor/_grids.scss */
+/* line 198, ../../sass/vendor/_grids.scss */
 .grid__item {
   display: block;
   float: left;
@@ -428,12 +427,12 @@ th {
  * Reversed grids allow you to structure your source in the opposite order to
  * how your rendered layout will appear. Extends `.grid`.
  */
-/* line 222, ../../sass/vendor/_grids.scss */
+/* line 220, ../../sass/vendor/_grids.scss */
 .grid--rev {
   direction: rtl;
   text-align: left;
 }
-/* line 226, ../../sass/vendor/_grids.scss */
+/* line 224, ../../sass/vendor/_grids.scss */
 .grid--rev > .grid__item {
   direction: ltr;
   text-align: left;
@@ -452,11 +451,11 @@ th {
  * Gutterless grids have all the properties of regular grids, minus any spacing.
  * Extends `.grid`.
  */
-/* line 239, ../../sass/vendor/_grids.scss */
+/* line 237, ../../sass/vendor/_grids.scss */
 .grid--full {
   margin-left: 0;
 }
-/* line 242, ../../sass/vendor/_grids.scss */
+/* line 240, ../../sass/vendor/_grids.scss */
 .grid--full > .grid__item {
   padding-left: 0;
 }
@@ -482,7 +481,7 @@ th {
 /**
  * Whole
  */
-/* line 263, ../../sass/vendor/_grids.scss */
+/* line 261, ../../sass/vendor/_grids.scss */
 .one-whole {
   width: 100%;
 }
@@ -490,7 +489,7 @@ th {
 /**
  * Halves
  */
-/* line 269, ../../sass/vendor/_grids.scss */
+/* line 267, ../../sass/vendor/_grids.scss */
 .one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
   width: 50%;
 }
@@ -498,12 +497,12 @@ th {
 /**
  * Thirds
  */
-/* line 275, ../../sass/vendor/_grids.scss */
+/* line 273, ../../sass/vendor/_grids.scss */
 .one-third, .two-sixths, .four-twelfths {
   width: 33.333%;
 }
 
-/* line 276, ../../sass/vendor/_grids.scss */
+/* line 274, ../../sass/vendor/_grids.scss */
 .two-thirds, .four-sixths, .eight-twelfths {
   width: 66.666%;
 }
@@ -511,12 +510,12 @@ th {
 /**
  * Quarters
  */
-/* line 282, ../../sass/vendor/_grids.scss */
+/* line 280, ../../sass/vendor/_grids.scss */
 .one-quarter, .two-eighths, .three-twelfths {
   width: 25%;
 }
 
-/* line 284, ../../sass/vendor/_grids.scss */
+/* line 282, ../../sass/vendor/_grids.scss */
 .three-quarters, .six-eighths, .nine-twelfths {
   width: 75%;
 }
@@ -524,22 +523,22 @@ th {
 /**
  * Fifths
  */
-/* line 290, ../../sass/vendor/_grids.scss */
+/* line 288, ../../sass/vendor/_grids.scss */
 .one-fifth, .two-tenths {
   width: 20%;
 }
 
-/* line 291, ../../sass/vendor/_grids.scss */
+/* line 289, ../../sass/vendor/_grids.scss */
 .two-fifths, .four-tenths {
   width: 40%;
 }
 
-/* line 292, ../../sass/vendor/_grids.scss */
+/* line 290, ../../sass/vendor/_grids.scss */
 .three-fifths, .six-tenths {
   width: 60%;
 }
 
-/* line 293, ../../sass/vendor/_grids.scss */
+/* line 291, ../../sass/vendor/_grids.scss */
 .four-fifths, .eight-tenths {
   width: 80%;
 }
@@ -547,12 +546,12 @@ th {
 /**
  * Sixths
  */
-/* line 299, ../../sass/vendor/_grids.scss */
+/* line 297, ../../sass/vendor/_grids.scss */
 .one-sixth, .two-twelfths {
   width: 16.666%;
 }
 
-/* line 303, ../../sass/vendor/_grids.scss */
+/* line 301, ../../sass/vendor/_grids.scss */
 .five-sixths, .ten-twelfths {
   width: 83.333%;
 }
@@ -560,22 +559,22 @@ th {
 /**
  * Eighths
  */
-/* line 309, ../../sass/vendor/_grids.scss */
+/* line 307, ../../sass/vendor/_grids.scss */
 .one-eighth {
   width: 12.5%;
 }
 
-/* line 311, ../../sass/vendor/_grids.scss */
+/* line 309, ../../sass/vendor/_grids.scss */
 .three-eighths {
   width: 37.5%;
 }
 
-/* line 313, ../../sass/vendor/_grids.scss */
+/* line 311, ../../sass/vendor/_grids.scss */
 .five-eighths {
   width: 62.5%;
 }
 
-/* line 315, ../../sass/vendor/_grids.scss */
+/* line 313, ../../sass/vendor/_grids.scss */
 .seven-eighths {
   width: 87.5%;
 }
@@ -583,22 +582,22 @@ th {
 /**
  * Tenths
  */
-/* line 321, ../../sass/vendor/_grids.scss */
+/* line 319, ../../sass/vendor/_grids.scss */
 .one-tenth {
   width: 10%;
 }
 
-/* line 323, ../../sass/vendor/_grids.scss */
+/* line 321, ../../sass/vendor/_grids.scss */
 .three-tenths {
   width: 30%;
 }
 
-/* line 327, ../../sass/vendor/_grids.scss */
+/* line 325, ../../sass/vendor/_grids.scss */
 .seven-tenths {
   width: 70%;
 }
 
-/* line 329, ../../sass/vendor/_grids.scss */
+/* line 327, ../../sass/vendor/_grids.scss */
 .nine-tenths {
   width: 90%;
 }
@@ -606,22 +605,22 @@ th {
 /**
  * Twelfths
  */
-/* line 335, ../../sass/vendor/_grids.scss */
+/* line 333, ../../sass/vendor/_grids.scss */
 .one-twelfth {
   width: 8.333%;
 }
 
-/* line 339, ../../sass/vendor/_grids.scss */
+/* line 337, ../../sass/vendor/_grids.scss */
 .five-twelfths {
   width: 41.666%;
 }
 
-/* line 341, ../../sass/vendor/_grids.scss */
+/* line 339, ../../sass/vendor/_grids.scss */
 .seven-twelfths {
   width: 58.333%;
 }
 
-/* line 345, ../../sass/vendor/_grids.scss */
+/* line 343, ../../sass/vendor/_grids.scss */
 .eleven-twelfths {
   width: 91.666%;
 }
@@ -633,155 +632,7 @@ th {
   /**
    * Whole
    */
-  /* line 263, ../../sass/vendor/_grids.scss */
-  .zero--one-whole {
-    width: 100%;
-  }
-
-  /**
-   * Halves
-   */
-  /* line 269, ../../sass/vendor/_grids.scss */
-  .zero--one-half, .zero--two-quarters, .zero--three-sixths, .zero--four-eighths, .zero--five-tenths, .zero--six-twelfths {
-    width: 50%;
-  }
-
-  /**
-   * Thirds
-   */
-  /* line 275, ../../sass/vendor/_grids.scss */
-  .zero--one-third, .zero--two-sixths, .zero--four-twelfths {
-    width: 33.333%;
-  }
-
-  /* line 276, ../../sass/vendor/_grids.scss */
-  .zero--two-thirds, .zero--four-sixths, .zero--eight-twelfths {
-    width: 66.666%;
-  }
-
-  /**
-   * Quarters
-   */
-  /* line 282, ../../sass/vendor/_grids.scss */
-  .zero--one-quarter, .zero--two-eighths, .zero--three-twelfths {
-    width: 25%;
-  }
-
-  /* line 284, ../../sass/vendor/_grids.scss */
-  .zero--three-quarters, .zero--six-eighths, .zero--nine-twelfths {
-    width: 75%;
-  }
-
-  /**
-   * Fifths
-   */
-  /* line 290, ../../sass/vendor/_grids.scss */
-  .zero--one-fifth, .zero--two-tenths {
-    width: 20%;
-  }
-
-  /* line 291, ../../sass/vendor/_grids.scss */
-  .zero--two-fifths, .zero--four-tenths {
-    width: 40%;
-  }
-
-  /* line 292, ../../sass/vendor/_grids.scss */
-  .zero--three-fifths, .zero--six-tenths {
-    width: 60%;
-  }
-
-  /* line 293, ../../sass/vendor/_grids.scss */
-  .zero--four-fifths, .zero--eight-tenths {
-    width: 80%;
-  }
-
-  /**
-   * Sixths
-   */
-  /* line 299, ../../sass/vendor/_grids.scss */
-  .zero--one-sixth, .zero--two-twelfths {
-    width: 16.666%;
-  }
-
-  /* line 303, ../../sass/vendor/_grids.scss */
-  .zero--five-sixths, .zero--ten-twelfths {
-    width: 83.333%;
-  }
-
-  /**
-   * Eighths
-   */
-  /* line 309, ../../sass/vendor/_grids.scss */
-  .zero--one-eighth {
-    width: 12.5%;
-  }
-
-  /* line 311, ../../sass/vendor/_grids.scss */
-  .zero--three-eighths {
-    width: 37.5%;
-  }
-
-  /* line 313, ../../sass/vendor/_grids.scss */
-  .zero--five-eighths {
-    width: 62.5%;
-  }
-
-  /* line 315, ../../sass/vendor/_grids.scss */
-  .zero--seven-eighths {
-    width: 87.5%;
-  }
-
-  /**
-   * Tenths
-   */
-  /* line 321, ../../sass/vendor/_grids.scss */
-  .zero--one-tenth {
-    width: 10%;
-  }
-
-  /* line 323, ../../sass/vendor/_grids.scss */
-  .zero--three-tenths {
-    width: 30%;
-  }
-
-  /* line 327, ../../sass/vendor/_grids.scss */
-  .zero--seven-tenths {
-    width: 70%;
-  }
-
-  /* line 329, ../../sass/vendor/_grids.scss */
-  .zero--nine-tenths {
-    width: 90%;
-  }
-
-  /**
-   * Twelfths
-   */
-  /* line 335, ../../sass/vendor/_grids.scss */
-  .zero--one-twelfth {
-    width: 8.333%;
-  }
-
-  /* line 339, ../../sass/vendor/_grids.scss */
-  .zero--five-twelfths {
-    width: 41.666%;
-  }
-
-  /* line 341, ../../sass/vendor/_grids.scss */
-  .zero--seven-twelfths {
-    width: 58.333%;
-  }
-
-  /* line 345, ../../sass/vendor/_grids.scss */
-  .zero--eleven-twelfths {
-    width: 91.666%;
-  }
-}
-@media only screen and (min-width: 840px) {
-  /**
-   * Whole
-   */
-  /* line 263, ../../sass/vendor/_grids.scss */
+  /* line 261, ../../sass/vendor/_grids.scss */
   .one--one-whole {
     width: 100%;
   }
@@ -789,7 +640,7 @@ th {
   /**
    * Halves
    */
-  /* line 269, ../../sass/vendor/_grids.scss */
+  /* line 267, ../../sass/vendor/_grids.scss */
   .one--one-half, .one--two-quarters, .one--three-sixths, .one--four-eighths, .one--five-tenths, .one--six-twelfths {
     width: 50%;
   }
@@ -797,12 +648,12 @@ th {
   /**
    * Thirds
    */
-  /* line 275, ../../sass/vendor/_grids.scss */
+  /* line 273, ../../sass/vendor/_grids.scss */
   .one--one-third, .one--two-sixths, .one--four-twelfths {
     width: 33.333%;
   }
 
-  /* line 276, ../../sass/vendor/_grids.scss */
+  /* line 274, ../../sass/vendor/_grids.scss */
   .one--two-thirds, .one--four-sixths, .one--eight-twelfths {
     width: 66.666%;
   }
@@ -810,12 +661,12 @@ th {
   /**
    * Quarters
    */
-  /* line 282, ../../sass/vendor/_grids.scss */
+  /* line 280, ../../sass/vendor/_grids.scss */
   .one--one-quarter, .one--two-eighths, .one--three-twelfths {
     width: 25%;
   }
 
-  /* line 284, ../../sass/vendor/_grids.scss */
+  /* line 282, ../../sass/vendor/_grids.scss */
   .one--three-quarters, .one--six-eighths, .one--nine-twelfths {
     width: 75%;
   }
@@ -823,22 +674,22 @@ th {
   /**
    * Fifths
    */
-  /* line 290, ../../sass/vendor/_grids.scss */
+  /* line 288, ../../sass/vendor/_grids.scss */
   .one--one-fifth, .one--two-tenths {
     width: 20%;
   }
 
-  /* line 291, ../../sass/vendor/_grids.scss */
+  /* line 289, ../../sass/vendor/_grids.scss */
   .one--two-fifths, .one--four-tenths {
     width: 40%;
   }
 
-  /* line 292, ../../sass/vendor/_grids.scss */
+  /* line 290, ../../sass/vendor/_grids.scss */
   .one--three-fifths, .one--six-tenths {
     width: 60%;
   }
 
-  /* line 293, ../../sass/vendor/_grids.scss */
+  /* line 291, ../../sass/vendor/_grids.scss */
   .one--four-fifths, .one--eight-tenths {
     width: 80%;
   }
@@ -846,12 +697,12 @@ th {
   /**
    * Sixths
    */
-  /* line 299, ../../sass/vendor/_grids.scss */
+  /* line 297, ../../sass/vendor/_grids.scss */
   .one--one-sixth, .one--two-twelfths {
     width: 16.666%;
   }
 
-  /* line 303, ../../sass/vendor/_grids.scss */
+  /* line 301, ../../sass/vendor/_grids.scss */
   .one--five-sixths, .one--ten-twelfths {
     width: 83.333%;
   }
@@ -859,22 +710,22 @@ th {
   /**
    * Eighths
    */
-  /* line 309, ../../sass/vendor/_grids.scss */
+  /* line 307, ../../sass/vendor/_grids.scss */
   .one--one-eighth {
     width: 12.5%;
   }
 
-  /* line 311, ../../sass/vendor/_grids.scss */
+  /* line 309, ../../sass/vendor/_grids.scss */
   .one--three-eighths {
     width: 37.5%;
   }
 
-  /* line 313, ../../sass/vendor/_grids.scss */
+  /* line 311, ../../sass/vendor/_grids.scss */
   .one--five-eighths {
     width: 62.5%;
   }
 
-  /* line 315, ../../sass/vendor/_grids.scss */
+  /* line 313, ../../sass/vendor/_grids.scss */
   .one--seven-eighths {
     width: 87.5%;
   }
@@ -882,22 +733,22 @@ th {
   /**
    * Tenths
    */
-  /* line 321, ../../sass/vendor/_grids.scss */
+  /* line 319, ../../sass/vendor/_grids.scss */
   .one--one-tenth {
     width: 10%;
   }
 
-  /* line 323, ../../sass/vendor/_grids.scss */
+  /* line 321, ../../sass/vendor/_grids.scss */
   .one--three-tenths {
     width: 30%;
   }
 
-  /* line 327, ../../sass/vendor/_grids.scss */
+  /* line 325, ../../sass/vendor/_grids.scss */
   .one--seven-tenths {
     width: 70%;
   }
 
-  /* line 329, ../../sass/vendor/_grids.scss */
+  /* line 327, ../../sass/vendor/_grids.scss */
   .one--nine-tenths {
     width: 90%;
   }
@@ -905,31 +756,31 @@ th {
   /**
    * Twelfths
    */
-  /* line 335, ../../sass/vendor/_grids.scss */
+  /* line 333, ../../sass/vendor/_grids.scss */
   .one--one-twelfth {
     width: 8.333%;
   }
 
-  /* line 339, ../../sass/vendor/_grids.scss */
+  /* line 337, ../../sass/vendor/_grids.scss */
   .one--five-twelfths {
     width: 41.666%;
   }
 
-  /* line 341, ../../sass/vendor/_grids.scss */
+  /* line 339, ../../sass/vendor/_grids.scss */
   .one--seven-twelfths {
     width: 58.333%;
   }
 
-  /* line 345, ../../sass/vendor/_grids.scss */
+  /* line 343, ../../sass/vendor/_grids.scss */
   .one--eleven-twelfths {
     width: 91.666%;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1130px) {
   /**
    * Whole
    */
-  /* line 263, ../../sass/vendor/_grids.scss */
+  /* line 261, ../../sass/vendor/_grids.scss */
   .two--one-whole {
     width: 100%;
   }
@@ -937,7 +788,7 @@ th {
   /**
    * Halves
    */
-  /* line 269, ../../sass/vendor/_grids.scss */
+  /* line 267, ../../sass/vendor/_grids.scss */
   .two--one-half, .two--two-quarters, .two--three-sixths, .two--four-eighths, .two--five-tenths, .two--six-twelfths {
     width: 50%;
   }
@@ -945,12 +796,12 @@ th {
   /**
    * Thirds
    */
-  /* line 275, ../../sass/vendor/_grids.scss */
+  /* line 273, ../../sass/vendor/_grids.scss */
   .two--one-third, .two--two-sixths, .two--four-twelfths {
     width: 33.333%;
   }
 
-  /* line 276, ../../sass/vendor/_grids.scss */
+  /* line 274, ../../sass/vendor/_grids.scss */
   .two--two-thirds, .two--four-sixths, .two--eight-twelfths {
     width: 66.666%;
   }
@@ -958,12 +809,12 @@ th {
   /**
    * Quarters
    */
-  /* line 282, ../../sass/vendor/_grids.scss */
+  /* line 280, ../../sass/vendor/_grids.scss */
   .two--one-quarter, .two--two-eighths, .two--three-twelfths {
     width: 25%;
   }
 
-  /* line 284, ../../sass/vendor/_grids.scss */
+  /* line 282, ../../sass/vendor/_grids.scss */
   .two--three-quarters, .two--six-eighths, .two--nine-twelfths {
     width: 75%;
   }
@@ -971,22 +822,22 @@ th {
   /**
    * Fifths
    */
-  /* line 290, ../../sass/vendor/_grids.scss */
+  /* line 288, ../../sass/vendor/_grids.scss */
   .two--one-fifth, .two--two-tenths {
     width: 20%;
   }
 
-  /* line 291, ../../sass/vendor/_grids.scss */
+  /* line 289, ../../sass/vendor/_grids.scss */
   .two--two-fifths, .two--four-tenths {
     width: 40%;
   }
 
-  /* line 292, ../../sass/vendor/_grids.scss */
+  /* line 290, ../../sass/vendor/_grids.scss */
   .two--three-fifths, .two--six-tenths {
     width: 60%;
   }
 
-  /* line 293, ../../sass/vendor/_grids.scss */
+  /* line 291, ../../sass/vendor/_grids.scss */
   .two--four-fifths, .two--eight-tenths {
     width: 80%;
   }
@@ -994,12 +845,12 @@ th {
   /**
    * Sixths
    */
-  /* line 299, ../../sass/vendor/_grids.scss */
+  /* line 297, ../../sass/vendor/_grids.scss */
   .two--one-sixth, .two--two-twelfths {
     width: 16.666%;
   }
 
-  /* line 303, ../../sass/vendor/_grids.scss */
+  /* line 301, ../../sass/vendor/_grids.scss */
   .two--five-sixths, .two--ten-twelfths {
     width: 83.333%;
   }
@@ -1007,22 +858,22 @@ th {
   /**
    * Eighths
    */
-  /* line 309, ../../sass/vendor/_grids.scss */
+  /* line 307, ../../sass/vendor/_grids.scss */
   .two--one-eighth {
     width: 12.5%;
   }
 
-  /* line 311, ../../sass/vendor/_grids.scss */
+  /* line 309, ../../sass/vendor/_grids.scss */
   .two--three-eighths {
     width: 37.5%;
   }
 
-  /* line 313, ../../sass/vendor/_grids.scss */
+  /* line 311, ../../sass/vendor/_grids.scss */
   .two--five-eighths {
     width: 62.5%;
   }
 
-  /* line 315, ../../sass/vendor/_grids.scss */
+  /* line 313, ../../sass/vendor/_grids.scss */
   .two--seven-eighths {
     width: 87.5%;
   }
@@ -1030,22 +881,22 @@ th {
   /**
    * Tenths
    */
-  /* line 321, ../../sass/vendor/_grids.scss */
+  /* line 319, ../../sass/vendor/_grids.scss */
   .two--one-tenth {
     width: 10%;
   }
 
-  /* line 323, ../../sass/vendor/_grids.scss */
+  /* line 321, ../../sass/vendor/_grids.scss */
   .two--three-tenths {
     width: 30%;
   }
 
-  /* line 327, ../../sass/vendor/_grids.scss */
+  /* line 325, ../../sass/vendor/_grids.scss */
   .two--seven-tenths {
     width: 70%;
   }
 
-  /* line 329, ../../sass/vendor/_grids.scss */
+  /* line 327, ../../sass/vendor/_grids.scss */
   .two--nine-tenths {
     width: 90%;
   }
@@ -1053,171 +904,23 @@ th {
   /**
    * Twelfths
    */
-  /* line 335, ../../sass/vendor/_grids.scss */
+  /* line 333, ../../sass/vendor/_grids.scss */
   .two--one-twelfth {
     width: 8.333%;
   }
 
-  /* line 339, ../../sass/vendor/_grids.scss */
+  /* line 337, ../../sass/vendor/_grids.scss */
   .two--five-twelfths {
     width: 41.666%;
   }
 
-  /* line 341, ../../sass/vendor/_grids.scss */
+  /* line 339, ../../sass/vendor/_grids.scss */
   .two--seven-twelfths {
     width: 58.333%;
   }
 
-  /* line 345, ../../sass/vendor/_grids.scss */
+  /* line 343, ../../sass/vendor/_grids.scss */
   .two--eleven-twelfths {
-    width: 91.666%;
-  }
-}
-@media only screen and (min-width: 1100px) {
-  /**
-   * Whole
-   */
-  /* line 263, ../../sass/vendor/_grids.scss */
-  .three--one-whole {
-    width: 100%;
-  }
-
-  /**
-   * Halves
-   */
-  /* line 269, ../../sass/vendor/_grids.scss */
-  .three--one-half, .three--two-quarters, .three--three-sixths, .three--four-eighths, .three--five-tenths, .three--six-twelfths {
-    width: 50%;
-  }
-
-  /**
-   * Thirds
-   */
-  /* line 275, ../../sass/vendor/_grids.scss */
-  .three--one-third, .three--two-sixths, .three--four-twelfths {
-    width: 33.333%;
-  }
-
-  /* line 276, ../../sass/vendor/_grids.scss */
-  .three--two-thirds, .three--four-sixths, .three--eight-twelfths {
-    width: 66.666%;
-  }
-
-  /**
-   * Quarters
-   */
-  /* line 282, ../../sass/vendor/_grids.scss */
-  .three--one-quarter, .three--two-eighths, .three--three-twelfths {
-    width: 25%;
-  }
-
-  /* line 284, ../../sass/vendor/_grids.scss */
-  .three--three-quarters, .three--six-eighths, .three--nine-twelfths {
-    width: 75%;
-  }
-
-  /**
-   * Fifths
-   */
-  /* line 290, ../../sass/vendor/_grids.scss */
-  .three--one-fifth, .three--two-tenths {
-    width: 20%;
-  }
-
-  /* line 291, ../../sass/vendor/_grids.scss */
-  .three--two-fifths, .three--four-tenths {
-    width: 40%;
-  }
-
-  /* line 292, ../../sass/vendor/_grids.scss */
-  .three--three-fifths, .three--six-tenths {
-    width: 60%;
-  }
-
-  /* line 293, ../../sass/vendor/_grids.scss */
-  .three--four-fifths, .three--eight-tenths {
-    width: 80%;
-  }
-
-  /**
-   * Sixths
-   */
-  /* line 299, ../../sass/vendor/_grids.scss */
-  .three--one-sixth, .three--two-twelfths {
-    width: 16.666%;
-  }
-
-  /* line 303, ../../sass/vendor/_grids.scss */
-  .three--five-sixths, .three--ten-twelfths {
-    width: 83.333%;
-  }
-
-  /**
-   * Eighths
-   */
-  /* line 309, ../../sass/vendor/_grids.scss */
-  .three--one-eighth {
-    width: 12.5%;
-  }
-
-  /* line 311, ../../sass/vendor/_grids.scss */
-  .three--three-eighths {
-    width: 37.5%;
-  }
-
-  /* line 313, ../../sass/vendor/_grids.scss */
-  .three--five-eighths {
-    width: 62.5%;
-  }
-
-  /* line 315, ../../sass/vendor/_grids.scss */
-  .three--seven-eighths {
-    width: 87.5%;
-  }
-
-  /**
-   * Tenths
-   */
-  /* line 321, ../../sass/vendor/_grids.scss */
-  .three--one-tenth {
-    width: 10%;
-  }
-
-  /* line 323, ../../sass/vendor/_grids.scss */
-  .three--three-tenths {
-    width: 30%;
-  }
-
-  /* line 327, ../../sass/vendor/_grids.scss */
-  .three--seven-tenths {
-    width: 70%;
-  }
-
-  /* line 329, ../../sass/vendor/_grids.scss */
-  .three--nine-tenths {
-    width: 90%;
-  }
-
-  /**
-   * Twelfths
-   */
-  /* line 335, ../../sass/vendor/_grids.scss */
-  .three--one-twelfth {
-    width: 8.333%;
-  }
-
-  /* line 339, ../../sass/vendor/_grids.scss */
-  .three--five-twelfths {
-    width: 41.666%;
-  }
-
-  /* line 341, ../../sass/vendor/_grids.scss */
-  .three--seven-twelfths {
-    width: 58.333%;
-  }
-
-  /* line 345, ../../sass/vendor/_grids.scss */
-  .three--eleven-twelfths {
     width: 91.666%;
   }
 }
@@ -1230,7 +933,7 @@ th {
 /**
  * Not a particularly great selector, but the DRYest way to do things.
  */
-/* line 476, ../../sass/vendor/_grids.scss */
+/* line 474, ../../sass/vendor/_grids.scss */
 [class*="push--"] {
   position: relative;
 }
@@ -1238,7 +941,7 @@ th {
 /**
  * Whole
  */
-/* line 386, ../../sass/vendor/_grids.scss */
+/* line 384, ../../sass/vendor/_grids.scss */
 .push--one-whole {
   left: 100%;
 }
@@ -1246,7 +949,7 @@ th {
 /**
  * Halves
  */
-/* line 392, ../../sass/vendor/_grids.scss */
+/* line 390, ../../sass/vendor/_grids.scss */
 .push--one-half, .push--two-quarters, .push--three-sixths, .push--four-eighths, .push--five-tenths, .push--six-twelfths {
   left: 50%;
 }
@@ -1254,12 +957,12 @@ th {
 /**
  * Thirds
  */
-/* line 398, ../../sass/vendor/_grids.scss */
+/* line 396, ../../sass/vendor/_grids.scss */
 .push--one-third, .push--two-sixths, .push--four-twelfths {
   left: 33.333%;
 }
 
-/* line 399, ../../sass/vendor/_grids.scss */
+/* line 397, ../../sass/vendor/_grids.scss */
 .push--two-thirds, .push--four-sixths, .push--eight-twelfths {
   left: 66.666%;
 }
@@ -1267,12 +970,12 @@ th {
 /**
  * Quarters
  */
-/* line 405, ../../sass/vendor/_grids.scss */
+/* line 403, ../../sass/vendor/_grids.scss */
 .push--one-quarter, .push--two-eighths, .push--three-twelfths {
   left: 25%;
 }
 
-/* line 407, ../../sass/vendor/_grids.scss */
+/* line 405, ../../sass/vendor/_grids.scss */
 .push--three-quarters, .push--six-eighths, .push--nine-twelfths {
   left: 75%;
 }
@@ -1280,22 +983,22 @@ th {
 /**
  * Fifths
  */
-/* line 413, ../../sass/vendor/_grids.scss */
+/* line 411, ../../sass/vendor/_grids.scss */
 .push--one-fifth, .push--two-tenths {
   left: 20%;
 }
 
-/* line 414, ../../sass/vendor/_grids.scss */
+/* line 412, ../../sass/vendor/_grids.scss */
 .push--two-fifths, .push--four-tenths {
   left: 40%;
 }
 
-/* line 415, ../../sass/vendor/_grids.scss */
+/* line 413, ../../sass/vendor/_grids.scss */
 .push--three-fifths, .push--six-tenths {
   left: 60%;
 }
 
-/* line 416, ../../sass/vendor/_grids.scss */
+/* line 414, ../../sass/vendor/_grids.scss */
 .push--four-fifths, .push--eight-tenths {
   left: 80%;
 }
@@ -1303,12 +1006,12 @@ th {
 /**
  * Sixths
  */
-/* line 422, ../../sass/vendor/_grids.scss */
+/* line 420, ../../sass/vendor/_grids.scss */
 .push--one-sixth, .push--two-twelfths {
   left: 16.666%;
 }
 
-/* line 426, ../../sass/vendor/_grids.scss */
+/* line 424, ../../sass/vendor/_grids.scss */
 .push--five-sixths, .push--ten-twelfths {
   left: 83.333%;
 }
@@ -1316,22 +1019,22 @@ th {
 /**
  * Eighths
  */
-/* line 432, ../../sass/vendor/_grids.scss */
+/* line 430, ../../sass/vendor/_grids.scss */
 .push--one-eighth {
   left: 12.5%;
 }
 
-/* line 434, ../../sass/vendor/_grids.scss */
+/* line 432, ../../sass/vendor/_grids.scss */
 .push--three-eighths {
   left: 37.5%;
 }
 
-/* line 436, ../../sass/vendor/_grids.scss */
+/* line 434, ../../sass/vendor/_grids.scss */
 .push--five-eighths {
   left: 62.5%;
 }
 
-/* line 438, ../../sass/vendor/_grids.scss */
+/* line 436, ../../sass/vendor/_grids.scss */
 .push--seven-eighths {
   left: 87.5%;
 }
@@ -1339,22 +1042,22 @@ th {
 /**
  * Tenths
  */
-/* line 444, ../../sass/vendor/_grids.scss */
+/* line 442, ../../sass/vendor/_grids.scss */
 .push--one-tenth {
   left: 10%;
 }
 
-/* line 446, ../../sass/vendor/_grids.scss */
+/* line 444, ../../sass/vendor/_grids.scss */
 .push--three-tenths {
   left: 30%;
 }
 
-/* line 450, ../../sass/vendor/_grids.scss */
+/* line 448, ../../sass/vendor/_grids.scss */
 .push--seven-tenths {
   left: 70%;
 }
 
-/* line 452, ../../sass/vendor/_grids.scss */
+/* line 450, ../../sass/vendor/_grids.scss */
 .push--nine-tenths {
   left: 90%;
 }
@@ -1362,22 +1065,22 @@ th {
 /**
  * Twelfths
  */
-/* line 458, ../../sass/vendor/_grids.scss */
+/* line 456, ../../sass/vendor/_grids.scss */
 .push--one-twelfth {
   left: 8.333%;
 }
 
-/* line 462, ../../sass/vendor/_grids.scss */
+/* line 460, ../../sass/vendor/_grids.scss */
 .push--five-twelfths {
   left: 41.666%;
 }
 
-/* line 464, ../../sass/vendor/_grids.scss */
+/* line 462, ../../sass/vendor/_grids.scss */
 .push--seven-twelfths {
   left: 58.333%;
 }
 
-/* line 468, ../../sass/vendor/_grids.scss */
+/* line 466, ../../sass/vendor/_grids.scss */
 .push--eleven-twelfths {
   left: 91.666%;
 }
@@ -1386,155 +1089,7 @@ th {
   /**
    * Whole
    */
-  /* line 386, ../../sass/vendor/_grids.scss */
-  .push--zero--one-whole {
-    left: 100%;
-  }
-
-  /**
-   * Halves
-   */
-  /* line 392, ../../sass/vendor/_grids.scss */
-  .push--zero--one-half, .push--zero--two-quarters, .push--zero--three-sixths, .push--zero--four-eighths, .push--zero--five-tenths, .push--zero--six-twelfths {
-    left: 50%;
-  }
-
-  /**
-   * Thirds
-   */
-  /* line 398, ../../sass/vendor/_grids.scss */
-  .push--zero--one-third, .push--zero--two-sixths, .push--zero--four-twelfths {
-    left: 33.333%;
-  }
-
-  /* line 399, ../../sass/vendor/_grids.scss */
-  .push--zero--two-thirds, .push--zero--four-sixths, .push--zero--eight-twelfths {
-    left: 66.666%;
-  }
-
-  /**
-   * Quarters
-   */
-  /* line 405, ../../sass/vendor/_grids.scss */
-  .push--zero--one-quarter, .push--zero--two-eighths, .push--zero--three-twelfths {
-    left: 25%;
-  }
-
-  /* line 407, ../../sass/vendor/_grids.scss */
-  .push--zero--three-quarters, .push--zero--six-eighths, .push--zero--nine-twelfths {
-    left: 75%;
-  }
-
-  /**
-   * Fifths
-   */
-  /* line 413, ../../sass/vendor/_grids.scss */
-  .push--zero--one-fifth, .push--zero--two-tenths {
-    left: 20%;
-  }
-
-  /* line 414, ../../sass/vendor/_grids.scss */
-  .push--zero--two-fifths, .push--zero--four-tenths {
-    left: 40%;
-  }
-
-  /* line 415, ../../sass/vendor/_grids.scss */
-  .push--zero--three-fifths, .push--zero--six-tenths {
-    left: 60%;
-  }
-
-  /* line 416, ../../sass/vendor/_grids.scss */
-  .push--zero--four-fifths, .push--zero--eight-tenths {
-    left: 80%;
-  }
-
-  /**
-   * Sixths
-   */
-  /* line 422, ../../sass/vendor/_grids.scss */
-  .push--zero--one-sixth, .push--zero--two-twelfths {
-    left: 16.666%;
-  }
-
-  /* line 426, ../../sass/vendor/_grids.scss */
-  .push--zero--five-sixths, .push--zero--ten-twelfths {
-    left: 83.333%;
-  }
-
-  /**
-   * Eighths
-   */
-  /* line 432, ../../sass/vendor/_grids.scss */
-  .push--zero--one-eighth {
-    left: 12.5%;
-  }
-
-  /* line 434, ../../sass/vendor/_grids.scss */
-  .push--zero--three-eighths {
-    left: 37.5%;
-  }
-
-  /* line 436, ../../sass/vendor/_grids.scss */
-  .push--zero--five-eighths {
-    left: 62.5%;
-  }
-
-  /* line 438, ../../sass/vendor/_grids.scss */
-  .push--zero--seven-eighths {
-    left: 87.5%;
-  }
-
-  /**
-   * Tenths
-   */
-  /* line 444, ../../sass/vendor/_grids.scss */
-  .push--zero--one-tenth {
-    left: 10%;
-  }
-
-  /* line 446, ../../sass/vendor/_grids.scss */
-  .push--zero--three-tenths {
-    left: 30%;
-  }
-
-  /* line 450, ../../sass/vendor/_grids.scss */
-  .push--zero--seven-tenths {
-    left: 70%;
-  }
-
-  /* line 452, ../../sass/vendor/_grids.scss */
-  .push--zero--nine-tenths {
-    left: 90%;
-  }
-
-  /**
-   * Twelfths
-   */
-  /* line 458, ../../sass/vendor/_grids.scss */
-  .push--zero--one-twelfth {
-    left: 8.333%;
-  }
-
-  /* line 462, ../../sass/vendor/_grids.scss */
-  .push--zero--five-twelfths {
-    left: 41.666%;
-  }
-
-  /* line 464, ../../sass/vendor/_grids.scss */
-  .push--zero--seven-twelfths {
-    left: 58.333%;
-  }
-
-  /* line 468, ../../sass/vendor/_grids.scss */
-  .push--zero--eleven-twelfths {
-    left: 91.666%;
-  }
-}
-@media only screen and (min-width: 840px) {
-  /**
-   * Whole
-   */
-  /* line 386, ../../sass/vendor/_grids.scss */
+  /* line 384, ../../sass/vendor/_grids.scss */
   .push--one--one-whole {
     left: 100%;
   }
@@ -1542,7 +1097,7 @@ th {
   /**
    * Halves
    */
-  /* line 392, ../../sass/vendor/_grids.scss */
+  /* line 390, ../../sass/vendor/_grids.scss */
   .push--one--one-half, .push--one--two-quarters, .push--one--three-sixths, .push--one--four-eighths, .push--one--five-tenths, .push--one--six-twelfths {
     left: 50%;
   }
@@ -1550,12 +1105,12 @@ th {
   /**
    * Thirds
    */
-  /* line 398, ../../sass/vendor/_grids.scss */
+  /* line 396, ../../sass/vendor/_grids.scss */
   .push--one--one-third, .push--one--two-sixths, .push--one--four-twelfths {
     left: 33.333%;
   }
 
-  /* line 399, ../../sass/vendor/_grids.scss */
+  /* line 397, ../../sass/vendor/_grids.scss */
   .push--one--two-thirds, .push--one--four-sixths, .push--one--eight-twelfths {
     left: 66.666%;
   }
@@ -1563,12 +1118,12 @@ th {
   /**
    * Quarters
    */
-  /* line 405, ../../sass/vendor/_grids.scss */
+  /* line 403, ../../sass/vendor/_grids.scss */
   .push--one--one-quarter, .push--one--two-eighths, .push--one--three-twelfths {
     left: 25%;
   }
 
-  /* line 407, ../../sass/vendor/_grids.scss */
+  /* line 405, ../../sass/vendor/_grids.scss */
   .push--one--three-quarters, .push--one--six-eighths, .push--one--nine-twelfths {
     left: 75%;
   }
@@ -1576,22 +1131,22 @@ th {
   /**
    * Fifths
    */
-  /* line 413, ../../sass/vendor/_grids.scss */
+  /* line 411, ../../sass/vendor/_grids.scss */
   .push--one--one-fifth, .push--one--two-tenths {
     left: 20%;
   }
 
-  /* line 414, ../../sass/vendor/_grids.scss */
+  /* line 412, ../../sass/vendor/_grids.scss */
   .push--one--two-fifths, .push--one--four-tenths {
     left: 40%;
   }
 
-  /* line 415, ../../sass/vendor/_grids.scss */
+  /* line 413, ../../sass/vendor/_grids.scss */
   .push--one--three-fifths, .push--one--six-tenths {
     left: 60%;
   }
 
-  /* line 416, ../../sass/vendor/_grids.scss */
+  /* line 414, ../../sass/vendor/_grids.scss */
   .push--one--four-fifths, .push--one--eight-tenths {
     left: 80%;
   }
@@ -1599,12 +1154,12 @@ th {
   /**
    * Sixths
    */
-  /* line 422, ../../sass/vendor/_grids.scss */
+  /* line 420, ../../sass/vendor/_grids.scss */
   .push--one--one-sixth, .push--one--two-twelfths {
     left: 16.666%;
   }
 
-  /* line 426, ../../sass/vendor/_grids.scss */
+  /* line 424, ../../sass/vendor/_grids.scss */
   .push--one--five-sixths, .push--one--ten-twelfths {
     left: 83.333%;
   }
@@ -1612,22 +1167,22 @@ th {
   /**
    * Eighths
    */
-  /* line 432, ../../sass/vendor/_grids.scss */
+  /* line 430, ../../sass/vendor/_grids.scss */
   .push--one--one-eighth {
     left: 12.5%;
   }
 
-  /* line 434, ../../sass/vendor/_grids.scss */
+  /* line 432, ../../sass/vendor/_grids.scss */
   .push--one--three-eighths {
     left: 37.5%;
   }
 
-  /* line 436, ../../sass/vendor/_grids.scss */
+  /* line 434, ../../sass/vendor/_grids.scss */
   .push--one--five-eighths {
     left: 62.5%;
   }
 
-  /* line 438, ../../sass/vendor/_grids.scss */
+  /* line 436, ../../sass/vendor/_grids.scss */
   .push--one--seven-eighths {
     left: 87.5%;
   }
@@ -1635,22 +1190,22 @@ th {
   /**
    * Tenths
    */
-  /* line 444, ../../sass/vendor/_grids.scss */
+  /* line 442, ../../sass/vendor/_grids.scss */
   .push--one--one-tenth {
     left: 10%;
   }
 
-  /* line 446, ../../sass/vendor/_grids.scss */
+  /* line 444, ../../sass/vendor/_grids.scss */
   .push--one--three-tenths {
     left: 30%;
   }
 
-  /* line 450, ../../sass/vendor/_grids.scss */
+  /* line 448, ../../sass/vendor/_grids.scss */
   .push--one--seven-tenths {
     left: 70%;
   }
 
-  /* line 452, ../../sass/vendor/_grids.scss */
+  /* line 450, ../../sass/vendor/_grids.scss */
   .push--one--nine-tenths {
     left: 90%;
   }
@@ -1658,31 +1213,31 @@ th {
   /**
    * Twelfths
    */
-  /* line 458, ../../sass/vendor/_grids.scss */
+  /* line 456, ../../sass/vendor/_grids.scss */
   .push--one--one-twelfth {
     left: 8.333%;
   }
 
-  /* line 462, ../../sass/vendor/_grids.scss */
+  /* line 460, ../../sass/vendor/_grids.scss */
   .push--one--five-twelfths {
     left: 41.666%;
   }
 
-  /* line 464, ../../sass/vendor/_grids.scss */
+  /* line 462, ../../sass/vendor/_grids.scss */
   .push--one--seven-twelfths {
     left: 58.333%;
   }
 
-  /* line 468, ../../sass/vendor/_grids.scss */
+  /* line 466, ../../sass/vendor/_grids.scss */
   .push--one--eleven-twelfths {
     left: 91.666%;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1130px) {
   /**
    * Whole
    */
-  /* line 386, ../../sass/vendor/_grids.scss */
+  /* line 384, ../../sass/vendor/_grids.scss */
   .push--two--one-whole {
     left: 100%;
   }
@@ -1690,7 +1245,7 @@ th {
   /**
    * Halves
    */
-  /* line 392, ../../sass/vendor/_grids.scss */
+  /* line 390, ../../sass/vendor/_grids.scss */
   .push--two--one-half, .push--two--two-quarters, .push--two--three-sixths, .push--two--four-eighths, .push--two--five-tenths, .push--two--six-twelfths {
     left: 50%;
   }
@@ -1698,12 +1253,12 @@ th {
   /**
    * Thirds
    */
-  /* line 398, ../../sass/vendor/_grids.scss */
+  /* line 396, ../../sass/vendor/_grids.scss */
   .push--two--one-third, .push--two--two-sixths, .push--two--four-twelfths {
     left: 33.333%;
   }
 
-  /* line 399, ../../sass/vendor/_grids.scss */
+  /* line 397, ../../sass/vendor/_grids.scss */
   .push--two--two-thirds, .push--two--four-sixths, .push--two--eight-twelfths {
     left: 66.666%;
   }
@@ -1711,12 +1266,12 @@ th {
   /**
    * Quarters
    */
-  /* line 405, ../../sass/vendor/_grids.scss */
+  /* line 403, ../../sass/vendor/_grids.scss */
   .push--two--one-quarter, .push--two--two-eighths, .push--two--three-twelfths {
     left: 25%;
   }
 
-  /* line 407, ../../sass/vendor/_grids.scss */
+  /* line 405, ../../sass/vendor/_grids.scss */
   .push--two--three-quarters, .push--two--six-eighths, .push--two--nine-twelfths {
     left: 75%;
   }
@@ -1724,22 +1279,22 @@ th {
   /**
    * Fifths
    */
-  /* line 413, ../../sass/vendor/_grids.scss */
+  /* line 411, ../../sass/vendor/_grids.scss */
   .push--two--one-fifth, .push--two--two-tenths {
     left: 20%;
   }
 
-  /* line 414, ../../sass/vendor/_grids.scss */
+  /* line 412, ../../sass/vendor/_grids.scss */
   .push--two--two-fifths, .push--two--four-tenths {
     left: 40%;
   }
 
-  /* line 415, ../../sass/vendor/_grids.scss */
+  /* line 413, ../../sass/vendor/_grids.scss */
   .push--two--three-fifths, .push--two--six-tenths {
     left: 60%;
   }
 
-  /* line 416, ../../sass/vendor/_grids.scss */
+  /* line 414, ../../sass/vendor/_grids.scss */
   .push--two--four-fifths, .push--two--eight-tenths {
     left: 80%;
   }
@@ -1747,12 +1302,12 @@ th {
   /**
    * Sixths
    */
-  /* line 422, ../../sass/vendor/_grids.scss */
+  /* line 420, ../../sass/vendor/_grids.scss */
   .push--two--one-sixth, .push--two--two-twelfths {
     left: 16.666%;
   }
 
-  /* line 426, ../../sass/vendor/_grids.scss */
+  /* line 424, ../../sass/vendor/_grids.scss */
   .push--two--five-sixths, .push--two--ten-twelfths {
     left: 83.333%;
   }
@@ -1760,22 +1315,22 @@ th {
   /**
    * Eighths
    */
-  /* line 432, ../../sass/vendor/_grids.scss */
+  /* line 430, ../../sass/vendor/_grids.scss */
   .push--two--one-eighth {
     left: 12.5%;
   }
 
-  /* line 434, ../../sass/vendor/_grids.scss */
+  /* line 432, ../../sass/vendor/_grids.scss */
   .push--two--three-eighths {
     left: 37.5%;
   }
 
-  /* line 436, ../../sass/vendor/_grids.scss */
+  /* line 434, ../../sass/vendor/_grids.scss */
   .push--two--five-eighths {
     left: 62.5%;
   }
 
-  /* line 438, ../../sass/vendor/_grids.scss */
+  /* line 436, ../../sass/vendor/_grids.scss */
   .push--two--seven-eighths {
     left: 87.5%;
   }
@@ -1783,22 +1338,22 @@ th {
   /**
    * Tenths
    */
-  /* line 444, ../../sass/vendor/_grids.scss */
+  /* line 442, ../../sass/vendor/_grids.scss */
   .push--two--one-tenth {
     left: 10%;
   }
 
-  /* line 446, ../../sass/vendor/_grids.scss */
+  /* line 444, ../../sass/vendor/_grids.scss */
   .push--two--three-tenths {
     left: 30%;
   }
 
-  /* line 450, ../../sass/vendor/_grids.scss */
+  /* line 448, ../../sass/vendor/_grids.scss */
   .push--two--seven-tenths {
     left: 70%;
   }
 
-  /* line 452, ../../sass/vendor/_grids.scss */
+  /* line 450, ../../sass/vendor/_grids.scss */
   .push--two--nine-tenths {
     left: 90%;
   }
@@ -1806,171 +1361,23 @@ th {
   /**
    * Twelfths
    */
-  /* line 458, ../../sass/vendor/_grids.scss */
+  /* line 456, ../../sass/vendor/_grids.scss */
   .push--two--one-twelfth {
     left: 8.333%;
   }
 
-  /* line 462, ../../sass/vendor/_grids.scss */
+  /* line 460, ../../sass/vendor/_grids.scss */
   .push--two--five-twelfths {
     left: 41.666%;
   }
 
-  /* line 464, ../../sass/vendor/_grids.scss */
+  /* line 462, ../../sass/vendor/_grids.scss */
   .push--two--seven-twelfths {
     left: 58.333%;
   }
 
-  /* line 468, ../../sass/vendor/_grids.scss */
+  /* line 466, ../../sass/vendor/_grids.scss */
   .push--two--eleven-twelfths {
-    left: 91.666%;
-  }
-}
-@media only screen and (min-width: 1100px) {
-  /**
-   * Whole
-   */
-  /* line 386, ../../sass/vendor/_grids.scss */
-  .push--three--one-whole {
-    left: 100%;
-  }
-
-  /**
-   * Halves
-   */
-  /* line 392, ../../sass/vendor/_grids.scss */
-  .push--three--one-half, .push--three--two-quarters, .push--three--three-sixths, .push--three--four-eighths, .push--three--five-tenths, .push--three--six-twelfths {
-    left: 50%;
-  }
-
-  /**
-   * Thirds
-   */
-  /* line 398, ../../sass/vendor/_grids.scss */
-  .push--three--one-third, .push--three--two-sixths, .push--three--four-twelfths {
-    left: 33.333%;
-  }
-
-  /* line 399, ../../sass/vendor/_grids.scss */
-  .push--three--two-thirds, .push--three--four-sixths, .push--three--eight-twelfths {
-    left: 66.666%;
-  }
-
-  /**
-   * Quarters
-   */
-  /* line 405, ../../sass/vendor/_grids.scss */
-  .push--three--one-quarter, .push--three--two-eighths, .push--three--three-twelfths {
-    left: 25%;
-  }
-
-  /* line 407, ../../sass/vendor/_grids.scss */
-  .push--three--three-quarters, .push--three--six-eighths, .push--three--nine-twelfths {
-    left: 75%;
-  }
-
-  /**
-   * Fifths
-   */
-  /* line 413, ../../sass/vendor/_grids.scss */
-  .push--three--one-fifth, .push--three--two-tenths {
-    left: 20%;
-  }
-
-  /* line 414, ../../sass/vendor/_grids.scss */
-  .push--three--two-fifths, .push--three--four-tenths {
-    left: 40%;
-  }
-
-  /* line 415, ../../sass/vendor/_grids.scss */
-  .push--three--three-fifths, .push--three--six-tenths {
-    left: 60%;
-  }
-
-  /* line 416, ../../sass/vendor/_grids.scss */
-  .push--three--four-fifths, .push--three--eight-tenths {
-    left: 80%;
-  }
-
-  /**
-   * Sixths
-   */
-  /* line 422, ../../sass/vendor/_grids.scss */
-  .push--three--one-sixth, .push--three--two-twelfths {
-    left: 16.666%;
-  }
-
-  /* line 426, ../../sass/vendor/_grids.scss */
-  .push--three--five-sixths, .push--three--ten-twelfths {
-    left: 83.333%;
-  }
-
-  /**
-   * Eighths
-   */
-  /* line 432, ../../sass/vendor/_grids.scss */
-  .push--three--one-eighth {
-    left: 12.5%;
-  }
-
-  /* line 434, ../../sass/vendor/_grids.scss */
-  .push--three--three-eighths {
-    left: 37.5%;
-  }
-
-  /* line 436, ../../sass/vendor/_grids.scss */
-  .push--three--five-eighths {
-    left: 62.5%;
-  }
-
-  /* line 438, ../../sass/vendor/_grids.scss */
-  .push--three--seven-eighths {
-    left: 87.5%;
-  }
-
-  /**
-   * Tenths
-   */
-  /* line 444, ../../sass/vendor/_grids.scss */
-  .push--three--one-tenth {
-    left: 10%;
-  }
-
-  /* line 446, ../../sass/vendor/_grids.scss */
-  .push--three--three-tenths {
-    left: 30%;
-  }
-
-  /* line 450, ../../sass/vendor/_grids.scss */
-  .push--three--seven-tenths {
-    left: 70%;
-  }
-
-  /* line 452, ../../sass/vendor/_grids.scss */
-  .push--three--nine-tenths {
-    left: 90%;
-  }
-
-  /**
-   * Twelfths
-   */
-  /* line 458, ../../sass/vendor/_grids.scss */
-  .push--three--one-twelfth {
-    left: 8.333%;
-  }
-
-  /* line 462, ../../sass/vendor/_grids.scss */
-  .push--three--five-twelfths {
-    left: 41.666%;
-  }
-
-  /* line 464, ../../sass/vendor/_grids.scss */
-  .push--three--seven-twelfths {
-    left: 58.333%;
-  }
-
-  /* line 468, ../../sass/vendor/_grids.scss */
-  .push--three--eleven-twelfths {
     left: 91.666%;
   }
 }
@@ -1983,7 +1390,7 @@ th {
 /**
  * Not a particularly great selector, but the DRYest way to do things.
  */
-/* line 598, ../../sass/vendor/_grids.scss */
+/* line 596, ../../sass/vendor/_grids.scss */
 [class*="pull--"] {
   position: relative;
 }
@@ -1991,7 +1398,7 @@ th {
 /**
  * Whole
  */
-/* line 508, ../../sass/vendor/_grids.scss */
+/* line 506, ../../sass/vendor/_grids.scss */
 .pull--one-whole {
   right: 100%;
 }
@@ -1999,7 +1406,7 @@ th {
 /**
  * Halves
  */
-/* line 514, ../../sass/vendor/_grids.scss */
+/* line 512, ../../sass/vendor/_grids.scss */
 .pull--one-half, .pull--two-quarters, .pull--three-sixths, .pull--four-eighths, .pull--five-tenths, .pull--six-twelfths {
   right: 50%;
 }
@@ -2007,12 +1414,12 @@ th {
 /**
  * Thirds
  */
-/* line 520, ../../sass/vendor/_grids.scss */
+/* line 518, ../../sass/vendor/_grids.scss */
 .pull--one-third, .pull--two-sixths, .pull--four-twelfths {
   right: 33.333%;
 }
 
-/* line 521, ../../sass/vendor/_grids.scss */
+/* line 519, ../../sass/vendor/_grids.scss */
 .pull--two-thirds, .pull--four-sixths, .pull--eight-twelfths {
   right: 66.666%;
 }
@@ -2020,12 +1427,12 @@ th {
 /**
  * Quarters
  */
-/* line 527, ../../sass/vendor/_grids.scss */
+/* line 525, ../../sass/vendor/_grids.scss */
 .pull--one-quarter, .pull--two-eighths, .pull--three-twelfths {
   right: 25%;
 }
 
-/* line 529, ../../sass/vendor/_grids.scss */
+/* line 527, ../../sass/vendor/_grids.scss */
 .pull--three-quarters, .pull--six-eighths, .pull--nine-twelfths {
   right: 75%;
 }
@@ -2033,22 +1440,22 @@ th {
 /**
  * Fifths
  */
-/* line 535, ../../sass/vendor/_grids.scss */
+/* line 533, ../../sass/vendor/_grids.scss */
 .pull--one-fifth, .pull--two-tenths {
   right: 20%;
 }
 
-/* line 536, ../../sass/vendor/_grids.scss */
+/* line 534, ../../sass/vendor/_grids.scss */
 .pull--two-fifths, .pull--four-tenths {
   right: 40%;
 }
 
-/* line 537, ../../sass/vendor/_grids.scss */
+/* line 535, ../../sass/vendor/_grids.scss */
 .pull--three-fifths, .pull--six-tenths {
   right: 60%;
 }
 
-/* line 538, ../../sass/vendor/_grids.scss */
+/* line 536, ../../sass/vendor/_grids.scss */
 .pull--four-fifths, .pull--eight-tenths {
   right: 80%;
 }
@@ -2056,12 +1463,12 @@ th {
 /**
  * Sixths
  */
-/* line 544, ../../sass/vendor/_grids.scss */
+/* line 542, ../../sass/vendor/_grids.scss */
 .pull--one-sixth, .pull--two-twelfths {
   right: 16.666%;
 }
 
-/* line 548, ../../sass/vendor/_grids.scss */
+/* line 546, ../../sass/vendor/_grids.scss */
 .pull--five-sixths, .pull--ten-twelfths {
   right: 83.333%;
 }
@@ -2069,22 +1476,22 @@ th {
 /**
  * Eighths
  */
-/* line 554, ../../sass/vendor/_grids.scss */
+/* line 552, ../../sass/vendor/_grids.scss */
 .pull--one-eighth {
   right: 12.5%;
 }
 
-/* line 556, ../../sass/vendor/_grids.scss */
+/* line 554, ../../sass/vendor/_grids.scss */
 .pull--three-eighths {
   right: 37.5%;
 }
 
-/* line 558, ../../sass/vendor/_grids.scss */
+/* line 556, ../../sass/vendor/_grids.scss */
 .pull--five-eighths {
   right: 62.5%;
 }
 
-/* line 560, ../../sass/vendor/_grids.scss */
+/* line 558, ../../sass/vendor/_grids.scss */
 .pull--seven-eighths {
   right: 87.5%;
 }
@@ -2092,22 +1499,22 @@ th {
 /**
  * Tenths
  */
-/* line 566, ../../sass/vendor/_grids.scss */
+/* line 564, ../../sass/vendor/_grids.scss */
 .pull--one-tenth {
   right: 10%;
 }
 
-/* line 568, ../../sass/vendor/_grids.scss */
+/* line 566, ../../sass/vendor/_grids.scss */
 .pull--three-tenths {
   right: 30%;
 }
 
-/* line 572, ../../sass/vendor/_grids.scss */
+/* line 570, ../../sass/vendor/_grids.scss */
 .pull--seven-tenths {
   right: 70%;
 }
 
-/* line 574, ../../sass/vendor/_grids.scss */
+/* line 572, ../../sass/vendor/_grids.scss */
 .pull--nine-tenths {
   right: 90%;
 }
@@ -2115,22 +1522,22 @@ th {
 /**
  * Twelfths
  */
-/* line 580, ../../sass/vendor/_grids.scss */
+/* line 578, ../../sass/vendor/_grids.scss */
 .pull--one-twelfth {
   right: 8.333%;
 }
 
-/* line 584, ../../sass/vendor/_grids.scss */
+/* line 582, ../../sass/vendor/_grids.scss */
 .pull--five-twelfths {
   right: 41.666%;
 }
 
-/* line 586, ../../sass/vendor/_grids.scss */
+/* line 584, ../../sass/vendor/_grids.scss */
 .pull--seven-twelfths {
   right: 58.333%;
 }
 
-/* line 590, ../../sass/vendor/_grids.scss */
+/* line 588, ../../sass/vendor/_grids.scss */
 .pull--eleven-twelfths {
   right: 91.666%;
 }
@@ -2139,155 +1546,7 @@ th {
   /**
    * Whole
    */
-  /* line 508, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-whole {
-    right: 100%;
-  }
-
-  /**
-   * Halves
-   */
-  /* line 514, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-half, .pull--zero--two-quarters, .pull--zero--three-sixths, .pull--zero--four-eighths, .pull--zero--five-tenths, .pull--zero--six-twelfths {
-    right: 50%;
-  }
-
-  /**
-   * Thirds
-   */
-  /* line 520, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-third, .pull--zero--two-sixths, .pull--zero--four-twelfths {
-    right: 33.333%;
-  }
-
-  /* line 521, ../../sass/vendor/_grids.scss */
-  .pull--zero--two-thirds, .pull--zero--four-sixths, .pull--zero--eight-twelfths {
-    right: 66.666%;
-  }
-
-  /**
-   * Quarters
-   */
-  /* line 527, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-quarter, .pull--zero--two-eighths, .pull--zero--three-twelfths {
-    right: 25%;
-  }
-
-  /* line 529, ../../sass/vendor/_grids.scss */
-  .pull--zero--three-quarters, .pull--zero--six-eighths, .pull--zero--nine-twelfths {
-    right: 75%;
-  }
-
-  /**
-   * Fifths
-   */
-  /* line 535, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-fifth, .pull--zero--two-tenths {
-    right: 20%;
-  }
-
-  /* line 536, ../../sass/vendor/_grids.scss */
-  .pull--zero--two-fifths, .pull--zero--four-tenths {
-    right: 40%;
-  }
-
-  /* line 537, ../../sass/vendor/_grids.scss */
-  .pull--zero--three-fifths, .pull--zero--six-tenths {
-    right: 60%;
-  }
-
-  /* line 538, ../../sass/vendor/_grids.scss */
-  .pull--zero--four-fifths, .pull--zero--eight-tenths {
-    right: 80%;
-  }
-
-  /**
-   * Sixths
-   */
-  /* line 544, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-sixth, .pull--zero--two-twelfths {
-    right: 16.666%;
-  }
-
-  /* line 548, ../../sass/vendor/_grids.scss */
-  .pull--zero--five-sixths, .pull--zero--ten-twelfths {
-    right: 83.333%;
-  }
-
-  /**
-   * Eighths
-   */
-  /* line 554, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-eighth {
-    right: 12.5%;
-  }
-
-  /* line 556, ../../sass/vendor/_grids.scss */
-  .pull--zero--three-eighths {
-    right: 37.5%;
-  }
-
-  /* line 558, ../../sass/vendor/_grids.scss */
-  .pull--zero--five-eighths {
-    right: 62.5%;
-  }
-
-  /* line 560, ../../sass/vendor/_grids.scss */
-  .pull--zero--seven-eighths {
-    right: 87.5%;
-  }
-
-  /**
-   * Tenths
-   */
-  /* line 566, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-tenth {
-    right: 10%;
-  }
-
-  /* line 568, ../../sass/vendor/_grids.scss */
-  .pull--zero--three-tenths {
-    right: 30%;
-  }
-
-  /* line 572, ../../sass/vendor/_grids.scss */
-  .pull--zero--seven-tenths {
-    right: 70%;
-  }
-
-  /* line 574, ../../sass/vendor/_grids.scss */
-  .pull--zero--nine-tenths {
-    right: 90%;
-  }
-
-  /**
-   * Twelfths
-   */
-  /* line 580, ../../sass/vendor/_grids.scss */
-  .pull--zero--one-twelfth {
-    right: 8.333%;
-  }
-
-  /* line 584, ../../sass/vendor/_grids.scss */
-  .pull--zero--five-twelfths {
-    right: 41.666%;
-  }
-
-  /* line 586, ../../sass/vendor/_grids.scss */
-  .pull--zero--seven-twelfths {
-    right: 58.333%;
-  }
-
-  /* line 590, ../../sass/vendor/_grids.scss */
-  .pull--zero--eleven-twelfths {
-    right: 91.666%;
-  }
-}
-@media only screen and (min-width: 840px) {
-  /**
-   * Whole
-   */
-  /* line 508, ../../sass/vendor/_grids.scss */
+  /* line 506, ../../sass/vendor/_grids.scss */
   .pull--one--one-whole {
     right: 100%;
   }
@@ -2295,7 +1554,7 @@ th {
   /**
    * Halves
    */
-  /* line 514, ../../sass/vendor/_grids.scss */
+  /* line 512, ../../sass/vendor/_grids.scss */
   .pull--one--one-half, .pull--one--two-quarters, .pull--one--three-sixths, .pull--one--four-eighths, .pull--one--five-tenths, .pull--one--six-twelfths {
     right: 50%;
   }
@@ -2303,12 +1562,12 @@ th {
   /**
    * Thirds
    */
-  /* line 520, ../../sass/vendor/_grids.scss */
+  /* line 518, ../../sass/vendor/_grids.scss */
   .pull--one--one-third, .pull--one--two-sixths, .pull--one--four-twelfths {
     right: 33.333%;
   }
 
-  /* line 521, ../../sass/vendor/_grids.scss */
+  /* line 519, ../../sass/vendor/_grids.scss */
   .pull--one--two-thirds, .pull--one--four-sixths, .pull--one--eight-twelfths {
     right: 66.666%;
   }
@@ -2316,12 +1575,12 @@ th {
   /**
    * Quarters
    */
-  /* line 527, ../../sass/vendor/_grids.scss */
+  /* line 525, ../../sass/vendor/_grids.scss */
   .pull--one--one-quarter, .pull--one--two-eighths, .pull--one--three-twelfths {
     right: 25%;
   }
 
-  /* line 529, ../../sass/vendor/_grids.scss */
+  /* line 527, ../../sass/vendor/_grids.scss */
   .pull--one--three-quarters, .pull--one--six-eighths, .pull--one--nine-twelfths {
     right: 75%;
   }
@@ -2329,22 +1588,22 @@ th {
   /**
    * Fifths
    */
-  /* line 535, ../../sass/vendor/_grids.scss */
+  /* line 533, ../../sass/vendor/_grids.scss */
   .pull--one--one-fifth, .pull--one--two-tenths {
     right: 20%;
   }
 
-  /* line 536, ../../sass/vendor/_grids.scss */
+  /* line 534, ../../sass/vendor/_grids.scss */
   .pull--one--two-fifths, .pull--one--four-tenths {
     right: 40%;
   }
 
-  /* line 537, ../../sass/vendor/_grids.scss */
+  /* line 535, ../../sass/vendor/_grids.scss */
   .pull--one--three-fifths, .pull--one--six-tenths {
     right: 60%;
   }
 
-  /* line 538, ../../sass/vendor/_grids.scss */
+  /* line 536, ../../sass/vendor/_grids.scss */
   .pull--one--four-fifths, .pull--one--eight-tenths {
     right: 80%;
   }
@@ -2352,12 +1611,12 @@ th {
   /**
    * Sixths
    */
-  /* line 544, ../../sass/vendor/_grids.scss */
+  /* line 542, ../../sass/vendor/_grids.scss */
   .pull--one--one-sixth, .pull--one--two-twelfths {
     right: 16.666%;
   }
 
-  /* line 548, ../../sass/vendor/_grids.scss */
+  /* line 546, ../../sass/vendor/_grids.scss */
   .pull--one--five-sixths, .pull--one--ten-twelfths {
     right: 83.333%;
   }
@@ -2365,22 +1624,22 @@ th {
   /**
    * Eighths
    */
-  /* line 554, ../../sass/vendor/_grids.scss */
+  /* line 552, ../../sass/vendor/_grids.scss */
   .pull--one--one-eighth {
     right: 12.5%;
   }
 
-  /* line 556, ../../sass/vendor/_grids.scss */
+  /* line 554, ../../sass/vendor/_grids.scss */
   .pull--one--three-eighths {
     right: 37.5%;
   }
 
-  /* line 558, ../../sass/vendor/_grids.scss */
+  /* line 556, ../../sass/vendor/_grids.scss */
   .pull--one--five-eighths {
     right: 62.5%;
   }
 
-  /* line 560, ../../sass/vendor/_grids.scss */
+  /* line 558, ../../sass/vendor/_grids.scss */
   .pull--one--seven-eighths {
     right: 87.5%;
   }
@@ -2388,22 +1647,22 @@ th {
   /**
    * Tenths
    */
-  /* line 566, ../../sass/vendor/_grids.scss */
+  /* line 564, ../../sass/vendor/_grids.scss */
   .pull--one--one-tenth {
     right: 10%;
   }
 
-  /* line 568, ../../sass/vendor/_grids.scss */
+  /* line 566, ../../sass/vendor/_grids.scss */
   .pull--one--three-tenths {
     right: 30%;
   }
 
-  /* line 572, ../../sass/vendor/_grids.scss */
+  /* line 570, ../../sass/vendor/_grids.scss */
   .pull--one--seven-tenths {
     right: 70%;
   }
 
-  /* line 574, ../../sass/vendor/_grids.scss */
+  /* line 572, ../../sass/vendor/_grids.scss */
   .pull--one--nine-tenths {
     right: 90%;
   }
@@ -2411,31 +1670,31 @@ th {
   /**
    * Twelfths
    */
-  /* line 580, ../../sass/vendor/_grids.scss */
+  /* line 578, ../../sass/vendor/_grids.scss */
   .pull--one--one-twelfth {
     right: 8.333%;
   }
 
-  /* line 584, ../../sass/vendor/_grids.scss */
+  /* line 582, ../../sass/vendor/_grids.scss */
   .pull--one--five-twelfths {
     right: 41.666%;
   }
 
-  /* line 586, ../../sass/vendor/_grids.scss */
+  /* line 584, ../../sass/vendor/_grids.scss */
   .pull--one--seven-twelfths {
     right: 58.333%;
   }
 
-  /* line 590, ../../sass/vendor/_grids.scss */
+  /* line 588, ../../sass/vendor/_grids.scss */
   .pull--one--eleven-twelfths {
     right: 91.666%;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1130px) {
   /**
    * Whole
    */
-  /* line 508, ../../sass/vendor/_grids.scss */
+  /* line 506, ../../sass/vendor/_grids.scss */
   .pull--two--one-whole {
     right: 100%;
   }
@@ -2443,7 +1702,7 @@ th {
   /**
    * Halves
    */
-  /* line 514, ../../sass/vendor/_grids.scss */
+  /* line 512, ../../sass/vendor/_grids.scss */
   .pull--two--one-half, .pull--two--two-quarters, .pull--two--three-sixths, .pull--two--four-eighths, .pull--two--five-tenths, .pull--two--six-twelfths {
     right: 50%;
   }
@@ -2451,12 +1710,12 @@ th {
   /**
    * Thirds
    */
-  /* line 520, ../../sass/vendor/_grids.scss */
+  /* line 518, ../../sass/vendor/_grids.scss */
   .pull--two--one-third, .pull--two--two-sixths, .pull--two--four-twelfths {
     right: 33.333%;
   }
 
-  /* line 521, ../../sass/vendor/_grids.scss */
+  /* line 519, ../../sass/vendor/_grids.scss */
   .pull--two--two-thirds, .pull--two--four-sixths, .pull--two--eight-twelfths {
     right: 66.666%;
   }
@@ -2464,12 +1723,12 @@ th {
   /**
    * Quarters
    */
-  /* line 527, ../../sass/vendor/_grids.scss */
+  /* line 525, ../../sass/vendor/_grids.scss */
   .pull--two--one-quarter, .pull--two--two-eighths, .pull--two--three-twelfths {
     right: 25%;
   }
 
-  /* line 529, ../../sass/vendor/_grids.scss */
+  /* line 527, ../../sass/vendor/_grids.scss */
   .pull--two--three-quarters, .pull--two--six-eighths, .pull--two--nine-twelfths {
     right: 75%;
   }
@@ -2477,22 +1736,22 @@ th {
   /**
    * Fifths
    */
-  /* line 535, ../../sass/vendor/_grids.scss */
+  /* line 533, ../../sass/vendor/_grids.scss */
   .pull--two--one-fifth, .pull--two--two-tenths {
     right: 20%;
   }
 
-  /* line 536, ../../sass/vendor/_grids.scss */
+  /* line 534, ../../sass/vendor/_grids.scss */
   .pull--two--two-fifths, .pull--two--four-tenths {
     right: 40%;
   }
 
-  /* line 537, ../../sass/vendor/_grids.scss */
+  /* line 535, ../../sass/vendor/_grids.scss */
   .pull--two--three-fifths, .pull--two--six-tenths {
     right: 60%;
   }
 
-  /* line 538, ../../sass/vendor/_grids.scss */
+  /* line 536, ../../sass/vendor/_grids.scss */
   .pull--two--four-fifths, .pull--two--eight-tenths {
     right: 80%;
   }
@@ -2500,12 +1759,12 @@ th {
   /**
    * Sixths
    */
-  /* line 544, ../../sass/vendor/_grids.scss */
+  /* line 542, ../../sass/vendor/_grids.scss */
   .pull--two--one-sixth, .pull--two--two-twelfths {
     right: 16.666%;
   }
 
-  /* line 548, ../../sass/vendor/_grids.scss */
+  /* line 546, ../../sass/vendor/_grids.scss */
   .pull--two--five-sixths, .pull--two--ten-twelfths {
     right: 83.333%;
   }
@@ -2513,22 +1772,22 @@ th {
   /**
    * Eighths
    */
-  /* line 554, ../../sass/vendor/_grids.scss */
+  /* line 552, ../../sass/vendor/_grids.scss */
   .pull--two--one-eighth {
     right: 12.5%;
   }
 
-  /* line 556, ../../sass/vendor/_grids.scss */
+  /* line 554, ../../sass/vendor/_grids.scss */
   .pull--two--three-eighths {
     right: 37.5%;
   }
 
-  /* line 558, ../../sass/vendor/_grids.scss */
+  /* line 556, ../../sass/vendor/_grids.scss */
   .pull--two--five-eighths {
     right: 62.5%;
   }
 
-  /* line 560, ../../sass/vendor/_grids.scss */
+  /* line 558, ../../sass/vendor/_grids.scss */
   .pull--two--seven-eighths {
     right: 87.5%;
   }
@@ -2536,22 +1795,22 @@ th {
   /**
    * Tenths
    */
-  /* line 566, ../../sass/vendor/_grids.scss */
+  /* line 564, ../../sass/vendor/_grids.scss */
   .pull--two--one-tenth {
     right: 10%;
   }
 
-  /* line 568, ../../sass/vendor/_grids.scss */
+  /* line 566, ../../sass/vendor/_grids.scss */
   .pull--two--three-tenths {
     right: 30%;
   }
 
-  /* line 572, ../../sass/vendor/_grids.scss */
+  /* line 570, ../../sass/vendor/_grids.scss */
   .pull--two--seven-tenths {
     right: 70%;
   }
 
-  /* line 574, ../../sass/vendor/_grids.scss */
+  /* line 572, ../../sass/vendor/_grids.scss */
   .pull--two--nine-tenths {
     right: 90%;
   }
@@ -2559,171 +1818,23 @@ th {
   /**
    * Twelfths
    */
-  /* line 580, ../../sass/vendor/_grids.scss */
+  /* line 578, ../../sass/vendor/_grids.scss */
   .pull--two--one-twelfth {
     right: 8.333%;
   }
 
-  /* line 584, ../../sass/vendor/_grids.scss */
+  /* line 582, ../../sass/vendor/_grids.scss */
   .pull--two--five-twelfths {
     right: 41.666%;
   }
 
-  /* line 586, ../../sass/vendor/_grids.scss */
+  /* line 584, ../../sass/vendor/_grids.scss */
   .pull--two--seven-twelfths {
     right: 58.333%;
   }
 
-  /* line 590, ../../sass/vendor/_grids.scss */
+  /* line 588, ../../sass/vendor/_grids.scss */
   .pull--two--eleven-twelfths {
-    right: 91.666%;
-  }
-}
-@media only screen and (min-width: 1100px) {
-  /**
-   * Whole
-   */
-  /* line 508, ../../sass/vendor/_grids.scss */
-  .pull--three--one-whole {
-    right: 100%;
-  }
-
-  /**
-   * Halves
-   */
-  /* line 514, ../../sass/vendor/_grids.scss */
-  .pull--three--one-half, .pull--three--two-quarters, .pull--three--three-sixths, .pull--three--four-eighths, .pull--three--five-tenths, .pull--three--six-twelfths {
-    right: 50%;
-  }
-
-  /**
-   * Thirds
-   */
-  /* line 520, ../../sass/vendor/_grids.scss */
-  .pull--three--one-third, .pull--three--two-sixths, .pull--three--four-twelfths {
-    right: 33.333%;
-  }
-
-  /* line 521, ../../sass/vendor/_grids.scss */
-  .pull--three--two-thirds, .pull--three--four-sixths, .pull--three--eight-twelfths {
-    right: 66.666%;
-  }
-
-  /**
-   * Quarters
-   */
-  /* line 527, ../../sass/vendor/_grids.scss */
-  .pull--three--one-quarter, .pull--three--two-eighths, .pull--three--three-twelfths {
-    right: 25%;
-  }
-
-  /* line 529, ../../sass/vendor/_grids.scss */
-  .pull--three--three-quarters, .pull--three--six-eighths, .pull--three--nine-twelfths {
-    right: 75%;
-  }
-
-  /**
-   * Fifths
-   */
-  /* line 535, ../../sass/vendor/_grids.scss */
-  .pull--three--one-fifth, .pull--three--two-tenths {
-    right: 20%;
-  }
-
-  /* line 536, ../../sass/vendor/_grids.scss */
-  .pull--three--two-fifths, .pull--three--four-tenths {
-    right: 40%;
-  }
-
-  /* line 537, ../../sass/vendor/_grids.scss */
-  .pull--three--three-fifths, .pull--three--six-tenths {
-    right: 60%;
-  }
-
-  /* line 538, ../../sass/vendor/_grids.scss */
-  .pull--three--four-fifths, .pull--three--eight-tenths {
-    right: 80%;
-  }
-
-  /**
-   * Sixths
-   */
-  /* line 544, ../../sass/vendor/_grids.scss */
-  .pull--three--one-sixth, .pull--three--two-twelfths {
-    right: 16.666%;
-  }
-
-  /* line 548, ../../sass/vendor/_grids.scss */
-  .pull--three--five-sixths, .pull--three--ten-twelfths {
-    right: 83.333%;
-  }
-
-  /**
-   * Eighths
-   */
-  /* line 554, ../../sass/vendor/_grids.scss */
-  .pull--three--one-eighth {
-    right: 12.5%;
-  }
-
-  /* line 556, ../../sass/vendor/_grids.scss */
-  .pull--three--three-eighths {
-    right: 37.5%;
-  }
-
-  /* line 558, ../../sass/vendor/_grids.scss */
-  .pull--three--five-eighths {
-    right: 62.5%;
-  }
-
-  /* line 560, ../../sass/vendor/_grids.scss */
-  .pull--three--seven-eighths {
-    right: 87.5%;
-  }
-
-  /**
-   * Tenths
-   */
-  /* line 566, ../../sass/vendor/_grids.scss */
-  .pull--three--one-tenth {
-    right: 10%;
-  }
-
-  /* line 568, ../../sass/vendor/_grids.scss */
-  .pull--three--three-tenths {
-    right: 30%;
-  }
-
-  /* line 572, ../../sass/vendor/_grids.scss */
-  .pull--three--seven-tenths {
-    right: 70%;
-  }
-
-  /* line 574, ../../sass/vendor/_grids.scss */
-  .pull--three--nine-tenths {
-    right: 90%;
-  }
-
-  /**
-   * Twelfths
-   */
-  /* line 580, ../../sass/vendor/_grids.scss */
-  .pull--three--one-twelfth {
-    right: 8.333%;
-  }
-
-  /* line 584, ../../sass/vendor/_grids.scss */
-  .pull--three--five-twelfths {
-    right: 41.666%;
-  }
-
-  /* line 586, ../../sass/vendor/_grids.scss */
-  .pull--three--seven-twelfths {
-    right: 58.333%;
-  }
-
-  /* line 590, ../../sass/vendor/_grids.scss */
-  .pull--three--eleven-twelfths {
     right: 91.666%;
   }
 }
@@ -2743,16 +1854,29 @@ th {
 /* line 14, ../../sass/partials/_base.scss */
 ::selection {
   background: #fffc00;
-  color: #5AA3E8;
+  color: black;
 }
 
 /* line 19, ../../sass/partials/_base.scss */
 ::-moz-selection {
   background: #fffc00;
-  color: #5AA3E8;
+  color: black;
 }
 
 /* Breakpoints */
+/* line 34, ../../sass/partials/_base.scss */
+body {
+  border: 1px solid rgba(78, 116, 123, 0.2);
+  margin: 10px;
+}
+@media screen and (min-width: 560px) {
+  /* line 34, ../../sass/partials/_base.scss */
+  body {
+    border: 0;
+    margin: 0;
+  }
+}
+
 /*------------------------------------*\
     #Helpers
 \*------------------------------------*/
@@ -2777,96 +1901,54 @@ th {
 }
 
 /* line 22, ../../sass/partials/_helpers.scss */
-.load-right {
-  left: 100px;
-  opacity: 0;
-  position: relative;
-}
-
-/* line 28, ../../sass/partials/_helpers.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 32, ../../sass/partials/_helpers.scss */
+/* line 26, ../../sass/partials/_helpers.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 36, ../../sass/partials/_helpers.scss */
+/* line 30, ../../sass/partials/_helpers.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 40, ../../sass/partials/_helpers.scss */
+/* line 34, ../../sass/partials/_helpers.scss */
 .table {
   display: table;
 }
 
-/* line 44, ../../sass/partials/_helpers.scss */
+/* line 38, ../../sass/partials/_helpers.scss */
 .table-cell {
   display: table-cell;
   float: none;
 }
 
-/* line 49, ../../sass/partials/_helpers.scss */
+/* line 43, ../../sass/partials/_helpers.scss */
 .table-bottom {
   vertical-align: bottom;
 }
 
-@media screen and (min-width: 840px) {
-  /* line 53, ../../sass/partials/_helpers.scss */
+@media screen and (min-width: 1130px) {
+  /* line 47, ../../sass/partials/_helpers.scss */
   .two--table {
     display: table;
   }
 }
 
-@media screen and (min-width: 840px) {
-  /* line 59, ../../sass/partials/_helpers.scss */
+@media screen and (min-width: 1130px) {
+  /* line 53, ../../sass/partials/_helpers.scss */
   .two--table-cell {
     display: table-cell;
     float: none;
   }
 }
 
-/* line 66, ../../sass/partials/_helpers.scss */
+/* line 60, ../../sass/partials/_helpers.scss */
 .two--table-bottom {
   vertical-align: bottom;
-}
-
-/*------------------------------------*\
-    #Buttons
-\*------------------------------------*/
-/* line 5, ../../sass/partials/_buttons.scss */
-.btn {
-  border-radius: 4px;
-  border: 2px solid #DBDBDB;
-  color: #393B3B;
-  display: inline-block;
-  font-size: 0.875em;
-  font-weight: bold;
-  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 6px 15px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-/* line 18, ../../sass/partials/_buttons.scss */
-.btn:hover {
-  background-color: #DBDBDB;
-  border-color: #DBDBDB;
-  color: white;
-}
-/* line 23, ../../sass/partials/_buttons.scss */
-.btn:hover.twitter {
-  background-color: #147bc9;
-  border-color: #147bc9;
-}
-/* line 29, ../../sass/partials/_buttons.scss */
-.btn.twitter {
-  background-color: #55acee;
-  border: 2px solid #55acee;
-  color: white;
 }
 
 /*------------------------------------*\
@@ -2875,282 +1957,254 @@ th {
 /* line 5, ../../sass/partials/_typography.scss */
 body,
 html {
-  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "utopia-std", Georgia, Times, Times New Roman, serif;
+  font-size: 1em;
 }
 
-/* line 10, ../../sass/partials/_typography.scss */
+/* line 11, ../../sass/partials/_typography.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  color: #333;
-  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #191F39;
+  font-family: "utopia-std", Georgia, Times, Times New Roman, serif;
   font-weight: 600;
-  margin: 0 0 20px;
 }
-/* line 16, ../../sass/partials/_typography.scss */
-.subpage-simple h1, .subpage-simple .h1, .subpage-simple h2, .subpage-simple .h2, .subpage-simple h3, .subpage-simple .h3, .subpage-simple h4, .subpage-simple .h4, .subpage-simple h5, .subpage-simple .h5, .subpage-simple h6, .subpage-simple .h6 {
-  text-align: center;
+@media screen and (min-width: 560px) {
+  /* line 17, ../../sass/partials/_typography.scss */
+  .subpage-simple h1, .subpage-simple .h1, .subpage-simple h2, .subpage-simple .h2, .subpage-simple h3, .subpage-simple .h3, .subpage-simple h4, .subpage-simple .h4, .subpage-simple h5, .subpage-simple .h5, .subpage-simple h6, .subpage-simple .h6 {
+    text-align: center;
+  }
 }
 
-/* line 21, ../../sass/partials/_typography.scss */
+/* line 23, ../../sass/partials/_typography.scss */
 h1, .h1 {
-  font-size: 3em;
+  font-size: 2.1875em;
   line-height: 1.125em;
 }
-/* line 25, ../../sass/partials/_typography.scss */
-.tagpage h1, .tagpage .h1 {
-  text-align: center;
-}
-/* line 29, ../../sass/partials/_typography.scss */
+/* line 27, ../../sass/partials/_typography.scss */
 h1.name, .name.h1 {
-  color: #DCE3EF;
   margin: 0;
 }
-@media screen and (min-width: 840px) {
-  /* line 21, ../../sass/partials/_typography.scss */
-  h1, .h1 {
-    font-size: 3.125em;
-  }
-  /* line 37, ../../sass/partials/_typography.scss */
-  .tagpage h1, .tagpage .h1 {
-    margin: 80px 0 40px;
-  }
-}
 
-/* line 43, ../../sass/partials/_typography.scss */
+/* line 32, ../../sass/partials/_typography.scss */
 h2, .h2 {
   font-size: 1.875em;
   line-height: 1.25em;
 }
-@media screen and (min-width: 840px) {
-  /* line 48, ../../sass/partials/_typography.scss */
-  .subpage h2, .subpage .h2, .subpage-simple h2, .subpage-simple .h2 {
-    font-size: 1.875em;
-  }
-}
 
-/* line 55, ../../sass/partials/_typography.scss */
+/* line 37, ../../sass/partials/_typography.scss */
 h3, .h3 {
   font-size: 1.5em;
   line-height: 1.25em;
 }
 
-/* line 60, ../../sass/partials/_typography.scss */
+/* line 42, ../../sass/partials/_typography.scss */
 h4, .h4 {
   font-size: 1.25em;
   line-height: 1.5em;
 }
-@media screen and (min-width: 840px) {
-  /* line 60, ../../sass/partials/_typography.scss */
-  h4, .h4 {
-    font-size: 1.5em;
-  }
-}
 
-/* line 69, ../../sass/partials/_typography.scss */
+/* line 47, ../../sass/partials/_typography.scss */
 h5, .h5,
 h6,
 .h6 {
-  font-size: 0.9375em;
+  color: #8FA5A9;
+  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: 600;
   line-height: 1.125em;
   text-transform: uppercase;
 }
-/* line 75, ../../sass/partials/_typography.scss */
-.cover h5, .cover .h5, .cover
-h6, .cover
+/* line 56, ../../sass/partials/_typography.scss */
+.post-listing h5, .post-listing .h5, .post-listing
+h6, .post-listing
 .h6 {
-  color: #C4DAD7;
-}
-/* line 79, ../../sass/partials/_typography.scss */
-.subpage-meta h5, .subpage-meta .h5, .subpage-meta
-h6, .subpage-meta
-.h6 {
-  font-size: 1.25em;
+  margin: 0 0 0.4375em;
 }
 
-/* line 91, ../../sass/partials/_typography.scss */
-.cover h1, .cover .h1 {
-  font-family: "utopia-std", Georgia, Times, Times New Roman, serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: lowercase;
+/* line 61, ../../sass/partials/_typography.scss */
+h6, .h6 {
+  font-weight: 300;
+}
+/* line 64, ../../sass/partials/_typography.scss */
+.subpage-meta h6, .subpage-meta .h6 {
+  font-size: 0.875em;
+  margin: 0;
+  text-align: left;
 }
 
-/* line 100, ../../sass/partials/_typography.scss */
-.subpage h2, .subpage .h2,
-.subpage-simple h2,
-.subpage-simple .h2 {
-  margin: 30px 0 15px;
-}
-/* line 104, ../../sass/partials/_typography.scss */
-.subpage h3, .subpage .h3,
-.subpage-simple h3,
-.subpage-simple .h3 {
-  margin: 40px 0 10px;
-}
-/* line 108, ../../sass/partials/_typography.scss */
-.subpage h4, .subpage .h4,
-.subpage-simple h4,
-.subpage-simple .h4 {
-  margin-top: 30px;
-}
-@media screen and (min-width: 840px) {
-  /* line 113, ../../sass/partials/_typography.scss */
-  .subpage h1, .subpage .h1,
-  .subpage-simple h1,
-  .subpage-simple .h1 {
-    margin: 80px 0 40px;
-  }
-  /* line 117, ../../sass/partials/_typography.scss */
-  .subpage h2, .subpage .h2,
-  .subpage-simple h2,
-  .subpage-simple .h2 {
-    margin: 60px 0 20px;
-  }
-  /* line 121, ../../sass/partials/_typography.scss */
-  .subpage h3, .subpage .h3,
-  .subpage-simple h3,
-  .subpage-simple .h3 {
-    margin: 50px 0 20px;
-  }
-  /* line 125, ../../sass/partials/_typography.scss */
-  .subpage h4, .subpage .h4,
-  .subpage-simple h4,
-  .subpage-simple .h4 {
-    margin: 40px 0 20px;
-  }
-}
-
-/* line 131, ../../sass/partials/_typography.scss */
+/* line 78, ../../sass/partials/_typography.scss */
 p,
 ol li,
 ul li {
-  color: #393B3B;
+  color: #191F39;
   font-family: "utopia-std", Georgia, Times, Times New Roman, serif;
-  font-size: 1.125em;
-  line-height: 1.75em;
+  line-height: 1.5625em;
   margin: 0 0 20px;
 }
-/* line 140, ../../sass/partials/_typography.scss */
-.cover p, .cover
-ol li, .cover
+/* line 86, ../../sass/partials/_typography.scss */
+.subpage-simple p, .subpage p, .subpage-simple
+ol li, .subpage
+ol li, .subpage-simple
+ul li, .subpage
 ul li {
-  color: white;
+  font-size: 1.125em;
+  line-height: 1.625em;
 }
-/* line 144, ../../sass/partials/_typography.scss */
-p.footnote,
-ol li.footnote,
-ul li.footnote {
+
+/* line 95, ../../sass/partials/_typography.scss */
+.post-header p, .post-footer p, .post-header
+a, .post-footer
+a {
+  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.125em;
+}
+
+/* line 103, ../../sass/partials/_typography.scss */
+.post-footer p {
   font-size: 0.875em;
 }
 
-/* line 149, ../../sass/partials/_typography.scss */
-.subpage-meta p {
-  color: #669f97;
-  font-size: 0.75em;
-  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 2em;
-}
-
-/* line 156, ../../sass/partials/_typography.scss */
+/* line 108, ../../sass/partials/_typography.scss */
 ul, ol {
   margin: 0 0 20px;
   padding: 0;
 }
-/* line 160, ../../sass/partials/_typography.scss */
+/* line 112, ../../sass/partials/_typography.scss */
 ul li, ol li {
   margin: 0 0 10px 20px;
 }
 
-/* line 165, ../../sass/partials/_typography.scss */
+/* line 117, ../../sass/partials/_typography.scss */
 a {
-  color: #5AA3E8;
+  border-bottom: 1px solid rgba(78, 116, 123, 0.1);
+  color: #4E747B;
   text-decoration: none;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 169, ../../sass/partials/_typography.scss */
+/* line 122, ../../sass/partials/_typography.scss */
+a.book-cover {
+  border: 0;
+}
+/* line 126, ../../sass/partials/_typography.scss */
+.post-listing a {
+  font-size: 1.125em;
+}
+/* line 130, ../../sass/partials/_typography.scss */
+a#toggleBio {
+  background-color: rgba(143, 165, 169, 0.2);
+  border: 0;
+  color: black;
+  content: "Hello";
+  font-size: 0.75em;
+  padding: 5px 10px;
+}
+@media screen and (min-width: 560px) {
+  /* line 130, ../../sass/partials/_typography.scss */
+  a#toggleBio {
+    display: none;
+  }
+}
+/* line 143, ../../sass/partials/_typography.scss */
 a:hover {
-  color: #9dc8f1;
+  color: #191F39;
+  border-bottom: 1px solid rgba(78, 116, 123, 0.3);
+}
+/* line 147, ../../sass/partials/_typography.scss */
+a:hover.book-cover {
+  border: 0;
+}
+/* line 151, ../../sass/partials/_typography.scss */
+a:hover#toggleBio {
+  background-color: yellow;
+  border: 0;
 }
 
-/* line 176, ../../sass/partials/_typography.scss */
+/* line 160, ../../sass/partials/_typography.scss */
 blockquote {
-  border-left: 3px solid #4697AC;
+  border-left: 3px solid rgba(143, 165, 169, 0.5);
+  border-right: 3px solid rgba(143, 165, 169, 0.5);
   font-style: italic;
   margin: 20px 0;
 }
-/* line 181, ../../sass/partials/_typography.scss */
+/* line 166, ../../sass/partials/_typography.scss */
 blockquote p {
-  color: #4697AC;
-  margin-left: 20px;
+  margin: 0 20px;
 }
-@media screen and (min-width: 840px) {
-  /* line 176, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 160, ../../sass/partials/_typography.scss */
   blockquote {
     margin: 40px 0;
   }
 }
 
-/* line 191, ../../sass/partials/_typography.scss */
+/* line 175, ../../sass/partials/_typography.scss */
 blockquote.large {
   border: 0;
 }
-/* line 194, ../../sass/partials/_typography.scss */
+/* line 178, ../../sass/partials/_typography.scss */
 blockquote.large p {
-  color: #333;
   font-style: normal;
+  font-size: 1.375em;
+  line-height: 1.375em;
   margin-left: 0;
-  text-align: center;
 }
-@media screen and (min-width: 840px) {
-  /* line 194, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 178, ../../sass/partials/_typography.scss */
   blockquote.large p {
-    font-size: 1.75em;
+    font-size: 1.625em;
+    line-height: 1.375em;
+  }
+}
+@media screen and (min-width: 1130px) {
+  /* line 175, ../../sass/partials/_typography.scss */
+  blockquote.large {
+    text-align: center;
   }
 }
 
-/* line 206, ../../sass/partials/_typography.scss */
+/* line 195, ../../sass/partials/_typography.scss */
 figure {
   margin: 15px -20px 0;
 }
 @media screen and (min-width: 560px) {
-  /* line 206, ../../sass/partials/_typography.scss */
+  /* line 195, ../../sass/partials/_typography.scss */
   figure {
     margin: 20px -50px 0;
   }
 }
-@media screen and (min-width: 840px) {
-  /* line 206, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 195, ../../sass/partials/_typography.scss */
   figure {
     margin: 30px 0;
   }
 }
 
-/* line 218, ../../sass/partials/_typography.scss */
+/* line 207, ../../sass/partials/_typography.scss */
 figure.hero {
   margin-top: 0;
 }
 @media screen and (min-width: 560px) {
-  /* line 218, ../../sass/partials/_typography.scss */
+  /* line 207, ../../sass/partials/_typography.scss */
   figure.hero {
     margin-top: 20px;
     margin-bottom: 20px;
   }
 }
-@media screen and (min-width: 840px) {
-  /* line 218, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 207, ../../sass/partials/_typography.scss */
   figure.hero {
     margin: 0;
   }
 }
 
-/* line 231, ../../sass/partials/_typography.scss */
+/* line 220, ../../sass/partials/_typography.scss */
 figure.left {
   margin-top: 30px;
 }
-@media screen and (min-width: 840px) {
-  /* line 231, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 220, ../../sass/partials/_typography.scss */
   figure.left {
     float: left;
     margin: 10px 0;
@@ -3158,53 +2212,48 @@ figure.left {
   }
 }
 
-/* line 241, ../../sass/partials/_typography.scss */
+/* line 230, ../../sass/partials/_typography.scss */
 figure.sep {
   margin: 20px -20px;
 }
 @media screen and (min-width: 560px) {
-  /* line 241, ../../sass/partials/_typography.scss */
+  /* line 230, ../../sass/partials/_typography.scss */
   figure.sep {
     margin: 50px -50px;
   }
 }
 
-/* line 249, ../../sass/partials/_typography.scss */
+/* line 238, ../../sass/partials/_typography.scss */
 figcaption {
   color: #869D9A;
-  font-size: 0.75em;
+  font-size: 0.875em;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 10px 20px 15px;
-  text-align: center;
 }
-@media screen and (min-width: 840px) {
-  /* line 249, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 238, ../../sass/partials/_typography.scss */
   figcaption {
     margin-left: 0;
   }
 }
-@media screen and (min-width: 840px) {
-  /* line 260, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 248, ../../sass/partials/_typography.scss */
   .hero figcaption {
     text-align: left;
   }
 }
-/* line 266, ../../sass/partials/_typography.scss */
-.left figcaption {
-  margin: 10px 0 15px;
-}
 @media screen and (min-width: 560px) {
-  /* line 266, ../../sass/partials/_typography.scss */
+  /* line 254, ../../sass/partials/_typography.scss */
   .left figcaption {
     margin-bottom: 30px;
   }
 }
-/* line 274, ../../sass/partials/_typography.scss */
+/* line 260, ../../sass/partials/_typography.scss */
 figcaption.inline {
   margin: 10px 0 30px;
 }
-@media screen and (min-width: 840px) {
-  /* line 274, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 260, ../../sass/partials/_typography.scss */
   figcaption.inline {
     margin-top: 0;
     padding: 0;
@@ -3212,22 +2261,31 @@ figcaption.inline {
   }
 }
 
-/* line 285, ../../sass/partials/_typography.scss */
+/* line 271, ../../sass/partials/_typography.scss */
 hr {
   border: 0;
-  border-bottom: 1px solid #DBDBDB;
+  border-bottom: 1px solid rgba(143, 165, 169, 0.2);
   margin: 20px auto;
 }
-@media screen and (min-width: 840px) {
-  /* line 285, ../../sass/partials/_typography.scss */
+@media screen and (min-width: 1130px) {
+  /* line 271, ../../sass/partials/_typography.scss */
   hr {
     margin: 50px auto;
   }
 }
 
-/* line 295, ../../sass/partials/_typography.scss */
+/* line 281, ../../sass/partials/_typography.scss */
 hr.small {
   width: 80px;
+}
+
+/* line 285, ../../sass/partials/_typography.scss */
+.bullet {
+  color: #8FA5A9;
+  font-size: 0.75em;
+  padding: 0 5px;
+  position: relative;
+  bottom: 2px;
 }
 
 /*------------------------------------*\
@@ -3235,120 +2293,105 @@ hr.small {
 \*------------------------------------*/
 /* line 5, ../../sass/partials/_homepage.scss */
 .avatar {
-  border-radius: 999px;
-  height: 100px;
-  width: 100px;
-}
-@media screen and (min-width: 840px) {
-  /* line 5, ../../sass/partials/_homepage.scss */
-  .avatar {
-    display: none;
-  }
-}
-
-/* line 15, ../../sass/partials/_homepage.scss */
-.cover {
-  background-color: #303544;
-  padding: 30px 20px 20px;
-  position: fixed;
-  text-align: center;
+  display: none;
 }
 @media screen and (min-width: 560px) {
-  /* line 15, ../../sass/partials/_homepage.scss */
-  .cover {
-    background-position: center;
-    padding: 30px 50px;
+  /* line 5, ../../sass/partials/_homepage.scss */
+  .avatar {
+    display: inline-block;
+    left: 270px;
+    position: absolute;
+    top: 0;
+    width: 220px;
   }
 }
-@media screen and (min-width: 840px) {
-  /* line 15, ../../sass/partials/_homepage.scss */
-  .cover {
-    background-image: url("/img/portrait.jpg");
-    background-position: center bottom;
-    background-size: cover;
-    height: 100vh;
-    position: initial;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  /* line 15, ../../sass/partials/_homepage.scss */
-  .cover {
-    padding: 0 75px 40px;
+@media screen and (min-width: 1130px) {
+  /* line 5, ../../sass/partials/_homepage.scss */
+  .avatar {
+    left: 0;
   }
 }
 
-@media screen and (min-width: 840px) {
-  /* line 40, ../../sass/partials/_homepage.scss */
-  .cover-text {
-    max-width: 440px;
-    margin: 0 auto;
+/* line 21, ../../sass/partials/_homepage.scss */
+.bio {
+  padding: 60px 40px 20px;
+}
+/* line 24, ../../sass/partials/_homepage.scss */
+.bio h2, .bio .h2 {
+  margin: 0 0 20px;
+}
+@media screen and (min-width: 560px) {
+  /* line 21, ../../sass/partials/_homepage.scss */
+  .bio {
+    padding-top: 275px;
+  }
+  /* line 31, ../../sass/partials/_homepage.scss */
+  .bio h2, .bio .h2 {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1130px) {
+  /* line 21, ../../sass/partials/_homepage.scss */
+  .bio {
+    padding: 375px 40px 0 0;
+    width: 650px;
+    position: fixed;
+  }
+  /* line 41, ../../sass/partials/_homepage.scss */
+  .bio h2, .bio .h2 {
+    margin-bottom: 20px;
   }
 }
 
 /* line 47, ../../sass/partials/_homepage.scss */
-.post-listing {
-  background-color: white;
-  padding: 50px 20px 0;
-  position: absolute;
-  top: 356px;
-  z-index: 2;
+.bio--hide {
+  display: none;
 }
 @media screen and (min-width: 560px) {
   /* line 47, ../../sass/partials/_homepage.scss */
-  .post-listing {
-    padding: 50px 50px 0;
+  .bio--hide {
+    display: block;
   }
 }
-@media screen and (min-width: 840px) {
-  /* line 47, ../../sass/partials/_homepage.scss */
+
+/* line 55, ../../sass/partials/_homepage.scss */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (min-width: 1130px) {
+  /* line 55, ../../sass/partials/_homepage.scss */
+  .container {
+    max-width: 1050px;
+  }
+}
+
+/* line 65, ../../sass/partials/_homepage.scss */
+.post-listing {
+  padding: 0 40px 20px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 560px) {
+  /* line 65, ../../sass/partials/_homepage.scss */
   .post-listing {
-    height: 100vh;
-    overflow-y: scroll;
-    position: initial;
+    padding-left: 270px;
+  }
+}
+@media screen and (min-width: 1130px) {
+  /* line 65, ../../sass/partials/_homepage.scss */
+  .post-listing {
+    position: absolute;
+    right: 0;
+    width: 350px;
+    padding: 100px 0 50px;
     top: 0;
   }
 }
-@media screen and (min-width: 1200px) {
-  /* line 47, ../../sass/partials/_homepage.scss */
-  .post-listing {
-    padding: 100px 100px 0;
-  }
-}
-@media screen and (min-width: 1600px) {
-  /* line 47, ../../sass/partials/_homepage.scss */
-  .post-listing {
-    padding: 20% 20% 10%;
-  }
-}
 
-/* line 74, ../../sass/partials/_homepage.scss */
-.post-listing__excerpt {
+/* line 82, ../../sass/partials/_homepage.scss */
+.post-listing__single {
   margin-bottom: 50px;
-}
-/* line 77, ../../sass/partials/_homepage.scss */
-.post-listing__excerpt h2, .post-listing__excerpt .h2 {
-  margin-bottom: 5px;
-}
-/* line 81, ../../sass/partials/_homepage.scss */
-.post-listing__excerpt h6, .post-listing__excerpt .h6 {
-  margin-bottom: 10px;
-}
-@media screen and (min-width: 1200px) {
-  /* line 74, ../../sass/partials/_homepage.scss */
-  .post-listing__excerpt {
-    margin-bottom: 100px;
-  }
-}
-
-/* line 90, ../../sass/partials/_homepage.scss */
-.post-tag {
-  color: #F5A623;
-}
-
-/* line 94, ../../sass/partials/_homepage.scss */
-.post-title {
-  color: #333;
 }
 
 /*------------------------------------*\
@@ -3379,7 +2422,7 @@ a:hover .page-nav-cond, a:hover
   color: #becbc9;
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 1130px) {
   /* line 24, ../../sass/partials/_subpage.scss */
   .page-nav-cond {
     display: none;
@@ -3390,7 +2433,7 @@ a:hover .page-nav-cond, a:hover
 .page-nav-ex {
   display: none;
 }
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 1130px) {
   /* line 30, ../../sass/partials/_subpage.scss */
   .page-nav-ex {
     display: inline-block;
@@ -3398,128 +2441,75 @@ a:hover .page-nav-cond, a:hover
 }
 
 /* line 38, ../../sass/partials/_subpage.scss */
-.post-header,
-.post-footer {
-  background-color: #FAFAFA;
-  padding: 15px;
+.post-header {
+  border-bottom: 1px solid rgba(143, 165, 169, 0.2);
+  margin-bottom: 40px;
+  padding: 10px 20px;
 }
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 560px) {
   /* line 38, ../../sass/partials/_subpage.scss */
-  .post-header,
-  .post-footer {
-    padding: 20px;
+  .post-header {
+    padding: 20px 30px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1130px) {
   /* line 38, ../../sass/partials/_subpage.scss */
-  .post-header,
-  .post-footer {
-    padding: 30px;
+  .post-header {
+    margin-bottom: 120px;
   }
 }
 
 /* line 52, ../../sass/partials/_subpage.scss */
-.subpage,
-.subpage-simple {
-  background-color: #ffffff;
+.post-footer {
+  border-bottom: 0;
+  border-top: 1px solid rgba(143, 165, 169, 0.2);
+  margin-top: 60px;
+  margin-bottom: 0;
+  padding: 10px 20px;
 }
-/* line 56, ../../sass/partials/_subpage.scss */
+/* line 59, ../../sass/partials/_subpage.scss */
+.post-footer p {
+  margin: 0;
+}
+@media screen and (min-width: 560px) {
+  /* line 52, ../../sass/partials/_subpage.scss */
+  .post-footer {
+    padding: 20px 30px 30px;
+  }
+}
+@media screen and (min-width: 1130px) {
+  /* line 52, ../../sass/partials/_subpage.scss */
+  .post-footer {
+    margin-top: 80px;
+  }
+  /* line 70, ../../sass/partials/_subpage.scss */
+  .post-footer p {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+/* line 79, ../../sass/partials/_subpage.scss */
 .subpage img,
 .subpage-simple img {
   width: 100%;
 }
 
-/* line 61, ../../sass/partials/_subpage.scss */
+/* line 84, ../../sass/partials/_subpage.scss */
 .subpage-body {
   margin: 0 auto;
   max-width: 1040px;
   padding: 20px;
 }
 @media screen and (min-width: 560px) {
-  /* line 61, ../../sass/partials/_subpage.scss */
+  /* line 84, ../../sass/partials/_subpage.scss */
   .subpage-body {
     padding: 50px;
   }
 }
-@media screen and (min-width: 840px) {
-  /* line 61, ../../sass/partials/_subpage.scss */
+@media screen and (min-width: 1130px) {
+  /* line 84, ../../sass/partials/_subpage.scss */
   .subpage-body {
     padding: 0 50px 100px;
   }
-}
-
-/* line 75, ../../sass/partials/_subpage.scss */
-.subpage-meta {
-  text-align: center;
-}
-/* line 78, ../../sass/partials/_subpage.scss */
-.subpage-simple .subpage-meta {
-  margin: -10px 0 30px;
-}
-@media screen and (min-width: 840px) {
-  /* line 75, ../../sass/partials/_subpage.scss */
-  .subpage-meta {
-    margin-bottom: 40px;
-    text-align: right;
-  }
-  /* line 86, ../../sass/partials/_subpage.scss */
-  .subpage-simple .subpage-meta {
-    text-align: center;
-    padding-top: 0;
-    height: auto;
-    margin: -20px 0 40px;
-  }
-}
-
-/*------------------------------------*\
-    #Tag page
-\*------------------------------------*/
-/* line 5, ../../sass/partials/_tagpage.scss */
-.tagpage .post-listing {
-  background-color: transparent;
-  margin-top: 30px;
-  padding: 0;
-  position: initial;
-}
-@media screen and (min-width: 840px) {
-  /* line 5, ../../sass/partials/_tagpage.scss */
-  .tagpage .post-listing {
-    height: auto;
-    margin-top: 50px;
-    overflow-y: auto;
-    position: initial;
-  }
-}
-
-/* line 19, ../../sass/partials/_tagpage.scss */
-.tagpage {
-  background-color: #ffffff;
-}
-/* line 22, ../../sass/partials/_tagpage.scss */
-.tagpage .small {
-  margin-top: 0;
-}
-
-/* line 27, ../../sass/partials/_tagpage.scss */
-.tagpage-body {
-  padding: 20px;
-  max-width: 1040px;
-  margin: 0 auto;
-}
-@media screen and (min-width: 560px) {
-  /* line 27, ../../sass/partials/_tagpage.scss */
-  .tagpage-body {
-    padding: 50px;
-  }
-}
-@media screen and (min-width: 840px) {
-  /* line 27, ../../sass/partials/_tagpage.scss */
-  .tagpage-body {
-    padding: 0 50px 100px;
-  }
-}
-
-/* line 41, ../../sass/partials/_tagpage.scss */
-.tags-table .tag {
-  margin-right: 20px;
 }
