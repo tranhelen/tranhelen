@@ -2106,7 +2106,7 @@ a#toggleBio {
   }
 }
 /* line 143, ../../sass/partials/_typography.scss */
-a:active#toggleBio {
+a:visited#toggleBio {
   background-color: rgba(143, 165, 169, 0.2);
   border: 0;
   color: black;
