@@ -6,10 +6,10 @@
 
 		    if (i === 0) {
 		    	i = 1;
-		    	$(this).html('Less &#8598;');
+		    	$(this).html('Less ↖');
 		    } else {
 		    	i = 0;
-		    	$(this).html('More &#8600;');
+		    	$(this).html('More ↘');
 		    };
 		});
 
