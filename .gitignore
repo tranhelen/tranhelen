@@ -1,6 +1,11 @@
-.sass-cache/*
 .DS_Store
-config.rb
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
 .htaccess
 _site/
 _drafts/
+config.rb
+Gemfile
+Gemfile.lock
