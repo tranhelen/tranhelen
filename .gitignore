@@ -2,5 +2,5 @@
 .DS_Store
 config.rb
 .htaccess
-_site
-_drafts
+_site/
+_drafts/
