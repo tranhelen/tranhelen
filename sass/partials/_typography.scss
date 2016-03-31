@@ -1,0 +1,287 @@
+/*------------------------------------*\
+    #Typography
+\*------------------------------------*/
+
+body,
+html {
+	font-family: $stack2;
+	font-size: em(16px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $colorTextHeader;
+	font-family: $stack2;
+	font-weight: 600;
+
+	@include at-query($one) {
+		.subpage-custom &,
+		.subpage-simple & {
+			text-align: center;
+		}
+	}
+}
+
+h1 {
+	font-size: em(35px);
+	line-height: em(18px);
+
+	&.name {
+		margin: 0;
+	}
+}
+
+h2 {
+	font-size: em(30px);
+	line-height: em(20px);
+}
+
+h3 {
+	font-size: em(24px);
+	line-height: em(20px);
+}
+
+h4 {
+	font-size: em(20px);
+	line-height: em(24px);
+}
+
+h5,
+h6 {
+	color: $colorAccent;
+	font-family: $stack1;
+	font-size: em(14px);
+	font-weight: 600;
+	line-height: em(18px);
+	text-transform: uppercase;
+
+	.post-listing & {
+		margin: 0 0 em(7px);
+	}
+}
+
+h6 {
+	font-weight: 300;
+
+	.subpage-meta & {
+		font-size: em(14px);
+		margin: 0;
+		text-align: left;
+	}
+}
+
+.h1 { @extend h1; }
+.h2 { @extend h2; }
+.h3 { @extend h3; }
+.h4 { @extend h4; }
+.h5 { @extend h5; }
+.h6 { @extend h6; }
+
+p,
+ol li,
+ul li {
+	color: $colorTextBody;
+	font-family: $stack2;
+	line-height: em(25px);
+	margin: 0 0 $unit;
+
+	.subpage-custom &,
+	.subpage-simple &,
+	.subpage & {
+		font-size: em(18px);
+		line-height: em(26px);
+	}
+}
+
+p,
+a {
+	.post-header &,
+	.post-footer & {
+		font-family: $stack1;
+		line-height: em(18px);
+	}
+}
+
+p {
+	.post-footer & {
+		font-size: em(14px);
+	}
+}
+
+ul, ol {
+	margin: 0 0 $unit;
+	padding: 0;
+
+	li {
+		margin: 0 0 ($unit / 2) $unit;
+	}
+}
+
+a {
+	border-bottom: 1px solid rgba($colorLink,0.1);
+	color: $colorLink;
+	text-decoration: none;
+
+	&.book-cover {
+		border: 0;
+	}
+
+	.post-listing & {
+		font-size: em(18px);
+	}
+
+	&#toggleBio {
+		background-color: rgba($colorAccent, 0.2);
+		border: 0;
+		color: black;
+		font-size: em(12px);
+		padding: ($unit / 4) ($unit / 2);
+
+		@include at-query($one) {
+			display: none;
+		}
+	}
+
+	&:hover {
+		color: $colorTextBody;
+		border-bottom: 1px solid rgba($colorLink,0.3);
+
+		&.book-cover {
+			border: 0;
+		}
+	}
+
+	@include transition;
+}
+
+blockquote {
+	border-left: 3px solid rgba($colorAccent,0.5);
+	border-right: 3px solid rgba($colorAccent,0.5);
+	font-style: italic;
+	margin: $unit 0;
+
+	p {
+		margin: 0 $unit;
+	}
+
+	@include at-query($two) {
+		margin: ($unit * 2) 0;
+	}
+}
+
+blockquote.large {
+	border: 0;
+
+	p {
+		font-style: normal;
+		font-size: em(22px);
+		line-height: em(22px);
+		margin-left: 0;
+
+		@include at-query($two) {
+			font-size: em(26px);
+			line-height: em(22px);
+		}
+	}
+
+	@include at-query($two) {
+		text-align: center;
+	}
+}
+
+figure {
+	margin: ($unit * 0.75) (-$unit) 0;
+
+	@include at-query($one) {
+		margin: $unit (-$unit * 2.5) 0;
+	}
+
+	@include at-query($two) {
+		margin: ($unit * 1.5) 0;
+	}
+}
+
+figure.hero {
+	margin-top: 0;
+
+	@include at-query($one) {
+		margin-top: $unit;
+		margin-bottom: $unit;
+	}
+
+	@include at-query($two) {
+		margin: 0;
+	}
+}
+
+figure.left {
+	margin-top: $unit * 1.5;
+
+	@include at-query($two) {
+		float: left;
+		margin: ($unit / 2) 0;
+		margin-right: ($unit * 2.5);
+	}
+}
+
+figure.sep {
+	margin: 20px -20px;
+
+	@include at-query($one) {
+		margin: 50px -50px;
+	}
+}
+
+figcaption {
+	color: #869D9A;
+	font-size: em(14px);
+	font-family: $stack1;
+	margin: 10px 20px 15px;
+
+	@include at-query($two) {
+		margin-left: 0;
+	}
+
+	.hero & {
+		@include at-query($two) {
+			text-align: left;		
+		}
+	}
+
+	.left & {
+		@include at-query($one) {
+			margin-bottom: ($unit * 1.5);
+		}
+	}
+
+	&.inline {
+		margin: ($unit / 2) 0 ($unit * 1.5);
+
+		@include at-query($two) {
+			margin-top: 0;
+			padding: 0;
+			text-align: right;
+		}
+	}
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid rgba($colorAccent,0.2);
+	margin: $unit auto;
+
+	@include at-query($two) {
+		margin: ($unit * 2.5) auto;
+	}
+}
+
+hr.small {
+	width: ($unit * 4);
+}
+
+.bullet {
+	color: $colorAccent;
+	font-size: em(12px);
+	padding: 0 5px;
+	position: relative;
+	bottom: 2px;
+}

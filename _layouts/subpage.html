@@ -1,0 +1,28 @@
+    {% include header.html %}
+    <body class="subpage">
+
+      {% include navigation.html %}
+
+      <div class="subpage-body">
+
+        <div class="grid">
+          <div class="grid__item">
+          
+            <figure class="hero">
+              <img src="/img/post/{{ page.hero }}">
+              <figcaption>{{ page.hero_caption }}</figcaption>
+            </figure>
+          
+          </div>
+        </div>
+
+        <h1>{{ page.title }}</h1>
+        
+        {{ content }}
+      </div>
+
+      <footer class="post-footer">
+        <p><a href="http://helentran.com">Home</a> <span class="bullet">•</span> &copy; 2008–2016 Helen Tran <span class="bullet">•</span> <a href="http://twitter.com/tranhelen">Twitter</a> <span class="bullet">•</span> <a href="http://dribbble.com/tranhelen">Dribbble</a> <span class="bullet">•</span> <a href="http://instagram.com/tranhelen">Instagram</a></p>
+      </footer>
+
+    {% include footer.html %}

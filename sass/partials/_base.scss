@@ -1,0 +1,42 @@
+/*------------------------------------*\
+    #Base
+\*------------------------------------*/
+
+* {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+		box-sizing: border-box;
+-webkit-font-smoothing:antialiased;
+	-webkit-text-size-adjust: 100%;
+ text-rendering:optimizeLegibility;
+}
+
+::selection {
+	background: $selection;
+	color: black;
+}
+
+::-moz-selection {
+	background: $selection;
+	color: black;
+}
+
+$stack1: "soleil", "Helvetica Neue",Helvetica,Arial,sans-serif;
+$stack2: "utopia-std", Georgia,Times,Times New Roman,serif;
+
+$baseFontSize: 16px;
+$unit: 20px;
+
+/* Breakpoints */
+$one: 560px;
+$two: 1130px;
+
+body {
+	border: 1px solid rgba($colorLink,0.2);
+	margin: ($unit / 2);
+
+	@include at-query($one) {
+		border: 0;
+		margin: 0;
+	}
+}

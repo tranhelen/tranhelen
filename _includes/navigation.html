@@ -1,0 +1,19 @@
+      <header class="post-header">
+      	<div class="grid">
+	    	<div class="grid__item one-third">
+	    	    {% if page.previous %}
+	      			&laquo; <a href="{{ page.previous.url }}"><span class="page-nav-cond">Previous</span><span class="page-nav-ex">{{ page.previous.title }}</span></a>
+	      		{% else %}
+	      			&nbsp;
+		        {% endif %}
+	  		</div>
+	  		<div class="grid__item one-third text-center">
+	  			<a href="/">Home</a>
+	  		</div>
+	    	<div class="grid__item one-third text-right">
+		        {% if page.next %}
+	          		<a href="{{ page.next.url }}"><span class="page-nav-cond">Next</span><span class="page-nav-ex">{{ page.next.title }}</span></a> &raquo;
+			    {% endif %}
+	      	</div>
+       	</div>
+      </header>
