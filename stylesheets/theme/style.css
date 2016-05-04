@@ -1863,19 +1863,6 @@ th {
 }
 
 /* Breakpoints */
-/* line 34, ../../sass/partials/_base.scss */
-body {
-  border: 1px solid rgba(78, 116, 123, 0.2);
-  margin: 10px;
-}
-@media screen and (min-width: 560px) {
-  /* line 34, ../../sass/partials/_base.scss */
-  body {
-    border: 0;
-    margin: 0;
-  }
-}
-
 /*------------------------------------*\
     #Helpers
 \*------------------------------------*/
@@ -1956,15 +1943,15 @@ body {
 /* line 5, ../../sass/partials/_typography.scss */
 body,
 html {
-  font-family: "utopia-std", Georgia, Times, Times New Roman, serif;
-  font-size: 1em;
+  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
 }
 
 /* line 11, ../../sass/partials/_typography.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #191F39;
-  font-family: "utopia-std", Georgia, Times, Times New Roman, serif;
-  font-weight: 600;
+  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 @media screen and (min-width: 560px) {
   /* line 17, ../../sass/partials/_typography.scss */
@@ -1975,8 +1962,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 /* line 24, ../../sass/partials/_typography.scss */
 h1, .h1 {
-  font-size: 2.1875em;
-  line-height: 1.125em;
+  font-size: 1.75em;
+  line-height: 0.9em;
 }
 /* line 28, ../../sass/partials/_typography.scss */
 h1.name, .name.h1 {
@@ -1985,20 +1972,20 @@ h1.name, .name.h1 {
 
 /* line 33, ../../sass/partials/_typography.scss */
 h2, .h2 {
-  font-size: 1.875em;
-  line-height: 1.25em;
+  font-size: 1.5em;
+  line-height: 1em;
 }
 
 /* line 38, ../../sass/partials/_typography.scss */
 h3, .h3 {
-  font-size: 1.5em;
-  line-height: 1.25em;
+  font-size: 1.2em;
+  line-height: 1em;
 }
 
 /* line 43, ../../sass/partials/_typography.scss */
 h4, .h4 {
-  font-size: 1.25em;
-  line-height: 1.5em;
+  font-size: 1em;
+  line-height: 1.2em;
 }
 
 /* line 48, ../../sass/partials/_typography.scss */
@@ -2006,17 +1993,17 @@ h5, .h5,
 h6,
 .h6 {
   color: #8FA5A9;
-  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.875em;
+  font-family: "Adobe Caslon Pro", Georgia, Times, Times New Roman, serif;
+  font-size: 0.7em;
   font-weight: 600;
-  line-height: 1.125em;
+  line-height: 0.9em;
   text-transform: uppercase;
 }
 /* line 57, ../../sass/partials/_typography.scss */
 .post-listing h5, .post-listing .h5, .post-listing
 h6, .post-listing
 .h6 {
-  margin: 0 0 0.4375em;
+  margin: 0 0 0.35em;
 }
 
 /* line 62, ../../sass/partials/_typography.scss */
@@ -2025,7 +2012,7 @@ h6, .h6 {
 }
 /* line 65, ../../sass/partials/_typography.scss */
 .subpage-meta h6, .subpage-meta .h6 {
-  font-size: 0.875em;
+  font-size: 0.7em;
   margin: 0;
   text-align: left;
 }
@@ -2035,9 +2022,9 @@ p,
 ol li,
 ul li {
   color: #191F39;
-  font-family: "utopia-std", Georgia, Times, Times New Roman, serif;
-  line-height: 1.5625em;
-  margin: 0 0 20px;
+  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.25em;
+  margin: 0 0 30px;
 }
 /* line 87, ../../sass/partials/_typography.scss */
 .subpage-custom p, .subpage-simple p, .subpage p, .subpage-custom
@@ -2047,31 +2034,31 @@ ol li, .subpage-custom
 ul li, .subpage-simple
 ul li, .subpage
 ul li {
-  font-size: 1.125em;
-  line-height: 1.625em;
+  font-size: 0.9em;
+  line-height: 1.3em;
 }
 
 /* line 97, ../../sass/partials/_typography.scss */
 .post-header p, .post-footer p, .post-header
 a, .post-footer
 a {
-  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.125em;
+  font-family: "Adobe Caslon Pro", Georgia, Times, Times New Roman, serif;
+  line-height: 0.9em;
 }
 
 /* line 105, ../../sass/partials/_typography.scss */
 .post-footer p {
-  font-size: 0.875em;
+  font-size: 0.7em;
 }
 
 /* line 110, ../../sass/partials/_typography.scss */
 ul, ol {
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   padding: 0;
 }
 /* line 114, ../../sass/partials/_typography.scss */
 ul li, ol li {
-  margin: 0 0 10px 20px;
+  margin: 0 0 15px 30px;
 }
 
 /* line 119, ../../sass/partials/_typography.scss */
@@ -2090,15 +2077,15 @@ a.book-cover {
 }
 /* line 128, ../../sass/partials/_typography.scss */
 .post-listing a {
-  font-size: 1.125em;
+  font-size: 0.9em;
 }
 /* line 132, ../../sass/partials/_typography.scss */
 a#toggleBio {
   background-color: rgba(143, 165, 169, 0.2);
   border: 0;
   color: black;
-  font-size: 0.75em;
-  padding: 5px 10px;
+  font-size: 0.6em;
+  padding: 7.5px 15px;
 }
 @media screen and (min-width: 560px) {
   /* line 132, ../../sass/partials/_typography.scss */
@@ -2121,16 +2108,16 @@ blockquote {
   border-left: 3px solid rgba(143, 165, 169, 0.5);
   border-right: 3px solid rgba(143, 165, 169, 0.5);
   font-style: italic;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 /* line 162, ../../sass/partials/_typography.scss */
 blockquote p {
-  margin: 0 20px;
+  margin: 0 30px;
 }
 @media screen and (min-width: 1130px) {
   /* line 156, ../../sass/partials/_typography.scss */
   blockquote {
-    margin: 40px 0;
+    margin: 60px 0;
   }
 }
 
@@ -2141,15 +2128,15 @@ blockquote.large {
 /* line 174, ../../sass/partials/_typography.scss */
 blockquote.large p {
   font-style: normal;
-  font-size: 1.375em;
-  line-height: 1.375em;
+  font-size: 1.1em;
+  line-height: 1.1em;
   margin-left: 0;
 }
 @media screen and (min-width: 1130px) {
   /* line 174, ../../sass/partials/_typography.scss */
   blockquote.large p {
-    font-size: 1.625em;
-    line-height: 1.375em;
+    font-size: 1.3em;
+    line-height: 1.1em;
   }
 }
 @media screen and (min-width: 1130px) {
@@ -2161,18 +2148,18 @@ blockquote.large p {
 
 /* line 191, ../../sass/partials/_typography.scss */
 figure {
-  margin: 15px -20px 0;
+  margin: 22.5px -30px 0;
 }
 @media screen and (min-width: 560px) {
   /* line 191, ../../sass/partials/_typography.scss */
   figure {
-    margin: 20px -50px 0;
+    margin: 30px -75px 0;
   }
 }
 @media screen and (min-width: 1130px) {
   /* line 191, ../../sass/partials/_typography.scss */
   figure {
-    margin: 30px 0;
+    margin: 45px 0;
   }
 }
 
@@ -2183,8 +2170,8 @@ figure.hero {
 @media screen and (min-width: 560px) {
   /* line 203, ../../sass/partials/_typography.scss */
   figure.hero {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1130px) {
@@ -2196,14 +2183,14 @@ figure.hero {
 
 /* line 216, ../../sass/partials/_typography.scss */
 figure.left {
-  margin-top: 30px;
+  margin-top: 45px;
 }
 @media screen and (min-width: 1130px) {
   /* line 216, ../../sass/partials/_typography.scss */
   figure.left {
     float: left;
-    margin: 10px 0;
-    margin-right: 50px;
+    margin: 15px 0;
+    margin-right: 75px;
   }
 }
 
@@ -2221,8 +2208,8 @@ figure.sep {
 /* line 234, ../../sass/partials/_typography.scss */
 figcaption {
   color: #869D9A;
-  font-size: 0.875em;
-  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.7em;
+  font-family: "Adobe Caslon Pro", Georgia, Times, Times New Roman, serif;
   margin: 10px 20px 15px;
 }
 @media screen and (min-width: 1130px) {
@@ -2240,12 +2227,12 @@ figcaption {
 @media screen and (min-width: 560px) {
   /* line 250, ../../sass/partials/_typography.scss */
   .left figcaption {
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
 }
 /* line 256, ../../sass/partials/_typography.scss */
 figcaption.inline {
-  margin: 10px 0 30px;
+  margin: 15px 0 45px;
 }
 @media screen and (min-width: 1130px) {
   /* line 256, ../../sass/partials/_typography.scss */
@@ -2260,24 +2247,24 @@ figcaption.inline {
 hr {
   border: 0;
   border-bottom: 1px solid rgba(143, 165, 169, 0.2);
-  margin: 20px auto;
+  margin: 30px auto;
 }
 @media screen and (min-width: 1130px) {
   /* line 267, ../../sass/partials/_typography.scss */
   hr {
-    margin: 50px auto;
+    margin: 75px auto;
   }
 }
 
 /* line 277, ../../sass/partials/_typography.scss */
 hr.small {
-  width: 80px;
+  width: 120px;
 }
 
 /* line 281, ../../sass/partials/_typography.scss */
 .bullet {
   color: #8FA5A9;
-  font-size: 0.75em;
+  font-size: 0.6em;
   padding: 0 5px;
   position: relative;
   bottom: 2px;
@@ -2310,11 +2297,11 @@ hr.small {
 
 /* line 22, ../../sass/partials/_homepage.scss */
 .bio {
-  padding: 60px 40px 20px;
+  padding: 90px 60px 30px;
 }
 /* line 25, ../../sass/partials/_homepage.scss */
 .bio h2, .bio .h2 {
-  margin: 0 0 20px;
+  margin: 0 0 30px;
 }
 @media screen and (min-width: 560px) {
   /* line 22, ../../sass/partials/_homepage.scss */
@@ -2323,19 +2310,19 @@ hr.small {
   }
   /* line 32, ../../sass/partials/_homepage.scss */
   .bio h2, .bio .h2 {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
 @media screen and (min-width: 1130px) {
   /* line 22, ../../sass/partials/_homepage.scss */
   .bio {
-    padding: 375px 40px 0 0;
+    padding: 375px 60px 0 0;
     width: 650px;
     position: fixed;
   }
   /* line 42, ../../sass/partials/_homepage.scss */
   .bio h2, .bio .h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 
@@ -2365,7 +2352,7 @@ hr.small {
 
 /* line 66, ../../sass/partials/_homepage.scss */
 .post-listing {
-  padding: 0 40px 20px;
+  padding: 0 60px 30px;
   margin: 0 auto;
 }
 @media screen and (min-width: 560px) {
@@ -2380,14 +2367,14 @@ hr.small {
     position: absolute;
     right: 0;
     width: 350px;
-    padding: 100px 0 50px;
+    padding: 150px 0 75px;
     top: 0;
   }
 }
 
 /* line 83, ../../sass/partials/_homepage.scss */
 .post-listing__single {
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 /*------------------------------------*\
@@ -2395,7 +2382,7 @@ hr.small {
 \*------------------------------------*/
 /* line 5, ../../sass/partials/_subpage.scss */
 .book-cover {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 @media screen and (min-width: 1130px) {
@@ -2419,19 +2406,19 @@ hr.small {
 /* line 23, ../../sass/partials/_subpage.scss */
 .post-header {
   border-bottom: 1px solid rgba(143, 165, 169, 0.2);
-  margin-bottom: 40px;
-  padding: 10px 20px;
+  margin-bottom: 60px;
+  padding: 15px 30px;
 }
 @media screen and (min-width: 560px) {
   /* line 23, ../../sass/partials/_subpage.scss */
   .post-header {
-    padding: 20px 30px;
+    padding: 30px 45px;
   }
 }
 @media screen and (min-width: 1130px) {
   /* line 23, ../../sass/partials/_subpage.scss */
   .post-header {
-    margin-bottom: 120px;
+    margin-bottom: 180px;
   }
 }
 
@@ -2439,9 +2426,9 @@ hr.small {
 .post-footer {
   border-bottom: 0;
   border-top: 1px solid rgba(143, 165, 169, 0.2);
-  margin-top: 60px;
+  margin-top: 90px;
   margin-bottom: 0;
-  padding: 10px 20px;
+  padding: 15px 30px;
 }
 /* line 44, ../../sass/partials/_subpage.scss */
 .post-footer p {
@@ -2450,13 +2437,13 @@ hr.small {
 @media screen and (min-width: 560px) {
   /* line 37, ../../sass/partials/_subpage.scss */
   .post-footer {
-    padding: 20px 30px 30px;
+    padding: 30px 45px 45px;
   }
 }
 @media screen and (min-width: 1130px) {
   /* line 37, ../../sass/partials/_subpage.scss */
   .post-footer {
-    margin-top: 80px;
+    margin-top: 120px;
   }
   /* line 55, ../../sass/partials/_subpage.scss */
   .post-footer p {
@@ -2476,17 +2463,17 @@ hr.small {
 .subpage-body {
   margin: 0 auto;
   max-width: 1040px;
-  padding: 20px;
+  padding: 30px;
 }
 @media screen and (min-width: 560px) {
   /* line 70, ../../sass/partials/_subpage.scss */
   .subpage-body {
-    padding: 50px;
+    padding: 75px;
   }
 }
 @media screen and (min-width: 1130px) {
   /* line 70, ../../sass/partials/_subpage.scss */
   .subpage-body {
-    padding: 0 50px 100px;
+    padding: 0 75px 150px;
   }
 }

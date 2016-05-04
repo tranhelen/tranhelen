@@ -21,22 +21,12 @@
 	color: black;
 }
 
-$stack1: "soleil", "Helvetica Neue",Helvetica,Arial,sans-serif;
-$stack2: "utopia-std", Georgia,Times,Times New Roman,serif;
+$stack1: "Adobe Caslon Pro", Georgia,Times,Times New Roman,serif;
+$stack2: "soleil", "Helvetica Neue",Helvetica,Arial,sans-serif;
 
-$baseFontSize: 16px;
-$unit: 20px;
+$baseFontSize: 20px;
+$unit: 30px;
 
 /* Breakpoints */
 $one: 560px;
 $two: 1130px;
-
-body {
-	border: 1px solid rgba($colorLink,0.2);
-	margin: ($unit / 2);
-
-	@include at-query($one) {
-		border: 0;
-		margin: 0;
-	}
-}
