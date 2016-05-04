@@ -45,14 +45,6 @@
 	}
 }
 
-.bio--hide {
-	display: none;
-
-	@include at-query($one) {
-		display: block !important;
-	}
-}
-
 .container {
 	max-width: 700px;
 	margin: 0 auto;

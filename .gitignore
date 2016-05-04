@@ -6,6 +6,5 @@
 .htaccess
 _site/
 _drafts/
-config.rb
 Gemfile
 Gemfile.lock

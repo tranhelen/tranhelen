@@ -4,21 +4,14 @@
 
 body,
 html {
-	font-family: $stack2;
-	font-size: em(16px);
+	font-family: $stack1;
+	font-size: em(20px);
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: $colorTextHeader;
-	font-family: $stack2;
+	font-family: $stack1;
 	font-weight: 300;
-
-	@include at-query($one) {
-		.subpage-custom &,
-		.subpage-simple & {
-			text-align: center;
-		}
-	}
 }
 
 h1 {
@@ -48,7 +41,7 @@ h4 {
 h5,
 h6 {
 	color: $colorAccent;
-	font-family: $stack1;
+	font-family: $stack2;
 	font-size: em(14px);
 	font-weight: 600;
 	line-height: em(18px);
@@ -80,7 +73,7 @@ p,
 ol li,
 ul li {
 	color: $colorTextBody;
-	font-family: $stack2;
+	font-family: $stack1;
 	line-height: em(25px);
 	margin: 0 0 $unit;
 
@@ -96,7 +89,7 @@ p,
 a {
 	.post-header &,
 	.post-footer & {
-		font-family: $stack1;
+		font-family: $stack2;
 		line-height: em(18px);
 	}
 }
@@ -234,7 +227,7 @@ figure.sep {
 figcaption {
 	color: #869D9A;
 	font-size: em(14px);
-	font-family: $stack1;
+	font-family: $stack2;
 	margin: 10px 20px 15px;
 
 	@include at-query($two) {
