@@ -14,54 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
-h1 {
-	font-size: em(35px);
-	line-height: em(18px);
-
-	&.name {
-		margin: 0;
-	}
-}
-
-h2 {
-	font-size: em(30px);
-	line-height: em(20px);
-}
-
-h3 {
-	font-size: em(24px);
-	line-height: em(20px);
-}
-
-h4 {
-	font-size: em(20px);
-	line-height: em(24px);
-}
-
-h5,
-h6 {
-	color: $colorAccent;
-	font-family: $stack2;
-	font-size: em(14px);
-	font-weight: 600;
-	line-height: em(18px);
-	text-transform: uppercase;
-
-	.post-listing & {
-		margin: 0 0 em(7px);
-	}
-}
-
-h6 {
-	font-weight: 300;
-
-	.subpage-meta & {
-		font-size: em(14px);
-		margin: 0;
-		text-align: left;
-	}
-}
-
 .h1 { @extend h1; }
 .h2 { @extend h2; }
 .h3 { @extend h3; }
