@@ -3,7 +3,8 @@
 \*------------------------------------*/
 
 .avatar {
-	display: none;
+	margin: 0 auto;
+	width: 50%;
 
 	@include at-query($one) {
 		display: inline-block;

@@ -2288,7 +2288,8 @@ hr.small {
 \*------------------------------------*/
 /* line 5, ../../sass/partials/_homepage.scss */
 .avatar {
-  display: none;
+  margin: 0 auto;
+  width: 50%;
 }
 @media screen and (min-width: 560px) {
   /* line 5, ../../sass/partials/_homepage.scss */
@@ -2307,74 +2308,74 @@ hr.small {
   }
 }
 
-/* line 21, ../../sass/partials/_homepage.scss */
+/* line 22, ../../sass/partials/_homepage.scss */
 .bio {
   padding: 60px 40px 20px;
 }
-/* line 24, ../../sass/partials/_homepage.scss */
+/* line 25, ../../sass/partials/_homepage.scss */
 .bio h2, .bio .h2 {
   margin: 0 0 20px;
 }
 @media screen and (min-width: 560px) {
-  /* line 21, ../../sass/partials/_homepage.scss */
+  /* line 22, ../../sass/partials/_homepage.scss */
   .bio {
     padding-top: 275px;
   }
-  /* line 31, ../../sass/partials/_homepage.scss */
+  /* line 32, ../../sass/partials/_homepage.scss */
   .bio h2, .bio .h2 {
     margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 21, ../../sass/partials/_homepage.scss */
+  /* line 22, ../../sass/partials/_homepage.scss */
   .bio {
     padding: 375px 40px 0 0;
     width: 650px;
     position: fixed;
   }
-  /* line 41, ../../sass/partials/_homepage.scss */
+  /* line 42, ../../sass/partials/_homepage.scss */
   .bio h2, .bio .h2 {
     margin-bottom: 20px;
   }
 }
 
-/* line 47, ../../sass/partials/_homepage.scss */
+/* line 48, ../../sass/partials/_homepage.scss */
 .bio--hide {
   display: none;
 }
 @media screen and (min-width: 560px) {
-  /* line 47, ../../sass/partials/_homepage.scss */
+  /* line 48, ../../sass/partials/_homepage.scss */
   .bio--hide {
     display: block !important;
   }
 }
 
-/* line 55, ../../sass/partials/_homepage.scss */
+/* line 56, ../../sass/partials/_homepage.scss */
 .container {
   max-width: 700px;
   margin: 0 auto;
   position: relative;
 }
 @media screen and (min-width: 1130px) {
-  /* line 55, ../../sass/partials/_homepage.scss */
+  /* line 56, ../../sass/partials/_homepage.scss */
   .container {
     max-width: 1050px;
   }
 }
 
-/* line 65, ../../sass/partials/_homepage.scss */
+/* line 66, ../../sass/partials/_homepage.scss */
 .post-listing {
   padding: 0 40px 20px;
   margin: 0 auto;
 }
 @media screen and (min-width: 560px) {
-  /* line 65, ../../sass/partials/_homepage.scss */
+  /* line 66, ../../sass/partials/_homepage.scss */
   .post-listing {
     padding-left: 270px;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 65, ../../sass/partials/_homepage.scss */
+  /* line 66, ../../sass/partials/_homepage.scss */
   .post-listing {
     position: absolute;
     right: 0;
@@ -2384,7 +2385,7 @@ hr.small {
   }
 }
 
-/* line 82, ../../sass/partials/_homepage.scss */
+/* line 83, ../../sass/partials/_homepage.scss */
 .post-listing__single {
   margin-bottom: 50px;
 }
