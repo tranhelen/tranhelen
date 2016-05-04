@@ -4,9 +4,7 @@ title: This is Water
 ---
 David Foster Wallace’s commencement speech for Kenyon graduates in 2005 opens with a parable,
 
-<blockquote>
-	<p>Two young fish are swimming along and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning boys. How’s the water?” The two young fish swim on for a bit. Eventually one of them looks over at the other and goes, “What the hell is water?”</p>
-</blockquote>
+    Two young fish are swimming along and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning boys. How’s the water?” The two young fish swim on for a bit. Eventually one of them looks over at the other and goes, “What the hell is water?”
 
 <hr class="small">
 
