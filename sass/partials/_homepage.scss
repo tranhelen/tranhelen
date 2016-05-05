@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .avatar {
-	margin: 0 auto;
+	margin: -30px -30px 30px;
 
 	img {
 		width: 100%;
@@ -13,6 +13,7 @@
 .bio {
 	background-color: $colorBGBio;
 	box-shadow: inset 0px 0px 150px $colorBGBioDark;
+	padding: $unit;
 	text-align: center;
 }
 

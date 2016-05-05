@@ -14,12 +14,12 @@
 
 ::selection {
 	background: $selection;
-	color: black;
+	color: $selectionText;
 }
 
 ::-moz-selection {
 	background: $selection;
-	color: black;
+	color: $selectionText;
 }
 
 $stack1: "Adobe Caslon Pro", Georgia, Times, Times New Roman, serif;

@@ -1853,13 +1853,13 @@ th {
 /* line 15, ../../sass/partials/_base.scss */
 ::selection {
   background: #71B1CC;
-  color: black;
+  color: #fff;
 }
 
 /* line 20, ../../sass/partials/_base.scss */
 ::-moz-selection {
   background: #71B1CC;
-  color: black;
+  color: #fff;
 }
 
 /* Breakpoints */
@@ -2160,7 +2160,7 @@ hr.small {
 \*------------------------------------*/
 /* line 5, ../../sass/partials/_homepage.scss */
 .avatar {
-  margin: 0 auto;
+  margin: -30px -30px 30px;
 }
 /* line 8, ../../sass/partials/_homepage.scss */
 .avatar img {
@@ -2171,15 +2171,16 @@ hr.small {
 .bio {
   background-color: #FEFEFE;
   box-shadow: inset 0px 0px 150px #E9E5DD;
+  padding: 30px;
   text-align: center;
 }
 
-/* line 19, ../../sass/partials/_homepage.scss */
+/* line 20, ../../sass/partials/_homepage.scss */
 .container {
   margin: 0 auto;
 }
 
-/* line 23, ../../sass/partials/_homepage.scss */
+/* line 24, ../../sass/partials/_homepage.scss */
 .post-listing {
   text-align: center;
 }
