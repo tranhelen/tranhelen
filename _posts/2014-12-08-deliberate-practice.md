@@ -73,7 +73,7 @@ hero_caption: Pixar's Short; Geri's Game
 
 		<p>These tracks put an emphasis on design theory. The best products have a well-researched and opinionated design. Solid opinions come out of experience and knowledge and they help you convince people to be invested in you and your work.</p>
 
-		<h4>Psychology and behaviour</h4>
+		<h5>Psychology and behaviour</h5>
 
 		<p><a href="http://psychologyfordesigners.com/">Psychology for Designers</a> written by Joe Leech 
 		<br>This blog contains an immense amount of information about psychology in relation to Design. Joe Leech’s book acts as a good primer but I personally find his blog much more useful. His links and resources section is thorough and contains great reading material to articles and research.</p>
@@ -84,7 +84,7 @@ hero_caption: Pixar's Short; Geri's Game
 		<p><a href="http://abookapart.com/products/designing-for-emotion">Designing for Emotion</a> written by Aaron Walter
 		<br>This is a pretty popular book and I still believe it is one of the best introductions to emotions in design. His resources section at the end also contains some great recommendations to other pioneers who are working on the link between emotions and design.</p>
 
-		<h4>Information architecture</h4>
+		<h5>Information architecture</h5>
 
 		<p><a href="http://iainstitute.org/library/subjectPage.php?id=21&filterLanguage=">Information Architecture Institute</a>
 		<br>The IA Library is comprehensive list of sources including articles, books, blogs and more. I have found some links to be dead though, so it is a bit of a mixed bag.</p>
@@ -95,7 +95,7 @@ hero_caption: Pixar's Short; Geri's Game
 		<p><a href="http://www.nngroup.com/reports/">Nielsen Norman Group</a>
 		<br>NN/g writes research reports about a wide range of topics but they do have a 1,349-page report with 77 IA trees and 1106 navigation systems. It’s paid to read but there’s also a free 156-page report about site maps. This would be a good place to test if IA is of interest to you.</p>
 
-		<h4>Data visualization</h4>
+		<h5>Data visualization</h5>
 
 		<p><a href="http://fellinlovewithdata.com/guides/data-vis-beginners-toolkit-1">The Data Visuzliaton Beginner's Toolkit</a>
 		<br>This is just one post out of many available on <a href="http://fellinlovewithdata.com/">fellinlovewithdata.com</a>. But it is a useful post about where to get started if you’re more inclined to start by reading books.</p>
@@ -108,12 +108,12 @@ hero_caption: Pixar's Short; Geri's Game
 
 		<h3>Practical Tracks</h3>
 
-		<h4>Forms and User Inputs</h4>
+		<h5>Forms and User Inputs</h5>
 
 		<p><a href="http://www.lukew.com/resources/web_form_design.asp">Web Form Design</a> by Luke Wroblewski
 		<br>Luke’s breadth of work is immense. He is a huge source of knowledge across all subjects but his book on web form design is a great guide for designing forms. If you get the chance, sit in on one of his workshops.</p>
 
-		<h4>Motion Animation</h4>
+		<h5>Motion Animation</h5>
 
 		<p><a href="http://www.amazon.ca/The-Illusion-Life-Disney-Animation/dp/0786860707">The Illusion of Life: Disney Animation</a> by Frank Thomas
 		<br>Yes, this is a book for another industry entirely but if you’re not starting with Disney and Pixar, you will be missing out on a source of inspiration that have kept entire generations of animators from burning out.</p>
@@ -124,7 +124,7 @@ hero_caption: Pixar's Short; Geri's Game
 		<p><a href="http://www.google.com/design/spec/animation/authentic-motion.html">Material Design</a>
 		<br>This was Google’s style guide for their motion work guiding the design of the apps in their ecosystem. However, it’s a good resource to point out mainly because it provides a guide for how to think of motion and approach it systemically.</p>
 
-		<h4>Development</h4>
+		<h5>Development</h5>
 
 		<p><a href="https://www.codeschool.com/">Codeschool</a>
 		<br>You must have seen this link by now, but I believe very firmly that Codeschool is one of the best educational resources out there if you’re looking to learn how to code. The mix of video, slides and interactive exercises are interesting and the courses are well-designed.</p>

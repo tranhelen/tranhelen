@@ -40,12 +40,6 @@ h4 {
 	font-family: $stack2;
 	font-size: em(14px);
 	line-height: 20px;
-
-	.subpage-body & {
-		font-weight: 600;
-		margin: $unit 0;
-		text-transform: uppercase;
-	}
 }
 
 h5 {
@@ -57,6 +51,10 @@ h5 {
 
 	&.toc-header {
 		margin: ($unit * 1.5) 0 $unit 0;
+	}
+
+	.subpage-body & {
+		margin: $unit 0;
 	}
 }
 
@@ -111,7 +109,7 @@ blockquote {
 	margin: 0 0 ($unit / 2);
 
 	p {
-		color: $colorTextIntense;
+		color: $colorTextSubtle;
 		font-style: italic;
 		margin: 0 $unit ($unit / 2);
 	}
@@ -186,7 +184,7 @@ figure.sep {
 }
 
 figcaption {
-	@extend h5;
+	@extend h6;
 
 	margin: ($unit / 2) $unit;
 	text-align: center;

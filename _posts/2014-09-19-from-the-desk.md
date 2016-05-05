@@ -27,4 +27,6 @@ These are musings without a purpose as I am sure there is not a simple solution 
 
 <hr class="small">
 
-<em>This post was sparked by a talk I watched at Reasons to be Creative in Brighton. It is a good three-day conference/event held yearly targeted towards creative professionals. The last speaker of the conference spoke for just over an hour about his work and I wrote this roughly two weeks later.</em>
+<div class="field-notes">
+    <p id="note-1" class="h6">This post was sparked by a talk I watched at Reasons to be Creative in Brighton. It is a good three-day conference/event held yearly targeted towards creative professionals. The last speaker of the conference spoke for just over an hour about his work and I wrote this roughly two weeks later.</p>
+</div>

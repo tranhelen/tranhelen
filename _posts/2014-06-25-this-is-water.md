@@ -4,7 +4,7 @@ title: This is Water
 ---
 David Foster Wallace’s commencement speech for Kenyon graduates in 2005 opens with a parable,
 
-    Two young fish are swimming along and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning boys. How’s the water?” The two young fish swim on for a bit. Eventually one of them looks over at the other and goes, “What the hell is water?”
+> Two young fish are swimming along and they happen to meet an older fish swimming the other way, who nods at them and says, “Morning boys. How’s the water?” The two young fish swim on for a bit. Eventually one of them looks over at the other and goes, “What the hell is water?”
 
 <hr class="small">
 
@@ -12,9 +12,9 @@ David explains that many people will tell the graduates that the importance of e
 
 Because I work in the tech industry, I get the privilege to work with some very smart people day in and day out. This has however come with an immense self-inflicted pressure to measure myself against the achievements of others. This also tends to lead to impostor syndrome, something many people in the industry have identified with.
 
-My ambition, when paired with my impatience, is crippling. Progress becomes invisible because I’m not looking for progress. When I’m comparing myself to others, worshipping their intellect, <em>I will never have enough.</em>
+My ambition, when paired with my impatience, is crippling. Progress becomes invisible because I’m not looking for progress. When I’m comparing myself to others, worshipping their intellect, I will never have enough.
 
-David’s speech was a reminder that these people whom I consider to be more achieved are not relative to my own successes and failures. It is easy to think of the world <em>in relation to me</em>–it isn’t easy to control my thoughts and push for a more productive outlook.
+David’s speech was a reminder that these people whom I consider to be more achieved are not relative to my own successes and failures. It is easy to think of the world in *relation to me*–it isn’t easy to control my thoughts and push for a more productive outlook.
 
 It has taken me years to understand what DFW talks about in his commencement speech.
 
