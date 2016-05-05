@@ -21,8 +21,7 @@
 }
 
 .post-header {
-	border-bottom: 1px solid rgba($colorAccent,0.2);
-	margin-bottom: ($unit * 2);
+	margin-bottom: $unit;
 	padding: ($unit / 2) $unit;
 
 	@include at-query($one) {
@@ -70,7 +69,7 @@
 .subpage-body {
 	margin: 0 auto;
 	max-width: 1040px;
-	padding: $unit;
+	padding: 0 $unit;
 
 	@include at-query($one) {
 		padding: ($unit * 2.5);

@@ -1,6 +1,7 @@
 ---
 layout: subpage-simple
 title: Let's Talk Money
+category: favourite
 ---
 We're going to talk about money.
 

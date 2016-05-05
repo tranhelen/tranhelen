@@ -14,6 +14,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: em(45px);
+
+	.subpage &,
+	.subpage-simple &,
+	.subpage-custom & {
+		margin: 0 0 $unit;
+		text-align: center;
+	}
 }
 
 h2 {
@@ -91,7 +98,7 @@ blockquote {
 }
 
 blockquote.large {
-	margin: $unit 0;
+	margin: ($unit / 2) 0;
 
 	p {
 		font-style: normal;

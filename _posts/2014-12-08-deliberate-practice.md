@@ -1,6 +1,7 @@
 ---
 layout: subpage
 title: Deliberate Practice&#58; Becoming a Design Grand Master
+category: audience
 
 hero: 06-01hero.jpg
 hero_caption: Pixar's Short; Geri's Game

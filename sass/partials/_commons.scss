@@ -3,6 +3,10 @@
 \*------------------------------------*/
 
 footer {
-	margin: $unit;
+	margin: $unit $unit ($unit * 2);
 	text-align: center;
+}
+
+.toc {
+	padding: ($unit * 2) $unit $unit;
 }

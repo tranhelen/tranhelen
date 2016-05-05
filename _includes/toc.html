@@ -1,0 +1,37 @@
+  <div class="toc">
+    <div class="fancy">
+      <div class="fancy__wings">&nbsp;</div>
+      <span class="h3 subtle">Some suggestions</span>
+    </div>
+    <p class="h2">Table of Contents</p>
+
+    <h5 class="toc-header">Recent</h5>
+    <div class="toc-listing">
+    {% for post in site.posts limit: 3%}
+      <div class="post-listing__single">
+        <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+      </div>
+    {% endfor %}
+    </div>
+
+    <h5 class="toc-header">Popular</h5>
+    <div class="toc-listing">
+    {% for post in site.categories['audience'] limit: 3 %}
+      <div class="post-listing__single">
+        <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+      </div>
+    {% endfor %}
+    </div>
+
+    <h5 class="toc-header">My Favourites</h5>
+    <div class="toc-listing">
+    {% for post in site.categories['favourite'] limit: 3 %}
+      <div class="post-listing__single">
+        <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
