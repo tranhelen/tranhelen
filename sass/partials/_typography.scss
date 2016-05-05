@@ -44,6 +44,10 @@ h5 {
 	font-size: em(14px);
 	margin: 0 0 ($unit / 6);
 	text-transform: uppercase;
+
+	&.toc-header {
+		margin: ($unit * 1.5) 0 $unit 0;
+	}
 }
 
 .h1 { @extend h1; }
