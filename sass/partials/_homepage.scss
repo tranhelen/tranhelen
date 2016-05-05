@@ -7,6 +7,11 @@
 
 	img {
 		width: 100%;
+		max-width: 450px;
+	}
+
+	@include at-query($one) {
+		margin-bottom: $unit * 3;
 	}
 }
 
@@ -15,6 +20,11 @@
 	box-shadow: inset 0px 0px 150px $colorBGBioDark;
 	padding: $unit;
 	text-align: center;
+
+	@include at-query($one) {
+		margin: 0 $unit;
+		padding: 0 ($unit * 2) ($unit * 2);
+	}
 }
 
 .container {
@@ -32,8 +42,16 @@
 .post-listing {
 	padding: $unit $unit 0;
 	text-align: center;
-}
+
+	@include at-query($one) {
+		padding: ($unit * 3) 0 0;
+	}
+ }
 
 .post-listing__single {
 	margin-bottom: $unit;
+
+	@include at-query($one) {
+		margin-bottom: $unit * 2;
+	}
 }

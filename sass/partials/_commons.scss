@@ -5,6 +5,10 @@
 footer {
 	margin: $unit $unit ($unit * 2);
 	text-align: center;
+
+	@include at-query($one) {
+		margin: ($unit * 3) 0 ($unit * 4);
+	}
 }
 
 .toc {
