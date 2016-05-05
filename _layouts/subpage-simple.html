@@ -5,6 +5,13 @@
       {% include navigation.html %}
 
       <div class="subpage-body">
+        {% if page.hero_caption %}
+          <figure class="hero">
+            <img src="/img/post/{{ page.hero }}">
+            <figcaption>{{ page.hero_caption }}</figcaption>
+          </figure>
+        {% endif %}
+        
         {% include date.html %}
         <h1>{{ page.title }}</h1>
 

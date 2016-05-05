@@ -70,12 +70,4 @@
 	margin: 0 auto;
 	max-width: 1040px;
 	padding: 0 $unit;
-
-	@include at-query($one) {
-		padding: ($unit * 2.5);
-	}
-
-	@include at-query($two) {
-		padding: 0 ($unit * 2.5) ($unit * 5);
-	}
 }
