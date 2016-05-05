@@ -255,10 +255,8 @@ hero_caption: Minority Report (2002)
 
 		<hr class="small">
 
-		<p><em>This post was originally posted on Medium and was in Medium’s Top 100 for February. It was received fairly well except for this one guy who noted that he disagreed with everything I said.* For the original post and the comments made on it, <a href="https://medium.com/lifes-work/the-future-of-ui-and-the-dream-of-the-90s-a0b0cd7173c">view it on Medium.</a></em></p>
-		
-		<p class="footnote">*This is a joke, by the way. A joke rooted in my now terribly low self-esteem.</p>
-
-		{% include date.html %}
+		<div class="field-notes">
+			<p class="h6">This post was originally posted on Medium and was in Medium’s Top 100 for February. It was received fairly well except for this one guy who noted that he disagreed with everything I said. (This is a joke, by the way. A joke rooted in my now terribly low self-esteem.)</p>
+		</div>
 	</div>
 </div>
