@@ -65,7 +65,8 @@ h6 {
 
 p,
 ol li,
-ul li {
+ol li p,
+ul li p {
 	color: $colorTextBody;
 	font-family: $stack1;
 	font-size: em(20px);
