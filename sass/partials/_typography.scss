@@ -186,8 +186,9 @@ figure.sep {
 }
 
 figcaption {
-	@extend h6;
-	margin: 10px 20px 15px;
+	@extend h5;
+
+	margin: ($unit / 2) $unit;
 	text-align: center;
 
 	@include at-query($two) {
