@@ -4,7 +4,16 @@
 
 .avatar {
 	margin: 0 auto;
-	width: 50%;
+
+	img {
+		width: 100%;
+	}
+}
+
+.bio {
+	background-color: $colorBGBio;
+	box-shadow: inset 0px 0px 150px $colorBGBioDark;
+	text-align: center;
 }
 
 .container {
@@ -12,6 +21,7 @@
 }
 
 .post-listing {
+	text-align: center;
 }
 
 .post-listing__single {

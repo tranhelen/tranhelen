@@ -16,23 +16,20 @@
 
 /* Colour Variables */
 	/* Main */
-	$colorAccent: #8FA5A9;
-	$colorLines: #DBDBDB; // this one
+	$colorAccent: #B78C12;
 
 	/* Text */
-	$colorTextHeader: #191F39;
-	$colorTextBody: #191F39; 
-	$colorTextQuote: #191F39;
+	$colorTextHeader: #413C37;
+	$colorTextBody: #413C37; 
+	$colorTextQuote: #413C37;
+	$colorTextSubtle: #A09992;
 
 	/* Links */
-	$colorLink: #4E747B;
-	$colorLinkHover: $colorTextHeader; // this one
+	$colorLink: $colorAccent;
 	
-	/* Post Related */
-	$colorBGHeader: #FAFAFA; // this one
-	$colorBGPost: #ffffff; // this one
-
 	/* Other */
+	$colorBGBio: #FEFEFE;
+	$colorBGBioDark: #E9E5DD;
 	$colorButton: $colorTextBody;
 	$selection: #71B1CC;
 	$selectionText: #fff;
