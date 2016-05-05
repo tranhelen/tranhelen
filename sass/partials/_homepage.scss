@@ -23,7 +23,14 @@
 
 	@include at-query($one) {
 		margin: 0 $unit;
+		max-width: 1130px;
 		padding: 0 ($unit * 2) ($unit * 2);
+	}
+
+	@include at-query($two) {
+		margin: 0 auto;
+		padding-left: $unit * 7;
+		padding-right: $unit * 7;
 	}
 }
 
