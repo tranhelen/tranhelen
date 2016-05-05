@@ -26,30 +26,7 @@ ol li,
 ul li {
 	color: $colorTextBody;
 	font-family: $stack1;
-	line-height: em(25px);
 	margin: 0 0 $unit;
-
-	.subpage-custom &,
-	.subpage-simple &,
-	.subpage & {
-		font-size: em(18px);
-		line-height: em(26px);
-	}
-}
-
-p,
-a {
-	.post-header &,
-	.post-footer & {
-		font-family: $stack2;
-		line-height: em(18px);
-	}
-}
-
-p {
-	.post-footer & {
-		font-size: em(14px);
-	}
 }
 
 ul, ol {
@@ -66,33 +43,9 @@ a {
 	color: $colorLink;
 	text-decoration: none;
 
-	&.book-cover {
-		border: 0;
-	}
-
-	.post-listing & {
-		font-size: em(18px);
-	}
-
-	&#toggleBio {
-		background-color: rgba($colorAccent, 0.2);
-		border: 0;
-		color: black;
-		font-size: em(12px);
-		padding: ($unit / 4) ($unit / 2);
-
-		@include at-query($one) {
-			display: none;
-		}
-	}
-
 	&:hover {
 		color: $colorTextBody;
 		border-bottom: 1px solid rgba($colorLink,0.3);
-
-		&.book-cover {
-			border: 0;
-		}
 	}
 
 	@include transition;

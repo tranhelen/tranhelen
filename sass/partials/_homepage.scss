@@ -5,73 +5,15 @@
 .avatar {
 	margin: 0 auto;
 	width: 50%;
-
-	@include at-query($one) {
-		display: inline-block;
-		left: 270px;
-		position: absolute;
-		top: 0;
-		width: 220px;
-	}
-
-	@include at-query($two) {
-		left: 0;
-	}
-}
-
-.bio {
-	padding: ($unit * 3) ($unit * 2) $unit;
-
-	h2 {
-		margin: 0 0 $unit;
-	}
-
-	@include at-query($one) {
-		padding-top: 275px;
-
-		h2 {
-			margin-bottom: ($unit * 2);
-		}
-	}
-
-	@include at-query($two) {
-		padding: 375px ($unit * 2) 0 0;
-		width: 650px;
-		position: fixed;
-
-		h2 {
-			margin-bottom: $unit;
-		}
-	}
 }
 
 .container {
-	max-width: 700px;
 	margin: 0 auto;
-	position: relative;
-
-	@include at-query($two) {
-		max-width: 1050px;
-	}
 }
 
 .post-listing {
-	padding: 0 ($unit * 2) $unit;
-	margin: 0 auto;
-
-	@include at-query($one) {
-		padding-left: 270px;
-	}
-
-	@include at-query($two) {
-		position: absolute;
-		right: 0;
-		width: 350px;
-		padding: ($unit * 5) 0 ($unit * 2.5);
-		top: 0;
-	}
 }
 
 .post-listing__single {
-	margin-bottom: ($unit * 2.5);
+
 }
