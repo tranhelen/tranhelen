@@ -5,12 +5,30 @@
 body,
 html {
 	font-family: $stack1;
-	font-size: em(20px);
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: $colorTextHeader;
 	font-weight: 300;
+}
+
+h1 {
+	font-size: em(45px);
+}
+
+h2 {
+	font-size: em(26px);
+	line-height: 40px;
+}
+
+h3 {
+	font-size: em(20px);
+}
+
+h4 {
+	font-family: $stack2;
+	font-size: em(14px);
+	line-height: 20px;
 }
 
 .h1 { @extend h1; }
@@ -25,7 +43,9 @@ ol li,
 ul li {
 	color: $colorTextBody;
 	font-family: $stack1;
-	margin: 0 0 $unit;
+	font-size: em(20px);
+	line-height: 32px;
+	margin: 0 0 ($unit / 2);
 }
 
 ul, ol {
@@ -200,9 +220,8 @@ hr.small {
 	.subtle {
 	    background-color: #fff;
 	    color: #A09992;
-	    font-size: em(20px);
 	    font-style: italic;
-	    font-weight: 600;
+	    font-weight: 800;
 	    padding: 0 ($unit / 3);
 	    position: relative;
  	    top: -10px;
