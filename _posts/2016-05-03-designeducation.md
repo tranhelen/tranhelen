@@ -12,7 +12,7 @@ What formal education has, and what teaching practioners haven't figured out, is
 
 What formal education has, and what teaching practioners still really haven't figured out, is how to nurture critical thinking. They do this in an environment that's condusive to being completely off the mark. If you want to wax poetic about how that poem is a commentary about the heartbreaking torture of unrequited love, you can, but it's probably just about STDs.* Writing an essay about a singular topic isn't very encouraged these days although we could all benefit from just a bit more structured thinking.
 
-So what does formal education lack? Practical skills. Dealing with idealistic and theoretical solutions. Encouragement of initative and resourcefulness.
+So what does formal education lack? Practical skills. Dealing with decisions between idealistic or pragmatic solutions. Encouragement of initative and resourcefulness.
 
 ## Ebooks, bootcamps, and interactive apps
 
@@ -36,7 +36,7 @@ We also know that this gap is still **not being closed.** There's still way too 
 
 There's a very clear need to merge these two worlds together and provide a better foundation for the ideal Product Designer. Doing nothing about it is just easier though. It's easier to just continue on with how we've been treating this; a secret Treehouse club in which if you spent years trying to find the password you can come in. 
 
-I'm not using this post to announce some sort of educational product so we can all breathe a sigh of relief. I'm thinking about all of this though. This means nothing because I think about a lot of things. This is what has been keeping me up at night lately.
+I'm not using this post to announce some sort of educational product so we can all breathe a sigh of relief. I'm thinking about all of this though. This means nothing because I think about a lot of things but this is what has been keeping me up at night.
 
 <hr class="small">
 
