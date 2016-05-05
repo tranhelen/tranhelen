@@ -17,7 +17,7 @@ hero_caption: Pixar's Short; Geri's Game
 	</div>
 </div>
 
-<h2>The differentiation</h2>
+## The difference
 
 <div class="grid">
 	<div class="grid__item push--one--one-quarter one--three-quarters">
@@ -49,7 +49,7 @@ hero_caption: Pixar's Short; Geri's Game
 	</div>	
 </div>
 
-<h2>Changing your mindset</h2>
+## Changing your mindset
 
 <div class="grid">
 	<div class="grid__item push--one--one-quarter one--three-quarters">
@@ -63,7 +63,7 @@ hero_caption: Pixar's Short; Geri's Game
 	</div>
 </div>
 
-<h2>Finding a track to explore</h2>
+## Finding a track to explore
 
 <div class="grid">
 	<div class="grid__item push--one--one-quarter one--three-quarters">
@@ -132,8 +132,6 @@ hero_caption: Pixar's Short; Geri's Game
 		<p><a href="http://caniuse.com/">caniuse.com</a> and <a href="http://html5please.com/">HTML5 Please</a>
 		<br>When I was first jumping into front-end development, these websites were indispensable for me. It saved me lots of time by not having to go to Stackoverflow for newbie questions and occasionally I still go back to reference them.</p>
 
-		<p><em>(On a side-note, if you have some great resources that could add to this list, please feel free to point them out.)</em></p>
-
 		<hr class="small">
 
 		<p>This list is very incomplete and I am by no means saying that you would become an expert in any of these topics very quickly. Some designers have built entire careers based on just one of these topics however it might be helpful to explore a little of each topic to see what you like prior to specialization. Another thing to note: these are very obvious tracks. Complementary skill-sets for Product Designers could also include more knowledge about business, marketing and economics.</p>
@@ -146,9 +144,3 @@ hero_caption: Pixar's Short; Geri's Game
 	<p>The most difficult thing is the decision to act. The rest is merely tenacity.
 	<br>- Amelia Earhart</p>
 </blockquote>
-
-<div class="grid">
-	<div class="grid__item push--one--one-quarter one--three-quarters">
-		{% include date.html %}
-	</div>
-</div>

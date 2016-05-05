@@ -30,12 +30,22 @@ h2 {
 
 h3 {
 	font-size: em(20px);
+
+	.subpage-body & {
+		font-weight: 600;
+	}
 }
 
 h4 {
 	font-family: $stack2;
 	font-size: em(14px);
 	line-height: 20px;
+
+	.subpage-body & {
+		font-weight: 600;
+		margin: $unit 0;
+		text-transform: uppercase;
+	}
 }
 
 h5 {
@@ -133,7 +143,7 @@ blockquote.large {
 }
 
 figure {
-	margin: ($unit * 0.75) (-$unit) 0;
+	margin: ($unit * 0.75) (-$unit) $unit;
 
 	@include at-query($one) {
 		margin: $unit (-$unit * 2.5) 0;
@@ -176,10 +186,9 @@ figure.sep {
 }
 
 figcaption {
-	color: #869D9A;
-	font-size: em(14px);
-	font-family: $stack2;
+	@extend h6;
 	margin: 10px 20px 15px;
+	text-align: center;
 
 	@include at-query($two) {
 		margin-left: 0;
