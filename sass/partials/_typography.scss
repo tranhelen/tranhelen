@@ -175,6 +175,10 @@ hr.small {
 	width: ($unit * 4);
 }
 
+.alarming {
+	text-transform: uppercase;
+}
+
 .bullet {
 	color: $colorAccent;
 	font-size: em(12px);
@@ -184,6 +188,9 @@ hr.small {
 }
 
 .fancy {
+	max-width: 400px;
+	margin: 0 auto;
+
 	.fancy__wings {
 		background-color: $colorAccent;
 		height: 3px;

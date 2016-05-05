@@ -2147,6 +2147,11 @@ hr.small {
 }
 
 /* line 178, ../../sass/partials/_typography.scss */
+.alarming {
+  text-transform: uppercase;
+}
+
+/* line 182, ../../sass/partials/_typography.scss */
 .bullet {
   color: #E3BA4B;
   font-size: 0.6em;
@@ -2155,13 +2160,18 @@ hr.small {
   bottom: 2px;
 }
 
-/* line 187, ../../sass/partials/_typography.scss */
+/* line 190, ../../sass/partials/_typography.scss */
+.fancy {
+  max-width: 400px;
+  margin: 0 auto;
+}
+/* line 194, ../../sass/partials/_typography.scss */
 .fancy .fancy__wings {
   background-color: #E3BA4B;
   height: 3px;
   border-radius: 3000px;
 }
-/* line 193, ../../sass/partials/_typography.scss */
+/* line 200, ../../sass/partials/_typography.scss */
 .fancy .subtle {
   background-color: #fff;
   color: #A09992;
@@ -2172,7 +2182,7 @@ hr.small {
   position: relative;
   top: -10px;
 }
-/* line 204, ../../sass/partials/_typography.scss */
+/* line 211, ../../sass/partials/_typography.scss */
 .bio .fancy .subtle {
   background-color: #FEFEFE;
 }
@@ -2203,6 +2213,16 @@ hr.small {
 }
 
 /* line 24, ../../sass/partials/_homepage.scss */
+.journal {
+  margin-bottom: 15px;
+}
+
+/* line 28, ../../sass/partials/_homepage.scss */
+.name {
+  margin: 0 0 30px;
+}
+
+/* line 32, ../../sass/partials/_homepage.scss */
 .post-listing {
   text-align: center;
 }
