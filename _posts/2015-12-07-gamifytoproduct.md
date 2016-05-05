@@ -22,5 +22,5 @@ Fulfilling a need is separate from providing value. Providing value can be diffi
 * __The product has to encourage and develop that intrinsic motivation and change behaviours–not just minds.__  
 The real hard work is always in user retention. Continued delightful experiences maintain long-term usage. The word 'delightful' can mean many different things in many different contexts–delight could mean efficiency (getting the user to the goal faster than before), celebrating a user's goals, or be as insignificant as fun illustrations.
 
-> "When well done, gamification helps align our interests with the intrinsic motivations of our players, amplified with the mechanics and rewards that make the come in, bring friends, and keep coming back. Only by carefully unpacking consumer emotions and desires can we design something that really sticks."
+> "When well done, gamification helps align our interests with the intrinsic motivations of our players, amplified with the mechanics and rewards that make the come in, bring friends, and keep coming back. Only by carefully unpacking consumer emotions and desires can we design something that really sticks."  
 > –Gamification by Design
