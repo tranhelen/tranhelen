@@ -50,6 +50,12 @@ h5 {
 	}
 }
 
+h6 {
+	@extend h4;
+
+	color: $colorTextSubtle;
+}
+
 .h1 { @extend h1; }
 .h2 { @extend h2; }
 .h3 { @extend h3; }

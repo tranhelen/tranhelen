@@ -10,7 +10,7 @@ It's not very popular to stand in favour of formal education. For this I don't a
 
 What formal education has, and what teaching practioners haven't figured out, is how to translate the useful knowledge in those dusty old textbooks to a generation of TLDRs. Although a background in Graphic Design history probably isn't necessary to your survival as a Product Designer, it can certainly provide some clarity on how to choose a typeface and why we use grids and what colours are all about. *I can use a colour that isn't blue?*
 
-What formal education has, and what teaching practioners still really haven't figured out, is how to nurture critical thinking. They do this in an environment that's condusive to being completely off the mark. If you want to wax poetic about how that poem is a commentary about the heartbreaking torture of unrequited love, you can, but it's probably just about STDs.* Writing an essay about a singular topic isn't very encouraged these days although we could all benefit from just a bit more structured thinking.
+What formal education has, and what teaching practioners still really haven't figured out, is how to nurture critical thinking. They do this in an environment that's condusive to being completely off the mark. If you want to wax poetic about how that poem is a commentary about the heartbreaking torture of unrequited love, you can, but it's probably just about STDs.<a id="anchor-1" href="#note-1">*</a> Writing an essay about a singular topic isn't very encouraged these days although we could all benefit from just a bit more structured thinking.
 
 So what does formal education lack? Practical skills. Dealing with idealistic and theoretical solutions. Encouragement of initative and resourcefulness.
 
@@ -40,4 +40,6 @@ I'm not using this post to announce some sort of educational product so we can a
 
 <hr class="small">
 
-*I've witnessed this and it was hilarious.
+<div class="fieldnotes">
+    <p id="note-1" class="h6">*I've witnessed this before and it was hilarious. <a href="#anchor-1">&#8593;</a></p>
+</div>
