@@ -31,6 +31,14 @@ h4 {
 	line-height: 20px;
 }
 
+h5 {
+	color: $colorTextSubtle;
+	font-family: $stack2;
+	font-size: em(14px);
+	margin: 0 0 ($unit / 6);
+	text-transform: uppercase;
+}
+
 .h1 { @extend h1; }
 .h2 { @extend h2; }
 .h3 { @extend h3; }

@@ -1975,7 +1975,16 @@ h4, .h4 {
   line-height: 20px;
 }
 
-/* line 41, ../../sass/partials/_typography.scss */
+/* line 34, ../../sass/partials/_typography.scss */
+h5, .h5 {
+  color: #A09992;
+  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.875em;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+
+/* line 49, ../../sass/partials/_typography.scss */
 p,
 ol li,
 ul li {
@@ -1986,55 +1995,55 @@ ul li {
   margin: 0 0 15px;
 }
 
-/* line 51, ../../sass/partials/_typography.scss */
+/* line 59, ../../sass/partials/_typography.scss */
 ul, ol {
   margin: 0 0 30px;
   padding: 0;
 }
-/* line 55, ../../sass/partials/_typography.scss */
+/* line 63, ../../sass/partials/_typography.scss */
 ul li, ol li {
   margin: 0 0 15px 30px;
 }
 
-/* line 60, ../../sass/partials/_typography.scss */
+/* line 68, ../../sass/partials/_typography.scss */
 a {
-  border-bottom: 1px solid rgba(227, 186, 75, 0.1);
-  color: #E3BA4B;
+  border-bottom: 1px solid rgba(183, 140, 18, 0.1);
+  color: #B78C12;
   text-decoration: none;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 65, ../../sass/partials/_typography.scss */
+/* line 73, ../../sass/partials/_typography.scss */
 a:hover {
   color: #413C37;
-  border-bottom: 1px solid rgba(227, 186, 75, 0.3);
+  border-bottom: 1px solid rgba(183, 140, 18, 0.3);
 }
 
-/* line 73, ../../sass/partials/_typography.scss */
+/* line 81, ../../sass/partials/_typography.scss */
 blockquote {
   border-left: 3px solid rgba(227, 186, 75, 0.5);
   border-right: 3px solid rgba(227, 186, 75, 0.5);
   font-style: italic;
   margin: 30px 0;
 }
-/* line 79, ../../sass/partials/_typography.scss */
+/* line 87, ../../sass/partials/_typography.scss */
 blockquote p {
   margin: 0 30px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 73, ../../sass/partials/_typography.scss */
+  /* line 81, ../../sass/partials/_typography.scss */
   blockquote {
     margin: 60px 0;
   }
 }
 
-/* line 88, ../../sass/partials/_typography.scss */
+/* line 96, ../../sass/partials/_typography.scss */
 blockquote.large {
   border: 0;
 }
-/* line 91, ../../sass/partials/_typography.scss */
+/* line 99, ../../sass/partials/_typography.scss */
 blockquote.large p {
   font-style: normal;
   font-size: 1.375em;
@@ -2042,60 +2051,60 @@ blockquote.large p {
   margin-left: 0;
 }
 @media screen and (min-width: 1130px) {
-  /* line 91, ../../sass/partials/_typography.scss */
+  /* line 99, ../../sass/partials/_typography.scss */
   blockquote.large p {
     font-size: 1.625em;
     line-height: 1.375em;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 88, ../../sass/partials/_typography.scss */
+  /* line 96, ../../sass/partials/_typography.scss */
   blockquote.large {
     text-align: center;
   }
 }
 
-/* line 108, ../../sass/partials/_typography.scss */
+/* line 116, ../../sass/partials/_typography.scss */
 figure {
   margin: 22.5px -30px 0;
 }
 @media screen and (min-width: 560px) {
-  /* line 108, ../../sass/partials/_typography.scss */
+  /* line 116, ../../sass/partials/_typography.scss */
   figure {
     margin: 30px -75px 0;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 108, ../../sass/partials/_typography.scss */
+  /* line 116, ../../sass/partials/_typography.scss */
   figure {
     margin: 45px 0;
   }
 }
 
-/* line 120, ../../sass/partials/_typography.scss */
+/* line 128, ../../sass/partials/_typography.scss */
 figure.hero {
   margin-top: 0;
 }
 @media screen and (min-width: 560px) {
-  /* line 120, ../../sass/partials/_typography.scss */
+  /* line 128, ../../sass/partials/_typography.scss */
   figure.hero {
     margin-top: 30px;
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 120, ../../sass/partials/_typography.scss */
+  /* line 128, ../../sass/partials/_typography.scss */
   figure.hero {
     margin: 0;
   }
 }
 
-/* line 133, ../../sass/partials/_typography.scss */
+/* line 141, ../../sass/partials/_typography.scss */
 figure.left {
   margin-top: 45px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 133, ../../sass/partials/_typography.scss */
+  /* line 141, ../../sass/partials/_typography.scss */
   figure.left {
     float: left;
     margin: 15px 0;
@@ -2103,18 +2112,18 @@ figure.left {
   }
 }
 
-/* line 143, ../../sass/partials/_typography.scss */
+/* line 151, ../../sass/partials/_typography.scss */
 figure.sep {
   margin: 20px -20px;
 }
 @media screen and (min-width: 560px) {
-  /* line 143, ../../sass/partials/_typography.scss */
+  /* line 151, ../../sass/partials/_typography.scss */
   figure.sep {
     margin: 50px -50px;
   }
 }
 
-/* line 151, ../../sass/partials/_typography.scss */
+/* line 159, ../../sass/partials/_typography.scss */
 figcaption {
   color: #869D9A;
   font-size: 0.875em;
@@ -2122,29 +2131,29 @@ figcaption {
   margin: 10px 20px 15px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 151, ../../sass/partials/_typography.scss */
+  /* line 159, ../../sass/partials/_typography.scss */
   figcaption {
     margin-left: 0;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 161, ../../sass/partials/_typography.scss */
+  /* line 169, ../../sass/partials/_typography.scss */
   .hero figcaption {
     text-align: left;
   }
 }
 @media screen and (min-width: 560px) {
-  /* line 167, ../../sass/partials/_typography.scss */
+  /* line 175, ../../sass/partials/_typography.scss */
   .left figcaption {
     margin-bottom: 45px;
   }
 }
-/* line 173, ../../sass/partials/_typography.scss */
+/* line 181, ../../sass/partials/_typography.scss */
 figcaption.inline {
   margin: 15px 0 45px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 173, ../../sass/partials/_typography.scss */
+  /* line 181, ../../sass/partials/_typography.scss */
   figcaption.inline {
     margin-top: 0;
     padding: 0;
@@ -2152,30 +2161,30 @@ figcaption.inline {
   }
 }
 
-/* line 184, ../../sass/partials/_typography.scss */
+/* line 192, ../../sass/partials/_typography.scss */
 hr {
   border: 0;
   border-bottom: 1px solid rgba(227, 186, 75, 0.2);
   margin: 30px auto;
 }
 @media screen and (min-width: 1130px) {
-  /* line 184, ../../sass/partials/_typography.scss */
+  /* line 192, ../../sass/partials/_typography.scss */
   hr {
     margin: 75px auto;
   }
 }
 
-/* line 194, ../../sass/partials/_typography.scss */
+/* line 202, ../../sass/partials/_typography.scss */
 hr.small {
   width: 120px;
 }
 
-/* line 198, ../../sass/partials/_typography.scss */
+/* line 206, ../../sass/partials/_typography.scss */
 .alarming {
   text-transform: uppercase;
 }
 
-/* line 202, ../../sass/partials/_typography.scss */
+/* line 210, ../../sass/partials/_typography.scss */
 .bullet {
   color: #E3BA4B;
   font-size: 0.75em;
@@ -2184,18 +2193,18 @@ hr.small {
   bottom: 2px;
 }
 
-/* line 210, ../../sass/partials/_typography.scss */
+/* line 218, ../../sass/partials/_typography.scss */
 .fancy {
   max-width: 400px;
   margin: 0 auto;
 }
-/* line 214, ../../sass/partials/_typography.scss */
+/* line 222, ../../sass/partials/_typography.scss */
 .fancy .fancy__wings {
   background-color: #E3BA4B;
   height: 3px;
   border-radius: 3000px;
 }
-/* line 220, ../../sass/partials/_typography.scss */
+/* line 228, ../../sass/partials/_typography.scss */
 .fancy .subtle {
   background-color: #fff;
   color: #A09992;
@@ -2205,7 +2214,7 @@ hr.small {
   position: relative;
   top: -10px;
 }
-/* line 230, ../../sass/partials/_typography.scss */
+/* line 238, ../../sass/partials/_typography.scss */
 .bio .fancy .subtle {
   background-color: #FEFEFE;
 }
@@ -2247,7 +2256,13 @@ hr.small {
 
 /* line 32, ../../sass/partials/_homepage.scss */
 .post-listing {
+  padding: 30px;
   text-align: center;
+}
+
+/* line 37, ../../sass/partials/_homepage.scss */
+.post-listing__single {
+  margin-bottom: 30px;
 }
 
 /*------------------------------------*\
