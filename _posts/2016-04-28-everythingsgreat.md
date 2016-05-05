@@ -27,5 +27,5 @@ And when you're done, you both can put your heads down and figure out how to fix
 <hr class="small">
 
 <div class="field-notes">
-    <p class="h6" id="note-1">*Although, to be fair, if the housing market is built on toothpicks and no one wants to say anything about it because they're getting rich, you probably have good reason to be pretty angry. <a href="#anchor-1">&#8593;</a></p>
+    <p id="note-1" class="h6">*Although, to be fair, if the housing market is built on toothpicks and no one wants to say anything about it because they're getting rich, you probably have good reason to be pretty angry. <a href="#anchor-1">&#8593;</a></p>
 </div>
