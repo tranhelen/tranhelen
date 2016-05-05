@@ -102,7 +102,7 @@ blockquote {
 	p {
 		color: $colorTextIntense;
 		font-style: italic;
-		margin: 0 $unit;
+		margin: 0 $unit ($unit / 2);
 	}
 }
 
