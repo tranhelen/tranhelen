@@ -110,9 +110,27 @@ blockquote {
 blockquote.large {
 	margin: ($unit / 2) 0;
 
+	footer & {
+		margin-bottom: $unit;
+	}
+
 	p {
-		font-style: normal;
+		color: $colorTextIntense;
+		font-style: italic;
+		font-size: em(24px);
+		line-height: em(26px);
 		margin: 0;
+
+		footer & {
+			color: $colorTextBody;
+			font-size: em(20px);
+		}
+
+		&.author {
+			color: $colorTextSubtle;
+			font-size: em(14px);
+			font-style: normal;
+		}
 
 		@include at-query($two) {
 			font-size: em(26px);
@@ -203,7 +221,8 @@ figcaption {
 
 hr {
 	border: 0;
-	border-bottom: 1px solid rgba($colorAccent,0.2);
+	border-bottom: 3px solid $colorAccent;
+	border-radius: 999px;
 	margin: $unit auto;
 
 	@include at-query($two) {
