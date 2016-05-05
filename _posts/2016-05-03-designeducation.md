@@ -36,7 +36,7 @@ We also know that this gap is still **not being closed.** There's still way too 
 
 There's a very clear need to merge these two worlds together and provide a better foundation for the ideal Product Designer. It's easier to just continue on with how we've been treating this. It's currently a secret treehouse club in which if you spent years trying to find the password you can come in but this isn't scalable long-term.
 
-I'm not using this post to announce some sort of educational product so we can all breathe a sigh of relief. I'm thinking about all of this though and this is what has been keeping me up at night.
+I'm not using this post to announce some sort of educational product so we can all breathe a sigh of relief. I'm thinking about all of this though as this is what has been keeping me up at night.
 
 <hr class="small">
 
