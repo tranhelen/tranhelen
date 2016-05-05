@@ -20,31 +20,6 @@ h1, h2, h3, h4, h5, h6 {
 .h5 { @extend h5; }
 .h6 { @extend h6; }
 
-.fancy {
-	position: relative;
-
-	.fancy__wings {
-		background-color: $colorAccent;
-		height: 3px;
-		border-radius: 300px;
-	}
-
-	.subtle {
-	    color: #A09992;
-	    font-weight: 600;
-	    font-style: italic;
-	    font-size: em(20px);
-	    background-color: blue;
-	    padding: 0 ($unit / 3);
-	    position: relative;
- 	    top: -10px;
-	}
-
-	.bio & .subtle {
-		background-color: $colorBGBio;
-	}
-}
-
 p,
 ol li,
 ul li {
@@ -206,4 +181,27 @@ hr.small {
 	padding: 0 5px;
 	position: relative;
 	bottom: 2px;
+}
+
+.fancy {
+	.fancy__wings {
+		background-color: $colorAccent;
+		height: 3px;
+		border-radius: $unit * 100;
+	}
+
+	.subtle {
+	    background-color: #fff;
+	    color: #A09992;
+	    font-size: em(20px);
+	    font-style: italic;
+	    font-weight: 600;
+	    padding: 0 ($unit / 3);
+	    position: relative;
+ 	    top: -10px;
+	}
+
+	.bio & .subtle {
+		background-color: $colorBGBio;
+	}
 }
