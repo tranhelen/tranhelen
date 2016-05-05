@@ -1,27 +1,29 @@
     {% include header.html %}
-    <body class="subpage">
+
+    <body class="subpage-simple">
 
       {% include navigation.html %}
 
       <div class="subpage-body">
-
-        <div class="grid">
-          <div class="grid__item">
-          
-            <figure class="hero">
-              <img src="/img/post/{{ page.hero }}">
-              <figcaption>{{ page.hero_caption }}</figcaption>
-            </figure>
-          
-          </div>
-        </div>
-
+        {% if page.hero_caption %}
+          <figure class="hero">
+            <img src="/img/post/{{ page.hero }}">
+            <figcaption>{{ page.hero_caption }}</figcaption>
+          </figure>
+        {% endif %}
+        
         {% include date.html %}
         <h1>{{ page.title }}</h1>
-        
-        {{ content }}
+
+        <div class="grid grid--full">
+          <div class="grid__item push--one--two-twelfths one--eight-twelfths">
+
+          {{ content }}
+          </div>
+       </div>
+    
       </div>
 
     {% include toc.html %}
-
+    
     {% include footer.html %}

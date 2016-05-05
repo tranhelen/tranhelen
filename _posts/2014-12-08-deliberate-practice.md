@@ -1,5 +1,5 @@
 ---
-layout: subpage-simple
+layout: subpage
 title: Deliberate Practice&#58; Becoming a Design Grand Master
 category: audience
 

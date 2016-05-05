@@ -1,5 +1,5 @@
 ---
-layout: subpage-simple
+layout: subpage
 title: The Future of UI and the Dream of the '90s
 category: audience
 

@@ -1,5 +1,5 @@
 ---
-layout: subpage-simple
+layout: subpage
 title: Bears and Clocks
 ---
 Six years ago, I flew to Australia for the second time to visit my grandparents and relatives. I don't get to see them much so occasionally I meet people I'm related to and have no idea how. During this particular trip, I met my cousin's daughter, who decided the moment she met me that I was the sunshine of her life. We were in a relationship.

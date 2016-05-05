@@ -1,5 +1,5 @@
 ---
-layout: subpage-simple
+layout: subpage
 title: The Night I Met "Hate"
 category: favourite
 ---

@@ -1,5 +1,5 @@
 ---
-layout: subpage-simple
+layout: subpage
 title: From the Desk of the Politely Angry
 category: favourite
 ---
