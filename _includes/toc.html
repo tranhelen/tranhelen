@@ -77,62 +77,32 @@
 
     <div class="toc--largest">
       <div class="grid grid--full">
-        <div class="grid__item one-twelfth text-right">
-          <div class="toc-listing toc-listing-date--large">
-            {% for post in site.posts limit: 3%}
-              <div class="post-listing__single">
-                <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-        <div class="grid__item three-twelfths text-left">
+        <div class="grid__item one-third">
           <h5 class="toc-header">Recent</h5>
-          <div class="toc-listing toc-listing--large">
-            {% for post in site.posts limit: 3%}
-              <div class="post-listing__single">
-                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-              </div>
-            {% endfor %}
-          </div>
+          {% for post in site.posts limit: 3%}
+            <div class="post-listing__single toc-list--largest">
+              <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
+              <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
+            </div>
+          {% endfor %}
         </div>
-        <div class="grid__item one-twelfth text-right">
-          <div class="toc-listing toc-listing-date--large">
-            {% for post in site.posts limit: 3%}
-              <div class="post-listing__single">
-                <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-        <div class="grid__item three-twelfths text-left">
+        <div class="grid__item one-third">
           <h5 class="toc-header">Recent</h5>
-          <div class="toc-listing toc-listing--large">
-            {% for post in site.posts limit: 3%}
-              <div class="post-listing__single">
-                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-              </div>
-            {% endfor %}
-          </div>
+          {% for post in site.posts limit: 3%}
+            <div class="post-listing__single toc-list--largest">
+              <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
+              <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
+            </div>
+          {% endfor %}
         </div>
-        <div class="grid__item one-twelfth text-right">
-          <div class="toc-listing toc-listing-date--large">
-            {% for post in site.posts limit: 3%}
-              <div class="post-listing__single">
-                <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-        <div class="grid__item three-twelfths text-left">
+        <div class="grid__item one-third">
           <h5 class="toc-header">Recent</h5>
-          <div class="toc-listing toc-listing--large">
-            {% for post in site.posts limit: 3%}
-              <div class="post-listing__single">
-                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-              </div>
-            {% endfor %}
-          </div>
+          {% for post in site.posts limit: 3%}
+            <div class="post-listing__single toc-list--largest">
+              <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
+              <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </div>

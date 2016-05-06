@@ -103,7 +103,10 @@
 	display: none;
 	max-width: 1330px;
 	margin: 0 auto;
-	padding-left: 60px;
+
+	.toc-header {
+		margin-left: -115px;
+	}
 
 	@include at-query($two) {
 		display: block;
@@ -114,5 +117,26 @@
 	@include at-query($two) {
 		margin-top: 98px;
 		margin-right: $unit / 2;
+	}
+}
+
+.toc-list--largest {
+	clear: both;
+}
+
+.toc-date--largest {
+	@include at-query($two) {
+		float: left;
+		width: 120px;
+		text-align: right;
+		padding-right: ($unit / 2);
+	}
+}
+
+.toc-title--largest {
+	@include at-query($two) {
+		float: left;
+		text-align: left;
+		margin-top: -8px;
 	}
 }
