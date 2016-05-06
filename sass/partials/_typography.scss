@@ -14,15 +14,24 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: em(45px);
+	line-height: 55px;
 
 	.subpage &,
 	.subpage-custom & {
-		margin: 0 0 $unit * 3;
+		margin: 0 0 $unit * 1;
 		text-align: center;
 	}
 
 	&.name {
 		margin-top: -($unit / 2);
+	}
+
+	@include at-query($two) {
+		.subpage &,
+		.subpage-custom & {
+			margin: 0 0 $unit * 3;
+			text-align: center;
+		}
 	}
 }
 
