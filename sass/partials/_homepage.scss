@@ -62,9 +62,7 @@
 		margin-bottom: $unit * 2;
 	}
 
-	@include at-query($two) {
-		margin-bottom: $unit;
-		
+	@include at-query($two) {	
 		.toc--largest & {
 			margin-bottom: 20px;
 		}
