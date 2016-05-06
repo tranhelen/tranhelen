@@ -1962,7 +1962,7 @@ h1, .h1 {
 }
 /* line 25, ../../sass/partials/_typography.scss */
 h1.name, .name.h1 {
-  margin-top: -15px;
+  margin-top: 0;
 }
 @media screen and (min-width: 1130px) {
   /* line 30, ../../sass/partials/_typography.scss */

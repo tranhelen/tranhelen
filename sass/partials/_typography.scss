@@ -23,7 +23,7 @@ h1 {
 	}
 
 	&.name {
-		margin-top: -($unit / 2);
+		margin-top: 0;
 	}
 
 	@include at-query($two) {
