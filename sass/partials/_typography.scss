@@ -17,7 +17,7 @@ h1 {
 
 	.subpage &,
 	.subpage-custom & {
-		margin: 0 0 $unit;
+		margin: 0 0 $unit * 3;
 		text-align: center;
 	}
 }
@@ -256,11 +256,16 @@ hr.small {
 	.subtle {
 	    background-color: #fff;
 	    color: #A09992;
-	    font-style: italic;
-	    font-weight: 800;
 	    padding: 0 ($unit / 3);
 	    position: relative;
  	    top: -10px;
+
+ 	    footer &,
+ 	    .bio &,
+ 	    .toc & {
+			font-style: italic;
+	    	font-weight: 800;
+ 	    }
 	}
 
 	.bio & .subtle {

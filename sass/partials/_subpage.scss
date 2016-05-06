@@ -7,7 +7,7 @@
 }
 
 .page-nav-cond {
-	@include at-query($two) {
+	@include at-query($one) {
 		display: none;
 	}
 }
@@ -15,7 +15,7 @@
 .page-nav-ex {
 	display: none;
 
-	@include at-query($two) {
+	@include at-query($one) {
 		display: inline-block;
 	}
 }
@@ -26,6 +26,7 @@
 
 	@include at-query($one) {
 		padding: $unit ($unit * 1.5);
+		margin-bottom: $unit * 3;
 	}
 
 	@include at-query($two) {
