@@ -71,3 +71,48 @@
 	max-width: 1040px;
 	padding: 0 $unit;
 }
+
+.toc {
+	padding: ($unit * 2) $unit $unit;
+	text-align: center;
+
+	@include at-query($one) {
+		padding-top: ($unit * 4);
+	}
+}
+
+.toc--small {
+	@include at-query($one) {
+		display: none;
+	}
+}
+
+.toc--larger {
+	display: none;
+
+	@include at-query($one) {
+		display: block;
+	}
+
+	@include at-query($two) {
+		display: none;
+	}
+}
+
+.toc--largest {
+	display: none;
+	max-width: 1330px;
+	margin: 0 auto;
+	padding-left: 60px;
+
+	@include at-query($two) {
+		display: block;
+	}
+}
+
+.toc-listing-date--large {
+	@include at-query($two) {
+		margin-top: 98px;
+		margin-right: $unit / 2;
+	}
+}

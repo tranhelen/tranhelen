@@ -61,4 +61,12 @@
 	@include at-query($one) {
 		margin-bottom: $unit * 2;
 	}
+
+	@include at-query($two) {
+		margin-bottom: $unit;
+	}
+
+	.toc-listing--large & {
+		margin-bottom: -2px;
+	}
 }
