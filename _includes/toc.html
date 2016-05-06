@@ -78,7 +78,10 @@
     <div class="toc--largest">
       <div class="grid grid--full">
         <div class="grid__item one-third">
-          <h5 class="toc-header">Recent</h5>
+          <div class="toc-header">
+            <h5 class="toc-date--largest">&nbsp;</h5>
+            <h5 class="toc-title--largest">Recent</h5>
+          </div>
           {% for post in site.posts limit: 3%}
             <div class="post-listing__single toc-list--largest">
               <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
@@ -87,8 +90,11 @@
           {% endfor %}
         </div>
         <div class="grid__item one-third">
-          <h5 class="toc-header">Recent</h5>
-          {% for post in site.posts limit: 3%}
+          <div class="toc-header">
+            <h5 class="toc-date--largest">&nbsp;</h5>
+            <h5 class="toc-title--largest">Popular</h5>
+          </div>
+          {% for post in site.categories['audience'] limit: 3 %}
             <div class="post-listing__single toc-list--largest">
               <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
               <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
@@ -96,8 +102,11 @@
           {% endfor %}
         </div>
         <div class="grid__item one-third">
-          <h5 class="toc-header">Recent</h5>
-          {% for post in site.posts limit: 3%}
+          <div class="toc-header">
+            <h5 class="toc-date--largest">&nbsp;</h5>
+            <h5 class="toc-title--largest">My Favourites</h5>
+          </div>
+          {% for post in site.categories['favourite'] limit: 3 %}
             <div class="post-listing__single toc-list--largest">
               <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
               <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>

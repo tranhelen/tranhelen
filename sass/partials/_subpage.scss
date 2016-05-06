@@ -105,7 +105,7 @@
 	margin: 0 auto;
 
 	.toc-header {
-		margin-left: -115px;
+		margin: ($unit / 2) 0;
 	}
 
 	@include at-query($two) {
@@ -127,16 +127,20 @@
 .toc-date--largest {
 	@include at-query($two) {
 		float: left;
-		width: 120px;
+		width: 150px;
 		text-align: right;
 		padding-right: ($unit / 2);
+		position: relative;
+		top: 8px;
 	}
 }
 
 .toc-title--largest {
 	@include at-query($two) {
-		float: left;
 		text-align: left;
-		margin-top: -8px;
+		width: 210px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 }
