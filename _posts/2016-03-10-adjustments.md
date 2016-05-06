@@ -1,5 +1,5 @@
 ---
-layout: subpage-simple
+layout: subpage
 title: Adjustments
 ---
 Near the end of last year in November (a week after my birthday!) I was formally documented at Shopify as a Design Lead on the Channels team. I had waited for this type of role for quite some time and I think it was a natural progression for my career after being in the industry for so long. It felt good at the time, but right now, it's mostly just scary.

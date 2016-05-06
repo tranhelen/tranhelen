@@ -28,10 +28,6 @@
 		padding: $unit ($unit * 1.5);
 		margin-bottom: $unit * 3;
 	}
-
-	@include at-query($two) {
-		margin-bottom: $unit * 6;
-	}
 }
 
 .post-footer {

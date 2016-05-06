@@ -25,6 +25,13 @@ h1 {
 h2 {
 	font-size: em(26px);
 	line-height: 40px;
+
+	@include at-query($two) {
+		.subpage &,
+		.subpage-custom & {
+			margin: ($unit * 2) 0 $unit;
+		}
+	}
 }
 
 h3 {
@@ -32,6 +39,13 @@ h3 {
 
 	.subpage-body & {
 		font-weight: 600;
+	}
+
+	@include at-query($two) {
+		.subpage &,
+		.subpage-custom & {
+			margin: $unit 0;
+		}
 	}
 }
 
@@ -105,12 +119,17 @@ a {
 }
 
 blockquote {
+	border: 3px solid $selection;
+	border-width: 0 0 0 3px;
 	margin: 0 0 ($unit / 2);
 
 	p {
-		color: $colorTextSubtle;
 		font-style: italic;
 		margin: 0 $unit ($unit / 2);
+	}
+
+	@include at-query($two) {
+		margin: $unit 0;
 	}
 }
 
@@ -137,6 +156,12 @@ blockquote.large {
 			font-style: normal;
 		}
 	}
+
+	@include at-query($two) {
+		border: 0;
+		margin: ($unit * 2) 0;
+		text-align: center;
+	}
 }
 
 figure {
@@ -160,7 +185,7 @@ figure.hero {
 	}
 
 	@include at-query($two) {
-		margin: 0;
+		margin-bottom: $unit * 3;
 	}
 }
 
@@ -190,28 +215,6 @@ figcaption {
 
 	@include at-query($two) {
 		margin-left: 0;
-	}
-
-	.hero & {
-		@include at-query($two) {
-			text-align: left;		
-		}
-	}
-
-	.left & {
-		@include at-query($one) {
-			margin-bottom: ($unit * 1.5);
-		}
-	}
-
-	&.inline {
-		margin: ($unit / 2) 0 $unit;
-
-		@include at-query($two) {
-			margin-top: 0;
-			padding: 0;
-			text-align: right;
-		}
 	}
 }
 

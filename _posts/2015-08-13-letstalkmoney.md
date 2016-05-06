@@ -1,5 +1,5 @@
 ---
-layout: subpage-simple
+layout: subpage
 title: Let's Talk Money
 category: favourite
 ---

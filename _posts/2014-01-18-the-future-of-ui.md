@@ -23,7 +23,7 @@ My colleague’s refusal to add an emotionally-associated action to the app is a
 	<figcaption>Minority Report (2002)</figcaption>
 </figure>
 
-This visual concept was seemingly fully formed towards the end of the 90s. Design aesthetics became systems of mathematically arranged lines, geometric shapes, numbers and cold colour palettes. All interfaces were stripped of humanistic elements aside from the occasional AI human face.</p>
+This visual concept was seemingly fully formed towards the end of the 90s. Design aesthetics became systems of mathematically arranged lines, geometric shapes, numbers and cold colour palettes. All interfaces were stripped of humanistic elements aside from the occasional AI human face.
 
 In this dream from the 90's, we hoped for a world where every computer knows us personally. We would wake up to them, have them around us all day, and they would be the last thing we interact with before we go to sleep. They would predict our needs and wants and all interfaces would (feel) as natural as having a conversation with a friend. Technology would become our primary means (or only means) of communication and we would form relationships with these objects that take care of us.
 
