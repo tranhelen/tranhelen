@@ -132,7 +132,6 @@ a {
 
 	&:hover {
 		color: $colorTextBody;
-		border-bottom: 1px solid rgba($colorLink,0.3);
 	}
 
 	@include transition;
