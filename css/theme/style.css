@@ -18,6 +18,31 @@
 /* Text */
 /* Links */
 /* Other */
+/*------------------------------------*\
+    #Base
+\*------------------------------------*/
+/* line 41, ../../sass/theme/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 51, ../../sass/theme/style.scss */
+::selection {
+  background: #E6F1F8;
+}
+
+/* line 55, ../../sass/theme/style.scss */
+::-moz-selection {
+  background: #E6F1F8;
+}
+
+/* Breakpoints */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
 /* line 9, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
@@ -1836,31 +1861,6 @@ th {
     right: 91.666%;
   }
 }
-/*------------------------------------*\
-    #Base
-\*------------------------------------*/
-/* line 5, ../../sass/partials/_base.scss */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
-}
-
-/* line 15, ../../sass/partials/_base.scss */
-::selection {
-  background: #E6F1F8;
-}
-
-/* line 19, ../../sass/partials/_base.scss */
-::-moz-selection {
-  background: #E6F1F8;
-}
-
-/* Breakpoints */
 /*------------------------------------*\
     #Helpers
 \*------------------------------------*/
