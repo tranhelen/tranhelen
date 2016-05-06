@@ -2086,24 +2086,25 @@ blockquote p {
 
 /* line 148, ../../sass/partials/_typography.scss */
 blockquote.large {
+  border: 0;
   margin: 15px 0;
 }
-/* line 151, ../../sass/partials/_typography.scss */
+/* line 152, ../../sass/partials/_typography.scss */
 footer blockquote.large {
   margin-bottom: 30px;
 }
-/* line 155, ../../sass/partials/_typography.scss */
+/* line 156, ../../sass/partials/_typography.scss */
 blockquote.large p {
   font-size: 1.5em;
   line-height: 1.625em;
   margin: 0;
 }
-/* line 160, ../../sass/partials/_typography.scss */
+/* line 161, ../../sass/partials/_typography.scss */
 footer blockquote.large p {
   color: #413C37;
   font-size: 1.25em;
 }
-/* line 165, ../../sass/partials/_typography.scss */
+/* line 166, ../../sass/partials/_typography.scss */
 blockquote.large p.author {
   color: #A09992;
   font-size: 0.875em;
@@ -2112,7 +2113,6 @@ blockquote.large p.author {
 @media screen and (min-width: 1130px) {
   /* line 148, ../../sass/partials/_typography.scss */
   blockquote.large {
-    border: 0;
     margin: 60px 0;
     text-align: center;
   }

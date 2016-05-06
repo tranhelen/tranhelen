@@ -146,6 +146,7 @@ blockquote {
 }
 
 blockquote.large {
+	border: 0;
 	margin: ($unit / 2) 0;
 
 	footer & {
@@ -170,7 +171,6 @@ blockquote.large {
 	}
 
 	@include at-query($two) {
-		border: 0;
 		margin: ($unit * 2) 0;
 		text-align: center;
 
