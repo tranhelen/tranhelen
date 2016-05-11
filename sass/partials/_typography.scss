@@ -132,7 +132,6 @@ a {
 
 	&:hover {
 		color: $colorTextBody;
-		border-bottom: 1px solid rgba($colorLink,0.3);
 	}
 
 	@include transition;
@@ -254,7 +253,7 @@ hr {
 }
 
 hr.small {
-	width: ($unit * 4);
+	width: ($unit * 2);
 }
 
 .alarming {
@@ -285,7 +284,7 @@ hr.small {
 	    color: #A09992;
 	    padding: 0 ($unit / 3);
 	    position: relative;
- 	    top: -10px;
+ 	    top: -13px;
 
  	    footer &,
  	    .bio &,

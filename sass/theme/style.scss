@@ -34,15 +34,45 @@
 	$colorButton: $colorTextBody;
 	$selection: #E6F1F8;
 
+/*------------------------------------*\
+    #Base
+\*------------------------------------*/
+
+* {
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+		box-sizing: border-box;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+ text-rendering:optimizeLegibility;
+}
+
+::selection {
+	background: $selection;
+}
+
+::-moz-selection {
+	background: $selection;
+}
+
+$stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
+$stack2: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$baseFontSize: 16px;
+$unit: 30px;
+
+/* Breakpoints */
+$one: 560px;
+$two: 1130px;
+
 @import "normalize";
 
 @import "modules/mixins";
 @import "vendor/grids";
 
-@import "partials/base";
 @import "partials/helpers";
 @import "partials/typography";
 
-@import "partials/commons";
 @import "partials/homepage";
 @import "partials/subpage";

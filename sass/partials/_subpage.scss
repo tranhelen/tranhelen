@@ -30,31 +30,6 @@
 	}
 }
 
-.post-footer {
-	border-bottom: 0;
-	border-top: 1px solid rgba($colorAccent,0.2);
-	margin-top: ($unit * 3);
-	margin-bottom: 0;
-	padding: ($unit / 2) $unit;
-
-	p {
-		margin: 0;
-	}
-
-	@include at-query($one) {
-		padding: $unit ($unit * 1.5) ($unit * 1.5);
-	}
-
-	@include at-query($two) {
-		margin-top: $unit * 4;
-
-		p {
-			max-width: 450px;
-			margin: 0 auto;
-		}
-	}
-}
-
 .subpage,
 .subpage-custom {
 	img {
@@ -66,77 +41,4 @@
 	margin: 0 auto;
 	max-width: 1040px;
 	padding: 0 $unit;
-}
-
-.toc {
-	padding: ($unit * 2) $unit $unit;
-	text-align: center;
-
-	@include at-query($one) {
-		padding-top: ($unit * 4);
-	}
-}
-
-.toc--small {
-	@include at-query($one) {
-		display: none;
-	}
-}
-
-.toc--larger {
-	display: none;
-
-	@include at-query($one) {
-		display: block;
-	}
-
-	@include at-query($two) {
-		display: none;
-	}
-}
-
-.toc--largest {
-	display: none;
-	max-width: 1330px;
-	margin: 0 auto;
-
-	.toc-header {
-		margin: ($unit / 2) 0;
-	}
-
-	@include at-query($two) {
-		display: block;
-	}
-}
-
-.toc-listing-date--large {
-	@include at-query($two) {
-		margin-top: 98px;
-		margin-right: $unit / 2;
-	}
-}
-
-.toc-list--largest {
-	clear: both;
-}
-
-.toc-date--largest {
-	@include at-query($two) {
-		float: left;
-		width: 150px;
-		text-align: right;
-		padding-right: ($unit / 2);
-		position: relative;
-		top: 2px;
-	}
-}
-
-.toc-title--largest {
-	@include at-query($two) {
-		text-align: left;
-		width: 210px;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
 }
