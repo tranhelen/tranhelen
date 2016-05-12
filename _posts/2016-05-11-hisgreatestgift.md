@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: The Greatest Gift
+title: His Greatest Gift
 ---
 "I have nothing to give you," was one of the last things he said to me. We were standing in his hospital room and it had been about eight years since I had last seen him. He was unfamiliar to me having spent the majority of my life without him around but my usually quite shielded heart broke a little upon hearing those words. 
 
@@ -16,7 +16,7 @@ I thought I was handling it. And then he died.
 
 The majority of that day was spent watching everyone around me through my glass room. His 90th birthday was playing over and over again in my mind. He had been brought home for his birthday from the hospital and my Grandma, still so much in love, had been talking about seeing him for days.
 
-We sat him in a chair in the living room of his home and I watched as people began filtering into the house. My aunts and uncles, my cousins and their children, and their children's children filled the room until I could no longer tell who was related to me and how. I remember turning to my partner at the time and saying, *"Wow, I can't believe all these people came from them."*
+We sat him in a chair in the living room of his home and I watched as people began filtering in. My aunts and uncles, my cousins and their children, and their children's children filled the room until I could no longer tell who was related to me and how. I remember turning to my partner at the time and saying, *"Wow, I can't believe all these people came from them."*
 
 His death compounded on top of the grieving for the life that I had burned down. Change was the goal but I didn't know how to get it and had hastily thrown away the entire thing. He showed me what I wanted that day but I had no idea what was in front of me. His death was the first step: my porcelain veneer cracked.
 
