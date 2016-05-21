@@ -2,3 +2,5 @@ exclude: 	['README.md', 'config.rb', 'sass']
 name: Helen Tran; Product Designer
 description: Helen Tran is a Product Designer working in technology. She blogs about tech life and design.
 url: http://helentran.com
+gems: 
+  - jekyll-feed
