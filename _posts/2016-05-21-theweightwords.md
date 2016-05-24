@@ -10,7 +10,7 @@ I am learning that becoming more articulate is a necessity of management; commun
 
 Three things of note:
 
-* *Perception matters.* Team morale is one of the biggest indicators of a project's success. The emotions of your team are your responsibility. Priming a brain has immense impacts on actions and everyone is primed by everything they see in the course of a day. Be supportive. Be confident. Do not focus too much on the negative (but don't ignore it either.) Keep calm. 
+* *Perception matters.* Team morale is one of the biggest indicators of a project's success. The emotions of your team are your responsibility. Priming a brain has immense impacts on actions and everyone is primed by everything they see in the course of a day. Be supportive. Be confident. Do not focus too much on the negative (but <a href="http://helentran.com/2016/04/28/everythingsgreat.html">do not ignore it either.</a>) Keep calm. 
 * *Be brief.* Superfluous words must be eliminated. Everyone has the same amount of time, but everyone also has less time than you. Stay focused, answer the question(s), address the concerns succinctly and then stop talking. When in doubt, consider saying nothing.
 * *Don't publish immediately.* If you are in a position in which your words weigh more than others, do not hit 'Send' without pausing. What is your goal? Are your words going to get you there? Does this hit a sore spot with anyone? Are you being neglectful? Are you answering the 5 W's? If someone read this without context, would they give you the benefit of the doubt?
 
