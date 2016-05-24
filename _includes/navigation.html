@@ -2,6 +2,7 @@
       	<div class="grid">
 	    	<div class="grid__item one-third">
 		        {% if page.previous %}
+            {% unless page.previous and page.previous.categories contains "experiments" %}
           			<div class="h5 page-nav-cond">
           				<a href="{{ page.previous.url }}">Prev</a>
           			</div>
@@ -11,6 +12,7 @@
           			</div>
 	      		{% else %}
 	      			&nbsp;
+          {% endunless %}
 			    {% endif %}
 	  		</div>
 	  		<div class="grid__item one-third text-center">
@@ -18,6 +20,7 @@
 	  		</div>
 	    	<div class="grid__item one-third text-right">
 		        {% if page.next %}
+            {% unless page.next and page.next.categories contains "experiments" %}
           			<div class="h5 page-nav-cond">
           				<a href="{{ page.next.url }}">Next</a>
           			</div>
@@ -25,6 +28,7 @@
           				<span class="h5">Next</span>
           				<br><span class="h3"><a href="{{ page.next.url }}">{{ page.next.title }}</a></span>
           			</div>
+            {% endunless %}
 			    {% endif %}
 	      	</div>
        	</div>
