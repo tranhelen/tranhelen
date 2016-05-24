@@ -2,7 +2,7 @@
 layout: subpage
 title: The Weight of Words
 ---
-Words have always guided my interests. The majority of my time is spent seeking personal essays in video, audio or written format, following the careers of stand-up comedians and writers, and furrowing my eyebrows in meetings furiously intent on understanding what's *behind* the words. I have never been more aware of the weight of words than I am now. They are becoming heavier.
+Words have always guided my interests. The majority of my time is spent seeking personal essays in video, audio or written format, following the careers of stand-up comedians and writers, and in meetings determined to understand what's *behind* the words floating about. I have never been more aware of the weight of words than I am now. They are becoming heavier.
 
 A writer judges themselves by their intentions but ultimately the power is held by the reader, who interprets. As communication becomes more impersonal and we work in larger teams over larger distances, the benefit of the doubt gets lost amongst the noise and all we have are emojis to communicate how we *truly* feel.
 
