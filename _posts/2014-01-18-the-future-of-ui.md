@@ -76,7 +76,7 @@ Pixar is one of the most successful animation studios of all time. They are at t
 
 > It’s the feeling you also got from the old Walt Disney films, like the feeling you got when Dumbo visits his mother who’s locked up, or when Bambi’s mother is killed, or the emotions we feel when Pinocchio is at Pleasure Island. It’s these deep emotions you don’t feel anymore in modern Hollywood films.
 
-Pixar’s key to success is their understanding of the value of emotion and what drives someone to attach to their characters and stories.</p>
+Pixar’s key to success is their understanding of the value of emotion and what drives someone to attach to their characters and stories.
 
 <hr class="small">
 
@@ -114,7 +114,7 @@ We can make use of copy to speak to users conversationally, eliminate the chore 
 
 While seemingly a very obvious way to communicate—copy and how we deal with inputs is often overlooked. In our rush to replace popular actions with iconography, designers often forget that sometimes copy can be just as powerful.
 
-We can make use of copy to speak to users conversationally, eliminate the chore of form input or provide discoverable and fun easter eggs. All three ways give the illusion of a person behind the product or device.</p>
+We can make use of copy to speak to users conversationally, eliminate the chore of form input or provide discoverable and fun easter eggs. All three ways give the illusion of a person behind the product or device.
 
 <figure class="left">
 	<img src="/img/post/01-11fantastical.jpg">
