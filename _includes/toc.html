@@ -9,10 +9,12 @@
       <h5 class="toc-header">Recent</h5>
       <div class="toc-listing">
       {% for post in site.posts limit: 3%}
+      {% unless post.category == "experiments" %}
         <div class="post-listing__single">
           <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
           <p><a href="{{ post.url }}">{{ post.title }}</a></p>
         </div>
+      {% endunless %}
       {% endfor %}
       </div>
 
