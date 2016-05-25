@@ -8,12 +8,16 @@
     <div class="toc--small">
       <h5 class="toc-header">Recent</h5>
       <div class="toc-listing">
-      {% for post in site.posts limit: 3%}
+      {% assign: cnt = '' %}
+      {% for post in site.posts %}
       {% unless post.category == "experiments" %}
+        {% capture cnt %}{{ cnt }}*{% endcapture %}
+        {% if cnt.size <= 3 %}
         <div class="post-listing__single">
           <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
           <p><a href="{{ post.url }}">{{ post.title }}</a></p>
         </div>
+        {% endif %}
       {% endunless %}
       {% endfor %}
       </div>
@@ -44,12 +48,16 @@
         <div class="grid__item one-third">
           <h5 class="toc-header">Recent</h5>
           <div class="toc-listing">
-          {% for post in site.posts limit: 3%}
+          {% assign: cnt2 = '' %}
+          {% for post in site.posts %}
           {% unless post.category == "experiments" %}
+            {% capture cnt2 %}{{ cnt2 }}*{% endcapture %}
+            {% if cnt2.size <= 3 %}
             <div class="post-listing__single">
               <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
               <p><a href="{{ post.url }}">{{ post.title }}</a></p>
             </div>
+            {% endif %}
           {% endunless %}
           {% endfor %}
           </div>
@@ -86,12 +94,16 @@
             <h5 class="toc-date--largest">&nbsp;</h5>
             <h5 class="toc-title--largest">Recent</h5>
           </div>
-          {% for post in site.posts limit: 3 %}
+          {% assign: cnt3 = '' %}
+          {% for post in site.posts %}
           {% unless post.category == "experiments" %}
+            {% capture cnt3 %}{{ cnt3 }}*{% endcapture %}
+            {% if cnt3.size <= 3 %}
             <div class="post-listing__single toc-list--largest">
               <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
               <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
             </div>
+            {% endif %}
           {% endunless %}
           {% endfor %}
         </div>
