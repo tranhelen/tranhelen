@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: Maintaining sanity
+title: Maintaining Sanity
 ---
 When you choose to become a Designer, if your heart is in the right place, you have silently signed a document promising that you will solve problems. What they also don't tell you is that you will not be able to turn it off. It's one of those careers which truly tranforms your entire mode of thinking. "*Design thinking*"–that's what the business folk call it.
 
