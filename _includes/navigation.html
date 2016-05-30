@@ -10,16 +10,16 @@
           				<span class="h5">Previous</span>
           				<br><span class="h3"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></span>
           			</div>
+            {% endunless %}
 	      		{% else %}
 	      			&nbsp;
-          {% endunless %}
 			    {% endif %}
 	  		</div>
 	  		<div class="grid__item one-third text-center">
 	  			<a class="h5" href="/">Home</a>
 	  		</div>
 	    	<div class="grid__item one-third text-right">
-		        {% if page.next %}
+	        {% if page.next %}
             {% unless page.next and page.next.categories contains "experiments" %}
           			<div class="h5 page-nav-cond">
           				<a href="{{ page.next.url }}">Next</a>
