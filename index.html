@@ -18,12 +18,10 @@ title: Helen Tran; Product Designer
 	</div>
 	<div class="post-listing">
 		{% for post in site.posts %}
-			{% unless post.category == "experiments" %}
 			<div class="post-listing__single">
 				<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
 				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
 			</div>
-			{% endunless %}
 		{% endfor %}
 	</div>
 </div>
