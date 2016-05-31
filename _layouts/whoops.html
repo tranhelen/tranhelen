@@ -1,0 +1,18 @@
+    {% include header.html %}
+
+    <body class="subpage">
+
+      {% include navigation.html %}
+
+      <div class="subpage-body">
+
+        <div class="grid grid--full">
+          <div class="grid__item push--one--two-twelfths one--eight-twelfths">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+          </div>
+       </div>
+    
+      </div>
+    
+    {% include footer.html %}
