@@ -63,10 +63,6 @@ This was briefly mentioned above but restrospectives keep me highly motivated. I
 
 It is! Systematic approaches aren't great for everyone but I like knowing where I'm going, why and how I'm going to get there. It seems unnatural at first but nowadays it's become more second nature to me. You have to find a way to make every step fun for you while still ensuring that you're keeping track. 
 
-### I'm scared
-
-Cool, me too.
-
 ## Good luck
 
 These are the things that have helped me over the years build a life that I wanted to live. Not only is this simple and effective, it also has profound effects on your confidence and ability to pick up things quickly. These are both amazing traits to have in uncertain and overwhelming situations. You can stay focused on the goal because you know you can do it and you're going to do it quickly. The mental model shifts from _can I_ to _when I._ 
