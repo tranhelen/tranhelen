@@ -61,7 +61,7 @@ This was briefly mentioned above but restrospectives keep me highly motivated. I
 
 ### This seems excessive
 
-It is! Systematic approaches aren't great for everyone but I like going where I'm going, why I'm going there and how I'm going to get there. It seems unnatural at first but nowadays I'm less bothered by it and I use it to guide me. You have to find a way to make every step fun for you.
+It is! Systematic approaches aren't great for everyone but I like knowing where I'm going, why and how I'm going to get there. It seems unnatural at first but nowadays it's become more second nature to me. You have to find a way to make every step fun for you while still ensuring that you're keeping track. 
 
 ### I'm scared
 
