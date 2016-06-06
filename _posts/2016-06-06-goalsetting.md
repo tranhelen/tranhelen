@@ -69,8 +69,6 @@ Cool, me too.
 
 ## Good luck
 
-These are the things that have helped me over the years build a life that I wanted to live. I have leveled up my cooking skills, completely changed my understanding of nutrition and health, went from couch potato to running 10k three times a week, leveled up my spoken and written communication skills, learned how to play an instrument, learned a new language, leaped quickly through stages of my career, started and operated a successful business, etc. I'll stop here because I hoping you get the point.
-
-Not only is this simple and effective, it also has profound effects on your confidence and ability to pick up things quickly. These are both amazing traits to have in uncertain and overwhelming situations. You can stay focused on the goal because you know you can do it and you're going to do it quickly. The mental model shifts from _can I_ to _when I._ 
+These are the things that have helped me over the years build a life that I wanted to live. Not only is this simple and effective, it also has profound effects on your confidence and ability to pick up things quickly. These are both amazing traits to have in uncertain and overwhelming situations. You can stay focused on the goal because you know you can do it and you're going to do it quickly. The mental model shifts from _can I_ to _when I._ 
 
 I sound like a motivational guru, don't I? 
