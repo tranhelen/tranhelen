@@ -18,7 +18,7 @@ What are the roadblocks that are keeping you from having this *right now?* If yo
 The use of the word *need* is important. If you are going to achieve the goal, you must start thinking in terms of *needs* and *musts.* There is no room for vaguary. Yes, words matter.
 
 * I need to take time off work.
-* I must learn XCode in order to built an app.
+* I must learn XCode in order to build an app.
 * Research says the trip will cost me about $8,000 USD after food, equipment rentals and transportation. I need to have that money before I go.
 
 Take what you've written and break it down even further. If you must learn a new skill, what does that mean? What specifically do you need to know? Are there tutorials available to you which will teach you what you need to know? Can someone teach you? It's important that the majority of the things you write down are things _you_ can personally affect. You cannot achieve a goal if you think it's dependant on someone else's actions.
