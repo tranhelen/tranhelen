@@ -1,6 +1,7 @@
 ---
 layout: subpage
 title: Yearly Themes
+category: life
 ---
 One of the [book I read last year](http://localhost:4000/2016/01/13/46books.html) was a commencement speech book. I'll admit I love commencement speeches so you can smirk and we can both move forward. I like them because I never heard mine. I didn't go to my graduation and it will always be a small regret that I didn't stand next to my classmates and listen to someone give me advice that I wouldn't listen to.
 

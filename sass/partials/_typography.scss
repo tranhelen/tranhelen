@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: em(45px);
+	font-size: em(40px);
 	line-height: 55px;
 
 	.subpage &,
@@ -36,8 +36,8 @@ h1 {
 }
 
 h2 {
-	font-size: em(26px);
-	line-height: 40px;
+	font-size: em(24px);
+	line-height: 36px;
 
 	@include at-query($two) {
 		.subpage &,

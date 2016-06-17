@@ -1,6 +1,7 @@
 ---
 layout: subpage
 title: Goal Setting
+category: career
 ---
 I set up goals on a yearly basis. Anything beyond that doesn't work for me because anything beyond one year makes me feel trapped. This may be different for you so feel free to adjust as you see fit.
 
