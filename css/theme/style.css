@@ -2418,6 +2418,26 @@ footer {
   }
 }
 
+@media screen and (min-width: 1130px) {
+  /* line 129, ../../sass/partials/_homepage.scss */
+  .toc-date--homepage {
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 15px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media screen and (min-width: 1130px) {
+  /* line 140, ../../sass/partials/_homepage.scss */
+  .toc-title--homepage {
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/

@@ -125,3 +125,21 @@ footer {
 		text-overflow: ellipsis;
 	}
 }
+
+.toc-date--homepage {
+	@include at-query($two) {
+		float: left;
+		width: 150px;
+		text-align: right;
+		padding-right: ($unit / 2);
+		position: relative;
+		top: 2px;
+	}
+}
+
+.toc-title--homepage {
+	@include at-query($two) {
+		text-align: left;
+		white-space: nowrap;
+	}
+}

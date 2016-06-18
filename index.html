@@ -12,21 +12,20 @@ title: Helen Tran; Product Designer
 				<p>The rest of my time I'm <a href="http://instagram.com/tranhelen">wandering</a> or planning out how I can live in the desert long-term. I walk around asking "Why?" a lot and mostly not out loud. By happenstance this has worked out very well for me.</p>
 			</div>
 
-			<div class="post-listing">
-				{% for post in site.posts %}
-				{% unless post.category == "experiments" %}
+			<div class="grid grid--full">
+				<div class="grid__tem push--one-eighth six-eighths">
+					<div class="post-listing">
+						{% for post in site.posts %}
+						{% unless post.category == "experiments" %}
 
-	            <div class="post-listing__single toc-list--largest">
-					<h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
-					<p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
+			            <div class="post-listing__single toc-list--homepage">
+							<h5 class="toc-date--homepage">{{ post.date | date:'%B %-d, %Y' }}</h5>
+							<p class="toc-title--homepage"><a href="{{ post.url }}">{{ post.title }}</a></p>
+						</div>
+						{% endunless %}
+						{% endfor %}
+					</div>
 				</div>
-<!-- 					<div class="post-listing__single">
-
-						<p><a href="{{ post.url }}">{{ post.title }}</a></p>
-						<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-					</div> -->
-				{% endunless %}
-				{% endfor %}
 			</div>
 		</div>
 	</div>
