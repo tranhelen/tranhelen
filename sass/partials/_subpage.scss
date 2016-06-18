@@ -38,7 +38,11 @@
 }
 
 .subpage-body {
+	max-width: 1200px;
 	margin: 0 auto;
-	max-width: 1040px;
 	padding: 0 $unit;
+
+	@include at-query($one) {
+		padding: 0;
+	}
 }

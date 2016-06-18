@@ -1952,7 +1952,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, h6, .h6, figcaption, .h4, h5, .h5, h6, .h6, figca
 
 /* line 15, ../../sass/partials/_typography.scss */
 h1, .h1 {
-  font-size: 2.8125em;
+  font-size: 2.5em;
   line-height: 55px;
 }
 /* line 19, ../../sass/partials/_typography.scss */
@@ -1974,8 +1974,8 @@ h1.name, .name.h1 {
 
 /* line 38, ../../sass/partials/_typography.scss */
 h2, .h2 {
-  font-size: 1.625em;
-  line-height: 40px;
+  font-size: 1.5em;
+  line-height: 36px;
 }
 @media screen and (min-width: 1130px) {
   /* line 43, ../../sass/partials/_typography.scss */
@@ -2267,168 +2267,137 @@ footer .fancy .subtle, .bio .fancy .subtle, .toc .fancy .subtle {
 \*------------------------------------*/
 /* line 5, ../../sass/partials/_homepage.scss */
 footer {
-  margin: 30px 30px 60px;
-  text-align: center;
+  background-color: #f7f7f7;
+  padding: 15px 30px 30px;
 }
 @media screen and (min-width: 560px) {
   /* line 5, ../../sass/partials/_homepage.scss */
   footer {
-    margin: 90px 0 120px;
+    text-align: center;
   }
 }
 
 /* line 14, ../../sass/partials/_homepage.scss */
-.avatar {
-  margin: -30px -30px 30px;
-}
-/* line 17, ../../sass/partials/_homepage.scss */
-.avatar img {
-  width: 100%;
-  max-width: 450px;
+.bio {
+  margin: 60px 0 0;
+  padding: 0 30px;
 }
 @media screen and (min-width: 560px) {
   /* line 14, ../../sass/partials/_homepage.scss */
-  .avatar {
-    margin-bottom: 90px;
+  .bio {
+    margin-top: 90px;
+    padding: 0;
   }
 }
 
-/* line 27, ../../sass/partials/_homepage.scss */
-.bio {
-  background-color: #FEFEFE;
-  box-shadow: inset 0px 0px 150px #E9E5DD;
-  padding: 30px;
-  text-align: center;
-}
-@media screen and (min-width: 560px) {
-  /* line 27, ../../sass/partials/_homepage.scss */
-  .bio {
-    margin: 0 30px;
-    max-width: 1130px;
-    padding: 0 60px 60px;
-  }
-}
-@media screen and (min-width: 1130px) {
-  /* line 27, ../../sass/partials/_homepage.scss */
-  .bio {
-    margin: 0 auto;
-    padding-left: 210px;
-    padding-right: 210px;
-  }
-}
-
-/* line 46, ../../sass/partials/_homepage.scss */
+/* line 24, ../../sass/partials/_homepage.scss */
 .container {
   margin: 0 auto;
+  max-width: 1200px;
 }
 
-/* line 50, ../../sass/partials/_homepage.scss */
-.journal {
-  margin-bottom: 15px;
+/* line 29, ../../sass/partials/_homepage.scss */
+.main {
+  padding: 30px 0;
+  text-align: center;
 }
 
-/* line 54, ../../sass/partials/_homepage.scss */
+/* line 34, ../../sass/partials/_homepage.scss */
 .name {
   margin: 0 0 15px;
 }
 
-/* line 58, ../../sass/partials/_homepage.scss */
+/* line 38, ../../sass/partials/_homepage.scss */
 .post-listing {
   padding: 30px 30px 0;
-  text-align: center;
 }
 @media screen and (min-width: 560px) {
-  /* line 58, ../../sass/partials/_homepage.scss */
+  /* line 38, ../../sass/partials/_homepage.scss */
   .post-listing {
-    padding: 90px 0 0;
+    padding: 30px 0;
+    margin-bottom: 30px;
   }
 }
 
-/* line 67, ../../sass/partials/_homepage.scss */
+/* line 47, ../../sass/partials/_homepage.scss */
 .post-listing__single {
   margin-bottom: 30px;
 }
-@media screen and (min-width: 560px) {
-  /* line 67, ../../sass/partials/_homepage.scss */
-  .post-listing__single {
-    margin-bottom: 60px;
-  }
-}
 @media screen and (min-width: 1130px) {
-  /* line 75, ../../sass/partials/_homepage.scss */
+  /* line 51, ../../sass/partials/_homepage.scss */
   .toc--largest .post-listing__single {
     margin-bottom: 20px;
   }
 }
 
-/* line 81, ../../sass/partials/_homepage.scss */
+/* line 57, ../../sass/partials/_homepage.scss */
 .toc {
-  padding: 60px 30px 30px;
+  padding: 60px 30px;
   text-align: center;
 }
 @media screen and (min-width: 560px) {
-  /* line 81, ../../sass/partials/_homepage.scss */
+  /* line 57, ../../sass/partials/_homepage.scss */
   .toc {
-    padding-top: 120px;
+    padding: 120px 30px;
   }
 }
 
 @media screen and (min-width: 560px) {
-  /* line 90, ../../sass/partials/_homepage.scss */
+  /* line 66, ../../sass/partials/_homepage.scss */
   .toc--small {
     display: none;
   }
 }
 
-/* line 96, ../../sass/partials/_homepage.scss */
+/* line 72, ../../sass/partials/_homepage.scss */
 .toc--larger {
   display: none;
 }
 @media screen and (min-width: 560px) {
-  /* line 96, ../../sass/partials/_homepage.scss */
+  /* line 72, ../../sass/partials/_homepage.scss */
   .toc--larger {
     display: block;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 96, ../../sass/partials/_homepage.scss */
+  /* line 72, ../../sass/partials/_homepage.scss */
   .toc--larger {
     display: none;
   }
 }
 
-/* line 108, ../../sass/partials/_homepage.scss */
+/* line 84, ../../sass/partials/_homepage.scss */
 .toc--largest {
   display: none;
   max-width: 1330px;
   margin: 0 auto;
 }
-/* line 113, ../../sass/partials/_homepage.scss */
+/* line 89, ../../sass/partials/_homepage.scss */
 .toc--largest .toc-header {
   margin: 15px 0;
 }
 @media screen and (min-width: 1130px) {
-  /* line 108, ../../sass/partials/_homepage.scss */
+  /* line 84, ../../sass/partials/_homepage.scss */
   .toc--largest {
     display: block;
   }
 }
 
 @media screen and (min-width: 1130px) {
-  /* line 122, ../../sass/partials/_homepage.scss */
+  /* line 98, ../../sass/partials/_homepage.scss */
   .toc-listing-date--large {
     margin-top: 98px;
     margin-right: 15px;
   }
 }
 
-/* line 129, ../../sass/partials/_homepage.scss */
+/* line 105, ../../sass/partials/_homepage.scss */
 .toc-list--largest {
   clear: both;
 }
 
 @media screen and (min-width: 1130px) {
-  /* line 133, ../../sass/partials/_homepage.scss */
+  /* line 109, ../../sass/partials/_homepage.scss */
   .toc-date--largest {
     float: left;
     width: 150px;
@@ -2440,13 +2409,33 @@ footer {
 }
 
 @media screen and (min-width: 1130px) {
-  /* line 144, ../../sass/partials/_homepage.scss */
+  /* line 120, ../../sass/partials/_homepage.scss */
   .toc-title--largest {
     text-align: left;
     width: 210px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+}
+
+@media screen and (min-width: 1130px) {
+  /* line 130, ../../sass/partials/_homepage.scss */
+  .toc-date--homepage {
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 15px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media screen and (min-width: 1130px) {
+  /* line 141, ../../sass/partials/_homepage.scss */
+  .toc-title--homepage {
+    text-align: left;
+    white-space: nowrap;
   }
 }
 
@@ -2497,7 +2486,13 @@ footer {
 
 /* line 40, ../../sass/partials/_subpage.scss */
 .subpage-body {
+  max-width: 1200px;
   margin: 0 auto;
-  max-width: 1040px;
   padding: 0 30px;
+}
+@media screen and (min-width: 560px) {
+  /* line 40, ../../sass/partials/_subpage.scss */
+  .subpage-body {
+    padding: 0;
+  }
 }
