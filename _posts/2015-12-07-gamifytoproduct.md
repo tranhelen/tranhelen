@@ -1,6 +1,7 @@
 ---
 layout: subpage
 title: Gamify to Product Failure
+category: design
 ---
 In a press release [written in 2012](http://www.cmswire.com/cms/social-business/gartner-sticks-to-its-failing-gamification-prediction-023464.php), Gartner said that by 2014,
 

@@ -1,6 +1,7 @@
 ---
 layout: subpage
 title: Design as Art
+category: design
 ---
 When I was on a solo portion of a road trip in Iceland I absorbed a few books on my reading list, one of which was Amanda Palmer's, “The Art of Asking.” She read from a keynote address she wrote in 2013,
 

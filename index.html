@@ -4,26 +4,30 @@ title: Helen Tran; Product Designer
 ---
 
 <div class="container">
-	<div class="bio">
-		<div class="avatar"><img src="img/portrait.jpg"></div>
-		<p class="h3 alarming journal">Journal</p>
-		<div class="fancy">
-			<div class="fancy__wings">&nbsp;</div>
-			<span class="h3 subtle">Product Design Lead</span>
-		</div>
-		<h1 class="name">Helen Tran</h1>
-		<p class="h2">I spend the majority of my time growing a team at <a href="http://shopify.com">Shopify</a> and helping to shape the future of commerce and entrepreneurship.</p>
-		<p>The rest of my time I'm <a href="http://instagram.com/tranhelen">wandering</a> or planning out how I can live in the desert long-term. I walk around asking "Why?" a lot and mostly not out loud. By happenstance this has worked out very well for me.</p>
-		<p class="h4"><span class="alarming">Sometimes interesting</span> on <span class="alarming"><a href="http://twitter.com/tranhelen">Twitter</a>, <a href="http://dribbble.com/tranhelen">Dribbble</a></span>, and <span class="alarming"><a href="http://instagram.com/tranhelen">Instagram</a></span></p>
-	</div>
-	<div class="post-listing">
-		{% for post in site.posts %}
-		{% unless post.category == "experiments" %}
-			<div class="post-listing__single">
-				<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-				<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+	<div class="grid grid--full">
+		<div class="grid__item push--one--one-tenth one--eight-tenths push--two--two-tenths two--six-tenths">
+			<div class="bio">
+				<h1 class="name">Helen Tran</h1>
+				<p class="h2">I'm a Product Designer spending the majority of my time growing a team at <a href="http://shopify.com">Shopify</a> and helping to shape the future of commerce and entrepreneurship.</p>
+				<p>The rest of my time I'm <a href="http://instagram.com/tranhelen">wandering</a> or planning out how I can live in the desert long-term. I walk around asking "Why?" a lot and mostly not out loud. By happenstance this has worked out very well for me.</p>
 			</div>
-		{% endunless %}
-		{% endfor %}
+
+			<div class="post-listing">
+				{% for post in site.posts %}
+				{% unless post.category == "experiments" %}
+
+	            <div class="post-listing__single toc-list--largest">
+					<h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
+					<p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
+				</div>
+<!-- 					<div class="post-listing__single">
+
+						<p><a href="{{ post.url }}">{{ post.title }}</a></p>
+						<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+					</div> -->
+				{% endunless %}
+				{% endfor %}
+			</div>
+		</div>
 	</div>
 </div>
