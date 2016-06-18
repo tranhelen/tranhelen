@@ -40,6 +40,7 @@ footer {
 
 	@include at-query($one) {
 		padding: $unit 0;
+		margin-bottom: $unit;
 	}
  }
 
@@ -54,11 +55,11 @@ footer {
 }
 
 .toc {
-	padding: ($unit * 2) $unit $unit;
+	padding: ($unit * 2) $unit;
 	text-align: center;
 
 	@include at-query($one) {
-		padding-top: ($unit * 4);
+		padding: ($unit * 4) $unit;
 	}
 }
 
