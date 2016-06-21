@@ -4,9 +4,12 @@
 
 footer {
 	background-color: #f7f7f7;
-	padding: ($unit / 2) $unit $unit;
+	margin-top: $unit / 2; 
+	padding: ($unit / 2) $unit;
 
 	@include at-query($one) {
+		margin-top: $unit * 2;
+		padding: $unit;
 		text-align: center;
 	}
 }
@@ -40,7 +43,6 @@ footer {
 
 	@include at-query($one) {
 		padding: $unit 0;
-		margin-bottom: $unit;
 	}
  }
 
@@ -55,11 +57,11 @@ footer {
 }
 
 .toc {
-	padding: ($unit * 2) $unit;
+	padding: ($unit * 2) $unit $unit;
 	text-align: center;
 
 	@include at-query($one) {
-		padding: ($unit * 4) $unit;
+		padding: ($unit * 4) $unit 0;
 	}
 }
 
