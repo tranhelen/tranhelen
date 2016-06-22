@@ -2,6 +2,7 @@
 layout: subpage
 title: Let's Talk Money
 categories: [career, favourite]
+slug: lets-talk-money
 ---
 We're going to talk about money.
 

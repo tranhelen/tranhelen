@@ -2,6 +2,7 @@
 layout: subpage
 title: 3 Weeks of Mobile
 category: design
+slug: three-weeks
 ---
 I have just come back from a three week trip in Japan for which the only device I brought was my phone. This wasn't really a difficult decision for me to make but after relying on it as my primary device, I've noticed a few things:
 

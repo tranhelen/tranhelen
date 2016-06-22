@@ -2,6 +2,7 @@
 layout: subpage
 title: The Future of UI and the Dream of the '90s
 categories: [design, audience]
+slug: the-future-of-UI-and-the-dream-of-the-90s
 
 hero: 01-01hero.jpg
 hero_caption: Minority Report (2002)

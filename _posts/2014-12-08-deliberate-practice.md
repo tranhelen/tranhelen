@@ -2,6 +2,7 @@
 layout: subpage
 title: Deliberate Practice
 categories: [career, audience]
+slug: deliberate-practice
 
 hero: 06-01hero.jpg
 hero_caption: Pixar's Short; Geri's Game
