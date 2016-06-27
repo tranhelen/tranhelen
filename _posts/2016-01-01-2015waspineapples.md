@@ -1,6 +1,8 @@
 ---
 layout: subpage
 title: 2015 was Pineapples
+category: life
+slug: 2015-was-pineapples
 ---
 1. Vulnerability is your greatest strength.
 2. Hate is not negative.

@@ -4,3 +4,4 @@ description: Helen Tran is a Product Designer working at Shopify. She blogs abou
 url: http://helentran.com
 gems: 
   - jekyll-feed
+permalink: /:title

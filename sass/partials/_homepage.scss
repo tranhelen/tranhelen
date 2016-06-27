@@ -3,52 +3,35 @@
 \*------------------------------------*/
 
 footer {
-	margin: $unit $unit ($unit * 2);
-	text-align: center;
+	background-color: #f7f7f7;
+	margin-top: $unit / 2; 
+	padding: ($unit / 2) $unit;
 
 	@include at-query($one) {
-		margin: ($unit * 3) 0 ($unit * 4);
-	}
-}
-
-.avatar {
-	margin: -30px -30px 30px;
-
-	img {
-		width: 100%;
-		max-width: 450px;
-	}
-
-	@include at-query($one) {
-		margin-bottom: $unit * 3;
+		margin-top: $unit * 2;
+		padding: $unit;
+		text-align: center;
 	}
 }
 
 .bio {
-	background-color: $colorBGBio;
-	box-shadow: inset 0px 0px 150px $colorBGBioDark;
-	padding: $unit;
-	text-align: center;
+	margin: ($unit * 2) 0 0;
+	padding: 0 $unit;
 
 	@include at-query($one) {
-		margin: 0 $unit;
-		max-width: 1130px;
-		padding: 0 ($unit * 2) ($unit * 2);
-	}
-
-	@include at-query($two) {
-		margin: 0 auto;
-		padding-left: $unit * 7;
-		padding-right: $unit * 7;
+		margin-top: $unit * 3;
+		padding: 0;
 	}
 }
 
 .container {
 	margin: 0 auto;
+	max-width: 1200px;
 }
 
-.journal {
-	margin-bottom: $unit / 2;
+.main {
+	padding: $unit 0;
+	text-align: center;
 }
 
 .name {
@@ -57,19 +40,14 @@ footer {
 
 .post-listing {
 	padding: $unit $unit 0;
-	text-align: center;
 
 	@include at-query($one) {
-		padding: ($unit * 3) 0 0;
+		padding: $unit 0;
 	}
  }
 
 .post-listing__single {
 	margin-bottom: $unit;
-
-	@include at-query($one) {
-		margin-bottom: $unit * 2;
-	}
 
 	@include at-query($two) {	
 		.toc--largest & {
@@ -83,7 +61,7 @@ footer {
 	text-align: center;
 
 	@include at-query($one) {
-		padding-top: ($unit * 4);
+		padding: ($unit * 4) $unit 0;
 	}
 }
 
@@ -148,5 +126,23 @@ footer {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+	}
+}
+
+.toc-date--homepage {
+	@include at-query($two) {
+		float: left;
+		width: 150px;
+		text-align: right;
+		padding-right: ($unit / 2);
+		position: relative;
+		top: 2px;
+	}
+}
+
+.toc-title--homepage {
+	@include at-query($two) {
+		text-align: left;
+		white-space: nowrap;
 	}
 }

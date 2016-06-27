@@ -1,6 +1,8 @@
 ---
 layout: subpage
 title: The Weight of Words
+category: management
+slug: the-weight-of-words
 ---
 Words have always guided my interests. The majority of my time is spent seeking personal essays in video, audio or written format, following the careers of stand-up comedians and writers, and in meetings determined to understand what's *behind* the words floating about. I have never been more aware of the weight of words than I am now. They are becoming heavier.
 
