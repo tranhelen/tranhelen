@@ -24,6 +24,6 @@ There comes a time when too much fussing about one pixel being off comes at the 
 
 Design is at the intersection of a lot of fields which makes it difficult to approach it with one philosophical perspective. It is very pleasant to think about a woodworker who spends an extra five hours carving a detail into a table leg that maybe most people won't notice.
 
-We're not woodworkers though. We are always just one piece of a team who depends on us to produce a certain type of work within a certain timeframe. The speed at which a Designer works has implications and given the speed of how the industry moves, keeping an eye on the bigger pictures will make the decisions about the smaller pictures easier to make.
+We're not woodworkers though. We are one piece of a team which depends on us to solve a problem within a certain timeframe. The speed at which a Designer works has implications and given the speed of how the industry moves we can't afford to waste time producing little value. Keping an eye on the bigger pictures will make the decisions about the smaller pictures easier to make.
 
 Every problem has exactly three pictures. Identify all of them.
