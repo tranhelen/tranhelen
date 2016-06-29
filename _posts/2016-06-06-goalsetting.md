@@ -59,7 +59,7 @@ I like to think of how many times babies fall over when they're learning how to 
 
 ### How do I stay motivated?
 
-This was briefly mentioned above but restrospectives keep me highly motivated. It can be easy to lose sight of the forest through the trees but regularly looking at the small, medium, and big picture helps you stay grounded. _I may not be 100% there but at least I moved 1% closer._
+This was briefly mentioned above but restrospectives keep me highly motivated. It can be easy to lose sight of the forest through the trees but regularly looking at the [small, medium, and big picture](http://helentran.com/three-pictures) helps you stay grounded. _I may not be 100% there but at least I moved 1% closer._
 
 ### This seems excessive
 
