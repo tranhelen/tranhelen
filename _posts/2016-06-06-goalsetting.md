@@ -53,7 +53,7 @@ Goal-setting is a skill. If you haven't done this before, start with one. I star
 
 ### What if I fail?
 
-When I fail, and I do, I go back over my plan and identify where I think I went wrong. This arms me with with better information so I can build on top of my experience or learn for the next goal. For your own sanity, you have to learn how to forgive yourself for failing.
+When I fail, and I do, I go back over my plan and identify where I think I went wrong. This arms me with better information so I can build on top of my experience or learn for the next goal. For your own sanity, you have to learn how to forgive yourself for failing.
 
 I like to think of how many times babies fall over when they're learning how to walk for the first time. The rest of your life is exactly like that.
 
