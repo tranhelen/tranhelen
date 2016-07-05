@@ -4,7 +4,7 @@ title: Paying Attention
 category: management
 slug: paying-attention
 ---
-A few pages in my body is softening to comform to the edges of the couch I'm sitting in.  
+A few pages in and my body is softening to comform to the edges of the couch I'm sitting in.  
 One chapter in and my eyes are getting wider.  
 A few chapters in and Rands drops two words in the middle of a sentence in a chapter which has not much to do with these two words: **incrementalists** and **completionists**.
 
