@@ -18,7 +18,7 @@ At Shopify, every project has a *Champion*, which is a fancy word for the person
 
 I've been seeking asylum within any piece of information from every source I could identify as even *possibly helpful.* It turns out, there's a dude that's figured out a lot of this stuff and I've been reading his work for years. It's just only been ever-so-relevant now. 
 
-27 pages into Rands' Managing Humans, he says this,
+27 pages into Rands' [Managing Humans](https://www.amazon.com/gp/product/159059844X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=159059844X&linkCode=as2&tag=heltraprodes-20&linkId=ccb552ed4c3ff956f66ade73039f02f8), he says this,
 
 > "Engineering was in the process of discussing some drastic new directions for our products, and the incrementalists (ship it soon!) were doing battle with the completionists (ship it when it's done!)"
 
