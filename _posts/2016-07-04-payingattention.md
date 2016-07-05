@@ -32,7 +32,7 @@ He continues on, glossing over these two terms noting that he would explain them
 
 In the weeds you can hear the word quality being thrown about to save everyone from the doom of shipping quickly without thought. It can seem as if we have to make a choice between the subjective concept of *quality* as defined by some person who isn't you, and *when are we going to do this, though?*
 
-As an incrementalist, I've felt quite frustrated by the completionists. I don't entirely understand them, and they seem weird, and sometimes I swear things are growing out of their heads. There have been moments when *crucial conversations* have turned into *frustrating conversations* and I've slinked away to a dark corner away from my team to nurse my battle wounds in hopes they don't see what's happening.
+As an incrementalist, I've felt quite frustrated by the completionists. I don't entirely understand them, and they seem weird, and sometimes I swear things are growing out of their heads. There have been moments when crucial conversations have turned into frustrating conversations and I've slinked away to a dark corner away from my team to nurse my battle wounds in hopes they don't see what's happening.
 
 In Rands' dropped words there was something else I read and realized this: he is 15+ years into managing software teams and for him, both these personalities exist and so *what are you going to do about it.* This entire time, perhaps under a strong delusion, I had been hoping that the completionists would see my side... eventually. *Look, we have different priorities than you do.* It looks like maybe my attention has been misplaced and it's time to move the needle elsewhere.
 
