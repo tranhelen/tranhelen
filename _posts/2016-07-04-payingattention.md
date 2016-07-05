@@ -17,7 +17,8 @@ I took on the role of Project Manager (we call them Champions at Shopify) and it
 My eyes have been looking for asylum and I've been busy seeking information from every source I could identify as even *possibly helpful.* It turns out, there's a dude that's figured out a lot of this stuff and I've been reading his work for years.
 
 27 pages into Rands' Managing Humans, he says this,
-> "Engineering was in the process of discussing some dratstic new directions for our products, and the incrementalists (ship it soon!) were doing battle with the completionists (ship it when it's done!)"
+
+> "Engineering was in the process of discussing some drastic new directions for our products, and the incrementalists (ship it soon!) were doing battle with the completionists (ship it when it's done!)"
 
 *Wait, what did he just say?*
 
