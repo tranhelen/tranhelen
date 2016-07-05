@@ -12,6 +12,26 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading h5,
+.wf-loading h6,
+.wf-loading p {
+	visibility: hidden;
+}
+
+.wf-active h1,
+.wf-active h2,
+.wf-active h3,
+.wf-active h4,
+.wf-active h5,
+.wf-active h6,
+.wf-active p {
+	visibility: visible;
+}
+
 h1 {
 	font-size: em(40px);
 	line-height: 55px;

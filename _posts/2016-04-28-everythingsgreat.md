@@ -22,9 +22,7 @@ These two viewpoints that we have decided that we have to choose from affects ou
 
 I've been noticing that this comes up time and time again as I sort my way through the beginning stages of learning how to manage humans. Choosing to only view the world in one way alienates an entire swath of people who can add value to your team if you gave them some breathing room.
 
-You have to be willing to admit that there's a problem to begin with and remove your head from the sand. It's okay to tell someone that things suck right now or listen to them tell you what's wrong. Grieve that you don't have a perfect situation and enjoy laughing about it.
-
-And when you're done, you both can put your heads down and figure out how to fix it.
+You have to be willing to admit that there's a problem to begin with and remove your head from the sand. It's okay to tell someone that things suck right now or listen to them tell you what's wrong. Grieve that you don't have a perfect situation and enjoy laughing about it. When you're done, you both can put your heads down and figure out how to fix it.
 
 <hr class="small">
 

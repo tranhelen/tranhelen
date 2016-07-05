@@ -20,7 +20,7 @@ What are the roadblocks that are keeping you from having this *right now?* If yo
 The use of the word *need* is important. If you are going to achieve the goal, you must start thinking in terms of *needs* and *musts.* There is no room for vaguary. Yes, words matter.
 
 * I need to take time off work.
-* I must learn XCode in order to built an app.
+* I must learn XCode in order to build an app.
 * Research says the trip will cost me about $8,000 USD after food, equipment rentals and transportation. I need to have that money before I go.
 
 Take what you've written and break it down even further. If you must learn a new skill, what does that mean? What specifically do you need to know? Are there tutorials available to you which will teach you what you need to know? Can someone teach you? It's important that the majority of the things you write down are things _you_ can personally affect. You cannot achieve a goal if you think it's dependant on someone else's actions.
@@ -53,13 +53,13 @@ Goal-setting is a skill. If you haven't done this before, start with one. I star
 
 ### What if I fail?
 
-When I fail, and I do, I go back over my plan and identify where I think I went wrong. This arms me with with better information so I can build on top of my experience or learn for the next goal. For your own sanity, you have to learn how to forgive yourself for failing.
+When I fail, and I do, I go back over my plan and identify where I think I went wrong. This arms me with better information so I can build on top of my experience or learn for the next goal. For your own sanity, you have to learn how to forgive yourself for failing.
 
 I like to think of how many times babies fall over when they're learning how to walk for the first time. The rest of your life is exactly like that.
 
 ### How do I stay motivated?
 
-This was briefly mentioned above but restrospectives keep me highly motivated. It can be easy to lose sight of the forest through the trees but regularly looking at the small, medium, and big picture helps you stay grounded. _I may not be 100% there but at least I moved 1% closer._
+This was briefly mentioned above but restrospectives keep me highly motivated. It can be easy to lose sight of the forest through the trees but regularly looking at the [small, medium, and big picture](http://helentran.com/three-pictures) helps you stay grounded. _I may not be 100% there but at least I moved 1% closer._
 
 ### This seems excessive
 
