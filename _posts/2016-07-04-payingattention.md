@@ -36,6 +36,6 @@ As an incrementalist, I've felt quite frustrated by the completionists. I don't 
 
 In Rands' dropped words there was something else I read and realized: he is 15+ years into managing software teams and for him, both these personalities exist and so what. For him, they're a given, an inevitability, like getting thirsty on a hot day. This entire time, perhaps under a strong delusion, I had been hoping that the completionists would see my side... eventually. *Look, we have different priorities than you do.* It looks like maybe my attention has been misplaced and it's time to move the needle elsewhere.
 
-Both incrementalists and completionists are not wrong. If we pitted two teams against each other filled with each personality, they could potentially launch the same thing, in the same timeframe, with the same results. The biggest difference to me (at least from a management perspective), is in how those teams are motivated when they're in the weeds.
+Both incrementalists and completionists are not wrong. If we pitted two teams against each other filled with each personality, they could potentially launch the same thing, in the same timeframe, with the same results. The biggest difference to me (at least from a management perspective) is in how those teams are motivated when they're in the weeds. 
 
-This book is 190 pages long but it only took two for me to see my world in a different light. Paying attention to the unwritten words really delivers sometimes.
+This book is 190 pages long but it took just two words for me to see my work a little differently. Paying attention to the unwritten words really delivers sometimes.
