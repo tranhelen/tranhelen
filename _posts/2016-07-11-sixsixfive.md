@@ -6,7 +6,7 @@ slug: six-six-five
 ---
 When the internet was mostly words there was a blog called 665. For 665 days, it's creator wrote 665 posts. The posts were mostly nonsense and as far as anyone knew, you were the only one reading it. It was *your* 665 days following this unidentified man through his life.
 
-You saw him write funny stuff, awful stuff, and deeply depressing stuff. You were with him posting craigslist personals. You were with him when his heart was broken. You were with him when he had scary nightmares. You were with him on 9/11. You were with him when he made up ridiculous stories about ghostwriters and took the 'ghost' part literally. And you were with him when he reached entry 665 and said goodbye. It was so complete: a document of his life with all the weird parts showing. I've never really forgotten him.
+You saw him write funny stuff, awful stuff, and deeply depressing stuff. You were with him posting fake craigslist personals. You were with him when his heart was broken. You were with him when he had scary nightmares. You were with him on 9/11. You were with him when he made up ridiculous stories about ghostwriters and took the 'ghost' part literally. And you were with him when he reached entry 665 and said goodbye. It was so complete: a document of his life with all the weird parts showing. I've never really forgotten him.
 
 Last week I came across an article in the New York Times, "[When You Write a Memoir, Readers Think They Know You Better Than They Do](http://mobile.nytimes.com/2016/07/03/books/review/when-you-write-a-memoir-readers-think-they-know-you-better-than-they-do.html?referer=https://t.co/ge5PaIOkHg)". The writer notes,
 
