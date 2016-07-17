@@ -1,0 +1,18 @@
+---
+layout: subpage
+title: Quick Career Advice for New Ones
+category: design
+slug: career-advice
+---
+1. **Make yourself indispensible to people who aren't designers.**  
+Developers and entrepreneurs have been my soft-spot, but you can pick another ally. Your understanding of another person's field can only get you closer to releasing what you envision.
+2. **Understand the difference between craft and service.**  
+Design is a craft which is used to service. You serve the community around you, not your fellow Designers. Designers are people you talk to about craft. Don't confuse this. Ever.
+3. **Hone your creativity by becoming a better thinker.**  
+All creativity is, is connecting dots. You need to find dots in order to connect them and the only way to do that is to go experience life and explore the world around you. Try to understand how culture and society and psychology affect business and the economy and politics. No worthwhile lifelong Designer is heralded for their production skills.
+4. **Accept wholeheartedly that part of our job is art and expression.**  
+See point #4. But, take that with a grain of salt as it's not your entire role. See point #2. Design is about balancing these two. I'm not going to bring up form vs. function between *they're not separate things*. More on that another day.
+5. **Absorb things that have nothing to do with you.**  
+A Designer's eye is an excellent view from which to see the world, but do not believe for one second that it's even close to mastering the deep knowledge held by the insiders within your target markets. That's just arrogant.
+
+All these five points are related: **Design does not exist in a vacuum.**
