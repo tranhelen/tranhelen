@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: Quick Career Advice for New Ones
+title: Quick Career Advice
 category: design
 slug: career-advice
 ---
