@@ -13,6 +13,6 @@ All creativity is, is connecting dots. You need to find dots in order to connect
 4. **Accept wholeheartedly that part of our job is art and expression.**  
 Design is about balancing many moving parts: we take what we know and shape it into something else. See point #3. But, take that with a grain of salt as it's not your entire role. See point #2. I'm not going to bring up form vs. function between *they're not separate things*. More on that another day.
 5. **Absorb things that have nothing to do with you.**  
-A Designer's eye is an excellent view from which to see the world, but do not believe for one second that it's even close to mastering the deep knowledge held by the insiders with in your target markets. That's just arrogant.
+A Designer's eye is an excellent view from which to see the world, but do not believe for one second that it's even close to mastering the deep knowledge held by the insiders within your target markets. That's just arrogant.
 
 All these five points are related: **Design does not exist in a vacuum.**
