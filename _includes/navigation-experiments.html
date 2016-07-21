@@ -25,6 +25,14 @@
               <span class="h5">Previous</span>
               <br><span class="h3"><a href="{{ page.previous.previous.previous.url }}">{{ page.previous.previous.previous.title }}</a></span>
             </div>
+          {% elsif page.previous.previous.previous.previous and page.previous.previous.previous.previous.categories contains "experiments" %}
+            <div class="h5 page-nav-cond">
+              <a href="{{ page.previous.previous.previous.previous.url }}">Prev</a>
+            </div>
+            <div class="page-nav-ex">
+              <span class="h5">Previous</span>
+              <br><span class="h3"><a href="{{ page.previous.previous.previous.previous.url }}">{{ page.previous.previous.previous.previous.title }}</a></span>
+            </div>
           {% else %}
             &nbsp;
 			    {% endif %}
@@ -56,6 +64,14 @@
             <div class="page-nav-ex">
               <span class="h5">Next</span>
               <br><span class="h3"><a href="{{ page.next.next.next.url }}">{{ page.next.next.next.title }}</a></span>
+            </div>
+          {% elsif page.next.next.next.next and page.next.next.next.next.categories contains "experiments" %}
+            <div class="h5 page-nav-cond">
+              <a href="{{ page.next.next.next.next.url }}">Next</a>
+            </div>
+            <div class="page-nav-ex">
+              <span class="h5">Next</span>
+              <br><span class="h3"><a href="{{ page.next.next.next.next.url }}">{{ page.next.next.next.next.title }}</a></span>
             </div>
 			    {% endif %}
 	      	</div>
