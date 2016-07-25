@@ -2259,11 +2259,16 @@ hr.small {
 }
 
 /* line 279, ../../sass/partials/_typography.scss */
+hr.noborder {
+  border: 0;
+}
+
+/* line 283, ../../sass/partials/_typography.scss */
 .alarming {
   text-transform: uppercase;
 }
 
-/* line 283, ../../sass/partials/_typography.scss */
+/* line 287, ../../sass/partials/_typography.scss */
 .bullet {
   color: #E3BA4B;
   font-size: 0.75em;
@@ -2272,19 +2277,19 @@ hr.small {
   bottom: 2px;
 }
 
-/* line 291, ../../sass/partials/_typography.scss */
+/* line 295, ../../sass/partials/_typography.scss */
 .fancy {
   margin: 0 auto;
   max-width: 400px;
   text-align: center;
 }
-/* line 296, ../../sass/partials/_typography.scss */
+/* line 300, ../../sass/partials/_typography.scss */
 .fancy .fancy__wings {
   background-color: #E3BA4B;
   border-radius: 3000px;
   height: 3px;
 }
-/* line 302, ../../sass/partials/_typography.scss */
+/* line 306, ../../sass/partials/_typography.scss */
 .fancy .subtle {
   background-color: #fff;
   color: #A09992;
@@ -2292,12 +2297,12 @@ hr.small {
   position: relative;
   top: -13px;
 }
-/* line 309, ../../sass/partials/_typography.scss */
+/* line 313, ../../sass/partials/_typography.scss */
 footer .fancy .subtle, .bio .fancy .subtle, .toc .fancy .subtle {
   font-style: italic;
   font-weight: 800;
 }
-/* line 317, ../../sass/partials/_typography.scss */
+/* line 321, ../../sass/partials/_typography.scss */
 .bio .fancy .subtle {
   background-color: #FEFEFE;
 }

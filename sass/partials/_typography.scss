@@ -276,6 +276,10 @@ hr.small {
 	width: ($unit * 2);
 }
 
+hr.noborder {
+	border: 0;
+}
+
 .alarming {
 	text-transform: uppercase;
 }
