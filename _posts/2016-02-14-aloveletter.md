@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: A Love Letter
-category: website
+category: design
 slug: a-love-letter
 ---
 Almost exactly a year ago Louis C.K. sent a letter to his fans detailing his career in stand-up. He talked about what it was like when he was growing up and the comedy clubs which defined and guided his career. It was a love letter.
