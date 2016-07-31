@@ -25,5 +25,5 @@ I do not subscribe to the idea that we are all *just* problem solvers. Problem s
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6">*I specifically say Product Design because our slice of the Design world seems particularly enthusiastic about this view but I doubt this is only specific to us.</p>
+    <p id="note-1" class="h6">*I specifically say Product Design because our slice of the Design world seems particularly enthusiastic about this view but I doubt this is only specific to us.<a href="#anchor-1">&#8593;</a></p>
 </div>
