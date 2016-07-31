@@ -4,7 +4,7 @@ title: Quick Career Advice
 category: design
 slug: career-advice
 ---
-1. **Make yourself indispensible to people who aren't designers.**  
+1. **Make yourself indispensable to people who aren't designers.**  
 Developers and entrepreneurs have been my soft-spot, but you can pick another ally. Your understanding of another person's field can only get you closer to releasing what you envision.
 2. **Understand the difference between craft and service.**  
 Design is a craft which is used to service. You serve the community around you, not your fellow Designers. Designers are people you talk to about craft. Don't confuse this. Ever.
