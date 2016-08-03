@@ -1,4 +1,24 @@
 /*------------------------------------*\
+    #Homepage
+\*------------------------------------*/
+
+footer {
+	margin-top: $unit / 2; 
+	padding: ($unit / 2) $unit;
+
+	@include at-query($one) {
+		margin-top: $unit * 2;
+		padding: $unit;
+		text-align: center;
+	}
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+/*------------------------------------*\
     #Subpages
 \*------------------------------------*/
 

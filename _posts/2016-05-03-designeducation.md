@@ -16,7 +16,7 @@ What formal education has, and what teaching practioners still really haven't fi
 
 So what does formal education lack? Practical skills. Dealing with decisions between idealistic or pragmatic solutions. Encouragement of initiative and resourcefulness.
 
-## Ebooks, bootcamps, and interactive apps
+## Ebooks, bootcamps<a id="anchor-2" href="#note-2">**</a>, and interactive apps
 
 Having dog-fooded this myself, it's still not very clear exactly what is being achieved with these resources.
 
@@ -44,4 +44,6 @@ I'm not using this post to announce some sort of educational product so we can a
 
 <div class="fieldnotes">
     <p id="note-1" class="h6">*I've witnessed this before and it was hilarious. <a href="#anchor-1">&#8593;</a></p>
+
+	<p id="note-2" class="h6">*Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/">Bloc. It's not, just to clarify. <a href="#anchor-2">&#8593;</a></p>
 </div>

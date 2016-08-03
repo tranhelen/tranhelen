@@ -1,137 +1,19 @@
   <div class="toc">
-    <div class="fancy">
-      <div class="fancy__wings">&nbsp;</div>
-      <span class="h3 subtle">Some suggestions</span>
-    </div>
-    <p class="h2">Table of Contents</p>
 
-    <div class="toc--small">
-      <h5 class="toc-header">Recent</h5>
-      <div class="toc-listing">
-      {% assign: cnt = '' %}
-      {% for post in site.posts %}
-      {% unless post.category == "experiments" %}
-        {% capture cnt %}{{ cnt }}*{% endcapture %}
-        {% if cnt.size <= 3 %}
-        <div class="post-listing__single">
-          <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-          <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-        </div>
-        {% endif %}
-      {% endunless %}
-      {% endfor %}
+    <h5 class="toc-header">Recent</h5>
+    <div class="toc-listing">
+    {% assign: cnt = '' %}
+    {% for post in site.posts %}
+    {% unless post.category == "experiments" %}
+      {% capture cnt %}{{ cnt }}*{% endcapture %}
+      {% if cnt.size <= 3 %}
+      <div class="post-listing__single">
+        <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
       </div>
-
-      <h5 class="toc-header">Popular</h5>
-      <div class="toc-listing">
-      {% for post in site.categories.audience limit: 3 %}
-        <div class="post-listing__single">
-          <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-          <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-        </div>
-      {% endfor %}
-      </div>
-
-      <h5 class="toc-header">My Favourites</h5>
-      <div class="toc-listing">
-      {% for post in site.categories.favourite limit: 3 %}
-        <div class="post-listing__single">
-          <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-          <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-        </div>
-      {% endfor %}
-      </div>
-    </div>
-
-    <div class="toc--larger">
-      <div class="grid grid--full">
-        <div class="grid__item one-third">
-          <h5 class="toc-header">Recent</h5>
-          <div class="toc-listing">
-          {% assign: cnt2 = '' %}
-          {% for post in site.posts %}
-          {% unless post.category == "experiments" %}
-            {% capture cnt2 %}{{ cnt2 }}*{% endcapture %}
-            {% if cnt2.size <= 3 %}
-            <div class="post-listing__single">
-              <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-              <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-            </div>
-            {% endif %}
-          {% endunless %}
-          {% endfor %}
-          </div>
-        </div>
-        <div class="grid__item one-third">
-          <h5 class="toc-header">Popular</h5>
-          <div class="toc-listing">
-          {% for post in site.categories.audience limit: 3 %}
-            <div class="post-listing__single">
-              <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-              <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-            </div>
-          {% endfor %}
-          </div>
-        </div>
-        <div class="grid__item one-third">
-          <h5 class="toc-header">My Favourites</h5>
-          <div class="toc-listing">
-          {% for post in site.categories.favourite limit: 3 %}
-            <div class="post-listing__single">
-              <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-              <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-            </div>
-          {% endfor %}
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="toc--largest">
-      <div class="grid grid--full">
-        <div class="grid__item one-third">
-          <div class="toc-header">
-            <h5 class="toc-date--largest">&nbsp;</h5>
-            <h5 class="toc-title--largest">Recent</h5>
-          </div>
-          {% assign: cnt3 = '' %}
-          {% for post in site.posts %}
-          {% unless post.category == "experiments" %}
-            {% capture cnt3 %}{{ cnt3 }}*{% endcapture %}
-            {% if cnt3.size <= 3 %}
-            <div class="post-listing__single toc-list--largest">
-              <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
-              <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
-            </div>
-            {% endif %}
-          {% endunless %}
-          {% endfor %}
-        </div>
-        <div class="grid__item one-third">
-          <div class="toc-header">
-            <h5 class="toc-date--largest">&nbsp;</h5>
-            <h5 class="toc-title--largest">Popular</h5>
-          </div>
-            {% for post in site.categories.audience limit: 3 %}
-            <div class="post-listing__single toc-list--largest">
-              <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
-              <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
-            </div>
-          {% endfor %}
-        </div>
-        <div class="grid__item one-third">
-          <div class="toc-header">
-            <h5 class="toc-date--largest">&nbsp;</h5>
-            <h5 class="toc-title--largest">My Favourites</h5>
-          </div>
-          {% for post in site.categories.favourite limit: 3 %}
-            <div class="post-listing__single toc-list--largest">
-              <h5 class="toc-date--largest">{{ post.date | date:'%B %-d, %Y' }}</h5>
-              <p class="toc-title--largest"><a href="{{ post.url }}">{{ post.title }}</a></p>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
+      {% endif %}
+    {% endunless %}
+    {% endfor %}
     </div>
 
   </div>

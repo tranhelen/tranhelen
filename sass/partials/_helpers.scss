@@ -43,20 +43,3 @@
 .table-bottom {
 	vertical-align: bottom;
 }
-
-.two--table {
-	@include at-query($two) {
-		display: table;
-	}
-}
-
-.two--table-cell {
-	@include at-query($two) {
-		display: table-cell;
-		float: none;
-	}
-}
-
-.two--table-bottom {
-	vertical-align: bottom;
-}

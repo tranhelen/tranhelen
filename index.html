@@ -4,29 +4,34 @@ title: Helen Tran; Product Designer
 ---
 
 <div class="container">
-	<div class="grid grid--full">
-		<div class="grid__item push--one--one-tenth one--eight-tenths push--two--two-tenths two--six-tenths">
-			<div class="bio">
-				<h1 class="name">Helen Tran</h1>
-				<p class="h2">I'm a Product Designer spending the majority of my time growing a team which helps shape the future of commerce and entrepreneurship at <a href="http://shopify.com">Shopify</a>.</p>
-				<p>The rest of my time is spent <a href="http://instagram.com/tranhelen">wandering</a>, writing, or planning out how I can live in the desert long-term. I walk around asking "Why?" at varying levels of volume. By happenstance this has worked out very well for me.</p>
-			</div>
+	<header>
+		<div class="grid grid--full">
+			<h5>Oh hai</h5>
+			<h1>Helen Tran</h1>
+			<h2>I'm a <em>Product Designer</em> spending the majority of my time growing a team. We help shape the future of <em>commerce &amp; entrepreneurship</em> at <a href="http://shopify.com">Shopify</a>.</h2>
+			<h5>Elsewhere;</h5>
+			<p><a href="">Twitter</a> (@tranhelen)–my main cheese
+				<br><a href="">Instagram</a> (@tranhelen)–travel diary
+				<br><a href="">Dribbble</a> (@tranhelen)–design experiments
+			</p>
+		</div>
+	</header>
 
-			<div class="grid grid--full">
-				<div class="grid__tem push--one-eighth six-eighths">
-					<div class="post-listing">
-						{% for post in site.posts %}
-						{% unless post.category == "experiments" %}
+	<section class="">
+		<h5>Mostly in my head</h5>
+		<p>I'm a <em>hobbyist writer</em> who writes about Design, the tech industry, surviving life as a creative professional, and my place as a Designer in the world.</p>
+		<p>Sign up to the <a href="">mailing list</a> or use my <a href="">RSS feed</a> for updates. I hit the publish button weekly. Catch the most popular on <a href="">Medium.</a>
 
-			            <div class="post-listing__single toc-list--homepage">
-							<h5 class="toc-date--homepage">{{ post.date | date:'%B %-d, %Y' }}</h5>
-							<p class="toc-title--homepage"><a href="{{ post.url }}">{{ post.title }}</a></p>
-						</div>
-						{% endunless %}
-						{% endfor %}
-					</div>
-				</div>
+		<div class="post-listing">
+			{% for post in site.posts limit:6 %}
+			{% unless post.category == "experiments" %}
+
+            <div class="post-listing__single toc-list--homepage">
+				<h5 class="toc-date--homepage">{{ post.date | date:'%B %-d, %Y' }} • <a href="archives.html">{{ post.category }}</a></h5>
+				<br><p class="toc-title--homepage"><a href="{{ post.url }}">{{ post.title }}</a></p>
 			</div>
+			{% endunless %}
+			{% endfor %}
 		</div>
 	</div>
 </div>

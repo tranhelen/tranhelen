@@ -280,45 +280,10 @@ hr.noborder {
 	border: 0;
 }
 
-.alarming {
-	text-transform: uppercase;
-}
-
 .bullet {
 	color: $colorAccent;
 	font-size: em(12px);
 	padding: 0 5px;
 	position: relative;
 	bottom: 2px;
-}
-
-.fancy {
-	margin: 0 auto;
-	max-width: 400px;
-	text-align: center;
-
-	.fancy__wings {
-		background-color: $colorAccent;
-		border-radius: $unit * 100;
-		height: 3px;
-	}
-
-	.subtle {
-	    background-color: #fff;
-	    color: #A09992;
-	    padding: 0 ($unit / 3);
-	    position: relative;
- 	    top: -13px;
-
- 	    footer &,
- 	    .bio &,
- 	    .toc & {
-			font-style: italic;
-	    	font-weight: 800;
- 	    }
-	}
-
-	.bio & .subtle {
-		background-color: $colorBGBio;
-	}
 }
