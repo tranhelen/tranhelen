@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: 2015 was Pineapples
-category: life
+category: [blog, life]
 slug: 2015-was-pineapples
 ---
 1. Vulnerability is your greatest strength.

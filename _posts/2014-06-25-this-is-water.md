@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: This is Water
-category: life
+category: [blog, life]
 slug: this-is-water
 ---
 David Foster Wallace’s commencement speech for Kenyon graduates in 2005 opens with a parable,

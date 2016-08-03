@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Paying Attention
-category: management
+category: [blog, management]
 slug: paying-attention
 ---
 A few pages in and my body is softening to comform to the edges of the couch I'm sitting in.  

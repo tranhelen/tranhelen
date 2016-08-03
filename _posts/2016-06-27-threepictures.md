@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Three Pictures
-category: design
+category: [blog, design]
 slug: three-pictures
 ---
 Every Designer should concern themselves with the size of pictures. There are exactly three and I'm going to label them small, medium, and large. Some people may call the last one *the big picture*. It doesn't matter what you name them, just know there are exactly three.

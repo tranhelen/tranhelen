@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Wearing Yesterday
-category: tech
+category: [blog, tech]
 slug: wearing-yesterday
 ---
 There has been much talk about the Law of Accelerating Returns recently in the context of <a href="http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html">artificial intelligence</a> especially since the likes of Elon Musk, Bill Gates and Stephen Hawking are calling for restraint in the industry.

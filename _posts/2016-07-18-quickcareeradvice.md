@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Quick Career Advice
-category: design
+category: [blog, design]
 slug: career-advice
 ---
 1. **Make yourself indispensable to people who aren't designers.**  

@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Everything's Great
-category: life
+category: [blog, life]
 slug: everythings-great
 ---
 "The Big Short" was a film released last year covering the collapse of the housing market and unearthing the apathy behind some of the most fraudulent loans ever created. The movie (perhaps excessively) makes mention of optimism and cynicism as driving forces behind the main actions of the characters. It's hard to criticize it for making this claim, as we know from the aftermath of the collapse that there were many obvious signs of a collapsing market but nobody pointed it out because it seemed like *everything was going to be okay.*

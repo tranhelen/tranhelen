@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Six Six Five
-category: [life, favourite]
+category: [blog, life]
 slug: six-six-five
 ---
 When the internet was mostly words there was a blog called 665. For 665 days, it's creator wrote 665 posts. The posts were mostly nonsense and as far as anyone knew, you were the only one reading it. It was *your* 665 days following this unidentified man through his life.
