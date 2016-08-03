@@ -23,14 +23,13 @@ title: Helen Tran; Product Designer
 		<p>Sign up to the <a href="">mailing list</a> or use my <a href="">RSS feed</a> for updates. I hit the publish button weekly. Catch the most popular on <a href="">Medium.</a>
 
 		<div class="post-listing">
-			{% for post in site.posts limit:6 %}
-			{% unless post.category == "experiments" %}
+			{% for post in site.categories.blog limit:6 %}
 
             <div class="post-listing__single toc-list--homepage">
 				<h5 class="toc-date--homepage">{{ post.date | date:'%B %-d, %Y' }} • <a href="archives.html">{{ post.category }}</a></h5>
 				<br><p class="toc-title--homepage"><a href="{{ post.url }}">{{ post.title }}</a></p>
 			</div>
-			{% endunless %}
+
 			{% endfor %}
 		</div>
 	</div>
