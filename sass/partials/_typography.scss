@@ -7,7 +7,7 @@ html {
 	font-family: $stack1;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
 	color: $colorTextHeader;
 	font-weight: 300;
 }
@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
 .wf-loading h3,
 .wf-loading h4,
 .wf-loading h5,
-.wf-loading h6,
 .wf-loading p {
 	visibility: hidden;
 }
@@ -27,59 +26,29 @@ h1, h2, h3, h4, h5, h6 {
 .wf-active h3,
 .wf-active h4,
 .wf-active h5,
-.wf-active h6,
 .wf-active p {
 	visibility: visible;
 }
 
 h1 {
-	font-size: em(40px);
-	line-height: 55px;
-
-	.subpage &,
-	.subpage-custom & {
-		margin: 0 0 $unit * 1;
-		text-align: center;
-	}
-
-	&.name {
-		margin-top: 0;
-	}
+	color: $colorTextHeaderIntense;
+	font-size: em(38px);
+	font-weight: 600;
+	line-height: 46px;
 
 	@include at-query($two) {
-		.subpage &,
-		.subpage-custom & {
-			margin: 0 0 $unit * 3;
-			text-align: center;
-		}
+		font-size: em(45px);
+		line-height: 55px;		
 	}
 }
 
 h2 {
 	font-size: em(24px);
 	line-height: 36px;
-
-	@include at-query($two) {
-		.subpage &,
-		.subpage-custom & {
-			margin: ($unit * 2) 0 $unit;
-		}
-	}
 }
 
 h3 {
 	font-size: em(20px);
-
-	.subpage-body & {
-		font-weight: 600;
-	}
-
-	@include at-query($two) {
-		.subpage &,
-		.subpage-custom & {
-			margin: $unit 0;
-		}
-	}
 }
 
 h4 {
@@ -94,32 +63,10 @@ h5 {
 	font-size: em(14px);
 	margin: 0 0 ($unit / 6);
 	text-transform: uppercase;
-
-	&.toc-header {
-		margin: ($unit * 1.5) 0 $unit 0;
-	}
-
-	.subpage-body & {
-		margin: $unit 0;
-	}
-}
-
-h6 {
-	@extend h4;
-
-	color: $colorTextSubtle;
 }
 
 .h1 { @extend h1; }
-.h2 {
-	@extend h2;
-
-	@include at-query($two) {
-		.toc & {
-			margin-top: 0;
-		}
-	}
-}
+.h2 { @extend h2; }
 .h3 { @extend h3; }
 .h4 { @extend h4; }
 .h5 { @extend h5; }
@@ -165,10 +112,6 @@ blockquote {
 	p {
 		font-style: italic;
 		margin: 0 $unit ($unit / 2);
-	}
-
-	@include at-query($two) {
-		margin: $unit 0;
 	}
 }
 
