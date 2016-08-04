@@ -42,6 +42,11 @@
   background: #E6F1F8;
 }
 
+/* line 59, ../../sass/theme/style.scss */
+img {
+  width: 100%;
+}
+
 /* Breakpoints */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
