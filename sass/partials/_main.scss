@@ -4,7 +4,7 @@
 
 header {
 	padding: 50px 0;
-	
+
 	&.homepage {
 		background-color: $colorBGdark;
 	}
@@ -29,7 +29,7 @@ section {
 }
 
 .post-listing {
-	padding: ($unit / 3) 0 0;
+	padding: $unit 0 ($unit / 3);
 }
 
 .post-listing__single {
