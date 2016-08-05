@@ -201,33 +201,14 @@ figure {
 
 figure.hero {
 	margin: 0 (-$unit) 50px;
-
-	@include at-query($one) {
-		margin-top: $unit;
-		margin-bottom: $unit;
-	}
-
-	@include at-query($two) {
-		margin-bottom: $unit * 3;
-	}
 }
 
 figure.left {
 	margin-top: $unit * 1.5;
-
-	@include at-query($two) {
-		float: left;
-		margin: ($unit / 2) 0;
-		margin-right: ($unit * 2.5);
-	}
 }
 
 figure.sep {
 	margin: 20px -20px;
-
-	@include at-query($one) {
-		margin: 50px -50px;
-	}
 }
 
 figcaption {

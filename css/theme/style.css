@@ -2174,45 +2174,18 @@ figure {
 figure.hero {
   margin: 0 -30px 50px;
 }
-@media screen and (min-width: 560px) {
-  /* line 202, ../../sass/partials/_typography.scss */
-  figure.hero {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-}
-@media screen and (min-width: 1130px) {
-  /* line 202, ../../sass/partials/_typography.scss */
-  figure.hero {
-    margin-bottom: 90px;
-  }
-}
 
-/* line 215, ../../sass/partials/_typography.scss */
+/* line 206, ../../sass/partials/_typography.scss */
 figure.left {
   margin-top: 45px;
 }
-@media screen and (min-width: 1130px) {
-  /* line 215, ../../sass/partials/_typography.scss */
-  figure.left {
-    float: left;
-    margin: 15px 0;
-    margin-right: 75px;
-  }
-}
 
-/* line 225, ../../sass/partials/_typography.scss */
+/* line 210, ../../sass/partials/_typography.scss */
 figure.sep {
   margin: 20px -20px;
 }
-@media screen and (min-width: 560px) {
-  /* line 225, ../../sass/partials/_typography.scss */
-  figure.sep {
-    margin: 50px -50px;
-  }
-}
 
-/* line 233, ../../sass/partials/_typography.scss */
+/* line 214, ../../sass/partials/_typography.scss */
 figcaption {
   color: #6e8b9d;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2221,7 +2194,7 @@ figcaption {
   margin: 10px 30px 15px;
 }
 
-/* line 241, ../../sass/partials/_typography.scss */
+/* line 222, ../../sass/partials/_typography.scss */
 hr {
   border: 0;
   border-bottom: 3px solid #e9ac00;
@@ -2229,23 +2202,23 @@ hr {
   margin: 30px auto 40px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 241, ../../sass/partials/_typography.scss */
+  /* line 222, ../../sass/partials/_typography.scss */
   hr {
     margin: 75px auto;
   }
 }
 
-/* line 252, ../../sass/partials/_typography.scss */
+/* line 233, ../../sass/partials/_typography.scss */
 hr.small {
   width: 60px;
 }
 
-/* line 256, ../../sass/partials/_typography.scss */
+/* line 237, ../../sass/partials/_typography.scss */
 hr.noborder {
   border: 0;
 }
 
-/* line 260, ../../sass/partials/_typography.scss */
+/* line 241, ../../sass/partials/_typography.scss */
 input {
   height: 58px;
   background-color: transparent;
@@ -2259,13 +2232,13 @@ input {
   padding: 15px 20px;
   width: 100%;
 }
-/* line 273, ../../sass/partials/_typography.scss */
+/* line 254, ../../sass/partials/_typography.scss */
 input.button {
   background-color: #00111d;
   border: 0;
   color: #e9ac00;
 }
-/* line 278, ../../sass/partials/_typography.scss */
+/* line 259, ../../sass/partials/_typography.scss */
 input.button:hover {
   background-color: #002037;
   -webkit-transition: all 0.35s ease;
@@ -2274,7 +2247,7 @@ input.button:hover {
   transition: all 0.35s ease;
 }
 
-/* line 286, ../../sass/partials/_typography.scss */
+/* line 267, ../../sass/partials/_typography.scss */
 .bullet {
   color: #e9ac00;
   font-size: 0.75em;
@@ -2283,7 +2256,7 @@ input.button:hover {
   bottom: 2px;
 }
 
-/* line 295, ../../sass/partials/_typography.scss */
+/* line 276, ../../sass/partials/_typography.scss */
 .fieldnotes p {
   color: #6e8b9d;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2291,7 +2264,7 @@ input.button:hover {
   line-height: 25px;
 }
 
-/* line 303, ../../sass/partials/_typography.scss */
+/* line 284, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin-bottom: 30px;
