@@ -3,9 +3,9 @@
 	    	<div class="grid__item one-third">
           {% if page.previous %}
               {% if page.previous.category == "experiments" %}
-                <a href="{{ page.previous.previous.url }}" class="alarming">Previous</a>
+                <a href="{{ page.previous.previous.url }}" class="alarming"><span class="picker-upper">&#8592;</span> Previous</a>
               {% else %}
-                <a href="{{ page.previous.url }}" class="alarming">Previous</a>
+                <a href="{{ page.previous.url }}" class="alarming"><span class="picker-upper">&#8592;</span> Previous</a>
               {% endif %}
             {% else %}
               &nbsp;
@@ -17,9 +17,9 @@
 	    	<div class="grid__item one-third text-right">
 	        {% if page.next %}
               {% if page.next.category == "experiments" %}
-                <a href="{{ page.next.next.url }}" class="alarming">Next</a>
+                <a href="{{ page.next.next.url }}" class="alarming">Next <span class="picker-upper">&#8594;</span></a>
               {% else %}
-          			<a href="{{ page.next.url }}" class="alarming">Next</a>
+          			<a href="{{ page.next.url }}" class="alarming">Next <span class="picker-upper">&#8594;</span></a>
               {% endif %}
 			    {% endif %}
 	      	</div>

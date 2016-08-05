@@ -2248,6 +2248,12 @@ input.button:hover {
 }
 
 /* line 267, ../../sass/partials/_typography.scss */
+.picker-upper {
+  position: relative;
+  top: -2px;
+}
+
+/* line 272, ../../sass/partials/_typography.scss */
 .bullet {
   color: #e9ac00;
   font-size: 0.75em;
@@ -2256,7 +2262,7 @@ input.button:hover {
   bottom: 2px;
 }
 
-/* line 276, ../../sass/partials/_typography.scss */
+/* line 281, ../../sass/partials/_typography.scss */
 .fieldnotes p {
   color: #6e8b9d;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2264,7 +2270,7 @@ input.button:hover {
   line-height: 25px;
 }
 
-/* line 284, ../../sass/partials/_typography.scss */
+/* line 289, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin-bottom: 30px;

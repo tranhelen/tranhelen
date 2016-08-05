@@ -264,6 +264,11 @@ input {
 	}
 }
 
+.picker-upper {
+	position: relative;
+	top: -2px;
+}
+
 .bullet {
 	color: $colorAccent;
 	font-size: em(12px);
