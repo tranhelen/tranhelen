@@ -34,6 +34,10 @@ section {
 
 .post-listing {
 	padding: $unit 0 ($unit / 3);
+
+	.square & {
+		padding: ($unit / 3) 0 0;
+	}
 }
 
 .post-listing__single {
