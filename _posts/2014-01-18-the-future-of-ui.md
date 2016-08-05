@@ -137,6 +137,6 @@ The future of interface design isn’t a dream from the 90s. The future of inter
 
 <hr class="small">
 
-<div class="field-notes">
-	<p class="h6">This post was originally posted on Medium and was in Medium’s Top 100 for February. It was received fairly well except for this one guy who noted that he disagreed with everything I said. (This is a joke, by the way. A joke rooted in my now terribly low self-esteem.)</p>
+<div class="fieldnotes">
+	<p>This post was originally posted on Medium and was in Medium’s Top 100 for February. It was received fairly well except for this one guy who noted that he disagreed with everything I said. (This is a joke, by the way. A joke rooted in my now terribly low self-esteem.)</p>
 </div>

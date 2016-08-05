@@ -1,49 +1,25 @@
-      <header class="post-header">
+      <header class="post-navigation">
       	<div class="grid">
 	    	<div class="grid__item one-third">
           {% if page.previous %}
               {% if page.previous.category == "experiments" %}
-                <div class="h5 page-nav-cond">
-                  <a href="{{ page.previous.previous.url }}">Prev</a>
-                </div>
-                <div class="page-nav-ex">
-                  <span class="h5">Previous</span>
-                  <br><span class="h3"><a href="{{ page.previous.previous.url }}">{{ page.previous.previous.title }}</a></span>
-                </div>
+                <a href="{{ page.previous.previous.url }}" class="alarming">Previous</a>
               {% else %}
-                <div class="h5 page-nav-cond">
-                  <a href="{{ page.previous.url }}">Prev</a>
-                </div>
-                <div class="page-nav-ex">
-                  <span class="h5">Previous</span>
-                  <br><span class="h3"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></span>
-                </div>
+                <a href="{{ page.previous.url }}" class="alarming">Previous</a>
               {% endif %}
             {% else %}
               &nbsp;
           {% endif %}
 	  		</div>
 	  		<div class="grid__item one-third text-center">
-	  			<a class="h5" href="/">Home</a>
+	  			<a class="alarming" href="/">Home</a>
 	  		</div>
 	    	<div class="grid__item one-third text-right">
 	        {% if page.next %}
               {% if page.next.category == "experiments" %}
-                <div class="h5 page-nav-cond">
-                  <a href="{{ page.next.next.url }}">Next</a>
-                </div>
-                <div class="page-nav-ex">
-                  <span class="h5">Next</span>
-                  <br><span class="h3"><a href="{{ page.next.next.url }}">{{ page.next.next.title }}</a></span>
-                </div>
+                <a href="{{ page.next.next.url }}" class="alarming">Next</a>
               {% else %}
-          			<div class="h5 page-nav-cond">
-          				<a href="{{ page.next.url }}">Next</a>
-          			</div>
-          			<div class="page-nav-ex">
-          				<span class="h5">Next</span>
-          				<br><span class="h3"><a href="{{ page.next.url }}">{{ page.next.title }}</a></span>
-        			 </div>
+          			<a href="{{ page.next.url }}" class="alarming">Next</a>
               {% endif %}
 			    {% endif %}
 	      	</div>

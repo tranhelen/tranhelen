@@ -31,6 +31,18 @@
 	text-align: right;
 }
 
+.two--text-center {
+	@include at-query($two) {
+		text-align: center;
+	}
+}
+
+.two--text-right {
+	@include at-query($two) {
+		text-align: right;
+	}
+}
+
 .table {
 	display: table;
 }

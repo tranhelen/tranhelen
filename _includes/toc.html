@@ -1,19 +1,20 @@
-  <div class="toc">
-
-    <h5 class="toc-header">Recent</h5>
-    <div class="toc-listing">
-    {% assign: cnt = '' %}
-    {% for post in site.posts %}
-    {% unless post.category == "experiments" %}
-      {% capture cnt %}{{ cnt }}*{% endcapture %}
-      {% if cnt.size <= 3 %}
-      <div class="post-listing__single">
-        <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+  <section class="post-toc accent">
+    <div class="container">
+      <h1 class="one-line">Recent</h1>
+      <div class="post-listing">
+      {% assign: cnt = '' %}
+      {% for post in site.posts %}
+      {% unless post.category == "experiments" %}
+        {% capture cnt %}{{ cnt }}*{% endcapture %}
+        {% if cnt.size <= 3 %}
+        <div class="post-listing__single">
+          <h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+          <p class="h3"><a href="{{ post.url }}">{{ post.title }}</a></p>
+        </div>
+        {% endif %}
+      {% endunless %}
+      {% endfor %}
       </div>
-      {% endif %}
-    {% endunless %}
-    {% endfor %}
-    </div>
 
-  </div>
+    </div>
+  </section>

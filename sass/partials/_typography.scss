@@ -12,6 +12,12 @@ h1, h2, h3, h4, h5 {
 	font-weight: 300;
 }
 
+h1, h2, h3 {
+	.subpage-body & {
+		color: $colorTextHeaderIntense;
+	}
+}
+
 .wf-loading h1,
 .wf-loading h2,
 .wf-loading h3,
@@ -31,7 +37,6 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-	color: $colorTextHeaderIntense;
 	font-size: em(38px);
 	font-weight: 600;
 	line-height: 46px;
@@ -48,6 +53,10 @@ h1 {
 	.dark & {
 		color: #fff;
 	}
+
+	.post-mailinglist & {
+		margin-bottom: 10px;
+	}
 }
 
 h2 {
@@ -56,7 +65,7 @@ h2 {
 	margin-bottom: 20px;
 
 	.dark & {
-		color: #cedbe4;
+		color: $colorTextHeaderDark;
 	}
 }
 
@@ -64,6 +73,14 @@ h3 {
 	font-size: em(24px);
 	line-height: 32px;
 	margin: 0;
+
+	.dark & {
+		color: $colorTextHeaderDark;
+	}
+
+	.subpage-body & {
+		margin: 20px 0;
+	}
 }
 
 h4 {
@@ -153,9 +170,10 @@ a {
 }
 
 blockquote {
-	border: 3px solid $selection;
-	border-width: 0 0 0 3px;
-	margin: 0 0 ($unit / 2);
+	border: 5px solid $selection;
+	border-width: 0 0 0 5px;
+	margin: 20px 0 $unit;
+	padding: 20px 0 ($unit / 3);
 
 	p {
 		font-style: italic;
@@ -165,27 +183,24 @@ blockquote {
 
 blockquote.large {
 	border: 0;
+	padding: 0;
 	margin: ($unit / 2) 0;
 
-	footer & {
-		margin-bottom: $unit;
+	p {
+		font-size: em(22px);
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		margin: 0;
 	}
 }
 
 figure {
-	margin: $unit (-$unit) 0;
-
-	@include at-query($one) {
-		margin: $unit (-$unit * 2.5) 0;
-	}
-
-	@include at-query($two) {
-		margin: ($unit * 1.5) 0;
-	}
+	margin: $unit (-$unit) $unit (-$unit);
 }
 
 figure.hero {
-	margin: 0 (-$unit) $unit;
+	margin: 0 (-$unit) 50px;
 
 	@include at-query($one) {
 		margin-top: $unit;
@@ -216,19 +231,18 @@ figure.sep {
 }
 
 figcaption {
-	margin: ($unit / 3) $unit ($unit / 2);
-	text-align: center;
-
-	@include at-query($two) {
-		margin-left: 0;
-	}
+	color: $colorTextSubtle;
+	font-family: $stack2;
+	font-size: em(16px);
+	line-height: 25px;
+	margin: 10px $unit ($unit / 2);
 }
 
 hr {
 	border: 0;
 	border-bottom: 3px solid $colorAccent;
 	border-radius: 999px;
-	margin: $unit auto;
+	margin: $unit auto 40px;
 
 	@include at-query($two) {
 		margin: ($unit * 2.5) auto;
@@ -247,7 +261,7 @@ input {
 	height: 58px;
 	background-color: transparent;
 	border: 3px solid #d5d7d8;
-	color: $colorTextSubtle;
+	color: #fff;
 	font-family: $stack2;
 	font-size: em(18px);
 	font-weight: 600;

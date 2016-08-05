@@ -61,30 +61,30 @@ section {
 }
 
 .post-header {
-	margin-bottom: $unit;
-	padding: ($unit / 2) $unit;
+	padding: 0 0 50px;
 
-	@include at-query($one) {
-		padding: $unit ($unit * 1.5);
-		margin-bottom: $unit * 3;
+	h1 {
+		margin: 0;
 	}
 }
 
-.subpage,
-.subpage-custom {
-	img {
-		width: 100%;
-	}
+.post-navigation {
+	padding: 50px $unit;
+}
+
+.post-mailinglist {
+	padding: 25px 0 0;
+}
+
+.post-toc {
+	margin-top: 40px;
+	padding: $unit 0 0;
 }
 
 .subpage-body {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 $unit;
-
-	@include at-query($one) {
-		padding: 0;
-	}
 }
 
 .square {
@@ -97,5 +97,9 @@ section {
 
 #mc_embed_signup {
 	padding: 50px 0;
+
+	.post-mailinglist & {
+		padding: $unit 0 20px;
+	}
 }
 
