@@ -7,27 +7,27 @@ title: Helen Tran; Product Designer
 	<header>
 		<div class="grid grid--full">
 			<h5>Oh hai</h5>
-			<h1>Helen Tran</h1>
+			<h1 class="one-line">Helen Tran</h1>
 			<h2>I'm a <em>Product Designer</em> spending the majority of my time growing a team. We help shape the future of <em>commerce &amp; entrepreneurship</em> at <a href="http://shopify.com">Shopify</a>.</h2>
 			<h5>Elsewhere;</h5>
-			<p><a href="">Twitter</a> (@tranhelen)–my main cheese
-				<br><a href="">Instagram</a> (@tranhelen)–travel diary
-				<br><a href="">Dribbble</a> (@tranhelen)–design experiments
+			<p class="small homepage"><a href="" class="alarming">Twitter</a> (@tranhelen)–my main cheese
+				<br><a href="" class="alarming">Instagram</a> (@tranhelen)–travel diary
+				<br><a href="" class="alarming">Dribbble</a> (@tranhelen)–design experiments
 			</p>
 		</div>
 	</header>
 
 	<section class="">
 		<h5>Mostly in my head</h5>
-		<p>I'm a <em>hobbyist writer</em> who writes about Design, the tech industry, surviving life as a creative professional, and my place as a Designer in the world.</p>
-		<p>Sign up to the <a href="">mailing list</a> or use my <a href="">RSS feed</a> for updates. I hit the publish button weekly. Catch the most popular on <a href="">Medium.</a>
+		<h2>I'm a <em>hobbyist writer</em> who writes about Design, the tech industry, surviving life as a creative professional, and my place as a Designer in the world.</h2>
+		<p class="homepage">Sign up to the <a href="" class="alarming">mailing list</a> or use my <a href="http://helentran.com/feed.xml" class="alarming">RSS feed</a> for updates. I hit the publish button weekly. Catch the <em>most popular</em> on <a href="https://medium.com/thoughts-between-meetings" class="alarming">Medium.</a>
 
 		<div class="post-listing">
 			{% for post in site.categories.blog limit:6 %}
 
             <div class="post-listing__single toc-list--homepage">
 				<h5 class="toc-date--homepage">{{ post.date | date:'%B %-d, %Y' }} • <a href="archives.html">{{ post.category }}</a></h5>
-				<br><p class="toc-title--homepage"><a href="{{ post.url }}">{{ post.title }}</a></p>
+				<p class="toc-title--homepage"><a href="{{ post.url }}">{{ post.title }}</a></p>
 			</div>
 
 			{% endfor %}
@@ -37,7 +37,7 @@ title: Helen Tran; Product Designer
 
 	<section class="">
 		<h5>Sometimes on the road</h5>
-		<p>I'm an aspiring vagabond travelling from place to place collecting stories. I write little blurbs and take pictures of where I've been.</p>
+		<h2>I'm an aspiring vagabond travelling from place to place collecting stories. I write little blurbs and take pictures of where I've been.</h2>
 		<p class="link-more"><a href="">Stream &#8594;</a></p>
 	</section>
 

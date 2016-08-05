@@ -14,8 +14,12 @@ footer {
 }
 
 .container {
-	margin: 0 auto;
+	margin: 50px 30px;
 	max-width: 1200px;
+}
+
+.post-listing {
+	padding: ($unit / 3) 0 0;
 }
 
 /*------------------------------------*\

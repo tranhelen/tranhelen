@@ -36,9 +36,13 @@ h1 {
 	font-weight: 600;
 	line-height: 46px;
 
-	@include at-query($two) {
+	@include at-query($one) {
 		font-size: em(45px);
 		line-height: 55px;		
+	}
+
+	&.one-line {
+		margin: 0 0 0 -($unit / 2);
 	}
 }
 
@@ -61,7 +65,8 @@ h5 {
 	color: $colorTextSubtle;
 	font-family: $stack2;
 	font-size: em(14px);
-	margin: 0 0 ($unit / 6);
+	font-weight: 600;
+	margin: 0 0 ($unit / 3);
 	text-transform: uppercase;
 }
 
@@ -70,7 +75,6 @@ h5 {
 .h3 { @extend h3; }
 .h4 { @extend h4; }
 .h5 { @extend h5; }
-.h6 { @extend h6; }
 
 p,
 ol li,
@@ -80,8 +84,22 @@ ul li p {
 	color: $colorTextBody;
 	font-family: $stack1;
 	font-size: em(20px);
-	line-height: 32px;
+	line-height: 30px;
 	margin: 0 0 ($unit / 2);
+
+	&.homepage {
+		color: $colorTextHeader;
+	}
+
+	&.small {
+		font-size: em(18px);
+		line-height: 24px;
+	}
+
+	&.smallest {
+		font-size: em(16px);
+		line-height: em(25px);
+	}
 }
 
 ul, ol {
@@ -96,6 +114,20 @@ ul, ol {
 a {
 	color: $colorLink;
 	text-decoration: none;
+
+	h2 & {
+		color: $colorAccent;
+		font-weight: 600;
+	}
+
+	&.alarming {
+		color: $colorAccent;
+		font-family: $stack2;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 0;
+		text-transform: uppercase;
+	}
 
 	&:hover {
 		color: $colorTextBody;
@@ -121,32 +153,6 @@ blockquote.large {
 
 	footer & {
 		margin-bottom: $unit;
-	}
-
-	p {
-		font-size: em(24px);
-		line-height: em(26px);
-		margin: 0;
-
-		footer & {
-			color: $colorTextBody;
-			font-size: em(20px);
-		}
-
-		&.author {
-			color: $colorTextSubtle;
-			font-size: em(14px);
-			font-style: normal;
-		}
-	}
-
-	@include at-query($two) {
-		margin: ($unit * 2) 0;
-		text-align: center;
-
-		footer & {
-			margin: ($unit / 2) 0 $unit;
-		}
 	}
 }
 
@@ -194,8 +200,6 @@ figure.sep {
 }
 
 figcaption {
-	@extend h6;
-
 	margin: ($unit / 3) $unit ($unit / 2);
 	text-align: center;
 
