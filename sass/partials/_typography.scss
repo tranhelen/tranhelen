@@ -47,24 +47,26 @@ h1 {
 }
 
 h2 {
-	font-size: em(24px);
+	font-size: em(26px);
 	line-height: 36px;
 }
 
 h3 {
-	font-size: em(20px);
+	font-size: em(24px);
+	line-height: 32px;
 }
 
 h4 {
 	font-family: $stack2;
-	font-size: em(14px);
-	line-height: 20px;
+	font-size: em(18px);
+	line-height: 24px;
 }
 
 h5 {
 	color: $colorTextSubtle;
 	font-family: $stack2;
-	font-size: em(14px);
+	font-size: em(16px);
+	line-height: ($unit / 2);
 	font-weight: 600;
 	margin: 0 0 ($unit / 3);
 	text-transform: uppercase;
@@ -86,10 +88,6 @@ ul li p {
 	font-size: em(20px);
 	line-height: 30px;
 	margin: 0 0 ($unit / 2);
-
-	&.homepage {
-		color: $colorTextHeader;
-	}
 
 	&.small {
 		font-size: em(18px);

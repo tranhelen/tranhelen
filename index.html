@@ -20,18 +20,20 @@ title: Helen Tran; Product Designer
 	<section class="">
 		<h5>Mostly in my head</h5>
 		<h2>I'm a <em>hobbyist writer</em> who writes about Design, the tech industry, surviving life as a creative professional, and my place as a Designer in the world.</h2>
-		<p class="homepage">Sign up to the <a href="" class="alarming">mailing list</a> or use my <a href="http://helentran.com/feed.xml" class="alarming">RSS feed</a> for updates. I hit the publish button weekly. Catch the <em>most popular</em> on <a href="https://medium.com/thoughts-between-meetings" class="alarming">Medium.</a>
+		<h3>Sign up to the <a href="" class="alarming">mailing list</a> or use my <a href="http://helentran.com/feed.xml" class="alarming">RSS feed</a> for updates. I hit the publish button weekly. Catch the <em>most popular</em> on <a href="https://medium.com/thoughts-between-meetings" class="alarming">Medium.</a></h3>
 
 		<div class="post-listing">
 			{% for post in site.categories.blog limit:6 %}
 
-            <div class="post-listing__single toc-list--homepage">
-				<h5 class="toc-date--homepage">{{ post.date | date:'%B %-d, %Y' }} • <a href="archives.html">{{ post.category }}</a></h5>
-				<p class="toc-title--homepage"><a href="{{ post.url }}">{{ post.title }}</a></p>
+            <div class="post-listing__single">
+				<h5>{{ post.date | date:'%B %-d, %Y' }}
+					<!-- • <a href="archives.html">{{ post.category | last }}</a> -->
+				</h5>
+				<p class="h3"><a href="{{ post.url }}">{{ post.title }}</a></p>
 			</div>
 
 			{% endfor %}
-			<p class="link-more"><a href="">Archives &#8594;</a></p>
+			<p class="link-more"><a href="archives.html" class="alarming">Archives &#8594;</a></p>
 		</div>
 	</section>
 
