@@ -2225,12 +2225,55 @@ hr.noborder {
 }
 
 /* line 246, ../../sass/partials/_typography.scss */
+input {
+  height: 58px;
+  background-color: transparent;
+  border: 3px solid #d5d7d8;
+  color: #6e8b9d;
+  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  width: 100%;
+}
+/* line 259, ../../sass/partials/_typography.scss */
+input.button {
+  background-color: #00111d;
+  border: 0;
+  color: #e9ac00;
+}
+/* line 264, ../../sass/partials/_typography.scss */
+input.button:hover {
+  background-color: #002037;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+/* line 272, ../../sass/partials/_typography.scss */
 .bullet {
   color: #e9ac00;
   font-size: 0.75em;
   padding: 0 5px;
   position: relative;
   bottom: 2px;
+}
+
+/* line 281, ../../sass/partials/_typography.scss */
+.fieldnotes p {
+  color: #6e8b9d;
+  font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 25px;
+}
+
+/* line 289, ../../sass/partials/_typography.scss */
+#mce-success-response,
+#mce-error-response {
+  margin-bottom: 30px;
 }
 
 /*------------------------------------*\
@@ -2328,4 +2371,9 @@ section.accent {
 /* line 81, ../../sass/partials/_main.scss */
 .square.dark {
   background-color: #283e4c;
+}
+
+/* line 86, ../../sass/partials/_main.scss */
+#mc_embed_signup {
+  padding: 50px 0;
 }

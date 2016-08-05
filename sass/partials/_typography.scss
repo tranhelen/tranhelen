@@ -243,10 +243,50 @@ hr.noborder {
 	border: 0;
 }
 
+input {
+	height: 58px;
+	background-color: transparent;
+	border: 3px solid #d5d7d8;
+	color: $colorTextSubtle;
+	font-family: $stack2;
+	font-size: em(18px);
+	font-weight: 600;
+	line-height: 25px;
+	margin-bottom: 30px;
+	padding: 15px 20px;
+	width: 100%;
+
+	&.button {
+		background-color: $colorButton;
+		border: 0;
+		color: $colorAccent;
+
+		&:hover {
+			background-color: lighten($colorButton, 5%);
+
+			@include transition;
+		}
+	}
+}
+
 .bullet {
 	color: $colorAccent;
 	font-size: em(12px);
 	padding: 0 5px;
 	position: relative;
 	bottom: 2px;
+}
+
+.fieldnotes {
+	p {
+		color: $colorTextSubtle;
+		font-family: $stack2;
+		font-size: em(16px);
+		line-height: 25px;
+	}
+}
+
+#mce-success-response,
+#mce-error-response {
+	margin-bottom: 30px;
 }
