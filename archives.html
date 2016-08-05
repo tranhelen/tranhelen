@@ -13,11 +13,20 @@ title: Helen Tran; Archives
 		<h1 class="one-line">Archives</h1>
 		<h2>This is <em>mostly all</em> of my past writing that I'm published on this domain. Sometimes I delete stuff though so I don't promise anything.</h2>
 
+		<div class="archives-filter">
+			<h5>Filter</h5>
+			<a href="" class="alarming">Design</a>
+			<br><a href="" class="alarming">Management</a>
+			<br><a href="" class="alarming">Life</a>
+			<br><a href="" class="alarming">Career</a>
+			<br><a href="" class="alarming">Creative</a>
+		</div>
+
 		<div class="post-listing">
 			{% for post in site.categories.blog %}
 
-            <div class="post-listing__single">
-				<h5>{{ post.date | date:'%B %-d, %Y' }} • {{ post.category | last }}
+            <div class="post-listing__single{% if forloop.last %} last{% endif %}">
+				<h5>{{ post.date | date:'%B %-d, %Y' }} • <span class="{{ post.category | last }}">{{ post.category | last }}</span>
 				</h5>
 				<p class="h3"><a href="{{ post.url }}">{{ post.title }}</a></p>
 			</div>

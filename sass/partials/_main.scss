@@ -36,17 +36,25 @@ section {
 	padding: $unit 0 ($unit / 3);
 
 	.square & {
-		padding: ($unit / 3) 0 0;
+		padding: $unit 0 0;
 	}
 }
 
 .post-listing__single {
-	margin-bottom: 20px;
+	margin-bottom: $unit;
+
+	&.last {
+		margin-bottom: 0;
+	}
 }
 
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
+
+.archives-filter {
+	margin-top: $unit / 2;
+}
 
 .book-cover {
 	margin: ($unit / 2) 0;
