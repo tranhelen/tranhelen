@@ -109,6 +109,10 @@ ul li p {
 		line-height: 25px;
 	}
 
+	&.link-more {
+		margin: 0;
+	}
+
 	.dark & {
 		color: #cedbe4;
 	}
