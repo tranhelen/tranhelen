@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Let's Talk Money
-categories: [blog, life]
+category: [blog, life]
 slug: lets-talk-money
 ---
 We're going to talk about money.

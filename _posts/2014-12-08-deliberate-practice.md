@@ -1,7 +1,7 @@
 ---
 layout: subpage
 title: Deliberate Practice
-categories: [blog, design]
+category: [blog, design]
 slug: deliberate-practice
 
 hero: 06-01hero.jpg
