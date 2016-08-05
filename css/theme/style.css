@@ -1979,7 +1979,7 @@ h1, .h1 {
 }
 /* line 44, ../../sass/partials/_typography.scss */
 h1.one-line, .one-line.h1 {
-  margin: 0 0 -15px;
+  margin: 20px 0 -20px 0;
 }
 /* line 48, ../../sass/partials/_typography.scss */
 .dark h1, .dark .h1 {
@@ -2319,4 +2319,13 @@ section.accent {
   .subpage-body {
     padding: 0;
   }
+}
+
+/* line 78, ../../sass/partials/_main.scss */
+.square {
+  padding-bottom: 50px;
+}
+/* line 81, ../../sass/partials/_main.scss */
+.square.dark {
+  background-color: #283e4c;
 }
