@@ -44,12 +44,20 @@ h1 {
 	&.one-line {
 		margin: 0 0 0 -($unit / 2);
 	}
+
+	.dark & {
+		color: #fff;
+	}
 }
 
 h2 {
 	font-size: em(26px);
 	line-height: 36px;
 	margin-bottom: 20px;
+
+	.dark & {
+		color: #cedbe4;
+	}
 }
 
 h3 {
@@ -99,6 +107,10 @@ ul li p {
 	&.smallest {
 		font-size: em(14px);
 		line-height: 25px;
+	}
+
+	.dark & {
+		color: #cedbe4;
 	}
 }
 

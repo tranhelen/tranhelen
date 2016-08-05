@@ -2,6 +2,14 @@
     #Homepage
 \*------------------------------------*/
 
+header {
+	padding: 50px 0;
+	
+	&.homepage {
+		background-color: $colorBGdark;
+	}
+}
+
 footer {
 	background-color: $colorBGdark;
 	padding: 50px $unit;
@@ -9,10 +17,14 @@ footer {
 
 section {
 	padding: 50px 0;
+
+	&.accent {
+		background-color: #F2F5F8;
+	}
 }
 
 .container {
-	margin: 50px 30px;
+	margin: 0 30px;
 	max-width: 1200px;
 }
 
@@ -30,20 +42,6 @@ section {
 
 .book-cover {
 	margin: ($unit / 2) 0;
-}
-
-.page-nav-cond {
-	@include at-query($one) {
-		display: none;
-	}
-}
-
-.page-nav-ex {
-	display: none;
-
-	@include at-query($one) {
-		display: inline-block;
-	}
 }
 
 .post-header {
