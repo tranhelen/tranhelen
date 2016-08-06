@@ -365,6 +365,12 @@ input {
 	}
 }
 
+.filter--off {
+	opacity: 0.5;
+
+	@include transition;
+}
+
 #mce-success-response,
 #mce-error-response {
 	margin-bottom: 30px;

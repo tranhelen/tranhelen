@@ -6,7 +6,7 @@ title: Helen Tran; Archives
 <body class="square archives">
 	<div class="container">
 		<header>
-			<a onclick="goBack()" class="alarming"><span class="picker-upper">&#8592;</span> Back</a>
+			<a onclick="window.history.back()" class="alarming"><span class="picker-upper">&#8592;</span> Back</a>
 		</header>
 
 		<div class="archives__content">
@@ -14,27 +14,26 @@ title: Helen Tran; Archives
 				<div class="grid__item push--two--one-twelfth two--one-half">
 					<h5>The full list</h5>
 					<h1 class="one-line">Archives</h1>
-					<h2>This is <em>mostly all</em> of my past writing that I'm published on this domain. Sometimes I delete stuff though so I don't promise anything.</h2>
+					<h2>This is <em>mostly all</em> of the writing I've published on this domain. One day there will be enough for a search bar.</h2>
 				</div>
 			</div>
 			<div class="grid push--two--one-twelfth">
 				<div class="grid__item two--two-twelfths">
 					<div class="archives__filter">
 						<h5>Filter</h5>
-						<a href="" class="alarming">Design</a>
-						<br><a href="" class="alarming">Management</a>
-						<br><a href="" class="alarming">Life</a>
-						<br><a href="" class="alarming">Career</a>
-						<br><a href="" class="alarming">Creative</a>
+						<a href="#" id="design" class="filter alarming">Design</a>
+						<br><a href="#" id="management" class="filter alarming">Management</a>
+						<br><a href="#" id="tech" class="filter alarming">Tech</a>
+						<br><a href="#" id="life" class="filter alarming">Life</a>
+						<br><a href="#" id="creative" class="filter alarming">Creative</a>
 					</div>
 				</div>
 				<div class="grid__item two--one-half">
 					<div class="post-listing">
 						{% for post in site.categories.blog %}
 
-			            <div class="post-listing__single{% if forloop.last %} last{% endif %}">
-							<h5>{{ post.date | date:'%B %-d, %Y' }} • <span class="{{ post.category | last }}">{{ post.category | last }}</span>
-							</h5>
+			            <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.category | last }}">
+							<h5>{{ post.date | date:'%B %-d, %Y' }} • {{ post.category | last }}</h5>
 							<p class="h3"><a href="{{ post.url }}">{{ post.title }}</a></p>
 						</div>
 
@@ -45,3 +44,13 @@ title: Helen Tran; Archives
 		</div>
 	</div>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".filter").click(function(e){
+			$(this).toggleClass('filter--off');
+			$("." + e.currentTarget.id).toggle('slow');
+		})
+	});
+</script>

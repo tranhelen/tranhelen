@@ -2397,6 +2397,15 @@ input.dramatic {
 }
 
 /* line 368, ../../sass/partials/_typography.scss */
+.filter--off {
+  opacity: 0.5;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+/* line 374, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin-bottom: 30px;
