@@ -41,6 +41,19 @@ section {
 	}
 }
 
+.about {
+	@include at-query($two) {
+		background: $colorBGdark url('/img/about-background.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: 50%;
+	}
+}
+
+.about__content {
+	// overflow-y: auto;
+}
+
 .bio {
 	background: $colorBGdark url('/img/header-background.jpg');
 	background-size: cover;
@@ -97,7 +110,11 @@ section {
 
 .homepage-articles {
 	padding-top: 10px;
-	
+
+	@include at-query($one) {
+		padding-top: 20px;
+	}
+
 	@include at-query($two) {
 		padding: 100px 0 90px;
 	}
