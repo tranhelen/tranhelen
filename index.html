@@ -3,10 +3,10 @@ layout: default
 title: Helen Tran; Product Designer
 ---
 
-<header class="homepage dark">
+<header class="bio dark">
 	<div class="container">
 		<div class="grid grid--full">
-			<div class="bio">
+			<div class="bio__content">
 				<div class="two--show bio__portrait"></div>
 
 				<div class="bio__text">
@@ -23,28 +23,39 @@ title: Helen Tran; Product Designer
 		</div>
 	</div>
 </header>
-<div class="container">
-	<section>
-		<h5>Mostly in my head</h5>
-		<h2>I'm a <em>hobbyist writer</em> who writes about Design, the tech industry, surviving life as a creative professional, and my place as a Designer in the world.</h2>
-		<h3>I hit the publish button weekly. Sign up to the <a href="" class="alarming">mailing list</a> or use my <a href="http://helentran.com/feed.xml" class="alarming">RSS feed</a> for updates. Catch the <em>most popular</em> on <a href="https://medium.com/thoughts-between-meetings" class="alarming">Medium</a>.</h3>
 
-		<div class="post-listing">
-			{% for post in site.categories.blog limit:6 %}
+<section class="homepage-articles">
+	<div class="container">
+		<div class="grid grid--full push--two--one-twelfth">
 
-            <div class="post-listing__single">
-				<h5>{{ post.date | date:'%B %-d, %Y' }}
-					<!-- • <a href="archives.html">{{ post.category | last }}</a> -->
-				</h5>
-				<p class="h3"><a href="{{ post.url }}">{{ post.title }}</a></p>
+			<div class="grid">
+				<div class="grid__item two--one-half">
+					<h5>Mostly in my head</h5>
+					<h2>I'm a <em>hobbyist writer</em> who writes about Design, the tech industry, surviving life as a creative professional, and my place as a Designer in the world.</h2>
+				</div>
 			</div>
 
-			{% endfor %}
-		</div>
-		<p class="link-more"><a href="archives.html" class="alarming">Archives <span class="picker-upper">&#8594;</span></a></p>
-	</section>
+			<div class="grid">
+				<div class="grid__item two--one-half">
+					<h3>I hit the publish button weekly. Sign up to the <a href="" class="alarming">mailing list</a> or use my <a href="http://helentran.com/feed.xml" class="alarming">RSS feed</a> for updates. Catch the <em>most popular</em> on <a href="https://medium.com/thoughts-between-meetings" class="alarming">Medium</a>.</h3>
+				</div>
+				<div class="grid__item two--five-twelfths">
+					<div class="post-listing">
+						{% for post in site.categories.blog limit:6 %}
 
-</div>
+			            <div class="post-listing__single">
+							<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+							<p class="h2"><a href="{{ post.url }}">{{ post.title }}</a></p>
+						</div>
+
+						{% endfor %}
+					</div>
+					<p class="link-more"><a href="archives.html" class="alarming">Archives <span class="picker-upper">&#8594;</span></a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <section class="accent">
 	<div class="container">

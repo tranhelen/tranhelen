@@ -82,7 +82,7 @@ h2 {
 	}
 
 	@include at-query($two) {
-		.homepage & {
+		.bio & {
 			margin-bottom: 80px;
 		}
 	}
@@ -189,6 +189,10 @@ a {
 	h2 & {
 		color: $colorAccent;
 		font-weight: 600;
+
+		.post-listing & {
+			font-weight: normal;
+		}
 	}
 
 	&.alarming {
