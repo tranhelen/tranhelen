@@ -80,6 +80,12 @@ h2 {
 		font-size: em(30px);
 		line-height: 40px;
 	}
+
+	@include at-query($two) {
+		.homepage & {
+			margin-bottom: 80px;
+		}
+	}
 }
 
 h3 {
@@ -141,6 +147,11 @@ ul li p {
 	&.small {
 		font-size: em(18px);
 		line-height: 24px;
+
+		.homepage & {
+			font-size: em(22px);
+			line-height: 30px;
+		}
 	}
 
 	&.smallest {

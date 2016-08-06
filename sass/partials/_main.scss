@@ -8,21 +8,30 @@ header {
 	&.homepage {
 		background: $colorBGdark url('/img/header-background.jpg');
 		background-size: cover;
-		padding: 80px 0 110px;
+		padding: 60px 0 90px;
 		position: relative;
-		top: -$unit;
 		width: 100%;
 
 		&::after{
 		  background: white;
 		  bottom: 0px;
 		  content: '';
-		  height: 80px;
+		  height: 70px;
 		  position: absolute;
 		  transform-origin: left bottom;
-		  transform: skewY(3deg);
+		  transform: skewY(4deg);
 		  width: 100%;
 		  z-index: 1;
+		}
+	}
+
+	@include at-query($two) {
+		&.homepage {
+			padding: 140px 0 185px;
+
+			&::after {
+				height: 120px;
+			}
 		}
 	}
 }
@@ -50,12 +59,42 @@ section {
 
 	@include at-query($one) {
 		margin: 0 auto;
+		padding: 0 50px;
 	}
 
 	@include at-query($two) {
 		max-width: 1400px;
-		padding: 0 50px;
 	}
+
+	@include at-query($three) {
+		padding: 0;
+	}
+}
+
+.bio {
+	@include at-query($two) {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.bio__text {
+	@include at-query($two) {
+		position: relative;
+		z-index: 1;
+		width: 50%;		
+		padding-top: 100px;
+	}
+}
+
+.bio__portrait {
+	position: absolute;
+	background: 50% url('/img/header-portrait.jpg') no-repeat;
+	background-size: cover;
+	z-index: 1;
+	right: 0;
+	height: 710px;
+	width: 80%;
 }
 
 .instagrid {

@@ -55,3 +55,11 @@
 .table-bottom {
 	vertical-align: bottom;
 }
+
+.two--show {
+	display: none; 
+	
+	@include at-query($two) {
+		display: block;
+	}
+}
