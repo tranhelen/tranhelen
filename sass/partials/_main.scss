@@ -12,7 +12,11 @@ header {
 
 footer {
 	background-color: $colorBGdark;
-	padding: 50px $unit;
+	padding: $unit;
+
+	@include at-query($one) {
+		text-align: center;
+	}
 }
 
 section {
@@ -25,7 +29,11 @@ section {
 
 .container {
 	margin: 0 30px;
-	max-width: 1200px;
+	max-width: 760px;
+
+	@include at-query($one) {
+		margin: 0 auto;
+	}
 }
 
 .instagrid {
@@ -61,10 +69,10 @@ section {
 }
 
 .post-header {
-	padding: 0 0 50px;
+	padding: 0 0 ($unit / 3);
 
-	h1 {
-		margin: 0;
+	@include at-query($one) {
+		text-align: center;
 	}
 }
 
@@ -74,11 +82,21 @@ section {
 
 .post-mailinglist {
 	padding: 25px 0 0;
+
+	@include at-query($one) {
+		padding: 75px 0 50px;
+		text-align: center;
+	}
 }
 
 .post-toc {
 	margin-top: 40px;
 	padding: $unit 0 0;
+
+	@include at-query($one) {
+		margin-top: 90px;
+		text-align: center;
+	}
 }
 
 .subpage-body {
@@ -100,6 +118,11 @@ section {
 
 	.post-mailinglist & {
 		padding: $unit 0 20px;
+	}
+
+	@include at-query($one) {
+		margin: 0 auto;
+		max-width: 500px;
 	}
 }
 

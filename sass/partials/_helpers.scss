@@ -31,15 +31,15 @@
 	text-align: right;
 }
 
-.two--text-center {
-	@include at-query($two) {
+.one--text-center {
+	@include at-query($one) {
 		text-align: center;
 	}
 }
 
-.two--text-right {
+.two--text-center {
 	@include at-query($two) {
-		text-align: right;
+		text-align: center;
 	}
 }
 

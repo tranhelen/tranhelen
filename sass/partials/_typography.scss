@@ -41,11 +41,6 @@ h1 {
 	font-weight: 600;
 	line-height: 46px;
 
-	@include at-query($one) {
-		font-size: em(45px);
-		line-height: 55px;		
-	}
-
 	&.one-line {
 		margin: 20px 0 -20px 0;
 	}
@@ -54,8 +49,21 @@ h1 {
 		color: #fff;
 	}
 
+	.post-header & {
+		margin: -10px 0 -20px;
+	}
+
 	.post-mailinglist & {
 		margin-bottom: 10px;
+	}
+
+	@include at-query($one) {
+		font-size: em(45px);
+		line-height: 55px;		
+
+		.post-header & {
+			margin: $unit 0 -20px;
+		}
 	}
 }
 
@@ -97,6 +105,10 @@ h5 {
 	font-weight: 600;
 	margin: 0 0 ($unit / 3);
 	text-transform: uppercase;
+
+	.subpage-body & {
+		margin: ($unit / 2) 0 $unit;
+	}
 }
 
 .h1 { @extend h1; }
@@ -193,6 +205,16 @@ blockquote.large {
 		line-height: 32px;
 		margin: 0;
 	}
+
+	@include at-query($one) {
+		margin: $unit 0;
+		text-align: center;
+
+		p {
+			font-size: em(26px);
+			line-height: 38px;
+		}
+	}
 }
 
 figure {
@@ -217,6 +239,14 @@ figcaption {
 	font-size: em(16px);
 	line-height: 25px;
 	margin: 10px $unit ($unit / 2);
+
+	.hero & {
+		margin-top: 0;
+	}
+
+	@include at-query($one) {
+		text-align: center;
+	}
 }
 
 hr {
