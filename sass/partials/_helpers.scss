@@ -57,6 +57,20 @@
 	}
 }
 
+.two--table--mailinglist {
+	@include at-query($two) {
+		display: table;
+		height: 77vh
+	}
+}
+
+.two--table-cell--mailinglist {
+	@include at-query($two) {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
 .two--show {
 	display: none; 
 	

@@ -50,8 +50,13 @@ section {
 	}
 }
 
-.about__content {
-	// overflow-y: auto;
+.mailinglist {
+	@include at-query($two) {
+		background: $colorBGdark url('/img/mailinglist-background.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: 50%;
+	}	
 }
 
 .bio {
@@ -270,6 +275,14 @@ section {
 	@include at-query($one) {
 		margin: 0 auto;
 		max-width: 500px;
+	}
+
+	@include at-query($two) {
+		max-width: none;
+
+		.mailinglist & {
+			padding: 100px 0 0;
+		}	
 	}
 }
 

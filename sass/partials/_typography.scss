@@ -85,6 +85,10 @@ h2 {
 		.bio & {
 			margin-bottom: 80px;
 		}
+
+		.mailinglist & {
+			margin-bottom: 10px;
+		}
 	}
 }
 
@@ -315,11 +319,22 @@ input {
 		background-color: $colorButton;
 		border: 0;
 		color: $colorAccent;
+		text-transform: uppercase;
 
 		&:hover {
 			background-color: lighten($colorButton, 5%);
 
 			@include transition;
+		}
+	}
+
+	&.dramatic {
+		border-color: rgba(#d5d7d8,0.2);
+
+		@include at-query($two) {
+			height: 80px;
+			padding: 15px 40px;
+			margin-bottom: 10px;			
 		}
 	}
 }
