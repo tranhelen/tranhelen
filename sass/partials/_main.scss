@@ -212,8 +212,18 @@ section {
     #Subpages
 \*------------------------------------*/
 
-.archives-filter {
+.archives__content {
+	@include at-query($two) {
+		padding: 80px 0 40px;
+	}
+}
+
+.archives__filter {
 	margin-top: $unit / 2;
+
+	@include at-query($two) {
+		margin-top: $unit;
+	}
 }
 
 .book-cover {

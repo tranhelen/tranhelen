@@ -3,36 +3,45 @@ layout: square
 title: Helen Tran; Archives
 ---
 
-<body class="square">
+<body class="square archives">
 	<div class="container">
 		<header>
 			<a onclick="goBack()" class="alarming"><span class="picker-upper">&#8592;</span> Back</a>
 		</header>
 
-		<h5>The full list</h5>
-		<h1 class="one-line">Archives</h1>
-		<h2>This is <em>mostly all</em> of my past writing that I'm published on this domain. Sometimes I delete stuff though so I don't promise anything.</h2>
-
-		<div class="archives-filter">
-			<h5>Filter</h5>
-			<a href="" class="alarming">Design</a>
-			<br><a href="" class="alarming">Management</a>
-			<br><a href="" class="alarming">Life</a>
-			<br><a href="" class="alarming">Career</a>
-			<br><a href="" class="alarming">Creative</a>
-		</div>
-
-		<div class="post-listing">
-			{% for post in site.categories.blog %}
-
-            <div class="post-listing__single{% if forloop.last %} last{% endif %}">
-				<h5>{{ post.date | date:'%B %-d, %Y' }} • <span class="{{ post.category | last }}">{{ post.category | last }}</span>
-				</h5>
-				<p class="h3"><a href="{{ post.url }}">{{ post.title }}</a></p>
+		<div class="archives__content">
+			<div class="grid">
+				<div class="grid__item push--two--one-twelfth two--one-half">
+					<h5>The full list</h5>
+					<h1 class="one-line">Archives</h1>
+					<h2>This is <em>mostly all</em> of my past writing that I'm published on this domain. Sometimes I delete stuff though so I don't promise anything.</h2>
+				</div>
 			</div>
+			<div class="grid push--two--one-twelfth">
+				<div class="grid__item two--two-twelfths">
+					<div class="archives__filter">
+						<h5>Filter</h5>
+						<a href="" class="alarming">Design</a>
+						<br><a href="" class="alarming">Management</a>
+						<br><a href="" class="alarming">Life</a>
+						<br><a href="" class="alarming">Career</a>
+						<br><a href="" class="alarming">Creative</a>
+					</div>
+				</div>
+				<div class="grid__item two--one-half">
+					<div class="post-listing">
+						{% for post in site.categories.blog %}
 
-			{% endfor %}
+			            <div class="post-listing__single{% if forloop.last %} last{% endif %}">
+							<h5>{{ post.date | date:'%B %-d, %Y' }} • <span class="{{ post.category | last }}">{{ post.category | last }}</span>
+							</h5>
+							<p class="h3"><a href="{{ post.url }}">{{ post.title }}</a></p>
+						</div>
+
+						{% endfor %}
+					</div>
+				</div>
+			</div>
 		</div>
-
 	</div>
 </body>
