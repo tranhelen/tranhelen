@@ -6,22 +6,23 @@ header {
 	padding: 50px 0 30px;
 
 	&.homepage {
-		background-color: $colorBGdark;
-		padding-top: 80px;
+		background: $colorBGdark url('/img/header-background.jpg');
+		background-size: cover;
+		padding: 80px 0 110px;
 		position: relative;
 		top: -$unit;
 		width: 100%;
 
 		&::after{
-		  background: inherit;
+		  background: white;
 		  bottom: 0px;
 		  content: '';
-		  height: 100%;
+		  height: 80px;
 		  position: absolute;
 		  transform-origin: left bottom;
 		  transform: skewY(3deg);
 		  width: 100%;
-		  z-index: -1;
+		  z-index: 1;
 		}
 	}
 }
