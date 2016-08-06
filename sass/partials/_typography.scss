@@ -294,16 +294,12 @@ hr {
 	margin: $unit auto 40px;
 
 	@include at-query($two) {
-		margin: ($unit * 2.5) auto;
+		margin: 50px auto;
 	}
 }
 
 hr.small {
 	width: ($unit * 2);
-}
-
-hr.noborder {
-	border: 0;
 }
 
 input {
@@ -346,14 +342,6 @@ input {
 .picker-upper {
 	position: relative;
 	top: -2px;
-}
-
-.bullet {
-	color: $colorAccent;
-	font-size: em(12px);
-	padding: 0 5px;
-	position: relative;
-	bottom: 2px;
 }
 
 .fieldnotes {
