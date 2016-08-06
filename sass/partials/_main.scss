@@ -8,6 +8,25 @@ header {
 	&.homepage {
 		background-color: $colorBGdark;
 	}
+
+	@include at-query($one) {
+		padding-top: 80px;
+		position: relative;
+		top: -$unit;
+		width: 100%;
+
+		&::after{
+		  background: inherit;
+		  bottom: 0px;
+		  content: '';
+		  height: 100%;
+		  position: absolute;
+		  transform-origin: left bottom;
+		  transform: skewY(3deg);
+		  width: 100%;
+		  z-index: -1;
+		}
+	}
 }
 
 footer {
@@ -33,6 +52,11 @@ section {
 
 	@include at-query($one) {
 		margin: 0 auto;
+	}
+
+	@include at-query($two) {
+		max-width: 1400px;
+		padding: 0 50px;
 	}
 }
 
