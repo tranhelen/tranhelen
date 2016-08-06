@@ -1918,28 +1918,28 @@ th {
   }
 }
 
-/* line 46, ../../sass/partials/_helpers.scss */
-.table {
-  display: table;
+@media screen and (min-width: 1000px) {
+  /* line 46, ../../sass/partials/_helpers.scss */
+  .two--table {
+    display: table;
+    height: 85vh;
+  }
 }
 
-/* line 50, ../../sass/partials/_helpers.scss */
-.table-cell {
-  display: table-cell;
-  float: none;
+@media screen and (min-width: 1000px) {
+  /* line 53, ../../sass/partials/_helpers.scss */
+  .two--table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 
-/* line 55, ../../sass/partials/_helpers.scss */
-.table-bottom {
-  vertical-align: bottom;
-}
-
-/* line 59, ../../sass/partials/_helpers.scss */
+/* line 60, ../../sass/partials/_helpers.scss */
 .two--show {
   display: none;
 }
 @media screen and (min-width: 1000px) {
-  /* line 59, ../../sass/partials/_helpers.scss */
+  /* line 60, ../../sass/partials/_helpers.scss */
   .two--show {
     display: block;
   }

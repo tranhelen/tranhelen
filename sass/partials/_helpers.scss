@@ -43,17 +43,18 @@
 	}
 }
 
-.table {
-	display: table;
+.two--table {
+	@include at-query($two) {
+		display: table;
+		height: 85vh
+	}
 }
 
-.table-cell {
-	display: table-cell;
-	float: none;
-}
-
-.table-bottom {
-	vertical-align: bottom;
+.two--table-cell {
+	@include at-query($two) {
+		display: table-cell;
+		vertical-align: middle;
+	}
 }
 
 .two--show {
