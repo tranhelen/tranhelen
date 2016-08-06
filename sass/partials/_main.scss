@@ -244,32 +244,42 @@ section {
 }
 
 .post-header {
-	padding: 0 0 ($unit / 3);
+	margin: 0 0 ($unit / 3);
+	padding: 0;
 
 	@include at-query($one) {
 		text-align: center;
+	}
+
+	@include at-query($two) {
+	    margin: 0 0 90px;
 	}
 }
 
 .post-navigation {
 	padding: 50px $unit;
+
+	@include at-query($two) {
+		padding: 50px 50px 100px;
+	}
 }
 
 .post-mailinglist {
 	padding: 25px 0 0;
 
 	@include at-query($one) {
-		padding: 75px 0 50px;
+		padding: 65px 0 50px;
 		text-align: center;
 	}
 }
 
 .post-toc {
+	background-color: #f7f9fa;
 	margin-top: 40px;
 	padding: $unit 0 0;
 
 	@include at-query($one) {
-		margin-top: 90px;
+		margin-top: 80px;
 		text-align: center;
 	}
 }
