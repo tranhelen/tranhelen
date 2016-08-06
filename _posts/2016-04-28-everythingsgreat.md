@@ -26,6 +26,6 @@ You have to be willing to admit that there's a problem to begin with and remove 
 
 <hr class="small">
 
-<div class="field-notes">
-    <p id="note-1" class="h6">*To be fair, if the housing market is built on toothpicks and no one wants to say anything about it because they're getting rich, you probably have good reason to be pretty angry. <a href="#anchor-1">&#8593;</a></p>
+<div class="fieldnotes">
+    <p id="note-1">*To be fair, if the housing market is built on toothpicks and no one wants to say anything about it because they're getting rich, you probably have good reason to be pretty angry. <a href="#anchor-1">&#8593;</a></p>
 </div>

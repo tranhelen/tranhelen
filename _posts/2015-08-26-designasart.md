@@ -50,6 +50,6 @@ All that aside, I occasionally worry that if in the quest to justify our work th
 
 <hr class="small">
 
-<div class="field-notes">
-    <p id="note-1" class="h6">*Three typefaces for everything though? Really, Vignelli? <a href="#anchor-1">&#8593;</a></p>
+<div class="fieldnotes">
+    <p id="note-1">*Three typefaces for everything though? Really, Vignelli? <a href="#anchor-1">&#8593;</a></p>
 </div>

@@ -35,6 +35,6 @@ Ask for more **because** you love it.
 
 <hr class="small">
 
-<div class="field-notes">
-    <p id="note-1" class="h6">*In this particular case, there is clearly money available to be had, which makes that remark even more absurd <a href="#anchor-1">&#8593;</a></p>
+<div class="fieldnotes">
+    <p id="note-1">*In this particular case, there is clearly money available to be had, which makes that remark even more absurd <a href="#anchor-1">&#8593;</a></p>
 </div>

@@ -183,6 +183,10 @@ section {
 
 	@include at-query($two) {
 		padding: ($unit / 3) 0 0;
+
+		.subpage & {
+			padding-top: 20px;
+		}
 	}
 }
 

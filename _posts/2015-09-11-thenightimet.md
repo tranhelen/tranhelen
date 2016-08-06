@@ -38,6 +38,6 @@ In any case, bear with me while I try to figure this out, and I hope someone out
 
 <hr class="small">
 
-<div class="field-notes">
-    <p id="note-1" class="h6">*For what it’s worth, emotional abuse should be treated with the same care as physical abuse, just as mental health should be treated with the same care as physical health, but I suppose that’s another topic for another day. <a href="#anchor-1">&#8593;</a></p>
+<div class="fieldnotes">
+    <p id="note-1">*For what it’s worth, emotional abuse should be treated with the same care as physical abuse, just as mental health should be treated with the same care as physical health, but I suppose that’s another topic for another day. <a href="#anchor-1">&#8593;</a></p>
 </div>
