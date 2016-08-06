@@ -15,10 +15,6 @@
 	}
 }
 
-.load {
-	opacity: 0;
-}
-
 .text-center {
 	text-align: center;
 }
@@ -77,4 +73,8 @@
 	@include at-query($two) {
 		display: block;
 	}
+}
+
+.load {
+	display: none;
 }

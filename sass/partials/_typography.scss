@@ -302,6 +302,10 @@ hr.small {
 	width: ($unit * 2);
 }
 
+hr.noborder {
+	border-color: transparent;
+}
+
 input {
 	height: 58px;
 	background-color: transparent;
