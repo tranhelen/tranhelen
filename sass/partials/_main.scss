@@ -96,6 +96,8 @@ section {
 }
 
 .homepage-articles {
+	padding-top: 10px;
+	
 	@include at-query($two) {
 		padding: 100px 0 90px;
 	}
