@@ -75,6 +75,11 @@ h2 {
 	.dark & {
 		color: $colorTextHeaderDark;
 	}
+
+	@include at-query($one) {
+		font-size: em(30px);
+		line-height: 40px;
+	}
 }
 
 h3 {
@@ -88,6 +93,11 @@ h3 {
 
 	.subpage-body & {
 		margin: 20px 0;
+	}
+
+	@include at-query($one) {
+		font-size: em(26px);
+		line-height: 38px;
 	}
 }
 
@@ -144,6 +154,11 @@ ul li p {
 
 	.dark & {
 		color: #cedbe4;
+	}
+
+	@include at-query($one) {
+		font-size: em(22px);
+		line-height: 36px;
 	}
 }
 
