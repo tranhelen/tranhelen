@@ -4,36 +4,6 @@
 
 header {
 	padding: 50px 0 30px;
-
-	&.bio {
-		background: $colorBGdark url('/img/header-background.jpg');
-		background-size: cover;
-		padding: 60px 0 90px;
-		position: relative;
-		width: 100%;
-
-		&::after{
-		  background: white;
-		  bottom: 0px;
-		  content: '';
-		  height: 70px;
-		  position: absolute;
-		  transform-origin: left bottom;
-		  transform: skewY(4deg);
-		  width: 100%;
-		  z-index: 1;
-		}
-	}
-
-	@include at-query($two) {
-		&.bio {
-			padding: 140px 0 185px;
-
-			&::after {
-				height: 120px;
-			}
-		}
-	}
 }
 
 footer {
@@ -47,10 +17,6 @@ footer {
 
 section {
 	padding: 50px 0;
-
-	&.accent {
-		background-color: #F2F5F8;
-	}
 }
 
 .container {
@@ -68,6 +34,34 @@ section {
 
 	@include at-query($three) {
 		padding: 0;
+	}
+}
+
+.bio {
+	background: $colorBGdark url('/img/header-background.jpg');
+	background-size: cover;
+	padding: 60px 0 90px;
+	position: relative;
+	width: 100%;
+
+	&::after{
+	  background: white;
+	  bottom: 0px;
+	  content: '';
+	  height: 70px;
+	  position: absolute;
+	  transform-origin: left bottom;
+	  transform: skewY(4deg);
+	  width: 100%;
+	  z-index: 1;
+	}
+
+	@include at-query($two) {
+		padding: 140px 0 185px;
+
+		&::after {
+			height: 120px;
+		}
 	}
 }
 
@@ -104,7 +98,64 @@ section {
 }
 
 .instagrid {
-	margin: 40px 0 0;
+	padding: 0;
+	position: relative;
+}
+
+.instagrid__background {
+	background-color: #F2F5F8;
+	position: relative;
+	z-index: -2;
+	width: 100%;
+
+	@include at-query($two) {
+		&::after {
+		  background: white;
+		  bottom: 0px;
+		  content: '';
+	      height: 480px;
+		  position: absolute;
+		  transform-origin: left bottom;
+		  transform: skewY(4deg);
+		  width: 100%;
+		  z-index: -1;
+		}
+	}
+}
+.instagrid__content {
+	padding: 60px 0;
+
+	@include at-query($two) {
+		padding: 100px 0 90px;
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.instagrid__description {
+	margin-bottom: 30px;
+
+	@include at-query($two) {
+		float: right;
+		margin: 0;
+	}
+}
+
+.instagrid__pics {
+	margin: 10px 0 0;
+
+	@include at-query($two) {
+		margin-top: ($unit / 2);
+	}
+}
+
+.instagrid__separator {
+	clear: both;
+	height: 10px;
+
+	@include at-query($two) {
+		display: none;
+	}
 }
 
 .post-listing {
