@@ -7,9 +7,6 @@ header {
 
 	&.homepage {
 		background-color: $colorBGdark;
-	}
-
-	@include at-query($one) {
 		padding-top: 80px;
 		position: relative;
 		top: -$unit;
