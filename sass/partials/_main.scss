@@ -13,6 +13,10 @@ footer {
 	@include at-query($one) {
 		text-align: center;
 	}
+
+	@include at-query($two) {
+		padding: 50px 0;
+	}
 }
 
 section {
@@ -113,7 +117,7 @@ section {
 		  background: white;
 		  bottom: 0px;
 		  content: '';
-	      height: 480px;
+	      height: 280px;
 		  position: absolute;
 		  transform-origin: left bottom;
 		  transform: skewY(4deg);
@@ -126,9 +130,11 @@ section {
 	padding: 60px 0;
 
 	@include at-query($two) {
-		padding: 100px 0 90px;
+		padding: 0;
 		position: relative;
 		z-index: 2;
+	    margin-bottom: 189px;
+	    top: 100px;
 	}
 }
 

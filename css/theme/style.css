@@ -2384,38 +2384,44 @@ footer {
     text-align: center;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 9, ../../sass/partials/_main.scss */
+  footer {
+    padding: 50px 0;
+  }
+}
 
-/* line 18, ../../sass/partials/_main.scss */
+/* line 22, ../../sass/partials/_main.scss */
 section {
   padding: 50px 0;
 }
 
-/* line 22, ../../sass/partials/_main.scss */
+/* line 26, ../../sass/partials/_main.scss */
 .container {
   margin: 0 30px;
   max-width: 760px;
 }
 @media screen and (min-width: 830px) {
-  /* line 22, ../../sass/partials/_main.scss */
+  /* line 26, ../../sass/partials/_main.scss */
   .container {
     margin: 0 auto;
     padding: 0 50px;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 22, ../../sass/partials/_main.scss */
+  /* line 26, ../../sass/partials/_main.scss */
   .container {
     max-width: 1400px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 22, ../../sass/partials/_main.scss */
+  /* line 26, ../../sass/partials/_main.scss */
   .container {
     padding: 0;
   }
 }
 
-/* line 40, ../../sass/partials/_main.scss */
+/* line 44, ../../sass/partials/_main.scss */
 .bio {
   background: #283e4c url("/img/header-background.jpg");
   background-size: cover;
@@ -2423,7 +2429,7 @@ section {
   position: relative;
   width: 100%;
 }
-/* line 47, ../../sass/partials/_main.scss */
+/* line 51, ../../sass/partials/_main.scss */
 .bio::after {
   background: white;
   bottom: 0px;
@@ -2436,18 +2442,18 @@ section {
   z-index: 1;
 }
 @media screen and (min-width: 1000px) {
-  /* line 40, ../../sass/partials/_main.scss */
+  /* line 44, ../../sass/partials/_main.scss */
   .bio {
     padding: 140px 0 185px;
   }
-  /* line 62, ../../sass/partials/_main.scss */
+  /* line 66, ../../sass/partials/_main.scss */
   .bio::after {
     height: 120px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  /* line 68, ../../sass/partials/_main.scss */
+  /* line 72, ../../sass/partials/_main.scss */
   .bio__content {
     position: relative;
     z-index: 2;
@@ -2455,7 +2461,7 @@ section {
 }
 
 @media screen and (min-width: 1000px) {
-  /* line 75, ../../sass/partials/_main.scss */
+  /* line 79, ../../sass/partials/_main.scss */
   .bio__text {
     position: relative;
     z-index: 1;
@@ -2464,7 +2470,7 @@ section {
   }
 }
 
-/* line 84, ../../sass/partials/_main.scss */
+/* line 88, ../../sass/partials/_main.scss */
 .bio__portrait {
   position: absolute;
   background: 50% url("/img/header-portrait.jpg") no-repeat;
@@ -2476,19 +2482,19 @@ section {
 }
 
 @media screen and (min-width: 1000px) {
-  /* line 94, ../../sass/partials/_main.scss */
+  /* line 98, ../../sass/partials/_main.scss */
   .homepage-articles {
     padding: 100px 0 90px;
   }
 }
 
-/* line 100, ../../sass/partials/_main.scss */
+/* line 104, ../../sass/partials/_main.scss */
 .instagrid {
   padding: 0;
   position: relative;
 }
 
-/* line 105, ../../sass/partials/_main.scss */
+/* line 109, ../../sass/partials/_main.scss */
 .instagrid__background {
   background-color: #F2F5F8;
   position: relative;
@@ -2496,12 +2502,12 @@ section {
   width: 100%;
 }
 @media screen and (min-width: 1000px) {
-  /* line 112, ../../sass/partials/_main.scss */
+  /* line 116, ../../sass/partials/_main.scss */
   .instagrid__background::after {
     background: white;
     bottom: 0px;
     content: '';
-    height: 480px;
+    height: 280px;
     position: absolute;
     transform-origin: left bottom;
     transform: skewY(4deg);
@@ -2510,74 +2516,76 @@ section {
   }
 }
 
-/* line 125, ../../sass/partials/_main.scss */
+/* line 129, ../../sass/partials/_main.scss */
 .instagrid__content {
   padding: 60px 0;
 }
 @media screen and (min-width: 1000px) {
-  /* line 125, ../../sass/partials/_main.scss */
+  /* line 129, ../../sass/partials/_main.scss */
   .instagrid__content {
-    padding: 100px 0 90px;
+    padding: 0;
     position: relative;
     z-index: 2;
+    margin-bottom: 189px;
+    top: 100px;
   }
 }
 
-/* line 135, ../../sass/partials/_main.scss */
+/* line 141, ../../sass/partials/_main.scss */
 .instagrid__description {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1000px) {
-  /* line 135, ../../sass/partials/_main.scss */
+  /* line 141, ../../sass/partials/_main.scss */
   .instagrid__description {
     float: right;
     margin: 0;
   }
 }
 
-/* line 144, ../../sass/partials/_main.scss */
+/* line 150, ../../sass/partials/_main.scss */
 .instagrid__pics {
   margin: 10px 0 0;
 }
 @media screen and (min-width: 1000px) {
-  /* line 144, ../../sass/partials/_main.scss */
+  /* line 150, ../../sass/partials/_main.scss */
   .instagrid__pics {
     margin-top: 15px;
   }
 }
 
-/* line 152, ../../sass/partials/_main.scss */
+/* line 158, ../../sass/partials/_main.scss */
 .instagrid__separator {
   clear: both;
   height: 10px;
 }
 @media screen and (min-width: 1000px) {
-  /* line 152, ../../sass/partials/_main.scss */
+  /* line 158, ../../sass/partials/_main.scss */
   .instagrid__separator {
     display: none;
   }
 }
 
-/* line 161, ../../sass/partials/_main.scss */
+/* line 167, ../../sass/partials/_main.scss */
 .post-listing {
   padding: 30px 0 10px;
 }
-/* line 164, ../../sass/partials/_main.scss */
+/* line 170, ../../sass/partials/_main.scss */
 .square .post-listing {
   padding: 30px 0 0;
 }
 @media screen and (min-width: 1000px) {
-  /* line 161, ../../sass/partials/_main.scss */
+  /* line 167, ../../sass/partials/_main.scss */
   .post-listing {
     padding: 10px 0 0;
   }
 }
 
-/* line 173, ../../sass/partials/_main.scss */
+/* line 179, ../../sass/partials/_main.scss */
 .post-listing__single {
   margin-bottom: 30px;
 }
-/* line 176, ../../sass/partials/_main.scss */
+/* line 182, ../../sass/partials/_main.scss */
 .post-listing__single.last {
   margin-bottom: 0;
 }
@@ -2585,83 +2593,83 @@ section {
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
-/* line 185, ../../sass/partials/_main.scss */
+/* line 191, ../../sass/partials/_main.scss */
 .archives-filter {
   margin-top: 15px;
 }
 
-/* line 189, ../../sass/partials/_main.scss */
+/* line 195, ../../sass/partials/_main.scss */
 .book-cover {
   margin: 15px 0;
 }
 
-/* line 193, ../../sass/partials/_main.scss */
+/* line 199, ../../sass/partials/_main.scss */
 .post-header {
   padding: 0 0 10px;
 }
 @media screen and (min-width: 830px) {
-  /* line 193, ../../sass/partials/_main.scss */
+  /* line 199, ../../sass/partials/_main.scss */
   .post-header {
     text-align: center;
   }
 }
 
-/* line 201, ../../sass/partials/_main.scss */
+/* line 207, ../../sass/partials/_main.scss */
 .post-navigation {
   padding: 50px 30px;
 }
 
-/* line 205, ../../sass/partials/_main.scss */
+/* line 211, ../../sass/partials/_main.scss */
 .post-mailinglist {
   padding: 25px 0 0;
 }
 @media screen and (min-width: 830px) {
-  /* line 205, ../../sass/partials/_main.scss */
+  /* line 211, ../../sass/partials/_main.scss */
   .post-mailinglist {
     padding: 75px 0 50px;
     text-align: center;
   }
 }
 
-/* line 214, ../../sass/partials/_main.scss */
+/* line 220, ../../sass/partials/_main.scss */
 .post-toc {
   margin-top: 40px;
   padding: 30px 0 0;
 }
 @media screen and (min-width: 830px) {
-  /* line 214, ../../sass/partials/_main.scss */
+  /* line 220, ../../sass/partials/_main.scss */
   .post-toc {
     margin-top: 90px;
     text-align: center;
   }
 }
 
-/* line 224, ../../sass/partials/_main.scss */
+/* line 230, ../../sass/partials/_main.scss */
 .subpage-body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 30px;
 }
 
-/* line 230, ../../sass/partials/_main.scss */
+/* line 236, ../../sass/partials/_main.scss */
 .square {
   padding-bottom: 50px;
 }
-/* line 233, ../../sass/partials/_main.scss */
+/* line 239, ../../sass/partials/_main.scss */
 .square.dark {
   background-color: #283e4c;
 }
 
-/* line 238, ../../sass/partials/_main.scss */
+/* line 244, ../../sass/partials/_main.scss */
 #mc_embed_signup {
   padding: 50px 0;
 }
-/* line 241, ../../sass/partials/_main.scss */
+/* line 247, ../../sass/partials/_main.scss */
 .post-mailinglist #mc_embed_signup {
   padding: 30px 0 20px;
 }
 @media screen and (min-width: 830px) {
-  /* line 238, ../../sass/partials/_main.scss */
+  /* line 244, ../../sass/partials/_main.scss */
   #mc_embed_signup {
     margin: 0 auto;
     max-width: 500px;
