@@ -117,24 +117,8 @@ section {
 }
 
 .instagrid__background {
-	background-color: #F2F5F8;
-	position: relative;
-	z-index: -2;
-	width: 100%;
-
-	@include at-query($two) {
-		&::after {
-		  background: white;
-		  bottom: 0px;
-		  content: '';
-	      height: 280px;
-		  position: absolute;
-		  transform-origin: left bottom;
-		  transform: skewY(4deg);
-		  width: 100%;
-		  z-index: -1;
-		}
-	}
+	background: #fff url('/img/instagrid-background.svg') no-repeat;
+	background-size: cover;
 }
 .instagrid__content {
 	padding: 60px 0;
@@ -142,7 +126,6 @@ section {
 	@include at-query($two) {
 		padding: 0;
 		position: relative;
-		z-index: 2;
 	    margin-bottom: 189px;
 	    top: 100px;
 	}
