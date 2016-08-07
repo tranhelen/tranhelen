@@ -413,7 +413,7 @@ th {
   /* [2] */
   padding: 0;
   /* [2] */
-  margin-left: -24px;
+  margin-left: -30px;
   /* [3] */
 }
 /* line 2, ../../sass/modules/_mixins.scss */
@@ -437,7 +437,7 @@ th {
 .grid__item {
   display: block;
   float: left;
-  padding-left: 24px;
+  padding-left: 30px;
   /* [2] */
   vertical-align: top;
   /* [3] */
