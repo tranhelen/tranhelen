@@ -167,7 +167,8 @@ section {
 	@include at-query($two) {
 		padding: ($unit / 3) 0 0;
 
-		.subpage & {
+		.subpage &,
+		.subpage-custom & {
 			padding-top: $unit;
 		}
 	}
