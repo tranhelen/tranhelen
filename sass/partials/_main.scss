@@ -126,13 +126,13 @@ section {
 	@include at-query($two) {
 		padding: 0;
 		position: relative;
-	    margin-bottom: 189px;
+	    margin-bottom: 190px;
 	    top: 100px;
 	}
 }
 
 .instagrid__description {
-	margin-bottom: 30px;
+	margin-bottom: $unit;
 
 	@include at-query($two) {
 		float: right;
@@ -150,7 +150,7 @@ section {
 
 .instagrid__separator {
 	clear: both;
-	height: 10px;
+	height: $unit / 3;
 
 	@include at-query($two) {
 		display: none;
@@ -168,7 +168,7 @@ section {
 		padding: ($unit / 3) 0 0;
 
 		.subpage & {
-			padding-top: 20px;
+			padding-top: $unit;
 		}
 	}
 }

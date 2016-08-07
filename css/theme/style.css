@@ -2560,7 +2560,7 @@ section {
   .instagrid__content {
     padding: 0;
     position: relative;
-    margin-bottom: 189px;
+    margin-bottom: 190px;
     top: 100px;
   }
 }
@@ -2615,7 +2615,7 @@ section {
   }
   /* line 170, ../../sass/partials/_main.scss */
   .subpage .post-listing {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 }
 
