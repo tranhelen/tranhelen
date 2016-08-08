@@ -39,7 +39,7 @@ slug: rinse-and-repeat
 	    <div class="grid__item push--one--two-twelfths one--eight-twelfths push--two--two-tenths two--six-tenths">
 	    	<p>To keep the rhythm of a website consistent, I usually assign what I call a <em>magic number</em> to a lot of the elements and keep repeating it or multiples of it over and over again. This website makes use of multiples or divisions of 30 and 50. Spaces between elements are measured at 50px or 30px depending on the context.</p>
 
-	    	<p>This layout required me to break this rule quite a few times in development to get the type to align exactly the way I wanted to. Typography isn't the best on the web and I don't like to leave it up to code to decide how type will sit. Typography is more of an art than a science.</p>
+	    	<p>This layout required me to break this rule quite a few times in development to get the type to align exactly the way I wanted to. Typography isn&rsquo;t the best on the web and I don&rsquo;t like to leave it up to code to decide how type will sit. Typography is more of an art than a science.</p>
 	    </div>
 	</div>
 
@@ -95,7 +95,7 @@ slug: rinse-and-repeat
 
 	    	<p>This website is <em>mostly</em> on white and has some deviating styles for when the content needs to sit on a darker background. I noted only the deviated ones and when the styles remained the same from the first to last breakpoints.</p>
 
-			<p>If you double-checked <a href="https://github.com/tranhelen/tranhelen.github.io">all my styles</a> you would probably noticed that some of what I&rsquo;ve written is incorrect. There are a few changes that happen from Design > Development when I&rsquo;m testing. These things happen but I&rsquo;ve generally kept the majority of the styles.</p>
+			<p>If you double-checked <a href="https://github.com/tranhelen/tranhelen.github.io">all my styles</a> you would probably notice that some of what I&rsquo;ve written in this picture is incorrect. There are typically a few changes that happen from Design > Development. These things happen but I&rsquo;ve generally kept the majority of the styles.</p>
 
 			<h2>The assets</h2>
 
