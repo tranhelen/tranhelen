@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: The Night I Met "Hate"
+title: The Night I Met &ldquo;Hate&rdquo;
 category: [blog, life]
 slug: the-night-i-met-hate
 ---

@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: Everything's Great
+title: Everything&rsquo;s Great
 category: [blog, life]
 slug: everythings-great
 ---

@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: The Future of UI and the Dream of the '90s
+title: The Future of UI and the Dream of the &rsquo;90s
 category: [blog, design]
 slug: the-future-of-UI-and-the-dream-of-the-90s
 
