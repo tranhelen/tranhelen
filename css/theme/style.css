@@ -2317,7 +2317,7 @@ hr {
 @media screen and (min-width: 1000px) {
   /* line 290, ../../sass/partials/_typography.scss */
   hr {
-    margin: 50px auto;
+    margin: 30px auto;
   }
 }
 
@@ -2482,7 +2482,7 @@ section {
   /* line 44, ../../sass/partials/_main.scss */
   .bio {
     background-position: 50% -80px;
-    padding: 140px 0 235px;
+    padding: 100px 0 235px;
   }
   /* line 67, ../../sass/partials/_main.scss */
   .bio::after {
@@ -2584,7 +2584,7 @@ section {
 @media screen and (min-width: 1000px) {
   /* line 143, ../../sass/partials/_main.scss */
   .instagrid__pics {
-    margin-top: 15px;
+    margin-top: 18px;
   }
 }
 

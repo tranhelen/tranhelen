@@ -62,7 +62,7 @@ section {
 
 	@include at-query($two) {
 		background-position: 50% -80px;
-		padding: 140px 0 235px;
+		padding: 100px 0 235px;
 
 		&::after {
 			height: 200px;
@@ -144,7 +144,7 @@ section {
 	margin: 10px 0 0;
 
 	@include at-query($two) {
-		margin-top: ($unit / 2);
+		margin-top: 18px;
 	}
 }
 
