@@ -214,6 +214,10 @@ a {
 
 	&:hover {
 		color: $colorTextBody;
+
+		footer & {
+			color: #fff;
+		}
 	}
 
 	@include transition;
