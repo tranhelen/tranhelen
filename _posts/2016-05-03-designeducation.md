@@ -43,7 +43,7 @@ I'm not using this post to announce some sort of educational product so we can a
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6">*I've witnessed this before and it was hilarious. <a href="#anchor-1">&#8593;</a></p>
+    <p id="note-1">*I've witnessed this before and it was hilarious. <a href="#anchor-1">&#8593;</a></p>
 
-	<p id="note-2" class="h6">*Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/">Bloc. It's not, just to clarify. <a href="#anchor-2">&#8593;</a></p>
+	<p id="note-2">*Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/">Bloc. It's not, just to clarify. <a href="#anchor-2">&#8593;</a></p>
 </div>
