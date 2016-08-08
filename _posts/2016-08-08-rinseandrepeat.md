@@ -17,7 +17,7 @@ slug: rinse-and-repeat
 
 		<h2>The foundation</h2>
 
-		<p>My website is set on a 12 column grid which I use out of laziness but in the print world I tend to use odd-numbered columns. I wanted something with more movement so I arranged everything in a slightly inaccurate 'S' shape on the grid and went with diagonally sliced rectangles to offer some more movement. This is a pretty basic usage of a grid system.</p>
+		<p>My website is set on a 12 column grid which I use out of laziness but in the print world I tend to use odd-numbered columns. I wanted something with more movement so I arranged everything in a slightly inaccurate &lsquo;S&rsquo; shape on the grid and went with diagonally sliced rectangles to offer some more movement. This is a pretty basic usage of a grid system.</p>
 
         <hr class="noborder">
     </div>
