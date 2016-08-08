@@ -2340,7 +2340,7 @@ input {
   height: 58px;
   background-color: transparent;
   border: 3px solid #d5d7d8;
-  color: #fff;
+  color: #6e8b9d;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
   font-weight: 600;
@@ -2367,6 +2367,7 @@ input.button:hover {
 /* line 339, ../../sass/partials/_typography.scss */
 input.dramatic {
   border-color: rgba(213, 215, 216, 0.2);
+  color: #fff;
 }
 @media screen and (min-width: 1000px) {
   /* line 339, ../../sass/partials/_typography.scss */
@@ -2377,13 +2378,13 @@ input.dramatic {
   }
 }
 
-/* line 350, ../../sass/partials/_typography.scss */
+/* line 351, ../../sass/partials/_typography.scss */
 .picker-upper {
   position: relative;
   top: -2px;
 }
 
-/* line 356, ../../sass/partials/_typography.scss */
+/* line 357, ../../sass/partials/_typography.scss */
 .fieldnotes p {
   color: #6e8b9d;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2391,7 +2392,7 @@ input.dramatic {
   line-height: 25px;
 }
 
-/* line 364, ../../sass/partials/_typography.scss */
+/* line 365, ../../sass/partials/_typography.scss */
 .filter--off {
   opacity: 0.5;
   -webkit-transition: all 0.35s ease;
@@ -2400,7 +2401,7 @@ input.dramatic {
   transition: all 0.35s ease;
 }
 
-/* line 370, ../../sass/partials/_typography.scss */
+/* line 371, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin-bottom: 30px;

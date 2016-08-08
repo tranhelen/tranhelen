@@ -314,7 +314,7 @@ input {
 	height: 58px;
 	background-color: transparent;
 	border: 3px solid #d5d7d8;
-	color: #fff;
+	color: $colorTextSubtle;
 	font-family: $stack2;
 	font-size: em(18px);
 	font-weight: 600;
@@ -338,6 +338,7 @@ input {
 
 	&.dramatic {
 		border-color: rgba(#d5d7d8,0.2);
+		color: #fff;
 
 		@include at-query($two) {
 			height: 80px;
