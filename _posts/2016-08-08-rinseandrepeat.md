@@ -13,7 +13,7 @@ slug: rinse-and-repeat
 
 		<p>Things are a little different than when I launched last time. It was important a bit ago to retain an emphasis on the <a href="http://helentran.com/a-love-letter">content</a>. I removed a lot of the ornamentation off the website to encourage myself to focus on writing. Now that I have the weekly cadence down, I still have a distribution problem to contend with.</p>
 
-		<p>After a couple of months of writing some people have noted they don't see my tweets about my writing or forget about checking. Now I have a <a href="http://helentran.com/mailinglist.html">mailing list</a> for that and I wanted some more flexibility for other content. The website I had would not scale with what I was picturing so it had to go.</p>
+		<p>After a couple of months of writing some people have noted they don&rsquo;t see my tweets about my writing or forget about checking. Now I have a <a href="http://helentran.com/mailinglist.html">mailing list</a> for that and I wanted some more flexibility for other content. The website I had would not scale with what I was picturing so it had to go.</p>
 
 		<h2>The foundation</h2>
 
@@ -101,7 +101,7 @@ slug: rinse-and-repeat
 
 			<p>I went back behind the camera to shoot a couple of self-portraits for use on this website. In the past I&rsquo;ve used the Annie Leibovitz lighting set-up (double diffusion under a large studio light) but this time I opted for daylight against a DIY black studio back-drop. The rest is just understanding how light hits you and how to set off a pocketwizard with your foot.</p>
 
-			<p>The rest of the photographs used are also mine and pulled from my <a href="http://instagram.com/tranhelen">Instagram</a>. I overlaid them over colours to reduce the intensity. The added benefit is that you can save these photos at a pretty low resolution and they'll look pretty decent. Performance wins all around.</p>
+			<p>The rest of the photographs used are also mine and pulled from my <a href="http://instagram.com/tranhelen">Instagram</a>. I overlaid them over colours to reduce the intensity. The added benefit is that you can save these photos at a pretty low resolution and they&rsquo;ll look pretty decent. Performance wins all around.</p>
 
 			<h2>The launch</h2>
 
