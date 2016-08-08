@@ -105,7 +105,7 @@ slug: rinse-and-repeat
 
 			<h2>The launch</h2>
 
-			<p>It took me about a week to go through this process from beginning to end. I'm very used to this exercise and it's fun to keep launching things to my .com. If you have any thoughts about it, let me know through the Dribbble shot or on Twitter.</p>
+			<p>It took me about a week to go through this process from beginning to end. I'm very used to this exercise and it's fun to keep launching things to my .com. If you have any thoughts about it, let me know through the <a href="https://dribbble.com/shots/2886184-V8-0-Redesign">Dribbble shot</a> or on <a href="http://twitter.com/tranhelen">Twitter</a>.</p>
 	    </div>
 	</div>
 </div>
