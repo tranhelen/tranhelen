@@ -119,7 +119,13 @@ section {
 .instagrid__background {
 	background: #fff url('/img/instagrid-background.svg') no-repeat;
 	background-size: cover;
+	background-position: 50%;
+
+	@include at-query($two) {
+		background-position: 0%;
+	}
 }
+
 .instagrid__content {
 	padding: 60px 0;
 
