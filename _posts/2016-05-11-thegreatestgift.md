@@ -12,7 +12,7 @@ slug: his-greatest-gift
 
 When he passed, I wasn't there. I was on the other side of the globe back home living life as best I could as an empty husk. When *you're* the problem, you don't really know you *have* a problem. Life was going okay.
 
-I had just come off a barely emotionally maneagable series of events. I had closed my business. I cancelled a wedding. I left my partner of five years. I moved away from home into a place that was supposed to be ours. I had a new job. Then I had another new job. All this, within the span of less than twelve months.
+I had just come off a barely emotionally maneagable series of events. I had closed my business. I cancelled a wedding. I left my partner of five years. I moved away from home into a place which was supposed to be ours. I had a new job. Then I had another new job. All this, within the span of less than twelve months.
 
 I thought I was handling it. And then he died.
 
@@ -20,7 +20,7 @@ The majority of that day was spent watching everyone around me through my glass 
 
 We sat him in a chair in the living room of his home and I watched as people began filtering in. My aunts and uncles, my cousins and their children, and their children's children filled the room until I could no longer tell who was related to me and how. I remember turning to my partner at the time and saying, *"Wow, I can't believe all these people came from them."*
 
-His death compounded on top of the grieving for the life that I had burned down. Change was the goal but I didn't know how to get it and had hastily thrown away the entire thing. He showed me what I wanted that day but I had no idea what was in front of me. His death was the first step: my porcelain veneer cracked.
+His death compounded on top of the grieving for the life I had burned down. Change was the goal but I didn't know how to get it and had hastily thrown away the entire thing. He showed me what I wanted that day but I had no idea what was in front of me. His death was the first step: my porcelain veneer cracked.
 
 That life wasn't what I wanted: it was *The Default*. *The Default* is the life you get if you don't try very hard to put into motion what you want. *The Default* was what I had ended up with. When you figure that out, you need to escape but escape is never easy. I realized I didn't like my life but I never realized the depth of the dislike until he died. After he passed, I re-evaluated everything. I needed him to help me with that.
 

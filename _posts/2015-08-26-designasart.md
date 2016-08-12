@@ -40,13 +40,13 @@ Amanda goes on to define an artist as someone who connects things and wants to s
 
 Everyone connects differently. And those connections are infused with their collections and over the years, they eventually form the basis for your truths. I design according to my truths, and you to yours.
 
-What’s interesting to me is how vastly different everyone connects and collects. Put the same problem in front of multiple designers and they all see the problem a little differently. They ask why differently, their processes may be different and they could ultimately, all end up with a different solution. This doesn't necessarily mean that any of them are wrong, though.
+What’s interesting to me is how vastly different everyone connects and collects. Put the same problem in front of multiple designers and they all see the problem a little differently. They ask why differently, their processes may be different and they could ultimately, all end up with a different solution. This doesn't necessarily mean any of them are wrong, though.
 
-From Vignelli to Mau to Ives, many famous Designers have developed very clear and identifiable styles. As they get older, they will explain that it was the *right* way but we all know there is no right way. There is *their* way and they collected people who agreed with them.<a id="anchor-1" href="#note-1">*</a> Their output is an expression of themselves. The solution is not divorced from it's creator. I understand their values, and if my values align with theirs, they have made an emotional connection with me.
+From Vignelli to Mau to Ives, many famous Designers have developed very clear and identifiable styles. As they get older, they will explain it was the *right* way but we all know there is no right way. There is *their* way and they collected people who agreed with them.<a id="anchor-1" href="#note-1">*</a> Their output is an expression of themselves. The solution is not divorced from it's creator. I understand their values, and if my values align with theirs, they have made an emotional connection with me.
 
 No one likes to put UX design in the same category as art. As an industry we’ve spent years screaming to whoever would listen about how design is definitely not art, it’s problem-solving, and a job, and we can measure it, and design can be objective. I understand the resistance. You can't explain some decisions which makes it hard to gain acceptance from others.
 
-All that aside, I occasionally worry that if in the quest to justify our work that we're losing out on something that is beautiful (possibly innovative) because it’s less measurable. Is a clear vision not what people speak to when they put such products on pedestals and marvel at how different they are? What if that vision was an expression?
+All that aside, I occasionally worry if in the quest to justify our work that we're losing out on something which is beautiful (possibly innovative) because it’s less measurable. Is a clear vision not what people speak to when they put such products on pedestals and marvel at how different they are? What if vision was an expression?
 
 <hr class="small">
 

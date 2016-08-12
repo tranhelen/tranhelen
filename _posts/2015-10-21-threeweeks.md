@@ -16,8 +16,8 @@ While I have always been a huge proponent of responsive web and was one of the f
 
 ## Native mobile is preferred.
 
-When I could and it was available, my preference was a native mobile app. In short, they just tend to make better use of real estate. Unfortunately, the same problems that persist on desktop non-responsive and responsive websites still exist in native apps. They can be buggy and flows are not optimized for speed or information consumption.
+When I could and it was available, my preference was a native mobile app. In short, they just tend to make better use of real estate. Unfortunately, the same problems which persist on desktop non-responsive and responsive websites still exist in native apps. They can be buggy and flows are not optimized for speed or information consumption.
 
-Overall if my livelihood didn't depend on a computer, without a question, I would ditch any laptop in favour of my phone. I worry a lot about "wasted time" spent on screens so using my phone for managing my life and nothing beyond that was exactly what I've always wanted.
+Overall if my livelihood didn't depend on a computer, without a question, I would ditch any laptop in favour of my phone. I worry a lot about "wasted time" spent on screens so using my phone for managing my life and nothing beyond was exactly what I've always wanted.
 
 The impact of accessible information is so profound and has such a strong ripple effect. We've seen the impact of accessible technology on the developed world and the developing world is rapidly adopting mobile phones to gain the same access. Right now, we still have a long way to go and I can't shake this feeling that we're not moving fast enough.

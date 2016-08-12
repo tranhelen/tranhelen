@@ -8,9 +8,9 @@ hero: 01-01hero.jpg
 hero_caption: Minority Report (2002)
 ---
 
-I once worked for a client where I was the only Designer on the team and the only female involved in building the product. The client was obsessed with integrating ‘social.’ Despite my general dislike of arbitrary social functions, they were adamant that it had to happen so I moved ahead with creating a heart icon to represent a ‘Like’ function. It was a small piece of a much larger UI redesign so I assumed it would be glossed over and I could focus on fighting the bigger battles.
+I once worked for a client where I was the only Designer on the team and the only female involved in building the product. The client was obsessed with integrating ‘social.’ Despite my general dislike of arbitrary social functions, they were adamant it had to happen so I moved ahead with creating a heart icon to represent a ‘Like’ function. It was a small piece of a much larger UI redesign so I assumed it would be glossed over and I could focus on fighting the bigger battles.
 
-I tested various animations for the action and a few hours later, the heart icon was axed by a developer. When further questioned, I found out that someone on the team decided it was *too feminine* (i.e. too tied to our emotions) and that a man wouldn’t want to click on it.
+I tested various animations for the action and a few hours later, the heart icon was axed by a developer. When further questioned, I found out that someone on the team decided it was *too feminine* (i.e. too tied to our emotions) and a man wouldn’t want to click on it.
 	
 <figure>
 	<img src="/img/post/01-02thematrix.jpg">
@@ -26,7 +26,7 @@ My colleague’s refusal to add an emotionally-associated action to the app is a
 
 This visual concept was seemingly fully formed towards the end of the 90s. Design aesthetics became systems of mathematically arranged lines, geometric shapes, numbers and cold colour palettes. All interfaces were stripped of humanistic elements aside from the occasional AI human face.
 
-In this dream from the 90's, we hoped for a world where every computer knows us personally. We would wake up to them, have them around us all day, and they would be the last thing we interact with before we go to sleep. They would predict our needs and wants and all interfaces would (feel) as natural as having a conversation with a friend. Technology would become our primary means (or only means) of communication and we would form relationships with these objects that take care of us.
+In this dream from the 90's, we hoped for a world where every computer knows us personally. We would wake up to them, have them around us all day, and they would be the last thing we interact with before we go to sleep. They would predict our needs and wants and all interfaces would (feel) as natural as having a conversation with a friend. Technology would become our primary means (or only means) of communication and we would form relationships with these objects which take care of us.
 
 **In other words, we’re expected to translate our emotions through emotionless interfaces.**
 
@@ -40,7 +40,7 @@ Serving a need and having the user achieve what they need to do simply and quick
 
 In Frank Chimero’s, “The Shape of Design” he writes (emphasis mine),
 		
-> The warmth and exuberance of communication and the accommodation to the audience necessitated by delightful design also makes it easier for the audience to spot the presence of the designer in the work. **The work becomes more humanized in its tone and effect, so it becomes easy to see that there are people behind it.**
+> The warmth and exuberance of communication and the accommodation to the audience necessitated by delightful design also makes it easier for the audience to spot the presence of the designer in the work. **The work becomes more humanized in its tone and effect, so it becomes easy to see there are people behind it.**
 
 Although technology has come a long way, it has not replaced face-to-face communication—we still need assurance that there is someone on the other side. While many users may not notice one or two details in a UI, they can feel the accumulation of those efforts.
 
@@ -48,14 +48,14 @@ So, what tools do we have at our disposal? Designers can look beyond basic aesth
 
 ### Sound
 
-Sound affects us [physiologically, psychologically, cognitively, and behaviourally](http://www.ted.com/talks/julian_treasure_the_4_ways_sound_affects_us). While we are still discovering ways sound can be applied to application interfaces, there is an industry we can look to that has mastered the use of sound to provoke emotion—the gaming industry.
+Sound affects us [physiologically, psychologically, cognitively, and behaviourally](http://www.ted.com/talks/julian_treasure_the_4_ways_sound_affects_us). While we are still discovering ways sound can be applied to application interfaces, there is an industry we can look to which has mastered the use of sound to provoke emotion—the gaming industry.
 
 <figure>
 	<img src="/img/post/01-04journey.jpg">
 	<figcaption class="inline">Journey (Thatgamecompany)</figcaption>
 </figure>
 
-Journey is an indie video game showcasing a [masterful use of sound](https://www.youtube.com/watch?v=bkL94nKSd2M). Austin Wintory, the game’s composer, based all the pieces on one theme that represented the player’s journey. The music dynamically responds to the user’s actions giving them immediate and personable feedback. The game designers’ efforts were rewarded with critical acclaim with many players describing it as “moving” or “religious.” Patrick Shaw, from Wired said the game made him feel a “wide range of emotions… wonder, fear, even sadness.”
+Journey is an indie video game showcasing a [masterful use of sound](https://www.youtube.com/watch?v=bkL94nKSd2M). Austin Wintory, the game’s composer, based all the pieces on one theme which represented the player’s journey. The music dynamically responds to the user’s actions giving them immediate and personable feedback. The game designers’ efforts were rewarded with critical acclaim with many players describing it as “moving” or “religious.” Patrick Shaw, from Wired said the game made him feel a “wide range of emotions… wonder, fear, even sadness.”
 
 While application interfaces probably don’t need to make use of immersive soundtracks, the addition of sound effects can add to a user’s experience (provided they have the option to opt-out.) Apps like [Clear](http://realmacsoftware.com/clear) and [Duolingo](https://www.duolingo.com) added cheery and triumphant sound effects to their completion actions. These sounds are a recognition of the user’s success and reinforces the visual mark of a, typically green, success state.
 
@@ -70,7 +70,7 @@ In UI design, we are afforded the luxury of using animation as a way to differen
 
 <figure>
 	<img src="/img/post/01-06walle.jpg">
-	<figcaption class="inline">Relating inanimate objects with human traits build emotional bonds that can last for days, months or even years</figcaption>
+	<figcaption class="inline">Relating inanimate objects with human traits build emotional bonds which can last for days, months, or even years</figcaption>
 </figure>
 
 Pixar is one of the most successful animation studios of all time. They are at the forefront of their industry; masters at blending animation with human emotions. At Disney’s D23 Event in 2011, the Pixar Team panel was asked, “Is there one element in every Pixar film that makes a Pixar film a “special” film or “different” from any other film?” John Lasseter replied,
@@ -81,7 +81,7 @@ Pixar’s key to success is their understanding of the value of emotion and what
 
 <hr class="small">
 
-What can we learn from the masters of animation and how can we apply that to our work in UI? Replicating what we see in everyday life reminds us of our personal experiences so the primary goal should be to make every interaction feel realistic.
+What can we learn from the masters of animation and how can we apply it to our work in UI? Replicating what we see in everyday life reminds us of our personal experiences so the primary goal should be to make every interaction feel realistic.
 
 In Disney animators Ollie Johnston and Frank Thomas’ book, The Illusion of Life: Disney Animation, they outline 12 basic principles to creating more realistic animations. While not the key point of an interface, we can apply these principles on a micro-level. Excellent examples of realistic and delightful animation can be seen in Tweetbot, Apple Maps and Vine.
 
@@ -102,7 +102,7 @@ In Disney animators Ollie Johnston and Frank Thomas’ book, The Illusion of Lif
 
 ### Copy
 
-While seemingly a very obvious way to communicate—copy and how we deal with inputs is often overlooked. In our rush to replace popular actions with iconography, designers often forget that sometimes copy can be just as powerful.
+While seemingly a very obvious way to communicate—copy and how we deal with inputs is often overlooked. In our rush to replace popular actions with iconography, designers often forget that copy can be just as powerful.
 
 We can make use of copy to speak to users conversationally, eliminate the chore of form input or provide discoverable and fun easter eggs. All three ways give the illusion of a person behind the product or device.
 
@@ -112,10 +112,6 @@ We can make use of copy to speak to users conversationally, eliminate the chore 
 	<img src="/img/post/01-10codecademy.jpg">
 	<figcaption class="inline">Codecademy’s conversational approach to education is approachable and unintimidating</figcaption>
 </figure>
-
-While seemingly a very obvious way to communicate—copy and how we deal with inputs is often overlooked. In our rush to replace popular actions with iconography, designers often forget that sometimes copy can be just as powerful.
-
-We can make use of copy to speak to users conversationally, eliminate the chore of form input or provide discoverable and fun easter eggs. All three ways give the illusion of a person behind the product or device.
 
 <figure class="left">
 	<img src="/img/post/01-11fantastical.jpg">
@@ -131,7 +127,7 @@ Lastly, [Clear](http://realmacsoftware.com/clear), which relies on a series of g
 	<figcaption class="inline">Clear's discoverable copy inspires and serves as a small reward for a hard day's work</figcaption>
 </figure>
 
-In the tech world where solid competition pops up on a daily basis, convincing a user that they *want* to use your product is key. By using sound, animation and copy Designers can endue delight into interfaces providing users with opportunities to build attachments to our products. While we can learn a lot from our science-fiction dreams, we need to understand how to connect deeper with our users.
+In the tech world where solid competition pops up on a daily basis, convincing a user they *want* to use your product is key. By using sound, animation and copy Designers can endue delight into interfaces providing users with opportunities to build attachments to our products. While we can learn a lot from our science-fiction dreams, we need to understand how to connect deeper with our users.
 
 The future of interface design isn’t a dream from the 90s. The future of interface design is about emotional awareness; connecting us with products the way we connect with each other.
 

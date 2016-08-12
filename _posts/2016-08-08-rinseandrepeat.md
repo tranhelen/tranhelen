@@ -11,9 +11,9 @@ slug: rinse-and-repeat
 
 		<h2>The objectives</h2>
 
-		<p>Things are a little different than when I launched last time. It was important a bit ago to retain an emphasis on the <a href="http://helentran.com/a-love-letter">content</a>. I removed a lot of the ornamentation off the website to encourage myself to focus on writing. Now that I have the weekly cadence down, I still have a distribution problem to contend with.</p>
+		<p>Things are a little different than when I launched last time. It was important a bit ago to retain an emphasis on the <a href="http://helentran.com/a-love-letter">content</a>. I removed a lot of the ornamentation off the website to encourage myself to focus on writing. Now that I have a weekly cadence down, I still have a distribution problem to contend with.</p>
 
-		<p>After a couple of months of writing some people have noted they don&rsquo;t see my tweets about my writing or forget about checking. Now I have a <a href="http://helentran.com/mailinglist.html">mailing list</a> for that and I wanted some more flexibility for other content. The website I had would not scale with what I was picturing so it had to go.</p>
+		<p>After a couple of months of writing some people have noted they don&rsquo;t see my tweets about my writing or forget about checking. A new <a href="http://helentran.com/mailinglist.html">mailing list</a> will hopefully alleviate that. I also wanted more flexibility for other content and the website I had would not scale so it had to go.</p>
 
 		<h2>The foundation</h2>
 
@@ -95,13 +95,13 @@ slug: rinse-and-repeat
 
 	    	<p>This website is <em>mostly</em> on white and has some deviating styles for when the content needs to sit on a darker background. I noted only the deviated ones and when the styles remained the same from the first to last breakpoints.</p>
 
-			<p>If you double-checked <a href="https://github.com/tranhelen/tranhelen.github.io">all my styles</a> you would probably notice that some of what I&rsquo;ve written in this picture is incorrect. There are typically a few changes that happen from Design > Development. These things happen but I&rsquo;ve generally kept the majority of the styles.</p>
+			<p>If you double-checked <a href="https://github.com/tranhelen/tranhelen.github.io">all my styles</a> you'll notice some of what is written is incorrect. There are typically a few changes that happen from Design > Development. These things happen however I&rsquo;ve generally kept the majority of the styles.</p>
 
 			<h2>The assets</h2>
 
 			<p>I went back behind the camera to shoot a couple of self-portraits for use on this website. In the past I&rsquo;ve used the Annie Leibovitz lighting set-up (double diffusion under a large studio light) but this time I opted for daylight against a DIY black studio back-drop. The rest is just understanding how light hits you and how to set off a pocketwizard with your foot.</p>
 
-			<p>The rest of the photographs used are also mine and pulled from my <a href="http://instagram.com/tranhelen">Instagram</a>. I overlaid them over colours to reduce the intensity. The added benefit is that you can save these photos at a pretty low resolution and they&rsquo;ll look pretty decent. Performance wins all around.</p>
+			<p>The rest of the photographs used are also mine and pulled from my <a href="http://instagram.com/tranhelen">Instagram</a>. I overlaid them over colours to reduce the intensity. The added benefit is you can save these photos at a pretty low resolution and they&rsquo;ll look pretty decent. Performance wins all around.</p>
 
 			<h2>The launch</h2>
 

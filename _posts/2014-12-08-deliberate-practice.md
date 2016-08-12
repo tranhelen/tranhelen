@@ -14,9 +14,9 @@ The study compared two groups of Chess players who had spent 10,000 hours playin
 
 ## The difference
 
-One group practiced with tight time limits and worked through distractions replicating the tournament atmosphere. The other group emphasized serious study; they read books, took on mentors and identified and eliminated their weaknesses. Instead of practicing in environments they would normally encounter, the second group focused their attention on what they *didn’t* know. It turns out that this differentiation was the most dominating factor in predicting chess skill.
+One group practiced with tight time limits and worked through distractions replicating the tournament atmosphere. The other group emphasized serious study; they read books, took on mentors and identified and eliminated their weaknesses. Instead of practicing in environments they would normally encounter, the second group focused their attention on what they *didn’t* know. It turns out this differentiation was the most dominating factor in predicting chess skill.
 
-Anders Ericsson, recognized as one of the world’s leading researchers on expertise, coined the term “deliberate practice” to describe activity designed for the sole purpose of improvement. In one of his studies, he noted that there was [little scientific evidence](http://projects.ict.usc.edu/itw/gel/EricssonDeliberatePracticePR93.pdf) of natural abilities to explain expert success,
+Anders Ericsson, recognized as one of the world’s leading researchers on expertise, coined the term “deliberate practice” to describe activity designed for the sole purpose of improvement. In one of his studies, he noted there was [little scientific evidence](http://projects.ict.usc.edu/itw/gel/EricssonDeliberatePracticePR93.pdf) of natural abilities to explain expert success,
 
 <blockquote class="large">
 	<p>“Most individuals who start as active professionals… change their behaviour and increase their performance for a limited time until they reach an acceptable level. Beyond this point, however, further improvements appear to be unpredictable and the number of years of work… is a poor predicator of attained performance.”</p>
@@ -26,7 +26,7 @@ If you show up everyday at work and do the same thing, you are not progressing. 
 
 While I mainly shy away from looking at formal education for guidance, I think there is an important model worth mentioning. In most commonwealth countries or in Europe, you can continue past your post-graduate to obtain your master’s degree. This degree is anywhere from one to six years of formal study of a particular topic.
 
-If you are in the design field (especially one that is UX-focused) it is a pretty big rarity to have a Masters of Arts. The knowledge acquired in a formal educational setting can seem impractical, given that these programs focus on academics rather than hands-on experience.
+If you are in the design field (especially one which is UX-focused) it is a pretty big rarity to have a Masters of Arts. The knowledge acquired in a formal educational setting can seem impractical, given these programs focus on academics rather than hands-on experience.
 
 Our Director of Design at Shopify, Verne Ho, has written about the idea of a [Design Thesis](https://medium.com/@verneho/the-design-thesis-63c5a7bfed02), which is very similar to a thesis program you would typically be in while obtaining your Master’s degree. You can think of this as another way of looking at deliberate practice. You find a track to devote yourself to (just start with something you like) and deliberately “practice” it until you have exhausted your resources.
 
@@ -36,13 +36,13 @@ I would be remiss if I did not address the concerns I typically hear from people
 
 First, I want to dispel the notion that you need a lot of time. It simply is not true: compounding interest is one of the most powerful forces in the world. I learned how to speak and read Spanish in two years practicing only one hour a week. After some time, you will be surprised at how far you have progressed.
 
-Second, as Tim Ferris likes to say: it is not that you don’t have any time, it is that you do not have any priorities. Practice is hard and not many people can be consistent. However, I have found that when I make practice a priority it has paid off in ways that I could have never imagined.
+Second, as Tim Ferris likes to say: it is not that you don’t have any time, it is that you do not have any priorities. Practice is hard and not many people can be consistent. However, I have found when I make practice a priority it has paid off in ways I could have never imagined.
 
-You do not have to be an autodidact, but you can be better than you are now and that is a commendable goal.
+You do not have to be an autodidact  but you can be better than you are now.
 
 ## Finding a track to explore
 
-Here are some ideas of tracks you can consider when trying to find a topic to study. There is an enormous amount of complementary skill-sets for designers and these are just some resources that I found helpful when I was trying to find my own.
+Here are some ideas of tracks you can consider when trying to find a topic to study. There is an enormous amount of complementary skill-sets for designers and these are just some resources I found helpful when I was trying to find my own.
 
 ### Theoretic
 
@@ -65,7 +65,7 @@ This is a pretty popular book and I still believe it is one of the best introduc
 The IA Library is comprehensive list of sources including articles, books, blogs and more. I have found some links to be dead though, so it is a bit of a mixed bag.
 
 [Information Architecture for the World Wide Web](http://shop.oreilly.com/product/9780596527341.do)  
-I have seen this book referenced over and over again. I have not read it myself but if a lot of people assert that it’s good, the likelihood is pretty high that it’s good. (Calm yourselves, contrarians.)
+I have seen this book referenced over and over again. I have not read it myself but if a lot of people assert it’s good, the likelihood is pretty high it’s good. (Calm yourselves, contrarians.)
 
 [Nielsen Norman Group](http://www.nngroup.com/reports/)  
 NN/g writes research reports about a wide range of topics but they do have a 1,349-page report with 77 IA trees and 1106 navigation systems. It’s paid to read but there’s also a free 156-page report about site maps. This would be a good place to test if IA is of interest to you.
@@ -91,7 +91,7 @@ Luke’s breadth of work is immense. He is a huge source of knowledge across all
 ##### Motion Animation
 
 [The Illusion of Life: Disney Animation](http://www.amazon.ca/The-Illusion-Life-Disney-Animation/dp/0786860707) by Frank Thomas  
-Yes, this is a book for another industry entirely but if you’re not starting with Disney and Pixar, you will be missing out on a source of inspiration that have kept entire generations of animators from burning out.
+Yes, this is a book for another industry entirely but if you’re not starting with Disney and Pixar, you will be missing out on a source of inspiration which has kept entire generations of animators from burning out.
 
 [The Animator's Survival Kit](http://www.amazon.ca/The-Animators-Survival-Kit-Principles/dp/086547897X/ref=pd_bxgy_b_img_y) by Richard Williams  
 For a more practical look at how to apply animation methods and principles to your motion work, this is known as *the* book on animation. You can also find a 16-DVD box set which accompanies the book with footage from his masterclasses and additional animation examples.
@@ -109,9 +109,9 @@ When I was first jumping into front-end development, these websites were indispe
 
 <hr class="small">
 
-This list is very incomplete and I am by no means saying that you would become an expert in any of these topics very quickly. Some designers have built entire careers based on just one of these topics however it might be helpful to explore a little of each topic to see what you like prior to specialization. Another thing to note: these are very obvious tracks. Complementary skill-sets for Product Designers could also include more knowledge about business, marketing and economics.
+This list is very incomplete and I am by no means saying you would become an expert in any of these topics very quickly. Some designers have built entire careers based on just one of these topics however it might be helpful to explore a little of each topic to see what you like prior to specialization. Another thing to note: these are very obvious tracks. Complementary skill-sets for Product Designers could also include more knowledge about business, marketing and economics.
 
-I hope this post inspires you to better yourself through practice and find a complementary skill-set that will help your career as a Designer. I believe expanding your boundaries will keep you from becoming stagnant and bored. Not only does deliberate practice help you, but hopefully your practice could inspire or educate a whole generation of young designers.
+I hope this post inspires you to better yourself through practice and find a complementary skill-set which will help your career as a Designer. I believe expanding your boundaries will keep you from becoming stagnant and bored. Not only does deliberate practice help you, but hopefully your practice could inspire or educate a whole generation of young designers.
 
 <blockquote class="large">
 	<p>The most difficult thing is the decision to act. The rest is merely tenacity.

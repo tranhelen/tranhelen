@@ -10,7 +10,7 @@ David Foster Wallace’s commencement speech for Kenyon graduates in 2005 opens 
 
 <hr class="small">
 
-David explains that many people will tell the graduates that the importance of education is to learn how to think. He says it’s much deeper than that–it’s about learning how to exercise control over how and what you think.
+David explains many people will tell the graduates that the importance of education is to learn how to think. He says it’s much deeper–it's about learning how to exercise control over how and what you think.
 
 Because I work in the tech industry, I get the privilege to work with some very smart people day in and day out. This has however come with an immense self-inflicted pressure to measure myself against the achievements of others. This also tends to lead to impostor syndrome, something many people in the industry have identified with.
 

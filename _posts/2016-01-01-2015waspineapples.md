@@ -9,7 +9,7 @@ slug: 2015-was-pineapples
 3. Social validation is not a good motivator.
 4. No one has the full picture.
 5. Asking for more yields more.
-6. Some things don't require responses.
+6. Some things don't require response.
 7. Art is not hard.
 8. Beginner's mind is one of the most valuable mindsets.
 9. Time spent by yourself is spent on yourself.

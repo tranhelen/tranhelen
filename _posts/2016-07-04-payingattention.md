@@ -22,7 +22,7 @@ I&rsquo;ve been seeking asylum within any piece of information from every source
 
 > "Engineering was in the process of discussing some drastic new directions for our products, and the incrementalists (ship it soon!) were doing battle with the completionists (ship it when it&rsquo;s done!)"
 
-He continues on, glossing over these two terms noting that he would explain them later. They were not meant to be the subject of the chapter but when I finished that sentence I started mapping out all the personalities I knew which matched these two definitions. These two personalities were already in existence for me, I just didn&rsquo;t have any idea what to call them.
+He continues on, glossing over these two terms noting he would explain them later. They were not meant to be the subject of the chapter but when I read the sentence I started mapping out all the personalities I knew which matched these two definitions. These two personalities were already in existence for me, I just didn&rsquo;t have any idea what to call them.
 
 > Incrementalists are realists. They have a pretty good idea of what is achievable given a problem to solve, a product to ship. They&rsquo;re intimately aware of how many resources are available and the shape of the political landscape with regard to the problem, and they know who knows what. They tend to know all the secrets and they like to be recognized for that fact.
 
@@ -34,7 +34,7 @@ In the weeds you can hear the word quality being thrown about to save everyone f
 
 As an incrementalist, I&rsquo;ve felt quite frustrated by the completionists. I don&rsquo;t entirely understand them, and they seem weird, and sometimes I swear things are growing out of their heads. There have been moments when crucial conversations have turned into frustrating conversations and I&rsquo;ve slinked away to a dark corner away from my team to nurse my battle wounds in hopes they don&rsquo;t see what&rsquo;s happening.
 
-In Rands&rsquo; dropped words there was something else I read and realized: he is 15+ years into managing software teams and for him, both these personalities exist and so what. For him, they&rsquo;re a given, an inevitability, like getting thirsty on a hot day. This entire time, perhaps under a strong delusion, I had been hoping that the completionists would see my side... eventually. *Look, we have different priorities than you do.* It looks like maybe my attention has been misplaced and it&rsquo;s time to move the needle elsewhere.
+In Rands&rsquo; dropped words there was something else I read and realized: he is 15+ years into managing software teams and for him, both these personalities exist and so what. For him, they&rsquo;re a given, an inevitability, like getting thirsty on a hot day. This entire time, perhaps under a strong delusion, I had been hoping the completionists would see my side... eventually. *Look, we have different priorities than you do.* It looks like maybe my attention has been misplaced and it&rsquo;s time to move the needle elsewhere.
 
 Both incrementalists and completionists are not wrong. If we pitted two teams against each other filled with each personality, they could potentially launch the same thing, in the same timeframe, with the same results. The biggest difference to me (at least from a management perspective) is in how those teams are motivated when they&rsquo;re in the weeds. 
 

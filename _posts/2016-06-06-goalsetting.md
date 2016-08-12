@@ -21,7 +21,7 @@ The use of the word *need* is important. If you are going to achieve the goal, y
 
 * I need to take time off work.
 * I must learn XCode in order to build an app.
-* Research says the trip will cost me about $8,000 USD after food, equipment rentals and transportation. I need to have that money before I go.
+* Research says the trip will cost me about $8,000 USD after food, equipment rentals and transportation. I need to have  money before I go.
 
 Take what you've written and break it down even further. If you must learn a new skill, what does that mean? What specifically do you need to know? Are there tutorials available to you which will teach you what you need to know? Can someone teach you? It's important that the majority of the things you write down are things _you_ can personally affect. You cannot achieve a goal if you think it's dependant on someone else's actions.
 
@@ -38,10 +38,10 @@ Once you've broken it down into the smallest steps possible, there are a few lis
 
 Most of your tasks should be in the first three categories but there may be things you are _blocked_ on for whatever reason. I put those in my backlog until they're ready to be moved up into the first three categories.
 
-There may be things that need to be on a timed basis, which is what daily/weekly/monthly categories are for, but they need to be small enough that you can commit to it. If you cannot say _for sure_ that you can achieve your daily tasks, rephrase the task or break it down even further.
+There may be things that need to be on a timed basis, which is what daily/weekly/monthly categories are for, but they need to be small enough so you can commit to it. If you cannot say _for sure_ that you can achieve your daily tasks, rephrase the task or break it down even further.
 
 ### Doing it
-Depending on how intense the goal you chose was, you can set yourself a reminder to check in and do a restrospective on your lists on a daily or weekly basis. **It's important that you do this.**
+Depending on how intense the goal you chose was, you can set yourself a reminder to check in and do a restrospective on your lists on a daily or weekly basis. **It's important you do this.**
 
 Retrospectives help you notice your progress even when you feel like you're standing still, allow you to course-correct when you've incorrectly identified the path, and keep you motivated to keep going. You have to fall in love with the process and stay focused on the steps.
 
@@ -63,10 +63,10 @@ This was briefly mentioned above but restrospectives keep me highly motivated. I
 
 ### This seems excessive
 
-It is! Systematic approaches aren't great for everyone but I like knowing where I'm going, why and how I'm going to get there. It seems unnatural at first but nowadays it's become more second nature to me. You have to find a way to make every step fun for you while still ensuring that you're keeping track. 
+It is! Systematic approaches aren't great for everyone but I like knowing where I'm going, why and how I'm going to get there. It seems unnatural at first but nowadays it's become more second nature to me. You have to find a way to make every step fun for you while still ensuring you're keeping track. 
 
 ## Good luck
 
-These are the things that have helped me over the years build a life that I wanted to live. Not only is this simple and effective, it also has profound effects on your confidence and ability to pick up things quickly. These are both amazing traits to have in uncertain and overwhelming situations. You can stay focused on the goal because you know you can do it and you're going to do it quickly. The mental model shifts from _can I_ to _when I._ 
+These are the things which have helped me over the years build a life I wanted to live. Not only is this simple and effective, it also has profound effects on your confidence and ability to pick up things quickly. These are both amazing traits to have in uncertain and overwhelming situations. You can stay focused on the goal because you know you can do it and you're going to do it quickly. The mental model shifts from _can I_ to _when I._ 
 
 I sound like a motivational guru, don't I? 
