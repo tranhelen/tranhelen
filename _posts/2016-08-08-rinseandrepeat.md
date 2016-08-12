@@ -7,17 +7,17 @@ slug: rinse-and-repeat
 
 <div class="grid grid--full">
     <div class="grid__item push--one--two-twelfths one--eight-twelfths push--two--two-tenths two--six-tenths">
-		<p>If you&rsquo;ve been following me for a while, you&rsquo;ve probably realized I do a website refresh roughly every six months. I&rsquo;ve been doing this for a very long time (probably more than a decade) and I do it because <em>I can</em>.</p>
+		<p>If you&rsquo;ve been following me for a while, you&rsquo;ve probably realized I do a website refresh roughly every six months. I&rsquo;ve been doing this for a very long time (probably more than a decade) and I do it mostly because <em>I can</em> but also because my website objectives change that quickly.</p>
 
 		<h2>The objectives</h2>
 
-		<p>Things are a little different than when I launched last time. It was important a bit ago to retain an emphasis on the <a href="http://helentran.com/a-love-letter">content</a>. I removed a lot of the ornamentation off the website to encourage myself to focus on writing. Now that I have a weekly cadence down, I still have a distribution problem to contend with.</p>
+		<p>Things are a little different than when I launched last time. It was important then to emphasize the <a href="http://helentran.com/a-love-letter">content</a> as I worked on nailing down the rhythm. I removed a lot of the ornamentation off the website to encourage myself to focus on writing. Now that I have a weekly cadence down I still had a distribution problem to contend with.</p>
 
-		<p>After a couple of months of writing some people have noted they don&rsquo;t see my tweets about my writing or forget about checking. A new <a href="http://helentran.com/mailinglist.html">mailing list</a> will hopefully alleviate that. I also wanted more flexibility for other content and the website I had would not scale so it had to go.</p>
+		<p>After a couple of months of writing some people had noted they don&rsquo;t see my tweets about my writing or forget about checking. I started a <a href="http://helentran.com/mailinglist.html">mailing list</a> to give people an option to opt into updates (although honestly it makes me pretty nervous). I also wanted more flexibility for other content and the website I had would not scale so it had to go.</p>
 
 		<h2>The foundation</h2>
 
-		<p>My website is set on a 12 column grid which I use out of laziness but in the print world I tend to use odd-numbered columns. I wanted something with more movement so I arranged everything in a slightly inaccurate &lsquo;S&rsquo; shape on the grid and went with diagonally sliced rectangles to offer some more movement. This is a pretty basic usage of a grid system.</p>
+		<p>My website is set on a 12 column grid which I use out of laziness. In the print world I tend to learn towards using odd-numbered columns. I wanted something with more movement so I arranged everything in a slightly inaccurate &lsquo;S&rsquo; shape on the grid and went with diagonally sliced rectangles. This is a pretty basic usage of a grid system.</p>
 
         <hr class="noborder">
     </div>
@@ -53,7 +53,7 @@ slug: rinse-and-repeat
 
 	<div class="grid">
 	    <div class="grid__item push--one--two-twelfths one--eight-twelfths push--two--two-tenths two--six-tenths">
-	    	<p>There are three templates to this website: a homepage, a square subpage, and blog singles. They use basically the same styles all the way through but the squares get a fancy background picture. This will make them easier to create going forward if I need anymore new pages.</p>
+	    	<p>There are three templates to this website: a homepage, a square subpage, and blog singles. They use  the same styles all the way through but the square templates get a fancy background picture. This will make them easier to create going forward if I need anymore new pages.</p>
 	    </div>
 	</div>
 
@@ -79,7 +79,7 @@ slug: rinse-and-repeat
 	    <div class="grid__item push--one--two-twelfths one--eight-twelfths push--two--two-tenths two--six-tenths">
 	    	<h2>The styles</h2>
 
-	    	<p>Usually I don&rsquo;t have to do this for my website because it was fairly simple until now. Given that I was going to have multiple pages with a few different templates, I pulled together a quick style guide. This helps keep the number of styles created to a minimum and makes my development move a lot faster.</p>
+	    	<p>Usually I don&rsquo;t have to do this for my website because it was fairly simple until now. Given that I was going to have multiple pages with a few different templates, I pulled together a quick style guide to ensure that I was staying consistent. This also helps keep the number of styles created to a minimum and makes my development move a lot faster.</p>
 	    </div>
 	</div>
 
@@ -93,7 +93,7 @@ slug: rinse-and-repeat
 	    <div class="grid__item push--one--two-twelfths one--eight-twelfths push--two--two-tenths two--six-tenths">
 			<hr class="noborder">
 
-	    	<p>This website is <em>mostly</em> on white and has some deviating styles for when the content needs to sit on a darker background. I noted only the deviated ones and when the styles remained the same from the first to last breakpoints.</p>
+	    	<p>This website is <em>mostly</em> on white and has some deviating styles for when the content sits on a darker background. I noted only the deviated ones and when the styles remained the same from the first to last breakpoints.</p>
 
 			<p>If you double-checked <a href="https://github.com/tranhelen/tranhelen.github.io">all my styles</a> you'll notice some of what is written is incorrect. There are typically a few changes that happen from Design > Development. These things happen however I&rsquo;ve generally kept the majority of the styles.</p>
 
@@ -101,7 +101,7 @@ slug: rinse-and-repeat
 
 			<p>I went back behind the camera to shoot a couple of self-portraits for use on this website. In the past I&rsquo;ve used the Annie Leibovitz lighting set-up (double diffusion under a large studio light) but this time I opted for daylight against a DIY black studio back-drop. The rest is just understanding how light hits you and how to set off a pocketwizard with your foot.</p>
 
-			<p>The rest of the photographs used are also mine and pulled from my <a href="http://instagram.com/tranhelen">Instagram</a>. I overlaid them over colours to reduce the intensity. The added benefit is you can save these photos at a pretty low resolution and they&rsquo;ll look pretty decent. Performance wins all around.</p>
+			<p>The rest of the photos are pulled from my <a href="http://instagram.com/tranhelen">Instagram</a>. I overlaid them over colours to reduce the intensity. The added benefit of this technique is you can save these photos at a pretty low resolution and they&rsquo;ll look pretty decent. Performance wins all around.</p>
 
 			<h2>The launch</h2>
 
