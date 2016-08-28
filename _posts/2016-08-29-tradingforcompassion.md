@@ -4,9 +4,7 @@ title: Trading for Compassion
 category: [blog, design]
 slug: trading-for-compassion
 ---
-I attended [The Conference](https://2016.theconference.se/) this year on a recommendation about it being a little bit different than most conferences. I'll admit that many conferences these days put me to sleep. I cannot sit through another talk from a 20-something about how to live my life or being nice to others (frankly, I'd question your capabilities if you have to be *advised* to be nice anyway).
-
-Thankfully my experience at [The Conference](https://2016.theconference.se/) was much more exciting, and I want to plug this particular talk by Tricia Wang ([@triciawang](https://twitter.com/triciawang)) called, [*Don't Trust the Truth!*](http://videos.theconference.se/dont-trust-the-truth") I implore you to watch it, and then come back to me.
+I attended [The Conference](https://2016.theconference.se/) this year on a recommendation about it being a little bit different than most conferences. I'll admit that many conferences these days put me to sleep. Thankfully my experience at [The Conference](https://2016.theconference.se/) was much more exciting, and I want to plug this particular talk by Tricia Wang ([@triciawang](https://twitter.com/triciawang)) called, [*Don't Trust the Truth!*](http://videos.theconference.se/dont-trust-the-truth") I implore you to watch it, and then come back to me.
 
 <hr class="small">
 
