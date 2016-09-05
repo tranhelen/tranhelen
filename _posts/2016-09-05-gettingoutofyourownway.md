@@ -8,7 +8,7 @@ Self-improvement is a laudable goal. It's as inseparable from tech culture as ef
 
 I've always been a sensitive overthinker. This piece of me, combined with a high bar I've set for myself, occasionally becomes a bit of a self-criticizing nightmare if I let thoughts linger on too long.
 
-Here is the extrapolated list of things I have been accused of over the years: being too opinionated, being too quiet, being too aggressive, not speaking up, speaking too fast, being intimidating, too negative, being unapproachable, being warm, being snobby, being open, sitting angrily, and being a show-off. And, without critical thought, I tried to problem solve for all of these. Solving problems what I do for a living, so why not turn it inwards?
+Here is the extrapolated list of things I have been accused of over the years: being too opinionated, being too quiet, being too aggressive, not speaking up, speaking too fast, being intimidating, too negative, being unapproachable, being warm, being snobby, being open, sitting angrily, and being a show-off. And, without critical thought, I tried to problem solve for all of these. Solving problems is what I do for a living, so why not turn it inwards?
 
 It reached a peak for me earlier last month. I was frustrated by all the comments by my personality. None of them had highlighted any issues with my continued and eventual output. I felt unwanted and increasingly isolated and it had started to affect my output, my physicality, and my personal life. 
 
