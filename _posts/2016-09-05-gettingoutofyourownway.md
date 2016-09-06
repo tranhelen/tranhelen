@@ -4,7 +4,7 @@ title: Getting Out of Your Own Way
 category: [blog, life]
 slug: getting-out-of-your-own-way
 ---
-Self-improvement is a laudable goal. It's as inseparable from tech culture as efficiency hacking or Soylent (these may be two sides of the same coin). I've been caught up in the same fervour and I become obsessed with it. Except, I went the wrong way, and it has been impacting me negatively.
+Self-improvement is a laudable goal. It's as inseparable from tech culture as efficiency hacking or Soylent (these may be two sides of the same coin). I've been caught up in the same fervour and have become obsessed with it. Except, I have gone the wrong way and it has been impacting me negatively.
 
 I've always been a sensitive overthinker. This piece of me, combined with a high bar I've set for myself, occasionally becomes a bit of a self-criticizing nightmare if I let thoughts linger on too long.
 
