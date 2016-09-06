@@ -24,7 +24,7 @@ The person who *I* identify with was reaffirmed by my trip. No one thought I was
 
 <hr class="small">
 
-Alan Watts has a good talk [about this](https://www.youtube.com/watch?v=v4jBd4fArfQ). He notes that we punish ourselves when we don't achieve whatever goal we set. We're so obsessed with self-improvement... we believe that we can reach a status of *better*. He points out that if we knew what that even meant, we'd just be that. He ends his talk by challenging us, "Watch what happens. [...] When you do that, you give yourself a chance." 
+Alan Watts has a good talk [about this](https://www.youtube.com/watch?v=v4jBd4fArfQ). He notes that we punish ourselves when we don't achieve whatever goal we set. We're so obsessed we believe that we can reach a status of *better*. He points out that if we knew what that even meant, we'd just *be that*. It would be that simple. He ends his talk by challenging us, "Watch what happens. [...] When you do that, you give yourself a chance." 
 
 <blockquote class="large">
     <p>Your own nature will begin to take care of itself... because you're not getting in the way of yourself all the time. You will begin to find out, that the great things you do are really happening.
