@@ -20,7 +20,7 @@ On the last leg, I had dragged my cranky self (I had spent the last few hours na
 
 As I sat, I watched as hikers trickled into the cabin. Some of them nodded towards me as they walked by and some stopped to have a quick chat. I was shortly after adopted by a group of seven women, who told me they admired by gumption to hike the trail myself, who then shepherded me to dinner and introduced me to another couple of families. I spent the rest of the evening enjoying the company of another group of hikers who had accepted me. Completely unfettered by the delusion of self-improvement, I felt more present and relaxed than I had in a very long time. 
 
-The person who *I* identify with was reaffirmed by my trip. No one thought I was *too* anything and they're still talking to me now. I've let subjective opinions about my personality get in the way of myself and what I'm interested in seeing in my life. No one has the right to decide how you should be and they are biased by their own insecurities anyway. 
+The person who *I* identify with was reaffirmed by my trip. No one thought I was *too* anything and they're still talking to me now. I've let subjective opinions about my personality get in the way of myself and what I'm interested in seeing in my life. No one has the right to decide how you should be. 
 
 <hr class="small">
 
