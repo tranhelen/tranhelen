@@ -6,7 +6,7 @@ slug: real-and-imagined-boundaries
 ---
 There are imagined boundaries and real boundaries.
 
-Imagined boundaries exist by default. They are created by the people around you but they are typically a shared delusion. Imagined boundaries are: *I feel obligated to see her and so I must* or *I cannot quit because I need to find another job first*. You can live through breaking these boundaries but it might be uncomfortable. They force you to rely on your resourcefulness to find a way out. Most people won’t break them and they get <a href="http://helentran.com/his-greatest-gift">Default Life</a>.
+Imagined boundaries exist by default. They are created by the people around you but they are typically a shared delusion. Imagined boundaries are: *I feel obligated to see her* or *I cannot quit because I need to find another job first*. You can live through breaking these boundaries but it might be uncomfortable. They force you to rely on your resourcefulness to find a way out. Most people won’t break them and they get <a href="http://helentran.com/his-greatest-gift">Default Life</a>.
 
 Real boundaries don’t exist unless you make them. These boundaries are the only ones worth following&mdash;rules you set so you can live according to your values and obtain the future you imagine yourself living. It takes a grand amount of self-work to define your values, and even more to define your boundaries.
 
