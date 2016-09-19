@@ -4,14 +4,6 @@ title: Real and Imagined Boundaries
 category: [blog, life]
 slug: real-and-imagined-boundaries
 ---
-The light shining into the room outlined a silhouette of the familiar short-*ish* man. He faced away from me looking out towards the city with his arms clasped behind his back. I was sitting at a long boardroom table, behind him, at a seat far enough to imply confusion but close enough to not be rude. I was told to come here, instead of our office, into a tall glossy building which reeked of excessive wealth. It was nice to be served fizzy water but I don’t think I appreciate fizzy water as much as the rich do. Fizzy water is wasted on me.
-
-He started, “You see the world like I do.” *I do?* “You see the world… without boundaries.” *Oh, geez.*<a id="anchor-1" href="#note-1">&#42;</a>
-
-The half hour conversation was exactly what he had pictured but it was not going as I had planned. I was there to pitch my idea for a new design system. He was there to mentor me. I wasn’t sure what went wrong during the initial meeting arrangement that landed me in this situation but I knew better than to correct the course of events. Sometimes people just need to be heard.
-
-<hr class="small">
-
 There are imagined boundaries and real boundaries.
 
 Imagined boundaries exist by default. They are created by the people around you but they are typically a shared delusion. Imagined boundaries are: *I feel obligated to see her and so I must* or *I cannot quit because I need to find another job first*. You can live through breaking these boundaries but it might be uncomfortable. They force you to rely on your resourcefulness to find a way out. Most people won’t break them and they get <a href="http://helentran.com/his-greatest-gift">Default Life</a>.
@@ -24,7 +16,7 @@ I don’t think we think about our boundaries enough. We get so caught up in oth
 
 Setting up boundaries been the most freeing thing I’ve ever done. I set more as I get older and find what really works for me. I will no longer do things that do not grow me or make me happy. This has unblocked my creativity and allowed me to live productive and stress-free.
 
-The silhouette was only half right. No boundaries means no freedom. 
+No boundaries means no freedom. 
 
 <hr class="small">
 
