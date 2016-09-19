@@ -4,7 +4,7 @@ title: Real and Imagined Boundaries
 category: [blog, life]
 slug: real-and-imagined-boundaries
 ---
-There are imagined boundaries and real boundaries.
+There are imagined boundaries and real boundaries. There's a common misconception that we have to respond to both type of boundaries. Without thinking about it we can go through life and never question the boundaries. This leads us to living unhappy lives and feeling trapped by the environment we created for ourselves.
 
 Imagined boundaries exist by default. They are created by the people around you but they are typically a shared delusion. Imagined boundaries are: *I feel obligated to see her* or *I cannot quit because I need to find another job first*. You can live through breaking these boundaries but it might be uncomfortable. They force you to rely on your resourcefulness to find a way out. Most people won’t break them and they get <a href="http://helentran.com/his-greatest-gift">Default Life</a>.
 
@@ -17,9 +17,3 @@ I don’t think we think about our boundaries enough. We get so caught up in oth
 Setting up boundaries been the most freeing thing I’ve ever done. I set more as I get older and find what really works for me. I will no longer do things that do not grow me or make me happy. This has unblocked my creativity and allowed me to live productive and stress-free.
 
 No boundaries means no freedom. 
-
-<hr class="small">
-
-<div class="fieldnotes">
-    <p id="note-1" class="h6">*This actually happened. I know… it sounds like I made it up. It’s fucking ridiculous.<a href="#anchor-1">&#8593;</a></p>
-</div>
