@@ -25,7 +25,7 @@ Passion is not followed or found, but cultivated. To ensure longevity in your ca
 
 **Design is a service-based cultured job.** You must pay attention to what's going on around you. Creativity is about connecting dots but you cannot do that if you have no dots to connect. Invest time in understanding new ideas in different industries and society. An uncultured Designer is one whose creativity is restricted by choice.
 
-While you're doing this, find a mentor who can guide you. Mentorship doesn't have to be a formal relationship. I have mentors who I've never met. There is a very strong Design community on Twitter which you can follow and learn from. Use that to surround yourself with those you admire.
+While you're doing this, find a mentor who can guide you. Mentorship doesn't have to be a formal relationship. I have mentors whom I've never met. There is a very strong Design community on Twitter which you can follow and learn from. Use that to surround yourself with those you admire.
 
 These Design books should be on your bookshelf if your visual skills are weak:
 
