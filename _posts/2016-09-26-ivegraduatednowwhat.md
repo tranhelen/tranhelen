@@ -10,11 +10,11 @@ There are three things any particular junior should be concerned about: getting 
 
 <hr class="small">
 
-Graduating from formal education, a bootcamp, or even apprenticeship based programs puts you in the same position as others with the same skillset. While there is enough demand in some markets, there are not enough positions that can support the mentorship of a Junior Designer. Even if you manage to find one, you may find yourself in a less than desirable place in terms of growth.
+Graduating from formal education, a bootcamp, or even apprenticeship based programs puts you in the same position as others with the same skill-set. While there is enough demand in some markets, there are not enough positions that can support the mentorship of a Junior Designer. Even if you manage to find one, you may find yourself in a less than desirable place in terms of growth.
 
-All Designers must adopt a growth mindset from graduation, and hopefully, much before that. You've joined an industry in which learning new skillsets is a constant. Picking up new skills and absorbing them quickly will be something you do for the rest of your career. Tech moves fast.
+All Designers must adopt a growth mindset from graduation, and hopefully, much before that. You've joined an industry in which learning new skill-sets is a constant. Picking up new skills and absorbing them quickly will be something you do for the rest of your career. Tech moves fast.
 
-Passion is not followed or found, but cultivated. To ensure longevity in your career, you must find satisfaction in learning things, or, deliberate practice.<a id="anchor-1" href="#note-1">&#42;</a> If you manage to fine-tune this skill of yours, you'll find that competition will melt away fairly quickly. One of my favourite says this about it,
+Passion is not followed or found, but cultivated. To ensure longevity in your career, you must find satisfaction in learning things, or, deliberate practice.<a id="anchor-1" href="#note-1">&#42;</a> If you manage to fine-tune this skill of yours, you'll find that competition will melt away fairly quickly. One of my favourite books says this about it,
 
 <blockquote class="large">
 	<p>The good news about deliberate practice is that it will push you past this plateau and into a realm where you have little competition.
@@ -56,7 +56,7 @@ While you're going through those, be sure to check out the articles on <a href="
 
 ## Self-initiating
 
-**Your portfolio is never done.** You must always be constantly building your portfolio and you shouldn't be waiting for a job position in order to get better. Hrere are things you can do, by your lonesome:
+**Your portfolio is never done.** You must always be constantly building your portfolio and you shouldn't be waiting for a job position in order to get better. Here are things you can do, by your lonesome:
 
 - Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on <a href="">meet-up.com</a>, announced on <a href="">Designer News</a>, or talked about on the Twitterverse.
 - Attend hack-a-thons to open up the possibility of working with a motivated team. There are tons of hack-a-thon listings online, or again, find them on the Twitterverse.
