@@ -58,7 +58,7 @@ While you're going through those, be sure to check out the articles on <a href="
 
 **Your portfolio is never done.** You must always be constantly building your portfolio and you shouldn't be waiting for a job position in order to get better. Here are things you can do, by your lonesome:
 
-- Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on <a href="">meet-up.com</a>, announced on <a href="">Designer News</a>, or talked about on the Twitterverse.
+- Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on <a href="http://meet-up.com">meet-up.com</a>, announced on <a href="https://www.designernews.co/">Designer News</a>, or talked about on the Twitterverse.
 - Attend hack-a-thons to open up the possibility of working with a motivated team. There are tons of hack-a-thon listings online, or again, find them on the Twitterverse.
 - Design a product and hire someone to bring your Design to life. While this option isn't available for those who do not have the resources, it can be a route for those who do. You can find developers on <a href="https://www.upwork.com/?r">upwork.com</a>.
 - Build it yourself. This will take the longest and is probably out of the question for those who are juggling real-life problems. If it is an option for you though, <a href="http://codeschool.com">Codeschool</a>, <a href="https://teamtreehouse.com/">Team Teamhouse</a>, and <a href="https://www.udemy.com/">Udemy</a> are great places to start.
