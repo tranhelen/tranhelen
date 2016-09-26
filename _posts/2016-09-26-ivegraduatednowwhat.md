@@ -77,7 +77,7 @@ In my opinion, speed is an excellent barometer for a Junior Designer to focus on
 
 Time-tracking your projects, even when you're not billing anyone hourly, is a good way to understand how long you take to solve a problem. This will help you if you ever freelance, and help your future leads understand how long it'll take you to complete projects.
 
-An alternative technique to try is timeboxing projects. For example, I redesign my website every so often, but I never give myself more than two weeks from start to finish. If you give yourself too much time, you will take it, and procrastinate  decision-making is dangerous. In the real world, you don't have the luxury of endless time.
+An alternative technique to try is timeboxing projects. For example, I redesign my website every so often, but I never give myself more than two weeks from start to finish. If you give yourself too much time, you will take it, and procrastinating  decision-making is dangerous. In the real world, you don't have the luxury of endless time.
 
 Do not confuse speed with low quality. As you become comfortable with the software you're using, you should become faster at the repetitive tasks. This gives you a fair amount of space to invest the rest of your time in better research or developing critical thinking skills. A not-so-great position to be in is to be able to come up with an idea but be unable to produce it in a time that makes you valuable to the rest of your team. 
 
