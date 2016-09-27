@@ -1,6 +1,6 @@
 ---
 layout: subpage
-title: I've Graduated... Now What? Part One
+title: You've Graduated... Part One
 category: [blog, design]
 slug: ive-graduated-now-what-1
 ---
