@@ -2,7 +2,9 @@
 layout: subpage
 title: You've Graduated... Part One
 category: [blog, design]
-slug: ive-graduated-now-what-1
+slug: youve-graduated-1
+redirect_from: 
+ - /ive-graduated-now-what-1
 ---
 *I did a talk at <a href="https://bitmaker.co/">Bitmaker</a> in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of three.*
 
