@@ -8,7 +8,7 @@ redirect_from:
 ---
 *I did a talk at [Bitmaker](https://bitmaker.co/) in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*
 
-There are three things any particular junior should be concerned about: getting better at their craft, preparing to get into the job market, and understanding the environment once you have a position.
+There are four things any particular junior should be concerned about: getting better at their craft, deciding what to do with the job market, preparing themselves and their portfolio, and understanding the environment once you have a position.
 
 <hr class="small">
 
