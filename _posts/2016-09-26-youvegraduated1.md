@@ -3,10 +3,10 @@ layout: subpage
 title: You've Graduated... Part One
 category: [blog, design]
 slug: youve-graduated-1
-redirect\_from: 
+redirect_from: 
  - /ive-graduated-now-what-1
 ---
-*I did a talk at [Bitmaker][1] in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*
+*I did a talk at [Bitmaker](https://bitmaker.co/) in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*
 
 There are four things any particular junior should be concerned about: getting better at their craft, deciding what to do with the job market, preparing themselves and their portfolio, and understanding the environment once you have a position.
 
@@ -54,22 +54,22 @@ These Design books should be on your bookshelf if your visual skills are weak:
     </div>
 </div>
 
-While you're going through those, be sure to check out the articles on [A List Apart][2] and [A Book Apart][3]. These resources are always relevant, well researched, and high value in exchange for the time invested.
+While you're going through those, be sure to check out the articles on [A List Apart](http://alistapart.com/) and [A Book Apart](https://abookapart.com/). These resources are always relevant, well researched, and high value in exchange for the time invested.
 
 ## Self-initiating
 
 **Your portfolio is never done.** You must always be constantly building your portfolio and you shouldn't be waiting for a job position in order to get better. Here are things you can do, by your lonesome:
 
-- Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on [meet-up.com][4], announced on [Designer News][5], or talked about on the Twitterverse.
+- Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on [meet-up.com](http://meet-up.com), announced on [Designer News](https://www.designernews.co/), or talked about on the Twitterverse.
 - Attend hack-a-thons to open up the possibility of working with a motivated team. There are tons of hack-a-thon listings online, or again, find them on the Twitterverse.
-- Design a product and hire someone to bring your Design to life. While this option isn't available for those who do not have the resources, it can be a route for those who do. You can find developers on [upwork.com][6].
-- Build it yourself. This will take the longest and is probably out of the question for those who are juggling real-life problems. If it is an option for you though, [Codeschool][7], [Team Teamhouse][8], and [Udemy][9] are great places to start.
+- Design a product and hire someone to bring your Design to life. While this option isn't available for those who do not have the resources, it can be a route for those who do. You can find developers on [upwork.com](https://www.upwork.com/).
+- Build it yourself. This will take the longest and is probably out of the question for those who are juggling real-life problems. If it is an option for you though, [Codeschool](http://codeschool.com), [Team Teamhouse](https://teamtreehouse.com/), and [Udemy](https://www.udemy.com/) are great places to start.
 
 ## Specialization
 
 You may get to a point in which you feel like you have the basics down (unlikely, but let's say you're especially confident). In that case, it may make some sense to pick a specialization to focus on.
 
-There are many topics Designers can become specialists in and I detail them in a [previous post of mine][10]. You can pick anything, learn everything you can about it, and use your blog to track what you're learning.<a id="anchor-2" href="#note-2">&#42;&#42;</a>
+There are many topics Designers can become specialists in and I detail them in a [previous post of mine](http://helentran.com/deliberate-practice). You can pick anything, learn everything you can about it, and use your blog to track what you're learning.<a id="anchor-2" href="#note-2">&#42;&#42;</a>
 
 Using blog posts to share what you've learned helps interviewers like me judge your ability to take on complex topics, and it helps those who are interested in the same topic as you.
 
