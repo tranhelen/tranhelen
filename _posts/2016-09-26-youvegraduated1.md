@@ -3,10 +3,10 @@ layout: subpage
 title: You've Graduated... Part One
 category: [blog, design]
 slug: youve-graduated-1
-redirect_from: 
+redirect\_from: 
  - /ive-graduated-now-what-1
 ---
-*I did a talk at [Bitmaker](https://bitmaker.co/) in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*
+*I did a talk at [Bitmaker][1] in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*
 
 There are four things any particular junior should be concerned about: getting better at their craft, deciding what to do with the job market, preparing themselves and their portfolio, and understanding the environment once you have a position.
 
@@ -19,8 +19,8 @@ All Designers must adopt a growth mindset from graduation, and hopefully, much b
 Passion is not followed or found, but cultivated. To ensure longevity in your career, you must find satisfaction in learning things, or, deliberate practice.<a id="anchor-1" href="#note-1">&#42;</a> If you manage to fine-tune this skill of yours, you'll find that competition will melt away fairly quickly. One of my favourite books says this about it,
 
 <blockquote class="large">
-	<p>The good news about deliberate practice is that it will push you past this plateau and into a realm where you have little competition.
-	<br>–Cal Newport, "So Good They Can't Ignore You"</p>
+    <p>The good news about deliberate practice is that it will push you past this plateau and into a realm where you have little competition.
+    <br>–Cal Newport, "So Good They Can't Ignore You"</p>
 </blockquote>
 
 ## The Basics
@@ -32,44 +32,44 @@ While you're doing this, find a mentor who can guide you. Mentorship doesn't hav
 These Design books should be on your bookshelf if your visual skills are weak:
 
 <div class="grid">
-	<div class="grid__item one--one-half">
-		<div class="grid">
-			<div class="grid__item one-half">
-				<a  href="https://www.amazon.com/gp/product/1616890363/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1616890363&linkCode=as2&tag=heltraprodes-20&linkId=14f710a3f470e276efc880469c2c8363"><img src="/img/post/55-geometryofdesign.jpg" class="book-cover"></a>
-			</div>
-			<div class="grid__item one-half">
-				<a href="https://www.amazon.com/gp/product/0205066445/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0205066445&linkCode=as2&tag=heltraprodes-20&linkId=a5215ae03949c673f5de7e73bf2442cf"><img src="/img/post/55-typeprimer.jpg" class="book-cover"></a>
-			</div>
-		</div>
-	</div>
-	<div class="grid__item one--one-half">
-		<div class="grid">
-			<div class="grid__item one-half">
-				<a  href="https://www.amazon.com/gp/product/2917855665/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=2917855665&linkCode=as2&tag=heltraprodes-20&linkId=01a1a6adc9b37f0eb5fff609f4e5dadc"><img src="/img/post/55-detailintypography.jpg" class="book-cover"></a>
-			</div>
-			<div class="grid__item one-half">
-				<a href="https://www.amazon.com/gp/product/0881792128/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0881792128&linkCode=as2&tag=heltraprodes-20&linkId=fbe40407a60bcaf54cb1673a7025cdc7"><img src="/img/post/55-elementsoftypographicstyle.jpg" class="book-cover"></a>
-			</div>
-		</div>
-	</div>
+    <div class="grid__item one--one-half">
+        <div class="grid">
+            <div class="grid__item one-half">
+                <a  href="https://www.amazon.com/gp/product/1616890363/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1616890363&linkCode=as2&tag=heltraprodes-20&linkId=14f710a3f470e276efc880469c2c8363"><img src="/img/post/55-geometryofdesign.jpg" class="book-cover"></a>
+            </div>
+            <div class="grid__item one-half">
+                <a href="https://www.amazon.com/gp/product/0205066445/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0205066445&linkCode=as2&tag=heltraprodes-20&linkId=a5215ae03949c673f5de7e73bf2442cf"><img src="/img/post/55-typeprimer.jpg" class="book-cover"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grid__item one--one-half">
+        <div class="grid">
+            <div class="grid__item one-half">
+                <a  href="https://www.amazon.com/gp/product/2917855665/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=2917855665&linkCode=as2&tag=heltraprodes-20&linkId=01a1a6adc9b37f0eb5fff609f4e5dadc"><img src="/img/post/55-detailintypography.jpg" class="book-cover"></a>
+            </div>
+            <div class="grid__item one-half">
+                <a href="https://www.amazon.com/gp/product/0881792128/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0881792128&linkCode=as2&tag=heltraprodes-20&linkId=fbe40407a60bcaf54cb1673a7025cdc7"><img src="/img/post/55-elementsoftypographicstyle.jpg" class="book-cover"></a>
+            </div>
+        </div>
+    </div>
 </div>
 
-While you're going through those, be sure to check out the articles on [A List Apart](http://alistapart.com/) and [A Book Apart](https://abookapart.com/). These resources are always relevant, well researched, and high value in exchange for the time invested.
+While you're going through those, be sure to check out the articles on [A List Apart][2] and [A Book Apart][3]. These resources are always relevant, well researched, and high value in exchange for the time invested.
 
 ## Self-initiating
 
 **Your portfolio is never done.** You must always be constantly building your portfolio and you shouldn't be waiting for a job position in order to get better. Here are things you can do, by your lonesome:
 
-- Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on [meet-up.com](http://meet-up.com), announced on [Designer News](https://www.designernews.co/), or talked about on the Twitterverse.
+- Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on [meet-up.com][4], announced on [Designer News][5], or talked about on the Twitterverse.
 - Attend hack-a-thons to open up the possibility of working with a motivated team. There are tons of hack-a-thon listings online, or again, find them on the Twitterverse.
-- Design a product and hire someone to bring your Design to life. While this option isn't available for those who do not have the resources, it can be a route for those who do. You can find developers on [upwork.com](https://www.upwork.com/).
-- Build it yourself. This will take the longest and is probably out of the question for those who are juggling real-life problems. If it is an option for you though, [Codeschool](http://codeschool.com), [Team Teamhouse](https://teamtreehouse.com/), and [Udemy](https://www.udemy.com/) are great places to start.
+- Design a product and hire someone to bring your Design to life. While this option isn't available for those who do not have the resources, it can be a route for those who do. You can find developers on [upwork.com][6].
+- Build it yourself. This will take the longest and is probably out of the question for those who are juggling real-life problems. If it is an option for you though, [Codeschool][7], [Team Teamhouse][8], and [Udemy][9] are great places to start.
 
 ## Specialization
 
 You may get to a point in which you feel like you have the basics down (unlikely, but let's say you're especially confident). In that case, it may make some sense to pick a specialization to focus on.
 
-There are many topics Designers can become specialists in and I detail them in a [previous post of mine](http://helentran.com/deliberate-practice). You can pick anything, learn everything you can about it, and use your blog to track what you're learning.<a id="anchor-2" href="#note-2">&#42;&#42;</a>
+There are many topics Designers can become specialists in and I detail them in a [previous post of mine][10]. You can pick anything, learn everything you can about it, and use your blog to track what you're learning.<a id="anchor-2" href="#note-2">&#42;&#42;</a>
 
 Using blog posts to share what you've learned helps interviewers like me judge your ability to take on complex topics, and it helps those who are interested in the same topic as you.
 
@@ -87,7 +87,7 @@ You can definitely define success or getting better another way, but I personall
 
 ## What next?
 
-Tune in next week for how to prep your portfolio and the interview process. If you haven't already, read my [first post](http://helentran.com/ive-graduated-now-what-1) in this series.
+Tune in next week for how to define who you are and understand what type of job you're looking for.
 
 <hr class="small">
 
