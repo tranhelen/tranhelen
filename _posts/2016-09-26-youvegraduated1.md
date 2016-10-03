@@ -75,7 +75,7 @@ Using blog posts to share what you've learned helps interviewers like me judge y
 
 ## Tracking Progress
 
-In my opinion, speed is an excellent barometer for a Junior Designer to focus on. Production skills are the foundation for the rest of your career and your ability to get your timing under control as well as your ability to correctly guess how long it'll take you to do something will serve you for the rest of your career.
+Speed is an excellent barometer for a Junior Designer to focus on. Production skills are the foundation for the rest of your career and your ability to get your timing under control as well as your ability to correctly guess how long it'll take you to do something will serve you for the rest of your career.
 
 Time-tracking your projects, even when you're not billing anyone hourly, is a good way to understand how long you take to solve a problem. This will help you if you ever freelance, and help your future leads understand how long it'll take you to complete projects.
 
