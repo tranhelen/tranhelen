@@ -87,7 +87,7 @@ You can definitely define success or getting better another way, but I personall
 
 ## What next?
 
-Tune in next week for how to define who you are and understand what type of job you're looking for.
+Next, you'll have to understand what type of Designer you are so you can understand what type of job you're looking for. I tackle this in my [next post](http://helentran.com/youve-graduated-2).
 
 <hr class="small">
 
