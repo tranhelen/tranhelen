@@ -14,9 +14,9 @@ After you have a rhythm on how you're going to get better at your job, you can s
 
 ## What type of Designer are you?
 
-Before you start pitching yourself to potential employers, you have to decide which direction you want your career to go in. You can change this in the future but take a few moments now to think about it. There are Designers who work on admin interfaces and there are Designers who work on communication pieces. Both of these types of Designers live in all web-based product companies. Sometimes you're doing both.
+Before you start pitching yourself to potential employers, you should decide which direction you want your career to go in. You can change this in the future but take a few moments now to think about it. There are Designers who work on admin interfaces and there are Designers who work on communication pieces. Both of these types of Designers live in all web-based product companies. Sometimes you're doing both.
 
-This is not an exhaustive list, but these are the generally differences between the two.
+This is not an exhaustive list, but this is the general difference between the two.
 
 ### Designers who work on interfaces
 
@@ -26,7 +26,7 @@ Designers like this usually depend on UI kits and previously designed systems, i
 
 You should have a basic idea of what back-end development and front-end development entails. You should understand what an object is, what APIs are, and basic technical lingo. On the flip-side, you should also have a basic handle on HTML/CSS, understand what Javascript and JQuery are, and have a good idea of how FEDs implement grid systems. The understanding of these roles will help you communicate. If done poorly, this can **severely** impact the quality of your output. This is on **you**, not them.
 
-To do this, try some basic development courses online and read up on what people do with different technology stacks. You don't need to be a developer but you need to be able to communicate with one. Shared languages are key.
+Try some basic development courses online and read up on what people do with different technology stacks. You don't need to be a developer but you need to be able to communicate with one. Shared languages are key.
 
 From a user feedback point of view, these Designers work with User Researchers to test mental models and validate assumptions prior to and after launching. There are many rounds of iterations which go through user testing. If your company is not that large, you will be the one doing the research.<a id="anchor-1" href="#note-1">&#42;</a>
 
@@ -34,11 +34,11 @@ Lastly, if you're working on these type of interfaces and are in-house, **your w
 
 ### Designer who work on communication pieces
 
-Every company needs to market their product as well as talk about it to potential customers who land on their website. These are all communication pieces. Good examples of this work are landing pages (typically with no user input except a login form), physical booth displays (environmental design), or brochures.
+Every company needs to market their product. These are communication pieces. Good examples of this work are landing pages (typically with no user input except a login form), physical booth displays (environmental design), or brochures.
 
 These Designers tend to be visually strong. Typography, layout, and art direction must all be strongly understood, and you tend to play temporary copywriter or illustrator as well. These Designers also tend to have more artistic license to try new things and push out work on a more frequent basis.
 
-Unlike Designers who work in a product admin, the likelihood is that a communications Designer will need less knowledge of back-end development but be more well-versed in front-end development. Understanding animations and how they work in code will really serve a communications Designer.
+Unlike Designers who work in a product admin, the likelihood is that a communications Designer will need less knowledge of back-end development but be more well-versed in front-end development. Understanding animations and how they are implemented will really serve a communications Designer.
 
 Designers like this do a lot of A/B testing on pages prior to launch and use data to validate assumptions after launch. It's less typical for them to test a user's mental model as they tend to work on pieces that don't necessarily affect a user's day-to-day workflow. 
 
@@ -51,7 +51,7 @@ These pieces tend to be done by a certain deadline and work gets recycled very q
 
 You should be looking for a place where you can work on a large *volume* of work with tons of variety under the tutelege of a Senior or Lead Designer. This can forever change the direction of your career if you pick wisely.
 
-You are not in the position to:
+I really want to stress that you are not in the position to:
 
 - Manage a team
 - Be the lone designer on a team
