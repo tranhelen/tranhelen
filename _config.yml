@@ -6,3 +6,4 @@ gems:
   - jekyll-feed
   - jekyll-redirect-from
 permalink: /:title
+future: false
