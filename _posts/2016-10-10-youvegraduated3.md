@@ -6,7 +6,7 @@ slug: youve-graduated-3
 redirect_from: 
  - /ive-graduated-now-what-3
 ---
-*This is part three of four in my graduation series which I started last week. If you haven't already, If you haven't already, read the <a href="http://helentran.com/ive-graduated-now-what-1">~first~</a> and <a href="http://helentran.com/ive-graduated-now-what-2">~second~</a> parts.*
+*This is part three of four in my graduation series which I started last week. If you haven't already, If you haven't already, read the <a href="http://helentran.com/ive-graduated-now-what-1">first</a> and <a href="http://helentran.com/ive-graduated-now-what-2">second</a> parts.*
 
 I'm going to go over what you should be putting into your portfolio, how to brand yourself online, what to do in the interviewing process, or how to ignore all this and start freelancing.
 
