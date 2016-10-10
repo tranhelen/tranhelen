@@ -10,7 +10,7 @@ I've always been a sensitive overthinker. This piece of me, combined with the hi
 
 Here is the extrapolated list of things I have been accused of over the years: being too opinionated, being too quiet, being too aggressive, not speaking up, speaking too fast, being intimidating, too negative, being unapproachable, being warm, being snobby, being open, sitting angrily, and being a show-off. And, without critical thought, I tried to problem solve for all of these. Solving problems is what I do for a living, so why not turn it inwards?
 
-It reached a peak for me earlier last month. I was frustrated by all the comments by my personality. None of them had highlighted any issues with my continued output. I felt unwanted and increasingly isolated, and it started to affect my work, my physicality, and my personal life.
+It reached a peak for me earlier last month. I was frustrated by all the comments by my personality. None of them had highlighted any issues with my continued output. I felt unwanted and increasingly isolated and it started to affect my work, my physicality, and my personal life.
 
 My hike in Sweden was a welcome change of pace. It was 100km, if I so chose, to think about what was happening around me. It didn't happen the way I envisioned, as per usual with my solo trips. Instead, I listened to a couple of books written by a journalist I adore, caught up on some podcasts, and occasionally walked hours of the trail without any entertainment except the muffled steps of each of my feet being placed one ahead of the other.
 
