@@ -4,13 +4,13 @@ title: Privilege
 category: [blog, life]
 slug: privilege
 ---
-Roughly 34ish years ago, my parents got on a boat to escape Vietnam’s bomb-riddled fields (my mother’s recounting of her classmates coming to school without limbs is nothing short of horrifying) and ended up being saved from the seas to be put in a camp in the Philippines. While there my mother gave birth to my brother and lost almost all her teeth in the pregnancy from lack of nutrition. They raised him on rice milk boiled from their rations.
+Roughly 34 years ago, my parents got on a boat to escape Vietnam’s bomb-riddled fields (my mother’s recounting of her classmates coming to school without limbs is nothing short of horrifying) and ended up being saved from the seas to be put in a camp in the Philippines. While there my mother gave birth to my brother and lost almost all her teeth in the pregnancy from lack of nutrition. They raised him on rice milk boiled from their rations.
 
 After about a year, some countries granted their group of refugees the option to immigrate to build lives elsewhere. Australia took the majority of my extended family (my mother’s parents and her eight siblings) but reached their quota before my parents arrived. This left my parents and my brother with only one option: move to Canada without their extended network. My parents found a sponsorship through a priest at a Roman Catholic church in Toronto named Father Day. When they arrived they had nothing to their name.
 
-They were lucky to find a community in Canada that was supportive and when I was born five years later, I enjoyed a generally happy environment despite lacking *privilege*. Nowadays, I live a stress-free life. This is a stark contrast from what I experienced growing up but I acknowledge that I am now enjoying a high-level of privilege.
+They were lucky to find a community in Canada that was supportive and when I was born five years later, I enjoyed a generally happy environment despite lacking *privilege*. Nowadays, I live a stress-free life. This is a stark contrast from what I experienced growing up but I have to acknowledge that I am enjoying a high-level of privilege.
 
-Having these privileges now doesn’t erase my past. My childhood was not that plentiful, I was teased for my dress, and it was hard for me to make friends. My parents had to work blue-collar jobs, didn't see me much, were likely the subject of a fair amount of racism, and likely did demeaning things to get to where we are now.
+Having these privileges doesn’t erase my past. My childhood was not that plentiful, I was teased for my dress, and it was hard for me to make friends. My parents had to work blue-collar jobs, didn't see me much, and likely did demeaning or embarassing things to get to where we are now.
 
 Neither does it erase my accomplishments. At 14, I got my first job to lessen the financial burden I had on my parents. I’ve held a full-time job (or even multiple) since the age of 19. I pooled together what I had, started a business, and made it profitable. At 24, I was able to afford my condo’s deposit on my own. All of these things still happened.
 
