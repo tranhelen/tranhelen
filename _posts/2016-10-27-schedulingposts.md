@@ -93,7 +93,7 @@ There are a couple of things I'm still a little wary about with this approach:
 - If for any reason there are any conflicts, the post won't be published. My marketing (mailchimp and tweets) depend on the post publishing and so this not working could set off a series of errors. I'm looking into this.
 - While you can set your Zap to check at a specific time, you can't do this for each post. For me, this isn't important but if  you need to specify times, you may have to do what [East 5th](http://www.east5th.co/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/) did.
 
-*<strong>Disclaimer</strong>: Testing this and trusting this is a pain in the ass. Proceed with caution and please test on your own.*
+*<strong>Disclaimer</strong>: Testing this is a pain in the ass and trusting it is a whole different story altogether. Proceed with caution and please test on your own.*
 
 ## Does It Work?
 
