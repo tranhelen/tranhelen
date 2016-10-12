@@ -95,4 +95,4 @@ There are a couple of things I'm still a little wary about with this approach:
 
 ## Does It Work?
 
-If you're reading this post, it works. Sick. Thanks to the [Peter Corey](http://www.east5th.co/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/) for starting this and [Larry Marbuger](https://twitter.com/lmarburger) for guiding me in the right direction.
+If you're reading this post, it works. Sick. I have scheduled my last three posts on specific dates while I was away in Utah and California. Thanks to the [Peter Corey](http://www.east5th.co/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/) for starting this and [Larry Marbuger](https://twitter.com/lmarburger) for guiding me in the right direction.
