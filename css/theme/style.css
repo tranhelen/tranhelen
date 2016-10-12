@@ -2275,8 +2275,8 @@ blockquote.large p {
 /* line 262, ../../sass/partials/_typography.scss */
 code {
   font-size: 0.75em;
-  background-color: #042029;
-  color: #829395;
+  background-color: #efefef;
+  color: #6e8b9d;
   padding: 5px 10px;
   border-radius: 3px;
 }
