@@ -32,7 +32,7 @@ To schedule a new post, work in a branch identified with the word Schedule and t
 
 `git checkout -b 'Schedule(10/27/2016)'`
 
-Unlike East 5th's solution, which watches commits, in this solution your comits are ignored. This helps avoid any errors created by watching commits. Adjustments can be made up until the date of publication and it won't matter.
+Unlike East 5th's solution, which watches commits, using branches as a trigger helps avoid any errors created by watching commits. Adjustments can be made up until the date of publication and it won't matter.
 
 Set up the first Zapier to trigger when you create a new branch. Before you continue, ensure that you already have created a Branch on your repo named like this or the next step won't display the [named variable](https://zapier.com/help/named-variables/) you're looking for.
 
@@ -40,7 +40,7 @@ Set up the first Zapier to trigger when you create a new branch. Before you cont
 
 ### Create a calendar event
 
-The next step in the Zap is connect to your Google calendar which creates a detailed event with the time and date of your post. I decided to create a new calendar to govern my editorial schedule but you can choose any calendar.
+The next step is connecting to your Google calendar and creating a detailed event with the time and date of your post. I decided to create a new calendar to govern my editorial schedule but you can choose any calendar.
 
 In the `Summary` field, identify the post with the word `Scheduled:` again, which is what you'll be searching for later. I personally store the `sha` in the summary as well but this is not necessary. In the `Description` field, select the `Name` of the branch (use the drop-down on the right for a full list of variables).
 
@@ -54,25 +54,25 @@ When testing this, you should see a calendar event appear at _midnight_ on the d
 
 ## Zap 2
 
-### Double-check the calendar every Monday
+### Do this every day
 
-When this was originally set up, I set up this Zap to trigger every Monday (when I publish my posts) but you can alter it to checking every day.
+I publish my posts generally on Monday but this post is posting on a Wednesday so I set it to every day.
 
 <img src="img/post/60-04.jpg" alt="Assign a check-in date" class="img-border">
 
-### Find the event which matches today's date
+### Find the next event which matches today's date
 
-Next search your calendar for Events with a description that matches today's date.
+Next search your calendar for Events with a description that matches today's date. This matches the value of your Branch name.
 
 <img src="img/post/60-05.jpg" alt="Match the date" class="img-border">
 
-### Update the event to add another identifier
+### Update that event with an additional identifier
 
 For some reason, if the previous step isn't true, the Zapier still continues. To add something to do a Boolean check identify the event in the previous step with the words, `Go ahead` by updating the event.
 
 <img src="img/post/60-06.jpg" alt="Update the event" class="img-border">
 
-### Add a filter
+### Stop if this isn't true
 
 Add a filter to stop the process if your Event Description doesn't have the words `Go ahead`.
 
@@ -80,9 +80,11 @@ Add a filter to stop the process if your Event Description doesn't have the word
 
 ### Create a PR and merge automatically
 
-Last step is to create a pull request which looks for that specific `head` name and only merges if it matches the `Event Description`. 
+Last step is to create a pull request which looks for that specific `head` name and only merges if it matches the `Event Description` in Step 2.
 
 <img src="img/post/60-08.jpg" alt="Match the PR and merge" class="img-border">
+
+*If you don't add the Boolean check, your PR will merge if it detects any event with a matching description in Step 2 regardless of whether or not it matches today's date.*
 
 ## Limitations
 
