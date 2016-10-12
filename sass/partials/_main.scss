@@ -228,6 +228,10 @@ section {
 	margin: ($unit / 2) 0;
 }
 
+.img-border {
+	border: 5px solid #efefef;
+}
+
 .mailinglist {
 	@include at-query($two) {
 		background: $colorBGdark url('/img/mailinglist-background.jpg');

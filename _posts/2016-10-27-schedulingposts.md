@@ -36,7 +36,7 @@ Unlike East 5th's solution, which watches commits, in this solution your comits 
 
 Set up the first Zapier to trigger when you create a new branch. Before you continue, ensure that you already have created a Branch on your repo named like this or the next step won't display the [named variable](https://zapier.com/help/named-variables/) you're looking for.
 
-![Trigger new branch](img/post/60-01.jpg)
+<img src="img/post/60-01.jpg" alt="Set up a trigger" class="img-border">
 
 ### Create a calendar event
 
@@ -44,11 +44,11 @@ The next step in the Zap is connect to your Google calendar which creates a deta
 
 In the `Summary` field, identify the post with the word `Scheduled:` again, which is what you'll be searching for later. I personally store the `sha` in the summary as well but this is not necessary. In the `Description` field, select the `Name` of the branch (use the drop-down on the right for a full list of variables).
 
-![Create a calendar event](img/post/60-02.jpg)
+<img src="img/post/60-02.jpg" alt="Create a calendar event" class="img-border">
 
 In the `Start Date & Time` and `End Date & Time` fields, I chose `Name Schedule` from the list of variables.
 
-![Pick a time](img/post/60-03.jpg)
+<img src="img/post/60-03.jpg" alt="Pick a time" class="img-border">
 
 When testing this, you should see a calendar event appear at _midnight_ on the date identified by your branch name.
 
@@ -58,31 +58,31 @@ When testing this, you should see a calendar event appear at _midnight_ on the d
 
 When this was originally set up, I set up this Zap to trigger every Monday (when I publish my posts) but you can alter it to checking every day.
 
-![Assign a check-in date](img/post/60-04.jpg)
+<img src="img/post/60-04.jpg" alt="Assign a check-in date" class="img-border">
 
 ### Find the event which matches today's date
 
 Next search your calendar for Events with a description that matches today's date.
 
-![Match the date](img/post/60-05.jpg)
+<img src="img/post/60-05.jpg" alt="Match the date" class="img-border">
 
 ### Update the event to add another identifier
 
 For some reason, if the previous step isn't true, the Zapier still continues. To add something to do a Boolean check identify the event in the previous step with the words, `Go ahead` by updating the event.
 
-![Update the event](img/post/60-06.jpg)
+<img src="img/post/60-06.jpg" alt="Update the event" class="img-border">
 
 ### Add a filter
 
 Add a filter to stop the process if your Event Description doesn't have the words `Go ahead`.
 
-![Add a filter](img/post/60-07.jpg)
+<img src="img/post/60-07.jpg" alt="Add a filter" class="img-border">
 
 ### Create a PR and merge automatically
 
 Last step is to create a pull request which looks for that specific `head` name and only merges if it matches the `Event Description`. 
 
-![Match the PR and merge](img/post/60-08.jpg)
+<img src="img/post/60-08.jpg" alt="Match the PR and merge" class="img-border">
 
 ## Limitations
 
