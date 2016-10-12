@@ -28,9 +28,9 @@ After some serious frustrating spells, I managed to get this set up and working.
 
 ### Trigger when new branches are created
 
-To schedule a new post, create a new branch identified with the word `Schedule` and then follow it up with the date of publication: `(10/27/2016)`.
+To schedule a new post, work in a branch identified with the word Schedule and the date:
 
-`git push origin 'Schedule(10/27/2016)'`
+`git checkout -b 'Schedule(10/27/2016)'`
 
 Unlike East 5th's solution, which watches commits, in this solution your comits are ignored. This helps avoid any errors created by watching commits. Adjustments can be made up until the date of publication and it won't matter.
 
