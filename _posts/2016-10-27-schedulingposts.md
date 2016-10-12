@@ -42,7 +42,7 @@ Set up the first Zapier to trigger when you create a new branch. Before you cont
 
 The next step is connecting to your Google calendar and creating a detailed event with the time and date of your post. I decided to create a new calendar to govern my editorial schedule but you can choose any calendar.
 
-In the `Summary` field, identify the post with the word `Scheduled:` again, which is what you'll be searching for later. I personally store the `sha` in the summary as well but this is not necessary. In the `Description` field, select the `Name` of the branch (use the drop-down on the right for a full list of variables).
+In the `Summary` field I put the word `Scheduled:` and the `sha` but this is only for my own identification. You can use whatever you want. In the `Description` field, select the `Name` of the branch (use the drop-down on the right for a full list of variables).
 
 <img src="img/post/60-02.jpg" alt="Create a calendar event" class="img-border">
 
@@ -54,9 +54,9 @@ When testing this, you should see a calendar event appear at _midnight_ on the d
 
 ## Zap 2
 
-### Do this every day
+### Run the calendar check everyday
 
-I publish my posts generally on Monday but this post is posting on a Wednesday so I set it to every day.
+If you post only on a day of the week, you can alter this to whatever timeframe you like.
 
 <img src="img/post/60-04.jpg" alt="Assign a check-in date" class="img-border">
 
@@ -66,15 +66,15 @@ Next search your calendar for Events with a description that matches today's dat
 
 <img src="img/post/60-05.jpg" alt="Match the date" class="img-border">
 
-### Update that event with an additional identifier
+### Update that previous event with an additional identifier
 
-For some reason, if the previous step isn't true, the Zapier still continues. To add something to do a Boolean check identify the event in the previous step with the words, `Go ahead` by updating the event.
+If the previous step isn't true the Zapier still continues. To stop this if it didn't find an event, we have to update the event in the previous step and add a value to check agianst. I store the words `Go ahead` in the `Location` field.
 
 <img src="img/post/60-06.jpg" alt="Update the event" class="img-border">
 
-### Stop if this isn't true
+### If any of the above didn't work as intended, stop
 
-Add a filter to stop the process if your Event Description doesn't have the words `Go ahead`.
+Add a filter to stop the process if your `Location` doesn't have the words `Go ahead`.
 
 <img src="img/post/60-07.jpg" alt="Add a filter" class="img-border">
 
@@ -97,4 +97,6 @@ There are a couple of things I'm still a little wary about with this approach:
 
 ## Does It Work?
 
-If you're reading this post, it works. Sick. I have scheduled my last three posts on specific dates while I was away in Utah and California. Thanks to the [Peter Corey](http://www.east5th.co/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/) for starting this and [Larry Marbuger](https://twitter.com/lmarburger) for guiding me in the right direction.
+If you're reading this post, it works. Sick. I have scheduled my last three posts on specific dates while I was away in Utah and California. If you have suggestions on how I can better optimize this flow, give me a heads up.
+
+Thanks to the [Peter Corey](http://www.east5th.co/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/) for starting this and [Larry Marbuger](https://twitter.com/lmarburger) for guiding me in the right direction.
