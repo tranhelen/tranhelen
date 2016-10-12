@@ -84,7 +84,7 @@ Last step is to create a pull request which looks for that specific `head` name 
 
 <img src="img/post/60-08.jpg" alt="Match the PR and merge" class="img-border">
 
-*If you don't add the Boolean check, your PR will merge if it detects any event with a matching description in Step 2 regardless of whether or not it matches today's date.*
+*If you don't add the Boolean check, your PR will merge if it detects any event regardless of whether or not it matches today's date.*
 
 ## Limitations
 
