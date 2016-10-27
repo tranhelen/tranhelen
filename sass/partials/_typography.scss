@@ -259,6 +259,14 @@ blockquote.large {
 	}
 }
 
+code {
+    font-size: em(12px);
+    background-color: #efefef;
+    color: #6e8b9d;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
 figure {
 	margin: $unit (-$unit) $unit (-$unit);
 }
