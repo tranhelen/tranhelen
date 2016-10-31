@@ -11,7 +11,7 @@ Maybe they said something funny and I would have laughed uproariously and then f
 In any case, a piece from Debbie Millman's speech stood out to me,
 
 <blockquote class="large">
-	<p>If you imagine less, less will be what you undoubtedly deserve. Do what you love, and don't stop until you get what you love. Work as hard as you can, imagine immensities, don't compromise and don't waste time. Start now."</p>
+	<p>If you imagine less, less will be what you undoubtedly deserve. Do what you love, and don't stop until you get what you love. Work as hard as you can, imagine immensities, don't compromise and don't waste time. Start now.</p>
 </blockquote>
 
 I was so enamoured. I immediately took to my chalkboard wall and wrote those sentences out so I could read them every morning. And I did that, I read them every morning. I was delighted to end 2015 with a level of gratefulness and joy that I hadn't felt before in my entire life. Maybe there's something to yearly themes after all.
@@ -19,7 +19,7 @@ I was so enamoured. I immediately took to my chalkboard wall and wrote those sen
 I now have something new on my wall, found by way of a favourite comedian,
 
 <blockquote class="large">
-	<p>If I am not for myself, who will be for me? And when I am for myself, what am I? And if not now, when?"</p>
+	<p>If I am not for myself, who will be for me? And when I am for myself, what am I? And if not now, when?</p>
 </blockquote>
 
 Ah yes, I'm one of *those* people now.
