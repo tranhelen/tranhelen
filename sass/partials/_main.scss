@@ -42,7 +42,7 @@ section {
 }
 
 .bio {
-	background: $colorBGdark url('/img/header-background.jpg');
+	background: $colorBGdark url('/img/header-background2.jpg');
 	background-size: cover;
 	padding: 60px 0 90px;
 	position: relative;
@@ -88,7 +88,7 @@ section {
 
 .bio__portrait {
 	position: absolute;
-	background: 50% url('/img/header-portrait.jpg') no-repeat;
+	background: 50% url('/img/header-portrait2.jpg') no-repeat;
 	background-size: cover;
 	z-index: 1;
 	right: 0;
@@ -194,7 +194,7 @@ section {
 
 .about {
 	@include at-query($two) {
-		background: $colorBGdark url('/img/about-background.jpg');
+		background: $colorBGdark url('/img/about-background2.jpg');
 		background-attachment: fixed;
 		background-position: 50%;
 		background-size: cover;
