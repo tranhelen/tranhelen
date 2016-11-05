@@ -194,7 +194,7 @@ section {
 
 .about {
 	@include at-query($two) {
-		background: $colorBGdark url('/img/about-background.jpg');
+		background: $colorBGdark url('/img/about-background2.jpg');
 		background-attachment: fixed;
 		background-position: 50%;
 		background-size: cover;

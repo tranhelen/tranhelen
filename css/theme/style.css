@@ -2655,7 +2655,7 @@ section {
 @media screen and (min-width: 1000px) {
   /* line 195, ../../sass/partials/_main.scss */
   .about {
-    background: #283e4c url("/img/about-background.jpg");
+    background: #283e4c url("/img/about-background2.jpg");
     background-attachment: fixed;
     background-position: 50%;
     background-size: cover;
