@@ -40,7 +40,7 @@ Spend some time outlining your organization's circles of impact and getting to k
 - **Engineers/back-end developers**   How do they organize the project? How do they prioritize bugs vs. new features? How can you better explain to them what you want prior to delivering so you don't work in a staggered approach and waste time?
 - **FEDs/front-end developers**   What type of units are they working in and how do they want this represented in your files? The likelihood is your FED is your second-hand, so smooth over any potential communication issues prior to getting your hands dirty.
 - **Project managers**   What type of timeline are you working on? What is expected out of you? How can you work faster within the environment you're in so they don't feel like they're waiting on you? 
-- **Product managers**   How can they help you push your vision and what role do they play on the team? Product Managers work differently depending on the company you're at. For a good introduction, check out [@brandonchu](http://twitter.com/brandonchu)'s [Medium articles](https://medium.com/@brandonmchu).
+- **Product managers**   How can they help you push your vision and what role do they play on the team? Product Managers work differently depending on the company you're at. For a good introduction, check out Brandon Chu's Medium articles.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
 - **Upstream/downstream stakeholders for your particular project**   Who is affected by the project you're working on (downstream)? Who do you need to get approval from (upstream)? How often do you need to check-in with all of them?
 
 There may be other specialized roles at your company that I don't particularly know of. If that's the case, you'll have to figure out what the best questions to ask are. There are always questions. Find them.
@@ -59,7 +59,7 @@ More tips:
 - **Don't use metaphors that don't make sense.** Not everything needs a metaphor. In fact, *most* things can be explained metaphor-free. 
 - **Take it easy on those acronyms.** Acronyms are meant to speed things up but actually make things slower because you have to teach every single person you meet what they mean. Tribal knowledge can be as dangerous as it is helpful.
 - **Read up on different personality types.**   Myer Briggs is a good place to start but there are other personality frameworks that can explain how different people react to different types of information.
-- **Understand how to navigate hard conversations.** This is a skill you'll practice but [this book](https://www.amazon.com/gp/product/0071771328/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0071771328&linkCode=as2&tag=heltraprodes-20&linkId=6ca409a2542156e6361acb8543b58362) will help you get a jump-start.
+- **Understand how to navigate hard conversations.** This is a skill you'll practice; <em>"Crucial Conversations"</em> by Kerry Patterson will help you get a jump-start.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a>
 - **Learn how to deal with feedback.**   I've already [written about this](http://helentran.com/dealing-with-feedback). This will be something you deal with for the rest of your career. Find opportunities to practice this.
 
 ## Balancing Datapoints and Your Wishes
@@ -72,4 +72,12 @@ There are many datapoints you will come across in your assignments and projects.
 
 ## Good Luck!
 
-This concludes my graduation series. Good luck with the start of your career, Design is a fantastic industry to build a life in. If this was helpful to you, please share these articles with your fellow classmates or <a href="http://twitter.com/tranhelen">tweet me</a> love notes.
+This concludes my graduation series. Good luck with the start of your career, Design is a fantastic industry to build a life in. If this was helpful to you, please share these articles with your fellow classmates or tweet me love notes.
+
+<hr class="small">
+
+<div class="fieldnotes">
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Brandon is a PM at Shopify and has written several <a href="https://medium.com/@brandonmchu" class="external" target="_blank"><span class="external-body">great articles</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a> about Product Management worth looking into</p>
+
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Kerry Patterson, <a href="https://www.amazon.com/gp/product/0071771328/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0071771328&linkCode=as2&tag=heltraprodes-20&linkId=6ca409a2542156e6361acb8543b58362" class="external" target="_blank">&#8220;<span class="external-body"><em>Crucial Conversations</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 2011</p>
+</div>

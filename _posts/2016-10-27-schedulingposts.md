@@ -99,7 +99,6 @@ If you're reading this post, it works. Sick. I have scheduled my last three post
 
 Thanks to the Peter Corey for starting this and Larry Marbuger<a id="anchor-3" href="#note-3" class="fieldnotes-anchor">[3]</a> for guiding me in the right direction.
 
-
 <hr class="small">
 
 <div class="fieldnotes">
