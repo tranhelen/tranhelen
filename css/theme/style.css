@@ -2441,22 +2441,23 @@ input.dramatic {
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 25px;
+  margin-left: 4px;
   position: relative;
 }
 
-/* line 415, ../../sass/partials/_typography.scss */
+/* line 416, ../../sass/partials/_typography.scss */
 .footnote {
   letter-spacing: 2px;
 }
 
-/* line 419, ../../sass/partials/_typography.scss */
+/* line 420, ../../sass/partials/_typography.scss */
 .footnote-back {
   position: relative;
   top: 3px;
   margin-left: -20px;
 }
 
-/* line 425, ../../sass/partials/_typography.scss */
+/* line 426, ../../sass/partials/_typography.scss */
 .filter--off {
   opacity: 0.5;
   -webkit-transition: all 0.35s ease;
@@ -2465,7 +2466,7 @@ input.dramatic {
   transition: all 0.35s ease;
 }
 
-/* line 431, ../../sass/partials/_typography.scss */
+/* line 432, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin-bottom: 30px;

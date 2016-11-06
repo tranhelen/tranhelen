@@ -4,7 +4,7 @@ title: Curating the Same Future
 category: [blog, tech]
 slug: curating-the-same
 ---
-Jon Ronson outlines the dangers of group-think in his latest book, <em>&#8220;So You’ve Been Publicly Shamed.&#8221;</em> <a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> After running through several case studies of the immense emotional and social damage some people have undergone due to public shaming on the internet, he posits that group-thinking encourages us to behave unlike we would if we were alone. He asserts,
+Jon Ronson outlines the dangers of group-think in his latest book, <em>&#8220;So You’ve Been Publicly Shamed.&#8221;</em><a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> After running through several case studies of the immense emotional and social damage some people have undergone due to public shaming on the internet, he posits that group-thinking encourages us to behave unlike we would if we were alone. He asserts,
 
 <blockquote>
     <p>&#8220;We see ourselves as non-conformist. I think all of this has created a more conformist, conservative age. &#8216;Look,&#8217; we’re saying, &#8216;We’re normal. This is the average.&#8217; We’re defining the boundaries of normality by tearing apart the people outside of it.&#8221;</p>
@@ -18,7 +18,7 @@ What we’ve created are echo-chambers that repeat back to our users what they a
 
 Lack of diversity (not just racial or social-economic diversity, but diversity of thought) is as dangerous for society as it is for business. What we have in tech is a large percentage of _one type of thinking_ informed by _one world view_. The effects of this in public shaming is pathetic enough, let alone how it impacts the world we build online (and now in VR). We don’t need to search that hard to see this singular world view affecting how and what we build.<a id="anchor-4" href="#note-4" class="fieldnotes-anchor">[4]</a> We’re pushing the singular viewpoint to our users, negative biases included.
 
-There are striking parallels between the development of television as described in David Foster Wallace's 1993 essay <em>"E Unibus Pluram: Television and U.S. Fiction"</em> <a id="anchor-5" href="#note-5" class="fieldnotes-anchor">[5]</a> and our world heading into VR now. Critics claimed that TV was responsible for lowering our aesthetic standards and some even went as far as treating it as a, “diabolical corrupter of personal agency and community gumption.”
+There are striking parallels between the development of television as described in David Foster Wallace's 1993 essay <em>"E Unibus Pluram: Television and U.S. Fiction"</em><a id="anchor-5" href="#note-5" class="fieldnotes-anchor">[5]</a> and our world heading into VR now. Critics claimed that TV was responsible for lowering our aesthetic standards and some even went as far as treating it as a, “diabolical corrupter of personal agency and community gumption.”
 
 The addiction of technology is strong, and just like T.V., more time spent at home alone in the internet is less time spent in the world of real human beings. I’m aware of the argument that we’re still interacting with people online but we do not yet have a substitute for IRL human interaction. We are still wired biologically to crave human touch. We consumption increases,
 
