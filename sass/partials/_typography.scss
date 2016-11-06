@@ -220,6 +220,37 @@ a {
 		}
 	}
 
+	&.external {
+    	color: #000000;
+		display: inline-block;
+		line-height: 18px;
+		text-decoration: none;
+		border: 0;
+	}
+
+	& .external-body {
+		border-bottom: 1px dashed rgba(#000,0.3);
+	}
+
+	& .external-box {
+	    display: inline-block;
+	    border: 1px solid $colorAccent;
+	    height: 13px;
+	    width: 11px;
+	    margin: 0 6px 0 3px;
+	    position: relative;
+    	top: 4px;
+	}
+
+	& .external-box__arrow {
+		color: $colorAccent;
+		font-size: em(16px);
+	    font-weight: bold;
+	    margin: 0 0 -2px 0;
+	    position: relative;
+	    bottom: 8px;
+	}
+
 	@include transition;
 }
 
@@ -368,6 +399,27 @@ input {
 		font-size: em(16px);
 		line-height: 25px;
 	}
+}
+
+.fieldnotes-anchor {
+    bottom: 6px;
+    color: $colorAccent;
+    font-family: $stack2;
+    font-size: em(12px);
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 25px;
+    position: relative;
+}
+
+.footnote {
+	letter-spacing: 2px;
+}
+
+.footnote-back {
+	position: relative;
+	top: 3px;	
+    margin-left: -20px;
 }
 
 .filter--off {
