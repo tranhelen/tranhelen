@@ -12,11 +12,11 @@ It's not very popular to stand in favour of formal education. For this I don't a
 
 What formal education has, and what teaching practitioners haven't figured out, is how to translate the useful knowledge in those dusty old textbooks to a generation of TLDRs. Although a background in Graphic Design history probably isn't necessary to your survival as a Product Designer, it can certainly provide some clarity on how to choose a typeface and why we use grids and what colours are all about. *I can use a colour that isn't blue?*
 
-What formal education has, and what teaching practioners still really haven't figured out, is how to nurture critical thinking. They do this in an environment which is condusive to being completely off the mark. If you want to wax poetic about how that poem is a commentary about the heartbreaking torture of unrequited love, you can, but it's probably just about STDs.<a id="anchor-1" href="#note-1">*</a> Writing an essay about a singular topic isn't very encouraged these days although we could all benefit from just a bit more structured thinking.
+What formal education has, and what teaching practioners still really haven't figured out, is how to nurture critical thinking. They do this in an environment which is condusive to being completely off the mark. If you want to wax poetic about how that poem is a commentary about the heartbreaking torture of unrequited love, you can, but it's probably just about STDs.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> Writing an essay about a singular topic isn't very encouraged these days although we could all benefit from just a bit more structured thinking.
 
 So what does formal education lack? Practical skills. Dealing with decisions between idealistic or pragmatic solutions. Encouragement of initiative and resourcefulness.
 
-## Ebooks, bootcamps<a id="anchor-2" href="#note-2">**</a>, and interactive apps
+## Ebooks, bootcamps, and interactive apps
 
 Having dog-fooded this myself, it's still not very clear exactly what is being achieved with these resources.
 
@@ -38,12 +38,12 @@ We also know this gap is still **not being closed.** There's still way too many 
 
 There's a very clear need to merge these two worlds together and provide a better foundation for the ideal Product Designer. It's easier to just continue on with how we've been treating this. It's currently a secret treehouse club in which if you spent years trying to find the password you can come in but this isn't scalable long-term.
 
-I'm not using this post to announce some sort of educational product so we can all breathe a sigh of relief. I'm thinking about all of this though as this is what has been keeping me up at night.
+I'm not using this post to announce some sort of educational product so we can all breathe a sigh of relief. I'm thinking about all of this though as this is what has been keeping me up at night.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a>
 
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1">*I've witnessed this before and it was hilarious. <a href="#anchor-1">&#8593;</a></p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> I've witnessed this before and it was hilarious.</p>
 
-	<p id="note-2">*Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/">Bloc. It's not, just to clarify. <a href="#anchor-2">&#8593;</a></p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/" class="external" target="_blank"><span class="external-body">Bloc</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a> Just to clarify, it's not.</p>
 </div>
