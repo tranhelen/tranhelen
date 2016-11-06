@@ -223,13 +223,14 @@ a {
 	&.external {
     	color: #000000;
 		display: inline-block;
-		line-height: 18px;
 		text-decoration: none;
 		border: 0;
 	}
 
 	& .external-body {
 		border-bottom: 1px dashed rgba(#000,0.3);
+		line-height: 18px;
+		display: inline-block;
 	}
 
 	& .external-box {
@@ -239,16 +240,27 @@ a {
 	    width: 11px;
 	    margin: 0 6px 0 3px;
 	    position: relative;
-    	top: 4px;
+	    bottom: -10px;
+
+	    .fieldnotes & {
+	    	top: 8px;
+	    }
 	}
 
 	& .external-box__arrow {
 		color: $colorAccent;
-		font-size: em(16px);
+		font-size: em(10px);
 	    font-weight: bold;
 	    margin: 0 0 -2px 0;
 	    position: relative;
-	    bottom: 8px;
+	    bottom: 16px;
+	    left: 2px;
+
+	    .fieldnotes & {
+	    	font-size: em(16px);
+	    	bottom: 12px;
+	    	left: 0;
+	    }
 	}
 
 	@include transition;
