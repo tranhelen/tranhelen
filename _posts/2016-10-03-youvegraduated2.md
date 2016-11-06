@@ -28,7 +28,7 @@ You should have a basic idea of what back-end development and front-end developm
 
 Try some basic development courses online and read up on what people do with different technology stacks. You don't need to be a developer but you need to be able to communicate with one. Shared languages are key.
 
-From a user feedback point of view, these Designers work with User Researchers to test mental models and validate assumptions prior to and after launching. There are many rounds of iterations which go through user testing. If your company is not that large, you will be the one doing the research.<a id="anchor-1" href="#note-1">&#42;</a>
+From a user feedback point of view, these Designers work with User Researchers to test mental models and validate assumptions prior to and after launching. There are many rounds of iterations which go through user testing. If your company is not that large, you will be the one doing the research.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
 
 Lastly, if you're working on these type of interfaces and are in-house, **your work is never done**.
 
@@ -70,5 +70,5 @@ Tune in next week for how to prep your portfolio and the interview process. If y
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6">*If this is you, check out Erika Hall's <a href="https://abookapart.com/products/just-enough-research">Just Enough Research</a>.<a href="#anchor-1">&#8593;</a></p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> If this is you, check out Erika Hall's <a href="https://abookapart.com/products/just-enough-research" class="external" target="_blank">&#8220;<span class="external-body"><em>Just Enough Research</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a></p>
 </div>
