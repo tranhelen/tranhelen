@@ -18,7 +18,7 @@ At Shopify, every project has a *Champion*, which is a fancy word for the person
 
 I&rsquo;ve been seeking asylum within any piece of information from every source I could identify as even *possibly helpful.* It turns out, there&rsquo;s a dude that&rsquo;s figured out a lot of this stuff and I&rsquo;ve been reading his work for years. It&rsquo;s just only been ever-so-relevant now. 
 
-27 pages into Rands&rsquo; [Managing Humans](https://www.amazon.com/gp/product/159059844X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=159059844X&linkCode=as2&tag=heltraprodes-20&linkId=ccb552ed4c3ff956f66ade73039f02f8), he says this,
+27 pages into Rands&rsquo;, "<em>Managing Humans</em>"<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>, he says this,
 
 > "Engineering was in the process of discussing some drastic new directions for our products, and the incrementalists (ship it soon!) were doing battle with the completionists (ship it when it&rsquo;s done!)"
 
@@ -39,3 +39,9 @@ In Rands&rsquo; dropped words there was something else I read and realized: he i
 Both incrementalists and completionists are not wrong. If we pitted two teams against each other filled with each personality, they could potentially launch the same thing, in the same timeframe, with the same results. The biggest difference to me (at least from a management perspective) is in how those teams are motivated when they&rsquo;re in the weeds. 
 
 This book is 190 pages long but it took just two words for me to see my work a little differently. Paying attention to the unwritten words really delivers sometimes.
+
+<hr class="small">
+
+<div class="fieldnotes">
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Michael Lopp, <a href="https://www.amazon.com/gp/product/159059844X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=159059844X&linkCode=as2&tag=heltraprodes-20&linkId=ccb552ed4c3ff956f66ade73039f02f8" class="external" target="_blank">&#8220;<span class="external-body"><em>Managing Humans</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 2007</p>
+</div>
