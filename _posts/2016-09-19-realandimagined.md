@@ -6,7 +6,7 @@ slug: real-and-imagined-boundaries
 ---
 The light shining into the room outlined a silhouette of the familiar short-*ish* man. He faced away from me looking out towards the city with his arms clasped behind his back. I was sitting at a long boardroom table, behind him, at a seat chosen out of reservation&mdash;not too far, not too close. I was told to come here, instead of our office, into a tall glossy building which reeked of excessive wealth.
 
-He started, “You see the world like I do.” *I do?* “You see the world… without boundaries.” *Oh, geez.*<a id="anchor-1" href="#note-1">&#42;</a>
+He started, “You see the world like I do.” *I do?* “You see the world… without boundaries.” *Oh, geez.*<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
 
 The half hour conversation was exactly what he had pictured but it was not going as I had planned. I was there to pitch my idea for a new design system. He was there to mentor me. I wasn’t sure what went wrong during the initial meeting arrangement that landed me in this situation but I knew better than to correct the course of events.
 
@@ -29,5 +29,5 @@ The silhouette was only half right. The world has no boundaries except for the o
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6">*This actually happened. I know… it sounds like I made it up. It’s fucking ridiculous.<a href="#anchor-1">&#8593;</a></p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> This actually happened. I know… it sounds like I made it up. It’s fucking ridiculous.</p>
 </div>
