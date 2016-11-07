@@ -6,7 +6,7 @@ slug: youve-graduated-1
 redirect_from: 
  - /ive-graduated-now-what-1
 ---
-*I did a talk at [Bitmaker](https://bitmaker.co/) in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*
+*I did a talk at Bitmaker in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*
 
 There are four things any particular junior should be concerned about: getting better at their craft, deciding what to do with the job market, preparing themselves and their portfolio, and understanding the environment once you have a position.
 
@@ -16,7 +16,7 @@ Graduating from formal education, a bootcamp, or even apprenticeship based progr
 
 All Designers must adopt a growth mindset from graduation, and hopefully, much before that. You've joined an industry in which learning new skill-sets is a constant. Picking up new skills and absorbing them quickly will be something you do for the rest of your career. Tech moves fast.
 
-Passion is not followed or found, but cultivated. To ensure longevity in your career, you must find satisfaction in learning things, or, deliberate practice.<a id="anchor-1" href="#note-1">&#42;</a> If you manage to fine-tune this skill of yours, you'll find that competition will melt away fairly quickly. One of my favourite books says this about it,
+Passion is not followed or found, but cultivated. To ensure longevity in your career, you must find satisfaction in learning things, or, deliberate practice.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> If you manage to fine-tune this skill of yours, you'll find that competition will melt away fairly quickly. One of my favourite books says this about it,
 
 <blockquote class="large">
     <p>The good news about deliberate practice is that it will push you past this plateau and into a realm where you have little competition.
@@ -54,22 +54,22 @@ These Design books should be on your bookshelf if your visual skills are weak:
     </div>
 </div>
 
-While you're going through those, be sure to check out the articles on [A List Apart](http://alistapart.com/) and [A Book Apart](https://abookapart.com/). These resources are always relevant, well researched, and high value in exchange for the time invested.
+While you're going through those, be sure to check out the articles on <a href="https://alistapart.com" class="external" target="_blank"><span class="external-body">A List Apart</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a> and <a href="https://abookapart.com" class="external" target="_blank"><span class="external-body">A Book Apart</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>. These resources are always relevant, well researched, and high value in exchange for the time invested.
 
 ## Self-initiating
 
 **Your portfolio is never done.** You must always be constantly building your portfolio and you shouldn't be waiting for a job position in order to get better. Here are things you can do, by your lonesome:
 
-- Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on [meet-up.com](http://meet-up.com), announced on [Designer News](https://www.designernews.co/), or talked about on the Twitterverse.
+- Attend meet-ups to find like-minded folk. Do not just attend Design meet-ups: finding a developer is easier at a developer meet-up than it is at a Dribbble meet-up. Listings are available on <a href="http://meet-up.com" class="external" target="_blank"><span class="external-body">meet-up.com</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>, announced on <a href="https://www.designernews.co" class="external" target="_blank"><span class="external-body">Designer News</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>, or talked about on the Twitterverse.
 - Attend hack-a-thons to open up the possibility of working with a motivated team. There are tons of hack-a-thon listings online, or again, find them on the Twitterverse.
-- Design a product and hire someone to bring your Design to life. While this option isn't available for those who do not have the resources, it can be a route for those who do. You can find developers on [upwork.com](https://www.upwork.com/).
-- Build it yourself. This will take the longest and is probably out of the question for those who are juggling real-life problems. If it is an option for you though, [Codeschool](http://codeschool.com), [Team Teamhouse](https://teamtreehouse.com/), and [Udemy](https://www.udemy.com/) are great places to start.
+- Design a product and hire someone to bring your Design to life. While this option isn't available for those who do not have the resources, it can be a route for those who do. You can find developers on <a href="https://www.upwork.com/" class="external" target="_blank"><span class="external-body">upwork.com</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>.
+- Build it yourself. This will take the longest and is probably out of the question for those who are juggling real-life problems. If it is an option for you: <a href="http://codeschool.com" class="external" target="_blank"><span class="external-body">Codeschool</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>, <a href="https://teamtreehouse.com" class="external" target="_blank"><span class="external-body">Team Teamhouse</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>, and <a href="https://www.udemy.com" class="external" target="_blank"><span class="external-body">Udemy</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a> are great places to start.
 
 ## Specialization
 
 You may get to a point in which you feel like you have the basics down (unlikely, but let's say you're especially confident). In that case, it may make some sense to pick a specialization to focus on.
 
-There are many topics Designers can become specialists in and I detail them in a [previous post of mine](http://helentran.com/deliberate-practice). You can pick anything, learn everything you can about it, and use your blog to track what you're learning.<a id="anchor-2" href="#note-2">&#42;&#42;</a>
+There are many topics Designers can become specialists in and I detail them in a [previous post of mine](http://helentran.com/deliberate-practice). You can pick anything, learn everything you can about it, and use your blog to track what you're learning.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a>
 
 Using blog posts to share what you've learned helps interviewers like me judge your ability to take on complex topics, and it helps those who are interested in the same topic as you.
 
@@ -92,7 +92,7 @@ Next, you'll have to understand what type of Designer you are so you can underst
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6">*Check out the <a href="http://helentran.com/deliberate-practice">first blog post</a> I wrote about <em>Deliberate Practice</em>.<a href="#anchor-1">&#8593;</a></p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Check out the <a href="http://helentran.com/deliberate-practice">first blog post</a> I wrote about <em>Deliberate Practice</em></p>
 
-    <p id="note-2" class="h6">**For more about specializations, check out <a href="http://twitter.com/verneho">@verneho</a>'s blog post about <a href="https://medium.com/shopify-ux/the-design-thesis-63c5a7bfed02">The Design Thesis</a>.<a href="#anchor-2">&#8593;</a></p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> For more check out <a href="https://twitter.com/verneho" class="external" target="_blank"><span class="external-body">Verne Ho's</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a> post about <a href="https://medium.com/shopify-ux/the-design-thesis-63c5a7bfed02" class="external" target="_blank">&#8220;<span class="external-body"><em>The Design Thesis</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a></p>
 </div>

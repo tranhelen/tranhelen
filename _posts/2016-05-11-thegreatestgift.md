@@ -28,15 +28,11 @@ That life wasn't what I wanted: it was *The Default*. *The Default* is the life 
 
 The last three years have been rough; it has been spent tearing down who I was headed to be and forcibly changing the direction of my life. I'm still defining a clearer vision for what I want to see but I know I'm headed in a better direction. It hasn't been the easiest journey but every step forward has made my universe just a little bit brighter.
 
-In his death he gave me the greatest gift I've ever received: clarity. Thank goodness, because he's more broke now than he's ever been.<a id="anchor-1" href="#note-1">*</a>
+In his death he gave me the greatest gift I've ever received: clarity. Thank goodness, because he's more broke now than he's ever been.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
 
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6">*The Tran family gene strikes again.<a href="#anchor-1">&#8593;</a></p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> The Tran family gene strikes again.</p>
 </div>
-
-
-
-
 

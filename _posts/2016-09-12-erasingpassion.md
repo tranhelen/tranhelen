@@ -26,15 +26,15 @@ At 23, I found myself entering what would end up being my [quarter-life crisis](
 
 <hr class="small">
 
-Here's the thing about the word *passion*: it's commonly understood as an end state. It's just as misused as the word *happiness*; an end to some journey you're supposed to already know about.<a id="anchor-1" href="#note-1">&#42;</a> We put people who are full of *passion* on a pedestal and convince ourselves that until we figure out *passion*, we won't quite be complete.
+Here's the thing about the word *passion*: it's commonly understood as an end state. It's just as misused as the word *happiness*; an end to some journey you're supposed to already know about.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> We put people who are full of *passion* on a pedestal and convince ourselves that until we figure out *passion*, we won't quite be complete.
 
 I've been spending the last couple of years removing my passion tattoo. When people ask me why, I tend to make the same joke about it. They usually say something like, "Do you not have passion anymore?" and I get to say something like, "No, I'm dead inside now." This garners a few giggles depending on how it's delivered.
 
-The truth is, my idea of passion has been calibrated over the years and my current definition of it is much more interesting than my ideals at the time I had tattooed. [*So Good They Can't Ignore You*](http://amzn.to/2ceFbBa),  written by Cal Newport, says this about passion,
+The truth is, my idea of passion has been calibrated over the years and my current definition of it is much more interesting than my ideals at the time I had tattooed. "<em>So Good They Can't Ignore You</em>"<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a>,  written by Cal Newport, says this about passion,
 
 > Second, and more serious, the deep questions driving the passion mindset—“Who am I?” and “What do I truly love?”—are essentially impossible to confirm. “Is this who I really am?” and “Do I love this?” rarely reduce to clear yes-or-no responses. In other words, the passion mindset is almost guaranteed to keep you perpetually unhappy and confused
 
-"What are you passionate about?" is an unfair question to ask yourself. It lacks the compassion that you would otherwise offer to a friend asking, "What am I doing with my life?" He further expounds on this in an [interview](http://www.theminimalists.com/cal/) I recently found,
+"What are you passionate about?" is an unfair question to ask yourself. It lacks the compassion that you would otherwise offer to a friend asking, "What am I doing with my life?" He further expounds on this in an interview I recently found,<a id="anchor-3" href="#note-3" class="fieldnotes-anchor">[3]</a>
 
 > “Follow your passion” assumes: a) you have preexisting passion, and b) if you match this passion to your job, then you’ll enjoy that job.
 > 
@@ -44,9 +44,12 @@ He confirmed what I had learned, ten years after getting that tattoo: passion is
 
 If you don't know what that is yet, then just pick *something* and dedicate some time to getting good at it. You'll find out if it's yours in time.
 
-
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6">*Popular culture suggests that I mention The Oatmeal's <a href="http://theoatmeal.com/comics/unhappy" target="_">latest comic</a> about this.<a href="#anchor-1">&#8593;</a></p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Popular culture suggests that I mention The Oatmeal's <a href="http://theoatmeal.com/comics/unhappy" class="external" target="_blank"><span class="external-body">latest comic</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a> about this.</p>
+
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Cal Newport <a href="http://amzn.to/2ceFbBa" class="external" target="_blank">&#8220;<span class="external-body"><em>So Good They Can't Ignore You</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 2012</p>
+
+    <p id="note-3" class="h6"><a href="#anchor-3" class="footnote-back">&#8617;</a> <span class="footnote">[3]</span> Joshua Fields Millburn, <a href="http://www.theminimalists.com/cal/" class="external" target="_blank">&#8220;<span class="external-body"><em>'Follow Your Passion' is Crappy Advice</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a></p>
 </div>

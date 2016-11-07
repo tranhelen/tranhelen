@@ -24,9 +24,15 @@ The person who *I* identify with was reaffirmed by my trip. No one thought I was
 
 <hr class="small">
 
-Alan Watts has a good talk [about this](https://www.youtube.com/watch?v=v4jBd4fArfQ). He notes that we punish ourselves when we don't achieve whatever goal we set. We're so obsessed we believe that we can reach a status of *better*, whatever that means. He points out that if we knew what that meant, we'd just *be that*. It would be that simple. He ends his talk by challenging us, "Watch what happens. [...] When you do that, you give yourself a chance." 
+Alan Watts has a good talk about this...<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> he notes that we punish ourselves when we don't achieve whatever goal we set. We're so obsessed with '*better*,' whatever that means. He points out that if we knew what that meant, we'd just *be that*. It would be that simple. He ends his talk by challenging us to watch what happens:
 
 <blockquote class="large">
-    <p>Your own nature will begin to take care of itself... because you're not getting in the way of yourself all the time. You will begin to find out, that the great things you do are really happening.
+    <p>When you do that, you give yourself a chance. Your own nature will begin to take care of itself... because you're not getting in the way of yourself all the time. You will begin to find out, that the great things you do are really happening.
     <br>–Alan Watts</p>
 </blockquote>
+
+<hr class="small">
+
+<div class="fieldnotes">
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Alan Watts, <a href="https://www.youtube.com/watch?v=v4jBd4fArfQ" class="external" target="_blank">&#8220;<span class="external-body"><em>Getting Out Of Your Own Way</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a></p>
+</div>

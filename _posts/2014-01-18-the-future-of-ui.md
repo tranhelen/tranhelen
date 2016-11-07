@@ -48,16 +48,16 @@ So, what tools do we have at our disposal? Designers can look beyond basic aesth
 
 ### Sound
 
-Sound affects us [physiologically, psychologically, cognitively, and behaviourally](http://www.ted.com/talks/julian_treasure_the_4_ways_sound_affects_us). While we are still discovering ways sound can be applied to application interfaces, there is an industry we can look to which has mastered the use of sound to provoke emotion—the gaming industry.
+Sound affects us physiologically, psychologically, cognitively, and behaviourally.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> While we are still discovering ways sound can be applied to application interfaces, there is an industry we can look to which has mastered the use of sound to provoke emotion—the gaming industry.
 
 <figure>
 	<img src="/img/post/01-04journey.jpg">
 	<figcaption class="inline">Journey (Thatgamecompany)</figcaption>
 </figure>
 
-Journey is an indie video game showcasing a [masterful use of sound](https://www.youtube.com/watch?v=bkL94nKSd2M). Austin Wintory, the game’s composer, based all the pieces on one theme which represented the player’s journey. The music dynamically responds to the user’s actions giving them immediate and personable feedback. The game designers’ efforts were rewarded with critical acclaim with many players describing it as “moving” or “religious.” Patrick Shaw, from Wired said the game made him feel a “wide range of emotions… wonder, fear, even sadness.”
+Journey is an indie video game showcasing a masterful use of sound.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> Austin Wintory, the game’s composer, based all the pieces on one theme which represented the player’s journey. The music dynamically responds to the user’s actions giving them immediate and personable feedback. The game designers’ efforts were rewarded with critical acclaim with many players describing it as “moving” or “religious.” Patrick Shaw, from Wired said the game made him feel a “wide range of emotions… wonder, fear, even sadness.”
 
-While application interfaces probably don’t need to make use of immersive soundtracks, the addition of sound effects can add to a user’s experience (provided they have the option to opt-out.) Apps like [Clear](http://realmacsoftware.com/clear) and [Duolingo](https://www.duolingo.com) added cheery and triumphant sound effects to their completion actions. These sounds are a recognition of the user’s success and reinforces the visual mark of a, typically green, success state.
+While application interfaces probably don’t need to make use of immersive soundtracks, the addition of sound effects can add to a user’s experience (provided they have the option to opt-out.) Apps like <a href="http://http://realmacsoftware.com/clear" class="external" target="_blank">&#8220;<span class="external-body">Clear</span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a> and <a href="https://www.duolingo.com" class="external" target="_blank">&#8220;<span class="external-body">Duolingo</span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a> added cheery and triumphant sound effects to their completion actions. These sounds are a recognition of the user’s success and reinforces the visual mark of a, typically green, success state.
 
 <figure>
 	<img src="/img/post/01-05apps.jpg">
@@ -106,7 +106,7 @@ While seemingly a very obvious way to communicate—copy and how we deal with in
 
 We can make use of copy to speak to users conversationally, eliminate the chore of form input or provide discoverable and fun easter eggs. All three ways give the illusion of a person behind the product or device.
 
-[Codecademy](http://www.codecademy.com/) encourages users not to shy away from development. Instead of leaving us with just their motto and brief description, they start a conversation asking potential students simple questions. This is a subtle yet effective way to teach users how to use their interface.
+<a href="http://www.codecademy.com" class="external" target="_blank">&#8220;<span class="external-body">Codecademy</span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a> encourages users not to shy away from development. Instead of leaving us with just their motto and brief description, they start a conversation asking potential students simple questions. This is a subtle yet effective way to teach users how to use their interface.
 
 <figure>
 	<img src="/img/post/01-10codecademy.jpg">
@@ -118,9 +118,9 @@ We can make use of copy to speak to users conversationally, eliminate the chore 
 	<figcaption>Fantastical’s smart user input</figcaption>
 </figure>
 
-[Fantastical](http://flexibits.com/fantastical-iphone) eliminates the tedious task of inputting meta data associated with your events by providing a smart input which automatically translates your conversational sentences into an event. Keeping organized is no longer a chore.
+<a href="http://flexibits.com/fantastical-iphone" class="external" target="_blank">&#8220;<span class="external-body">Fantastical</span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a> eliminates the tedious task of inputting meta data associated with your events by providing a smart input which automatically translates your conversational sentences into an event. Keeping organized is no longer a chore.
 
-Lastly, [Clear](http://realmacsoftware.com/clear), which relies on a series of gestures for interaction, doesn’t require any additional copy to function well and provide value. However, the team has given us discoverable quotes only seen when you have a *cleared* list. This is not only fun but it serves as an reminder of why we’re using Clear. Clear celebrates our wins *with* us.
+Lastly, Clear, which relies on a series of gestures for interaction, doesn’t require any additional copy to function well and provide value. However, the team has given us discoverable quotes only seen when you have a *cleared* list. This is not only fun but it serves as an reminder of why we’re using Clear. Clear celebrates our wins *with* us.
 
 <figure>
 	<img src="/img/post/01-12clear.jpg">
@@ -135,4 +135,12 @@ The future of interface design isn’t a dream from the 90s. The future of inter
 
 <div class="fieldnotes">
 	<p>This post was originally posted on Medium and was in Medium’s Top 100 for February. It was received fairly well except for this one guy who noted that he disagreed with everything I said. (This is a joke, by the way. A joke rooted in my now terribly low self-esteem.)</p>
+</div>
+
+<hr class="small">
+
+<div class="fieldnotes">
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Julian Treasure, <a href="http://www.ted.com/talks/julian_treasure_the_4_ways_sound_affects_us" class="external" target="_blank">&#8220;<span class="external-body"><em>The 4 Ways Sound Affects Us</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 2009</p>
+
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> For more context, listen to the sounds of <a href="https://www.youtube.com/watch?v=bkL94nKSd2M" class="external" target="_blank"><span class="external-body">Journey</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a></p>
 </div>

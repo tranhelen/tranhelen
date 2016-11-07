@@ -8,7 +8,7 @@ We're going to talk about money.
 
 Here are some numbers: A business charges $2500/student. There are 25 students per cohort every three months for 12 classes. Instructors are offered $25-$45/hr. They take home about 1% - 4% of the revenue from each cohort.
 
-In conversation with someone in which I was incredibly upset with the split between instructor and business, as instructors would be paid more in the freelance market, they told me that they would, "do it anyway because I love it and it's not about the money."<a id="anchor-1" href="#note-1">*</a>
+In conversation with someone in which I was incredibly upset with the split between instructor and business, as instructors would be paid more in the freelance market, they told me that they would, "do it anyway because I love it and it's not about the money."
 
 *Goddamn*, I thought, *When did this become so perverted?*
 
@@ -32,9 +32,3 @@ If you love something, you will typically have a drive to do it better. This is 
 I have always looked at money like a patronage. If your client or employer value your work, they must value whatever makes your work excellent. What makes your work so good is a combination of experiences, your life choices and your mental state. So, to support the quality of your work, they must pay you enough for you to experience more, continue to make better choices, and stay mentally stable.
 
 Ask for more **because** you love it.
-
-<hr class="small">
-
-<div class="fieldnotes">
-    <p id="note-1">*In this particular case, there is clearly money available to be had, which makes that remark even more absurd <a href="#anchor-1">&#8593;</a></p>
-</div>
