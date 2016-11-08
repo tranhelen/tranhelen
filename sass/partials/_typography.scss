@@ -231,6 +231,10 @@ a {
 		border-bottom: 1px dashed rgba(#000,0.3);
 		line-height: 18px;
 		display: inline-block;
+
+		.fieldnotes & {
+			display: initial;
+		}
 	}
 
 	& .external-box {
