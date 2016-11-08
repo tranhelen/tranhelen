@@ -25,5 +25,5 @@ Despite these anxieties I feel encouraged to continue. Maybe a little bit for me
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Leon Edler, <a href="http://mobile.nytimes.com/2016/07/03/books/review/when-you-write-a-memoir-readers-think-they-know-you-better-than-they-do.html?referer=https://t.co/ge5PaIOkHg" class="external" target="_blank">&#8220;<span class="external-body"><em>When You Write a Memoir, Readers Think They Know You Better Than They Do</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 6/22/2016</p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Leon Edler, <a href="http://mobile.nytimes.com/2016/07/03/books/review/when-you-write-a-memoir-readers-think-they-know-you-better-than-they-do.html?referer=https://t.co/ge5PaIOkHg" class="external" target="_blank">&#8220;<span class="external-body"><em>When You Write a Memoir, Readers Think They Know You Better Than They Do</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 6/22/2016</p>
 </div>

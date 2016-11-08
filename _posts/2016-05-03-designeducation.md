@@ -45,5 +45,5 @@ I'm not using this post to announce some sort of educational product so we can a
 <div class="fieldnotes">
     <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> I've witnessed this before and it was hilarious.</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/" class="external" target="_blank"><span class="external-body">Bloc</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a> Just to clarify, it's not.</p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/" class="external" target="_blank"><span class="external-body">Bloc</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> Just to clarify, it's not.</p>
 </div>

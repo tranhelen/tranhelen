@@ -101,17 +101,17 @@ slug: rinse-and-repeat
 
 			<p>I went back behind the camera to shoot a couple of self-portraits for use on this website. In the past I&rsquo;ve used the Annie Leibovitz lighting set-up (double diffusion under a large studio light) but this time I opted for daylight against a DIY black studio back-drop. The rest is just understanding how light hits you and how to set off a pocketwizard with your foot.</p>
 
-			<p>The rest of the photos are pulled from my <a href="http://instagram.com/tranhelen" class="external" target="_blank"><span class="external-body">Instagram</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>. I overlaid them over colours to reduce the intensity. The added benefit of this technique is you can save these photos at a pretty low resolution and they&rsquo;ll look pretty decent. Performance wins all around.</p>
+			<p>The rest of the photos are pulled from my <a href="http://instagram.com/tranhelen" class="external" target="_blank"><span class="external-body">Instagram</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>. I overlaid them over colours to reduce the intensity. The added benefit of this technique is you can save these photos at a pretty low resolution and they&rsquo;ll look pretty decent. Performance wins all around.</p>
 
 			<h2>The launch</h2>
 
-			<p>It took me about a week to go through this process from beginning to end. I&rsquo;m very used to this exercise and it&rsquo;s fun to keep launching things to my .com. If you have any thoughts about it, let me know through the <a href="https://dribbble.com/shots/2886184-V8-0-Redesign" class="external" target="_blank"><span class="external-body">Dribbble shot</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a> or on Twitter.</p>
+			<p>It took me about a week to go through this process from beginning to end. I&rsquo;m very used to this exercise and it&rsquo;s fun to keep launching things to my .com. If you have any thoughts about it, let me know through the <a href="https://dribbble.com/shots/2886184-V8-0-Redesign" class="external" target="_blank"><span class="external-body">Dribbble shot</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> or on Twitter.</p>
 
 
 			<hr class="small">
 
 			<div class="fieldnotes">
-			    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> You can find the code to all my work <a href="https://github.com/tranhelen/tranhelen.github.io" class="external" target="_blank"><span class="external-body">on Github</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a></p>
+			    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> You can find the code to all my work <a href="https://github.com/tranhelen/tranhelen.github.io" class="external" target="_blank"><span class="external-body">on Github</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 			</div>
 	    </div>
 	</div>

@@ -27,5 +27,5 @@ I do not subscribe to the idea that we are all *just* problem solvers. Problem s
 <div class="fieldnotes">
     <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> I specifically say Product Design because our slice of the Design world seems particularly enthusiastic about this view but I doubt this is only specific to us.</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Sep Kamvar, <a href="http://farmerandfarmer.org/mastery/builder.html" class="external" target="_blank">&#8220;<span class="external-body"><em>Mastery and Mimicry</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a></p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Sep Kamvar, <a href="http://farmerandfarmer.org/mastery/builder.html" class="external" target="_blank">&#8220;<span class="external-body"><em>Mastery and Mimicry</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

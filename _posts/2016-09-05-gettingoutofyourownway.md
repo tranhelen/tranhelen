@@ -34,5 +34,5 @@ Alan Watts has a good talk about this...<a id="anchor-1" href="#note-1" class="f
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Alan Watts, <a href="https://www.youtube.com/watch?v=v4jBd4fArfQ" class="external" target="_blank">&#8220;<span class="external-body"><em>Getting Out Of Your Own Way</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a></p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Alan Watts, <a href="https://www.youtube.com/watch?v=v4jBd4fArfQ" class="external" target="_blank">&#8220;<span class="external-body"><em>Getting Out Of Your Own Way</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

@@ -50,61 +50,61 @@ These tracks put an emphasis on design theory. The best products have a well-res
 
 ##### Psychology and behaviour
 
-<a href="http://psychologyfordesigners.com/" class="external" target="_blank">&#8220;<span class="external-body"><em>Psychology for Designers</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a> written by Joe Leech  
+<a href="http://psychologyfordesigners.com/" class="external" target="_blank">&#8220;<span class="external-body"><em>Psychology for Designers</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> written by Joe Leech  
 This blog contains an immense amount of information about psychology in relation to Design. Joe Leech’s book acts as a good primer but I personally find his blog much more useful. His links and resources section is thorough and contains great reading material to articles and research.
 
-<a href="http://shop.oreilly.com/product/0636920030201.do" class="external" target="_blank">&#8220;<span class="external-body"><em>Designing for Behaviour Change</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a> written by Stephen Wendel  
+<a href="http://shop.oreilly.com/product/0636920030201.do" class="external" target="_blank">&#8220;<span class="external-body"><em>Designing for Behaviour Change</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> written by Stephen Wendel  
 This book covers the strategies to help change people’s behaviour in non-evil ways. It steps you through the entire process of researching and conceptualizing an application.
 
-<a href="http://abookapart.com/products/designing-for-emotion" class="external" target="_blank">&#8220;<span class="external-body"><em>Designing for Emotion</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a> written by Aaron Walter  
+<a href="http://abookapart.com/products/designing-for-emotion" class="external" target="_blank">&#8220;<span class="external-body"><em>Designing for Emotion</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> written by Aaron Walter  
 This is a pretty popular book and I still believe it is one of the best introductions to emotions in design. His resources section at the end also contains some great recommendations to other pioneers who are working on the link between emotions and design.
 
 ##### Information architecture
 
-<a href="http://iainstitute.org/library/subjectPage.php?id=21" class="external" target="_blank"><span class="external-body">Information Architecture Institute</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>
+<a href="http://iainstitute.org/library/subjectPage.php?id=21" class="external" target="_blank"><span class="external-body">Information Architecture Institute</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>
 The IA Library is comprehensive list of sources including articles, books, blogs and more. I have found some links to be dead though, so it is a bit of a mixed bag.
 
-<a href="http://shop.oreilly.com/product/9780596527341.do" class="external" target="_blank"><span class="external-body">Information Architecture for the World Wide Web</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>
+<a href="http://shop.oreilly.com/product/9780596527341.do" class="external" target="_blank"><span class="external-body">Information Architecture for the World Wide Web</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>
 I have seen this book referenced over and over again. I have not read it myself but if a lot of people assert it’s good, the likelihood is pretty high it’s good. (Calm yourselves, contrarians.)
 
-<a href="http://www.nngroup.com/reports/" class="external" target="_blank"><span class="external-body">Nielsen Norman Group</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>
+<a href="http://www.nngroup.com/reports/" class="external" target="_blank"><span class="external-body">Nielsen Norman Group</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>
 NN/g writes research reports about a wide range of topics but they do have a 1,349-page report with 77 IA trees and 1106 navigation systems. It’s paid to read but there’s also a free 156-page report about site maps. This would be a good place to test if IA is of interest to you.
 
 ##### Data visualization
 
-<a href="http://fellinlovewithdata.com/guides/data-vis-beginners-toolkit-1" class="external" target="_blank"><span class="external-body">The Data Visualization Beginner's Toolkit</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>  
-This is just one post out of many available on <a href="http://fellinlovewithdata.com" class="external" target="_blank"><span class="external-body">fellinlovewithdata.com</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>. But it is a useful post about where to get started if you’re more inclined to start by reading books.
+<a href="http://fellinlovewithdata.com/guides/data-vis-beginners-toolkit-1" class="external" target="_blank"><span class="external-body">The Data Visualization Beginner's Toolkit</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>  
+This is just one post out of many available on <a href="http://fellinlovewithdata.com" class="external" target="_blank"><span class="external-body">fellinlovewithdata.com</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>. But it is a useful post about where to get started if you’re more inclined to start by reading books.
 
-<a href="http://www.edwardtufte.com/tufte/" class="external" target="_blank"><span class="external-body">Edward Tufte</span><span class="external-box"><span class="external-box__arrow">↗</span></span></a>  
+<a href="http://www.edwardtufte.com/tufte/" class="external" target="_blank"><span class="external-body">Edward Tufte</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>  
 It’s probably worth mentioning Edward Tufte, a professor who teaches at Yale University, who is well known for his work on information design and data visualization. He also introduced me to the <a href="http://www.csiss.org/classics/content/58">most interesting statistical graphic</a> I had ever seen.
 
-<a href="http://www.amazon.ca/Cartographies-Time-A-History-Timeline/dp/1616890584" class="external" target="_blank">&#8220;<span class="external-body"><em>Cartographics of Time: A History of the Timeline</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a> by Daniel Rosenberg  
+<a href="http://www.amazon.ca/Cartographies-Time-A-History-Timeline/dp/1616890584" class="external" target="_blank">&#8220;<span class="external-body"><em>Cartographics of Time: A History of the Timeline</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> by Daniel Rosenberg  
 I first found this book after attending a workshop taught by Edward Tufte. I was fascinated by their complex work; made at a time when wrangling the data must have been a feat in itself.
 
 ### Practical Tracks
 
 ##### Forms and User Inputs
 
-<a href="http://www.lukew.com/resources/web_form_design.asp" class="external" target="_blank">&#8220;<span class="external-body"><em>Web Form Design</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a> by Luke Wroblewski
+<a href="http://www.lukew.com/resources/web_form_design.asp" class="external" target="_blank">&#8220;<span class="external-body"><em>Web Form Design</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> by Luke Wroblewski
 Luke’s breadth of work is immense. He is a huge source of knowledge across all subjects but his book on web form design is a great guide for designing forms. If you get the chance, sit in on one of his workshops.
 
 ##### Motion Animation
 
-<a href="http://www.amazon.ca/The-Illusion-Life-Disney-Animation/dp/0786860707" class="external" target="_blank">&#8220;<span class="external-body"><em>The Illusion of Life: Disney Animation</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a> by Frank Thomas  
+<a href="http://www.amazon.ca/The-Illusion-Life-Disney-Animation/dp/0786860707" class="external" target="_blank">&#8220;<span class="external-body"><em>The Illusion of Life: Disney Animation</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> by Frank Thomas  
 Yes, this is a book for another industry entirely but if you’re not starting with Disney and Pixar, you will be missing out on a source of inspiration which has kept entire generations of animators from burning out.
 
-<a href="http://www.amazon.ca/The-Animators-Survival-Kit-Principles/dp/086547897X/ref=pd_bxgy_b_img_y" class="external" target="_blank">&#8220;<span class="external-body"><em>The Animator's Survival Kit</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a> by Richard Williams  
+<a href="http://www.amazon.ca/The-Animators-Survival-Kit-Principles/dp/086547897X/ref=pd_bxgy_b_img_y" class="external" target="_blank">&#8220;<span class="external-body"><em>The Animator's Survival Kit</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> by Richard Williams  
 For a more practical look at how to apply animation methods and principles to your motion work, this is known as *the* book on animation. You can also find a 16-DVD box set which accompanies the book with footage from his masterclasses and additional animation examples.
 
-<a href="http://www.google.com/design/spec/animation/authentic-motion.html" class="external" target="_blank">&#8220;<span class="external-body">Material Design</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a>  
+<a href="http://www.google.com/design/spec/animation/authentic-motion.html" class="external" target="_blank">&#8220;<span class="external-body">Material Design</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>  
 This was Google’s style guide for their motion work guiding the design of the apps in their ecosystem. However, it’s a good resource to point out mainly because it provides a guide for how to think of motion and approach it systemically.
 
 ##### Development
 
-<a href="https://www.codeschool.com/" class="external" target="_blank">&#8220;<span class="external-body">Codeschool</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a>  
+<a href="https://www.codeschool.com/" class="external" target="_blank">&#8220;<span class="external-body">Codeschool</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>  
 You must have seen this link by now, but I believe very firmly that Codeschool is one of the best educational resources out there if you’re looking to learn how to code. The mix of video, slides and interactive exercises are interesting and the courses are well-designed.
 
-<a href="http://caniuse.com/" class="external" target="_blank">&#8220;<span class="external-body">caniuse.com</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a> and <a href="http://html5please.com/" class="external" target="_blank">&#8220;<span class="external-body">HTML5 Please</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗</span></span></a>  
+<a href="http://caniuse.com/" class="external" target="_blank">&#8220;<span class="external-body">caniuse.com</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> and <a href="http://html5please.com/" class="external" target="_blank">&#8220;<span class="external-body">HTML5 Please</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>  
 When I was first jumping into front-end development, these websites were indispensable for me. It saved me lots of time by not having to go to Stackoverflow for newbie questions and occasionally I still go back to reference them.
 
 <hr class="small">
@@ -121,11 +121,11 @@ I hope this post inspires you to better yourself through practice and find a com
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Malcolm Gladwell, <a href="http://www.amazon.ca/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930" class="external" target="_blank">&#8220;<span class="external-body"><em>Outliers: The Story of Success</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 2011</p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Malcolm Gladwell, <a href="http://www.amazon.ca/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930" class="external" target="_blank">&#8220;<span class="external-body"><em>Outliers: The Story of Success</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2011</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Cal Newport, <a href="http://amzn.to/2ceFbBa" class="external" target="_blank">&#8220;<span class="external-body"><em>So Good They Can't Ignore You</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 2012</p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> Cal Newport, <a href="http://amzn.to/2ceFbBa" class="external" target="_blank">&#8220;<span class="external-body"><em>So Good They Can't Ignore You</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2012</p>
 
-    <p id="note-3" class="h6"><a href="#anchor-3" class="footnote-back">&#8617;</a> <span class="footnote">[3]</span> K. Anders Ericsson, <a href="http://projects.ict.usc.edu/itw/gel/EricssonDeliberatePracticePR93.pdf" class="external" target="_blank">&#8220;<span class="external-body"><em>The Role of Deliberate Practice in the Acquisition of Expert Performance (PDF)</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 1993</p>
+    <p id="note-3" class="h6"><a href="#anchor-3" class="footnote-back">&#8617;</a> <span class="footnote">[3]</span> K. Anders Ericsson, <a href="http://projects.ict.usc.edu/itw/gel/EricssonDeliberatePracticePR93.pdf" class="external" target="_blank">&#8220;<span class="external-body"><em>The Role of Deliberate Practice in the Acquisition of Expert Performance (PDF)</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 1993</p>
 
-    <p id="note-4" class="h6"><a href="#anchor-4" class="footnote-back">&#8617;</a> <span class="footnote">[4]</span> Verne Ho, <a href="https://medium.com/@verneho/the-design-thesis-63c5a7bfed02" class="external" target="_blank">&#8220;<span class="external-body"><em>The Design Thesis</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 12/2/2015</p>
+    <p id="note-4" class="h6"><a href="#anchor-4" class="footnote-back">&#8617;</a> <span class="footnote">[4]</span> Verne Ho, <a href="https://medium.com/@verneho/the-design-thesis-63c5a7bfed02" class="external" target="_blank">&#8220;<span class="external-body"><em>The Design Thesis</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 12/2/2015</p>
 </div>

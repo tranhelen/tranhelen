@@ -43,5 +43,5 @@ This book is 190 pages long but it took just two words for me to see my work a l
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Michael Lopp, <a href="https://www.amazon.com/gp/product/159059844X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=159059844X&linkCode=as2&tag=heltraprodes-20&linkId=ccb552ed4c3ff956f66ade73039f02f8" class="external" target="_blank">&#8220;<span class="external-body"><em>Managing Humans</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗</span></span></a>, 2007</p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Michael Lopp, <a href="https://www.amazon.com/gp/product/159059844X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=159059844X&linkCode=as2&tag=heltraprodes-20&linkId=ccb552ed4c3ff956f66ade73039f02f8" class="external" target="_blank">&#8220;<span class="external-body"><em>Managing Humans</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2007</p>
 </div>
