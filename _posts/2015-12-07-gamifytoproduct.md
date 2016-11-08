@@ -30,7 +30,7 @@ The real hard work is always in user retention. Continued delightful experiences
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Dom Nicastro, <a href="http://www.cmswire.com/cms/social-business/gartner-sticks-to-its-failing-gamification-prediction-023464.php" class="external" target="_blank">&#8220;<span class="external-body"><em>Gartner Sticks to its Failing Gamification Prediction</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 12/13/2012</p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Dom Nicastro, <a href="http://www.cmswire.com/cms/social-business/gartner-sticks-to-its-failing-gamification-prediction-023464.php" class="external" target="_blank">&#8220;<span class="external-body"><em>Gartner Sticks to its Failing Gamification Prediction</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 12/13/2012</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> A long list can be found on <a href="https://en.wikipedia.org/wiki/Game_mechanics" class="external" target="_blank"><span class="external-body">Wikipedia</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> A long list can be found on <a href="https://en.wikipedia.org/wiki/Game_mechanics" class="external" target="_blank"><span class="external-body">Wikipedia</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

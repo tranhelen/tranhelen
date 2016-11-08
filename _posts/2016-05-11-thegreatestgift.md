@@ -33,6 +33,6 @@ In his death he gave me the greatest gift I've ever received: clarity. Thank goo
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> The Tran family gene strikes again.</p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> The Tran family gene strikes again.</p>
 </div>
 

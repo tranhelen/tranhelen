@@ -92,7 +92,7 @@ Next, you'll have to understand what type of Designer you are so you can underst
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Check out the <a href="http://helentran.com/deliberate-practice">first blog post</a> I wrote about <em>Deliberate Practice</em></p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Check out the <a href="http://helentran.com/deliberate-practice">first blog post</a> I wrote about <em>Deliberate Practice</em></p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> For more check out <a href="https://twitter.com/verneho" class="external" target="_blank"><span class="external-body">Verne Ho's</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> post about <a href="https://medium.com/shopify-ux/the-design-thesis-63c5a7bfed02" class="external" target="_blank">&#8220;<span class="external-body"><em>The Design Thesis</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> For more check out <a href="https://twitter.com/verneho" class="external" target="_blank"><span class="external-body">Verne Ho's</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> post about <a href="https://medium.com/shopify-ux/the-design-thesis-63c5a7bfed02" class="external" target="_blank">&#8220;<span class="external-body"><em>The Design Thesis</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

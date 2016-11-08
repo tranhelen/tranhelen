@@ -140,7 +140,7 @@ The future of interface design isn’t a dream from the 90s. The future of inter
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;</a> <span class="footnote">[1]</span> Julian Treasure, <a href="http://www.ted.com/talks/julian_treasure_the_4_ways_sound_affects_us" class="external" target="_blank">&#8220;<span class="external-body"><em>The 4 Ways Sound Affects Us</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2009</p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Julian Treasure, <a href="http://www.ted.com/talks/julian_treasure_the_4_ways_sound_affects_us" class="external" target="_blank">&#8220;<span class="external-body"><em>The 4 Ways Sound Affects Us</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2009</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;</a> <span class="footnote">[2]</span> For more context, listen to the sounds of <a href="https://www.youtube.com/watch?v=bkL94nKSd2M" class="external" target="_blank"><span class="external-body">Journey</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> For more context, listen to the sounds of <a href="https://www.youtube.com/watch?v=bkL94nKSd2M" class="external" target="_blank"><span class="external-body">Journey</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>
