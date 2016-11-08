@@ -223,13 +223,12 @@ a {
 	&.external {
     	color: #000000;
 		display: inline-block;
-		text-decoration: none;
-		border: 0;
 	}
 
 	& .external-body {
 		border-bottom: 1px dashed rgba(#000,0.3);
-		line-height: 18px;
+		line-height: 0;
+		height: 8px;
 		display: inline-block;
 
 		.fieldnotes & {
@@ -244,7 +243,7 @@ a {
 	    width: 11px;
 	    margin: 0 6px 0 3px;
 	    position: relative;
-	    bottom: -10px;
+	    bottom: -6px;
 
 	    .fieldnotes & {
 	    	top: 8px;
@@ -257,7 +256,7 @@ a {
 	    font-weight: bold;
 	    margin: 0 0 -2px 0;
 	    position: relative;
-	    bottom: 16px;
+	    bottom: 13px;
 	    left: 2px;
 
 	    .fieldnotes & {
