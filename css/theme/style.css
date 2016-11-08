@@ -2234,18 +2234,18 @@ footer a:hover {
 /* line 223, ../../sass/partials/_typography.scss */
 a.external {
   color: #000000;
-  display: inline-block;
 }
-/* line 228, ../../sass/partials/_typography.scss */
+/* line 227, ../../sass/partials/_typography.scss */
 a .external-body {
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
-  line-height: 0;
-  height: 8px;
-  display: inline-block;
+  background: url(/img/linkunderline.png) repeat-x;
+  background-size: 6px;
+  background-position: 0 25px;
 }
-/* line 234, ../../sass/partials/_typography.scss */
+/* line 232, ../../sass/partials/_typography.scss */
 .fieldnotes a .external-body {
-  display: initial;
+  background: url(/img/linkunderline.png) repeat-x;
+  background-size: 6px;
+  background-position: 0 22px;
 }
 /* line 239, ../../sass/partials/_typography.scss */
 a .external-box {

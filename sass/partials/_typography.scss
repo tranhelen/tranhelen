@@ -222,17 +222,17 @@ a {
 
 	&.external {
     	color: #000000;
-		display: inline-block;
 	}
 
 	& .external-body {
-		border-bottom: 1px dashed rgba(#000,0.3);
-		line-height: 0;
-		height: 8px;
-		display: inline-block;
+		background: url(/img/linkunderline.png) repeat-x;
+    	background-size: 6px;
+    	background-position: 0 25px;
 
 		.fieldnotes & {
-			display: initial;
+			background: url(/img/linkunderline.png) repeat-x;
+		    background-size: 6px;
+    		background-position: 0 22px;
 		}
 	}
 
