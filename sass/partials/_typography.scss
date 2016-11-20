@@ -305,12 +305,32 @@ blockquote.large {
 	}
 }
 
+pre,
 code {
-    font-size: em(12px);
     background-color: #efefef;
     color: #6e8b9d;
     padding: 5px 10px;
     border-radius: 3px;
+}
+
+code {
+	font-size: em(12px);
+
+	pre & {
+		font-size: em(16px);	
+	    line-height: 24px;
+	    padding: 0;
+	    word-wrap: break-word;
+	}
+}
+
+pre {
+	padding: 15px 20px;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 figure {
