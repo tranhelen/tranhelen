@@ -1,8 +1,8 @@
 ---
 layout: subpage
-title: 7 Writing Tips
-category: [blog, creative]
-slug: 7-writing-tips
+title: Carving a Life
+category: [blog, life]
+slug: carving-a-life
 ---
 I have collected some rules which have improved my writing dramatically.
 
