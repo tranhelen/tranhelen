@@ -1,12 +1,12 @@
 ---
 layout: subpage
-title: Mostly a Lurker
+title: Day-to-day Management
 category: [blog, management]
-slug: mostly-a-lurker
+slug: day-to-day
 ---
-It's been about a year now and at the time of writing, there are 18 Product Designers in the Shopify Toronto office, 5 of which directly report to me.
+I've been an official manager for about a year now although I've been focusing on leadership skills for about two years. At the time of writing, there are 18 Product Designers in the Shopify Toronto office, 5 of which directly report to me.
 
-I get a little bit flustered when asked to decribe what I do because it's not written anywhere. The title of *Manager* or *Lead* is disagreed upon wildly across organizations so I always fear that I'll be judged against the _worst manager they've ever had_.
+What I do is not written anywhere. The title of *Manager* or *Lead* is disagreed upon wildly across organizations so I always fear that I'll be judged against the _worst manager they've ever had_. 
 
 My week is filled with the following appointments:
 
