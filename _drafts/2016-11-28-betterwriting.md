@@ -14,7 +14,7 @@ I have collected some rules which have improved my writing dramatically.
 
 **Use these words sparingly.** That, usually, actually, really, very, like, basically, essentially, just, kind of, practically, somewhat, sort of, simply. Is she *really nice* or *kind of*? No, she's nice.
 
-**Stop with the metaphors.** If your metaphor takes you the same amount of time to explain as your main topic, skip the metaphor. It's a technique which should be used only if you're writing a poetic piece or the topic is complex.
+**Stop with the analogies.** If your analogy takes you the same amount of time to explain as your main topic, skip it. It's a technique which should be used only if your topic is complex.
 
 **Read your work out loud.** Pay attention to how the sentences _sound_. Is there rhythm? Are there too many short sentences with awkward breaks? Would you ever _speak_ to anyone that way?
 
