@@ -4,20 +4,12 @@ title: Carving a Life
 category: [blog, life]
 slug: carving-a-life
 ---
-I have collected some rules which have improved my writing dramatically.
+    What do you desire? What makes you itch? What sort of a situation would you like? [...] So I always ask the question, what would you like to do if money were no object? How would you really enjoy spending your life?
 
-**Remove the drama.** Poorly written articles are riddled with hard paragraph breaks with dramatic sentences in lieu of a thesis. See what happens to your article if you simply deleted them.
+Inspirational videos and posts are everywhere. Most of them appeal to the word _passion_ and are generally talking about _your job._ I've struggled with this narrative for a very long time. It has [never sat well](http://helentran.com/erasing-passion) with me.
 
-**Clarify your introduction.** State your thesis clearly and move on. You do not need to qualify yourself, apologize for writing, or tell a metaphor.
+In the Western world, we tend to equate who we are with what we do for a living. This is fine, I suppose, but it's not exactly right for all of us. It implies that we all have the same value-sets and that's far from the truth.
 
-**Ensure precision not pretentiousness.** You do not have to use a top-shelf word unless it's more efficient. While you're at it: avoid marketing speak; most of the time, it's hiding what you're trying to say.
+A few months ago I went through the exercise of identifying my values. 
 
-**Use these words sparingly.** That, usually, actually, really, very, like, basically, essentially, just, kind of, practically, somewhat, sort of, simply. Is she *really nice* or *kind of*? No, she's nice.
-
-**Stop with the metaphors.** If your metaphor takes you the same amount of time to explain as your main topic, skip the metaphor. It's a technique which should be used only if you're writing a poetic piece or the topic is complex.
-
-**Read your work out loud.** Pay attention to how the sentences _sound_. Is there rhythm? Are there too many short sentences with awkward breaks? Would you ever _speak_ to anyone that way?
-
-**Re-write your work.** If you're not spending just as much time rewriting (or more), you're being sloppy. Spend some time to reread and rewrite. Cut, and cut, and cut, until there are no more unnecessary words.
-
-Feel free to break any of these. Writing is just one of those things.
+fuck this post
