@@ -68,7 +68,7 @@ You can cluster as many times as desired until your opinion becomes clearer.
 
 ## Writing
 
-From here writing for satire splits from essay writing because of the use of exaggeration. Essay writing is typically more subdued and typically requires further study. Regardless, these techniques helped me kick-start my practice.
+From here writing for satire splits from essay writing because of the use of exaggeration. Essay writing is more subdued and typically requires further study. Regardless, these techniques helped me kick-start my practice.
 
 Every essayist must be opinionated and all writing is documentation. No one needs to hear, _travel more_, _spend time away from work_, and _quit the job you hate_. Give more credit to your brain. It's filled with interesting things.
 
