@@ -14,7 +14,7 @@ Below I've documented the beginning process of one of the first pieces of satire
 
 List all the things that you have experienced, observed, or heard within the past week. Don't overthink this step, write down everything no matter how inconsequential you believe it is. This will give you insight into what's top of mind for you that week.
 
-One of the most helpful tips I got was to start here: *what makes you angry, uncomfortable, or frustrated?* It doesn't have to be something dramatic like _global warming_. It can be small, like piles of spiders. Piles of spiders are disgusting. It also doesn't have to be anger but satire is the comedy of outrage so you start there.
+If you're having trouble, start here: *what makes you angry, uncomfortable, or frustrated?* It doesn't have to be something dramatic like _global warming_. It can be small, like piles of spiders. Piles of spiders are disgusting. It also doesn't have to be anger but satire is the comedy of outrage so you start there.
 
 This particular week I was reading a lot about meritocracy, women in technology, and the reasons people gave for why there weren't enough women in tech. My first notes about topics to target:
 
