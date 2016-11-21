@@ -4,11 +4,14 @@ title: Carving a Life
 category: [blog, life]
 slug: carving-a-life
 ---
-    What do you desire? What makes you itch? What sort of a situation would you like? [...] So I always ask the question, what would you like to do if money were no object? How would you really enjoy spending your life?
+<blockquote class="large">
+	<p>What do you desire? What makes you itch? What sort of a situation would you like? [...] So I always ask the question, what would you like to do if money were no object? How would you really enjoy spending your life?
+	<br>– Alan Watts</p>
+</blockquote>
 
-In the Western world, we tend to equate who we are with what we do for a living. This is fine, I suppose, but it's not exactly right for all of us. It implies that we all have the same value-sets and that's far from the truth.
+In the Western world, we tend to equate who we are with what we do for a living. This is fine but it's not exactly right for all of us. It implies that we all have the same value-sets and that's far from the truth.
 
-A few months ago I went through the exercise of identifying my values. Having a set of values helps clarify your decision-making and points you towards a life of fulfillment. It's the first step towards living with intention and carving the life for _you_ not something else.
+A few months ago I went through the exercise of identifying my values. Having a set of values helps clarify your decision-making. It's the first step towards living with intention and carving the life _you want to see_.
 
 ## Defining your values 
 
@@ -24,7 +27,7 @@ What makes you so regretful about that memory? Who was involved? What did you fa
 These can be big or small examples. Regardless of the size, they're a very good indication of when you _haven't_ lived according to your values. Ask yourself why you felt so frustrated or empty.
 
 **4. What activities put me in 'flow' state?**  
-_Flow_ is when you feel like you are fully immersed in something. List activities which make you forget about everything else in your life.
+_Flow_ is when you feel like you are fully immersed in something. List activities which make you forget about everything else in your life and beside them list why.
 
 **5. Who are my role models?**  
 List all of your role models. It could be someone you know but it could also be someone you admire from afar. Ask yourself why they make that list.
@@ -39,13 +42,13 @@ I pulled this list of values off the internet. You can likely find your own but 
 
 From your previous answers find examples these traits in your actions. Cross out the ones which don't appear in your answers at all. I spent time relating each answer to a value.
 
-You may find that you consider some of them encompassed in the definition of another. For me, self-respect fell under the umbrella of _respect_ so I crossed out self-respect. I ended up with a list of six. You should try to end up with about five.
+You may find that you consider some of them encompassed in the definition of another. For me, self-respect fell under the umbrella of _respect_ so I crossed out self-respect. A list of five values would be ideal.
 
 **8. Prioritize the values**  
 Now that you have a list of your values, compare them against each other. If you were to choose between two of the options, which one would you prioritize? Do this until your list is in the correct order.
 
-## Living with your values
+## Living with values
 
-It may seem a little bit silly. I, myself, would have rolled my eyes at the idea of doing this just a couple of years ago. Regardless, I to completing it and have been realigning my daily actions and long-term goals to it ever since.
+It may seem a little bit silly. I, myself, would have rolled my eyes at the idea of doing this just a couple of years ago. Regardless, I completed it and have been realigning my daily actions and long-term goals to it ever since.
 
-I've since reduced doing things I don't want to do and stopped hanging out with people who weren't contributing to my life. It's given me a sense of peace and understanding of where I fit and I feel more confident in the direction I'm heading. All it takes is a few hours for a few years of clarity.
+I've since reduced doing things outside of this value-set and stopped seeing people who weren't contributing. It's given me a sense of peace and understanding of where I fit and I feel more confident in the direction I'm heading. All it takes is a few hours for a few years of clarity.
