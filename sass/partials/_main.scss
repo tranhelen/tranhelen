@@ -286,6 +286,14 @@ section {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 $unit;
+
+	&.experiments {
+		margin-bottom: $unit;
+
+		@include at-query($one) {
+			margin-bottom: $unit * 2;
+		}
+	}
 }
 
 .square {
