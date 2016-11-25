@@ -2106,7 +2106,7 @@ h4, .h4 {
 
 /* line 124, ../../sass/partials/_typography.scss */
 h5, .h5 {
-  color: #6e8b9d;
+  color: #577b90;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 15px;
@@ -2198,7 +2198,7 @@ ul li, ol li {
 
 /* line 193, ../../sass/partials/_typography.scss */
 a {
-  color: #d19a16;
+  color: #d29c23;
   text-decoration: none;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
@@ -2376,7 +2376,7 @@ figure.sep {
 
 /* line 352, ../../sass/partials/_typography.scss */
 figcaption {
-  color: #6e8b9d;
+  color: #577b90;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 25px;
@@ -2422,7 +2422,7 @@ input {
   height: 58px;
   background-color: transparent;
   border: 3px solid #d5d7d8;
-  color: #6e8b9d;
+  color: #577b90;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
   font-weight: 600;
@@ -2468,7 +2468,7 @@ input.dramatic {
 
 /* line 431, ../../sass/partials/_typography.scss */
 .fieldnotes p {
-  color: #6e8b9d;
+  color: #577b90;
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 25px;
