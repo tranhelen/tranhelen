@@ -1,79 +1,30 @@
-      <header class="post-header">
-      	<div class="grid">
-	    	<div class="grid__item one-third">
-	        {% if page.previous and page.previous.categories contains "experiments" %}
-      			<div class="h5 page-nav-cond">
-      				<a href="{{ page.previous.url }}">Prev</a>
-      			</div>
-      			<div class="page-nav-ex">
-      				<span class="h5">Previous</span>
-      				<br><span class="h3"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></span>
-      			</div>
-      		{% elsif page.previous.previous and page.previous.previous.categories contains "experiments" %}
-            <div class="h5 page-nav-cond">
-              <a href="{{ page.previous.previous.url }}">Prev</a>
-            </div>
-            <div class="page-nav-ex">
-              <span class="h5">Previous</span>
-              <br><span class="h3"><a href="{{ page.previous.previous.url }}">{{ page.previous.previous.title }}</a></span>
-            </div>
-          {% elsif page.previous.previous.previous and page.previous.previous.previous.categories contains "experiments" %}
-            <div class="h5 page-nav-cond">
-              <a href="{{ page.previous.previous.previous.url }}">Prev</a>
-            </div>
-            <div class="page-nav-ex">
-              <span class="h5">Previous</span>
-              <br><span class="h3"><a href="{{ page.previous.previous.previous.url }}">{{ page.previous.previous.previous.title }}</a></span>
-            </div>
-          {% elsif page.previous.previous.previous.previous and page.previous.previous.previous.previous.categories contains "experiments" %}
-            <div class="h5 page-nav-cond">
-              <a href="{{ page.previous.previous.previous.previous.url }}">Prev</a>
-            </div>
-            <div class="page-nav-ex">
-              <span class="h5">Previous</span>
-              <br><span class="h3"><a href="{{ page.previous.previous.previous.previous.url }}">{{ page.previous.previous.previous.previous.title }}</a></span>
-            </div>
+      {% for post in site.categories.experiments %}
+          {% if post.url == page.url %}
+              {% assign post_index0 = forloop.index0 %}
+              {% assign post_index1 = forloop.index %}
+          {% endif %}
+      {% endfor %}
+      {% for post in site.categories.experiments %}
+          {% if post_index0 == forloop.index %}
+              {% assign next_post = post.url %}
+          {% endif %}
+          {% if post_index1 == forloop.index0 %}
+              {% assign prev_post = post.url %}
+          {% endif %}
+      {% endfor %}
+      <header class="post-navigation">
+        <div class="grid">
+        <div class="grid__item one-half">
+          {% if prev_post %}
+            <a href="{{ prev_post }}" class="alarming"><span class="picker-upper">&#8592;</span> Prev</a>
           {% else %}
             &nbsp;
-			    {% endif %}
-	  		</div>
-	  		<div class="grid__item one-third text-center">
-	  			<a class="h5" href="/">Home</a>
-	  		</div>
-	    	<div class="grid__item one-third text-right">
-	        {% if page.next and page.next.categories contains "experiments" %}
-      			<div class="h5 page-nav-cond">
-      				<a href="{{ page.next.url }}">Next</a>
-      			</div>
-      			<div class="page-nav-ex">
-      				<span class="h5">Next</span>
-      				<br><span class="h3"><a href="{{ page.next.url }}">{{ page.next.title }}</a></span>
-      			</div>
-          {% elsif page.next.next and page.next.next.categories contains "experiments" %}
-            <div class="h5 page-nav-cond">
-              <a href="{{ page.next.next.url }}">Next</a>
-            </div>
-            <div class="page-nav-ex">
-              <span class="h5">Next</span>
-              <br><span class="h3"><a href="{{ page.next.next.url }}">{{ page.next.next.title }}</a></span>
-            </div>
-          {% elsif page.next.next.next and page.next.next.next.categories contains "experiments" %}
-            <div class="h5 page-nav-cond">
-              <a href="{{ page.next.next.next.url }}">Next</a>
-            </div>
-            <div class="page-nav-ex">
-              <span class="h5">Next</span>
-              <br><span class="h3"><a href="{{ page.next.next.next.url }}">{{ page.next.next.next.title }}</a></span>
-            </div>
-          {% elsif page.next.next.next.next and page.next.next.next.next.categories contains "experiments" %}
-            <div class="h5 page-nav-cond">
-              <a href="{{ page.next.next.next.next.url }}">Next</a>
-            </div>
-            <div class="page-nav-ex">
-              <span class="h5">Next</span>
-              <br><span class="h3"><a href="{{ page.next.next.next.next.url }}">{{ page.next.next.next.next.title }}</a></span>
-            </div>
-			    {% endif %}
-	      	</div>
-       	</div>
+          {% endif %}
+        </div>
+        <div class="grid__item one-half text-right">
+          {% if next_post %}
+            <a href="{{ next_post }}" class="alarming">Next <span class="picker-upper">&#8594;</span></a>
+          {% endif %}
+          </div>
+        </div>
       </header>
