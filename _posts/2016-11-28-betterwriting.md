@@ -6,7 +6,7 @@ slug: 7-writing-tips
 ---
 I have collected some rules which has improved my writing dramatically over the past year.
 
-**Remove the drama.** Poorly written articles are riddled with hard paragraph breaks with dramatic sentences in lieu of a thesis. See what happens to your article if you simply deleted them.
+**Remove the drama.** Internet articles are riddled with hard paragraph breaks with dramatic sentences in lieu of a thesis. See what happens to your article if you simply deleted them.
 
 **Clarify your introduction.** State your thesis clearly and move on. You do not need to qualify yourself, apologize for writing, or create an analogy.
 
