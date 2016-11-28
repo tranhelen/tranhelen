@@ -20,4 +20,4 @@ I have collected some rules which has improved my writing dramatically over the 
 
 **Re-write your work.** If you're not spending just as much time rewriting (or more), you're being sloppy. Spend some time to reread and rewrite. Cut, and cut, and cut, until there are no more unnecessary words.
 
-There are many more tips, I'm sure but these are the ones I live by.
+There are many more, I'm sure, but these are the ones I live by.
