@@ -25,17 +25,13 @@ Both classes, each six weeks long, taught me how to let go.
 
 ## Becoming clearer
 
-When I started the classes, I knew I had to practice more in order to become better at explaining my thoughts. I made a pact with myself to publish on _this_ website every two weeks.
+When I started the classes, I knew I had to practice more in order to become better at explaining my thoughts. I made a pact with myself to publish on _this_ website every two weeks and write more substantial blurbs on instagram when I could.
 
-It was difficult to publish bi-weekly while maintaining the writing courses. After the Second City class it became _easier_ to identify topics I could write about but it never become _easy_. 
-
-Instead of loosening the rules, I decided to put more pressure on myself and moved to a weekly publishing schedule in May. To keep things simple, I let myself choose the topics instead of restricting myself to design.
-
-Putting more pressure on myself to do something I had a hard time doing helped immensely with the block.
+After the Second City class it became _easier_ to identify topics I could write about but it never become _easy_. Instead of loosening the rules, I decided to put more pressure on myself and moved to a weekly publishing schedule in May. I did give myself the luxury of not dictating a topic beforehand to relieve the pressure.
 
 ## Turning it up
 
-While I was becoming more and more use to my writing schedule, I found a writer who was offering a course online called How to Write Better. After reading his essays and becoming more familiar with his community, I bit the bullet and started learning under him.
+While I became more used to my writing schedule, I found a writer who was offering a course online called How to Write Better. After reading his essays and becoming more familiar with his community, I bit the bullet and started learning under him.
 
 This course led me to a list of resources which has changed the way I write dramatically. Not only have I revamped my view on grammer, I've developed new habits which have challenged me. I think many people say they want to write but not many will put in the work to become better _writers_.
 
