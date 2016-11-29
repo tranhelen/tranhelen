@@ -37,7 +37,7 @@ The biggest issue I have with micro-dosing experimentations is that it seems lik
 
 ## The Results
 
-During the month, I smiled a bit more, I asked about people's lives more often, I felt less social anxiety, and I was friendlier overall. In general, Lucy made me more open and this has been echoed by many dosers.
+During the month, I was happier, more open, more productive on _some_ days, more creative on _some_ days, and friendlier overall. In general, Lucy made me more open and this has been echoed by many dosers.
 
 The only negative side effect I noted is that it tends to make me less hungry. Since this impedes my fitness goals I stopped. In the end, micro-dosing was enjoyable but it wasn't making enough marked improvements in my life to justify continuing it.
 
