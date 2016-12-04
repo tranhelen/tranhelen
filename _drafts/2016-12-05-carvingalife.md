@@ -9,7 +9,7 @@ slug: carving-a-life
 	<br>– Alan Watts</p>
 </blockquote>
 
-In the Western world, we tend to equate who we are with what we do for a living. This is fine but it's not exactly right for all of us. It implies that we all have the same value-sets and that's far from the truth.
+In the Western world we tend to equate who we are with what we do for a living. This is fine but it's not exactly right for all of us. It implies we all have the same value-sets and that's far from the truth.
 
 A few months ago I went through the exercise of identifying my values. I was doing this in an effort to clarify my decision-making and life more intentionally. I wanted the life _I_ could carve, not someone else's.
 
