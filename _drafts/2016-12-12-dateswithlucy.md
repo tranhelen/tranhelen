@@ -8,7 +8,7 @@ _**Disclaimer:** I'm not a doctor, which should be obvious, but just in case th
 
 I first heard of the term _micro-dosing_ on Reddit. I ignored it as I wasn't sure if Lucy was for me. Having spent my formative years enjoying the company of Mary Jane, I wasn't sure if I was ready to switch.
 
-Lucy has had a recent resurgence in tech culture, being popularized by tech bro gurus, so I did some further research. An interview with Dr. James Fadiman by Tim Ferris led me to picking up The Psychedelic Explorer’s Guide. While the research is admittedly old, I was happy to consider the possibility that I was wrong. After all, the book has quotes like this in it,
+Lucy has had a recent resurgence in tech culture, being popularized by tech bro gurus, so I did some further research. An interview with Dr. James Fadiman by Tim Ferriss<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> led me to picking up "_The Psychedelic Explorer’s Guide."_<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> While the research is admittedly old, I was happy to consider the possibility that I was wrong. After all, the book has quotes like this in it,
 
 > It was the greatest experience of my life.
 
@@ -44,3 +44,11 @@ The only negative side effect I noted is that it tends to make me less hungry. S
 I am biased towards choosing the sober path when I can. When it comes to fulfillment and happiness, living by my values and working on my emotional IQ has more permanent effects than micro-dosing. I was already on an upswing with happiness, so it's hard to tell.
 
 I still intend to experiment with stronger doses as I am curious about the usage of LSD to explore the spiritual. Stay tuned for more dates with Lucy.
+
+<hr class="small">
+
+<div class="fieldnotes">
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This sentence is not meant to imply I am a big fan of Mr. Ferriss. Please do not try to engage in conversation with me about him.</p>
+
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> James Fadiman, <a href="https://www.amazon.com/gp/product/1594774021/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1594774021&linkCode=as2&tag=heltraprodes-20&linkId=8a38cea0e900ee8523bb5a7a0e715a01" class="external" target="_blank">&#8220;<span class="external-body">The Psychedelic Explorer's Guide</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2011</p>
+</div>

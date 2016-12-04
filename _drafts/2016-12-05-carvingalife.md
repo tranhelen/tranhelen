@@ -6,7 +6,7 @@ slug: carving-a-life
 ---
 <blockquote class="large">
 	<p>What do you desire? What makes you itch? What sort of a situation would you like? [...] So I always ask the question, what would you like to do if money were no object? How would you really enjoy spending your life?
-	<br>– Alan Watts</p>
+	<br>– Alan Watts<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a></p>
 </blockquote>
 
 In the Western world we tend to equate who we are with what we do for a living. This is fine but it's not exactly right for all of us. It implies we all have the same value-sets and that's far from the truth.
@@ -52,3 +52,9 @@ Now that you have a list of your values, compare them against each other. If you
 This may seem a little bit silly. I would have rolled my eyes at the idea of doing this just a couple of years ago. I completed it anyway and have been realigning my daily actions and long-term goals to it ever since.
 
 I've since stopped doing things which fell outside of this value set. It's given me a sense of peace and understanding of where I fit and I feel more confident in the direction I'm heading. A few hours for a few years of clarity is a fair trade.
+
+<hr class="small">
+
+<div class="fieldnotes">
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Alan Watts, <a href="https://www.youtube.com/watch?v=khOaAHK7efc" class="external" target="_blank">&#8220;<span class="external-body">What If Money Was No Object?</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+</div>
