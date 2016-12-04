@@ -51,4 +51,4 @@ Now that you have a list of your values, compare them against each other. If you
 
 This may seem a little bit silly. I would have rolled my eyes at the idea of doing this just a couple of years ago. I completed it anyway and have been realigning my daily actions and long-term goals to it ever since.
 
-I've since stopped doing things which fell outside of this value-set. It's given me a sense of peace and understanding of where I fit and I feel more confident in the direction I'm heading. A few hours for a few years of clarity is a fair trade.
+I've since stopped doing things which fell outside of this value set. It's given me a sense of peace and understanding of where I fit and I feel more confident in the direction I'm heading. A few hours for a few years of clarity is a fair trade.
