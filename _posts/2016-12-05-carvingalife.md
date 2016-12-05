@@ -9,16 +9,16 @@ slug: carving-a-life
 	<br>– Alan Watts<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a></p>
 </blockquote>
 
-In the Western world we tend to equate who we are with what we do for a living. This is fine but it's not exactly right for all of us. It implies we all have the same value-sets and that's far from the truth.
+In the western world we tend to equate who we are with what we do for a living. This is fine but it's not exactly right for all of us. It implies we all have the same value sets and that's far from the truth.
 
-A few months ago I went through the exercise of identifying my values. I was doing this in an effort to clarify my decision-making and life more intentionally. I wanted the life _I_ could carve, not someone else's.
+A few months ago I went through the exercise of identifying my values. I was doing this in an effort to clarify my decision-making and live more intentionally. I wanted the life _I_ could carve, not someone else's.
 
 ## Defining your values 
 
-Below are the questions I answered to understand my value-set. I did this using a piece of paper and a pen. I recommend you try the same:
+Below are the questions I answered to understand my value-set. I did this using a piece of paper and a pen. I recommend you try the same as it feels a little bit different than typing it out:
 
 **1. When have I felt happy, fulfilled, and proud of myself?**  
-Ask yourself these questions: Who were you with? Why did you feel so happy? Was this related to anything else? 
+Ask yourself these questions: Who were you with? Why did you feel so happy? Was this related to any other events?
 
 **2. When have I felt the most regretful?**  
 What makes you so regretful about that memory? Who was involved? What did you fail at or succeed in? What could you have done better?
@@ -40,18 +40,20 @@ I pulled this list of values off the internet. You can likely find your own but 
 
 	Acceptance, Accomplishment, Adaptability, Adventure, Affection, Ambition, Authenticity, Challenge, Change, Compassion, Confidence, Courage, Creativity, Daring, Dignity, Environment, Excellence, Experience, Fitness, Freedom, Friendship, Fun, Gratitude, Growth, Health, Honesty, Humour, Independence, Influence, Integrity, Intelligence, Intimacy, Love, Realism, Recognition, Resourcefulness, Respect, Self-respect, Strength, Truth, Wisdom
 
-From your previous answers find examples these traits in your actions. Cross out the ones which don't appear in your answers at all. I spent time relating each answer to a value.
+From your previous answers find examples of these traits in your actions. Cross out the ones which don't appear in your answers at all. I spent time relating each answer to a value.
 
-You may find that you consider some of them included in the definition of another. For me, self-respect fell under the umbrella of _respect_ so I crossed out self-respect. A list of five values would be ideal.
+You may find that you consider some of them included in the definition of another. For me, self-respect fell under the umbrella of _respect_ so I crossed out self-respect.
+
+In the end, you should try to aim for a list of five values.
 
 **8. Prioritize the values**  
-Now that you have a list of your values, compare them against each other. If you were to choose between two of the options, which one would you prioritize? Do this until your list is in the correct order.
+Now that you have a list of your values compare them against each other. If you were to choose between two of the options, which one would you prioritize? Do this until your list is in the correct order.
 
 ## Living with values
 
-This may seem a little bit silly. I would have rolled my eyes at the idea of doing this just a couple of years ago. I completed it anyway and have been realigning my daily actions and long-term goals to it ever since.
+This all may seem a bit silly. I would have rolled my eyes at the idea of doing this just a couple of years ago. I completed it anyway and have been realigning my daily actions and long-term goals to it ever since.
 
-I've since stopped doing things which fell outside of this value set. It's given me a sense of peace and understanding of where I fit and I feel more confident in the direction I'm heading. A few hours for a few years of clarity is a fair trade.
+I've since stopped doing things which fell outside of this value-set. It's given me a sense of peace and understanding and I feel more confident in the direction I'm heading. A few hours for a few years of clarity is a fair trade.
 
 <hr class="small">
 
