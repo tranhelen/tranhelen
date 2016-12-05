@@ -51,9 +51,9 @@ Now that you have a list of your values compare them against each other. If you 
 
 ## Living with values
 
-This all may seem a bit silly. I would have rolled my eyes at the idea of doing this just a couple of years ago. I completed it anyway and have been realigning my daily actions and long-term goals to it ever since.
+I took a look at what I did on a daily basis and my long-term goals and have made course corrections where necessary. I'm no longer doing things which don't align with my values and I feel empowered when I say no instead of guilty. It simply gives me more time to focus on what I care about.
 
-I've since stopped doing things which fell outside of this value-set. It's given me a sense of peace and understanding and I feel more confident in the direction I'm heading. A few hours for a few years of clarity is a fair trade.
+It's given me such a strong sense of peace and happiness that I haven't felt in a while. It's silly, but a few hours for a few years of clarity is a fair trade.
 
 <hr class="small">
 
