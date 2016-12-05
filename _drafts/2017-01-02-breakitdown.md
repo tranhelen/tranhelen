@@ -54,13 +54,13 @@ Most applications and websites are a small-large exercise in information managem
 
 These three questions set up a strong baseline for what the user flows should look like.
 
-### Managing career growth
+### Developing career goals
 
 Once a job turns into a career, one of a manager's core responsibilities is to ensure that their reports are happy with the trajectory of their career. It doesn't have to be daunting.
 
 Identify the components of the specialization. Find educational courses to teach theory and opportunities to practice application. Add frequent checkpoints to course correct if necessary (1-on-1s or quarterly). Do deep-dives twice a year to ensure that they are still on track and congratulate them on their success.
 
-### Building more efficient teams
+### Managing efficient teams
 
 Companies typically start with a small group of people. At the beginning, every person will have a specific job. They will all be _building the thing._ As the organization grows, another layer is required to help manage the people _building the thing._ This continues perpetually, until the majority of the people are _not building the thing._
 
@@ -70,7 +70,7 @@ To help manage the complexities of this system, _break down_ the size of teams, 
 
 1. ACKNOWLEDGE THAT THE SYSTEM WILL PERPETUALLY GROW UNTIL DISMANTLED
 2. IDENTIFY WHERE THE SYSTEM BREAKS
-3. BREAK DOWN THE SYSTEM INTO COMPONENTS
+3. BREAK THE SYSTEM INTO COMPONENTS
 4. ELIMINATE THE COMPONENTS OF THE SYSTEM WHICH DO NOT NEED TO EXIST
 5. DESIGN SIMPLER PROCESSES FOR ANY LEFTOVER COMPONENTS
 
