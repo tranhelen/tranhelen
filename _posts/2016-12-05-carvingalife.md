@@ -53,7 +53,7 @@ Now that you have a list of your values compare them against each other. If you 
 
 I took a look at what I did on a daily basis as well as my long-term goals and made course corrections where necessary. I'm no longer doing things which don't align with my values and I feel empowered when I say no instead of guilty. It simply gives me more time to focus on what I care about.
 
-It's given me such a strong sense of peace and happiness that I haven't felt in a while. It seems like a silly exercise, but a few hours for a few years of clarity is a fair trade.
+It seems like a silly exercise, but a few hours for a few years of clarity is a fair trade.
 
 <hr class="small">
 
