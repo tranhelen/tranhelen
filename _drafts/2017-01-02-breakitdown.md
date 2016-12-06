@@ -4,9 +4,7 @@ title: Breaking Down Systems
 category: [blog, design]
 slug: break-down-systems
 ---
-In the pro-liberal bubble, the collective gasps of our tech industry were heard when Donald Trump became the president-elect. I, myself, was not shocked given the history of the U.S.A. but, still, very dissapointed by the result. I've spent some time wondering how the hell we got here in the first place. 
-
-All of this has reminded me of a book which holds a special place on my *Design Thinking* shelf as being very pivotal in how I look at most design problems. "*The Systems Bible*" by John Gall<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> details the theory behind small and large systems and how they display "_system antics_," which was a very fun way to describe what we would likely call "*unexpected behaviour*."
+When Donald Trump became the president-elect, I thought about a book which sits on my *Design Thinking* shelf. "*The Systems Bible*" by John Gall<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> has been pivotal in how I look at complex problems, or what he calls systems. The book details the theory behind small and large systems and how they display "_system antics_," which was a very fun way to describe what we would likely call "*unexpected behaviour*."
 
 <blockquote class="large">
     <p>THE UNIVERSE IS LIKE A VERY LARGE SYSTEM</p>
