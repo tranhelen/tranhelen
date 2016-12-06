@@ -4,7 +4,9 @@ title: Breaking Down Systems
 category: [blog, design]
 slug: break-down-systems
 ---
-When Donald Trump became the president-elect, I thought about a book a book I read last year. "*The Systems Bible*" by John Gall<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> has been pivotal in how I look at complex problems, or what he calls systems. The book details the theory behind small and large systems and how they display "_system antics_," which was a very fun way to describe what we would likely call "*unexpected behaviour*."
+When Donald Trump became the president-elect, I thought about a book a book I read last year. "*The Systems Bible*" by John Gall<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> has been pivotal in how I look at complex problems, or, what he calls _systems_.
+
+The book details the theory behind small and large systems and how they display "_system antics_," which was a very fun way to describe what we would likely call "*unexpected behaviour*."
 
 <hr class="small">
 
@@ -12,7 +14,7 @@ When Donald Trump became the president-elect, I thought about a book a book I re
     <p>THE UNIVERSE IS LIKE A VERY LARGE SYSTEM</p>
 </blockquote>
 
-We like to build systems. This is true of every culture on earth. Democracy is a system. Local governments are systems. Garbage collection is a system. Banks are systems. All of these things are components of the much larger system, the universe. You get the point. We build systems to help us deal with problems in hopes that the system will build or solve for us.
+We like to build systems. This is true of every culture on earth. Democracy is a system. Local governments are systems. Garbage collection is a system. Banks are systems. All of these things are components of the much larger system, the universe. You get the point. We build systems to help us deal with problems in hopes that the system will then solve it for us.
 
 There are many fundamental theorems worth reading about in the book, but I'll defer to it to explain them all to you. The important takeaway is within the first ten pages,
 
@@ -52,19 +54,19 @@ Most applications and websites are a small-large exercise in information managem
 2. **Type of information**: Read (restaurant, menu, prices, item description), Write (cuisine, food options, payment)
 3. **In What Order**: cuisine, restaurant, menu, item description, price, food options, payment OR payment, cuisine, restaurant, menu, item description, price, food options
 
-These three questions set up a strong baseline for what the user flows should look like.
+These three questions set up a strong hypothesis for what the user flows should look like. 
 
 ### Developing career goals
 
-Once a job turns into a career, one of a manager's core responsibilities is to ensure that their reports are happy with the trajectory of their career. It doesn't have to be daunting.
+Once a job turns into a career, one of a manager's core responsibilities is to ensure that their reports are happy with the trajectory of their career. Look at education as a system.
 
-Identify the components of the specialization. Find educational courses to teach theory and opportunities to practice application. Add frequent checkpoints to course correct if necessary (1-on-1s or quarterly). Do deep-dives twice a year to ensure that they are still on track and congratulate them on their success.
+Identify the components of the idealized knowledge base. Find educational courses to teach theory and opportunities to practice application. Add frequent checkpoints to course correct to avoid overall system malfunctions. Do deep-dives twice a year just in case the checkpoints don't catch everything.
 
 ### Managing efficient teams
 
 Companies typically start with a small group of people. At the beginning, every person will have a specific job. They will all be _building the thing._ As the organization grows, another layer is required to help manage the people _building the thing._ This continues perpetually, until the majority of the people are _not building the thing._
 
-To help manage the complexities of this system, _break down_ the size of teams, eliminate dependencies, encourage ownership, and provide the power of decision-making to each team member. 
+To help manage the complexities of _this_ system, _break down_ the size of teams, eliminate dependencies, encourage ownership, and give the power of decision-making to each team member.
 
 ## The rules of dismantling
 
