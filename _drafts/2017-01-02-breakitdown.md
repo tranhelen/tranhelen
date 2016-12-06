@@ -6,6 +6,8 @@ slug: break-down-systems
 ---
 When Donald Trump became the president-elect, I thought about a book a book I read last year. "*The Systems Bible*" by John Gall<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> has been pivotal in how I look at complex problems, or what he calls systems. The book details the theory behind small and large systems and how they display "_system antics_," which was a very fun way to describe what we would likely call "*unexpected behaviour*."
 
+<hr class="small">
+
 <blockquote class="large">
     <p>THE UNIVERSE IS LIKE A VERY LARGE SYSTEM</p>
 </blockquote>
