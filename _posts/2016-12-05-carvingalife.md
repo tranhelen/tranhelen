@@ -11,7 +11,7 @@ slug: carving-a-life
 
 In the western world we tend to equate who we are with what we do for a living. This is fine but it's not exactly right for all of us. It implies we all have the same value sets and that's far from the truth.
 
-A few months ago I went through the exercise of identifying my values. I was doing this in an effort to clarify my decision-making and live more intentionally. I wanted the life _I_ could carve, not someone else's.
+A few months ago I went through the exercise of identifying my values on paper. I wanted to clarify my decision-making and live more intentionally. I wanted the life _I_ could carve, not someone else's.
 
 ## Defining your values 
 
@@ -51,9 +51,9 @@ Now that you have a list of your values compare them against each other. If you 
 
 ## Living with values
 
-I took a look at what I did on a daily basis as well as my long-term goals and made course corrections where necessary. I'm no longer doing things which don't align with my values and I feel empowered when I say no instead of guilty. It simply gives me more time to focus on what I care about.
+I took a look at my daily actions as well as my long-term goals and made course corrections. No longer am I doing things which don't align with my values and I feel empowered when I say no instead of guilty. It simply gives me more time to focus on what I care about.
 
-Living this way has gifted me with a sense of peace and I no longer feel the need to chase whatever it is that other people are chasing. It seems like a silly exercise, but a few hours for a few years of clarity is a fair trade.
+Living this way has gifted me with a sense of peace. I no longer feel the need to chase whatever it is that others are chasing. It seems like a silly exercise, but a few hours of feeling silly for a few years of clarity is a fair trade.
 
 <hr class="small">
 
