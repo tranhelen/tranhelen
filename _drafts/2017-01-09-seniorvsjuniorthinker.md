@@ -4,11 +4,15 @@ title: Senior vs. Junior Thinker
 category: [blog, design]
 slug: senior-vs-junior-thinker
 ---
-Design is a long education in how to critically think about a problem. The difference between a junior and senior is rarely ever about the craft or practical skill-set; likely the easiest comparison but very rarely the right one to make when assessing effectiveness. If we zero in on the strongest skill any Designer should have, which is critical thinking, the difference between _classes_ becomes quite clear.
+Design is a long education in how to critically think about a problem. The difference between a junior and senior is rarely ever about the craft or practical skill-set; likely the easiest comparison but very rarely the right one to make when assessing effectiveness.
+
+If we zero in on the strongest skill any Designer should have, critical thinking, the difference between "_classes_" becomes clear.
 
 ## Identification
 
-When being described a problem, a senior Designer will likely ask more questions than their junior counterpart. This is to ensure that the person describing the problem is clear about the problem to begin with. Sometimes what's being described is a _symptom_ of a problem. There's the root cause (the system's problem) and then there are the _system antics_ or the _unexpected results_ of the system which people tend to mistake for the actual problem itself.
+When being described a problem, a Senior Designer will likely ask more questions than their Junior counterpart. This is to ensure that the person describing the problem is clear about the problem to begin with. Sometimes what's being described is a _symptom_ of a problem.
+
+There's the root cause (the system's problem) and then there are the _system antics_ or the _unexpected results_ of the system which people tend to mistake for the actual problem itself.
 
 ### Common example
 
@@ -36,11 +40,10 @@ Juniors are very rarely filled with the conviction a Senior has. This also may b
 
 ## Priorities
 
+We get plummeled all day and all night with new information–what I call, datapoints. It could be from traditional forms of _data_ but it could also be types of information that come purely from over-involved people in the company.
 
-
+Juniors tend to treat all datapoints as equal, not knowing how to prioritize certain pieces over others. This leads to wasted cycles or a frozen Designer. A Senior Designer can say _no_ because they've already discerned whether or not that particular piece of information is worth the pivot.
 
 <hr class="small">
 
-<div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> John Gall, <a href="http://www.amazon.com/gp/product/0961825170/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0961825170&linkCode=as2&tag=heltraprodes-20&linkId=OSDRIO2RM32JGGKB" class="external" target="_blank">&#8220;<span class="external-body"><em>The Systems Bible</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 1925</p>
-</div>
+These four things can put another Designer leagues ahead of the other, regardless of how much _work time_ they have put in. Expertise in this field is not determined by _years_, it's determined by how well someone can define the problem to begin with.
