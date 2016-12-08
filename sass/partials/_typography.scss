@@ -76,6 +76,10 @@ h2 {
 		color: $colorTextHeaderDark;
 	}
 
+	.subpage-body & {
+		margin: $unit 0;
+	}
+
 	@include at-query($one) {
 		font-size: em(30px);
 		line-height: 40px;
@@ -106,7 +110,7 @@ h3 {
 	}
 
 	.subpage-body & {
-		margin: 20px 0;
+		margin: $unit 0;
 	}
 
 	@include at-query($one) {
@@ -372,7 +376,7 @@ hr {
 	margin: $unit auto 40px;
 
 	@include at-query($two) {
-		margin: 30px auto;
+		margin: $unit auto;
 	}
 }
 
