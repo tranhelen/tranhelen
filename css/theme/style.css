@@ -2790,12 +2790,13 @@ section {
 
 /* line 227, ../../sass/partials/_main.scss */
 .book-cover {
-  margin: 15px 0;
+  margin-bottom: 15px;
 }
-
-/* line 231, ../../sass/partials/_main.scss */
-.book-cover--bottom {
-  margin-bottom: 30px;
+@media screen and (min-width: 1000px) {
+  /* line 227, ../../sass/partials/_main.scss */
+  .book-cover {
+    margin: 30px 0;
+  }
 }
 
 /* line 235, ../../sass/partials/_main.scss */

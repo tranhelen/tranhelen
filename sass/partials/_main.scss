@@ -225,11 +225,11 @@ section {
 }
 
 .book-cover {
-	margin: ($unit / 2) 0;
-}
+	margin-bottom: $unit / 2;
 
-.book-cover--bottom {
-	margin-bottom: $unit;
+	@include at-query($two) {
+		margin: $unit 0;
+	}
 }
 
 .img-border {
