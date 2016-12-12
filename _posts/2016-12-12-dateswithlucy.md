@@ -25,7 +25,7 @@ _Micro-dosing_ is taking a small amount of a drug every few days. LSD comes on b
 
 Volumetric dosing allows you to more or less take the same amount each time instead of leaving it up to chance. It's still not an exact science, but for a home DIY-er, it's the best you can do.
 
-Micro-dosages are between 10-20ug (micrograms). A _tab_, or one _hit_, starts at 100ug and climb upwards so a micro-dose is much less than you would usually take. Fun-tertainment doses at around the 100-200ug mark. At such a low dosage (for me, 10ug) you receive none of the hallucinogenic effects which Lucy is famous for. What you get is, generally, a mood amplifier.
+Micro-dosages are between 10-20ug (micrograms). A _tab_, or one _hit_, starts at 100ug and climb upwards so a micro-dose is much less than you would usually take. Fun-tertainment doses are around the 100-200ug mark. At such a low dosage (for me, 10ug) you receive none of the hallucinogenic effects which Lucy is famous for. What you get is, generally, a mood amplifier.
 
 ## The Experiment
 
@@ -33,13 +33,13 @@ I started in November taking it once every four days. On the second day, you're 
 
 This was the extent of the experiment. I was not scientific about it, I did not go in with any expectations, and I didn’t tell anyone about it until it was over.
 
-The biggest issue I have with micro-dosing experimentations is that it seems like there’s a bit of a placebo effect going on. I’m wary of anything which can be said to solve _anything_ and after reading some other accounts it looks a little bit too much like people are treating it as a panacea. 
+The biggest issue I have with micro-dosing experimentations is that it seems like there’s a bit of a placebo effect going on. I’m wary of anything which is claimed to solve _anything_ and after reading some other accounts it looks a little bit too much like people are treating it as a panacea.
 
 ## The Results
 
-During the month, I was happier, more open, more productive on _some_ days, more creative on _some_ days, and friendlier overall. In general, Lucy made me more open and this has been echoed by many dosers.
+During the month, I was happier, more productive on _some_ days, more creative on _some_ days, and friendlier overall. In general, Lucy made me more open. This sentiment has been echoed by many dosers.
 
-I am biased towards choosing the sober path when I can. When it comes to fulfillment and happiness, living by [my values](http://helentran.com/carving-a-life) and working on my emotional IQ has had more permanent effects than micro-dosing. I was already on an upswing with happiness so it's hard to say it was a great improvement.
+I am biased towards choosing the sober path when I can. I was already on an upswing with happiness so I can't say it was a big improvement. When it comes to fulfillment and happiness, living by [my values](http://helentran.com/carving-a-life) and working on my emotional IQ has had more permanent effects than micro-dosing.
 
 The only negative side effect I noted is that it tends to make me less hungry. Since this impedes my fitness goals I stopped. In the end, micro-dosing was enjoyable but it wasn't making enough marked improvements in my life to justify continuing it.
 
