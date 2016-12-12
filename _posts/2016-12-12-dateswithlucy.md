@@ -48,7 +48,7 @@ I still intend to experiment with stronger doses as I am curious about the usage
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This <a href="https://www.youtube.com/channel/UCn8V3KNSgDr1Dai77_y8JrQ" class="external" target="_blank">&#8220;<span class="external-body">YouTube channel</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> is a great place to start.</p>
+    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This <a href="https://www.youtube.com/channel/UCn8V3KNSgDr1Dai77_y8JrQ" class="external" target="_blank"><span class="external-body">YouTube channel</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> is a great place to start.</p>
 
     <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> This sentence is not meant to imply I am a big fan of Mr. Ferriss. Please do not try to engage in conversation with me about him.</p>
 
