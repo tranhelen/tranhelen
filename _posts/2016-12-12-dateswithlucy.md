@@ -4,4 +4,4 @@ title: Dates with Lucy
 category: [blog, life]
 slug: dates-with-lucy
 ---
-**Current company doesn't want this post displaying. Removed for the time-being.**
+*The company I currently work for didn't want this post showing. Removed for the time-being.*
