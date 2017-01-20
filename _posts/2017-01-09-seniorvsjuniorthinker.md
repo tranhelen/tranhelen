@@ -42,9 +42,9 @@ Juniors are very rarely filled with this conviction. This also may be why some p
 
 ## Priorities
 
-We get plummeled all day and all night with new information or what I call: datapoints. It could be from traditional forms of _data_ but it could also be types of information that come from over-involved people in the company (opinions).
+We are plummeted all day and all night with new information or what I call: data-points. It could be from traditional forms of _data_ but it could also be types of information that come from over-involved people in the company (opinions).
 
-Juniors tend to treat all datapoints as equal, not knowing how to prioritize certain pieces over others. This leads to wasted cycles or a frozen Designer/team. A Senior Designer can say _no_ because they've already discerned whether or not that particular piece of information is worth the pivot.
+Juniors tend to treat all data-points as equal, not knowing how to prioritize certain pieces over others. This leads to wasted cycles or a frozen Designer/team. A Senior Designer can say _no_ because they've already discerned whether or not that particular piece of information is worth the pivot.
 
 <hr class="small">
 
