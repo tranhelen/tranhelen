@@ -34,9 +34,9 @@ A Junior Designer will look at constraints and consider them to be set in stone 
 
 ## Philosophies
 
-Many people look at someone like Jonathan Ives and are fascinated by how well he has executed on something they call _vision._ It sounds magical... like Designers get up in the middle of the night and exclaim dramatically, "I got it!" That's absurd, no.
+Many people look at someone like Jonathan Ive and are fascinated by how well he has executed on something they call _vision._ It sounds magical... like Designers get up in the middle of the night and exclaim dramatically, "I got it!" That's absurd, no.
 
-Over time, Designers accumulate a set of beliefs (like real life!) about why they're doing certain things. This set of beliefs become their _design philosophy_ and when you hire a Senior Designer, you're hiring that set of beliefs. Jonathan Ives isn't doing well because he simply came up with the idea of the iPhone. Jonathan Ives is successful because he found a way to convince people to care about the same thing he cares about.
+Over time, Designers accumulate a set of beliefs (like real life!) about why they're doing certain things. This set of beliefs become their _design philosophy_ and when you hire a Senior Designer, you're hiring that set of beliefs. Ive isn't doing well because he simply came up with the idea of the iPhone. Ive is successful because he found a way to convince people to care about the same thing he cares about.
 
 Juniors are very rarely filled with this conviction. This also may be why some people believe Designers are _snotty._ Designers aren't snotty. They're opinionated. _Vision_ is just a fancy word for _opinion_.
 
