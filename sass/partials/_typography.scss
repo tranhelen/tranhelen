@@ -143,7 +143,15 @@ h5 {
 .h2 { @extend h2; }
 .h3 { @extend h3; }
 .h4 { @extend h4; }
-.h5 { @extend h5; }
+.h5 {
+	@extend h5;
+
+	@include at-query($two) {
+		&.no-margin {
+			margin: 5px 0 0;
+		}
+	}
+}
 
 p,
 ol li,
