@@ -1,8 +1,8 @@
 ---
 layout: subpage
-title: Assessing Growth
+title: Assessing Impact
 category: [blog, management]
-slug: assessing growth
+slug: assessing-impact
 ---
 As a company scales a Design team cannot afford to function any longer on an ad-hoc basis. Many things get lost within rapid growth of a company, even the expectations you hold of your peers in your own discipline.
 
@@ -11,13 +11,11 @@ When we noticed this breaking at our scale, our leadership team clarified the ex
 1. ...us something to assess people on bi-annually
 2. ...our reports a clearer reference on what we considered to be a "*great Designer*"
 
-Aside from laying out the basic expectations we have of all Designers on our team, it explains the rubric we use to measure '*impact*'.
+Aside from laying out the basic expectations we have of all Designers on our team, it explains the rubric we use to gauge '*impact*' and how the expectations change depending on what career stage you're in.
 
 ## Profiles
 
-I still treat my reports as individual snowflakes, but, I (and their team most likely) expect certain things from them depending on where they are in their career. 
-
-Each Designer is assessed through four different frames: craft, ownership, influence, and team. We took these four frames and explained exactly how we expected each Designer at different career stages to act and wrote them down.
+Each Designer is looked at through four different frames: craft, ownership, influence, and team. We took these four frames and explained how we expected each Designer at different career stages to act and wrote them down.
 
 <hr class="small">
 
@@ -201,9 +199,9 @@ Each Designer is assessed through four different frames: craft, ownership, influ
 
 ## Adjustments
 
-This is how the document lives right now. It's a changing document; altered as we learn what works and what doesn't work for our Designers and the company.  I want to stress that this is the *general* framework, and we allow for unique interpretations of certain things... we're not building a team of robots. Or, at least, I'm not.
+This is how the document lives right now. It's a changing document; altered as we learn what works and what doesn't work for our Designers and the company.  I want to stress that this is a *general* baseline and we allow for unique interpretations of certain things... we're not building a team of robots. Or, at least, I'm not.
 
-One thing we still think about often is that this framework implies that we expect all Designers to become leads but we stress that this isn't the expectation. We are still having difficulty understanding internal/external acknowledgment of ICs who don't decide to go into management.
+One thing we still think about often is that this framework implies that we expect all Designers to become leads but we stress internally that this isn't the expectation. We are still having difficulty understanding internal/external acknowledgment of ICs who don't decide to go into management.
 
 If you're scaling a Design team, I'd love to hear what you're doing.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
 
