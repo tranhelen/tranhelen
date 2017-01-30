@@ -6,11 +6,11 @@ slug: managing-growth
 ---
 My new obsession is the word "*growth*." Growth is my job. Well, management is my job, but growth is mostly what I think about. I'm tasked to care for the growth of the company/product, the growth of my discipline in the company/industry-wide, and, my favourite, the growth of my reports.
 
-The management team I'm apart of (us three amigos; Darrin Henein, Ilia Larianov, and I)<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> stress to our reports the importance of continued growth. We hire them for their talent, but we expect them to change drastically and frequently.
+The management team I'm a part of (us three amigos; Darrin Henein, Ilia Larianov, and I)<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> stress to our reports the importance of continued growth. We hire them for their talent, but we expect them to change drastically and frequently.
 
 Our team would suffer if our reports didn't put in the time for personal and career growth and it puts our wider team at a disadvantage if they didn't (we're doubling in employees every year). A stagnant team threatens both the product and your talent pipeline.
 
-Below is the approach we've taking with our team, but first, I'd like to discuss ownership. I briefly touched upon this [last week](http://helentran.com/assessing-impact) but we can afford to go a little deeper.
+Below is the approach we're taking with our team, but first, I'd like to discuss ownership. I briefly touched upon this [last week](http://helentran.com/assessing-impact) but we can afford to go a little deeper.
 
 ## Who Owns Growth
 
@@ -26,7 +26,7 @@ So, who owns growth? The whole damn company does; glad we got that out of the wa
 
 ### Dailies
 
-Dach Design Lead is typically embedded into at least one project (picked generally based on need of support) and manages a few other Designers on other projects.
+Each Design Lead is typically embedded into at least one project (picked generally based on need of support) and manages a few other Designers on other projects.
 
 We ultimately take the responsibility for the output of these projects, so we keep up-to-date with the project briefs, any Design work the designers do, and bigger strategic decisions made which may impact the Designer's day-to-day work. The goal is not to micro-manage or make decisions, but to alleviate any blocks which may come up along the way.
 
