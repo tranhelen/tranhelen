@@ -6,7 +6,7 @@ slug: managing-growth
 ---
 My new obsession is the word "*growth*." Growth is my job. Well, management is my job, but growth is mostly what I think about. I'm tasked to care for the growth of the company/product, the growth of my discipline in the company/industry-wide, and, my favourite, the growth of my reports.
 
-The management team I'm a part of (us three amigos; Darrin Henein, Ilia Larianov, and I)<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> stress to our reports the importance of continued growth. We hire them for their talent, but we expect them to change drastically and frequently.
+The management team I'm a part of (us three amigos; Darrin Henein, Ilia Larionov, and I)<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> stress to our reports the importance of continued growth. We hire them for their talent, but we expect them to change drastically and frequently.
 
 Our team would suffer if our reports didn't put in the time for personal and career growth and it puts our wider team at a disadvantage if they didn't (we're doubling in employees every year). A stagnant team threatens both the product and your talent pipeline.
 
