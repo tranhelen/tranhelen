@@ -32,7 +32,7 @@ We ultimately take the responsibility for the output of these projects, so we ke
 
 Designers participate in:
 
-**Fresh Eyes;** a group of Designers they see weekly for presentation and feedback. The designers are re-assigned to new groups per quarter and each group has a mixture of designers from different departments so they can get more varied feedback. 
+**Fresh Eyes;** a group of Designers they see weekly for presentation and feedback. The designers are re-assigned to new groups per quarter and each group has a mixture of designers from different departments so they can get a variety of feedback. 
 
 **Product Round-table;** our weekly sync-up amongst the Product Designers. This is a mixture of showcases we run on our team as part of the feedback cycle for other team activities or to ensure everyone is aware of _what's going on_.
 
