@@ -8,7 +8,7 @@ High-growth companies are not for those who love stability. Those caught in the 
 
 It's been a short period of time and the company has added an additional zero to the employee count since I've joined. With this, I've had to start a Design practice within a larger one and keep it stable whilst the company continued to grow around us.
 
-Since the beginning of all this, these three things have remained constant:
+Since the beginning of all this, these things have remained constant:
 
 1. **Routines can help with instability.** Implementing regular touch-points within the team helped maintain the semblance of stability. It's also great as a feedback loop, ensuring accountability which can be forgotten when projects become overwhelming.
 2. **Culture is more important than people realize.** The immeasurable things: random coffees, hallway conversations, and Slack gifs keep a team together and help foster trust and better communication... but it's a long play and frequently disregarded. It’s management’s job to keep culture a priority, even if the IC’s don’t consider it “_work_” or "important." It's more important than most people realize.
