@@ -28,7 +28,7 @@ Evan talked about how Designers now, more than ever, have the power to make chan
 
 As a consumer, I've tried in the most recent past to purchase deliberately. I gravitate towards principled businesses like Patagonia, Toms Shoes, and Pure Vida. I prefer direct-to-artisan relationships for my other objects. I even have a home I've furnished with pieces made out of reclaimed wood from my city's old building remains. I've been asking myself for the better part of a year if it's _enough_ and lately that disillusioned girl from college has been getting louder.
 
-I'm currently wearing my Me to We bracelet. I don't know if wearing it matters or signifies anything. But I don't know that it doesn't either.
+On my arm sits my Me to We bracelets along with my Pure Vida ones. I don't know if wearing them matters or signifies anything. But I don't know that it doesn't either.
 
 <hr class="small">
 
