@@ -1,8 +1,8 @@
 ---
 layout: subpage
-title: Running from the Burnout
+title: Running from Burnout
 category: [blog, tech]
-slug: running-from-the-burnout
+slug: running-from-burnout
 ---
 Five years ago I burned out spectacularly. Since then I've guarded my life aggressively to ensure it never happens again. Burnout interfered with my life, taking over and emotionally consuming what was happening at work.
 
