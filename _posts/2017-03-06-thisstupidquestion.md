@@ -4,9 +4,7 @@ title: This Stupid Question
 category: [blog, tech]
 slug: this-stupid-question
 ---
-*I wrote this to answer a question I get pretty often. I tried for many years to side-step the conversation but recently, I've decided that was an irresponsible position.*
-
-*In light of what's been happening recently with Uber, I think it's important to document my current thoughts about the industry.*
+*I wrote this to answer a question I get pretty often. I tried for many years to side-step the conversation but I won't be doing that anymore. In light of what's been happening recently with Uber, I think it's important to document my current thoughts about the industry.*
 
 <hr class="small">
 
