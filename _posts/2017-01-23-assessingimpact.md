@@ -4,9 +4,9 @@ title: Assessing Impact
 category: [blog, management]
 slug: assessing-impact
 ---
-As a company scales a Design team cannot afford to function any longer on an ad-hoc basis. Many things get lost within rapid growth of a company, even the expectations you hold of your peers in your own discipline.
+As a company scales a Design team cannot afford to function any longer on an ad-hoc basis. Many things get lost within rapid growth of a company-even the expectations you hold of your peers in your own discipline.
 
-When we noticed this breaking at our scale, our leadership team clarified the expectations for our Designers. This gave:
+When we noticed this breaking at scale, our leadership team clarified the expectations for our Designers. This gave:
 
 1. ...us something to assess people on bi-annually
 2. ...our reports a clearer reference on what we considered to be a "*great Designer*"
