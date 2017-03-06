@@ -18,7 +18,7 @@ It's never happened to me, no. I understand it when people can look at that and 
 
 **[Q]** ...
 
-Yes, I do. Chimamanda Ngozi Adchie says a really great thing about this. "Gender is a grace injustice," she says. We stifle men of their humanity by enforcing a narrow idea of masculinity and then we teach women to cater to the fragile egos left behind by the grand stifling. We should all be angry. Anger brings about change.
+Yes, I do. Chimamanda Ngozi Adchie says a really great thing about this. "Gender is a grave injustice," she says. We stifle men of their humanity by enforcing a narrow idea of masculinity and then we teach women to cater to the fragile egos left behind by the grand stifling. We should all be angry. Anger brings about change.
 
 **[Q]** ...
 
