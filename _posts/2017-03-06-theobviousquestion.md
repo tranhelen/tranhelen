@@ -56,7 +56,7 @@ These could all be specific to who I am but, anecdotally, I know these are conce
 
 I've had two women confess to me within the past year that they were going to leave the industry. It's inhospitable. I can't even blame them–in fact, I think it shows an immense amount of self-respect. Who would want to be in an industry that devalues their contribution so?
 
-But then, I get angry again because it was _our_ industry to begin with. Computer programming was dominated by women before it was socialized to be a male career... and that's what really ticks me off when someone tries to tell me that men are simply _more interested_ than women are and _something something_ pipeline.
+But then, I get angry again because it was _our_ industry to begin with. Computer programming was dominated by women before it was socialized to be a male career... and that's what really ticks me off when someone tries to tell me that men are simply _more interested_ than women are. Life is never that simple.
 
 **[Q]** ...
 
