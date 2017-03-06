@@ -14,7 +14,9 @@ It's hard to answer that question, you know? It's been my entire career and some
 
 **[Q]** ...
 
-It's never happened to me, no. I understand it when people can look at that and then conclude that it doesn't exist–but I know they're not looking all that hard–or, at all. It's hard to even have a serious conversation about it because not only do you want to talk about how it affects your life, you have to teach them that it's a problem to begin with. It's exhausting and you can't help but feel angry. 
+It's never happened to me, no. I understand it when people can look at that and then conclude that it doesn't exist–but I know they're not looking all that hard–or, at all.
+
+It's hard to even have a serious conversation about it. Not only do you want to talk about how it affects your life, you have to teach them that it's a problem to begin with. It's exhausting and you can't help but feel angry. 
 
 **[Q]** ...
 
@@ -34,7 +36,7 @@ The biggest reason why I got so starry-eyed by this industry: I was taught I cou
 
 **[Q]** ...
 
-It's hard to say. I only know what it's like to be me. However, seeing a grossly incompetent man hold a higher position than me with more status and power is more common than not. It's hard not to be bitter and remain positive on a day-to-day basis.
+It's hard to say. I only know what it's like to be me. However, seeing an incompetent man hold a higher position than me with more status and power is more common than not. It's hard not to be bitter and remain positive on a day-to-day basis.
 
 You hear the word, '_merit_,' and it just doesn't mean anything to you anymore. Some people are not promoted on merit. It would hurt less if people, male and female, didn't hold so tightly to the ideal of meritocracy. It's laughable to believe in a meritocracy whilst also asserting yourself the more logical gender.
 
