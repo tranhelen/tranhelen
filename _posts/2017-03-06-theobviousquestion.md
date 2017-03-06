@@ -30,7 +30,7 @@ Different people within a group will have different ways of executing even if th
 
 **[Q]** ...
 
-Sometimes I feel down because I know there are women in the industry who don't care. As a _Designer_ though, I don't understand how you cannot care about this. There are products being designed everyday with only _one perspective_ in mind. Not only that, entire market segments are ignored because of the male majority.
+I feel down because I know there are women in the industry who don't care to discuss it. As a _Designer_ though, I don't understand how you cannot. There are products being designed everyday with only _one perspective_ in mind. Not only that, entire market segments are ignored because of the male majority.
 
 The biggest reason why I got so starry-eyed by this industry: I was taught I could affect change and I wanted a better future. The future cannot be defined by one archetype–it goes against everything I believe in.
 
