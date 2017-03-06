@@ -10,7 +10,7 @@ slug: the-obvious-question
 
 **[Q]** ...
 
-It's hard to answer that question, you know? It's been my entire career and some days I think it gets better and then other days I'm overwhelmed by how insurmountable the problem appears to be. And... there's just so much; there are the overt things we see like in the Uber case but the much more serious things that affect my day-to-day are systemic.
+It's hard to answer that question, you know? It's been my entire career and some days I think it gets better and then other days I'm overwhelmed by how insurmountable the problem appears to be. And... there's just so much; there are the overt things we see like in the Uber case but the  more serious things that affect my day-to-day are systemic.
 
 **[Q]** ...
 
