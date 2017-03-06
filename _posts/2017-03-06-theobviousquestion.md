@@ -50,7 +50,7 @@ I worry a lot. I worry about how my actions reflect on the group as a whole. I w
 
 There's all the little things I worry about too. I worry about how aggressive I come across. I worry if I'm not being vocal enough. I worry about what I wear to a stupid talk when _I'm_ the speaker, for fuck's sake.
 
-These could all be specific to who I am but, anecdotally, I know these are concerns shared by many other professional women I know. It's not just _your_ career you're representing. It's everyone else's too.
+These could all be specific to who I am but, anecdotally, these are concerns shared by many other professional women I know. It's not just _your_ career you're representing. It's everyone else's too.
 
 **[Q]** ...
 
