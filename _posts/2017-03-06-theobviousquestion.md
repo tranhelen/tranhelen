@@ -38,9 +38,9 @@ The biggest reason why I got so starry-eyed by this industry: I was taught I cou
 
 It's hard to say. I only know what it's like to be me. However, seeing an incompetent man hold a higher position than me with more status and power is more common than not. It's hard not to be bitter and remain positive on a day-to-day basis.
 
-You hear the word, '_merit_,' and it just doesn't mean anything to you anymore. Some people are not promoted on merit. It would hurt less if people, male and female, didn't hold so tightly to the ideal of meritocracy. It's laughable to believe in a meritocracy whilst also asserting yourself the more logical gender.
+You hear the word, '_merit_,' and it just doesn't mean anything to you anymore. Some people are not promoted on merit. It would hurt less if people, male and female, didn't hold so tightly to the ideal of meritocracy. It's laughable to believe in a meritocracy whilst also asserting yourself the more 'logical' gender.
 
-Another thing that makes this hard is that there's simply more. There are more so they'll likely get promoted more. Not every woman will want the same upwards career trajectory into management or leadership, however, if we don't promote women into leadership or _push them_ even, it perpetuates the problem.
+Another thing that makes this hard is that there's simply more men. There are more so they'll likely get promoted more. Not every woman will want the same upwards career trajectory into management or leadership, however, if we don't promote women into leadership or _push them_ even, it perpetuates the problem.
 
 **[Q]** ...
 
@@ -48,22 +48,26 @@ I feel an immense responsibility–and the weight of a burden I never wanted. Le
 
 I worry a lot. I worry about how my actions reflect on the group as a whole. I worry if I'm doing enough for the girls coming into the industry. I worry about my own career and if I'm self-selecting out of opportunities. I worry if people think I'm in my position because I'm a woman.
 
-There's all the little things I worry about too. I worry about how aggressive I come across. I worry if I'm not being vocal enough. I worry about what I wear to a stupid talk when _I'm_ the speaker, for fuck's sake. This could be specific to who I am but, anecdotally, I know these are concerns shared by many other professional women I know. It's not just _your_ career you're representing. It's everyone else's too.
+There's all the little things I worry about too. I worry about how aggressive I come across. I worry if I'm not being vocal enough. I worry about what I wear to a stupid talk when _I'm_ the speaker, for fuck's sake.
+
+These could all be specific to who I am but, anecdotally, I know these are concerns shared by many other professional women I know. It's not just _your_ career you're representing. It's everyone else's too.
 
 **[Q]** ...
 
-I've had two women confess to me that they were going to leave the industry within the past year. It's inhospitable. I can't even blame them–in fact, I think it shows an immense amount of self-respect. Who would want to be in an industry that devalues their contribution so?
+I've had two women confess to me within the past year that they were going to leave the industry. It's inhospitable. I can't even blame them–in fact, I think it shows an immense amount of self-respect. Who would want to be in an industry that devalues their contribution so?
 
 But then, I get angry again because it was _our_ industry to begin with. Computer programming was dominated by women before it was socialized to be a male career... and that's what really ticks me off when someone tries to tell me that men are simply _more interested_ than women are and _something something_ pipeline.
 
 **[Q]** ...
 
-The pipeline–oh my God! What a nightmare! I _want_ equal gender ratios but women are socialized out of the industry every step of the way. It becomes harder and harder to find women to fill senior roles. They're coming into the industry in larger numbers and dropping out somewhere in the middle.
+The pipeline–oh my God! What a nightmare! I _want_ equal gender ratios but women are socialized out of the industry every step of the way. It becomes harder and harder to find women to fill senior roles. They're coming into the industry in large numbers and dropping out somewhere in the middle.
 
-Not only are we fighting against an inhospitable industry but it's like we're fighting inside ourselves. It takes a toll on a woman to be told she's second best her whole life. As early as age 4, we have studies showing that women already believe themselves to be lesser–can you believe that? What you get is a host of women who have huge confidence issues and self-select themselves out of opportunities.
+Not only are we fighting against the industry but it's like we're fighting inside ourselves. It takes a toll on a woman to be told she's second best her whole life. As early as age 4, we have studies showing that women already believe themselves to be lesser–can you believe that? 
+
+What you get is a host of women who have huge confidence issues and self-select themselves out of opportunities.
 
 **[Q]** ...
 
 What if a good portion of your industry thinks it's okay to use the word "feminazi" and the acronym "SJW" non-ironically? Just looking at HackerNews for five minutes makes me want to retch–what disgusting behaviour.
 
-So yes–I do think about leaving. They say you're the sum of everyone you're around everyday... do I really want to be around _this_? I ask myself that more than you think.
+So, yes–I _do_ think about leaving. They say you're the sum of everyone you're around everyday... do I really want to be around this? I ask myself that more than you think.
