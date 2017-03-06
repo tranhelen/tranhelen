@@ -60,7 +60,7 @@ But then, I get angry again because it was _our_ industry to begin with. Compute
 
 **[Q]** ...
 
-The pipeline–oh my God! What a nightmare! I _want_ equal gender ratios but women are socialized out of the industry every step of the way. It becomes harder and harder to find women to fill senior roles. They're coming into the industry in large numbers and dropping out somewhere in the middle.
+The pipeline–oh my God! What a nightmare! I _want_ equal gender ratios but women are socialized out of the industry every step of the way. It becomes harder and harder to find women to fill senior roles. They're coming into the industry in larger numbers and dropping out somewhere in the middle.
 
 Not only are we fighting against the industry but it's like we're fighting inside ourselves. It takes a toll on a woman to be told she's second best her whole life. As early as age 4, we have studies showing that women already believe themselves to be lesser–can you believe that? 
 
