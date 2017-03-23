@@ -123,7 +123,7 @@ We are still working through this together and expect to follow up soon on our r
     <figcaption class="inline">This must be embarrassing for some of them</figcaption>
 </figure>
 
-_P.S. If you’re looking for a team who is impressive on many levels and has no shortage of hard problems to solve (project or team) send us your portfolio. Play a game and pick one of three: [Helen](https://twitter.com/tranhelen), [Darrin](https://twitter.com/darrinhenein), or [Ilia](https://twitter.com/ilialarionov)._
+_P.S. If you’re looking for a team who is impressive on many levels and has no shortage of hard problems to solve (project or team) send us your portfolio. Play a game and pick one of three: [Darrin](https://twitter.com/darrinhenein), [Helen](https://twitter.com/tranhelen), or [Ilia](https://twitter.com/ilialarionov)._
 
 <hr class="small">
 
