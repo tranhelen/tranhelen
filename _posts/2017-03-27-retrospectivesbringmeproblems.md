@@ -9,7 +9,7 @@ hero: 82-01.jpg
 
 Asking for solutions first is bad management advice. _‘Don’t bring me problems—bring me solutions!'_ teaches your team that it’s okay not to speak up if they cannot solve it themselves. That’s not how to work as a team and it certainly doesn't leverage the collective intelligence of the people you hired.
 
-Encouraging your team to talk about the problems in a non-judgemental environment is key to building trust. According to Google’s Aristotle project, in which they studied 180 teams<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> over the course of a year looking for patterns,
+Encouraging your team to talk about the problems in a non-judgemental environment is key to building trust. According to Google’s Aristotle project, in which they studied 180 teams<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> over the course of a year,
 
 <blockquote class="large">
     <p>…Google’s data indicated that psychological safety, more than anything else, was critical to making a team work.</p>
@@ -29,12 +29,12 @@ Ensuring that we’re always aware of what impacts a Designer’s output is our 
 
 A retrospective is an exercise designed to help a team identify opportunities for growth or celebrate wins. They can be complex but I like to use a fairly simple model for the sake of simpler logistics.
 
-You can run one after a project launches (to focus on process), amongst a discipline team (to focus on team process), or anytime you feel like there are things to discuss (this is the stage we were in.) It’s a great time to _pause_ and reflect on things we forget about when we get lost in everyday work.
+You can run one after a project launches (to focus on process), amongst a discipline team (to focus on team process), or anytime you feel like there are things to discuss (this is the stage we were in). It’s a great time to _pause_ and reflect on things we often forget about when we get lost in everyday work.
 
 The goals of a retrospective:
 
 - To celebrate and identify what the team is doing well
-- To bring problems up to your colleagues
+- To bring problems you've experienced in the past
 - To discuss things in an honest and transparent way
 - To encourage newer team members to participate honestly by setting an example
 
@@ -59,7 +59,7 @@ Before the team arrived into the room, we wrote the theme down on a post-it note
     <figcaption class="inline">Things get a bit messy</figcaption>
 </figure>
 
-They were encouraged to put up their stickies as soon as they wrote it and to walk around and read them as other team members put theirs up. If they agreed with anything, they could simply write a “+1” sticky note and add it beside the original. We gave ourselves 30 minutes to run the first part of the exercise.
+They were encouraged to put up their stickies as soon as they wrote it and to walk around and read them as other team members put theirs up. If they agreed with anything, they could simply write a “+1” sticky note and add it beside the original. We gave ourselves 30 minutes to do the exercise.
 
 <figure>
     <img src="/img/post/82-03.jpg">
@@ -67,9 +67,9 @@ They were encouraged to put up their stickies as soon as they wrote it and to wa
 
 As the Designers brainstormed, the leadership team would read through every theme and group like post-it notes together if it felt like the notes were related. This is to help guide the discussions afterwards and understand the urgency of the problem identified.
 
-Afterwards, the team gathered around each theme and read every post-it note. We asked questions for clarification if needed and encouraged each other to give examples if they were comfortable doing so. If we could clarify it further, we rewrote a post-it note if the original wasn't clear to the team.
+Afterwards, the team gathered around each theme and read every post-it note. We asked questions for clarification and encouraged each other to give examples if they were comfortable doing so. 
 
-The leadership team documented the post-it notes and spent some time distilling it into a document where we ranked the most pressing issues (the ones with the most amount of notes) within a theme. We posted the doc to the team on Slack and asked for additional examples if they wanted to add any.
+The leadership team documented amd distilled the notes it into a document where we ranked the most pressing issues (the ones with the most amount of notes) within a theme. We posted the doc to the team on Slack and opened it up for modification if they felt it was necessary.
 
 <hr class="small">
 
@@ -94,7 +94,7 @@ Then we took a break and ate pizza and drank optional mimosas for a bit.
     <figcaption class="inline">Design Thinking needs pizza</figcaption>
 </figure>
 
-After lunch, the teams were tasked with brainstorming possible solutions for how to fix the problems identified on the team and/or continue doing better on the things we were already getting right. The goal was to come up with not only a solution but an implementation plan answering, what? how? and who?
+After lunch, the teams were tasked with brainstorming possible solutions for how to fix the problems identified and/or continue doing better on the things we were already getting right. The goal was to come up with not only a solution but an implementation plan answering what, how, and who?
 
 At the end of the day, the team presented and discussed the solutions they came up with. We used this time to ask each other unanswerable questions and think about the blockers that could come up during implementation.
 
@@ -102,9 +102,11 @@ At the end of the day, the team presented and discussed the solutions they came 
     <img src="/img/post/82-05.jpg">
 </figure>
 
+The goal of an exercise like this is not necessarily to come up with _one_ solution or the _right_ solution. Offsites like this are great for generating new ideas or building the foundation for more creative thinking in the future.
+
 ### Execution
 
-Ideas mean nothing unless executed well so we had to follow up on our retrospective and offsite. We used our next Product Round-table (our weekly sync with our Product Designers) to break out into groups and turn all of our solutions into projects. We used Github, a tool everyone already knows and uses for project tracking, to hold most of the information.
+Ideas mean nothing unless executed well. We used our next Product Round-table (our weekly meeting with our Product Designers) to break out into groups and turn all of our proposed solutions into projects. We used Github, a tool everyone already knows and uses for project tracking, to hold most of the information.
 
 Each group was asked to write briefs similar to what we use for our Product projects and create implementation plans on how we would approach it. Lastly, owners were assigned to each step of their plans and we track progress similar to how we track progress with other projects in the company.
 
