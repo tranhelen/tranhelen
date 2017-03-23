@@ -5,10 +5,14 @@
       {% include navigation.html %}
 
       <div class="subpage-body">
-        {% if page.hero_caption %}
+        {% if page.hero %}
           <figure class="hero">
             <img src="/img/post/{{ page.hero }}">
-            <figcaption>{{ page.hero_caption }}</figcaption>
+            {% if page.hero_caption %}
+              <figcaption>{{ page.hero_caption }}</figcaption>
+            {% else %}
+              <p>&nbsp;</p>
+            {% endif %}
           </figure>
         {% endif %}
         
