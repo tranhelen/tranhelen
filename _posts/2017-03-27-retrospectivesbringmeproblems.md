@@ -82,7 +82,7 @@ Certainly, there are things that you can do as a lead to address part of what yo
 We planned an all-day offsite after:
 
 - To encourage team members to be more engaged with the solutions of the problems identified
-- To use our collective brainpower to come up with better solutions than perhaps the leadership team can
+- To use our collective brain-power to come up with better solutions than perhaps the leadership team can
 - To give our Designers an opportunity to practice their leadership skills and apply Design Thinking to organizational or team process change
 
 Before we started, we reviewed everything again as a group and volun-told a Designer to facilitate conversations about each theme. The rest of the team split themselves up based on which theme they were most passionate about and we gave ourselves an hour or so to work through the initial thoughts.
@@ -90,7 +90,7 @@ Before we started, we reviewed everything again as a group and volun-told a Desi
 Then we took a break and ate pizza and drank optional mimosas for a bit.
 
 <figure>
-    <img src="/img/post/82-05.jpg">
+    <img src="/img/post/82-04.jpg">
     <figcaption class="inline">Design Thinking needs pizza</figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ After lunch, the teams were tasked with brainstorming possible solutions for how
 At the end of the day, the team presented and discussed the solutions they came up with. We used this time to ask each other unanswerable questions and think about the blockers that could come up during implementation.
 
 <figure>
-    <img src="/img/post/82-05b.jpg">
+    <img src="/img/post/82-05.jpg">
 </figure>
 
 ### Execution
@@ -120,7 +120,7 @@ We are still working through this together and expect to follow up soon on our r
 
 <figure>
     <img src="/img/post/82-06.jpg">
-    <figcaption class="inline">This must be embarassing for some of them</figcaption>
+    <figcaption class="inline">This must be embarrassing for some of them</figcaption>
 </figure>
 
 _P.S. If you’re looking for a team who is impressive on many levels and has no shortage of hard problems to solve (project or team) send us your portfolio. Play a game and pick one of three: [Helen](https://twitter.com/tranhelen), [Darrin](https://twitter.com/darrinhenein), or [Ilia](https://twitter.com/ilialarionov)._
