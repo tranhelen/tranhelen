@@ -106,7 +106,7 @@ The goal of an exercise like this is not necessarily to come up with _one_ solut
 
 Ideas mean nothing unless executed well. During our next Product Round-table (our weekly meeting) we broke out into groups and turned all of our proposed solutions into projects. We used Github, a tool everyone already knows and uses for project tracking, to hold most of the information.
 
-Each group was asked to write briefs similar to what we use for our Product projects and create implementation plans on how we would approach it. Lastly, owners were assigned to each step of their plans.
+Each group was asked to write briefs similar to what we use for our Product projects and create implementation plans on how we would approach it. Lastly, owners were assigned to each step to ensure it got done.
 
 <hr class="small">
 
