@@ -69,7 +69,7 @@ As the Designers brainstormed, the leadership team would read through every them
 
 Afterwards, the team gathered around each theme and read every post-it note. We asked questions for clarification and encouraged each other to give examples if they were comfortable doing so. 
 
-The leadership team documented amd distilled the notes it into a document where we ranked the most pressing issues (the ones with the most amount of notes) within a theme. We posted the doc to the team on Slack and opened it up for modification if they felt it was necessary.
+The leadership team documented the notes it into a document where we ranked the most pressing issues (the ones with the most amount of notes) first. We posted the doc to the team on Slack and opened it up for modification if they felt it was necessary.
 
 <hr class="small">
 
