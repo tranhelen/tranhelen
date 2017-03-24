@@ -7,19 +7,17 @@ slug: retrospectives-bring-me-problems
 hero: 82-01.jpg
 ---
 
-Asking for solutions first is bad management advice. _‘Don’t bring me problems—bring me solutions!'_ teaches your team that it’s okay not to speak up if they cannot solve it themselves. That’s not how to work as a team and it certainly doesn't leverage the collective intelligence of the people you hired.
+Asking for solutions first is bad management advice. _‘Don’t bring me problems—bring me solutions!'_ teaches your team not to speak up if they cannot solve it themselves. That’s not how to work as a team and it certainly doesn't leverage the collective intelligence of the people you hired.
 
-Encouraging your team to talk about the problems in a non-judgemental environment is key to building trust. According to Google’s Aristotle project, in which they studied 180 teams<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> over the course of a year,
+Encouraging your team to talk about their job in a non-judgemental environment is key to building trust. According to Google’s Aristotle project, in which they studied 180 teams<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> over the course of a year,
 
 <blockquote class="large">
     <p>…Google’s data indicated that psychological safety, more than anything else, was critical to making a team work.</p>
 </blockquote>
 
-It’s healthy to complain and be angry. Emotions are a great indicator of something not working so well, or, even the opposite-lack of emotion. They can also be a great predictor of something _about_ to go wrong.
-
 In February, our leadership team<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> identified the need for us to run a retrospective. Our team has grown in size 400% within a year and when you have that many new hires maintaining a strong working culture can be difficult.
 
-Ensuring that we’re always aware of what impacts a Designer’s output is our top priority. While we do 1:1s, group chats, and eat lunch with our team, sometimes it simply isn’t enough.
+Ensuring that we’re always aware of what impacts our Designers is our top priority. While we do 1:1s, group chats, and eat lunch with our team, sometimes it isn't enough time.
 
 <hr class="small">
 
@@ -29,7 +27,7 @@ Ensuring that we’re always aware of what impacts a Designer’s output is our 
 
 A retrospective is an exercise designed to help a team identify opportunities for growth or celebrate wins. They can be complex but I like to use a fairly simple model for the sake of simpler logistics.
 
-You can run one after a project launches (to focus on process), amongst a discipline team (to focus on team process), or anytime you feel like there are things to discuss (this is the stage we were in). It’s a great time to _pause_ and reflect on things we often forget about when we get lost in everyday work.
+You can run one after a project launches (to focus on process) or anytime you feel like there are things to discuss (this is the stage we were in). It’s a great time to _pause_ and reflect on things we often forget about when we get lost in everyday work.
 
 The goals of a retrospective:
 
@@ -69,7 +67,7 @@ As the Designers brainstormed, the leadership team would read through every them
 
 Afterwards, the team gathered around each theme and read every post-it note. We asked questions for clarification and encouraged each other to give examples if they were comfortable doing so. 
 
-The leadership team documented the notes it into a document where we ranked the most pressing issues (the ones with the most amount of notes) first. We posted the doc to the team on Slack and opened it up for modification if they felt it was necessary.
+We documented the notes it into a document where the most popular topics (the ones with the most amount of notes) were ranked first. We posted the doc to the team on Slack and opened it up for modification if they felt it was necessary.
 
 <hr class="small">
 
@@ -81,11 +79,11 @@ Certainly, there are things that you can do as a lead to address part of what yo
 
 We planned an all-day offsite after:
 
-- To encourage team members to be more engaged with the solutions of the problems identified
-- To use our collective brain-power to come up with better solutions than perhaps the leadership team can
-- To give our Designers an opportunity to practice their leadership skills and apply Design Thinking to organizational or team process change
+- To encourage team members to become involved with the solutions
+- To use our collective brain-power to come up with better solutions
+- To give our Designers an opportunity to practice applying Design Thinking to organizational or team process change
 
-Before we started, we reviewed everything again as a group and volun-told a Designer to facilitate conversations about each theme. The rest of the team split themselves up based on which theme they were most passionate about and we gave ourselves an hour or so to work through the initial thoughts.
+Before we started, we reviewed everything again as a group and volun-told a Designer to facilitate conversations about each theme. The rest of the team split themselves up based on what they were most passionate about and we gave ourselves an hour or so to work through the initial thoughts.
 
 Then we took a break and ate pizza and drank optional mimosas for a bit.
 
@@ -106,17 +104,17 @@ The goal of an exercise like this is not necessarily to come up with _one_ solut
 
 ### Execution
 
-Ideas mean nothing unless executed well. We used our next Product Round-table (our weekly meeting with our Product Designers) to break out into groups and turn all of our proposed solutions into projects. We used Github, a tool everyone already knows and uses for project tracking, to hold most of the information.
+Ideas mean nothing unless executed well. We used our next Product Round-table (our weekly meeting) to break out into groups and turn all of our proposed solutions into projects. We used Github, a tool everyone already knows and uses for project tracking, to hold most of the information.
 
-Each group was asked to write briefs similar to what we use for our Product projects and create implementation plans on how we would approach it. Lastly, owners were assigned to each step of their plans and we track progress similar to how we track progress with other projects in the company.
+Each group was asked to write briefs similar to what we use for our Product projects and create implementation plans on how we would approach it. Lastly, owners were assigned to each step of their plans. This is very similar to how most of us track progress in other projects.
 
 <hr class="small">
 
 ## Final Thoughts
 
-One big thing which was identified though, through this process, was that our Designers felt guilty for working on these sorts of projects instead of their “work.” While we consider this part of their work too, once they're in the weeds it feels a lot different.
+One big thing which was identified through this process, was that our Designers felt guilty for working on these sorts of projects instead of their “work.” While _we_ considered this part of their work too, once they're in the weeds it feels a lot different.
 
-As a leadership team, we’d our individual Designer workloads to be at 80% capacity. As a result of this, I myself have resourced a good chunk of my next few weeks (and weeks since then) to increasing recruiting efforts in order to achieve the balance we want to see for our team. 
+We’d like our individual Designer workloads to be at 80% capacity. As a result of this retrospective and to help us achieve balance, I myself have resourced a good chunk of my next few weeks (and weeks since then) to increasing recruiting efforts. 
 
 We are still working through this together and expect to follow up soon on our results through another retrospective to keep us all accountable for making the team better. I'm incredibly excited for the future of this team.
 
@@ -132,5 +130,5 @@ _P.S. If you’re looking for a team who is impressive on many levels and has no
 <div class="fieldnotes">
     <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Charles Duhigg, <a href="https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html" class="external" target="_blank">&#8220;<span class="external-body"><em>What Google Learned From Its Quest to Build the Perfect Team</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2/25/2016</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Comprised of <a href="https://www.twitter.com/tranhelen" class="external" target="_blank"><span class="external-body">me</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, <a href="https://twitter.com/darrinhenein" class="external" target="_blank"><span class="external-body">Darrin</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, and <a href="https://twitter.com/ilialarionov" class="external" target="_blank"><span class="external-body">Ilia</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> At Shopify Toronto, the Product Design leadership team is comprised of <a href="https://www.twitter.com/tranhelen" class="external" target="_blank"><span class="external-body">me</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, <a href="https://twitter.com/darrinhenein" class="external" target="_blank"><span class="external-body">Darrin</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, and <a href="https://twitter.com/ilialarionov" class="external" target="_blank"><span class="external-body">Ilia</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>
