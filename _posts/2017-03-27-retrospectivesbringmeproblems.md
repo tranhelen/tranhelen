@@ -38,7 +38,7 @@ The goals of a retrospective:
 
 ### Preparing for it
 
-Finding the time to run an exercise like this with everyone in the room _is_ a bit difficult. We are cognizant of the amount of time this takes away from this many people so the leadership team narrowed down our target areas to six. There are many more spectrums that affect a team but we had to start somewhere:
+Finding the time to run an exercise like this with everyone in the room _is_ a bit difficult. We are cognizant of the amount of time this takes away from this many people so the leadership team narrowed down our target areas to five. There are many more spectrums that affect a team but we had to start somewhere:
 
 - **Product** - How do you feel about what we launch? Are you proud of what we ship? How are the processes we use doing? Are we missing anything?
 - **Culture** - Are you supported at work? Are the activities that you do on a weekly basis sufficient and/or meet the goals of the exercise? Do you think the Design team works collaboratively with each other?
