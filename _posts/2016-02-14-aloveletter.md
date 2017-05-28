@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: A Love Letter
-category: [blog, design]
-slug: a-love-letter
+date: 2016-02-14 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 Almost exactly a year ago Louis C.K. sent a letter to his fans detailing his career in stand-up. He talked about what it was like when he was growing up and the comedy clubs which defined and guided his career. It was a love letter.
 
 I have received a lot of attention for the previous layout I had.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> I wasn't expecting it at all and was surprised when it launched to the amount of attention it received. As the months passed, I began to really resent it. I've been thinking a lot about my career building on the internet and how privileged I feel to have been able to witness it grow and how much this website didn't reflect that at all. Where were my roots?

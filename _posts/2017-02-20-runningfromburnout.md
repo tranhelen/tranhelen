@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Running from Burnout
-category: [blog, tech]
-slug: running-from-burnout
+date: 2017-02-20 00:00:00 Z
+categories:
+- blog
+- tech
+layout: subpage
 ---
+
 Five years ago I burned out spectacularly. It was emotionally overwhelming and it's all-consuming nature made me useless at work. Since then I've guarded my life aggressively to ensure it never happens again. These are the things that have helped:
 
 **Exercise and meditation**  

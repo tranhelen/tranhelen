@@ -1,11 +1,14 @@
 ---
-layout: subpage
 title: You've Graduated... Part Two
-category: [blog, design]
-slug: youve-graduated-2
-redirect_from: 
- - /ive-graduated-now-what-2
+date: 2016-10-03 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
+redirect_from:
+- "/ive-graduated-now-what-2"
 ---
+
 *This is part two of four in my graduation series which I started last week. If you haven't already, <a href="http://helentran.com/youve-graduated-1">read the first one before continuing onwards.</a>*
 
 After you have a rhythm on how you're going to get better at your job, you can should decide what type of Designer you are and have a laser focus on the type of job you want.

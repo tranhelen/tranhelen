@@ -1,9 +1,10 @@
 ---
-layout: subpage
 title: The Future of UI and the Dream of the &rsquo;90s
-category: [blog, design]
-slug: the-future-of-UI-and-the-dream-of-the-90s
-
+date: 2014-01-18 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 hero: 01-01hero.jpg
 hero_caption: Minority Report (2002)
 ---

@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Nearly Everything's Changed
-category: [blog, management]
-slug: nearly-everythings-changed
+date: 2017-02-05 00:00:00 Z
+categories:
+- blog
+- management
+layout: subpage
 ---
+
 High-growth companies are not for those who love stability. Those caught in the growth spurt rarely have time to reflect and I have been victim to this hurried state as well. I don’t think I take enough note of what’s going on.
 
 It's been a short period of time and the company has added an additional zero to the employee count since I've joined. With this, I've had to start a Design practice within a larger one and keep it stable whilst the company continued to grow around us.

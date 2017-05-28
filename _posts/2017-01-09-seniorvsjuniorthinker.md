@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Senior vs. Junior Thinker
-category: [blog, design]
-slug: senior-vs-junior-thinker
+date: 2017-01-09 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 Design is a long education in how to critically think about a problem. The difference between a Junior and Senior is rarely ever about the craft or practical skill-set; likely the easiest comparison but very rarely the right one to make when assessing effectiveness.
 
 If we zero in on the strongest skill any Designer should have, critical thinking, the difference between "_classes_" becomes very clear.

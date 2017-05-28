@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Nurturing the Novice
-category: [blog, creative]
-slug: nurturing-the-novice
+date: 2017-02-27 00:00:00 Z
+categories:
+- blog
+- creative
+layout: subpage
 ---
+
 A novice's output is really special. Not only are they creating during a time of little pressure, they output an extraordinary amount of energy that others rarely match. When nurtured with frequent and positive feedback loops, this period can be a great contributor to creative fulfillment.
 
 > The purpose of art is washing the dust of daily life off our souls. - Picasso

@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Privilege
-category: [blog, life]
-slug: privilege
+date: 2016-10-24 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 “Sometimes I would go to school and my friends would be missing their limbs,” said my mother, recounting Vietnam before they left. 34 years ago, they got on a boat to leave the bomb-riddled fields of Vietnam and found themselves in a refuge camp in the Philippines. While there, my mother gave birth to my brother and lost almost all her teeth in the pregnancy from lack of nutrition. They raised him on rice milk boiled from their rations.
 
 After roughly a year, some countries granted their group of refugees the option to immigrate to build lives elsewhere. Australia took the majority of my extended family but reached their quota before my parents arrived. My parents found a sponsorship through a priest, Father Day, in Canada so they immigrated here without their extended network.

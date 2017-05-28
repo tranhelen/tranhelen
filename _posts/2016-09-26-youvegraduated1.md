@@ -1,11 +1,14 @@
 ---
-layout: subpage
 title: You've Graduated... Part One
-category: [blog, design]
-slug: youve-graduated-1
-redirect_from: 
- - /ive-graduated-now-what-1
+date: 2016-09-26 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
+redirect_from:
+- "/ive-graduated-now-what-1"
 ---
+
 *I did a talk at Bitmaker in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*
 
 There are four things any particular junior should be concerned about: getting better at their craft, deciding what to do with the job market, preparing themselves and their portfolio, and understanding the environment once you have a position.

@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Validation
-category: [blog, design]
-slug: validation
+date: 2016-08-22 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 College was a little competitive for me. A classmate would hand in an assignment, we would both receive our marks, and I would silently vow to *never be shamed again*. Three assignments into this cycle and the outliers were clear. There are just some people who appeared to be *naturally talented* at design. But things weren't locked in stone: I was going to draw the shit out of the next asssignment. Misplaced priorities. It's college, that happens.
 
 One of the favoured professors in my first year gave us an assignment about white space. We were given six square templates and each student was assigned two nouns. We were to combine the two objects in such a way that the white space between them illustrated a different concept. It didn't have to be any particular concept but it had to be understood by a third party.

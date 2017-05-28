@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: The Night I Met &ldquo;Hate&rdquo;
-category: [blog, life]
-slug: the-night-i-met-hate
+date: 2015-09-11 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 My life generally has been pretty positive. I was raised by two parents whose commitment to their partnership is nothing short of a miracle. My family was incredibly supportive, the majority of my childhood was happy and my growing years passed by without many negative experiences. In general, I have been very lucky.
 
 It was only last year, at the age of 25, when I met *Hate*.

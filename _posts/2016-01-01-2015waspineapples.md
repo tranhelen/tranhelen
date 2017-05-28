@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: 2015 was Pineapples
-category: [blog, life]
-slug: 2015-was-pineapples
+date: 2016-01-01 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 1. Vulnerability is your greatest strength.
 2. Hate is not negative.
 3. Social validation is not a good motivator.

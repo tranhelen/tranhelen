@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Scheduling Posts with Jekyll and Github Pages
-category: [blog, website]
-slug: scheduling-posts
+date: 2016-10-27 00:00:00 Z
+categories:
+- blog
+- website
+layout: subpage
 ---
+
 My website is built on Jekyll and Github Pages. Jekyll allows you to assign a date of publication on a post but Github Pages won't automatically push this post on that date for you. I have been wishing for ways to publish my editorial schedule without babysitting. I ran into a post<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> which promised what I was looking for but it didn't quite work for my requirements:
 
 - My posts need to be stashed somewhere that can be accessed remotely in case I need to do last minute edits.

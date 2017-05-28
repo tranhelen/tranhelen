@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Real and Imagined Boundaries
-category: [blog, life]
-slug: real-and-imagined-boundaries
+date: 2016-09-19 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 The light shining into the room outlined a silhouette of the familiar short-*ish* man. He faced away from me looking out towards the city with his arms clasped behind his back. I was sitting at a long boardroom table, behind him, at a seat chosen out of reservation&mdash;not too far, not too close. I was told to come here, instead of our office, into a tall glossy building which reeked of excessive wealth.
 
 He started, “You see the world like I do.” *I do?* “You see the world… without boundaries.” *Oh, geez.*<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>

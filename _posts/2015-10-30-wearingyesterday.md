@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Wearing Yesterday
-category: [blog, tech]
-slug: wearing-yesterday
+date: 2015-10-30 00:00:00 Z
+categories:
+- blog
+- tech
+layout: subpage
 ---
+
 There has been much talk about the Law of Accelerating Returns recently in the context of artificial intelligence especially since the likes of Elon Musk, Bill Gates and Stephen Hawking are calling for restraint in the industry.
 
 The LoAR presents an interesting problem to product designers thinking about the long-term visions of their digital and physical products.

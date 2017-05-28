@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: What Do You Think?
-category: [blog, creative]
-slug: what-do-you-think
+date: 2016-11-21 00:00:00 Z
+categories:
+- blog
+- creative
+layout: subpage
 ---
+
 Everyone has been gifted a unique experience but not everyone cultivates what they _think_ about it. It's not that you have nothing to write about, it's that the skill of forming an opinion about your observations is undeveloped.
 
 One of the best things I've learned about how to write was how to identify what I believe. My Second City class focused on writing satire and you cannot write satire without forming an opinion. With these techniques I was able to identify easily what I *could* write about and have since applied it to essay writing.

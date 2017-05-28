@@ -1,8 +1,10 @@
 ---
-layout: subpage
 title: Dealing with Feedback
-category: [blog, design]
-slug: dealing-with-feedback
+date: 2016-08-15 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
 
 A few months ago <a href="https://twitter.com/AdaptivePath" class="external" target="_blank">&#8220;<span class="external-body"><em>Adaptive Path</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> wrote an article called <a href="https://medium.com/@adaptivepath/the-do-s-and-don-ts-of-managing-designers-90736ac7608b#.yu7vb4t3f" class="external" target="_blank">&#8220;<span class="external-body"><em>The Do's and Don'ts of Managing Designers</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>. Some of the most liked retweets of this article from the Design community highlighted these sentences,

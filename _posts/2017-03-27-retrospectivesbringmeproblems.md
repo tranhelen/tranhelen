@@ -1,9 +1,10 @@
 ---
-layout: subpage
 title: Retrospectives&colon; Bring Me Only Problems
-category: [blog, design]
-slug: retrospectives-bring-me-problems
-
+date: 2017-03-27 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 hero: 82-01.jpg
 ---
 

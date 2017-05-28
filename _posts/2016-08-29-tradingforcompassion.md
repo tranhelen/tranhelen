@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Trading for Compassion
-category: [blog, design]
-slug: trading-for-compassion
+date: 2016-08-29 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 I attended <a href="https://2016.theconference.se/" class="external" target="_blank"><span class="external-body">The Conference</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> this year on a recommendation about it being a little bit different than most conferences. I'll admit that many conferences these days put me to sleep. Thankfully this experience was much more exciting, and I want to plug this particular talk by <a href="https://twitter.com/triciawang" class="external" target="_blank"><span class="external-body">Tricia Wang</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> called, <a href="http://videos.theconference.se/dont-trust-the-truth" class="external" target="_blank">&#8220;<span class="external-body"><em>Don't Trust the Truth!</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> Watch it and then come back to me.
 
 <hr class="small">

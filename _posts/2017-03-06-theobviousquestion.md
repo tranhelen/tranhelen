@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: The Obvious Question
-category: [blog, tech]
-slug: the-obvious-question
+date: 2017-03-06 00:00:00 Z
+categories:
+- blog
+- tech
+layout: subpage
 ---
+
 *I wrote this to answer a question I get pretty often. I tried for many years to side-step the conversation but I won't be doing that anymore. In light of what's been happening recently with Uber, I documented my current thoughts about the industry.*
 
 <hr class="small">

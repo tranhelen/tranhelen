@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Everything&rsquo;s Great
-category: [blog, life]
-slug: everythings-great
+date: 2016-04-28 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 "The Big Short" was a film released last year covering the collapse of the housing market and unearthing the apathy behind some of the most fraudulent loans ever created. The movie (perhaps excessively) makes mention of optimism and cynicism as driving forces behind the main actions of the characters. It's hard to criticize it for making this claim, as we know from the aftermath of the collapse there were many signs of a collapsing market but nobody pointed it out because it seemed like *everything was going to be okay.*
 
 It's hard not to note that this type of attitude is present in nearly every aspect of life. We're constantly told to *be optimists!* and see the sunnier side of things. It's now an industry making millions (hint: it's a scam) built on a foundation of smiles and good feelings. This commercial push is furthered enhanced by our increased usage of curated social media. As social creatures we can't help but compare ourselves to each other.

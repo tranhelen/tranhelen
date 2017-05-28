@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Beauty in the Immeasurables
-category: [blog, life]
-slug: beauty-in-the-immeasurables
+date: 2016-08-01 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 A couple of years ago, my best friend and I went on a road trip from Paris, to Grenoble, down the eastern edge of France, and then along the southern coast. Every town or city we passed had a beautifully landscaped place for people to sit around a river or a stream. When I visited Japan, I encountered the same commitment. Commmitments to the immeasurable.
 
 I have been thinking about art and expression and where Design fits into it for the better part of a [year](http://helentran.com/design-as-art) now. As I mature, I seek to find creatively satisfying things inside of our industry to maintain my career longevity (yes, this is something I worry about often). Many people end up in Design because they had prided themselves on being creative. In the narrative we&rsquo;ve been furiously selling of being *problem solvers*, the creative inside gets lost. 

@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Paying Attention
-category: [blog, management]
-slug: paying-attention
+date: 2016-07-04 00:00:00 Z
+categories:
+- blog
+- management
+layout: subpage
 ---
+
 A few pages in and my body is softening to comform to the edges of the couch I&rsquo;m sitting in.  
 One chapter in and my eyes are getting wider.  
 A few chapters in and Rands drops two words in the middle of a sentence in a chapter which has not much to do with these two words: **incrementalists** and **completionists**.

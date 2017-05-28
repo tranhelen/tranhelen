@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Let&rsquo;s Talk Money
-category: [blog, life]
-slug: lets-talk-money
+date: 2015-08-13 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 We're going to talk about money.
 
 Here are some numbers: A business charges $2500/student. There are 25 students per cohort every three months for 12 classes. Instructors are offered $25-$45/hr. They take home about 1% - 4% of the revenue from each cohort.

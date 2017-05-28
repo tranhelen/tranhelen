@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: 7 Writing Tips
-category: [blog, creative]
-slug: 7-writing-tips
+date: 2016-11-28 00:00:00 Z
+categories:
+- blog
+- creative
+layout: subpage
 ---
+
 I have collected some rules which has improved my writing dramatically over the past year.
 
 **Remove the drama.** Internet articles are riddled with hard paragraph breaks to dramatize sentences in lieu of a thesis. See what happens to your article if you simply deleted them.

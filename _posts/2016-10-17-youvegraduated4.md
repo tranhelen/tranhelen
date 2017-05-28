@@ -1,11 +1,14 @@
 ---
-layout: subpage
 title: You've Graduated... Part Four
-category: [blog, design]
-slug: youve-graduated-4
-redirect_from: 
- - /ive-graduated-now-what-4
+date: 2016-10-17 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
+redirect_from:
+- "/ive-graduated-now-what-4"
 ---
+
 *This is the last part of my four-part graduation series which I started earlier this month. If you haven't already, read the [first](http://helentran.com/ive-graduated-now-what-1), [second](http://helentran.com/ive-graduated-now-what-2), and [third](http://helentran.com/ive-graduated-now-what-3) parts.*
 
 By this time you should have a good understanding of what you should be doing and what most people are looking for out of a junior Designer. I'm going to describe what you should be expecting when you arrive at your first job and what to do for the first couple of weeks.

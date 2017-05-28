@@ -1,9 +1,23 @@
-exclude: 	['README.md', 'config.rb', 'sass']
+---
+title: Tranhelen.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+exclude:
+- README.md
+- config.rb
+- sass
 name: Helen Tran; Product Designer
-description: Helen Tran is a Product Designer working at Shopify. She blogs about her life, technology, management and design.
+description: Helen Tran is a Product Designer working at Shopify. She blogs about
+  her life, technology, management and design.
 url: http://helentran.com
-gems: 
-  - jekyll-feed
-  - jekyll-redirect-from
-permalink: /:title
+gems:
+- jekyll-feed
+- jekyll-redirect-from
+permalink: "/:title"
 future: true

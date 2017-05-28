@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Carving a Life
-category: [blog, life]
-slug: carving-a-life
+date: 2016-12-05 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 <blockquote class="large">
 	<p>What do you desire? What makes you itch? What sort of a situation would you like? [...] So I always ask the question, what would you like to do if money were no object? How would you really enjoy spending your life?
 	<br>– Alan Watts<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a></p>

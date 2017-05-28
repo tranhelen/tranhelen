@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Two Habits that Changed my Career
-category: [blog, design]
-slug: two-habits
+date: 2017-04-10 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 It's the small things that make big waves. I have two habits I've picked up over the years which I can attribute a large part of my productive periods to: taking notes and closing feedback loops.
 
 ## Taking Notes

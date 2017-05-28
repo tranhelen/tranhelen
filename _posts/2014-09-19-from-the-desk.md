@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: From the Desk of the Politely Angry
-category: [blog, tech]
-slug: from-the-desk-of-the-politely-angry
+date: 2014-09-19 00:00:00 Z
+categories:
+- blog
+- tech
+layout: subpage
 ---
+
 I sat in the audience while someone stood in front of me using sex and women as punchlines in his talk. Throughout the hour, he flashed hentai images, a gif of a monkey masturbating, and stopped scrubbing a video on a frame of a woman to remark, “Nice rack.” All this while littering his talk with dick jokes and an explanation of a conceptual video which centered around the idea of the domination of a woman. To my astonishment, his talk was punctuated by the sound of laughter from a handful of people in the audience.
 
 I did nothing. I sat there and gave him my time and attention. When he finished, I filed out of the theatre with the other conference attendees and tried to sort through my thoughts amongst the many praises I overheard, “Wow, he was amazing!” I stood waiting for my colleagues and did not say much until someone confirmed what had happened. I had not imagined it. What I saw was the status quo of the industry standing so triumphantly on stage masked under the pretense of talent.

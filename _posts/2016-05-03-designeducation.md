@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: The State of Design Education
-category: [blog, design]
-slug: the-state-of-design-education
+date: 2016-05-03 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 I've been focusing a lot lately on the education of non-Designers wanting to be Designers, new Designers, transitioning Designers and old creaky Designers. Mostly, the problem is there isn't any education. Compounded, the field is so new mature Product Design practices don't really exist so we're all kind of heading into a dark cave but at least we're holding hands.
 
 ## Formal education

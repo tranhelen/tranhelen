@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: You Won't Believe How Wrong You Are About Being Wrong
-category: [blog, life]
-slug: wrongness
+date: 2017-04-17 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 There are beliefs you hold onto for dear life (like the belief in a higher being) and inconsequential opinions (like whether or not pineapple belongs on pizza (it does, you heathen)). We tend to hold these beliefs in high-esteem, identifying with them and protecting them when other internet users tell us how wrong we are.
 
 This could be somewhat harmless as these beliefs are malleable, but, what if a fundamental belief held by generally everyone was challenged? What if someone challenged _gravity_? How would that change how you think?

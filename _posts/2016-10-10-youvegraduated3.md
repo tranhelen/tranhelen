@@ -1,11 +1,14 @@
 ---
-layout: subpage
 title: You've Graduated... Part Three
-category: [blog, design]
-slug: youve-graduated-3
-redirect_from: 
- - /ive-graduated-now-what-3
+date: 2016-10-10 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
+redirect_from:
+- "/ive-graduated-now-what-3"
 ---
+
 *This is part three of four in my graduation series which I started last week. If you haven't already, read the <a href="http://helentran.com/ive-graduated-now-what-1">first</a> and <a href="http://helentran.com/ive-graduated-now-what-2">second</a> parts.*
 
 I'm going to go over what you should be putting into your portfolio, how to brand yourself online, what to do in the interviewing process, or how to ignore all this and start freelancing.

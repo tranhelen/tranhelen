@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Social Guilt Bracelets
-category: [blog, design]
-slug: social-guilt-bracelets
+date: 2017-02-13 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 "_Tech is well-intended but not explicitly moral._" I grimaced as I wrote this sentence down during a talk by Evan Sharp, co-founder of Pinterest, last Friday. I've been thinking about this a lot lately. Coincidentally, so have quite a few other people at source.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
 
 <hr class="small">

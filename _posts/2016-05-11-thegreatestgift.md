@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: His Greatest Gift
-category: [blog, life]
-slug: his-greatest-gift
+date: 2016-05-11 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 "I have nothing to give you," was one of the last things he said to me. We were standing in his hospital room and it had been about eight years since I had last seen him. He was unfamiliar to me having spent the majority of my life without him around but my usually quite shielded heart broke a little upon hearing those words. 
 
 "What are you going to give her? You're broke," joked my Grandma, our family's signature sense of humour poking through the awkwardness. My parents laughed and I felt myself pulling the corners of my mouth back to feign a smile. By that point, I had already recoiled from what he had said and built up my stone walls.

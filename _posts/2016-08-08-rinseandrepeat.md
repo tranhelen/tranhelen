@@ -1,8 +1,10 @@
 ---
-layout: subpage-custom
 title: Rinse and Repeat
-category: [blog, design]
-slug: rinse-and-repeat
+date: 2016-08-08 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage-custom
 ---
 
 <div class="grid grid--full">

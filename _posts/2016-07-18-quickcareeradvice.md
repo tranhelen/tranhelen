@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Quick Career Advice
-category: [blog, design]
-slug: career-advice
+date: 2016-07-18 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 1. **Make yourself indispensable to people who aren't designers.**  
 Developers and entrepreneurs have been my soft-spot, but you can pick another ally. Your understanding of another person's field can only get you closer to releasing what you envision.
 2. **Understand the difference between craft and service.**  

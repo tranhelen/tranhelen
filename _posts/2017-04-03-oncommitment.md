@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: On Commitment
-category: [blog, design]
-slug: on-commitment
+date: 2017-04-03 00:00:00 Z
+categories:
+- blog
+- design
+layout: subpage
 ---
+
 The biggest lessons I've ever learned were from periods of extended commitment. Our available choices now send us into paralysis and it's hard to choose which direction to go in. I'd argue that it doesn't really matter which direction-as long as you fully commit to it.
 
 I've been given a lot of bad advice in my life and one of them is, "be sure this is what you want." While it _sounds_ smart, I have found I have changed for the better after committing to "unsure" situations. While I don't take uncalculated risk, I do accept that I _have_ to accept a certain degree of uncertainty.

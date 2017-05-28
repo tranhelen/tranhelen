@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: An Open Letter to Fem-Designers-in-Tech
-category: [blog, tech]
-slug: an-open-letter
+date: 2017-03-20 00:00:00 Z
+categories:
+- blog
+- tech
+layout: subpage
 ---
+
 Dear Ladies,
 
 Sandberg's book sucks. Let's just start there. The industry is unfair and the odds are stacked against you. Asking you to over-deliver while the industry is under-delivering reeks of privilege and undermines your contribution. 

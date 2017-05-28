@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Erasing Passion
-category: [blog, life]
-slug: erasing-passion
+date: 2016-09-12 00:00:00 Z
+categories:
+- blog
+- life
+layout: subpage
 ---
+
 A sharp breath escaped me as the needle hit my spine again. My tattoo artist asked, "You alright?" to which I nodded slowly. I was trying not to let on that I had stopped breathing normally. Tattoos hadn't hurt me before, but as the gun passed over my spine for the third time I couldn't help but wince.
 
 Sometime within the hormonal ebbs and flows of my 17th year of life, I decided that I was going to tattoo the word *passion* on my back. (Awful choice.) Typeset in Bauhaus. (Even worse choice.) And it was going to be bold. (JFC.) I was sure I had picked something that would mean something to me in the future. Unfortunately, for the next ten years I would have a confusing relationship with the word *passion*.

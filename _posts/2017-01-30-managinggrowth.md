@@ -1,9 +1,12 @@
 ---
-layout: subpage
 title: Managing Growth
-category: [blog, management]
-slug: managing-growth
+date: 2017-01-30 00:00:00 Z
+categories:
+- blog
+- management
+layout: subpage
 ---
+
 Growth is my job. Well, management is my job, but growth is mostly what I think about. I'm tasked to care for the growth of the company/product, the growth of my discipline in the company/industry-wide, and, my favourite, the growth of my reports.
 
 The management team I'm a part of (us three amigos; Darrin Henein, Ilia Larionov, and I)<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> stress to our reports the importance of continued growth. We hire them for their talent, but we expect them to change drastically and frequently.
