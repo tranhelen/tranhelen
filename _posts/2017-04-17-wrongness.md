@@ -1,5 +1,5 @@
 ---
-title: You Won't Believe How Wrong You Are About Being Wrong
+title: Being Wrong
 date: 2017-04-17 00:00:00 Z
 categories:
 - blog
