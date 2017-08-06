@@ -1,6 +1,6 @@
 ---
 title: Being Wrong
-date: 2017-04-17 00:00:00 Z
+date: 2017-04-16 20:00:00 -04:00
 categories:
 - blog
 - life
