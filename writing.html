@@ -24,26 +24,8 @@ layout: subpage
 	<a href="blog.html">Full archive</a>
 </div>
 
-<div class="container">
-	<h2>Latest in design</h2>
-
-	{% for post in site.categories.design limit:4  %}
-
-    <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.categories | last }}">
-		<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		<p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
-	</div>
-
-	{% endfor %}
-
-	<a href="writing-archives.html">Full archive</a>
-</div>
+{% include article-list-design.html %}
 
 {% include article-list-popular.html %}
 
-<div class="container">
-	<h2>By topic</h2>
-	
-	<p>View all in one category: <a href="writing-category-design.html">Design</a>, <a href="writing-category-leadership.html">Leadership</a>, <a href="writing-category-tech.html">Tech</a>, <a href="writing-category-life.html">Life</a>, <a href="writing-category-creative.html">Creative</a>, <a href="writing-category-website.html">Website</a></p>
-</div>
+{% include article-list-topic.html %}

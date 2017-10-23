@@ -1,0 +1,13 @@
+<div class="container">
+	<h2>Latest in design</h2>
+
+	{% for post in site.categories.design limit:4  %}
+
+    <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.categories | last }}">
+		<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+		<p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+	</div>
+
+	{% endfor %}
+</div>

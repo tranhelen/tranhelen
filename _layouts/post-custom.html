@@ -4,14 +4,19 @@
 
       {% include navigation.html %}
 
+      <h5>{{ page.date | date:'%B %-d, %Y' }}</h5>
+      <p>Categorized under '<a href="writing-category-{{ page.categories | last }}.html">{{ page.categories | last }}</a>'</p>
+
       <div class="subpage-body">
         {% include post-header.html %}
 
         {{ content }}
       </div>
     
-    {% include toc.html %}
+    {% include article-list-design.html %}
 
-    {% include mailinglist.html %}
+    {% include article-list-popular.html %}
+
+    {% include article-list-topic.html %}
 
     {% include footer.html %}
