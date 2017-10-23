@@ -21,15 +21,24 @@ layout: default
 		</div>
 	</div>
 	<div class="container">
-		<div class="grid">
-			<div class="grid__item">
+		<div>
+			<div>
 				<a href="https://www.instagram.com/p/BPdgNfojDsz/?taken-by=tranhelen"><img src="img/aboutpatagonia.jpg" alt="120km, the 'O' Circuit in Patagonia"></a>
+				<figcaption>
+					<p>12/2016–Thru-hiked the 'O' in Patagonia (130km)</p>
+				</caption>
 			</div>
-			<div class="grid__item">
+			<div>
 				<a href="https://www.instagram.com/p/BXKKgfRg1s7/?taken-by=helentranfit"><img src="https://instagram.fyyz1-1.fna.fbcdn.net/t51.2885-15/e35/20398786_1866926349988635_5121800684332646400_n.jpg" alt="My trainer @chinothenatural competed..."></a>
+				<figcaption>
+					<p>7/2017–Placed 2nd in my first fitness competition, now qualified provincially
+				</caption>
 			</div>
-			<div class="grid__item">
+			<div>
 				<a href="https://www.instagram.com/p/BYvXQJCDptr/?taken-by=tranhelen"><img src="https://instagram.fyyz1-1.fna.fbcdn.net/t51.2885-15/e35/21435848_482127345490467_5371829976381259776_n.jpg" alt="NAILED IT..."></a>
+				<figcaption>
+					<p>9/2017–Thru-hiked the 'Kungsleden' in Sweden (430km)</p>
+				</caption>
 			</div>
 		</div>
 	</div>
@@ -54,30 +63,26 @@ layout: default
 
 <section>
 	<div class="container">
-		<div class="grid grid--full">
+		<h2>work</h2>
+		<p>These case studies were chosen for their breadth and depth. Meaty problems are the most fun.</p>
+		<p>I'm open to select projects as a collaborator or freelancer. <a href="http://twitter.com/tranhelen">DM me.</a></p>
 
-			<h2>work</h2>
-			<p>These case studies were chosen for their breadth and depth. Meaty problems are the most fun.</p>
-			<p>I'm open to select projects as a collaborator or freelancer. <a href="http://twitter.com/tranhelen">DM me.</a></p>
+		<div class="case-study">
+			<img src="img/casestudy01.jpg" alt="Shopify designers at a Retrospective" />
+			<a href="case/designpractice.html"><h4>Building a Design Practice from the Ground Up</h4></a>
+			<p>How we grew a team to 30 Designers</p>
+		</div>
 
-			<div class="case-study">
-				<img src="img/casestudy01.jpg" alt="Shopify designers at a Retrospective" />
-				<a href="case/designpractice.html"><h4>Building a Design Practice from the Ground Up</h4></a>
-				<p>How we grew a team to 30 Designers</p>
-			</div>
+		<div class="case-study">
+			<img src="img/casestudy02.jpg" alt="Illustration of building blocks" />
+			<a href="case/internships.html"><h4>A Different Way to Run Internships</h4></a>
+			<p>Applying design process to management</p>
+		</div>
 
-			<div class="case-study">
-				<img src="img/casestudy02.jpg" alt="Illustration of building blocks" />
-				<a href="case/internships.html"><h4>A Different Way to Run Internships</h4></a>
-				<p>Applying design process to management</p>
-			</div>
-
-			<div class="case-study">
-				<img src="img/casestudy03.jpg" alt="Screenshot of Shopify Platform product" />
-				<a href="case/shopifyplatform.html"><h4>Feature Product to Platform Product</h4></a>
-				<p>How we evolved our developer ecosystem</p>
-			</div>
-
+		<div class="case-study">
+			<img src="img/casestudy03.jpg" alt="Screenshot of Shopify Platform product" />
+			<a href="case/shopifyplatform.html"><h4>Feature Product to Platform Product</h4></a>
+			<p>How we evolved our developer ecosystem</p>
 		</div>
 	</div>
 </section>
@@ -85,20 +90,13 @@ layout: default
 <section>
 	<div class="container">
 		<h2>writing</h2>
-		<div class="grid grid--full">
 
-			{% for post in site.categories.blog limit:3 %}
-			<div class="grid__item">
-				<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-				<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-				<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 25 }}</p>
-			</div>
-			{% endfor %}
+		{% for post in site.categories.blog limit:3 %}
+			<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+			<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+			<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 25 }}</p>
+		{% endfor %}
 
-			<div class="grid__item">
-				<a href="writing.html">Read all articles</a>
-			</div>
-
-		</div>
+		<a href="writing.html">Read all articles</a>
 	</div>
 </section>

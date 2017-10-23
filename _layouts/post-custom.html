@@ -1,17 +1,15 @@
     {% include header.html %}
 
-    <body class="subpage-custom">
+    <body>
 
       {% include navigation.html %}
 
       <h5>{{ page.date | date:'%B %-d, %Y' }}</h5>
       <p>Categorized under '<a href="writing-category-{{ page.categories | last }}.html">{{ page.categories | last }}</a>'</p>
 
-      <div class="subpage-body">
-        {% include post-header.html %}
+      {% include post-header.html %}
 
-        {{ content }}
-      </div>
+      {{ content }}
     
     {% include article-list-design.html %}
 

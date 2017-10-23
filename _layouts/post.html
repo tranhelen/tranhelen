@@ -7,23 +7,20 @@
       <h5>{{ page.date | date:'%B %-d, %Y' }}</h5>
       <p><i>Categorized under '<a href="writing-category-{{ page.categories | last }}.html">{{ page.categories | last }}</a>'</i></p>
 
-      <div class="subpage-body">
-        {% if page.hero %}
-          <figure class="hero">
-            <img src="/img/post/{{ page.hero }}">
-            {% if page.hero_caption %}
-              <figcaption>{{ page.hero_caption }}</figcaption>
-            {% else %}
-              <p>&nbsp;</p>
-            {% endif %}
-          </figure>
-        {% endif %}
-        
-        {% include post-header.html %}
+      {% if page.hero %}
+        <figure class="hero">
+          <img src="/img/post/{{ page.hero }}">
+          {% if page.hero_caption %}
+            <figcaption>{{ page.hero_caption }}</figcaption>
+          {% else %}
+            <p>&nbsp;</p>
+          {% endif %}
+        </figure>
+      {% endif %}
+      
+      {% include post-header.html %}
 
-        {{ content }}
-
-      </div>
+      {{ content }}
 
       {% include navigation.html %}
     
