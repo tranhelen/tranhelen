@@ -5,13 +5,11 @@ layout: archive
 
 <div class="container">
 	<div class="grid grid--full">
-		<h1>Writing</h1>
-		<h2>On Design, Leadership, and Life as a Creative</h2>
+		<h1>Archive</h1>
+		<h2>All posts categorized as "Tech"</h2>
 	</div>
-</div>
 
-<div class="container">
-	{% for post in site.categories.blog limit:9  %}
+	{% for post in site.categories.tech %}
 
     <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.categories | last }}">
 		<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
@@ -21,13 +19,9 @@ layout: archive
 
 	{% endfor %}
 
-	<a href="blog.html">Full archive</a>
-</div>
+	<h2>Latest posts</h2>
 
-<div class="container">
-	<h2>Latest in design</h2>
-
-	{% for post in site.categories.design limit:4  %}
+	{% for post in site.categories.blog limit:4  %}
 
     <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.categories | last }}">
 		<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
@@ -38,9 +32,7 @@ layout: archive
 	{% endfor %}
 
 	<a href="writing-archives.html">Full archive</a>
-</div>
 
-<div class="container">
 	<h2>Most popular</h2>
 	
 	<p>These are my most popular articles across all channels:</p>
@@ -51,10 +43,8 @@ layout: archive
 		<li><a href=""></a></li>
 		<li><a href=""></a></li>
 	</ul>
-</div>
 
-<div class="container">
 	<h2>By topic</h2>
 	
-	<p>View all in one category: <a href="writing-category-design.html">Design</a>, <a href="writing-category-leadership.html">Leadership</a>, <a href="writing-category-tech.html">Tech</a>, <a href="writing-category-life.html">Life</a>, <a href="writing-category-creative.html">Creative</a>, <a href="writing-category-website.html">Website</a></p>
+	<p>View all in one category: <a href="writing-category-design.html">Design</a>, <a href="writing-category-leadership.html">Leadership</a>, Tech, <a href="writing-category-life.html">Life</a>, <a href="writing-category-creative.html">Creative</a>, <a href="writing-category-website.html">Website</a></p>
 </div>
