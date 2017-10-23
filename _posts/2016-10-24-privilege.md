@@ -4,7 +4,7 @@ date: 2016-10-24 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 “Sometimes I would go to school and my friends would be missing their limbs,” said my mother, recounting Vietnam before they left. 34 years ago, they got on a boat to leave the bomb-riddled fields of Vietnam and found themselves in a refuge camp in the Philippines. While there, my mother gave birth to my brother and lost almost all her teeth in the pregnancy from lack of nutrition. They raised him on rice milk boiled from their rations.

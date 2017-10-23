@@ -4,7 +4,7 @@ date: 2014-12-08 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 hero: 06-01hero.jpg
 hero_caption: Pixar's Short; Geri's Game
 ---

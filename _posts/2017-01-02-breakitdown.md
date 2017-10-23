@@ -4,7 +4,7 @@ date: 2017-01-02 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 When Donald Trump became the president-elect and I spent the following weeks reading about how we got here, I thought about a book I read last year. "*The Systems Bible*" by John Gall<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> has been pivotal in how I look at complex problems, or, what he calls _systems_.

@@ -4,7 +4,7 @@ date: 2015-08-13 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 We're going to talk about money.

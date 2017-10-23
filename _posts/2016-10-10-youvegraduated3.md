@@ -4,7 +4,7 @@ date: 2016-10-10 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 redirect_from:
 - "/ive-graduated-now-what-3"
 ---

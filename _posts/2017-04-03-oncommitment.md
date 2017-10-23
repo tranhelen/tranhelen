@@ -4,7 +4,7 @@ date: 2017-04-03 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 The biggest lessons I've ever learned were from periods of extended commitment. Our available choices now send us into paralysis and it's hard to choose which direction to go in. I'd argue that it doesn't really matter which direction-as long as you fully commit to it.

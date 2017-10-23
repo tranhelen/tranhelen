@@ -4,7 +4,7 @@ date: 2016-07-11 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 When the internet was mostly words there was a blog called 665. For 665 days, it&rsquo;s creator wrote 665 posts. The posts were mostly nonsense and as far as anyone knew, you were the only one reading it. It was *your* 665 days following this unidentified man through his life.

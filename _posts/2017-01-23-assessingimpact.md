@@ -4,7 +4,7 @@ date: 2017-01-23 00:00:00 Z
 categories:
 - blog
 - management
-layout: subpage
+layout: post
 ---
 
 As a company scales a Design team cannot afford to function any longer on an ad-hoc basis. Many things get lost within rapid growth of a company-even the expectations you hold of your peers in your own discipline.

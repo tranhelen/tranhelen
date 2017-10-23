@@ -4,7 +4,7 @@ date: 2016-03-15 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 Six years ago, I flew to Australia for the second time to visit my grandparents and relatives. I don't get to see them much so occasionally I meet people I'm related to and have no idea how. During this particular trip, I met my cousin's daughter, who decided the moment she met me that I was the sunshine of her life. We were in a relationship.

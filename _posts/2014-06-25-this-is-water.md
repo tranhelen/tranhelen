@@ -4,7 +4,7 @@ date: 2014-06-25 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 David Foster Wallace’s commencement speech for Kenyon graduates in 2005 opens with a parable,

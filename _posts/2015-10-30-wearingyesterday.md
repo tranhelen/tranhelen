@@ -4,7 +4,7 @@ date: 2015-10-30 00:00:00 Z
 categories:
 - blog
 - tech
-layout: subpage
+layout: post
 ---
 
 There has been much talk about the Law of Accelerating Returns recently in the context of artificial intelligence especially since the likes of Elon Musk, Bill Gates and Stephen Hawking are calling for restraint in the industry.

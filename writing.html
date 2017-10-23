@@ -1,6 +1,6 @@
 ---
 title: Writing
-layout: archive
+layout: subpage
 ---
 
 <div class="container">
@@ -16,7 +16,7 @@ layout: archive
     <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.categories | last }}">
 		<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
 		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 25 }}</p>
+		<p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
 	</div>
 
 	{% endfor %}
@@ -32,7 +32,7 @@ layout: archive
     <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.categories | last }}">
 		<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
 		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		<p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 25 }}</p>
+		<p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
 	</div>
 
 	{% endfor %}
@@ -40,18 +40,7 @@ layout: archive
 	<a href="writing-archives.html">Full archive</a>
 </div>
 
-<div class="container">
-	<h2>Most popular</h2>
-	
-	<p>These are my most popular articles across all channels:</p>
-	<ul>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-	</ul>
-</div>
+{% include article-list-popular.html %}
 
 <div class="container">
 	<h2>By topic</h2>

@@ -4,7 +4,7 @@ date: 2017-03-27 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 hero: 82-01.jpg
 ---
 

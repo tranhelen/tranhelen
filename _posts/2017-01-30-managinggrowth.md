@@ -4,7 +4,7 @@ date: 2017-01-30 00:00:00 Z
 categories:
 - blog
 - management
-layout: subpage
+layout: post
 ---
 
 Growth is my job. Well, management is my job, but growth is mostly what I think about. I'm tasked to care for the growth of the company/product, the growth of my discipline in the company/industry-wide, and, my favourite, the growth of my reports.

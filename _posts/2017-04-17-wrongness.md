@@ -4,7 +4,7 @@ date: 2017-04-16 20:00:00 -04:00
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 There are beliefs you hold onto for dear life (like the belief in a higher being) and inconsequential opinions (like whether or not pineapple belongs on pizza (it does, you heathen)). We tend to hold these beliefs in high-esteem, identifying with them and protecting them when other internet users tell us how wrong we are.

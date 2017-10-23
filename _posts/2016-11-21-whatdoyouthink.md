@@ -4,7 +4,7 @@ date: 2016-11-21 00:00:00 Z
 categories:
 - blog
 - creative
-layout: subpage
+layout: post
 ---
 
 Everyone has been gifted a unique experience but not everyone cultivates what they _think_ about it. It's not that you have nothing to write about, it's that the skill of forming an opinion about your observations is undeveloped.

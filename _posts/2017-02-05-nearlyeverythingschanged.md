@@ -4,7 +4,7 @@ date: 2017-02-05 00:00:00 Z
 categories:
 - blog
 - management
-layout: subpage
+layout: post
 ---
 
 High-growth companies are not for those who love stability. Those caught in the growth spurt rarely have time to reflect and I have been victim to this hurried state as well. I don’t think I take enough note of what’s going on.

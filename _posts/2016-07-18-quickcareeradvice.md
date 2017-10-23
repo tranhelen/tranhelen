@@ -4,7 +4,7 @@ date: 2016-07-18 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 1. **Make yourself indispensable to people who aren't designers.**  

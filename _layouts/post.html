@@ -1,0 +1,29 @@
+    {% include header.html %}
+
+    <body>
+
+      {% include navigation.html %}
+
+      <div class="subpage-body">
+        {% if page.hero %}
+          <figure class="hero">
+            <img src="/img/post/{{ page.hero }}">
+            {% if page.hero_caption %}
+              <figcaption>{{ page.hero_caption }}</figcaption>
+            {% else %}
+              <p>&nbsp;</p>
+            {% endif %}
+          </figure>
+        {% endif %}
+        
+        {% include post-header.html %}
+
+        {{ content }}
+
+      </div>
+
+      {% include navigation.html %}
+    
+    </body>
+
+    {% include footer.html %}

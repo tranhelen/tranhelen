@@ -4,7 +4,7 @@ date: 2015-12-07 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 In a press release written in 2012, Gartner said by 2014,<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>

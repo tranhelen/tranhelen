@@ -4,7 +4,7 @@ date: 2016-07-04 00:00:00 Z
 categories:
 - blog
 - management
-layout: subpage
+layout: post
 ---
 
 A few pages in and my body is softening to comform to the edges of the couch I&rsquo;m sitting in.  

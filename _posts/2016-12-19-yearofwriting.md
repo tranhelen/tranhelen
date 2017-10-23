@@ -4,7 +4,7 @@ date: 2016-12-19 00:00:00 Z
 categories:
 - blog
 - creative
-layout: subpage
+layout: post
 ---
 
 This year I passed the threshold of writing down more than 100,000 words. Only a fraction of that was published here and I have been grateful with the thoughtful responses I've received. My goals regarding my writing practice were:
