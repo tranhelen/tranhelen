@@ -2,330 +2,352 @@
     #Homepage
 \*------------------------------------*/
 
-header {
-	padding: 50px 0 $unit;
-}
-
-footer {
-	background-color: $colorBGdark;
-	padding: $unit;
+.backgroundvideo { 
+	display: none;
 
 	@include at-query($one) {
-		text-align: center;
+	    background: url(img/backgroundvideo-backup.jpg) no-repeat;
+	    background-size: cover; 
+	    display: block;
+	    min-width: 100%;
+	    min-height: 100%;
+	    position: fixed;
+	    left: 50%;
+	    top: 50%;
+	    width: auto;
+	    height: auto;
+	    z-index: -100;
+	    -ms-transform: translateX(-50%) translateY(-50%);
+	    -moz-transform: translateX(-50%) translateY(-50%);
+	    -webkit-transform: translateX(-50%) translateY(-50%);
+	    transform: translateX(-50%) translateY(-50%);
 	}
-
-	@include at-query($two) {
-		padding: 50px 0;
-	}
-}
-
-section {
-	padding: 50px 0;
 }
 
 .container {
 	margin: 0 $unit;
-	max-width: 760px;
+	max-width: 730px;
 
-	@include at-query($one) {
-		margin: 0 auto;
-		padding: 0 50px;
-	}
+	// @include at-query($one) {
+	// 	margin: 0 auto;
+	// 	padding: 0 50px;
+	// }
 
-	@include at-query($two) {
-		max-width: 1400px;
-	}
+	// @include at-query($two) {
+	// 	max-width: 1400px;
+	// }
 
-	@include at-query($three) {
-		padding: 0;
-	}
+	// @include at-query($three) {
+	// 	padding: 0;
+	// }
 }
 
-.bio {
-	background: $colorBGdark url('/img/header-background2.jpg');
-	background-size: cover;
-	padding: 60px 0 90px;
-	position: relative;
-	width: 100%;
+// header {
+// 	padding: 50px 0 $unit;
+// }
 
-	&::after{
-	  background: white;
-	  bottom: 0px;
-	  content: '';
-	  height: 70px;
-	  position: absolute;
-	  transform-origin: left bottom;
-	  transform: skewY(4deg);
-	  width: 100%;
-	  z-index: 1;
-	}
+// footer {
+// 	background-color: $colorBGdark;
+// 	padding: $unit;
 
-	@include at-query($two) {
-		background-position: 50% -80px;
-		padding: 100px 0 235px;
+// 	@include at-query($one) {
+// 		text-align: center;
+// 	}
 
-		&::after {
-			height: 200px;
-		}
-	}
-}
+// 	@include at-query($two) {
+// 		padding: 50px 0;
+// 	}
+// }
 
-.bio__content {
-	@include at-query($two) {
-		position: relative;
-		z-index: 2;
-	}
-}
+// section {
+// 	padding: 50px 0;
+// }
 
-.bio__text {
-	@include at-query($two) {
-		position: relative;
-		z-index: 1;
-		width: 50%;		
-		padding-top: 100px;
-	}
-}
+// .bio {
+// 	background: $colorBGdark url('/img/header-background2.jpg');
+// 	background-size: cover;
+// 	padding: 60px 0 90px;
+// 	position: relative;
+// 	width: 100%;
 
-.bio__portrait {
-	position: absolute;
-	background: 50% url('/img/header-portrait2.jpg') no-repeat;
-	background-size: cover;
-	z-index: 1;
-	right: 0;
-	height: 710px;
-	width: 80%;
-}
+// 	&::after{
+// 	  background: white;
+// 	  bottom: 0px;
+// 	  content: '';
+// 	  height: 70px;
+// 	  position: absolute;
+// 	  transform-origin: left bottom;
+// 	  transform: skewY(4deg);
+// 	  width: 100%;
+// 	  z-index: 1;
+// 	}
 
-.homepage-articles {
-	padding-top: 10px;
+// 	@include at-query($two) {
+// 		background-position: 50% -80px;
+// 		padding: 100px 0 235px;
 
-	@include at-query($one) {
-		padding-top: 20px;
-	}
+// 		&::after {
+// 			height: 200px;
+// 		}
+// 	}
+// }
 
-	@include at-query($two) {
-		margin-top: 50px;
-		padding: 0 0 90px;
-		position: relative;
-		z-index: 3;
-	}
-}
+// .bio__content {
+// 	@include at-query($two) {
+// 		position: relative;
+// 		z-index: 2;
+// 	}
+// }
 
-.instagrid {
-	padding: 0;
-	position: relative;
-}
+// .bio__text {
+// 	@include at-query($two) {
+// 		position: relative;
+// 		z-index: 1;
+// 		width: 50%;		
+// 		padding-top: 100px;
+// 	}
+// }
 
-.instagrid__background {
-	background: #fff url('/img/instagrid-background.svg') no-repeat;
-	background-size: cover;
-	background-position: 50%;
+// .bio__portrait {
+// 	position: absolute;
+// 	background: 50% url('/img/header-portrait2.jpg') no-repeat;
+// 	background-size: cover;
+// 	z-index: 1;
+// 	right: 0;
+// 	height: 710px;
+// 	width: 80%;
+// }
 
-	@include at-query($two) {
-		background-position: 0%;
-	}
-}
+// .homepage-articles {
+// 	padding-top: 10px;
 
-.instagrid__content {
-	padding: 60px 0;
+// 	@include at-query($one) {
+// 		padding-top: 20px;
+// 	}
 
-	@include at-query($two) {
-		padding: 0;
-		position: relative;
-	    margin-bottom: 190px;
-	    top: 100px;
-	}
-}
+// 	@include at-query($two) {
+// 		margin-top: 50px;
+// 		padding: 0 0 90px;
+// 		position: relative;
+// 		z-index: 3;
+// 	}
+// }
 
-.instagrid__description {
-	margin-bottom: $unit;
+// .instagrid {
+// 	padding: 0;
+// 	position: relative;
+// }
 
-	@include at-query($two) {
-		float: right;
-		margin: 0;
-	}
-}
+// .instagrid__background {
+// 	background: #fff url('/img/instagrid-background.svg') no-repeat;
+// 	background-size: cover;
+// 	background-position: 50%;
 
-.instagrid__pics {
-	margin: 10px 0 0;
+// 	@include at-query($two) {
+// 		background-position: 0%;
+// 	}
+// }
 
-	@include at-query($two) {
-		margin-top: 18px;
-	}
-}
+// .instagrid__content {
+// 	padding: 60px 0;
 
-.instagrid__separator {
-	clear: both;
-	height: $unit / 3;
+// 	@include at-query($two) {
+// 		padding: 0;
+// 		position: relative;
+// 	    margin-bottom: 190px;
+// 	    top: 100px;
+// 	}
+// }
 
-	@include at-query($two) {
-		display: none;
-	}
-}
+// .instagrid__description {
+// 	margin-bottom: $unit;
 
-.post-listing {
-	padding: $unit 0 ($unit / 3);
+// 	@include at-query($two) {
+// 		float: right;
+// 		margin: 0;
+// 	}
+// }
 
-	.square & {
-		padding: $unit 0 0;
-	}
+// .instagrid__pics {
+// 	margin: 10px 0 0;
 
-	@include at-query($two) {
-		padding: ($unit / 3) 0 0;
+// 	@include at-query($two) {
+// 		margin-top: 18px;
+// 	}
+// }
 
-		.subpage &,
-		.subpage-custom & {
-			padding-top: $unit;
-		}
-	}
-}
+// .instagrid__separator {
+// 	clear: both;
+// 	height: $unit / 3;
 
-.post-listing__single {
-	margin-bottom: $unit;
+// 	@include at-query($two) {
+// 		display: none;
+// 	}
+// }
 
-	&.last {
-		margin-bottom: 0;
-	}
-}
+// .post-listing {
+// 	padding: $unit 0 ($unit / 3);
 
-/*------------------------------------*\
-    #Subpages
-\*------------------------------------*/
+// 	.square & {
+// 		padding: $unit 0 0;
+// 	}
 
-.about {
-	@include at-query($two) {
-		background: $colorBGdark url('/img/about-background2.jpg');
-		background-attachment: fixed;
-		background-position: 50%;
-		background-size: cover;
-	}
-}
+// 	@include at-query($two) {
+// 		padding: ($unit / 3) 0 0;
 
-.archives {
-	@include at-query($two) {
-		background: #fff url("/img/archives-background.jpg") no-repeat;
-	    background-attachment: fixed;
-	    background-position: 50% 500px;
-	    background-size: cover;
-	}	
-}
+// 		.subpage &,
+// 		.subpage-custom & {
+// 			padding-top: $unit;
+// 		}
+// 	}
+// }
 
-.archives__content {
-	@include at-query($two) {
-		padding: 80px 0 40px;
-	}
-}
+// .post-listing__single {
+// 	margin-bottom: $unit;
 
-.archives__filter {
-	margin-top: $unit / 2;
+// 	&.last {
+// 		margin-bottom: 0;
+// 	}
+// }
 
-	@include at-query($two) {
-		margin-top: $unit;
-	}
-}
+// /*------------------------------------*\
+//     #Subpages
+// \*------------------------------------*/
 
-.book-cover {
-	margin-bottom: $unit / 2;
+// .about {
+// 	@include at-query($two) {
+// 		background: $colorBGdark url('/img/about-background2.jpg');
+// 		background-attachment: fixed;
+// 		background-position: 50%;
+// 		background-size: cover;
+// 	}
+// }
 
-	@include at-query($two) {
-		margin: $unit 0;
-	}
-}
+// .archives {
+// 	@include at-query($two) {
+// 		background: #fff url("/img/archives-background.jpg") no-repeat;
+// 	    background-attachment: fixed;
+// 	    background-position: 50% 500px;
+// 	    background-size: cover;
+// 	}	
+// }
 
-.img-border {
-	border: 5px solid #efefef;
-}
+// .archives__content {
+// 	@include at-query($two) {
+// 		padding: 80px 0 40px;
+// 	}
+// }
 
-.mailinglist {
-	@include at-query($two) {
-		background: $colorBGdark url('/img/mailinglist-background.jpg');
-		background-attachment: fixed;
-		background-position: 50%;
-		background-size: cover;
-	}	
-}
+// .archives__filter {
+// 	margin-top: $unit / 2;
 
-.post-header {
-	margin: 0 0 ($unit / 3);
-	padding: 0;
+// 	@include at-query($two) {
+// 		margin-top: $unit;
+// 	}
+// }
 
-	@include at-query($one) {
-		text-align: center;
-	}
+// .book-cover {
+// 	margin-bottom: $unit / 2;
 
-	@include at-query($two) {
-	    margin: 0 0 90px;
-	}
-}
+// 	@include at-query($two) {
+// 		margin: $unit 0;
+// 	}
+// }
 
-.post-navigation {
-	padding: 50px $unit;
+// .img-border {
+// 	border: 5px solid #efefef;
+// }
 
-	@include at-query($two) {
-		padding: 50px 50px 100px;
-	}
-}
+// .mailinglist {
+// 	@include at-query($two) {
+// 		background: $colorBGdark url('/img/mailinglist-background.jpg');
+// 		background-attachment: fixed;
+// 		background-position: 50%;
+// 		background-size: cover;
+// 	}	
+// }
 
-.post-mailinglist {
-	padding: 25px 0 0;
+// .post-header {
+// 	margin: 0 0 ($unit / 3);
+// 	padding: 0;
 
-	@include at-query($one) {
-		padding: 65px 0 50px;
-		text-align: center;
-	}
-}
+// 	@include at-query($one) {
+// 		text-align: center;
+// 	}
 
-.post-toc {
-	background-color: #f7f9fa;
-	margin-top: 40px;
-	padding: $unit 0 0;
+// 	@include at-query($two) {
+// 	    margin: 0 0 90px;
+// 	}
+// }
 
-	@include at-query($one) {
-		margin-top: 80px;
-		text-align: center;
-	}
-}
+// .post-navigation {
+// 	padding: 50px $unit;
 
-.subpage-body {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 $unit;
+// 	@include at-query($two) {
+// 		padding: 50px 50px 100px;
+// 	}
+// }
 
-	&.experiments {
-		margin-bottom: $unit;
+// .post-mailinglist {
+// 	padding: 25px 0 0;
 
-		@include at-query($one) {
-			margin-bottom: $unit * 2;
-		}
-	}
-}
+// 	@include at-query($one) {
+// 		padding: 65px 0 50px;
+// 		text-align: center;
+// 	}
+// }
 
-.square {
-	padding-bottom: 50px;
+// .post-toc {
+// 	background-color: #f7f9fa;
+// 	margin-top: 40px;
+// 	padding: $unit 0 0;
 
-	&.dark {
-		background-color: $colorBGdark;
-	}
-}
+// 	@include at-query($one) {
+// 		margin-top: 80px;
+// 		text-align: center;
+// 	}
+// }
 
-#mc_embed_signup {
-	padding: 50px 0;
+// .subpage-body {
+// 	max-width: 1200px;
+// 	margin: 0 auto;
+// 	padding: 0 $unit;
 
-	.post-mailinglist & {
-		padding: $unit 0 20px;
-	}
+// 	&.experiments {
+// 		margin-bottom: $unit;
 
-	@include at-query($one) {
-		margin: 0 auto;
-		max-width: 500px;
-	}
+// 		@include at-query($one) {
+// 			margin-bottom: $unit * 2;
+// 		}
+// 	}
+// }
 
-	@include at-query($two) {
-		max-width: none;
+// .square {
+// 	padding-bottom: 50px;
 
-		.mailinglist & {
-			padding: 100px 0 0;
-		}	
-	}
-}
+// 	&.dark {
+// 		background-color: $colorBGdark;
+// 	}
+// }
+
+// #mc_embed_signup {
+// 	padding: 50px 0;
+
+// 	.post-mailinglist & {
+// 		padding: $unit 0 20px;
+// 	}
+
+// 	@include at-query($one) {
+// 		margin: 0 auto;
+// 		max-width: 500px;
+// 	}
+
+// 	@include at-query($two) {
+// 		max-width: none;
+
+// 		.mailinglist & {
+// 			padding: 100px 0 0;
+// 		}	
+// 	}
+// }
 

@@ -19,13 +19,13 @@
 	$colorAccent: #e9ac00;
 
 	/* Text */
-	$colorTextHeader: #627682;
-	$colorTextHeaderIntense: #434d54;
-	$colorTextHeaderDark: #cedbe4;
-	$colorTextBody: #434d54; 
-	$colorTextQuote: #434d54;
-	$colorTextSubtle: #577b90;
-	$colorTextIntense: #B78C12;
+	$colorTextHeader: #334351;
+	// $colorTextHeaderIntense: #434d54;
+	// $colorTextHeaderDark: #cedbe4;
+	// $colorTextBody: #434d54; 
+	// $colorTextQuote: #434d54;
+	// $colorTextSubtle: #577b90;
+	// $colorTextIntense: #B78C12;
 
 	/* Links */
 	$colorLink: #d29c23;
@@ -61,6 +61,7 @@ img {
 	width: 100%;
 }
 
+$stacksuper: "Bodoni 72", Georgia, Times, Times New Roman, serif;
 $stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
 $stack2: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -69,8 +70,8 @@ $unit: 30px;
 
 /* Breakpoints */
 $one: 830px;
-$two: 1000px;
-$three: 1500px;
+// $two: 1000px;
+// $three: 1500px;
 
 @import "normalize";
 
