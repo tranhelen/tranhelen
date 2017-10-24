@@ -2,16 +2,14 @@
     #Homepage
 \*------------------------------------*/
 
-.backgroundvideo { 
+video#indexbackgroundvideo { 
 	display: none;
 
 	@include at-query($one) {
-	    background: url(img/backgroundvideo-backup.jpg) no-repeat;
-	    background-size: cover; 
-	    display: block;
+		display: block;
+	    position: fixed;
 	    min-width: 100%;
 	    min-height: 100%;
-	    position: fixed;
 	    left: 50%;
 	    top: 50%;
 	    width: auto;
@@ -21,6 +19,8 @@
 	    -moz-transform: translateX(-50%) translateY(-50%);
 	    -webkit-transform: translateX(-50%) translateY(-50%);
 	    transform: translateX(-50%) translateY(-50%);
+	    // background: url(/img/backgroundvideo-backup.jpg) no-repeat;
+	    // background-size: cover; 
 	}
 }
 

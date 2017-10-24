@@ -1889,18 +1889,16 @@ h1 {
     #Homepage
 \*------------------------------------*/
 /* line 5, ../../sass/partials/_main.scss */
-.backgroundvideo {
+video#indexbackgroundvideo {
   display: none;
 }
 @media screen and (min-width: 830px) {
   /* line 5, ../../sass/partials/_main.scss */
-  .backgroundvideo {
-    background: url(img/backgroundvideo-backup.jpg) no-repeat;
-    background-size: cover;
+  video#indexbackgroundvideo {
     display: block;
+    position: fixed;
     min-width: 100%;
     min-height: 100%;
-    position: fixed;
     left: 50%;
     top: 50%;
     width: auto;
