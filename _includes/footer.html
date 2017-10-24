@@ -7,22 +7,21 @@
 	</div>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/detectmobilebrowser.js"></script>
 <script>
 
 	$(".load").each(function(index) {
-		$(this).fadeIn(1200);
+		$(this).fadeIn({queue: false, duration: 700}).animate({ top: "0px" }, 1000);
 	});
-  
+
 	var sources = document.querySelectorAll('video#indexbackgroundvideo source');
 	
-	Define the video object this source is contained inside
+	// Define the video object this source is contained inside
 	var video = document.querySelector('video#indexbackgroundvideo');
 	for(var i = 0; i < sources.length;i++) {
 	  sources[i].setAttribute('src', sources[i].getAttribute('data-src'));
-	  console.log('src replacement happened');
-	}
+	};
 	
 	video.load();
 

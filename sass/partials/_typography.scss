@@ -7,18 +7,35 @@ html {
 	font-family: $stack1;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
 	color: $colorTextHeader;
+	font-weight: 300;
+}
+
+h2, h3 {
+	font-family: $stack1;
+}
+
+h1 {
 	font-family: $stacksuper;
 	font-size: em(60px);
+	margin: 0;
 
+	// homepage so far
 	// 130px large
 }
 
-// h1, h2, h3, h4, h5 {
-// 	color: $colorTextHeader;
-// 	font-weight: 300;
-// }
+h2 {
+	color: $colorAccent;
+	font-style: italic;
+	margin: 0;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: em(30px);
+}
+
 
 // h1, h2, h3 {
 // 	.subpage-body & {

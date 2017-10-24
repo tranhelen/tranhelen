@@ -1869,6 +1869,13 @@ th {
 /*------------------------------------*\
     #Helpers
 \*------------------------------------*/
+/* line 78, ../../sass/partials/_helpers.scss */
+.load {
+  display: none;
+  position: relative;
+  top: 50px;
+}
+
 /*------------------------------------*\
     #Typography
 \*------------------------------------*/
@@ -1879,22 +1886,46 @@ html {
 }
 
 /* line 10, ../../sass/partials/_typography.scss */
-h1 {
+h1, h2, h3, h4, h5, h6 {
   color: #334351;
+  font-weight: 300;
+}
+
+/* line 15, ../../sass/partials/_typography.scss */
+h2, h3 {
+  font-family: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
+}
+
+/* line 19, ../../sass/partials/_typography.scss */
+h1 {
   font-family: "Bodoni 72", Georgia, Times, Times New Roman, serif;
   font-size: 3.75em;
+  margin: 0;
+}
+
+/* line 28, ../../sass/partials/_typography.scss */
+h2 {
+  color: #d0a233;
+  font-style: italic;
+  margin: 0;
+}
+
+/* line 34, ../../sass/partials/_typography.scss */
+h3 {
+  font-size: 20px;
+  line-height: 1.875em;
 }
 
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
 /* line 5, ../../sass/partials/_main.scss */
-video#indexbackgroundvideo {
+#indexbackgroundvideo {
   display: none;
 }
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 730px) {
   /* line 5, ../../sass/partials/_main.scss */
-  video#indexbackgroundvideo {
+  #indexbackgroundvideo {
     display: block;
     position: fixed;
     min-width: 100%;
@@ -1917,4 +1948,19 @@ video#indexbackgroundvideo {
 .container {
   margin: 0 30px;
   max-width: 730px;
+}
+
+/* line 46, ../../sass/partials/_main.scss */
+.hp-bio {
+  background-color: #fff;
+  margin: 65% 0 0;
+  padding: 30px 0 0;
+}
+
+/* line 52, ../../sass/partials/_main.scss */
+.hp-portrait {
+  max-width: 1000px;
+  position: fixed;
+  top: 50px;
+  z-index: -1;
 }

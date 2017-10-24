@@ -2,7 +2,7 @@
     #Homepage
 \*------------------------------------*/
 
-video#indexbackgroundvideo { 
+#indexbackgroundvideo { 
 	// do this so the video doesn't load when someone has a small viewport
 	display: none;
 
@@ -42,6 +42,20 @@ video#indexbackgroundvideo {
 	// 	padding: 0;
 	// }
 }
+
+.hp-bio {
+	background-color: #fff;
+    margin: 65% 0 0;
+	padding: $unit 0 0;
+}
+
+.hp-portrait {
+	max-width: 1000px;
+	position: fixed;
+		top: 50px;
+	z-index: -1;
+}
+
 
 // header {
 // 	padding: 50px 0 $unit;
