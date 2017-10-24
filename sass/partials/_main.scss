@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 video#indexbackgroundvideo { 
+	// do this so the video doesn't load when someone has a small viewport
 	display: none;
 
 	@include at-query($one) {
@@ -19,8 +20,8 @@ video#indexbackgroundvideo {
 	    -moz-transform: translateX(-50%) translateY(-50%);
 	    -webkit-transform: translateX(-50%) translateY(-50%);
 	    transform: translateX(-50%) translateY(-50%);
-	    // background: url(/img/backgroundvideo-backup.jpg) no-repeat;
-	    // background-size: cover; 
+	    background: url(/img/backgroundvideo-backup.jpg) no-repeat;
+	    background-size: cover; 
 	}
 }
 

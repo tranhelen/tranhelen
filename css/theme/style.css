@@ -1908,10 +1908,12 @@ video#indexbackgroundvideo {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+    background: url(/img/backgroundvideo-backup.jpg) no-repeat;
+    background-size: cover;
   }
 }
 
-/* line 27, ../../sass/partials/_main.scss */
+/* line 28, ../../sass/partials/_main.scss */
 .container {
   margin: 0 30px;
   max-width: 730px;
