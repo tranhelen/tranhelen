@@ -1869,13 +1869,6 @@ th {
 /*------------------------------------*\
     #Helpers
 \*------------------------------------*/
-/* line 78, ../../sass/partials/_helpers.scss */
-.load {
-  display: none;
-  position: relative;
-  top: 50px;
-}
-
 /*------------------------------------*\
     #Typography
 \*------------------------------------*/
@@ -1953,7 +1946,7 @@ h3 {
 /* line 46, ../../sass/partials/_main.scss */
 .hp-bio {
   background-color: #fff;
-  margin: 65% 0 0;
+  margin: 66% 0 0;
   padding: 30px 0 0;
 }
 
@@ -1961,6 +1954,6 @@ h3 {
 .hp-portrait {
   max-width: 1000px;
   position: fixed;
-  top: 50px;
+  top: 0px;
   z-index: -1;
 }
