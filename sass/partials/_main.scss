@@ -1,3 +1,12 @@
+.line-one {
+	background-color: $colorAccent;
+	height: 3px;
+	position: relative;
+	right: $unit;
+	top: 20px;
+	width: $unit / 2;
+}
+
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/

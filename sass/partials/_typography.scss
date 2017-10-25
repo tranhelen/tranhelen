@@ -57,15 +57,7 @@ h3 {
 .h2 { @extend h2; }
 .h3 { @extend h3; }
 .h4 { @extend h4; }
-.h5 {
-	@extend h5;
-
-	@include at-query($two) {
-		&.no-margin {
-			margin: 5px 0 0;
-		}
-	}
-}
+.h5 { @extend h5; }
 .h6 { @extend h6; }
 
 p,
@@ -77,6 +69,10 @@ ul li p {
 	font-size: em(16px);
 	line-height: em(26px);
 	margin: 0 0 ($unit / 2);
+
+	.hp-bio & {
+		margin: 0 ($unit / 2) ($unit / 2) ($unit / 2); 
+	}
 }
 
 // .wf-loading h1,

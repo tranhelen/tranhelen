@@ -1,91 +1,2009 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    #About the File
+\*------------------------------------*/
 /*
-Error: Undefined variable: "$two".
-        on line 63 of /Users/tranhelen/Desktop/tranhelen.github.io/sass/partials/_typography.scss, in `at-query'
-        from line 63 of /Users/tranhelen/Desktop/tranhelen.github.io/sass/partials/_typography.scss
-        from line 82 of /Users/tranhelen/Desktop/tranhelen.github.io/sass/theme/style.scss
 
-58: }
-59: 
-60: img {
-61: 	width: 100%;
-62: }
-63: 
-64: $stacksuper: "Bodoni 72", Georgia, Times, Times New Roman, serif;
-65: $stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
-66: $stack2: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
-67: 
-68: $baseFontSize: 16px;
+	Author 						Helen Tran, @tranhelen
+	Tools 						Codekit, Sublime Text 2
+	Approaches 					OOCSS, BEM
+	Site Generated with			Jekyll, Liquid, YAML
 
-Backtrace:
-/Users/tranhelen/Desktop/tranhelen.github.io/sass/partials/_typography.scss:63:in `at-query'
-/Users/tranhelen/Desktop/tranhelen.github.io/sass/partials/_typography.scss:63
-/Users/tranhelen/Desktop/tranhelen.github.io/sass/theme/style.scss:82
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:358:in `block (2 levels) in visit_mixin'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:358:in `map'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:358:in `block in visit_mixin'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Users/tranhelen/.rvm/gems/ruby-2.4.0@global/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$two\".\A         on line 63 of /Users/tranhelen/Desktop/tranhelen.github.io/sass/partials/_typography.scss, in `at-query'\A         from line 63 of /Users/tranhelen/Desktop/tranhelen.github.io/sass/partials/_typography.scss\A         from line 82 of /Users/tranhelen/Desktop/tranhelen.github.io/sass/theme/style.scss\A \A 58: }\A 59: \A 60: img {\A 61: 	width: 100%;\A 62: }\A 63: \A 64: $stacksuper: \"Bodoni 72\", Georgia, Times, Times New Roman, serif;\A 65: $stack1: \"adobe-caslon-pro\", Georgia, Times, Times New Roman, serif;\A 66: $stack2: \"soleil\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\A 67: \A 68: $baseFontSize: 16px;"; }
+ */
+/*------------------------------------*\
+    #Imports & Variables
+\*------------------------------------*/
+/* Colour Variables */
+/* Main */
+/* Text */
+/* Links */
+/* Other */
+/*------------------------------------*\
+    #Base
+\*------------------------------------*/
+/* line 42, ../../sass/theme/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 52, ../../sass/theme/style.scss */
+::selection {
+  background: #eaeff2;
+}
+
+/* line 56, ../../sass/theme/style.scss */
+::-moz-selection {
+  background: #eaeff2;
+}
+
+/* line 60, ../../sass/theme/style.scss */
+img {
+  width: 100%;
+}
+
+/* Breakpoints */
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+/* line 9, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 29, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 40, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 47, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+/* line 11, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 19, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+body {
+  margin: 0;
+}
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+/* line 9, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a {
+  background: transparent;
+}
+
+/* line 15, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+/* line 9, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 15, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 29, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+h1, .h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 36, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 43, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 49, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 57, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 61, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 9, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+img {
+  border: 0;
+}
+
+/* line 15, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+/* line 9, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 15, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 23, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 29, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+/* line 15, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 27, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button {
+  overflow: visible;
+}
+
+/* line 36, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 47, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 57, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 64, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 73, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input {
+  line-height: normal;
+}
+
+/* line 83, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 93, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 102, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 113, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 120, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 129, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 136, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 143, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+/* line 9, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 14, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+td,
+th {
+  padding: 0;
+}
+
+/*------------------------------------*\
+    This file has been modified by me, Helen Tran, to suit my needs. The biggest and most important change being the adjustment of Harry Roberts' inline-block technique to use floats instead.
+    Probably best to grab the real thing: http://csswizardry.com/csswizardry-grids/
+\*------------------------------------*/
+/*------------------------------------*\
+    $CSSWIZARDRY-GRIDS
+\*------------------------------------*/
+/**
+ * CONTENTS
+ * INTRODUCTION.........How the grid system works.
+ * VARIABLES............Your settings.
+ * MIXINS...............Library mixins.
+ * GRID SETUP...........Build the grid structure.
+ * WIDTHS...............Build our responsive widths around our breakpoints.
+ * PUSH.................Push classes.
+ * PULL.................Pull classes.
+ */
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+/**
+ * If you are building a non-responsive site but would still like to use
+ * csswizardry-grids, set this to ‘false’:
+ */
+/**
+ * Is this build mobile first? Setting to ‘true’ means that all grids will be
+ * 100% width if you do not apply a more specific class to them.
+ */
+/**
+ * Set the spacing between your grid items.
+ */
+/**
+ * Would you like Sass’ silent classes, or regular CSS classes?
+ */
+/**
+ * Would you like push and pull classes enabled?
+ */
+/**
+ * Using `inline-block` means that the grid items need their whitespace removing
+ * in order for them to work correctly. Set the following to true if you are
+ * going to achieve this by manually removing/commenting out any whitespace in
+ * your HTML yourself.
+ *
+ * Setting this to false invokes a hack which cannot always be guaranteed,
+ * please see the following for more detail:
+ *
+ * github.com/csswizardry/csswizardry-grids/commit/744d4b23c9d2b77d605b5991e54a397df72e0688
+ * github.com/csswizardry/inuit.css/issues/170#issuecomment-14859371
+ */
+/**
+ * Define your breakpoints. The first value is the prefix that shall be used for
+ * your classes (e.g. `.palm--one-half`), the second value is the media query
+ * that the breakpoint fires at.
+ */
+/**
+ * Define which namespaced breakpoints you would like to generate for each of
+ * widths, push and pull. This is handy if you only need pull on, say, desk, or
+ * you only need a new width breakpoint at mobile sizes. It allows you to only
+ * compile as much CSS as you need. All are turned on by default, but you can
+ * add and remove breakpoints at will.
+ *
+ * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
+ * have been set to ‘true’.
+ */
+/**
+ * You do not need to edit anything from this line onward; csswizardry-grids is
+ * good to go. Happy griddin’!
+ */
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+/**
+ * These mixins are for the library to use only, you should not need to modify
+ * them at all.
+ *
+ * Enclose a block of code with a media query as named in `$breakpoints`.
+ */
+/**
+ * Drop relative positioning into silent classes which can’t take advantage of
+ * the `[class*="push--"]` and `[class*="pull--"]` selectors.
+ */
+/*------------------------------------*\
+    $GRID SETUP
+\*------------------------------------*/
+/**
+ * 1. Allow the grid system to be used on lists.
+ * 2. Remove any margins and paddings that might affect the grid system.
+ * 3. Apply a negative `margin-left` to negate the columns’ gutters.
+ */
+/* line 171, ../../sass/vendor/_grids.scss */
+.grid {
+  list-style: none;
+  /* [1] */
+  margin: 0;
+  /* [2] */
+  padding: 0;
+  /* [2] */
+  margin-left: -30px;
+  /* [3] */
+}
+/* line 2, ../../sass/modules/_mixins.scss */
+.grid:before, .grid:after {
+  content: "";
+  display: table;
+}
+/* line 6, ../../sass/modules/_mixins.scss */
+.grid:after {
+  clear: both;
+}
+
+/**
+ * 1. Cause columns to stack side-by-side.
+ * 2. Space columns apart.
+ * 3. Align columns to the tops of each other.
+ * 4. Full-width unless told to behave otherwise.
+ * 5. Required to combine fluid widths and fixed gutters.
+ */
+/* line 198, ../../sass/vendor/_grids.scss */
+.grid__item {
+  display: block;
+  float: left;
+  padding-left: 30px;
+  /* [2] */
+  vertical-align: top;
+  /* [3] */
+  width: 100%;
+  /* [4] */
+  -webkit-box-sizing: border-box;
+  /* [5] */
+  -moz-box-sizing: border-box;
+  /* [5] */
+  box-sizing: border-box;
+  /* [5] */
+}
+
+/**
+ * Reversed grids allow you to structure your source in the opposite order to
+ * how your rendered layout will appear. Extends `.grid`.
+ */
+/* line 220, ../../sass/vendor/_grids.scss */
+.grid--rev {
+  direction: rtl;
+  text-align: left;
+}
+/* line 224, ../../sass/vendor/_grids.scss */
+.grid--rev > .grid__item {
+  direction: ltr;
+  text-align: left;
+}
+/* line 2, ../../sass/modules/_mixins.scss */
+.grid--rev:before, .grid--rev:after {
+  content: "";
+  display: table;
+}
+/* line 6, ../../sass/modules/_mixins.scss */
+.grid--rev:after {
+  clear: both;
+}
+
+/**
+ * Gutterless grids have all the properties of regular grids, minus any spacing.
+ * Extends `.grid`.
+ */
+/* line 237, ../../sass/vendor/_grids.scss */
+.grid--full {
+  margin-left: 0;
+}
+/* line 240, ../../sass/vendor/_grids.scss */
+.grid--full > .grid__item {
+  padding-left: 0;
+}
+/* line 2, ../../sass/modules/_mixins.scss */
+.grid--full:before, .grid--full:after {
+  content: "";
+  display: table;
+}
+/* line 6, ../../sass/modules/_mixins.scss */
+.grid--full:after {
+  clear: both;
+}
+
+/*------------------------------------*\
+    $WIDTHS
+\*------------------------------------*/
+/**
+ * Create our width classes, prefixed by the specified namespace.
+ */
+/**
+ * Our regular, non-responsive width classes.
+ */
+/**
+ * Whole
+ */
+/* line 261, ../../sass/vendor/_grids.scss */
+.one-whole {
+  width: 100%;
+}
+
+/**
+ * Halves
+ */
+/* line 267, ../../sass/vendor/_grids.scss */
+.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
+  width: 50%;
+}
+
+/**
+ * Thirds
+ */
+/* line 273, ../../sass/vendor/_grids.scss */
+.one-third, .two-sixths, .four-twelfths {
+  width: 33.333%;
+}
+
+/* line 274, ../../sass/vendor/_grids.scss */
+.two-thirds, .four-sixths, .eight-twelfths {
+  width: 66.666%;
+}
+
+/**
+ * Quarters
+ */
+/* line 280, ../../sass/vendor/_grids.scss */
+.one-quarter, .two-eighths, .three-twelfths {
+  width: 25%;
+}
+
+/* line 282, ../../sass/vendor/_grids.scss */
+.three-quarters, .six-eighths, .nine-twelfths {
+  width: 75%;
+}
+
+/**
+ * Fifths
+ */
+/* line 288, ../../sass/vendor/_grids.scss */
+.one-fifth, .two-tenths {
+  width: 20%;
+}
+
+/* line 289, ../../sass/vendor/_grids.scss */
+.two-fifths, .four-tenths {
+  width: 40%;
+}
+
+/* line 290, ../../sass/vendor/_grids.scss */
+.three-fifths, .six-tenths {
+  width: 60%;
+}
+
+/* line 291, ../../sass/vendor/_grids.scss */
+.four-fifths, .eight-tenths {
+  width: 80%;
+}
+
+/**
+ * Sixths
+ */
+/* line 297, ../../sass/vendor/_grids.scss */
+.one-sixth, .two-twelfths {
+  width: 16.666%;
+}
+
+/* line 301, ../../sass/vendor/_grids.scss */
+.five-sixths, .ten-twelfths {
+  width: 83.333%;
+}
+
+/**
+ * Eighths
+ */
+/* line 307, ../../sass/vendor/_grids.scss */
+.one-eighth {
+  width: 12.5%;
+}
+
+/* line 309, ../../sass/vendor/_grids.scss */
+.three-eighths {
+  width: 37.5%;
+}
+
+/* line 311, ../../sass/vendor/_grids.scss */
+.five-eighths {
+  width: 62.5%;
+}
+
+/* line 313, ../../sass/vendor/_grids.scss */
+.seven-eighths {
+  width: 87.5%;
+}
+
+/**
+ * Tenths
+ */
+/* line 319, ../../sass/vendor/_grids.scss */
+.one-tenth {
+  width: 10%;
+}
+
+/* line 321, ../../sass/vendor/_grids.scss */
+.three-tenths {
+  width: 30%;
+}
+
+/* line 325, ../../sass/vendor/_grids.scss */
+.seven-tenths {
+  width: 70%;
+}
+
+/* line 327, ../../sass/vendor/_grids.scss */
+.nine-tenths {
+  width: 90%;
+}
+
+/**
+ * Twelfths
+ */
+/* line 333, ../../sass/vendor/_grids.scss */
+.one-twelfth {
+  width: 8.333%;
+}
+
+/* line 337, ../../sass/vendor/_grids.scss */
+.five-twelfths {
+  width: 41.666%;
+}
+
+/* line 339, ../../sass/vendor/_grids.scss */
+.seven-twelfths {
+  width: 58.333%;
+}
+
+/* line 343, ../../sass/vendor/_grids.scss */
+.eleven-twelfths {
+  width: 91.666%;
+}
+
+/**
+ * Our responsive classes, if we have enabled them.
+ */
+@media only screen and (min-width: 830px) {
+  /**
+   * Whole
+   */
+  /* line 261, ../../sass/vendor/_grids.scss */
+  .one--one-whole {
+    width: 100%;
+  }
+
+  /**
+   * Halves
+   */
+  /* line 267, ../../sass/vendor/_grids.scss */
+  .one--one-half, .one--two-quarters, .one--three-sixths, .one--four-eighths, .one--five-tenths, .one--six-twelfths {
+    width: 50%;
+  }
+
+  /**
+   * Thirds
+   */
+  /* line 273, ../../sass/vendor/_grids.scss */
+  .one--one-third, .one--two-sixths, .one--four-twelfths {
+    width: 33.333%;
+  }
+
+  /* line 274, ../../sass/vendor/_grids.scss */
+  .one--two-thirds, .one--four-sixths, .one--eight-twelfths {
+    width: 66.666%;
+  }
+
+  /**
+   * Quarters
+   */
+  /* line 280, ../../sass/vendor/_grids.scss */
+  .one--one-quarter, .one--two-eighths, .one--three-twelfths {
+    width: 25%;
+  }
+
+  /* line 282, ../../sass/vendor/_grids.scss */
+  .one--three-quarters, .one--six-eighths, .one--nine-twelfths {
+    width: 75%;
+  }
+
+  /**
+   * Fifths
+   */
+  /* line 288, ../../sass/vendor/_grids.scss */
+  .one--one-fifth, .one--two-tenths {
+    width: 20%;
+  }
+
+  /* line 289, ../../sass/vendor/_grids.scss */
+  .one--two-fifths, .one--four-tenths {
+    width: 40%;
+  }
+
+  /* line 290, ../../sass/vendor/_grids.scss */
+  .one--three-fifths, .one--six-tenths {
+    width: 60%;
+  }
+
+  /* line 291, ../../sass/vendor/_grids.scss */
+  .one--four-fifths, .one--eight-tenths {
+    width: 80%;
+  }
+
+  /**
+   * Sixths
+   */
+  /* line 297, ../../sass/vendor/_grids.scss */
+  .one--one-sixth, .one--two-twelfths {
+    width: 16.666%;
+  }
+
+  /* line 301, ../../sass/vendor/_grids.scss */
+  .one--five-sixths, .one--ten-twelfths {
+    width: 83.333%;
+  }
+
+  /**
+   * Eighths
+   */
+  /* line 307, ../../sass/vendor/_grids.scss */
+  .one--one-eighth {
+    width: 12.5%;
+  }
+
+  /* line 309, ../../sass/vendor/_grids.scss */
+  .one--three-eighths {
+    width: 37.5%;
+  }
+
+  /* line 311, ../../sass/vendor/_grids.scss */
+  .one--five-eighths {
+    width: 62.5%;
+  }
+
+  /* line 313, ../../sass/vendor/_grids.scss */
+  .one--seven-eighths {
+    width: 87.5%;
+  }
+
+  /**
+   * Tenths
+   */
+  /* line 319, ../../sass/vendor/_grids.scss */
+  .one--one-tenth {
+    width: 10%;
+  }
+
+  /* line 321, ../../sass/vendor/_grids.scss */
+  .one--three-tenths {
+    width: 30%;
+  }
+
+  /* line 325, ../../sass/vendor/_grids.scss */
+  .one--seven-tenths {
+    width: 70%;
+  }
+
+  /* line 327, ../../sass/vendor/_grids.scss */
+  .one--nine-tenths {
+    width: 90%;
+  }
+
+  /**
+   * Twelfths
+   */
+  /* line 333, ../../sass/vendor/_grids.scss */
+  .one--one-twelfth {
+    width: 8.333%;
+  }
+
+  /* line 337, ../../sass/vendor/_grids.scss */
+  .one--five-twelfths {
+    width: 41.666%;
+  }
+
+  /* line 339, ../../sass/vendor/_grids.scss */
+  .one--seven-twelfths {
+    width: 58.333%;
+  }
+
+  /* line 343, ../../sass/vendor/_grids.scss */
+  .one--eleven-twelfths {
+    width: 91.666%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /**
+   * Whole
+   */
+  /* line 261, ../../sass/vendor/_grids.scss */
+  .two--one-whole {
+    width: 100%;
+  }
+
+  /**
+   * Halves
+   */
+  /* line 267, ../../sass/vendor/_grids.scss */
+  .two--one-half, .two--two-quarters, .two--three-sixths, .two--four-eighths, .two--five-tenths, .two--six-twelfths {
+    width: 50%;
+  }
+
+  /**
+   * Thirds
+   */
+  /* line 273, ../../sass/vendor/_grids.scss */
+  .two--one-third, .two--two-sixths, .two--four-twelfths {
+    width: 33.333%;
+  }
+
+  /* line 274, ../../sass/vendor/_grids.scss */
+  .two--two-thirds, .two--four-sixths, .two--eight-twelfths {
+    width: 66.666%;
+  }
+
+  /**
+   * Quarters
+   */
+  /* line 280, ../../sass/vendor/_grids.scss */
+  .two--one-quarter, .two--two-eighths, .two--three-twelfths {
+    width: 25%;
+  }
+
+  /* line 282, ../../sass/vendor/_grids.scss */
+  .two--three-quarters, .two--six-eighths, .two--nine-twelfths {
+    width: 75%;
+  }
+
+  /**
+   * Fifths
+   */
+  /* line 288, ../../sass/vendor/_grids.scss */
+  .two--one-fifth, .two--two-tenths {
+    width: 20%;
+  }
+
+  /* line 289, ../../sass/vendor/_grids.scss */
+  .two--two-fifths, .two--four-tenths {
+    width: 40%;
+  }
+
+  /* line 290, ../../sass/vendor/_grids.scss */
+  .two--three-fifths, .two--six-tenths {
+    width: 60%;
+  }
+
+  /* line 291, ../../sass/vendor/_grids.scss */
+  .two--four-fifths, .two--eight-tenths {
+    width: 80%;
+  }
+
+  /**
+   * Sixths
+   */
+  /* line 297, ../../sass/vendor/_grids.scss */
+  .two--one-sixth, .two--two-twelfths {
+    width: 16.666%;
+  }
+
+  /* line 301, ../../sass/vendor/_grids.scss */
+  .two--five-sixths, .two--ten-twelfths {
+    width: 83.333%;
+  }
+
+  /**
+   * Eighths
+   */
+  /* line 307, ../../sass/vendor/_grids.scss */
+  .two--one-eighth {
+    width: 12.5%;
+  }
+
+  /* line 309, ../../sass/vendor/_grids.scss */
+  .two--three-eighths {
+    width: 37.5%;
+  }
+
+  /* line 311, ../../sass/vendor/_grids.scss */
+  .two--five-eighths {
+    width: 62.5%;
+  }
+
+  /* line 313, ../../sass/vendor/_grids.scss */
+  .two--seven-eighths {
+    width: 87.5%;
+  }
+
+  /**
+   * Tenths
+   */
+  /* line 319, ../../sass/vendor/_grids.scss */
+  .two--one-tenth {
+    width: 10%;
+  }
+
+  /* line 321, ../../sass/vendor/_grids.scss */
+  .two--three-tenths {
+    width: 30%;
+  }
+
+  /* line 325, ../../sass/vendor/_grids.scss */
+  .two--seven-tenths {
+    width: 70%;
+  }
+
+  /* line 327, ../../sass/vendor/_grids.scss */
+  .two--nine-tenths {
+    width: 90%;
+  }
+
+  /**
+   * Twelfths
+   */
+  /* line 333, ../../sass/vendor/_grids.scss */
+  .two--one-twelfth {
+    width: 8.333%;
+  }
+
+  /* line 337, ../../sass/vendor/_grids.scss */
+  .two--five-twelfths {
+    width: 41.666%;
+  }
+
+  /* line 339, ../../sass/vendor/_grids.scss */
+  .two--seven-twelfths {
+    width: 58.333%;
+  }
+
+  /* line 343, ../../sass/vendor/_grids.scss */
+  .two--eleven-twelfths {
+    width: 91.666%;
+  }
+}
+/*------------------------------------*\
+    $PUSH
+\*------------------------------------*/
+/**
+ * Push classes, to move grid items over to the right by certain amounts.
+ */
+/**
+ * Not a particularly great selector, but the DRYest way to do things.
+ */
+/* line 474, ../../sass/vendor/_grids.scss */
+[class*="push--"] {
+  position: relative;
+}
+
+/**
+ * Whole
+ */
+/* line 384, ../../sass/vendor/_grids.scss */
+.push--one-whole {
+  left: 100%;
+}
+
+/**
+ * Halves
+ */
+/* line 390, ../../sass/vendor/_grids.scss */
+.push--one-half, .push--two-quarters, .push--three-sixths, .push--four-eighths, .push--five-tenths, .push--six-twelfths {
+  left: 50%;
+}
+
+/**
+ * Thirds
+ */
+/* line 396, ../../sass/vendor/_grids.scss */
+.push--one-third, .push--two-sixths, .push--four-twelfths {
+  left: 33.333%;
+}
+
+/* line 397, ../../sass/vendor/_grids.scss */
+.push--two-thirds, .push--four-sixths, .push--eight-twelfths {
+  left: 66.666%;
+}
+
+/**
+ * Quarters
+ */
+/* line 403, ../../sass/vendor/_grids.scss */
+.push--one-quarter, .push--two-eighths, .push--three-twelfths {
+  left: 25%;
+}
+
+/* line 405, ../../sass/vendor/_grids.scss */
+.push--three-quarters, .push--six-eighths, .push--nine-twelfths {
+  left: 75%;
+}
+
+/**
+ * Fifths
+ */
+/* line 411, ../../sass/vendor/_grids.scss */
+.push--one-fifth, .push--two-tenths {
+  left: 20%;
+}
+
+/* line 412, ../../sass/vendor/_grids.scss */
+.push--two-fifths, .push--four-tenths {
+  left: 40%;
+}
+
+/* line 413, ../../sass/vendor/_grids.scss */
+.push--three-fifths, .push--six-tenths {
+  left: 60%;
+}
+
+/* line 414, ../../sass/vendor/_grids.scss */
+.push--four-fifths, .push--eight-tenths {
+  left: 80%;
+}
+
+/**
+ * Sixths
+ */
+/* line 420, ../../sass/vendor/_grids.scss */
+.push--one-sixth, .push--two-twelfths {
+  left: 16.666%;
+}
+
+/* line 424, ../../sass/vendor/_grids.scss */
+.push--five-sixths, .push--ten-twelfths {
+  left: 83.333%;
+}
+
+/**
+ * Eighths
+ */
+/* line 430, ../../sass/vendor/_grids.scss */
+.push--one-eighth {
+  left: 12.5%;
+}
+
+/* line 432, ../../sass/vendor/_grids.scss */
+.push--three-eighths {
+  left: 37.5%;
+}
+
+/* line 434, ../../sass/vendor/_grids.scss */
+.push--five-eighths {
+  left: 62.5%;
+}
+
+/* line 436, ../../sass/vendor/_grids.scss */
+.push--seven-eighths {
+  left: 87.5%;
+}
+
+/**
+ * Tenths
+ */
+/* line 442, ../../sass/vendor/_grids.scss */
+.push--one-tenth {
+  left: 10%;
+}
+
+/* line 444, ../../sass/vendor/_grids.scss */
+.push--three-tenths {
+  left: 30%;
+}
+
+/* line 448, ../../sass/vendor/_grids.scss */
+.push--seven-tenths {
+  left: 70%;
+}
+
+/* line 450, ../../sass/vendor/_grids.scss */
+.push--nine-tenths {
+  left: 90%;
+}
+
+/**
+ * Twelfths
+ */
+/* line 456, ../../sass/vendor/_grids.scss */
+.push--one-twelfth {
+  left: 8.333%;
+}
+
+/* line 460, ../../sass/vendor/_grids.scss */
+.push--five-twelfths {
+  left: 41.666%;
+}
+
+/* line 462, ../../sass/vendor/_grids.scss */
+.push--seven-twelfths {
+  left: 58.333%;
+}
+
+/* line 466, ../../sass/vendor/_grids.scss */
+.push--eleven-twelfths {
+  left: 91.666%;
+}
+
+@media only screen and (min-width: 830px) {
+  /**
+   * Whole
+   */
+  /* line 384, ../../sass/vendor/_grids.scss */
+  .push--one--one-whole {
+    left: 100%;
+  }
+
+  /**
+   * Halves
+   */
+  /* line 390, ../../sass/vendor/_grids.scss */
+  .push--one--one-half, .push--one--two-quarters, .push--one--three-sixths, .push--one--four-eighths, .push--one--five-tenths, .push--one--six-twelfths {
+    left: 50%;
+  }
+
+  /**
+   * Thirds
+   */
+  /* line 396, ../../sass/vendor/_grids.scss */
+  .push--one--one-third, .push--one--two-sixths, .push--one--four-twelfths {
+    left: 33.333%;
+  }
+
+  /* line 397, ../../sass/vendor/_grids.scss */
+  .push--one--two-thirds, .push--one--four-sixths, .push--one--eight-twelfths {
+    left: 66.666%;
+  }
+
+  /**
+   * Quarters
+   */
+  /* line 403, ../../sass/vendor/_grids.scss */
+  .push--one--one-quarter, .push--one--two-eighths, .push--one--three-twelfths {
+    left: 25%;
+  }
+
+  /* line 405, ../../sass/vendor/_grids.scss */
+  .push--one--three-quarters, .push--one--six-eighths, .push--one--nine-twelfths {
+    left: 75%;
+  }
+
+  /**
+   * Fifths
+   */
+  /* line 411, ../../sass/vendor/_grids.scss */
+  .push--one--one-fifth, .push--one--two-tenths {
+    left: 20%;
+  }
+
+  /* line 412, ../../sass/vendor/_grids.scss */
+  .push--one--two-fifths, .push--one--four-tenths {
+    left: 40%;
+  }
+
+  /* line 413, ../../sass/vendor/_grids.scss */
+  .push--one--three-fifths, .push--one--six-tenths {
+    left: 60%;
+  }
+
+  /* line 414, ../../sass/vendor/_grids.scss */
+  .push--one--four-fifths, .push--one--eight-tenths {
+    left: 80%;
+  }
+
+  /**
+   * Sixths
+   */
+  /* line 420, ../../sass/vendor/_grids.scss */
+  .push--one--one-sixth, .push--one--two-twelfths {
+    left: 16.666%;
+  }
+
+  /* line 424, ../../sass/vendor/_grids.scss */
+  .push--one--five-sixths, .push--one--ten-twelfths {
+    left: 83.333%;
+  }
+
+  /**
+   * Eighths
+   */
+  /* line 430, ../../sass/vendor/_grids.scss */
+  .push--one--one-eighth {
+    left: 12.5%;
+  }
+
+  /* line 432, ../../sass/vendor/_grids.scss */
+  .push--one--three-eighths {
+    left: 37.5%;
+  }
+
+  /* line 434, ../../sass/vendor/_grids.scss */
+  .push--one--five-eighths {
+    left: 62.5%;
+  }
+
+  /* line 436, ../../sass/vendor/_grids.scss */
+  .push--one--seven-eighths {
+    left: 87.5%;
+  }
+
+  /**
+   * Tenths
+   */
+  /* line 442, ../../sass/vendor/_grids.scss */
+  .push--one--one-tenth {
+    left: 10%;
+  }
+
+  /* line 444, ../../sass/vendor/_grids.scss */
+  .push--one--three-tenths {
+    left: 30%;
+  }
+
+  /* line 448, ../../sass/vendor/_grids.scss */
+  .push--one--seven-tenths {
+    left: 70%;
+  }
+
+  /* line 450, ../../sass/vendor/_grids.scss */
+  .push--one--nine-tenths {
+    left: 90%;
+  }
+
+  /**
+   * Twelfths
+   */
+  /* line 456, ../../sass/vendor/_grids.scss */
+  .push--one--one-twelfth {
+    left: 8.333%;
+  }
+
+  /* line 460, ../../sass/vendor/_grids.scss */
+  .push--one--five-twelfths {
+    left: 41.666%;
+  }
+
+  /* line 462, ../../sass/vendor/_grids.scss */
+  .push--one--seven-twelfths {
+    left: 58.333%;
+  }
+
+  /* line 466, ../../sass/vendor/_grids.scss */
+  .push--one--eleven-twelfths {
+    left: 91.666%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /**
+   * Whole
+   */
+  /* line 384, ../../sass/vendor/_grids.scss */
+  .push--two--one-whole {
+    left: 100%;
+  }
+
+  /**
+   * Halves
+   */
+  /* line 390, ../../sass/vendor/_grids.scss */
+  .push--two--one-half, .push--two--two-quarters, .push--two--three-sixths, .push--two--four-eighths, .push--two--five-tenths, .push--two--six-twelfths {
+    left: 50%;
+  }
+
+  /**
+   * Thirds
+   */
+  /* line 396, ../../sass/vendor/_grids.scss */
+  .push--two--one-third, .push--two--two-sixths, .push--two--four-twelfths {
+    left: 33.333%;
+  }
+
+  /* line 397, ../../sass/vendor/_grids.scss */
+  .push--two--two-thirds, .push--two--four-sixths, .push--two--eight-twelfths {
+    left: 66.666%;
+  }
+
+  /**
+   * Quarters
+   */
+  /* line 403, ../../sass/vendor/_grids.scss */
+  .push--two--one-quarter, .push--two--two-eighths, .push--two--three-twelfths {
+    left: 25%;
+  }
+
+  /* line 405, ../../sass/vendor/_grids.scss */
+  .push--two--three-quarters, .push--two--six-eighths, .push--two--nine-twelfths {
+    left: 75%;
+  }
+
+  /**
+   * Fifths
+   */
+  /* line 411, ../../sass/vendor/_grids.scss */
+  .push--two--one-fifth, .push--two--two-tenths {
+    left: 20%;
+  }
+
+  /* line 412, ../../sass/vendor/_grids.scss */
+  .push--two--two-fifths, .push--two--four-tenths {
+    left: 40%;
+  }
+
+  /* line 413, ../../sass/vendor/_grids.scss */
+  .push--two--three-fifths, .push--two--six-tenths {
+    left: 60%;
+  }
+
+  /* line 414, ../../sass/vendor/_grids.scss */
+  .push--two--four-fifths, .push--two--eight-tenths {
+    left: 80%;
+  }
+
+  /**
+   * Sixths
+   */
+  /* line 420, ../../sass/vendor/_grids.scss */
+  .push--two--one-sixth, .push--two--two-twelfths {
+    left: 16.666%;
+  }
+
+  /* line 424, ../../sass/vendor/_grids.scss */
+  .push--two--five-sixths, .push--two--ten-twelfths {
+    left: 83.333%;
+  }
+
+  /**
+   * Eighths
+   */
+  /* line 430, ../../sass/vendor/_grids.scss */
+  .push--two--one-eighth {
+    left: 12.5%;
+  }
+
+  /* line 432, ../../sass/vendor/_grids.scss */
+  .push--two--three-eighths {
+    left: 37.5%;
+  }
+
+  /* line 434, ../../sass/vendor/_grids.scss */
+  .push--two--five-eighths {
+    left: 62.5%;
+  }
+
+  /* line 436, ../../sass/vendor/_grids.scss */
+  .push--two--seven-eighths {
+    left: 87.5%;
+  }
+
+  /**
+   * Tenths
+   */
+  /* line 442, ../../sass/vendor/_grids.scss */
+  .push--two--one-tenth {
+    left: 10%;
+  }
+
+  /* line 444, ../../sass/vendor/_grids.scss */
+  .push--two--three-tenths {
+    left: 30%;
+  }
+
+  /* line 448, ../../sass/vendor/_grids.scss */
+  .push--two--seven-tenths {
+    left: 70%;
+  }
+
+  /* line 450, ../../sass/vendor/_grids.scss */
+  .push--two--nine-tenths {
+    left: 90%;
+  }
+
+  /**
+   * Twelfths
+   */
+  /* line 456, ../../sass/vendor/_grids.scss */
+  .push--two--one-twelfth {
+    left: 8.333%;
+  }
+
+  /* line 460, ../../sass/vendor/_grids.scss */
+  .push--two--five-twelfths {
+    left: 41.666%;
+  }
+
+  /* line 462, ../../sass/vendor/_grids.scss */
+  .push--two--seven-twelfths {
+    left: 58.333%;
+  }
+
+  /* line 466, ../../sass/vendor/_grids.scss */
+  .push--two--eleven-twelfths {
+    left: 91.666%;
+  }
+}
+/*------------------------------------*\
+    $PULL
+\*------------------------------------*/
+/**
+ * Pull classes, to move grid items back to the left by certain amounts.
+ */
+/**
+ * Not a particularly great selector, but the DRYest way to do things.
+ */
+/* line 596, ../../sass/vendor/_grids.scss */
+[class*="pull--"] {
+  position: relative;
+}
+
+/**
+ * Whole
+ */
+/* line 506, ../../sass/vendor/_grids.scss */
+.pull--one-whole {
+  right: 100%;
+}
+
+/**
+ * Halves
+ */
+/* line 512, ../../sass/vendor/_grids.scss */
+.pull--one-half, .pull--two-quarters, .pull--three-sixths, .pull--four-eighths, .pull--five-tenths, .pull--six-twelfths {
+  right: 50%;
+}
+
+/**
+ * Thirds
+ */
+/* line 518, ../../sass/vendor/_grids.scss */
+.pull--one-third, .pull--two-sixths, .pull--four-twelfths {
+  right: 33.333%;
+}
+
+/* line 519, ../../sass/vendor/_grids.scss */
+.pull--two-thirds, .pull--four-sixths, .pull--eight-twelfths {
+  right: 66.666%;
+}
+
+/**
+ * Quarters
+ */
+/* line 525, ../../sass/vendor/_grids.scss */
+.pull--one-quarter, .pull--two-eighths, .pull--three-twelfths {
+  right: 25%;
+}
+
+/* line 527, ../../sass/vendor/_grids.scss */
+.pull--three-quarters, .pull--six-eighths, .pull--nine-twelfths {
+  right: 75%;
+}
+
+/**
+ * Fifths
+ */
+/* line 533, ../../sass/vendor/_grids.scss */
+.pull--one-fifth, .pull--two-tenths {
+  right: 20%;
+}
+
+/* line 534, ../../sass/vendor/_grids.scss */
+.pull--two-fifths, .pull--four-tenths {
+  right: 40%;
+}
+
+/* line 535, ../../sass/vendor/_grids.scss */
+.pull--three-fifths, .pull--six-tenths {
+  right: 60%;
+}
+
+/* line 536, ../../sass/vendor/_grids.scss */
+.pull--four-fifths, .pull--eight-tenths {
+  right: 80%;
+}
+
+/**
+ * Sixths
+ */
+/* line 542, ../../sass/vendor/_grids.scss */
+.pull--one-sixth, .pull--two-twelfths {
+  right: 16.666%;
+}
+
+/* line 546, ../../sass/vendor/_grids.scss */
+.pull--five-sixths, .pull--ten-twelfths {
+  right: 83.333%;
+}
+
+/**
+ * Eighths
+ */
+/* line 552, ../../sass/vendor/_grids.scss */
+.pull--one-eighth {
+  right: 12.5%;
+}
+
+/* line 554, ../../sass/vendor/_grids.scss */
+.pull--three-eighths {
+  right: 37.5%;
+}
+
+/* line 556, ../../sass/vendor/_grids.scss */
+.pull--five-eighths {
+  right: 62.5%;
+}
+
+/* line 558, ../../sass/vendor/_grids.scss */
+.pull--seven-eighths {
+  right: 87.5%;
+}
+
+/**
+ * Tenths
+ */
+/* line 564, ../../sass/vendor/_grids.scss */
+.pull--one-tenth {
+  right: 10%;
+}
+
+/* line 566, ../../sass/vendor/_grids.scss */
+.pull--three-tenths {
+  right: 30%;
+}
+
+/* line 570, ../../sass/vendor/_grids.scss */
+.pull--seven-tenths {
+  right: 70%;
+}
+
+/* line 572, ../../sass/vendor/_grids.scss */
+.pull--nine-tenths {
+  right: 90%;
+}
+
+/**
+ * Twelfths
+ */
+/* line 578, ../../sass/vendor/_grids.scss */
+.pull--one-twelfth {
+  right: 8.333%;
+}
+
+/* line 582, ../../sass/vendor/_grids.scss */
+.pull--five-twelfths {
+  right: 41.666%;
+}
+
+/* line 584, ../../sass/vendor/_grids.scss */
+.pull--seven-twelfths {
+  right: 58.333%;
+}
+
+/* line 588, ../../sass/vendor/_grids.scss */
+.pull--eleven-twelfths {
+  right: 91.666%;
+}
+
+@media only screen and (min-width: 830px) {
+  /**
+   * Whole
+   */
+  /* line 506, ../../sass/vendor/_grids.scss */
+  .pull--one--one-whole {
+    right: 100%;
+  }
+
+  /**
+   * Halves
+   */
+  /* line 512, ../../sass/vendor/_grids.scss */
+  .pull--one--one-half, .pull--one--two-quarters, .pull--one--three-sixths, .pull--one--four-eighths, .pull--one--five-tenths, .pull--one--six-twelfths {
+    right: 50%;
+  }
+
+  /**
+   * Thirds
+   */
+  /* line 518, ../../sass/vendor/_grids.scss */
+  .pull--one--one-third, .pull--one--two-sixths, .pull--one--four-twelfths {
+    right: 33.333%;
+  }
+
+  /* line 519, ../../sass/vendor/_grids.scss */
+  .pull--one--two-thirds, .pull--one--four-sixths, .pull--one--eight-twelfths {
+    right: 66.666%;
+  }
+
+  /**
+   * Quarters
+   */
+  /* line 525, ../../sass/vendor/_grids.scss */
+  .pull--one--one-quarter, .pull--one--two-eighths, .pull--one--three-twelfths {
+    right: 25%;
+  }
+
+  /* line 527, ../../sass/vendor/_grids.scss */
+  .pull--one--three-quarters, .pull--one--six-eighths, .pull--one--nine-twelfths {
+    right: 75%;
+  }
+
+  /**
+   * Fifths
+   */
+  /* line 533, ../../sass/vendor/_grids.scss */
+  .pull--one--one-fifth, .pull--one--two-tenths {
+    right: 20%;
+  }
+
+  /* line 534, ../../sass/vendor/_grids.scss */
+  .pull--one--two-fifths, .pull--one--four-tenths {
+    right: 40%;
+  }
+
+  /* line 535, ../../sass/vendor/_grids.scss */
+  .pull--one--three-fifths, .pull--one--six-tenths {
+    right: 60%;
+  }
+
+  /* line 536, ../../sass/vendor/_grids.scss */
+  .pull--one--four-fifths, .pull--one--eight-tenths {
+    right: 80%;
+  }
+
+  /**
+   * Sixths
+   */
+  /* line 542, ../../sass/vendor/_grids.scss */
+  .pull--one--one-sixth, .pull--one--two-twelfths {
+    right: 16.666%;
+  }
+
+  /* line 546, ../../sass/vendor/_grids.scss */
+  .pull--one--five-sixths, .pull--one--ten-twelfths {
+    right: 83.333%;
+  }
+
+  /**
+   * Eighths
+   */
+  /* line 552, ../../sass/vendor/_grids.scss */
+  .pull--one--one-eighth {
+    right: 12.5%;
+  }
+
+  /* line 554, ../../sass/vendor/_grids.scss */
+  .pull--one--three-eighths {
+    right: 37.5%;
+  }
+
+  /* line 556, ../../sass/vendor/_grids.scss */
+  .pull--one--five-eighths {
+    right: 62.5%;
+  }
+
+  /* line 558, ../../sass/vendor/_grids.scss */
+  .pull--one--seven-eighths {
+    right: 87.5%;
+  }
+
+  /**
+   * Tenths
+   */
+  /* line 564, ../../sass/vendor/_grids.scss */
+  .pull--one--one-tenth {
+    right: 10%;
+  }
+
+  /* line 566, ../../sass/vendor/_grids.scss */
+  .pull--one--three-tenths {
+    right: 30%;
+  }
+
+  /* line 570, ../../sass/vendor/_grids.scss */
+  .pull--one--seven-tenths {
+    right: 70%;
+  }
+
+  /* line 572, ../../sass/vendor/_grids.scss */
+  .pull--one--nine-tenths {
+    right: 90%;
+  }
+
+  /**
+   * Twelfths
+   */
+  /* line 578, ../../sass/vendor/_grids.scss */
+  .pull--one--one-twelfth {
+    right: 8.333%;
+  }
+
+  /* line 582, ../../sass/vendor/_grids.scss */
+  .pull--one--five-twelfths {
+    right: 41.666%;
+  }
+
+  /* line 584, ../../sass/vendor/_grids.scss */
+  .pull--one--seven-twelfths {
+    right: 58.333%;
+  }
+
+  /* line 588, ../../sass/vendor/_grids.scss */
+  .pull--one--eleven-twelfths {
+    right: 91.666%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  /**
+   * Whole
+   */
+  /* line 506, ../../sass/vendor/_grids.scss */
+  .pull--two--one-whole {
+    right: 100%;
+  }
+
+  /**
+   * Halves
+   */
+  /* line 512, ../../sass/vendor/_grids.scss */
+  .pull--two--one-half, .pull--two--two-quarters, .pull--two--three-sixths, .pull--two--four-eighths, .pull--two--five-tenths, .pull--two--six-twelfths {
+    right: 50%;
+  }
+
+  /**
+   * Thirds
+   */
+  /* line 518, ../../sass/vendor/_grids.scss */
+  .pull--two--one-third, .pull--two--two-sixths, .pull--two--four-twelfths {
+    right: 33.333%;
+  }
+
+  /* line 519, ../../sass/vendor/_grids.scss */
+  .pull--two--two-thirds, .pull--two--four-sixths, .pull--two--eight-twelfths {
+    right: 66.666%;
+  }
+
+  /**
+   * Quarters
+   */
+  /* line 525, ../../sass/vendor/_grids.scss */
+  .pull--two--one-quarter, .pull--two--two-eighths, .pull--two--three-twelfths {
+    right: 25%;
+  }
+
+  /* line 527, ../../sass/vendor/_grids.scss */
+  .pull--two--three-quarters, .pull--two--six-eighths, .pull--two--nine-twelfths {
+    right: 75%;
+  }
+
+  /**
+   * Fifths
+   */
+  /* line 533, ../../sass/vendor/_grids.scss */
+  .pull--two--one-fifth, .pull--two--two-tenths {
+    right: 20%;
+  }
+
+  /* line 534, ../../sass/vendor/_grids.scss */
+  .pull--two--two-fifths, .pull--two--four-tenths {
+    right: 40%;
+  }
+
+  /* line 535, ../../sass/vendor/_grids.scss */
+  .pull--two--three-fifths, .pull--two--six-tenths {
+    right: 60%;
+  }
+
+  /* line 536, ../../sass/vendor/_grids.scss */
+  .pull--two--four-fifths, .pull--two--eight-tenths {
+    right: 80%;
+  }
+
+  /**
+   * Sixths
+   */
+  /* line 542, ../../sass/vendor/_grids.scss */
+  .pull--two--one-sixth, .pull--two--two-twelfths {
+    right: 16.666%;
+  }
+
+  /* line 546, ../../sass/vendor/_grids.scss */
+  .pull--two--five-sixths, .pull--two--ten-twelfths {
+    right: 83.333%;
+  }
+
+  /**
+   * Eighths
+   */
+  /* line 552, ../../sass/vendor/_grids.scss */
+  .pull--two--one-eighth {
+    right: 12.5%;
+  }
+
+  /* line 554, ../../sass/vendor/_grids.scss */
+  .pull--two--three-eighths {
+    right: 37.5%;
+  }
+
+  /* line 556, ../../sass/vendor/_grids.scss */
+  .pull--two--five-eighths {
+    right: 62.5%;
+  }
+
+  /* line 558, ../../sass/vendor/_grids.scss */
+  .pull--two--seven-eighths {
+    right: 87.5%;
+  }
+
+  /**
+   * Tenths
+   */
+  /* line 564, ../../sass/vendor/_grids.scss */
+  .pull--two--one-tenth {
+    right: 10%;
+  }
+
+  /* line 566, ../../sass/vendor/_grids.scss */
+  .pull--two--three-tenths {
+    right: 30%;
+  }
+
+  /* line 570, ../../sass/vendor/_grids.scss */
+  .pull--two--seven-tenths {
+    right: 70%;
+  }
+
+  /* line 572, ../../sass/vendor/_grids.scss */
+  .pull--two--nine-tenths {
+    right: 90%;
+  }
+
+  /**
+   * Twelfths
+   */
+  /* line 578, ../../sass/vendor/_grids.scss */
+  .pull--two--one-twelfth {
+    right: 8.333%;
+  }
+
+  /* line 582, ../../sass/vendor/_grids.scss */
+  .pull--two--five-twelfths {
+    right: 41.666%;
+  }
+
+  /* line 584, ../../sass/vendor/_grids.scss */
+  .pull--two--seven-twelfths {
+    right: 58.333%;
+  }
+
+  /* line 588, ../../sass/vendor/_grids.scss */
+  .pull--two--eleven-twelfths {
+    right: 91.666%;
+  }
+}
+/*------------------------------------*\
+    #Helpers
+\*------------------------------------*/
+/*------------------------------------*\
+    #Typography
+\*------------------------------------*/
+/* line 5, ../../sass/partials/_typography.scss */
+body,
+html {
+  font-family: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
+}
+
+/* line 10, ../../sass/partials/_typography.scss */
+a {
+  border-bottom: 1px solid #768fe1;
+  color: #768fe1;
+  display: inline-block;
+  line-height: 10px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 17, ../../sass/partials/_typography.scss */
+a:hover {
+  border-color: #fff;
+  color: #5f6771;
+}
+
+/* line 25, ../../sass/partials/_typography.scss */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  color: #334351;
+  font-weight: 300;
+}
+
+/* line 30, ../../sass/partials/_typography.scss */
+h2, .h2, h3, .h3 {
+  font-family: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
+}
+
+/* line 34, ../../sass/partials/_typography.scss */
+h1, .h1 {
+  font-family: "Bodoni 72", Georgia, Times, Times New Roman, serif;
+  font-size: 3.125em;
+  margin: 0;
+}
+
+/* line 43, ../../sass/partials/_typography.scss */
+h2, .h2 {
+  color: #d0a233;
+  font-size: 1.75em;
+  font-style: italic;
+  margin: 0 0 10px;
+}
+
+/* line 50, ../../sass/partials/_typography.scss */
+h3, .h3 {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin: 0 0 15px;
+}
+
+/* line 63, ../../sass/partials/_typography.scss */
+p,
+ol li,
+ol li p,
+ul li,
+ul li p {
+  color: #5f6771;
+  font-size: 1em;
+  line-height: 1.625em;
+  margin: 0 0 15px;
+}
+/* line 73, ../../sass/partials/_typography.scss */
+.hp-bio p, .hp-bio
+ol li, .hp-bio
+ol li p, .hp-bio
+ul li, .hp-bio
+ul li p {
+  margin: 0 15px 15px 15px;
+}
+
+/* line 1, ../../sass/partials/_main.scss */
+.line-one {
+  background-color: #d0a233;
+  height: 3px;
+  position: relative;
+  right: 30px;
+  top: 20px;
+  width: 15px;
+}
+
+/*------------------------------------*\
+    #Homepage
+\*------------------------------------*/
+/* line 14, ../../sass/partials/_main.scss */
+#indexbackgroundvideo {
+  display: none;
+}
+@media screen and (min-width: 730px) {
+  /* line 14, ../../sass/partials/_main.scss */
+  #indexbackgroundvideo {
+    display: block;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(/img/backgroundvideo-backup.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+/* line 37, ../../sass/partials/_main.scss */
+.container {
+  margin: 0 30px;
+  max-width: 730px;
+}
+
+/* line 55, ../../sass/partials/_main.scss */
+.hp-bio {
+  background-color: #fff;
+  margin: 66% 0 0;
+  padding: 30px 0 0;
+}
+
+/* line 61, ../../sass/partials/_main.scss */
+.hp-portrait {
+  max-width: 1000px;
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+}
