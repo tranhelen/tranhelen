@@ -8,7 +8,18 @@ html {
 }
 
 a {
+	border-bottom: 1px solid $colorLink;
 	color: $colorLink;
+    display: inline-block;
+    line-height: ($unit / 3);
+	text-decoration: none;
+
+	&:hover {
+		border-color: #fff;
+		color: $colorTextBody;
+	}
+
+	@include transition;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,7 +33,7 @@ h2, h3 {
 
 h1 {
 	font-family: $stacksuper;
-	font-size: em(60px);
+	font-size: em(50px);
 	margin: 0;
 
 	// homepage so far
@@ -31,14 +42,31 @@ h1 {
 
 h2 {
 	color: $colorAccent;
+	font-size: em(28px);
 	font-style: italic;
-	margin: 0;
+	margin: 0 0 ($unit / 3);
 }
 
 h3 {
 	font-size: 20px;
-	line-height: em(26px);
+	line-height: em(24px);
+	margin: 0 0 ($unit / 2);
 }
+
+.h1 { @extend h1; }
+.h2 { @extend h2; }
+.h3 { @extend h3; }
+.h4 { @extend h4; }
+.h5 {
+	@extend h5;
+
+	@include at-query($two) {
+		&.no-margin {
+			margin: 5px 0 0;
+		}
+	}
+}
+.h6 { @extend h6; }
 
 p,
 ol li,
@@ -50,12 +78,6 @@ ul li p {
 	line-height: em(26px);
 	margin: 0 0 ($unit / 2);
 }
-
-// h1, h2, h3 {
-// 	.subpage-body & {
-// 		color: $colorTextHeaderIntense;
-// 	}
-// }
 
 // .wf-loading h1,
 // .wf-loading h2,
@@ -73,119 +95,6 @@ ul li p {
 // .wf-active h5,
 // .wf-active p {
 // 	visibility: visible;
-// }
-
-// h1 {
-// 	&.one-line {
-// 		margin: 20px 0 -20px 0;
-// 	}
-
-// 	.dark & {
-// 		color: #fff;
-// 	}
-
-// 	.post-header & {
-// 		margin: -10px 0 -20px;
-// 	}
-
-// 	.post-mailinglist & {
-// 		margin-bottom: 10px;
-// 	}
-
-// 	@include at-query($one) {
-// 		font-size: em(45px);
-// 		line-height: 55px;		
-
-// 		.post-header & {
-// 			margin: $unit 0 -20px;
-// 		}
-// 	}
-// }
-
-// h2 {
-// 	font-size: em(26px);
-// 	line-height: 36px;
-// 	margin-bottom: 20px;
-
-// 	.dark & {
-// 		color: $colorTextHeaderDark;
-// 	}
-
-// 	.subpage-body & {
-// 		margin: $unit 0;
-// 	}
-
-// 	@include at-query($one) {
-// 		font-size: em(30px);
-// 		line-height: 40px;
-// 	}
-
-// 	@include at-query($two) {
-// 		.bio & {
-// 			margin-bottom: 80px;
-// 		}
-
-// 		.instagrid__description & {
-// 			margin-bottom: 25px;
-// 		}
-
-// 		.mailinglist & {
-// 			margin-bottom: 10px;
-// 		}
-// 	}
-// }
-
-// h3 {
-// 	font-size: em(24px);
-// 	line-height: 32px;
-// 	margin: 0;
-
-// 	.dark & {
-// 		color: $colorTextHeaderDark;
-// 	}
-
-// 	.subpage-body & {
-// 		margin: $unit 0;
-// 	}
-
-// 	@include at-query($one) {
-// 		font-size: em(26px);
-// 		line-height: 38px;
-// 	}
-// }
-
-// h4 {
-// 	font-family: $stack2;
-// 	font-size: em(18px);
-// 	line-height: 24px;
-// }
-
-// h5 {
-// 	color: $colorTextSubtle;
-// 	font-family: $stack2;
-// 	font-size: em(16px);
-// 	line-height: ($unit / 2);
-// 	font-weight: 600;
-// 	margin: 0 0 ($unit / 3);
-// 	text-transform: uppercase;
-
-// 	.subpage-body & {
-// 		margin: 20px 0 $unit;
-// 	}
-// }
-
-// .h1 { @extend h1; }
-// .h2 { @extend h2; }
-// .h3 { @extend h3; }
-// .h4 { @extend h4; }
-// .h5 {
-// 	@extend h5;
-
-// 	@include at-query($two) {
-// 		&.no-margin {
-// 			margin: 5px 0 0;
-// 		}
-// 	}
 // }
 
 // p,
