@@ -1879,34 +1879,51 @@ html {
 }
 
 /* line 10, ../../sass/partials/_typography.scss */
+a {
+  color: #768fe1;
+}
+
+/* line 14, ../../sass/partials/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #334351;
   font-weight: 300;
 }
 
-/* line 15, ../../sass/partials/_typography.scss */
+/* line 19, ../../sass/partials/_typography.scss */
 h2, h3 {
   font-family: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
 }
 
-/* line 19, ../../sass/partials/_typography.scss */
+/* line 23, ../../sass/partials/_typography.scss */
 h1 {
   font-family: "Bodoni 72", Georgia, Times, Times New Roman, serif;
   font-size: 3.75em;
   margin: 0;
 }
 
-/* line 28, ../../sass/partials/_typography.scss */
+/* line 32, ../../sass/partials/_typography.scss */
 h2 {
   color: #d0a233;
   font-style: italic;
   margin: 0;
 }
 
-/* line 34, ../../sass/partials/_typography.scss */
+/* line 38, ../../sass/partials/_typography.scss */
 h3 {
   font-size: 20px;
-  line-height: 1.875em;
+  line-height: 1.625em;
+}
+
+/* line 43, ../../sass/partials/_typography.scss */
+p,
+ol li,
+ol li p,
+ul li,
+ul li p {
+  color: #5f6771;
+  font-size: 1em;
+  line-height: 1.625em;
+  margin: 0 0 15px;
 }
 
 /*------------------------------------*\

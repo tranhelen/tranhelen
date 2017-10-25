@@ -7,6 +7,10 @@ html {
 	font-family: $stack1;
 }
 
+a {
+	color: $colorLink;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: $colorTextHeader;
 	font-weight: 300;
@@ -33,9 +37,19 @@ h2 {
 
 h3 {
 	font-size: 20px;
-	line-height: em(30px);
+	line-height: em(26px);
 }
 
+p,
+ol li,
+ol li p,
+ul li,
+ul li p {
+	color: $colorTextBody;
+	font-size: em(16px);
+	line-height: em(26px);
+	margin: 0 0 ($unit / 2);
+}
 
 // h1, h2, h3 {
 // 	.subpage-body & {
@@ -62,10 +76,6 @@ h3 {
 // }
 
 // h1 {
-// 	font-size: em(38px);
-// 	font-weight: 600;
-// 	line-height: 46px;
-
 // 	&.one-line {
 // 		margin: 20px 0 -20px 0;
 // 	}
@@ -183,11 +193,6 @@ h3 {
 // ol li p,
 // ul li,
 // ul li p {
-// 	color: $colorTextBody;
-// 	font-family: $stack1;
-// 	font-size: em(20px);
-// 	line-height: 30px;
-// 	margin: 0 0 ($unit / 2);
 
 // 	&.small {
 // 		font-size: em(18px);
