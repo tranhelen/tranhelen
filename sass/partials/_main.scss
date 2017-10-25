@@ -54,7 +54,7 @@
 
 .hp-bio {
 	background-color: #fff;
-    margin: 66% 0 0;
+    margin: 75% 0 0;
 	padding: $unit 0 0;
 }
 
@@ -63,6 +63,14 @@
 	position: fixed;
 		top: 0px;
 	z-index: -1;
+}
+
+.hp-portrait-bg {
+	max-width: 1000px;
+	position: fixed;
+		top: $unit / 2;
+		left: $unit / 2;
+	z-index: -2;
 }
 
 
