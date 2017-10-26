@@ -32,16 +32,18 @@ figure {
 	margin-bottom: $unit;
 
 	.case-study__body {
-		padding: ($unit / 2) $unit;
+		padding: 10px 20px 15px 20px;
 	}
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+	@include transition;
 }
 
 .hp-appearances {
 	margin: $unit 0 $unit * 2;
-}
-
-.hp-casestudies {
-	margin: $unit 0;
 }
 
 .hp-goals {
@@ -73,6 +75,11 @@ figure {
 
 .hp-work {
 	background-color: $colorBGone;
+	padding-bottom: 10px;
+
+	.hp-casestudies {
+		margin: $unit 0;
+	}
 
 	.hp-work__content {
 		position: relative;
