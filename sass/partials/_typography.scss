@@ -50,7 +50,7 @@ h2 {
 	color: $colorAccent;
 	font-size: em(28px);
 	font-style: italic;
-	margin: 0 0 ($unit / 3);
+	margin: 0 0 15px;
 
 	&.darker {
 		color: $colorTextHeader;
@@ -61,7 +61,7 @@ h2 {
 h3 {
 	font-size: 20px;
 	line-height: em(22px);
-	margin: 0 0 ($unit / 2);
+	margin: ($unit / 3) 0 ($unit / 6);
 
 	.case-study__body & {
 		font-weight: 600;
@@ -72,7 +72,9 @@ h3 {
 h5 {
 	color: $colorAccent;
 	font-family: $stack2;
+	font-size: em(13px);
 	font-weight: 600;
+	margin: 0;
 	text-transform: uppercase;
 }
 
