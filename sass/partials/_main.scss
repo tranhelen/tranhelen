@@ -1,3 +1,20 @@
+#mc-embedded-subscribe {
+	background-color: $colorAccent;
+	color: #fff;
+	font-family: $stack2;
+	font-size: em(13px);
+	font-weight: 600;
+	padding: 8px 15px 10px;
+	text-align: center;
+	width: 100%;
+
+	&:hover {
+		background-color: lighten($colorAccent,10%);
+	}
+
+	@include transition;
+}
+
 figure {
 	margin: 0;
 
@@ -26,7 +43,7 @@ figure {
 	    z-index: 1;
 	}
 
-	&.hp-writing {
+	.hp-writing & {
 			top: 10px;
 	}
 }
@@ -97,6 +114,16 @@ figure {
 
 .hp-writing {
 	padding: $unit 0;
+}
+
+.mailing-list {
+	background-color: $colorBGone;
+	margin: ($unit / 2) 0 $unit;
+	padding: $unit 0;
+
+	input {
+		margin-bottom: ($unit / 2);
+	}
 }
 
 .overlay {
