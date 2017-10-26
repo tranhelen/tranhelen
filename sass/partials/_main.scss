@@ -27,6 +27,14 @@ figure {
 	}
 }
 
+input {
+	background-color: #fff;
+	border: 0;
+    margin: 0;
+    padding: 8px 15px 10px;
+    width: 100%;
+}
+
 .line-one {
 	background-color: $colorAccent;
 	height: 3px;

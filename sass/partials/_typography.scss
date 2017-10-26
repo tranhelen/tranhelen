@@ -20,14 +20,6 @@ a {
 		color: $colorTextBody;
 	}
 
-	&.casestudy {
-		display: block;
-	}
-
-	&.small {
-		line-height: em(18px);
-	}
-
 	@include transition;
 }
 
@@ -37,23 +29,18 @@ h1, h2, h3, h4, h5, h6 {
 
 	a {
 		border: 0;
-		display: inline;
 	}
-}
-
-h2, h3 {
-	font-family: $stack1;
 }
 
 h1 {
 	font-family: $stacksuper;
-	font-size: em(50px);
+	font-size: em(66px);
 	margin: 0;
 }
 
 h2 {
 	color: $colorAccent;
-	font-size: em(28px);
+	font-size: em(30px);
 	font-style: italic;
 	margin: 0 0 15px;
 
@@ -65,19 +52,24 @@ h2 {
 
 h3 {
 	font-size: 20px;
-	line-height: em(22px);
+	line-height: em(33px);
 	margin: ($unit / 3) 0 ($unit / 6);
+}
 
-	.case-study__body & {
-		font-weight: 600;
-		margin: 0;
-	}
+h4 {
+	font-size: 40px;
+	font-style: italic;
 }
 
 h5 {
+	font-size: em(24px);
+	font-weight: 600;
+}
+
+h6 {
 	color: $colorAccent;
 	font-family: $stack2;
-	font-size: em(13px);
+	font-size: em(16px);
 	font-weight: 600;
 	margin: 0;
 	text-transform: uppercase;
@@ -97,7 +89,7 @@ ul li,
 ul li p {
 	color: $colorTextBody;
 	font-size: em(16px);
-	line-height: em(26px);
+	line-height: em(28px);
 	margin: 0 0 ($unit / 2);
 
 	a {
@@ -117,37 +109,26 @@ ul li p {
 	&.small {
 		font-family: $stack2;
 		font-size: em(13px);
+		line-height: 24px;
 	}
-}
-
-.hp-goals p {
-	font-family: $stack2;
-	font-size: em(14px);
-	margin: 0;
-}
-
-.hp-appearances ul {
-	margin: 0; 
-	padding: 0;
-
-	li {
-		list-style-type: none;
-	}
-}
-
-.small a {
-	display: inline;
 }
 
 input {
-	background-color: #fff;
-	border: 0;
     font-family: $stack2;
-    font-size: em(13px);
-    margin: 0;
-    padding: 8px 15px 10px;
-    width: 100%;
+    font-size: em(13px);	
 }
+
+ul {
+	.hp-appearances & {
+		margin: 0; 
+		padding: 0;
+
+		li {
+			list-style-type: none;
+		}		
+	}
+}
+
 
 // .wf-loading h1,
 // .wf-loading h2,
