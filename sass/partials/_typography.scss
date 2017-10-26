@@ -8,15 +8,16 @@ html {
 }
 
 a {
-	border-bottom: 1px solid $colorLink;
 	color: $colorLink;
-    display: inline-block;
-    line-height: ($unit / 3);
 	text-decoration: none;
 
 	&:hover {
 		border-color: #fff;
 		color: $colorTextBody;
+	}
+
+	&.casestudy {
+		display: block;
 	}
 
 	@include transition;
@@ -25,6 +26,11 @@ a {
 h1, h2, h3, h4, h5, h6 {
 	color: $colorTextHeader;
 	font-weight: 300;
+
+	a {
+		border: 0;
+		display: inline;
+	}
 }
 
 h2, h3 {
@@ -45,12 +51,24 @@ h2 {
 	font-size: em(28px);
 	font-style: italic;
 	margin: 0 0 ($unit / 3);
+
+	&.darker {
+		color: $colorTextHeader;
+		text-transform: lowercase;
+	}
 }
 
 h3 {
 	font-size: 20px;
 	line-height: em(24px);
 	margin: 0 0 ($unit / 2);
+}
+
+h5 {
+	color: $colorAccent;
+	font-family: $stack2;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .h1 { @extend h1; }
@@ -70,8 +88,29 @@ ul li p {
 	line-height: em(26px);
 	margin: 0 0 ($unit / 2);
 
+	a {
+		border-bottom: 1px solid $colorLink;
+	    display: inline-block;
+    	line-height: ($unit / 3);
+	}
+
 	.hp-bio & {
 		margin: 0 ($unit / 2) ($unit / 2) ($unit / 2); 
+	}
+}
+
+.hp-goals p {
+	font-family: $stack2;
+	font-size: em(14px);
+	margin: 0;
+}
+
+.hp-appearances ul {
+	margin: 0; 
+	padding: 0;
+
+	li {
+		list-style-type: none;
 	}
 }
 

@@ -1,11 +1,103 @@
+figure {
+	margin: 0;
+
+	a {
+		border: 0;
+	}
+
+	img {
+		box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
+	}
+}
+
 .line-one {
 	background-color: $colorAccent;
 	height: 3px;
 	position: relative;
-	right: $unit;
-	top: 20px;
+		right: $unit;
+		top: 20px;
 	width: $unit / 2;
+
+	&.hp-goals__img-one {
+		float: right;
+			left: -25%;
+    		top: 20px;
+		width: 85px;
+	    z-index: 1;
+	}
 }
+
+.case-study {
+	background-color: #fff;
+	margin-bottom: $unit;
+
+	.case-study__body {
+		padding: ($unit / 2) $unit;
+	}
+}
+
+.hp-appearances {
+	margin: $unit 0 $unit * 2;
+}
+
+.hp-casestudies {
+	margin: $unit 0;
+}
+
+.hp-goals {
+	margin: 0 0 $unit 0;
+
+	img {
+		display: block;
+
+		&:hover {
+			width: 110%;
+			height: 110%;
+			position: relative;
+			left: -5%;
+			top: -5%;
+		}
+
+		@include transition;
+	}
+
+	p {
+		font-size: 12px;
+		margin: $unit 20px 0 0;
+	}
+
+	.hp-goals__single {
+		margin-bottom: $unit;
+	}
+}
+
+.hp-work {
+	background-color: $colorBGone;
+
+	.hp-work__content {
+		position: relative;
+			top: -20px;
+	}
+
+	.line-one {
+		top: 10px;
+	}
+}
+
+.overlay {
+	background-color: rgba(#000,0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+
+    &:hover {
+    	opacity: 0;
+    }
+
+    @include transition;
+}
+
 
 /*------------------------------------*\
     #Homepage
@@ -53,12 +145,16 @@
 }
 
 .hp-bio {
-	background-color: #fff;
     margin: 75% 0 0;
 	padding: $unit 0 0;
 }
 
+.hp-container {
+	background-color: #fff;
+}
+
 .hp-portrait {
+	box-shadow: 0px 0px $unit rgba($colorShadow,0.8);
 	max-width: 1000px;
 	position: fixed;
 		top: 0px;
