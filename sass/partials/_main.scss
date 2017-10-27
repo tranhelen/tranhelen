@@ -112,7 +112,7 @@ input {
 
 .hp-bio {
     margin: 75% 0 0;
-	padding: 20px 0 0;
+	padding: 40px 0 0;
 }
 
 .hp-container {
@@ -172,18 +172,23 @@ input {
 	}
 
 	.hp-work-single {
-		background-color: #fff;
 		margin-top: $unit;
 
 		.hp-work-single__body {
 			padding: 10px 20px 15px 20px;
 		}
 
-		&:hover {
-			transform: scale(1.05);
+		a {
+			background-color: #fff;
+			box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
+			display: block;
+
+			@include transition;
 		}
 
-		@include transition;
+		a:hover {
+			transform: scale(1.05);
+		}
 	}
 
 	.line-one {

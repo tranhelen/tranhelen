@@ -2190,7 +2190,7 @@ input {
 /* line 113, ../../sass/partials/_main.scss */
 .hp-bio {
   margin: 75% 0 0;
-  padding: 20px 0 0;
+  padding: 40px 0 0;
 }
 
 /* line 118, ../../sass/partials/_main.scss */
@@ -2258,32 +2258,37 @@ input {
 }
 /* line 174, ../../sass/partials/_main.scss */
 .hp-work .hp-work-single {
-  background-color: #fff;
   margin-top: 30px;
+}
+/* line 177, ../../sass/partials/_main.scss */
+.hp-work .hp-work-single .hp-work-single__body {
+  padding: 10px 20px 15px 20px;
+}
+/* line 181, ../../sass/partials/_main.scss */
+.hp-work .hp-work-single a {
+  background-color: #fff;
+  box-shadow: 0px 10px 30px rgba(121, 107, 93, 0.3);
+  display: block;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 178, ../../sass/partials/_main.scss */
-.hp-work .hp-work-single .hp-work-single__body {
-  padding: 10px 20px 15px 20px;
-}
-/* line 182, ../../sass/partials/_main.scss */
-.hp-work .hp-work-single:hover {
+/* line 189, ../../sass/partials/_main.scss */
+.hp-work .hp-work-single a:hover {
   transform: scale(1.05);
 }
-/* line 189, ../../sass/partials/_main.scss */
+/* line 194, ../../sass/partials/_main.scss */
 .hp-work .line-one {
   top: 10px;
 }
 
-/* line 194, ../../sass/partials/_main.scss */
+/* line 199, ../../sass/partials/_main.scss */
 .hp-writing {
   padding: 30px 0;
 }
 
-/* line 198, ../../sass/partials/_main.scss */
+/* line 203, ../../sass/partials/_main.scss */
 .overlay {
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -2295,7 +2300,7 @@ input {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 205, ../../sass/partials/_main.scss */
+/* line 210, ../../sass/partials/_main.scss */
 .overlay:hover {
   opacity: 0;
 }
