@@ -1,18 +1,9 @@
-#mc-embedded-subscribe {
-	background-color: $colorAccent;
-	color: #fff;
-	font-family: $stack2;
-	font-size: em(13px);
-	font-weight: 600;
-	padding: 8px 15px 10px;
-	text-align: center;
-	width: 100%;
+/*------------------------------------*\
+    #All
+\*------------------------------------*/
 
-	&:hover {
-		background-color: lighten($colorAccent,10%);
-	}
-
-	@include transition;
+body {
+	padding-bottom: 50px;
 }
 
 figure {
@@ -40,7 +31,7 @@ input {
 	height: 3px;
 	position: relative;
 		right: $unit;
-		top: 20px;
+		top: 25px;
 	width: $unit / 2;
 
 	&.hp-goals__img-one {
@@ -56,105 +47,39 @@ input {
 	}
 }
 
-.case-study {
-	background-color: #fff;
-	margin-bottom: $unit;
-
-	.case-study__body {
-		padding: 10px 20px 15px 20px;
-	}
-
-	&:hover {
-		transform: scale(1.05);
-	}
-
-	@include transition;
-}
-
-.hp-appearances {
-	margin: $unit 0 $unit * 2;
-}
-
-.hp-goals {
-	margin: 0 0 $unit 0;
-
-	img {
-		display: block;
-
-		&:hover {
-			width: 110%;
-			height: 110%;
-			position: relative;
-			left: -5%;
-			top: -5%;
-		}
-
-		@include transition;
-	}
-
-	p {
-		font-size: 12px;
-		margin: $unit 20px 0 0;
-	}
-
-	.hp-goals__single {
-		margin-bottom: $unit;
-	}
-}
-
-.hp-work {
-	background-color: $colorBGone;
-	padding-bottom: 1px;
-
-	.hp-casestudies {
-		margin: $unit 0;
-	}
-
-	.hp-work__content {
-		position: relative;
-			top: -20px;
-	}
-
-	.line-one {
-		top: 10px;
-	}
-}
-
-.hp-writing {
-	padding: $unit 0;
-}
-
 .mailing-list {
 	background-color: $colorBGone;
-	margin: ($unit / 2) 0 $unit;
-	padding: $unit 0;
+	margin: ($unit / 2) 0 50px;
+	padding: 40px 0;
 
 	input {
 		margin-bottom: ($unit / 2);
 	}
 }
 
-.overlay {
-	background-color: rgba(#000,0.3);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 3;
+#mc-embedded-subscribe {
+	background-color: $colorAccent;
+	color: #fff;
+	font-family: $stack2;
+	font-size: em(13px);
+	font-weight: 600;
+	padding: 8px 15px 10px;
+	text-align: center;
+	width: 100%;
 
-    &:hover {
-    	opacity: 0;
-    }
+	&:hover {
+		background-color: lighten($colorAccent,10%);
+	}
 
-    @include transition;
+	@include transition;
 }
-
 
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
 
 #indexbackgroundvideo { 
-	// do this so the video doesn't load when someone has a small viewport
+	// do this so the video doesn't load when someone has a small viewport, javascript takes care of not loading the asset
 	display: none;
 
 	@include at-query($one) {
@@ -179,28 +104,41 @@ input {
 .container {
 	margin: 0 $unit;
 	max-width: 730px;
+}
 
-	// @include at-query($one) {
-	// 	margin: 0 auto;
-	// 	padding: 0 50px;
-	// }
-
-	// @include at-query($two) {
-	// 	max-width: 1400px;
-	// }
-
-	// @include at-query($three) {
-	// 	padding: 0;
-	// }
+.hp-appearances {
+	margin: 50px 0;
 }
 
 .hp-bio {
     margin: 75% 0 0;
-	padding: $unit 0 0;
+	padding: 20px 0 0;
 }
 
 .hp-container {
 	background-color: #fff;
+}
+
+.hp-goals {
+	margin: 0 0 50px 0;
+
+	img {
+		display: block;
+
+		&:hover {
+			width: 110%;
+			height: 110%;
+			position: relative;
+			left: -5%;
+			top: -5%;
+		}
+
+		@include transition;
+	}
+
+	.hp-goals__single {
+		margin-bottom: $unit;
+	}
 }
 
 .hp-portrait {
@@ -219,6 +157,57 @@ input {
 	z-index: -2;
 }
 
+.hp-work {
+	background-color: $colorBGone;
+	padding-bottom: 1px;
+
+	h4 {
+		margin-bottom: 10px;
+	}
+
+	.hp-work__content {
+		padding-bottom: 20px;
+		position: relative;
+			top: -$unit;
+	}
+
+	.hp-work-single {
+		background-color: #fff;
+		margin-top: $unit;
+
+		.hp-work-single__body {
+			padding: 10px 20px 15px 20px;
+		}
+
+		&:hover {
+			transform: scale(1.05);
+		}
+
+		@include transition;
+	}
+
+	.line-one {
+		top: 10px;
+	}
+}
+
+.hp-writing {
+	padding: $unit 0;
+}
+
+.overlay {
+	background-color: rgba(#000,0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+
+    &:hover {
+    	opacity: 0;
+    }
+
+    @include transition;
+}
 
 // header {
 // 	padding: 50px 0 $unit;

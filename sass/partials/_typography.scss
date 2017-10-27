@@ -7,10 +7,6 @@ html {
 	font-family: $stack1;
 }
 
-body {
-	padding-bottom: $unit;
-}
-
 a {
 	color: $colorLink;
 	text-decoration: none;
@@ -18,6 +14,10 @@ a {
 	&:hover {
 		border-color: #fff;
 		color: $colorTextBody;
+	}
+
+	.small & {
+		display: inline;
 	}
 
 	@include transition;
@@ -34,15 +34,17 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-family: $stacksuper;
-	font-size: em(66px);
+	font-size: em(60px);
+	line-height: 1;
 	margin: 0;
 }
 
 h2 {
 	color: $colorAccent;
-	font-size: em(30px);
+	font-size: em(28px);
 	font-style: italic;
-	margin: 0 0 15px;
+	line-height: 1.36;
+	margin: 10px 0; // majority rule
 
 	&.darker {
 		color: $colorTextHeader;
@@ -51,28 +53,47 @@ h2 {
 }
 
 h3 {
-	font-size: 20px;
-	line-height: em(33px);
-	margin: ($unit / 3) 0 ($unit / 6);
+	font-size: em(20px);
+	line-height: 1.65;
+	margin: 0 0 ($unit / 2);
+
+	.hp-writing__single & {
+		margin: 0;
+	}
 }
 
 h4 {
 	font-size: 40px;
 	font-style: italic;
+	margin: 0;
 }
 
 h5 {
-	font-size: em(24px);
+	font-size: em(20px);
+	line-height: 1.5;
 	font-weight: 600;
+
+	.hp-work-single__body & {
+		margin: 0;
+	}
 }
 
 h6 {
 	color: $colorAccent;
 	font-family: $stack2;
-	font-size: em(16px);
+	font-size: em(13px);
 	font-weight: 600;
 	margin: 0;
 	text-transform: uppercase;
+
+	&.larger {
+		font-size: em(16px);
+		margin-bottom: $unit;
+	}
+
+	.hp-writing__single & {
+		margin-bottom: 10px;
+	}
 }
 
 .h1 { @extend h1; }
@@ -89,13 +110,18 @@ ul li,
 ul li p {
 	color: $colorTextBody;
 	font-size: em(16px);
-	line-height: em(28px);
+	line-height: 1.75;
 	margin: 0 0 ($unit / 2);
 
 	a {
 		border-bottom: 1px solid $colorLink;
 	    display: inline-block;
     	line-height: ($unit / 3);
+	}
+
+	footer & {
+		font-size: em(13px);
+		line-height: 1.84;
 	}
 
 	.case-study__body & {
@@ -106,10 +132,22 @@ ul li p {
 		margin: 0 ($unit / 2) ($unit / 2) ($unit / 2); 
 	}
 
+	.hp-work-single__body & {
+		margin: 0;
+	}
+
 	&.small {
 		font-family: $stack2;
 		font-size: em(13px);
 		line-height: 24px;
+	}
+}
+
+figcaption {
+	.hp-goals & {
+		margin-right: 20px;
+		position: relative;
+		top: 35px;
 	}
 }
 

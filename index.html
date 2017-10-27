@@ -94,7 +94,7 @@ layout: default
 							<p class="small" 
 							data-aos="fade-up"
 							data-aos-duration="1000"
-							data-aos-easing="ease-out-quad">07/2016–Placed 2nd in my first fitness competition, now qualified provincially</p>
+							data-aos-easing="ease-out-quad">07/2016–Placed 2nd in my first fitness competition</p>
 						</figcaption>
 					</div>
 					<div class="grid__item one-third" 
@@ -145,7 +145,7 @@ layout: default
 		data-aos-duration="1000"
 		data-aos-easing="ease-out-quad">
 		<div class="container">
-			<h6>Me, elsewhere</h6>
+			<h6 class="larger">Me, elsewhere</h6>
 			<ul>
 				<li><p>04/2017–Podcast, Trav & Los (<a href="http://www.travandlos.com/120">listen</a>)</p></li>
 				<li><p>04/2017–Podcast, Trav & Los (<a href="http://www.travandlos.com/120">listen</a>)</p></li>
@@ -171,19 +171,19 @@ layout: default
 			data-offset="50" 
 			data-aos-duration="1000"
 			data-aos-easing="ease-out-quad">
-			<h2 class="darker">Work</h2>
+			<h4>work</h4>
 			<div class="line-one"></div>
 			<p>These case studies were chosen for their breadth and depth. Meaty problems are the most fun.</p>
 			<p>I'm open to select projects as a collaborator or freelancer. <a href="http://twitter.com/tranhelen">DM me.</a></p>
 
-			<div class="hp-casestudies">
+			<div class="hp-work-group">
 				<a href="case/designpractice.html" class="casestudy" 
 					data-aos="fade-up"
 					data-aos-duration="1000"
 					data-aos-easing="ease-out-quad">
-					<div class="case-study">
+					<div class="hp-work-single">
 						<img src="img/casestudy-designpractice.jpg" alt="Shopify designers at a Retrospective" />
-						<div class="case-study__body">
+						<div class="hp-work-single__body">
 							<h5>Building a Design Practice from the Ground Up</h5>
 							<p>How we grew a team to 30 Designers</p>
 						</div>
@@ -194,9 +194,9 @@ layout: default
 					data-aos="fade-up"
 					data-aos-duration="1000"
 					data-aos-easing="ease-out-quad">
-					<div class="case-study">
+					<div class="hp-work-single">
 						<img src="img/casestudy-internships.jpg" alt="Illustration of building blocks" />
-						<div class="case-study__body">
+						<div class="hp-work-single__body">
 							<h5>A Different Way to Run Internships</h5>
 							<p>Applying design process to management</p>
 						</div>
@@ -207,9 +207,9 @@ layout: default
 					data-aos="fade-up"
 					data-aos-duration="1000"
 					data-aos-easing="ease-out-quad">
-					<div class="case-study">
+					<div class="hp-work-single">
 						<img src="img/casestudy-shopifyplatform.jpg" alt="Shopify sales channel SDK" />
-						<div class="case-study__body">
+						<div class="hp-work-single__body">
 							<h5>Feature Product to Platform Product</h5>
 							<p>How we evolved our developer ecosystem</p>
 						</div>
@@ -223,16 +223,17 @@ layout: default
 			<div data-aos="fade-up"
 				data-aos-duration="1000"
 				data-aos-easing="ease-out-quad">
-				<h2 class="darker">Writing</h2>
+				<h4>writing</h4>
 				<div class="line-one"></div>
 			</div>
 
 			{% for post in site.categories.blog limit:3 %}
-			<div data-aos="fade-up" 
+			<div class="hp-writing__single"
+				data-aos="fade-up" 
 				data-offset="50" 
 				data-aos-duration="1000"
 				data-aos-easing="ease-out-quad">
-				<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
+				<h6>{{ post.date | date:'%B %-d, %Y' }}</h6>
 				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 				<p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
 			</div>
@@ -242,7 +243,7 @@ layout: default
 				data-offset="100" 
 				data-aos-duration="1000"
 				data-aos-easing="ease-out-quad">
-				<a href="writing.html" class="h5">→ Read all articles</a>
+				<a href="writing.html" class="h6">→ Read all articles</a>
 			</div>
 		</div>
 	</section>
