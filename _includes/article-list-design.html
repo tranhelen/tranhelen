@@ -1,16 +1,25 @@
-<div class="container">
-	<div class="line-one"></div>
-	<h4>latest in design</h4>
+<section class="archive-design">
+	<div class="container">
+		<div class="archive-design__header"
+				data-aos="fade-up" 
+				data-aos-duration="1000"
+				data-aos-easing="ease-out-quad">
+			<div class="line-one"></div>
+			<h4>latest in design</h4>
+		</div>
 
-	{% for post in site.categories.design limit:4  %}
-	<div class="writing__single"
-		data-aos="fade-up" 
-		data-offset="50" 
-		data-aos-duration="1000"
-		data-aos-easing="ease-out-quad">
-		<h6>{{ post.date | date:'%B %-d, %Y' }}</h6>
-		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+		<div class="writing__group">
+			{% for post in site.categories.design limit:4  %}
+			<div class="writing__single"
+				data-aos="fade-up" 
+				data-offset="50" 
+				data-aos-duration="1000"
+				data-aos-easing="ease-out-quad">
+				<h6>{{ post.date | date:'%B %-d, %Y' }}</h6>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+				<p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+			</div>
+			{% endfor %}
+		</div>
 	</div>
-	{% endfor %}
-</div>
+</section>

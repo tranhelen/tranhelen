@@ -55,6 +55,10 @@ ul {
 	    z-index: 1;
 	}
 
+	.archive-design & {
+		top: 30px;
+	}
+
 	.hp-writing & {
 			top: 10px;
 	}
@@ -62,7 +66,7 @@ ul {
 
 .mailing-list {
 	background-color: $colorBGone;
-	margin: ($unit / 2) 0 50px;
+	margin: 40px 0 50px;
 	padding: 40px 0;
 
 	input {
@@ -210,7 +214,7 @@ ul {
 }
 
 .hp-writing {
-	padding: $unit 0;
+	padding: $unit 0 10px;
 }
 
 .overlay {
@@ -227,8 +231,26 @@ ul {
     @include transition;
 }
 
+.writing__group {
+	padding-bottom: 10px;
+}
+
 .writing__single {
 	margin-bottom: $unit;
+}
+
+/*------------------------------------*\
+    #Archives
+\*------------------------------------*/
+
+.archive-design {
+	background-color: $colorBGtwo;
+	margin: 50px 0 30px;
+
+	.archive-design__header {
+		position: relative;
+		top: -$unit;
+	}
 }
 
 // footer {

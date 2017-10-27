@@ -24,9 +24,13 @@ a {
 		background-position: left 24px;
 	}
 
-	&.h6,
 	h6 & {
+		color: $colorLink;
 		text-decoration: none;
+
+		&:hover {
+			color: $colorTextBody;
+		}
 	}
 
 	.small & {
@@ -79,12 +83,20 @@ h4 {
 	font-size: 40px;
 	font-style: italic;
 	margin: 0;
+
+	.archive-design__header & {
+		margin-bottom: -10px;
+	}
 }
 
 h5 {
 	font-size: em(20px);
 	line-height: 1.5;
 	font-weight: 600;
+
+	.hp-work-single__body & {
+		margin: 0;
+	}
 }
 
 h6 {
@@ -160,8 +172,10 @@ input {
 }
 
 ul {
+	margin: 0;
+
 	.hp-appearances & {
-		margin: 0 0 0 $unit; 
+		margin-left: 20px; 
 		padding: 0;
 
 		li {
