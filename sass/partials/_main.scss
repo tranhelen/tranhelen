@@ -18,12 +18,25 @@ figure {
 	}
 }
 
+header {
+	padding: ($unit * 2) 0;
+
+	.homepage & {
+		padding: 0;
+	}
+}
+
 input {
 	background-color: #fff;
 	border: 0;
     margin: 0;
     padding: 8px 15px 10px;
     width: 100%;
+}
+
+ul {
+	margin: 0 0 0 20px;
+	padding: 0;
 }
 
 .line-one {
@@ -214,9 +227,9 @@ input {
     @include transition;
 }
 
-// header {
-// 	padding: 50px 0 $unit;
-// }
+.writing__single {
+	margin-bottom: $unit;
+}
 
 // footer {
 // 	background-color: $colorBGdark;
