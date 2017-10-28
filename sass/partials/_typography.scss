@@ -62,7 +62,7 @@ a {
 			color: $colorTextBody;
 		}
 
-		.small & {
+		.fieldnotes & {
 			background-position: left 18px;
 
 			&:hover {
@@ -79,6 +79,9 @@ a {
 	    margin: 0 6px 0 6px;
 	    position: relative;
 	   		top: 8px;
+
+	   	.fieldnotes & {
+		   	}
 	}
 
 	& .external-box__arrow {
@@ -92,7 +95,7 @@ a {
 
 		.fieldnotes & {
 				bottom: 14px;
-				left: 4px;
+				left: 3px;
 		}
 	}
 
@@ -183,14 +186,6 @@ h6 {
 .h5 { @extend h5; }
 .h6 { @extend h6; }
 
-.post-single {
-	h1 {
-		font-size: em(40px);
-		line-height: 1.2;
-		margin: $unit 0;
-	}
-}
-
 p,
 ol li,
 ol li p,
@@ -232,6 +227,7 @@ blockquote {
 	margin: 20px 0 $unit;
 
 	p {
+		color: $colorTextHeader;
 		font-style: italic;
 		margin: 0 $unit ($unit / 2);
 	}
@@ -248,6 +244,98 @@ blockquote.large {
 		font-weight: 600;
 		line-height: 32px;
 		margin: 0;
+	}
+}
+
+
+figure {
+	margin: $unit (-$unit) $unit (-$unit);
+	
+	&.hero {
+		margin: 0 (-$unit) $unit;
+	}
+
+	&.left {
+		margin-top: $unit * 1.5;
+	}
+
+	&.sep {
+		margin: 20px -20px;
+	}
+}
+
+figcaption {
+	color: $colorTextBody;
+	font-family: $stack2;
+	font-size: em(13px);
+	line-height: 1.56;
+	margin-top: 10px;
+
+	.hp-goals & {
+		margin-right: 20px;
+		position: relative;
+			top: 20px;
+	}
+}
+
+hr {
+	border: 0;
+	border-bottom: 3px solid $colorAccent;
+	border-radius: 999px;
+	margin: ($unit / 2) auto;
+
+	&.small {
+		width: $unit;
+	}
+
+	&.noborder {
+		border-color: transparent;
+	}
+}
+
+input {
+    font-family: $stack2;
+    font-size: em(13px);	
+}
+
+pre,
+code {
+    background-color: #efefef;
+    color: #6e8b9d;
+    margin: 20px 0 $unit;
+    padding: 5px 10px;
+}
+
+code {
+	font-size: em(12px);
+
+	pre & {
+		font-size: em(14px);	
+	    line-height: 24px;
+	    padding: 0;
+	    word-wrap: break-word;
+	}
+}
+
+pre {
+	padding: 15px 20px;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+ul {
+	margin: 0;
+
+	.hp-appearances & {
+		margin-left: 20px; 
+		padding: 0;
+
+		li {
+			list-style-type: none;
+		}		
 	}
 }
 
@@ -273,45 +361,21 @@ blockquote.large {
     margin-left: -20px;
 }
 
-figcaption {
-	.hp-goals & {
-		margin-right: 20px;
-		position: relative;
-		top: 35px;
+.post-single {
+	h1 {
+		font-size: em(40px);
+		line-height: 1.2;
+		margin: $unit 0;
+	}
+
+	figure {
+		margin: 20px 0 $unit;
 	}
 }
 
-hr {
-	border: 0;
-	border-bottom: 3px solid $colorAccent;
-	border-radius: 999px;
-	margin: ($unit / 2) auto;
-
-	&.small {
-		width: $unit;
-	}
-
-	&.noborder {
-		border-color: transparent;
-	}
-}
-
-input {
-    font-family: $stack2;
-    font-size: em(13px);	
-}
-
-ul {
-	margin: 0;
-
-	.hp-appearances & {
-		margin-left: 20px; 
-		padding: 0;
-
-		li {
-			list-style-type: none;
-		}		
-	}
+#mce-success-response,
+#mce-error-response {
+	margin-bottom: 30px;
 }
 
 
@@ -333,65 +397,6 @@ ul {
 // 	visibility: visible;
 // }
 
-// pre,
-// code {
-//     background-color: #efefef;
-//     color: #6e8b9d;
-//     padding: 5px 10px;
-//     border-radius: 3px;
-// }
-
-// code {
-// 	font-size: em(12px);
-
-// 	pre & {
-// 		font-size: em(16px);	
-// 	    line-height: 24px;
-// 	    padding: 0;
-// 	    word-wrap: break-word;
-// 	}
-// }
-
-// pre {
-// 	padding: 15px 20px;
-// 	white-space: pre-wrap;       /* css-3 */
-// 	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-// 	white-space: -pre-wrap;      /* Opera 4-6 */
-// 	white-space: -o-pre-wrap;    /* Opera 7 */
-// 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
-// }
-
-// figure {
-// 	margin: $unit (-$unit) $unit (-$unit);
-// }
-
-// figure.hero {
-// 	margin: 0 (-$unit) 50px;
-// }
-
-// figure.left {
-// 	margin-top: $unit * 1.5;
-// }
-
-// figure.sep {
-// 	margin: 20px -20px;
-// }
-
-// figcaption {
-// 	color: $colorTextSubtle;
-// 	font-family: $stack2;
-// 	font-size: em(16px);
-// 	line-height: 25px;
-// 	margin: 10px $unit ($unit / 2);
-
-// 	.hero & {
-// 		margin-top: 0;
-// 	}
-
-// 	@include at-query($one) {
-// 		text-align: center;
-// 	}
-// }
 
 // input {
 // 	height: 58px;
@@ -440,9 +445,4 @@ ul {
 // 	opacity: 0.5;
 
 // 	@include transition;
-// }
-
-// #mce-success-response,
-// #mce-error-response {
-// 	margin-bottom: 30px;
 // }
