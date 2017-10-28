@@ -41,6 +41,44 @@ a {
 		background-position: left 16px;
 	}
 
+	&.alt {
+		color: $colorLink;
+	}
+
+	&.external {
+    	color: #000000;
+	}
+
+	& .external-box {
+	    display: inline-block;
+	    border: 1px solid $colorAccent;
+	    height: 13px;
+	    width: 11px;
+	    margin: 0 6px 0 3px;
+	    position: relative;
+	    bottom: -6px;
+
+	    .fieldnotes & {
+	    	top: 8px;
+	    }
+	}
+
+	& .external-box__arrow {
+		color: $colorAccent;
+		font-size: em(10px);
+	    font-weight: bold;
+	    margin: 0 0 -2px 0;
+	    position: relative;
+	    bottom: 13px;
+	    left: 2px;
+
+	    .fieldnotes & {
+	    	font-size: em(16px);
+	    	bottom: 12px;
+	    	left: 0;
+	    }
+	}
+
 	@include transition;
 }
 
@@ -205,56 +243,6 @@ ul {
 // .wf-active h5,
 // .wf-active p {
 // 	visibility: visible;
-// }
-
-
-// 	&.external {
-//     	color: #000000;
-// 	}
-
-// 	& .external-body {
-// 		background: url(/img/linkunderline.png) repeat-x;
-//     	background-size: 6px;
-//     	background-position: 0 25px;
-
-// 		.fieldnotes & {
-// 			background: url(/img/linkunderline.png) repeat-x;
-// 		    background-size: 6px;
-//     		background-position: 0 22px;
-// 		}
-// 	}
-
-// 	& .external-box {
-// 	    display: inline-block;
-// 	    border: 1px solid $colorAccent;
-// 	    height: 13px;
-// 	    width: 11px;
-// 	    margin: 0 6px 0 3px;
-// 	    position: relative;
-// 	    bottom: -6px;
-
-// 	    .fieldnotes & {
-// 	    	top: 8px;
-// 	    }
-// 	}
-
-// 	& .external-box__arrow {
-// 		color: $colorAccent;
-// 		font-size: em(10px);
-// 	    font-weight: bold;
-// 	    margin: 0 0 -2px 0;
-// 	    position: relative;
-// 	    bottom: 13px;
-// 	    left: 2px;
-
-// 	    .fieldnotes & {
-// 	    	font-size: em(16px);
-// 	    	bottom: 12px;
-// 	    	left: 0;
-// 	    }
-// 	}
-
-// 	@include transition;
 // }
 
 // blockquote {

@@ -1,17 +1,23 @@
-<div class="grid">
-	<div class="grid__item one-third">
-		{% if page.previous %}
-		<a href="{{ page.previous.url }}" class="alarming"><span class="picker-upper">&#8592;</span> Prev</a>
-		{% else %}
-		&nbsp;
-		{% endif %}
-	</div>
-	<div class="grid__item one-third text-center">
-		<a href="/">Home</a>
-	</div>
-	<div class="grid__item one-third text-right">
-		{% if page.next %}
-			<a href="{{ page.next.url }}" class="alarming">Next <span class="picker-upper">&#8594;</span></a>
-		{% endif %}
+<div class="navigation" data-aos="fade-up" 
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-quad">
+	<div class="container">
+		<div class="grid">
+			<div class="grid__item one-third">
+				{% if page.previous %}
+				<span class="picker-upper">&#8592;</span> <a href="{{ page.previous.url }}" class="h6 alt">Prev</a>
+				{% else %}
+				&nbsp;
+				{% endif %}
+			</div>
+			<div class="grid__item one-third text-center">
+				<a href="/" class="h6 alt">Home</a>
+			</div>
+			<div class="grid__item one-third text-right">
+				{% if page.next %}
+					<a href="{{ page.next.url }}" class="h6 alt">Next</a> <span class="picker-upper">&#8594;</span>
+				{% endif %}
+			</div>
+		</div>
 	</div>
 </div>

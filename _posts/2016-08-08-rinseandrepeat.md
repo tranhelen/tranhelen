@@ -4,7 +4,7 @@ date: 2016-08-08 00:00:00 Z
 categories:
 - blog
 - design
-layout: post-custom
+layout: post
 ---
 
 <div class="grid grid--full">

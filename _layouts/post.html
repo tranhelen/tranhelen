@@ -1,36 +1,52 @@
-    {% include header.html %}
+{% include header.html %}
 
-    <body>
+{% include navigation.html %}
 
-      {% include navigation.html %}
+<div class="post-single">
+	<div class="container">
 
-      <h5>{{ page.date | date:'%B %-d, %Y' }}</h5>
-      <p><i>Categorized under '<a href="writing-category-{{ page.categories | last }}.html">{{ page.categories | last }}</a>'</i></p>
+		<div 
+			data-aos="fade-up" 
+			data-aos-duration="1000"
+			data-aos-easing="ease-out-quad">
+			<h6>{{ page.date | date:'%B %-d, %Y' }}</h6>
+			<p><em>Categorized under '<a href="writing-category-{{ page.categories | last }}.html">{{ page.categories | last }}</a>'</em></p>
+		</div>
 
-      {% if page.hero %}
-        <figure class="hero">
-          <img src="/img/post/{{ page.hero }}">
-          {% if page.hero_caption %}
-            <figcaption>{{ page.hero_caption }}</figcaption>
-          {% else %}
-            <p>&nbsp;</p>
-          {% endif %}
-        </figure>
-      {% endif %}
-      
-      {% include post-header.html %}
+		{% if page.hero %}
+		<figure class="hero" 
+			data-aos="fade-up" 
+			data-aos-duration="1000"
+			data-aos-easing="ease-out-quad">
+			<img src="/img/post/{{ page.hero }}">
+			{% if page.hero_caption %}
+				<figcaption>{{ page.hero_caption }}</figcaption>
+			{% else %}
+				<p>&nbsp;</p>
+			{% endif %}
+		</figure>
+		{% endif %}
 
-      {{ content }}
+		<h1 
+		data-aos="fade-up" 
+		data-aos-duration="1000"
+		data-aos-easing="ease-out-quad">{{ page.title }}</h1>
 
-      {% include navigation.html %}
-    
-    {% include article-list-design.html %}
+		<div class="post-single__body" 
+			data-aos="fade-up" 
+			data-aos-duration="1000"
+			data-aos-easing="ease-out-quad">
+			{{ content }}
+		</div>
+	</div>
+</div>
 
-    {% include article-list-popular.html %}
+{% include navigation.html %}
 
-    {% include article-list-topic.html %}
+{% include article-list-design.html %}
 
+{% include article-list-popular.html %}
 
-    </body>
+{% include article-list-topic.html %}
 
-    {% include footer.html %}
+{% include footer.html %}
