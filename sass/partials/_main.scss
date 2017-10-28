@@ -262,6 +262,10 @@ ul {
     @include transition;
 }
 
+.post-single {
+	margin-bottom: $unit;
+}
+
 .writing__group {
 	padding-bottom: 10px;
 }

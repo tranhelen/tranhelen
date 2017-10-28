@@ -2055,7 +2055,14 @@ h6 .alt, .h6 .alt {
   margin-bottom: 10px;
 }
 
-/* line 169, ../../sass/partials/_typography.scss */
+/* line 170, ../../sass/partials/_typography.scss */
+.post-single h1, .post-single .h1 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin: 30px 0;
+}
+
+/* line 177, ../../sass/partials/_typography.scss */
 p,
 ol li,
 ol li p,
@@ -2066,7 +2073,7 @@ ul li p {
   line-height: 1.75;
   margin: 0 0 15px;
 }
-/* line 179, ../../sass/partials/_typography.scss */
+/* line 187, ../../sass/partials/_typography.scss */
 footer p, footer
 ol li, footer
 ol li p, footer
@@ -2075,7 +2082,7 @@ ul li p {
   font-size: 0.8125em;
   line-height: 1.84;
 }
-/* line 184, ../../sass/partials/_typography.scss */
+/* line 192, ../../sass/partials/_typography.scss */
 .case-study__body p, .case-study__body
 ol li, .case-study__body
 ol li p, .case-study__body
@@ -2083,7 +2090,7 @@ ul li, .case-study__body
 ul li p {
   margin: 0;
 }
-/* line 188, ../../sass/partials/_typography.scss */
+/* line 196, ../../sass/partials/_typography.scss */
 .hp-bio p, .hp-bio
 ol li, .hp-bio
 ol li p, .hp-bio
@@ -2091,7 +2098,7 @@ ul li, .hp-bio
 ul li p {
   margin: 0 15px 15px 15px;
 }
-/* line 192, ../../sass/partials/_typography.scss */
+/* line 200, ../../sass/partials/_typography.scss */
 .hp-work-single__body p, .hp-work-single__body
 ol li, .hp-work-single__body
 ol li p, .hp-work-single__body
@@ -2099,7 +2106,7 @@ ul li, .hp-work-single__body
 ul li p {
   margin: 0;
 }
-/* line 196, ../../sass/partials/_typography.scss */
+/* line 204, ../../sass/partials/_typography.scss */
 p.small,
 ol li.small,
 ol li p.small,
@@ -2110,29 +2117,72 @@ ul li p.small {
   line-height: 24px;
 }
 
-/* line 204, ../../sass/partials/_typography.scss */
+/* line 211, ../../sass/partials/_typography.scss */
+blockquote {
+  border: 3px solid #eaeff2;
+  border-width: 0 0 0 3px;
+  margin: 20px 0 30px;
+}
+/* line 216, ../../sass/partials/_typography.scss */
+blockquote p {
+  font-style: italic;
+  margin: 0 30px 15px;
+}
+
+/* line 222, ../../sass/partials/_typography.scss */
+blockquote.large {
+  border: 0;
+  padding: 0;
+  margin: 30px 0;
+}
+/* line 227, ../../sass/partials/_typography.scss */
+blockquote.large p {
+  font-size: 1.375em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 0;
+}
+
+/* line 237, ../../sass/partials/_typography.scss */
 .hp-goals figcaption {
   margin-right: 20px;
   position: relative;
   top: 35px;
 }
 
-/* line 211, ../../sass/partials/_typography.scss */
+/* line 244, ../../sass/partials/_typography.scss */
+hr {
+  border: 0;
+  border-bottom: 3px solid #d0a233;
+  border-radius: 999px;
+  margin: 15px auto;
+}
+/* line 250, ../../sass/partials/_typography.scss */
+hr.small {
+  width: 30px;
+}
+/* line 254, ../../sass/partials/_typography.scss */
+hr.noborder {
+  border-color: transparent;
+}
+
+/* line 259, ../../sass/partials/_typography.scss */
 input {
   font-family: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em;
 }
 
-/* line 216, ../../sass/partials/_typography.scss */
+/* line 264, ../../sass/partials/_typography.scss */
 ul {
   margin: 0;
 }
-/* line 219, ../../sass/partials/_typography.scss */
+/* line 267, ../../sass/partials/_typography.scss */
 .hp-appearances ul {
   margin-left: 20px;
   padding: 0;
 }
-/* line 223, ../../sass/partials/_typography.scss */
+/* line 271, ../../sass/partials/_typography.scss */
 .hp-appearances ul li {
   list-style-type: none;
 }
@@ -2431,11 +2481,16 @@ ul {
 }
 
 /* line 265, ../../sass/partials/_main.scss */
+.post-single {
+  margin-bottom: 30px;
+}
+
+/* line 269, ../../sass/partials/_main.scss */
 .writing__group {
   padding-bottom: 10px;
 }
 
-/* line 269, ../../sass/partials/_main.scss */
+/* line 273, ../../sass/partials/_main.scss */
 .writing__single {
   margin-bottom: 30px;
 }
@@ -2443,12 +2498,12 @@ ul {
 /*------------------------------------*\
     #Archives
 \*------------------------------------*/
-/* line 277, ../../sass/partials/_main.scss */
+/* line 281, ../../sass/partials/_main.scss */
 .archive-design {
   background-color: #f6fafc;
   margin: 50px 0 30px;
 }
-/* line 281, ../../sass/partials/_main.scss */
+/* line 285, ../../sass/partials/_main.scss */
 .archive-design .archive-design__header {
   position: relative;
   top: -30px;
