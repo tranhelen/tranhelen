@@ -39,8 +39,7 @@ ul {
 	padding: 0;
 }
 
-.bg-watercolour {
-	background-image: url(/img/bg-watercolour.svg);
+.header-bg-watercolour {
 	background-repeat: no-repeat;
     height: 50px;
     position: relative;
@@ -48,6 +47,14 @@ ul {
 	    left: 30px;
     width: 160%;
     z-index: -1;
+
+	&.--writing {
+		background-image: url(/img/bg-watercolour-writing.svg);
+	}
+
+	&.--writing-archives {
+		background-image: url(/img/bg-watercolour-writing-archives.svg);	
+	}
 }
 
 .line-one {
@@ -73,6 +80,15 @@ ul {
 	.hp-writing & {
 			top: 10px;
 	}
+}
+
+.line-two {
+	background-color: $colorAccentTwo;
+	height: 3px;
+	position: relative;
+		right: $unit;
+		top: 25px;
+	width: $unit / 2;
 }
 
 .mailing-list {

@@ -3,48 +3,92 @@ title: Full Archives
 layout: subpage
 ---
 
-<div class="container">
-	<h1>Full Archive</h1>
-	<h2>All posts listed by year</h2>
 
-	<h2>2017</h2>
+<header data-aos="fade-up" 
+	data-offset="50" 
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-quad">
+	<div class="container">
+		<div class="header-bg-watercolour --writing-archives"></div>
+		<h1>Full Archive</h1>
+		<div class="line-one"></div>
+		<h2>All posts listed by year</h2>
+	</div>
+</header>
 
-	{% for post in site.posts %}
-		{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-		{% if year == "2017" %}
-			<h5>{{ post.date | date:'%B %-d' }} {{ post.categories | last }}</h5>
-			<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		{% endif %}
-	{% endfor %}
+<section class="fullarchive-2017"
+	data-aos="fade-up" 
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-quad">
+	<div class="container">
+		<div class="line-two"></div>
+		<h4>2017</h4>
 
-	<h2>2016</h2>
+		{% for post in site.posts %}
+			{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+			{% if year == "2017" %}
+			<div class="writing__single">
+				<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
+<section class="fullarchive-2016"
+	data-aos="fade-up" 
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-quad">
+	<div class="container">
+		<div class="line-one"></div>
+		<h4>2016</h4>
 
-	{% for post in site.posts %}
-		{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-		{% if year == "2016" %}
-			<h5>{{ post.date | date:'%B %-d' }} {{ post.categories | last }}</h5>
-			<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		{% endif %}
-	{% endfor %}
+		{% for post in site.posts %}
+			{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+			{% if year == "2016" %}
+			<div class="writing__single">
+				<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
+<section class="fullarchive-2015"
+	data-aos="fade-up" 
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-quad">
+	<div class="container">
+		<div class="line-two"></div>
+		<h4>2015</h4>
 
-	<h2>2015</h2>
+		{% for post in site.posts %}
+			{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+			{% if year == "2015" %}
+			<div class="writing__single">
+				<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
+<section class="fullarchive-2014"
+	data-aos="fade-up" 
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-quad">
+	<div class="container">
+		<div class="line-one"></div>
+		<h4>2014</h4>
 
-	{% for post in site.posts %}
-		{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-		{% if year == "2015" %}
-			<h5>{{ post.date | date:'%B %-d' }} {{ post.categories | last }}</h5>
-			<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		{% endif %}
-	{% endfor %}
-
-	<h2>2014</h2>
-
-	{% for post in site.posts %}
-		{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
-		{% if year == "2014" %}
-			<h5>{{ post.date | date:'%B %-d' }} {{ post.categories | last }}</h5>
-			<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		{% endif %}
-	{% endfor %}
-
-</div>
+		{% for post in site.posts %}
+			{% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+			{% if year == "2014" %}
+			<div class="writing__single">
+				<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>
