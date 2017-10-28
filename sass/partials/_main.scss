@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 body {
+	overflow-x: hidden;
 	padding-bottom: 50px;
 }
 
@@ -115,7 +116,7 @@ ul {
 
 .mailinglist__form {
 	background-color: $colorBGone;
-	padding: ($unit / 3) 0 $unit;
+	padding: ($unit / 3) 0 20px;
 
 	input {
 		margin-bottom: ($unit / 2);
@@ -322,13 +323,35 @@ ul {
 \*------------------------------------*/
 
 .archive-design {
-	background-color: $colorBGtwo;
-	margin: 50px 0 30px;
+	background-image: url('/img/bg-watercolour-designarchive.svg');
+	background-repeat: no-repeat;
+    background-position-x: 50%;;
+	background-size: 396%;	
+	margin: 50px 0 $unit;
+	padding-bottom: $unit / 3;
 
 	.archive-design__header {
 		position: relative;
 		top: -$unit;
 	}
+}
+
+.fullarchive-2016 {
+	background-image: url('/img/bg-watercolour-archive2016mobile.svg');
+	background-repeat: no-repeat;
+    background-position-x: -20px;
+	background-size: 200%;	
+	margin: 50px 0 $unit;
+	padding-bottom: $unit / 3;
+}
+
+.fullarchive-2014 {
+	background-image: url('/img/bg-watercolour-archive2014.svg');
+	background-repeat: no-repeat;
+    background-position: -20px 20px;
+	background-size: 300%;
+	margin: 50px 0 $unit;
+	padding-bottom: $unit / 2;
 }
 
 // footer {
