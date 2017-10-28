@@ -73,5 +73,5 @@ Tune in next week for how to prep your portfolio and the interview process. If y
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> If this is you, check out Erika Hall's <a href="https://abookapart.com/products/just-enough-research" class="external" target="_blank">&#8220;<span class="external-body"><em>Just Enough Research</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> If this is you, check out Erika Hall's <a href="https://abookapart.com/products/just-enough-research" class="external" target="_blank">&#8220;<span class="external-body"><em>Just Enough Research</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

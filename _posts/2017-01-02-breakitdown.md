@@ -84,5 +84,5 @@ You won't get perfection, which is what user testing will tell you inevitably, b
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> John Gall, <a href="http://www.amazon.com/gp/product/0961825170/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0961825170&linkCode=as2&tag=heltraprodes-20&linkId=OSDRIO2RM32JGGKB" class="external" target="_blank">&#8220;<span class="external-body"><em>The Systems Bible</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 1925</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> John Gall, <a href="http://www.amazon.com/gp/product/0961825170/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0961825170&linkCode=as2&tag=heltraprodes-20&linkId=OSDRIO2RM32JGGKB" class="external" target="_blank">&#8220;<span class="external-body"><em>The Systems Bible</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 1925</p>
 </div>

@@ -218,7 +218,8 @@ ul li p {
 		margin: 0;
 	}
 
-	&.small {
+	&.small,
+	.fieldnotes & {
 		font-family: $stack2;
 		font-size: em(13px);
 		line-height: 24px;

@@ -32,5 +32,5 @@ The silhouette was only half right. The world has no boundaries except for the o
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This actually happened. I know… it sounds like I made it up. It’s fucking ridiculous.</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This actually happened. I know… it sounds like I made it up. It’s fucking ridiculous.</p>
 </div>

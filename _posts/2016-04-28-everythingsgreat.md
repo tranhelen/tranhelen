@@ -31,5 +31,5 @@ You have to be willing to admit there's a problem to begin with and remove your 
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> To be fair, if the housing market is built on toothpicks and no one wants to say anything about it because they're getting rich, you probably have good reason to be pretty angry.</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> To be fair, if the housing market is built on toothpicks and no one wants to say anything about it because they're getting rich, you probably have good reason to be pretty angry.</p>
 </div>

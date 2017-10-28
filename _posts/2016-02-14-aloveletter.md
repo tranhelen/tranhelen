@@ -20,5 +20,5 @@ So, I've toned it down. It seemed like the only thing to do.
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> If you're so inclined, <a href="https://dribbble.com/shots/2047524-V5-0-Website-Redesign" class="external" target="_blank"><span class="external-body">here it is</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> If you're so inclined, <a href="https://dribbble.com/shots/2047524-V5-0-Website-Redesign" class="external" target="_blank"><span class="external-body">here it is</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

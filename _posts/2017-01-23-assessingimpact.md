@@ -211,5 +211,5 @@ If you're scaling a Design team, I'd love to hear what you're doing.<a id="ancho
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> <a href="https://www.twitter.com/tranhelen" class="external" target="_blank"><span class="external-body">Talk to me on Twitter</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> <a href="https://www.twitter.com/tranhelen" class="external" target="_blank"><span class="external-body">Talk to me on Twitter</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>
