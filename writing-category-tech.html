@@ -3,39 +3,34 @@ title: Writing
 layout: subpage
 ---
 
-<div class="container">
-	<div class="grid grid--full">
+<header data-aos="fade-up" 
+	data-offset="50" 
+	data-aos-duration="1000"
+	data-aos-easing="ease-out-quad">
+	<div class="container">
+		<div class="header-bg-watercolour --writing-archives"></div>
 		<h1>Archive</h1>
+		<div class="line-one"></div>
 		<h2>All posts categorized as "Tech"</h2>
 	</div>
+</header>
 
+<div class="container">
 	{% for post in site.categories.tech %}
-
-    <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.categories | last }}">
-		<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		<p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+	<div class="writing__single"
+		data-aos="fade-up" 
+		data-offset="50" 
+		data-aos-duration="1000"
+		data-aos-easing="ease-out-quad">
+		<h6>{{ post.date | date:'%B %-d, %Y' }}</h6>
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		<p>{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
 	</div>
-
 	{% endfor %}
-
-	<h2>Latest posts</h2>
-
-	{% for post in site.categories.blog limit:4  %}
-
-    <div class="post-listing__single{% if forloop.last %} last{% endif %} {{ post.categories | last }}">
-		<h5>{{ post.date | date:'%B %-d, %Y' }}</h5>
-		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-		<p>{{ post.excerpt | strip_html |  truncatewords: 25 }}</p>
-	</div>
-
-	{% endfor %}
-
-	<a href="writing-archives.html">Full archive</a>
-
-	{% include article-list-popular.html %}
-
-	<h2>By topic</h2>
-	
-	<p>View all in one category: <a href="writing-category-design.html">Design</a>, <a href="writing-category-leadership.html">Leadership</a>, Tech, <a href="writing-category-life.html">Life</a>, <a href="writing-category-creative.html">Creative</a>, <a href="writing-category-website.html">Website</a></p>
 </div>
+
+{% include article-list-design.html %}
+
+{% include article-list-popular.html %}
+
+{% include article-list-topic.html %}
