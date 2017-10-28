@@ -26,6 +26,24 @@ header {
 	}
 }
 
+footer {
+	header,
+	footer {
+		background-repeat: no-repeat;
+	    background-size: cover;
+		height: $unit;
+	}
+
+	header {
+		background-image: url('/img/bg-watercolour-footer.svg');
+	}
+
+	footer {
+		background-image: url('/img/bg-watercolour-footerft.svg');
+	    margin-top: -10px;
+	}
+}
+
 input {
 	background-color: #fff;
 	border: 0;
@@ -91,14 +109,21 @@ ul {
 	width: $unit / 2;
 }
 
-.mailing-list {
-	background-color: $colorBGone;
+.mailinglist {
 	margin: 40px 0 50px;
-	padding: 40px 0;
+}
+
+.mailinglist__form {
+	background-color: $colorBGone;
+	padding: ($unit / 3) 0 $unit;
 
 	input {
 		margin-bottom: ($unit / 2);
 	}
+}
+
+.mailinglist__content {
+	margin-top: 40px;
 }
 
 .navigation {
