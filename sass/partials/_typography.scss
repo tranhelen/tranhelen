@@ -222,8 +222,8 @@ ul li p {
 }
 
 blockquote {
-	border: 3px solid $selection;
-	border-width: 0 0 0 3px;
+	border: 5px solid $selection;
+	border-width: 0 0 0 5px;
 	margin: 20px 0 $unit;
 
 	p {
@@ -282,7 +282,7 @@ hr {
 	border: 0;
 	border-bottom: 3px solid $colorAccent;
 	border-radius: 999px;
-	margin: ($unit / 2) auto;
+	margin: $unit auto;
 
 	&.small {
 		width: $unit;
@@ -363,9 +363,23 @@ ul {
 
 .post-single {
 	h1 {
-		font-size: em(40px);
+		font-size: em(45px);
 		line-height: 1.2;
 		margin: $unit 0;
+	}
+
+	h2 {
+		color: $colorTextHeader;
+		font-size: em(35px);
+		font-style: normal;
+		font-weight: 600;
+		margin-top: $unit;
+	}
+
+	h3 {
+		font-size: em(30px);
+		line-height: 1.33;
+		margin: ($unit / 2) 0;
 	}
 
 	figure {

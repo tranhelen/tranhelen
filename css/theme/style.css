@@ -2135,8 +2135,8 @@ ul li p {
 
 /* line 224, ../../sass/partials/_typography.scss */
 blockquote {
-  border: 3px solid #eaeff2;
-  border-width: 0 0 0 3px;
+  border: 5px solid #eaeff2;
+  border-width: 0 0 0 5px;
   margin: 20px 0 30px;
 }
 /* line 229, ../../sass/partials/_typography.scss */
@@ -2198,7 +2198,7 @@ hr {
   border: 0;
   border-bottom: 3px solid #d0a233;
   border-radius: 999px;
-  margin: 15px auto;
+  margin: 30px auto;
 }
 /* line 287, ../../sass/partials/_typography.scss */
 hr.small {
@@ -2292,16 +2292,30 @@ ul {
 
 /* line 365, ../../sass/partials/_typography.scss */
 .post-single h1, .post-single .h1 {
-  font-size: 2.5em;
+  font-size: 2.8125em;
   line-height: 1.2;
   margin: 30px 0;
 }
 /* line 371, ../../sass/partials/_typography.scss */
+.post-single h2, .post-single .h2 {
+  color: #394047;
+  font-size: 2.1875em;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 30px;
+}
+/* line 379, ../../sass/partials/_typography.scss */
+.post-single h3, .post-single .h3 {
+  font-size: 1.875em;
+  line-height: 1.33;
+  margin: 15px 0;
+}
+/* line 385, ../../sass/partials/_typography.scss */
 .post-single figure {
   margin: 20px 0 30px;
 }
 
-/* line 376, ../../sass/partials/_typography.scss */
+/* line 390, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin-bottom: 30px;
