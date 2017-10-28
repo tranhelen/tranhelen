@@ -206,17 +206,35 @@ ul {
 }
 
 .hp-work {
-	background-color: $colorBGone;
 	padding-bottom: 1px;
 
 	h4 {
-		margin-bottom: 10px;
+		margin-bottom: $unit / 3;
+	}
+
+	header,
+	footer {
+		background-repeat: no-repeat;
+	    background-size: cover;
+		height: $unit;
+	}
+
+	header {
+		background-image: url('/img/bg-watercolour-hpwork.svg');
+	}
+
+	footer {
+		background-image: url('/img/bg-watercolour-hpworkfooter.svg');
+	    margin-top: -30px;
+	}
+
+	.hp-work__body {
+		background-color: $colorBGone;
 	}
 
 	.hp-work__content {
-		padding-bottom: 20px;
 		position: relative;
-			top: -$unit;
+			top: -55px;
 	}
 
 	.hp-work-single {
@@ -240,12 +258,12 @@ ul {
 	}
 
 	.line-one {
-		top: 10px;
+			top: $unit / 3;
 	}
 }
 
 .hp-writing {
-	padding: $unit 0 10px;
+	padding: $unit 0 ($unit / 3);
 }
 
 .overlay {
@@ -267,7 +285,7 @@ ul {
 }
 
 .writing__group {
-	padding-bottom: 10px;
+	padding-bottom: ($unit / 3);
 }
 
 .writing__single {
