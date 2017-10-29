@@ -20,7 +20,7 @@ redirect_from:
 	{% for post in site.categories.blog limit:9  %}
 	<div class="writing__single"
 		data-aos="fade-up" 
-		data-offset="50" 
+		data-aos-offset="50" 
 		data-aos-duration="1000"
 		data-aos-easing="ease-out-quad">
 		<h6>{{ post.date | date:'%B %-d, %Y' }}</h6>
@@ -30,7 +30,7 @@ redirect_from:
 	{% endfor %}
 
 	<div data-aos="fade-up" 
-		data-offset="100" 
+		data-aos-offset="100" 
 		data-aos-duration="1000"
 		data-aos-easing="ease-out-quad">
 		<h6>→ <a href="writing-archives.html">View all articles</a></h6>

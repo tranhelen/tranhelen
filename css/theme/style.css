@@ -2905,9 +2905,11 @@ ul {
 .stage3-images figure {
   float: left;
   margin: 20px 0 0 0;
+  position: relative;
   width: 20%;
+  z-index: 1;
 }
-/* line 482, ../../sass/partials/_main.scss */
+/* line 484, ../../sass/partials/_main.scss */
 .stage3-images .stage3-images__body {
   float: right;
   padding-left: 30px;
@@ -2923,7 +2925,7 @@ ul {
   clear: both;
 }
 
-/* line 491, ../../sass/partials/_main.scss */
+/* line 493, ../../sass/partials/_main.scss */
 .tag {
   background-color: #d0a233;
   color: #fff;
@@ -2939,7 +2941,7 @@ ul {
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
-/* line 507, ../../sass/partials/_main.scss */
+/* line 509, ../../sass/partials/_main.scss */
 .book-cover {
   background-image: none;
   margin-bottom: 15px;

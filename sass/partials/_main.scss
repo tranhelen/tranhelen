@@ -476,7 +476,9 @@ ul {
 	figure {
 		float: left;
 		margin: 20px 0 0 0;
+		position: relative;
 		width: 20%;
+    	z-index: 1;
 	}
 
 	.stage3-images__body {
