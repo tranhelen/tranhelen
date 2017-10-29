@@ -22,6 +22,10 @@ figure {
 		margin: 0 (-$unit) $unit;
 	}
 
+	&.hp-goals-image {
+		margin: 0;
+	}
+
 	&.left {
 		margin-top: $unit * 1.5;
 	}
@@ -75,17 +79,33 @@ ul {
 	background-repeat: no-repeat;
     height: 50px;
     position: relative;
-	    top: 90px;
 	    left: 30px;
+	    top: 90px;
     width: 160%;
     z-index: -1;
 
 	&.--writing {
-		background-image: url(/img/bg-watercolour-writing.svg);
+		background-image: url('/img/bg-watercolour-writing.svg');
 	}
 
 	&.--writing-archives {
-		background-image: url(/img/bg-watercolour-writing-archives.svg);	
+		background-image: url('/img/bg-watercolour-writing-archives.svg');	
+	}
+
+	&.--cs1-stage3 {
+		background-image: url('/img/casestudy/1-bg-watercolour-header-stage3.svg');	
+    		left: -40px;
+		    top: 30px;
+
+		&.--b {
+    		left: -20px;
+		    top: 35px;
+		}
+
+		&.--c {
+    		left: -60px;
+		    top: 20px;
+		}
 	}
 }
 
@@ -425,6 +445,22 @@ ul {
 		border: 5px solid #fff;
 		padding: 20px 10px 20px 30px;
 	}
+}
+
+.stage3-images {
+	figure {
+		float: left;
+		margin: 20px 0 0 0;
+		width: 20%;
+	}
+
+	.stage3-images__body {
+		float: right;
+    	padding-left: 30px;
+		width: 80%;
+	}
+
+	@include clearfix;
 }
 
 .tag {
