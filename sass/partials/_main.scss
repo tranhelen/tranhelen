@@ -8,7 +8,7 @@ body {
 }
 
 figure {
-	margin: 0;
+	margin: 20px 0 30px 0;
 
 	a {
 		border: 0;
@@ -16,6 +16,18 @@ figure {
 
 	img {
 		box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
+	}
+
+	&.hero {
+		margin: 0 (-$unit) $unit;
+	}
+
+	&.left {
+		margin-top: $unit * 1.5;
+	}
+
+	&.sep {
+		margin: 20px -20px;
 	}
 }
 
@@ -30,7 +42,8 @@ header {
 footer {
 	header,
 	footer {
-		background-repeat: no-repeat;
+	    background-position-x: 50%;
+	    background-repeat: no-repeat;
 	    background-size: cover;
 		height: $unit;
 	}
@@ -93,7 +106,15 @@ ul {
 	}
 
 	.archive-design & {
-		top: 30px;
+			top: 30px;
+	}
+
+	.casestudy & {
+			top: 15px;
+	}
+
+	.hp-work & {
+		top: $unit / 3;
 	}
 
 	.hp-writing & {
@@ -129,6 +150,26 @@ ul {
 
 .navigation {
 	margin: ($unit / 2) 0;
+}
+
+.toc {
+	margin: 20px 0 $unit -20px;
+
+	h6 {
+		margin: 0 0 ($unit / 3) 20px;
+	}
+}
+
+.toc-list {
+	margin: 0;
+
+	li {
+		margin: 0;
+	}
+
+	.bullet {
+		color: $colorAccent;
+	}
 }
 
 #mc-embedded-subscribe {
@@ -263,30 +304,28 @@ ul {
 			top: -55px;
 	}
 
-	.hp-work-single {
-		margin-top: $unit;
+}
 
-		.hp-work-single__body {
-			padding: 10px 20px 15px 20px;
-		}
+.hp-work-single {
+	margin-top: $unit;
 
-		a {
-			background-color: #fff;
-			box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
-			display: block;
-
-			@include transition;
-		}
-
-		a:hover {
-			transform: scale(1.05);
-		}
+	.hp-work-single__body {
+		padding: 10px 20px 15px 20px;
 	}
 
-	.line-one {
-			top: $unit / 3;
+	a {
+		background-color: #fff;
+		box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
+		display: block;
+
+		@include transition;
+	}
+
+	a:hover {
+		transform: scale(1.05);
 	}
 }
+
 
 .hp-writing {
 	padding: $unit 0 ($unit / 3);
@@ -354,78 +393,6 @@ ul {
 	padding-bottom: $unit / 2;
 }
 
-// footer {
-// 	background-color: $colorBGdark;
-// 	padding: $unit;
-
-// 	@include at-query($one) {
-// 		text-align: center;
-// 	}
-
-// 	@include at-query($two) {
-// 		padding: 50px 0;
-// 	}
-// }
-
-// section {
-// 	padding: 50px 0;
-// }
-
-// .bio {
-// 	background: $colorBGdark url('/img/header-background2.jpg');
-// 	background-size: cover;
-// 	padding: 60px 0 90px;
-// 	position: relative;
-// 	width: 100%;
-
-// 	&::after{
-// 	  background: white;
-// 	  bottom: 0px;
-// 	  content: '';
-// 	  height: 70px;
-// 	  position: absolute;
-// 	  transform-origin: left bottom;
-// 	  transform: skewY(4deg);
-// 	  width: 100%;
-// 	  z-index: 1;
-// 	}
-
-// 	@include at-query($two) {
-// 		background-position: 50% -80px;
-// 		padding: 100px 0 235px;
-
-// 		&::after {
-// 			height: 200px;
-// 		}
-// 	}
-// }
-
-// .bio__content {
-// 	@include at-query($two) {
-// 		position: relative;
-// 		z-index: 2;
-// 	}
-// }
-
-// .bio__text {
-// 	@include at-query($two) {
-// 		position: relative;
-// 		z-index: 1;
-// 		width: 50%;		
-// 		padding-top: 100px;
-// 	}
-// }
-
-// .bio__portrait {
-// 	position: absolute;
-// 	background: 50% url('/img/header-portrait2.jpg') no-repeat;
-// 	background-size: cover;
-// 	z-index: 1;
-// 	right: 0;
-// 	height: 710px;
-// 	width: 80%;
-// }
-
 // .homepage-articles {
 // 	padding-top: 10px;
 
@@ -441,139 +408,45 @@ ul {
 // 	}
 // }
 
-// .instagrid {
-// 	padding: 0;
-// 	position: relative;
-// }
+/*------------------------------------*\
+    #CaseStudies
+\*------------------------------------*/
 
-// .instagrid__background {
-// 	background: #fff url('/img/instagrid-background.svg') no-repeat;
-// 	background-size: cover;
-// 	background-position: 50%;
+.casestudy__body {
+	margin-bottom: $unit;
+}
 
-// 	@include at-query($two) {
-// 		background-position: 0%;
-// 	}
-// }
+.numbers {
+	background-color: $colorBGone;
+	margin: 30px -30px;
+	padding: ($unit / 2);
 
-// .instagrid__content {
-// 	padding: 60px 0;
+	.numbers__body {
+		border: 5px solid #fff;
+		padding: 20px 10px 20px 30px;
+	}
+}
 
-// 	@include at-query($two) {
-// 		padding: 0;
-// 		position: relative;
-// 	    margin-bottom: 190px;
-// 	    top: 100px;
-// 	}
-// }
+.tag {
+	background-color: $colorAccent;
+	color: #fff;
+	margin: 0 auto;
+	padding: 10px 0 5px;
+    position: relative;
+    	top: 20px;
+	text-align: center;
+	width: 120px;
+    z-index: 1;
+}
 
-// .instagrid__description {
-// 	margin-bottom: $unit;
+/*------------------------------------*\
+    #Subpages
+\*------------------------------------*/
 
-// 	@include at-query($two) {
-// 		float: right;
-// 		margin: 0;
-// 	}
-// }
-
-// .instagrid__pics {
-// 	margin: 10px 0 0;
-
-// 	@include at-query($two) {
-// 		margin-top: 18px;
-// 	}
-// }
-
-// .instagrid__separator {
-// 	clear: both;
-// 	height: $unit / 3;
-
-// 	@include at-query($two) {
-// 		display: none;
-// 	}
-// }
-
-// .post-listing {
-// 	padding: $unit 0 ($unit / 3);
-
-// 	.square & {
-// 		padding: $unit 0 0;
-// 	}
-
-// 	@include at-query($two) {
-// 		padding: ($unit / 3) 0 0;
-
-// 		.subpage &,
-// 		.subpage-custom & {
-// 			padding-top: $unit;
-// 		}
-// 	}
-// }
-
-// .post-listing__single {
-// 	margin-bottom: $unit;
-
-// 	&.last {
-// 		margin-bottom: 0;
-// 	}
-// }
-
-// /*------------------------------------*\
-//     #Subpages
-// \*------------------------------------*/
-
-// .about {
-// 	@include at-query($two) {
-// 		background: $colorBGdark url('/img/about-background2.jpg');
-// 		background-attachment: fixed;
-// 		background-position: 50%;
-// 		background-size: cover;
-// 	}
-// }
-
-// .archives {
-// 	@include at-query($two) {
-// 		background: #fff url("/img/archives-background.jpg") no-repeat;
-// 	    background-attachment: fixed;
-// 	    background-position: 50% 500px;
-// 	    background-size: cover;
-// 	}	
-// }
-
-// .archives__content {
-// 	@include at-query($two) {
-// 		padding: 80px 0 40px;
-// 	}
-// }
-
-// .archives__filter {
-// 	margin-top: $unit / 2;
-
-// 	@include at-query($two) {
-// 		margin-top: $unit;
-// 	}
-// }
-
-// .book-cover {
-// 	margin-bottom: $unit / 2;
-
-// 	@include at-query($two) {
-// 		margin: $unit 0;
-// 	}
-// }
-
-// .img-border {
-// 	border: 5px solid #efefef;
-// }
-
-// .mailinglist {
-// 	@include at-query($two) {
-// 		background: $colorBGdark url('/img/mailinglist-background.jpg');
-// 		background-attachment: fixed;
-// 		background-position: 50%;
-// 		background-size: cover;
-// 	}	
-// }
+.book-cover {
+	background-image: none;
+	margin-bottom: $unit / 2;
+}
 
 // .post-header {
 // 	margin: 0 0 ($unit / 3);
@@ -605,17 +478,6 @@ ul {
 // 	}
 // }
 
-// .post-toc {
-// 	background-color: #f7f9fa;
-// 	margin-top: 40px;
-// 	padding: $unit 0 0;
-
-// 	@include at-query($one) {
-// 		margin-top: 80px;
-// 		text-align: center;
-// 	}
-// }
-
 // .subpage-body {
 // 	max-width: 1200px;
 // 	margin: 0 auto;
@@ -630,32 +492,4 @@ ul {
 // 	}
 // }
 
-// .square {
-// 	padding-bottom: 50px;
-
-// 	&.dark {
-// 		background-color: $colorBGdark;
-// 	}
-// }
-
-// #mc_embed_signup {
-// 	padding: 50px 0;
-
-// 	.post-mailinglist & {
-// 		padding: $unit 0 20px;
-// 	}
-
-// 	@include at-query($one) {
-// 		margin: 0 auto;
-// 		max-width: 500px;
-// 	}
-
-// 	@include at-query($two) {
-// 		max-width: none;
-
-// 		.mailinglist & {
-// 			padding: 100px 0 0;
-// 		}	
-// 	}
-// }
 

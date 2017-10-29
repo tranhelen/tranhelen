@@ -123,7 +123,6 @@ h2 {
 
 	&.darker {
 		color: $colorTextHeader;
-		text-transform: lowercase;
 	}
 }
 
@@ -149,10 +148,16 @@ h4 {
 
 h5 {
 	font-size: em(20px);
-	line-height: 1.5;
 	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 $unit 0;
 
 	.hp-work-single__body & {
+		margin: 0;
+	}
+
+	.numbers__body & {
+		font-size: em(24px);
 		margin: 0;
 	}
 }
@@ -172,6 +177,15 @@ h6 {
 
 	.alt {
 		color: $colorAccentTwo;
+	}
+
+	.numbers__body & {
+		font-size: em(30px);
+		font-weight: 300;
+	}
+
+	.tag & {
+		color: #fff;
 	}
 
 	.writing__single & {
@@ -219,6 +233,10 @@ ul li p {
 		font-size: em(13px);
 		line-height: 24px;
 	}
+
+	.tag & {
+		margin: 0;
+	}
 }
 
 blockquote {
@@ -248,28 +266,16 @@ blockquote.large {
 }
 
 
-figure {
-	margin: $unit (-$unit) $unit (-$unit);
-	
-	&.hero {
-		margin: 0 (-$unit) $unit;
-	}
-
-	&.left {
-		margin-top: $unit * 1.5;
-	}
-
-	&.sep {
-		margin: 20px -20px;
-	}
-}
-
 figcaption {
 	color: $colorTextBody;
 	font-family: $stack2;
 	font-size: em(13px);
 	line-height: 1.56;
 	margin-top: 10px;
+
+	.hero & {
+		margin-left: 30px;
+	}
 
 	.hp-goals & {
 		margin-right: 20px;
@@ -290,6 +296,12 @@ hr {
 
 	&.noborder {
 		border-color: transparent;
+	}
+
+	.numbers__body & {
+		border-bottom-width: 1px;
+		border-color: $colorTextHeader;
+		margin: 5px auto;
 	}
 }
 
@@ -339,6 +351,50 @@ ul {
 	}
 }
 
+.casestudy__body {
+	h2 {
+		font-weight: 600;
+		font-style: normal;
+		color: $colorTextHeader;
+		margin-bottom: 0;
+	}
+
+	h3 {
+		color: $colorAccent;
+		margin: 0 0 ($unit / 2);
+	}
+}
+
+.casestudy-ol {
+	counter-reset: item;
+	background-color: #fff;
+	border: 3px solid $colorAccent;
+	list-style: none;
+	padding: 20px;
+	margin: 20px 0 30px;
+
+	li {
+		counter-increment: item;
+		display: table-row;
+	}
+
+	li:before {
+		background-image: url(/img/casestudy-ol.gif);
+		background-position: 0 5px;
+		background-repeat: no-repeat;
+		background-size: 28px;
+		color: $colorAccent;
+		content: counter(item);
+		font-family: $stack2;
+		font-weight: 600;
+	    padding: 5px 10px 0 0;
+		text-align: center;
+		width: 28px;
+
+    	display: table-cell;
+	}
+}
+
 .fieldnotes-anchor {
     color: $colorAccent;
     font-family: $stack2;
@@ -359,6 +415,14 @@ ul {
 	position: relative;
 	top: 3px;	
     margin-left: -20px;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.numbers__body {
+	text-align: center;
 }
 
 .post-single {
