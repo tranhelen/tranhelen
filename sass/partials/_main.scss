@@ -22,7 +22,7 @@ figure {
 		margin: 0 (-$unit) $unit;
 	}
 
-	&.hp-goals-image {
+	&.nomargin {
 		margin: 0;
 	}
 
@@ -107,6 +107,11 @@ ul {
 		    top: 20px;
 		}
 	}
+
+	&.--cs-morework {
+		background-image: url('/img/casestudy/bg-watercolour-cs-morework.svg');
+			top: -10px;
+	}
 }
 
 .line-one {
@@ -133,6 +138,10 @@ ul {
 			top: 15px;
 	}
 
+	.cs-morework & {
+		top: 35px;
+	}
+
 	.hp-work & {
 		top: $unit / 3;
 	}
@@ -149,6 +158,11 @@ ul {
 		right: $unit;
 		top: 25px;
 	width: $unit / 2;
+
+	.c1-s2 &,
+	.c1-s4 & {
+		top: 15px;
+	}
 }
 
 .mailinglist {
@@ -329,6 +343,10 @@ ul {
 .hp-work-single {
 	margin-top: $unit;
 
+	.cs-morework & {
+		margin-top: 0;
+		margin-bottom: $unit;
+	}
 	.hp-work-single__body {
 		padding: 10px 20px 15px 20px;
 	}
@@ -432,8 +450,15 @@ ul {
     #CaseStudies
 \*------------------------------------*/
 
-.casestudy__body {
-	margin-bottom: $unit;
+.c1-s1,
+.c1-s2,
+.c1-s3,
+.c1-s4 {
+	margin: 50px 0;
+}
+
+.cs-morework {
+	margin-top: -20px;
 }
 
 .numbers {
