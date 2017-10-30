@@ -121,9 +121,7 @@ h2 {
 	line-height: 1.36;
 	margin: 10px 0; // majority rule
 
-	&.darker {
-		color: $colorTextHeader;
-	}
+
 }
 
 h3 {
@@ -376,11 +374,19 @@ ul {
 		font-style: normal;
 		color: $colorTextHeader;
 		margin-bottom: 0;
+
+		&.lighter {
+			color: $colorAccent;
+		}
 	}
 
 	h3 {
 		color: $colorAccent;
 		margin: 0 0 ($unit / 2);
+
+		&.darker {
+			color: $colorTextHeader;
+		}
 	}
 }
 

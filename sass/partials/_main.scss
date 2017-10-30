@@ -164,12 +164,12 @@ ul {
 	}
 
 	.archive-design & {
-			top: 30px;
+		top: 30px;
 	}
 
 	.c1__body &,
 	.c2__body & {
-			top: 15px;
+		top: 15px;
 	}
 
 	.cs-morework & {
@@ -181,7 +181,7 @@ ul {
 	}
 
 	.hp-writing & {
-			top: 10px;
+		top: 10px;
 	}
 }
 
@@ -195,6 +195,10 @@ ul {
 
 	.c1-s2 &,
 	.c1-s4 & {
+		top: 15px;
+	}
+
+	.c2__body & {
 		top: 15px;
 	}
 }
