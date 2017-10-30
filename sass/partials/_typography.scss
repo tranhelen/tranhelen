@@ -156,12 +156,12 @@ h5 {
 	line-height: 1.5;
 	margin: 0 0 $unit 0;
 
-	.hp-work-single__body & {
+	.c1-numbers__body & {
+		font-size: em(24px);
 		margin: 0;
 	}
 
-	.numbers__body & {
-		font-size: em(24px);
+	.hp-work-single__body & {
 		margin: 0;
 	}
 }
@@ -183,7 +183,7 @@ h6 {
 		color: $colorAccentTwo;
 	}
 
-	.numbers__body & {
+	.c1-numbers__body & {
 		font-size: em(30px);
 		font-weight: 300;
 	}
@@ -262,10 +262,19 @@ blockquote.large {
 
 	p {
 		font-size: em(22px);
-		font-style: normal;
-		font-weight: 600;
+		font-style: italic;
 		line-height: 32px;
 		margin: 0;
+
+		.post-single & {
+			font-style: normal;
+			font-weight: 600;
+		}
+	}
+
+	.author {
+		color: $colorAccentTwo;
+		font-size: em(16px);
 	}
 }
 
@@ -302,7 +311,7 @@ hr {
 		border-color: transparent;
 	}
 
-	.numbers__body & {
+	.c1-numbers__body & {
 		border-bottom-width: 1px;
 		border-color: $colorTextHeader;
 		margin: 5px auto;
@@ -353,6 +362,11 @@ ul {
 			list-style-type: none;
 		}		
 	}
+}
+
+
+.c1-numbers__body {
+	text-align: center;
 }
 
 .casestudy__body {
@@ -423,10 +437,6 @@ ul {
 
 .no-margin {
 	margin: 0;
-}
-
-.numbers__body {
-	text-align: center;
 }
 
 .post-single {

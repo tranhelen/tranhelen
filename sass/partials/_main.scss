@@ -134,7 +134,7 @@ ul {
 			top: 30px;
 	}
 
-	.casestudy & {
+	.casestudy__body & {
 			top: 15px;
 	}
 
@@ -457,22 +457,18 @@ ul {
 	margin: 50px 0;
 }
 
-.cs-morework {
-	margin-top: -20px;
-}
-
-.numbers {
+.c1-numbers {
 	background-color: $colorBGone;
 	margin: 30px -30px;
 	padding: ($unit / 2);
 
-	.numbers__body {
+	.c1-numbers__body {
 		border: 5px solid #fff;
 		padding: 20px 10px 20px 30px;
 	}
 }
 
-.stage3-images {
+.c1-stage3-images {
 	figure {
 		float: left;
 		margin: 20px 0 0 0;
@@ -481,13 +477,27 @@ ul {
     	z-index: 1;
 	}
 
-	.stage3-images__body {
+	.c1-stage3-images__body {
 		float: right;
     	padding-left: 30px;
 		width: 80%;
 	}
 
 	@include clearfix;
+}
+
+.c2-header {
+	margin-top: -30px;
+}
+
+.c2-header-img {
+	margin-left: -230px;
+	margin-top: -100px;
+	width: 210%;
+}
+
+.cs-morework {
+	margin-top: -20px;
 }
 
 .tag {
