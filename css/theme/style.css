@@ -2930,23 +2930,56 @@ ul {
 }
 
 /* line 489, ../../sass/partials/_main.scss */
+.c2-diversity {
+  height: 520px;
+  width: auto;
+  margin: 0 -30px 0;
+  overflow-x: scroll;
+  padding: 30px;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+/* line 499, ../../sass/partials/_main.scss */
+.c2-diversity-box {
+  background-color: #fff;
+  box-shadow: 0px 10px 30px rgba(121, 107, 93, 0.3);
+  padding: 15px 30px;
+  margin-top: 40px;
+  width: 100%;
+  white-space: normal;
+  margin-right: 30px;
+  display: inline-block;
+}
+/* line 509, ../../sass/partials/_main.scss */
+.c2-diversity-box .c2-diversity-box__body {
+  margin-top: 10px;
+  float: left;
+}
+/* line 514, ../../sass/partials/_main.scss */
+.c2-diversity-box .c2-diversity-box__image {
+  width: 100px;
+  margin: -60px 0 0 35%;
+}
+
+/* line 520, ../../sass/partials/_main.scss */
 .c2-header {
   margin-top: -30px;
 }
 
-/* line 493, ../../sass/partials/_main.scss */
+/* line 524, ../../sass/partials/_main.scss */
 .c2-header-img {
   margin-left: -230px;
   margin-top: -100px;
   width: 210%;
 }
 
-/* line 499, ../../sass/partials/_main.scss */
+/* line 530, ../../sass/partials/_main.scss */
 .cs-morework {
   margin-top: -20px;
 }
 
-/* line 503, ../../sass/partials/_main.scss */
+/* line 534, ../../sass/partials/_main.scss */
 .tag {
   background-color: #d0a233;
   color: #fff;
@@ -2962,7 +2995,7 @@ ul {
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
-/* line 519, ../../sass/partials/_main.scss */
+/* line 550, ../../sass/partials/_main.scss */
 .book-cover {
   background-image: none;
   margin-bottom: 15px;
