@@ -134,7 +134,8 @@ ul {
 			top: 30px;
 	}
 
-	.casestudy__body & {
+	.c1__body &,
+	.c2__body & {
 			top: 15px;
 	}
 
@@ -313,22 +314,6 @@ ul {
 		margin-bottom: $unit / 3;
 	}
 
-	header,
-	footer {
-		background-repeat: no-repeat;
-	    background-size: cover;
-		height: $unit;
-	}
-
-	header {
-		background-image: url('/img/bg-watercolour-hpwork.svg');
-	}
-
-	footer {
-		background-image: url('/img/bg-watercolour-hpworkfooter.svg');
-	    margin-top: -30px;
-	}
-
 	.hp-work__body {
 		background-color: $colorBGone;
 	}
@@ -338,6 +323,23 @@ ul {
 			top: -55px;
 	}
 
+	.hp-work__header,
+	.ho-work__footer {
+		background-repeat: no-repeat;
+	}
+
+	.hp-work__header {
+		background-image: url('/img/bg-watercolour-hpwork.svg');
+	    background-size: 1600px 32px;
+		height: 32px;
+	}
+
+	.hp-work__footer {
+		background-image: url('/img/bg-watercolour-hpworkfooter.svg');
+	    background-size: 1600px 24px;
+	    height: 25px;
+	    margin-top: -30px;
+	}
 }
 
 .hp-work-single {
