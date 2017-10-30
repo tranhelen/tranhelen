@@ -108,6 +108,39 @@ ul {
 		}
 	}
 
+	&.--cs2-diversity {
+		background-image: url('/img/casestudy/2-bg-watercolour-header-diversity.svg');	
+		    left: -31px;
+		    top: 29px;
+    	height: 35px;
+    	z-index: 0;
+
+    	&.--b {
+			left: -21px;
+			top: 19px;
+    	}
+
+    	&.--c {
+			left: 19px;
+			top: 24px;
+    	}
+
+    	&.--d {
+		    left: -20px;
+		    top: 44px;
+    	}
+
+    	&.--e {
+			left: 39px;
+			top: 25px;
+    	}
+
+    	&.--f {
+			left: -31px;
+			top: 15px;
+    	}
+    }
+
 	&.--cs-morework {
 		background-image: url('/img/casestudy/bg-watercolour-cs-morework.svg');
 			top: -10px;
@@ -488,12 +521,21 @@ ul {
 	@include clearfix;
 }
 
+.c2-diversity {
+	margin-bottom: 50px;
+}
 
 .c2-diversity-box {
 	background-color: #fff;
 	box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
     padding: 30px 30px 15px;
-    margin-top: 40px;
+    margin-top: 50px;
+}
+
+.c2-diversity-box__image {
+    display: block;
+    margin: -80px auto 0;
+    width: 151px;
 }
 
 .c2-header {
