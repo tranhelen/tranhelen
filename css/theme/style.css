@@ -3001,11 +3001,20 @@ ul {
 }
 
 /* line 551, ../../sass/partials/_main.scss */
+.c2-s2,
+.c2-s3,
+.c2-s4,
+.c2-s5,
+.c2-s6 {
+  margin-top: 40px;
+}
+
+/* line 559, ../../sass/partials/_main.scss */
 .cs-morework {
   margin-top: 30px;
 }
 
-/* line 555, ../../sass/partials/_main.scss */
+/* line 563, ../../sass/partials/_main.scss */
 .tag {
   background-color: #d0a233;
   color: #fff;
@@ -3021,7 +3030,7 @@ ul {
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
-/* line 571, ../../sass/partials/_main.scss */
+/* line 579, ../../sass/partials/_main.scss */
 .book-cover {
   background-image: none;
   margin-bottom: 15px;
