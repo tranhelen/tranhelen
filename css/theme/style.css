@@ -2937,7 +2937,6 @@ ul {
 
 /* line 491, ../../sass/partials/_main.scss */
 .c2-diversity {
-  height: 520px;
   width: auto;
   margin: 0 -30px 0;
   overflow-x: scroll;
@@ -2946,7 +2945,7 @@ ul {
   white-space: nowrap;
 }
 
-/* line 501, ../../sass/partials/_main.scss */
+/* line 500, ../../sass/partials/_main.scss */
 .c2-diversity-box {
   background-color: #fff;
   box-shadow: 0px 10px 30px rgba(121, 107, 93, 0.3);
@@ -2957,35 +2956,35 @@ ul {
   margin-right: 30px;
   display: inline-block;
 }
-/* line 511, ../../sass/partials/_main.scss */
+/* line 510, ../../sass/partials/_main.scss */
 .c2-diversity-box .c2-diversity-box__body {
   margin-top: 10px;
   float: left;
 }
-/* line 516, ../../sass/partials/_main.scss */
+/* line 515, ../../sass/partials/_main.scss */
 .c2-diversity-box .c2-diversity-box__image {
-  width: 100px;
-  margin: -60px 0 0 35%;
+  width: 160px;
+  margin: -80px 0 0 30%;
 }
 
-/* line 522, ../../sass/partials/_main.scss */
+/* line 521, ../../sass/partials/_main.scss */
 .c2-header {
   margin-top: -30px;
 }
 
-/* line 526, ../../sass/partials/_main.scss */
+/* line 525, ../../sass/partials/_main.scss */
 .c2-header-img {
   margin-left: -230px;
   margin-top: -100px;
   width: 210%;
 }
 
-/* line 532, ../../sass/partials/_main.scss */
+/* line 531, ../../sass/partials/_main.scss */
 .cs-morework {
-  margin-top: -20px;
+  margin-top: 30px;
 }
 
-/* line 536, ../../sass/partials/_main.scss */
+/* line 535, ../../sass/partials/_main.scss */
 .tag {
   background-color: #d0a233;
   color: #fff;
@@ -3001,7 +3000,7 @@ ul {
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
-/* line 552, ../../sass/partials/_main.scss */
+/* line 551, ../../sass/partials/_main.scss */
 .book-cover {
   background-image: none;
   margin-bottom: 15px;
