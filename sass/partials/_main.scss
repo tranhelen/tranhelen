@@ -488,34 +488,12 @@ ul {
 	@include clearfix;
 }
 
-.c2-diversity {
-    width: auto;
-    margin: 0 -30px 0;
-    overflow-x: scroll;
-    padding: 30px;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
 
 .c2-diversity-box {
 	background-color: #fff;
 	box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
-    padding: 15px 30px;
+    padding: 30px 30px 15px;
     margin-top: 40px;
-    width: 100%;
-    white-space: normal;
-    margin-right: 30px;
-    display: inline-block;
-
-    .c2-diversity-box__body {
-	    margin-top: 10px;
-   		 float: left;
-    }
-
-    .c2-diversity-box__image {
-    	width: 160px;
-    	margin: -80px 0 0 30%;
-    }
 }
 
 .c2-header {
