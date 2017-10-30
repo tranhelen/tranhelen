@@ -553,7 +553,40 @@ ul {
 .c2-s4,
 .c2-s5,
 .c2-s6 {
+    background-repeat: no-repeat;
     margin-top: 40px;
+}
+
+.c2-s2 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+    background-position: -600px 0;
+    background-size: 800px 800px;
+}
+
+.c2-s3 {
+	background-image: url('/img/casestudy/2-background-s3.svg');
+    background-position: 300px 0;
+    background-size: 2400px 2400px;
+    padding-top: 30px;
+}
+
+.c2-s4 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+    background-position: -600px 0;
+    background-size: 800px 800px;
+}
+
+.c2-s5 {
+	background-image: url('/img/casestudy/2-background-s3.svg');
+    background-position: 300px 0;
+    background-size: 2400px 2400px;
+    padding-top: 30px;
+}
+
+.c2-s6 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+    background-position: -600px 0;
+    background-size: 800px 800px;
 }
 
 .cs-morework {
