@@ -3018,15 +3018,15 @@ ul {
 .c2-s4,
 .c2-s5,
 .c2-s6 {
+  background-position: -600px 50px;
   background-repeat: no-repeat;
+  background-size: 800px 800px;
   margin-top: 40px;
 }
 
-/* line 564, ../../sass/partials/_main.scss */
+/* line 566, ../../sass/partials/_main.scss */
 .c2-s2 {
   background-image: url("/img/casestudy/2-background-s2.svg");
-  background-position: -600px 0;
-  background-size: 800px 800px;
 }
 
 /* line 570, ../../sass/partials/_main.scss */
@@ -3040,11 +3040,9 @@ ul {
 /* line 577, ../../sass/partials/_main.scss */
 .c2-s4 {
   background-image: url("/img/casestudy/2-background-s2.svg");
-  background-position: -600px 0;
-  background-size: 800px 800px;
 }
 
-/* line 583, ../../sass/partials/_main.scss */
+/* line 581, ../../sass/partials/_main.scss */
 .c2-s5 {
   background-image: url("/img/casestudy/2-background-s3.svg");
   background-position: 300px 0;
@@ -3052,19 +3050,17 @@ ul {
   padding-top: 30px;
 }
 
-/* line 590, ../../sass/partials/_main.scss */
+/* line 588, ../../sass/partials/_main.scss */
 .c2-s6 {
   background-image: url("/img/casestudy/2-background-s2.svg");
-  background-position: -600px 0;
-  background-size: 800px 800px;
 }
 
-/* line 596, ../../sass/partials/_main.scss */
+/* line 592, ../../sass/partials/_main.scss */
 .cs-morework {
   margin-top: 30px;
 }
 
-/* line 600, ../../sass/partials/_main.scss */
+/* line 596, ../../sass/partials/_main.scss */
 .tag {
   background-color: #d0a233;
   color: #fff;
@@ -3080,7 +3076,7 @@ ul {
 /*------------------------------------*\
     #Subpages
 \*------------------------------------*/
-/* line 616, ../../sass/partials/_main.scss */
+/* line 612, ../../sass/partials/_main.scss */
 .book-cover {
   background-image: none;
   margin-bottom: 15px;
