@@ -390,6 +390,16 @@ ul {
 	margin-bottom: 10px;
 }
 
+.cs-first::first-letter {
+	color: $colorAccentTwo;
+	float: left;
+    font-size: em(54px);
+    line-height: 0.72;
+    padding-top: 18px;
+    padding-right: 8px;
+    position: relative;
+}
+
 .casestudy-ol {
 	counter-reset: item;
 	background-color: #fff;
