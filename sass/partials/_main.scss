@@ -168,7 +168,8 @@ ul {
 	}
 
 	.c1__body &,
-	.c2__body & {
+	.c2__body &,
+	.c3__body & {
 		top: 15px;
 	}
 
@@ -587,6 +588,43 @@ ul {
 
 .c2-s6 {
 	background-image: url('/img/casestudy/2-background-s2.svg');
+}
+
+.c3-s2,
+.c3-s3,
+.c3-s4,
+.c3-s5 {
+    margin-top: 40px;
+}
+
+.c3-s2-facebookad {
+    margin: 0 -30px 10px -30px;
+
+	figure {
+		float: left;
+		width: 50%;
+	}
+
+	.fa02 {
+        margin-top: 8%;
+	    position: relative;
+	    z-index: -1;
+	}
+
+	@include clearfix;
+}
+
+.c3-s2-facebookcheckout {
+	figure {
+		float: left;
+		width: 48%;
+	}
+
+	.fc02 {
+		float: right;
+	}
+
+	@include clearfix;
 }
 
 .cs-morework {
