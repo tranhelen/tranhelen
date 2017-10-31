@@ -63,12 +63,14 @@ a {
 		}
 
 		.fieldnotes & {
-			background-position: left 18px;
+			background-position: left 16px;
 
 			&:hover {
 				background-position: left 40px;
 			}
 		}
+
+		@include transition;
 	}
 
 	& .external-box {
@@ -81,7 +83,8 @@ a {
 	   		top: 8px;
 
 	   	.fieldnotes & {
-		   	}
+	   		margin: 0 3px;
+	   	}
 	}
 
 	& .external-box__arrow {
@@ -94,7 +97,7 @@ a {
 		    left: 3px;
 
 		.fieldnotes & {
-				bottom: 14px;
+				bottom: 12px;
 				left: 3px;
 		}
 	}
@@ -194,13 +197,6 @@ h6 {
 		margin-bottom: 10px;
 	}
 }
-
-.h1 { @extend h1; }
-.h2 { @extend h2; }
-.h3 { @extend h3; }
-.h4 { @extend h4; }
-.h5 { @extend h5; }
-.h6 { @extend h6; }
 
 p,
 ol li,
@@ -362,7 +358,6 @@ ul {
 	}
 }
 
-
 .c1-numbers__body {
 	text-align: center;
 }
@@ -389,6 +384,10 @@ ul {
 			color: $colorTextHeader;
 		}
 	}
+}
+
+.c3-s5 h2 {
+	margin-bottom: 10px;
 }
 
 .casestudy-ol {

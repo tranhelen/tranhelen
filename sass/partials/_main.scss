@@ -627,6 +627,75 @@ ul {
 	@include clearfix;
 }
 
+.c3-s2-dashboards {
+    margin: 0 -30px 0 -30px;
+
+    figure {
+    	float: left;
+    }
+
+    .da01 {
+    	margin-top: 16%;
+    	width: 45%;
+    }
+
+    .da02 {
+    	margin-left: -20%;
+    	position: relative;
+    	width: 50%;
+    	z-index: 1;
+    }
+
+    .da03 {
+    	width: 35%;
+    	margin-left: -10%;
+    	margin-top: 10%;
+    }
+
+    @include clearfix;
+}
+
+.c3-s3-home {
+    margin: 0 -30px 0 -30px;
+
+    figure {
+    	float: left;
+    	margin: 20px 0 15px 0;
+    }
+
+    figcaption {
+    	margin: 0 0 30px 30px;
+    }
+
+    .ho01 {
+    	margin-top: 10%;
+    	width: 40%;
+    }
+
+    .ho02 {
+    	width: 60%;
+    }
+
+	@include clearfix;
+}
+
+.c3-s4-unite {
+	margin: 0 -30px;
+
+	figure {
+		width: 80%;
+	}
+
+	.un02 {
+		margin: -15% 0 0 20%;
+	    position: relative;
+	    z-index: 1;
+	    width: 80%;
+	}
+
+	@include clearfix;
+}
+
 .cs-morework {
 	margin-top: 30px;
 }
