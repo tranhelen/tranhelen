@@ -595,7 +595,27 @@ ul {
 .c3-s3,
 .c3-s4,
 .c3-s5 {
+    background-position: 260px -10px;
+    background-repeat: no-repeat;
+    background-size: 2400px 2400px;
     margin: 50px 0;
+}
+
+.c3-s2 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+    padding-top: 50px;
+}
+
+.c3-s3 {
+	background-image: url('/img/casestudy/2-background-s3.svg');
+	background-position: -1000px 50px;
+    background-size: 1200px 1200px;
+}
+
+.c3-s4 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+	background-size: 1200px 1200px;
+    padding-top: 50px;
 }
 
 .c3-s2-facebookad {
@@ -606,10 +626,13 @@ ul {
 		width: 50%;
 	}
 
+	.fa01 {
+	    position: relative;
+	    z-index: 1;
+	}
+
 	.fa02 {
         margin-top: 8%;
-	    position: relative;
-	    z-index: -1;
 	}
 
 	@include clearfix;
