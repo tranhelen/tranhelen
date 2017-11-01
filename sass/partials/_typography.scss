@@ -233,7 +233,7 @@ ul li p {
 }
 
 blockquote {
-	border: 5px solid $selection;
+	border: 5px solid rgba($colorAccentTwo,0.2);
 	border-width: 0 0 0 5px;
 	margin: 20px 0 $unit;
 
