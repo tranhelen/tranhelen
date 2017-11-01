@@ -297,6 +297,10 @@ ul {
 
 .hp-appearances {
 	margin: 50px 0;
+
+	.hp-appearances__body {
+		margin-left: 20px;
+	}
 }
 
 .hp-bio {
@@ -304,7 +308,7 @@ ul {
 	padding: 40px 0 0;
 
 	.hp-bio__body {
-		margin-left: 15px;
+		margin-left: 20px;
 	}
 }
 

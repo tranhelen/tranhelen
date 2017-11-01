@@ -275,13 +275,8 @@ pre {
 ul {
 	margin: 0;
 
-	.hp-appearances & {
-		margin-left: 20px; 
-		padding: 0;
-
-		li {
-			list-style-type: none;
-		}		
+	&.no-bullet li {
+		list-style-type: none;
 	}
 }
 
