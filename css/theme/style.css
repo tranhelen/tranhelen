@@ -2528,24 +2528,24 @@ input {
   width: 15px;
 }
 /* line 111, ../../sass/partials/_main.scss */
-.line-one.hp-goals__img-one {
+.archive-design .line-one {
+  top: 30px;
+}
+/* line 115, ../../sass/partials/_main.scss */
+.c1__body .line-one, .c2__body .line-one, .c3__body .line-one {
+  top: 15px;
+}
+/* line 121, ../../sass/partials/_main.scss */
+.cs-morework .line-one {
+  top: 35px;
+}
+/* line 125, ../../sass/partials/_main.scss */
+.hp-goals__single .line-one {
   float: right;
   left: -25%;
   top: 20px;
   width: 85px;
   z-index: 1;
-}
-/* line 119, ../../sass/partials/_main.scss */
-.archive-design .line-one {
-  top: 30px;
-}
-/* line 123, ../../sass/partials/_main.scss */
-.c1__body .line-one, .c2__body .line-one, .c3__body .line-one {
-  top: 15px;
-}
-/* line 129, ../../sass/partials/_main.scss */
-.cs-morework .line-one {
-  top: 35px;
 }
 /* line 133, ../../sass/partials/_main.scss */
 .hp-work .line-one {

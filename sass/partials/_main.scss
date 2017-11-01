@@ -108,14 +108,6 @@ input {
 		top: 25px;
 	width: 15px;
 
-	&.hp-goals__img-one {
-		float: right;
-			left: -25%;
-    		top: 20px;
-		width: 85px;
-	    z-index: 1;
-	}
-
 	.archive-design & {
 		top: 30px;
 	}
@@ -128,6 +120,14 @@ input {
 
 	.cs-morework & {
 		top: 35px;
+	}
+
+	.hp-goals__single & {
+		float: right;
+			left: -25%;
+    		top: 20px;
+		width: 85px;
+	    z-index: 1;
 	}
 
 	.hp-work & {
