@@ -19,14 +19,6 @@ figure {
 	}
 }
 
-header {
-	padding-bottom: 20px;
-
-	.homepage & {
-		padding: 0;
-	}
-}
-
 footer {
 	header,
 	footer {
@@ -333,8 +325,8 @@ ul {
 .hp-portrait-bg {
 	max-width: 1000px;
 	position: fixed;
-		top: 30px / 2;
-		left: 30px / 2;
+		top: 15px;
+		left: 15px;
 	z-index: -2;
 }
 
