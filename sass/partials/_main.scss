@@ -28,6 +28,11 @@ input {
     width: 100%;
 }
 
+.container {
+	margin: 0 30px;
+	max-width: 730px;
+}
+
 .header-bg-watercolour {
 	background-repeat: no-repeat;
     height: 50px;
@@ -193,7 +198,7 @@ input {
 }
 
 .navigation {
-	margin: 15px 0;
+	margin: 30px 0;
 }
 
 .toc {
@@ -205,11 +210,7 @@ input {
 }
 
 .toc-list {
-	margin: 0;
-
-	li {
-		margin: 0;
-	}
+	padding: 0;
 
 	.bullet {
 		color: $colorAccent;
@@ -259,11 +260,6 @@ input {
 	    background: url(/img/backgroundvideo-backup.jpg) no-repeat;
 	    background-size: cover; 
 	}
-}
-
-.container {
-	margin: 0 30px;
-	max-width: 730px;
 }
 
 .hp-appearances {
