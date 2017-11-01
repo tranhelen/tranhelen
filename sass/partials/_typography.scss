@@ -304,36 +304,6 @@ ul {
 		top: 3px;
 }
 
-.no-margin {
-	margin: 0;
-}
-
-.post-single {
-	h1 {
-		font-size: em(45px);
-		line-height: 1.2;
-		margin: 30px 0;
-	}
-
-	h2 {
-		color: $colorTextHeader;
-		font-size: em(35px);
-		font-style: normal;
-		font-weight: 600;
-		margin-top: 30px;
-	}
-
-	h3 {
-		font-size: em(30px);
-		line-height: 1.33;
-		margin: 15px 0;
-	}
-
-	figure {
-		margin: 20px 0 30px;
-	}
-}
-
 .small {
 	a {
 		background-position: left 16px;
@@ -377,6 +347,36 @@ ul {
 		figcaption {
 			margin-top: 15px;
 		}
+	}
+}
+
+/*------------------------------------*\
+    #TypographyBlogs
+\*------------------------------------*/
+
+.post-single {
+	h1 {
+		font-size: em(45px);
+		line-height: 1.2;
+		margin: 30px 0;
+	}
+
+	h2 {
+		color: $colorTextHeader;
+		font-size: em(35px);
+		font-style: normal;
+		font-weight: 600;
+		margin-top: 30px;
+	}
+
+	h3 {
+		font-size: em(30px);
+		line-height: 1.33;
+		margin: 15px 0;
+	}
+
+	figure {
+		margin: 20px 0 30px;
 	}
 }
 

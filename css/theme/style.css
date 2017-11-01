@@ -2245,57 +2245,27 @@ ul.no-bullet li {
   top: 3px;
 }
 
-/* line 307, ../../sass/partials/_typography.scss */
-.no-margin {
-  margin: 0;
-}
-
-/* line 312, ../../sass/partials/_typography.scss */
-.post-single h1, .post-single .h1 {
-  font-size: 2.8125em;
-  line-height: 1.2;
-  margin: 30px 0;
-}
-/* line 318, ../../sass/partials/_typography.scss */
-.post-single h2, .post-single .h2 {
-  color: #394047;
-  font-size: 2.1875em;
-  font-style: normal;
-  font-weight: 600;
-  margin-top: 30px;
-}
-/* line 326, ../../sass/partials/_typography.scss */
-.post-single h3, .post-single .h3 {
-  font-size: 1.875em;
-  line-height: 1.33;
-  margin: 15px 0;
-}
-/* line 332, ../../sass/partials/_typography.scss */
-.post-single figure {
-  margin: 20px 0 30px;
-}
-
-/* line 338, ../../sass/partials/_typography.scss */
+/* line 308, ../../sass/partials/_typography.scss */
 .small a, figcaption p a {
   background-position: left 16px;
 }
-/* line 341, ../../sass/partials/_typography.scss */
+/* line 311, ../../sass/partials/_typography.scss */
 .small a:hover, figcaption p a:hover {
   background-position: left 20px;
   color: #5f6771;
 }
 
-/* line 349, ../../sass/partials/_typography.scss */
+/* line 319, ../../sass/partials/_typography.scss */
 .tag h6, .tag .h6 {
   color: #fff;
 }
 
-/* line 355, ../../sass/partials/_typography.scss */
+/* line 325, ../../sass/partials/_typography.scss */
 .writing__single h6, .writing__single .h6 {
   margin-bottom: 10px;
 }
 
-/* line 360, ../../sass/partials/_typography.scss */
+/* line 330, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 0 30px;
@@ -2304,15 +2274,43 @@ ul.no-bullet li {
 /*------------------------------------*\
     #TypographyHomepage
 \*------------------------------------*/
-/* line 370, ../../sass/partials/_typography.scss */
+/* line 340, ../../sass/partials/_typography.scss */
 .hp-goals figcaption {
   margin-right: 20px;
   position: relative;
   top: 20px;
 }
-/* line 377, ../../sass/partials/_typography.scss */
+/* line 347, ../../sass/partials/_typography.scss */
 .hp-goals .hp-goals__single figcaption {
   margin-top: 15px;
+}
+
+/*------------------------------------*\
+    #TypographyBlogs
+\*------------------------------------*/
+/* line 358, ../../sass/partials/_typography.scss */
+.post-single h1, .post-single .h1 {
+  font-size: 2.8125em;
+  line-height: 1.2;
+  margin: 30px 0;
+}
+/* line 364, ../../sass/partials/_typography.scss */
+.post-single h2, .post-single .h2 {
+  color: #394047;
+  font-size: 2.1875em;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 30px;
+}
+/* line 372, ../../sass/partials/_typography.scss */
+.post-single h3, .post-single .h3 {
+  font-size: 1.875em;
+  line-height: 1.33;
+  margin: 15px 0;
+}
+/* line 378, ../../sass/partials/_typography.scss */
+.post-single figure {
+  margin: 20px 0 30px;
 }
 
 /*------------------------------------*\
