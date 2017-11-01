@@ -22,9 +22,6 @@
 	/* Text */
 	$colorTextHeader: #394047;
 	$colorTextBody: #5f6771; 
-	// $colorTextQuote: #434d54;
-	// $colorTextSubtle: #577b90;
-	// $colorTextIntense: #B78C12;
 
 	/* Links */
 	$colorLink: #768fe1;
@@ -33,21 +30,18 @@
 	$colorShadow: #796b5d;
 	$colorBGone: #fcf8ef;
 	$colorBGtwo: #f6fafc;
-
-	$selection: #eaeff2;
+	$selection: #ff0;
 
 /*------------------------------------*\
     #Base
 \*------------------------------------*/
 
 * {
--webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-		box-sizing: border-box;
+box-sizing: border-box;
 -webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
- text-rendering:optimizeLegibility;
+	moz-font-smoothing: grayscale;
+-webkit-text-size-adjust: 100%;
+text-rendering:optimizeLegibility;
 }
 
 ::selection {

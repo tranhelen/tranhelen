@@ -21,28 +21,26 @@
 /*------------------------------------*\
     #Base
 \*------------------------------------*/
-/* line 43, ../../sass/theme/style.scss */
+/* line 39, ../../sass/theme/style.scss */
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  moz-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
 
-/* line 53, ../../sass/theme/style.scss */
+/* line 47, ../../sass/theme/style.scss */
 ::selection {
-  background: #eaeff2;
+  background: #ff0;
 }
 
-/* line 57, ../../sass/theme/style.scss */
+/* line 51, ../../sass/theme/style.scss */
 ::-moz-selection {
-  background: #eaeff2;
+  background: #ff0;
 }
 
-/* line 61, ../../sass/theme/style.scss */
+/* line 55, ../../sass/theme/style.scss */
 img {
   width: 100%;
 }
@@ -2176,7 +2174,7 @@ ul li p {
 
 /* line 240, ../../sass/partials/_typography.scss */
 blockquote {
-  border: 5px solid #eaeff2;
+  border: 5px solid #ff0;
   border-width: 0 0 0 5px;
   margin: 20px 0 30px;
 }
