@@ -286,12 +286,11 @@ ul {
 .fieldnotes-anchor {
     color: $colorAccent;
     font-family: $stack2;
-    font-size: em(12px);
+    font-size: em(10px);
     font-weight: bold;
     letter-spacing: 2px;
-    margin-left: 4px;
     position: relative;
-	    bottom: 3px;
+	    bottom: 5px;
 }
 
 .footnote {
@@ -300,9 +299,9 @@ ul {
 
 .footnote-back {
 	background-image: none;
-	position: relative;
-	top: 3px;	
     margin-left: -20px;
+	position: relative;
+		top: 3px;
 }
 
 .no-margin {

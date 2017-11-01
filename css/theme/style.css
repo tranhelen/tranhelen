@@ -2225,39 +2225,38 @@ ul.no-bullet li {
 .fieldnotes-anchor {
   color: #d0a233;
   font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 0.625em;
   font-weight: bold;
   letter-spacing: 2px;
-  margin-left: 4px;
   position: relative;
-  bottom: 3px;
+  bottom: 5px;
 }
 
-/* line 297, ../../sass/partials/_typography.scss */
+/* line 296, ../../sass/partials/_typography.scss */
 .footnote {
   letter-spacing: 2px;
 }
 
-/* line 301, ../../sass/partials/_typography.scss */
+/* line 300, ../../sass/partials/_typography.scss */
 .footnote-back {
   background-image: none;
+  margin-left: -20px;
   position: relative;
   top: 3px;
-  margin-left: -20px;
 }
 
-/* line 308, ../../sass/partials/_typography.scss */
+/* line 307, ../../sass/partials/_typography.scss */
 .no-margin {
   margin: 0;
 }
 
-/* line 313, ../../sass/partials/_typography.scss */
+/* line 312, ../../sass/partials/_typography.scss */
 .post-single h1, .post-single .h1 {
   font-size: 2.8125em;
   line-height: 1.2;
   margin: 30px 0;
 }
-/* line 319, ../../sass/partials/_typography.scss */
+/* line 318, ../../sass/partials/_typography.scss */
 .post-single h2, .post-single .h2 {
   color: #394047;
   font-size: 2.1875em;
@@ -2265,38 +2264,38 @@ ul.no-bullet li {
   font-weight: 600;
   margin-top: 30px;
 }
-/* line 327, ../../sass/partials/_typography.scss */
+/* line 326, ../../sass/partials/_typography.scss */
 .post-single h3, .post-single .h3 {
   font-size: 1.875em;
   line-height: 1.33;
   margin: 15px 0;
 }
-/* line 333, ../../sass/partials/_typography.scss */
+/* line 332, ../../sass/partials/_typography.scss */
 .post-single figure {
   margin: 20px 0 30px;
 }
 
-/* line 339, ../../sass/partials/_typography.scss */
+/* line 338, ../../sass/partials/_typography.scss */
 .small a, figcaption p a {
   background-position: left 16px;
 }
-/* line 342, ../../sass/partials/_typography.scss */
+/* line 341, ../../sass/partials/_typography.scss */
 .small a:hover, figcaption p a:hover {
   background-position: left 20px;
   color: #5f6771;
 }
 
-/* line 350, ../../sass/partials/_typography.scss */
+/* line 349, ../../sass/partials/_typography.scss */
 .tag h6, .tag .h6 {
   color: #fff;
 }
 
-/* line 356, ../../sass/partials/_typography.scss */
+/* line 355, ../../sass/partials/_typography.scss */
 .writing__single h6, .writing__single .h6 {
   margin-bottom: 10px;
 }
 
-/* line 361, ../../sass/partials/_typography.scss */
+/* line 360, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 0 30px;
@@ -2305,13 +2304,13 @@ ul.no-bullet li {
 /*------------------------------------*\
     #TypographyHomepage
 \*------------------------------------*/
-/* line 371, ../../sass/partials/_typography.scss */
+/* line 370, ../../sass/partials/_typography.scss */
 .hp-goals figcaption {
   margin-right: 20px;
   position: relative;
   top: 20px;
 }
-/* line 378, ../../sass/partials/_typography.scss */
+/* line 377, ../../sass/partials/_typography.scss */
 .hp-goals .hp-goals__single figcaption {
   margin-top: 15px;
 }
@@ -2319,7 +2318,7 @@ ul.no-bullet li {
 /*------------------------------------*\
     #TypographyCaseStudies
 \*------------------------------------*/
-/* line 391, ../../sass/partials/_typography.scss */
+/* line 390, ../../sass/partials/_typography.scss */
 .c1__body h2, .c1__body .h2,
 .c2__body h2,
 .c2__body .h2,
@@ -2330,7 +2329,7 @@ ul.no-bullet li {
   color: #394047;
   margin-bottom: 0;
 }
-/* line 397, ../../sass/partials/_typography.scss */
+/* line 396, ../../sass/partials/_typography.scss */
 .c1__body h2.lighter, .c1__body .lighter.h2,
 .c2__body h2.lighter,
 .c2__body .lighter.h2,
@@ -2338,7 +2337,7 @@ ul.no-bullet li {
 .c3__body .lighter.h2 {
   color: #d0a233;
 }
-/* line 402, ../../sass/partials/_typography.scss */
+/* line 401, ../../sass/partials/_typography.scss */
 .c1__body h3, .c1__body .h3,
 .c2__body h3,
 .c2__body .h3,
@@ -2347,7 +2346,7 @@ ul.no-bullet li {
   color: #d0a233;
   margin: 0 0 15px;
 }
-/* line 406, ../../sass/partials/_typography.scss */
+/* line 405, ../../sass/partials/_typography.scss */
 .c1__body h3.darker, .c1__body .darker.h3,
 .c2__body h3.darker,
 .c2__body .darker.h3,
@@ -2356,32 +2355,32 @@ ul.no-bullet li {
   color: #394047;
 }
 
-/* line 412, ../../sass/partials/_typography.scss */
+/* line 411, ../../sass/partials/_typography.scss */
 .c1-numbers__body {
   text-align: center;
 }
-/* line 415, ../../sass/partials/_typography.scss */
+/* line 414, ../../sass/partials/_typography.scss */
 .c1-numbers__body h5, .c1-numbers__body .h5 {
   font-size: 1.5em;
 }
-/* line 419, ../../sass/partials/_typography.scss */
+/* line 418, ../../sass/partials/_typography.scss */
 .c1-numbers__body h6, .c1-numbers__body .h6 {
   font-size: 1.875em;
   font-weight: 300;
 }
-/* line 424, ../../sass/partials/_typography.scss */
+/* line 423, ../../sass/partials/_typography.scss */
 .c1-numbers__body hr {
   border-bottom-width: 1px;
   border-color: #394047;
   margin: 5px auto;
 }
 
-/* line 432, ../../sass/partials/_typography.scss */
+/* line 431, ../../sass/partials/_typography.scss */
 .c3-s5 h2, .c3-s5 .h2 {
   margin-bottom: 10px;
 }
 
-/* line 437, ../../sass/partials/_typography.scss */
+/* line 436, ../../sass/partials/_typography.scss */
 .cs-first::first-letter {
   color: #768fe1;
   float: left;
@@ -2392,12 +2391,12 @@ ul.no-bullet li {
   position: relative;
 }
 
-/* line 448, ../../sass/partials/_typography.scss */
+/* line 447, ../../sass/partials/_typography.scss */
 .cs-morework h4, .cs-morework .h4 {
   margin-bottom: -30px;
 }
 
-/* line 453, ../../sass/partials/_typography.scss */
+/* line 452, ../../sass/partials/_typography.scss */
 .cs-ol {
   counter-reset: item;
   background-color: #fff;
@@ -2406,12 +2405,12 @@ ul.no-bullet li {
   margin: 20px 0 30px;
   padding: 20px;
 }
-/* line 461, ../../sass/partials/_typography.scss */
+/* line 460, ../../sass/partials/_typography.scss */
 .cs-ol li {
   counter-increment: item;
   display: table-row;
 }
-/* line 466, ../../sass/partials/_typography.scss */
+/* line 465, ../../sass/partials/_typography.scss */
 .cs-ol li:before {
   background-image: url(/img/casestudy-ol.gif);
   background-position: 0 5px;
