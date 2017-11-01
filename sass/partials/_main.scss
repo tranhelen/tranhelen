@@ -302,6 +302,10 @@ ul {
 .hp-bio {
     margin: 75% 0 0;
 	padding: 40px 0 0;
+
+	.hp-bio__body {
+		margin-left: 15px;
+	}
 }
 
 .hp-container {
@@ -449,6 +453,7 @@ ul {
 	padding-bottom: $unit / 3;
 
 	.archive-design__header {
+		padding-top: 10px;
 		position: relative;
 		top: -$unit;
 	}
@@ -721,7 +726,7 @@ ul {
 }
 
 .cs-morework {
-	margin-top: 30px;
+    margin-top: -20px;
 }
 
 .tag {
@@ -744,49 +749,3 @@ ul {
 	background-image: none;
 	margin-bottom: $unit / 2;
 }
-
-// .post-header {
-// 	margin: 0 0 ($unit / 3);
-// 	padding: 0;
-
-// 	@include at-query($one) {
-// 		text-align: center;
-// 	}
-
-// 	@include at-query($two) {
-// 	    margin: 0 0 90px;
-// 	}
-// }
-
-// .post-navigation {
-// 	padding: 50px $unit;
-
-// 	@include at-query($two) {
-// 		padding: 50px 50px 100px;
-// 	}
-// }
-
-// .post-mailinglist {
-// 	padding: 25px 0 0;
-
-// 	@include at-query($one) {
-// 		padding: 65px 0 50px;
-// 		text-align: center;
-// 	}
-// }
-
-// .subpage-body {
-// 	max-width: 1200px;
-// 	margin: 0 auto;
-// 	padding: 0 $unit;
-
-// 	&.experiments {
-// 		margin-bottom: $unit;
-
-// 		@include at-query($one) {
-// 			margin-bottom: $unit * 2;
-// 		}
-// 	}
-// }
-
-

@@ -61,7 +61,6 @@ a {
 		animation-fill-mode: both;
 		animation-timing-function: ease-in-out;
 		animation-iteration-count: infinite;
-		color: $colorAccent;
 		display: inline-block;
 		position: relative;
 			bottom: 1px;
@@ -125,21 +124,15 @@ h2 {
 h3 {
 	font-size: em(20px);
 	line-height: 1.65;
-	margin: 0 0 ($unit / 2);
+	margin: 0 0 15px;
 }
 
 h4 {
 	font-size: 40px;
 	font-style: italic;
-	margin: 0;
-
-	.archive-design__header & {
-		margin-bottom: -10px;
-	}
-
-	.cs-morework & {
-		margin-bottom: -30px;
-	}
+    line-height: 1;
+    margin: 0;
+    padding-top: 10px;
 }
 
 h5 {
@@ -147,11 +140,6 @@ h5 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 $unit 0;
-
-	.c1-numbers__body & {
-		font-size: em(24px);
-		margin: 0;
-	}
 }
 
 h6 {
@@ -166,23 +154,6 @@ h6 {
 		font-size: em(16px);
 		margin-bottom: $unit;
 	}
-
-	.alt {
-		color: $colorAccentTwo;
-	}
-
-	.c1-numbers__body & {
-		font-size: em(30px);
-		font-weight: 300;
-	}
-
-	.tag & {
-		color: #fff;
-	}
-
-	.writing__single & {
-		margin-bottom: 10px;
-	}
 }
 
 p,
@@ -193,22 +164,18 @@ ul li p {
 	color: $colorTextBody;
 	font-size: em(16px);
 	line-height: 1.75;
-	margin: 0 0 ($unit / 2);
+	margin: 0 0 15px;
 
 	footer & {
 		font-size: em(13px);
 		line-height: 1.84;
 	}
 
-	.hp-bio & {
-		margin: 0 ($unit / 2) ($unit / 2) ($unit / 2); 
-	}
-
 	&.small,
 	.fieldnotes & {
 		font-family: $stack2;
 		font-size: em(13px);
-		line-height: 24px;
+		line-height: 1.84;
 	}
 }
 
@@ -333,9 +300,8 @@ ul {
 	}
 }
 
-.c1-numbers__body {
-	text-align: center;
-}
+.accent { color: $colorAccent; }
+.accenttwo { color: $colorAccentTwo; }
 
 .c1__body,
 .c2__body,
@@ -361,6 +327,19 @@ ul {
 	}
 }
 
+.c1-numbers__body {
+	text-align: center;
+
+	h5 {
+		font-size: em(24px);
+	}
+
+	h6 {
+		font-size: em(30px);
+		font-weight: 300;
+	}
+}
+
 .c3-s5 h2 {
 	margin-bottom: 10px;
 }
@@ -373,6 +352,12 @@ ul {
     padding-top: 18px;
     padding-right: 8px;
     position: relative;
+}
+
+.cs-morework {
+	h4 {
+		margin-bottom: -30px;
+	}
 }
 
 .casestudy-ol {
@@ -465,6 +450,18 @@ ul {
 			background-position: left 20px;
 			color: $colorTextBody;
 		}
+	}
+}
+
+.tag {
+	h6 {
+		color: #fff;
+	}
+}
+
+.writing__single { 
+	h6 {
+		margin-bottom: 10px;
 	}
 }
 
