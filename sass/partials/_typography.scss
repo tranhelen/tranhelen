@@ -1,4 +1,20 @@
 /*------------------------------------*\
+    #Animations
+\*------------------------------------*/
+
+@keyframes arrowbounce {
+	0%, 100%, 20%, 50%, 80% {
+		transform: translateY(0)
+	}
+	40% {
+		transform: translateX(-10px)
+	}
+	60% {
+		transform: translateX(-5px)
+	}
+}
+
+/*------------------------------------*\
     #Typography
 \*------------------------------------*/
 
@@ -8,37 +24,37 @@ html {
 }
 
 a {
-    background-repeat: repeat-x;
-    background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAANTd+AAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjhGMTM0RERCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjhGMTM0REVCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOEYxMzREQkIyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyOEYxMzREQ0IyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==);
-    background-position: left 20px;
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAANTd+AAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjhGMTM0RERCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjhGMTM0REVCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOEYxMzREQkIyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyOEYxMzREQ0IyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) repeat-x left 20px;
 	color: $colorLink;
-    margin-bottom: 14px;
     text-decoration: none;
 
 	&:hover {
 		background-position: left 40px;
 		color: $colorTextBody;
+
+		.accent {
+	 		animation-name: arrowbounce;
+		}
 	}
 
-	h3 & {
-		background-position: left 24px;
-	}
-
-	h6 & {
+	&.h6 {
 		color: $colorLink;
-		text-decoration: none;
 
 		&:hover {
 			color: $colorTextBody;
 		}
 	}
 
-	.small & {
-		background-position: left 18px;
-	}
+	h3 & { background-position: left 24px; }
+	footer & { background-position: left 16px; }
 
-	footer & {
-		background-position: left 16px;
+	.accent {
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		color: $colorAccent;
+		display: inline-block;
 	}
 
 	&.alt {
@@ -109,6 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: $colorTextHeader;
 	font-weight: 300;
 }
+
+.h6 { @extend h6; }
 
 h1 {
 	font-family: $stacksuper;
@@ -482,9 +500,20 @@ ul {
 	}
 }
 
+.small {
+	a {
+		background-position: left 16px;
+
+		&:hover {
+			background-position: left 20px;
+			color: $colorTextBody;
+		}
+	}
+}
+
 #mce-success-response,
 #mce-error-response {
-	margin-bottom: 30px;
+	margin: 0 $unit;
 }
 
 

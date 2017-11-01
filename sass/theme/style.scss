@@ -39,7 +39,7 @@
 * {
 box-sizing: border-box;
 -webkit-font-smoothing:antialiased;
-	moz-font-smoothing: grayscale;
+moz-osx-font-smoothing: grayscale;
 -webkit-text-size-adjust: 100%;
 text-rendering:optimizeLegibility;
 }
