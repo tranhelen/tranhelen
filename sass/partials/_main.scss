@@ -15,11 +15,11 @@ figure {
 	}
 
 	img {
-		box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
+		box-shadow: 0px 10px 30px rgba($colorShadow,0.3);
 	}
 
 	&.hero {
-		margin: 0 (-$unit) $unit;
+		margin: 0 (-30px) 30px;
 	}
 
 	&.nomargin {
@@ -27,7 +27,7 @@ figure {
 	}
 
 	&.left {
-		margin-top: $unit * 1.5;
+		margin-top: 30px * 1.5;
 	}
 
 	&.sep {
@@ -49,7 +49,7 @@ footer {
 	    background-position-x: 50%;
 	    background-repeat: no-repeat;
 	    background-size: cover;
-		height: $unit;
+		height: 30px;
 	}
 
 	header {
@@ -151,9 +151,9 @@ ul {
 	background-color: $colorAccent;
 	height: 3px;
 	position: relative;
-		right: $unit;
+		right: 30px;
 		top: 25px;
-	width: $unit / 2;
+	width: 30px / 2;
 
 	&.hp-goals__img-one {
 		float: right;
@@ -178,7 +178,7 @@ ul {
 	}
 
 	.hp-work & {
-		top: $unit / 3;
+		top: 30px / 3;
 	}
 
 	.hp-writing & {
@@ -190,9 +190,9 @@ ul {
 	background-color: $colorAccentTwo;
 	height: 3px;
 	position: relative;
-		right: $unit;
+		right: 30px;
 		top: 25px;
-	width: $unit / 2;
+	width: 30px / 2;
 
 	.c1-s2 &,
 	.c1-s4 & {
@@ -211,10 +211,10 @@ ul {
 
 .mailinglist__form {
 	background-color: $colorBGone;
-	padding: ($unit / 3) 0 20px;
+	padding: 10px 0 20px;
 
 	input {
-		margin-bottom: ($unit / 2);
+		margin-bottom: 15px;
 	}
 }
 
@@ -223,14 +223,14 @@ ul {
 }
 
 .navigation {
-	margin: ($unit / 2) 0;
+	margin: 15px 0;
 }
 
 .toc {
-	margin: 20px 0 $unit -20px;
+	margin: 20px 0 30px -20px;
 
 	h6 {
-		margin: 0 0 ($unit / 3) 20px;
+		margin: 0 0 10px 20px;
 	}
 }
 
@@ -291,7 +291,7 @@ ul {
 }
 
 .container {
-	margin: 0 $unit;
+	margin: 0 30px;
 	max-width: 730px;
 }
 
@@ -330,12 +330,12 @@ ul {
 	}
 
 	.hp-goals__single {
-		margin-bottom: $unit;
+		margin-bottom: 30px;
 	}
 }
 
 .hp-portrait {
-	box-shadow: 0px 0px $unit rgba($colorShadow,0.8);
+	box-shadow: 0px 0px 30px rgba($colorShadow,0.8);
 	max-width: 1000px;
 	position: fixed;
 		top: 0px;
@@ -345,8 +345,8 @@ ul {
 .hp-portrait-bg {
 	max-width: 1000px;
 	position: fixed;
-		top: $unit / 2;
-		left: $unit / 2;
+		top: 30px / 2;
+		left: 30px / 2;
 	z-index: -2;
 }
 
@@ -354,7 +354,7 @@ ul {
 	padding-bottom: 1px;
 
 	h4 {
-		margin-bottom: $unit / 3;
+		margin-bottom: 30px / 3;
 	}
 
 	.hp-work__body {
@@ -386,11 +386,11 @@ ul {
 }
 
 .hp-work-single {
-	margin-top: $unit;
+	margin-top: 30px;
 
 	.cs-morework & {
 		margin-top: 0;
-		margin-bottom: $unit;
+		margin-bottom: 30px;
 	}
 	.hp-work-single__body {
 		padding: 10px 20px 15px 20px;
@@ -398,7 +398,7 @@ ul {
 
 	a {
 		background-color: #fff;
-		box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
+		box-shadow: 0px 10px 30px rgba($colorShadow,0.3);
 		display: block;
 
 		@include transition;
@@ -411,7 +411,7 @@ ul {
 
 
 .hp-writing {
-	padding: $unit 0 ($unit / 3);
+	padding: 30px 0 10px;
 }
 
 .overlay {
@@ -429,15 +429,15 @@ ul {
 }
 
 .post-single {
-	margin-bottom: $unit;
+	margin-bottom: 30px;
 }
 
 .writing__group {
-	padding-bottom: ($unit / 3);
+	padding-bottom: 10px;
 }
 
 .writing__single {
-	margin-bottom: $unit;
+	margin-bottom: 30px;
 }
 
 /*------------------------------------*\
@@ -449,13 +449,13 @@ ul {
 	background-repeat: no-repeat;
     background-position-x: 50%;;
 	background-size: 396%;	
-	margin: 50px 0 $unit;
-	padding-bottom: $unit / 3;
+	margin: 50px 0 30px;
+	padding-bottom: 30px / 3;
 
 	.archive-design__header {
 		padding-top: 10px;
 		position: relative;
-		top: -$unit;
+		top: -30px;
 	}
 }
 
@@ -464,8 +464,8 @@ ul {
 	background-repeat: no-repeat;
     background-position-x: -20px;
 	background-size: 200%;	
-	margin: 50px 0 $unit;
-	padding-bottom: $unit / 3;
+	margin: 50px 0 30px;
+	padding-bottom: 30px / 3;
 }
 
 .fullarchive-2014 {
@@ -473,8 +473,8 @@ ul {
 	background-repeat: no-repeat;
     background-position: -20px 20px;
 	background-size: 300%;
-	margin: 50px 0 $unit;
-	padding-bottom: $unit / 2;
+	margin: 50px 0 30px;
+	padding-bottom: 30px / 2;
 }
 
 // .homepage-articles {
@@ -506,7 +506,7 @@ ul {
 .c1-numbers {
 	background-color: $colorBGone;
 	margin: 30px -30px;
-	padding: ($unit / 2);
+	padding: 15px;
 
 	.c1-numbers__body {
 		border: 5px solid #fff;
@@ -538,7 +538,7 @@ ul {
 
 .c2-diversity-box {
 	background-color: #fff;
-	box-shadow: 0px ($unit / 3) $unit rgba($colorShadow,0.3);
+	box-shadow: 0px 10px 30px rgba($colorShadow,0.3);
     padding: 30px 30px 15px;
     margin-top: 50px;
 }
@@ -747,5 +747,5 @@ ul {
 
 .book-cover {
 	background-image: none;
-	margin-bottom: $unit / 2;
+	margin-bottom: 30px / 2;
 }

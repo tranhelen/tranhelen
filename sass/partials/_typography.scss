@@ -139,7 +139,7 @@ h5 {
 	font-size: em(20px);
 	font-weight: 600;
 	line-height: 1.5;
-	margin: 0 0 $unit 0;
+	margin: 0 0 30px 0;
 }
 
 h6 {
@@ -152,7 +152,7 @@ h6 {
 
 	&.larger {
 		font-size: em(16px);
-		margin-bottom: $unit;
+		margin-bottom: 30px;
 	}
 }
 
@@ -182,19 +182,19 @@ ul li p {
 blockquote {
 	border: 5px solid rgba($colorAccentTwo,0.2);
 	border-width: 0 0 0 5px;
-	margin: 20px 0 $unit;
+	margin: 20px 0 30px;
 
 	p {
 		color: $colorTextHeader;
 		font-style: italic;
-		margin: 0 $unit ($unit / 2);
+		margin: 0 30px 15px;
 	}
 }
 
 blockquote.large {
 	border: 0;
 	padding: 0;
-	margin: $unit 0;
+	margin: 30px 0;
 
 	p {
 		font-size: em(22px);
@@ -237,10 +237,10 @@ hr {
 	border: 0;
 	border-bottom: 3px solid $colorAccent;
 	border-radius: 999px;
-	margin: $unit auto;
+	margin: 30px auto;
 
 	&.small {
-		width: $unit;
+		width: 30px;
 	}
 
 	&.noborder {
@@ -263,7 +263,7 @@ pre,
 code {
     background-color: #efefef;
     color: #6e8b9d;
-    margin: 20px 0 $unit;
+    margin: 20px 0 30px;
     padding: 5px 10px;
 }
 
@@ -319,7 +319,7 @@ ul {
 
 	h3 {
 		color: $colorAccent;
-		margin: 0 0 ($unit / 2);
+		margin: 0 0 15px;
 
 		&.darker {
 			color: $colorTextHeader;
@@ -420,7 +420,7 @@ ul {
 	h1 {
 		font-size: em(45px);
 		line-height: 1.2;
-		margin: $unit 0;
+		margin: 30px 0;
 	}
 
 	h2 {
@@ -428,17 +428,17 @@ ul {
 		font-size: em(35px);
 		font-style: normal;
 		font-weight: 600;
-		margin-top: $unit;
+		margin-top: 30px;
 	}
 
 	h3 {
 		font-size: em(30px);
 		line-height: 1.33;
-		margin: ($unit / 2) 0;
+		margin: 15px 0;
 	}
 
 	figure {
-		margin: 20px 0 $unit;
+		margin: 20px 0 30px;
 	}
 }
 
@@ -467,7 +467,7 @@ ul {
 
 #mce-success-response,
 #mce-error-response {
-	margin: 0 $unit;
+	margin: 0 30px;
 }
 
 

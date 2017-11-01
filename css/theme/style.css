@@ -2588,7 +2588,7 @@ ul {
   position: relative;
   right: 30px;
   top: 25px;
-  width: 15px;
+  width: 30px / 2;
 }
 /* line 158, ../../sass/partials/_main.scss */
 .line-one.hp-goals__img-one {
@@ -2612,7 +2612,7 @@ ul {
 }
 /* line 180, ../../sass/partials/_main.scss */
 .hp-work .line-one {
-  top: 10px;
+  top: 30px / 3;
 }
 /* line 184, ../../sass/partials/_main.scss */
 .hp-writing .line-one {
@@ -2626,7 +2626,7 @@ ul {
   position: relative;
   right: 30px;
   top: 25px;
-  width: 15px;
+  width: 30px / 2;
 }
 /* line 197, ../../sass/partials/_main.scss */
 .c1-s2 .line-two, .c1-s4 .line-two {
@@ -2796,8 +2796,8 @@ ul {
 .hp-portrait-bg {
   max-width: 1000px;
   position: fixed;
-  top: 15px;
-  left: 15px;
+  top: 30px / 2;
+  left: 30px / 2;
   z-index: -2;
 }
 
@@ -2807,7 +2807,7 @@ ul {
 }
 /* line 356, ../../sass/partials/_main.scss */
 .hp-work h4, .hp-work .h4 {
-  margin-bottom: 10px;
+  margin-bottom: 30px / 3;
 }
 /* line 360, ../../sass/partials/_main.scss */
 .hp-work .hp-work__body {
@@ -2912,7 +2912,7 @@ ul {
   background-position-x: 50%;
   background-size: 396%;
   margin: 50px 0 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px / 3;
 }
 /* line 455, ../../sass/partials/_main.scss */
 .archive-design .archive-design__header {
@@ -2928,7 +2928,7 @@ ul {
   background-position-x: -20px;
   background-size: 200%;
   margin: 50px 0 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px / 3;
 }
 
 /* line 471, ../../sass/partials/_main.scss */
@@ -2938,7 +2938,7 @@ ul {
   background-position: -20px 20px;
   background-size: 300%;
   margin: 50px 0 30px;
-  padding-bottom: 15px;
+  padding-bottom: 30px / 2;
 }
 
 /*------------------------------------*\
@@ -3258,5 +3258,5 @@ ul {
 /* line 748, ../../sass/partials/_main.scss */
 .book-cover {
   background-image: none;
-  margin-bottom: 15px;
+  margin-bottom: 30px / 2;
 }
