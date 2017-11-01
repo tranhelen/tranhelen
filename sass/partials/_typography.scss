@@ -126,10 +126,6 @@ h3 {
 	font-size: em(20px);
 	line-height: 1.65;
 	margin: 0 0 ($unit / 2);
-
-	.writing__single & {
-		margin: 0;
-	}
 }
 
 h4 {
@@ -154,10 +150,6 @@ h5 {
 
 	.c1-numbers__body & {
 		font-size: em(24px);
-		margin: 0;
-	}
-
-	.hp-work-single__body & {
 		margin: 0;
 	}
 }
@@ -208,16 +200,8 @@ ul li p {
 		line-height: 1.84;
 	}
 
-	.case-study__body & {
-		margin: 0;
-	}
-
 	.hp-bio & {
 		margin: 0 ($unit / 2) ($unit / 2) ($unit / 2); 
-	}
-
-	.hp-work-single__body & {
-		margin: 0;
 	}
 
 	&.small,
@@ -225,10 +209,6 @@ ul li p {
 		font-family: $stack2;
 		font-size: em(13px);
 		line-height: 24px;
-	}
-
-	.tag & {
-		margin: 0;
 	}
 }
 
