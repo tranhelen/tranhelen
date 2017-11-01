@@ -216,20 +216,12 @@ blockquote.large {
 
 
 figcaption {
-	color: $colorTextBody;
-	font-family: $stack2;
-	font-size: em(13px);
-	line-height: 1.56;
-	margin-top: 10px;
+	p {
+		@extend .small;
+	}
 
 	.hero & {
 		margin-left: 30px;
-	}
-
-	.hp-goals & {
-		margin-right: 20px;
-		position: relative;
-			top: 20px;
 	}
 }
 
@@ -410,6 +402,21 @@ ul {
 	position: relative;
 	top: 3px;	
     margin-left: -20px;
+}
+
+.hp-goals {
+	
+	figcaption {
+		margin-right: 20px;
+		position: relative;
+		top: 20px;
+	}
+
+	.hp-goals__single {
+		figcaption {
+			margin-top: 15px;
+		}
+	}
 }
 
 .no-margin {

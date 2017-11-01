@@ -15,14 +15,14 @@ I tested various animations for the action and a few hours later, the heart icon
 	
 <figure>
 	<img src="/img/post/01-02thematrix.jpg">
-	<figcaption class="inline">The Matrix (1999)</figcaption>
+	<figcaption><p>The Matrix (1999)</p></figcaption>
 </figure>
 
 My colleague’s refusal to add an emotionally-associated action to the app is a symptom of a pervasive obsession in the tech industry. The visual trend in interface design occasionally mimics interfaces out of past science fiction T.V. shows and movies. This is somewhat fair; the Designers who’ve spent their childhoods absorbing this media are now adults designing interfaces. We have been bombarded with imagery all the way back from the 70's (albeit less frequent then) and this trend still persists today.
 
 <figure class="left">
 	<img src="/img/post/01-03minority.jpg">
-	<figcaption>Minority Report (2002)</figcaption>
+	<figcaption><p>Minority Report (2002)</p></figcaption>
 </figure>
 
 This visual concept was seemingly fully formed towards the end of the 90s. Design aesthetics became systems of mathematically arranged lines, geometric shapes, numbers and cold colour palettes. All interfaces were stripped of humanistic elements aside from the occasional AI human face.
