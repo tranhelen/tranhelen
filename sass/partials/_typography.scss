@@ -193,13 +193,12 @@ blockquote {
 
 blockquote.large {
 	border: 0;
-	padding: 0;
 	margin: 30px 0;
 
 	p {
 		font-size: em(22px);
 		font-style: italic;
-		line-height: 32px;
+		line-height: 1.45;
 		margin: 0;
 
 		.post-single & {
@@ -211,6 +210,7 @@ blockquote.large {
 	.author {
 		color: $colorAccentTwo;
 		font-size: em(16px);
+		margin-top: 5px;
 	}
 }
 

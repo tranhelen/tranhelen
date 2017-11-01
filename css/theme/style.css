@@ -2117,25 +2117,25 @@ blockquote p {
 /* line 194, ../../sass/partials/_typography.scss */
 blockquote.large {
   border: 0;
-  padding: 0;
   margin: 30px 0;
 }
-/* line 199, ../../sass/partials/_typography.scss */
+/* line 198, ../../sass/partials/_typography.scss */
 blockquote.large p {
   font-size: 1.375em;
   font-style: italic;
-  line-height: 32px;
+  line-height: 1.45;
   margin: 0;
 }
-/* line 205, ../../sass/partials/_typography.scss */
+/* line 204, ../../sass/partials/_typography.scss */
 .post-single blockquote.large p {
   font-style: normal;
   font-weight: 600;
 }
-/* line 211, ../../sass/partials/_typography.scss */
+/* line 210, ../../sass/partials/_typography.scss */
 blockquote.large .author {
   color: #768fe1;
   font-size: 1em;
+  margin-top: 5px;
 }
 
 /* line 218, ../../sass/partials/_typography.scss */
@@ -2588,7 +2588,7 @@ ul {
   position: relative;
   right: 30px;
   top: 25px;
-  width: 30px / 2;
+  width: 15px;
 }
 /* line 158, ../../sass/partials/_main.scss */
 .line-one.hp-goals__img-one {
@@ -2612,7 +2612,7 @@ ul {
 }
 /* line 180, ../../sass/partials/_main.scss */
 .hp-work .line-one {
-  top: 30px / 3;
+  top: 10px;
 }
 /* line 184, ../../sass/partials/_main.scss */
 .hp-writing .line-one {
@@ -2626,7 +2626,7 @@ ul {
   position: relative;
   right: 30px;
   top: 25px;
-  width: 30px / 2;
+  width: 15px;
 }
 /* line 197, ../../sass/partials/_main.scss */
 .c1-s2 .line-two, .c1-s4 .line-two {
