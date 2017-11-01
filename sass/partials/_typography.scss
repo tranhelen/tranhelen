@@ -11,7 +11,7 @@
 }
 
 /*------------------------------------*\
-    #Typography
+    #TypographyMain
 \*------------------------------------*/
 
 body,
@@ -283,99 +283,6 @@ ul {
 .accent { color: $colorAccent; }
 .accenttwo { color: $colorAccentTwo; }
 
-.c1__body,
-.c2__body,
-.c3__body {
-	h2 {
-		font-weight: 600;
-		font-style: normal;
-		color: $colorTextHeader;
-		margin-bottom: 0;
-
-		&.lighter {
-			color: $colorAccent;
-		}
-	}
-
-	h3 {
-		color: $colorAccent;
-		margin: 0 0 15px;
-
-		&.darker {
-			color: $colorTextHeader;
-		}
-	}
-}
-
-.c1-numbers__body {
-	text-align: center;
-
-	h5 {
-		font-size: em(24px);
-	}
-
-	h6 {
-		font-size: em(30px);
-		font-weight: 300;
-	}
-
-	hr {
-		border-bottom-width: 1px;
-		border-color: $colorTextHeader;
-		margin: 5px auto;
-	}
-}
-
-.c3-s5 h2 {
-	margin-bottom: 10px;
-}
-
-.cs-first::first-letter {
-	color: $colorAccentTwo;
-	float: left;
-    font-size: em(54px);
-    line-height: 0.72;
-    padding-top: 18px;
-    padding-right: 8px;
-    position: relative;
-}
-
-.cs-morework {
-	h4 {
-		margin-bottom: -30px;
-	}
-}
-
-.casestudy-ol {
-	counter-reset: item;
-	background-color: #fff;
-	border: 3px solid $colorAccent;
-	list-style: none;
-	padding: 20px;
-	margin: 20px 0 30px;
-
-	li {
-		counter-increment: item;
-		display: table-row;
-	}
-
-	li:before {
-		background-image: url(/img/casestudy-ol.gif);
-		background-position: 0 5px;
-		background-repeat: no-repeat;
-		background-size: 28px;
-		color: $colorAccent;
-		content: counter(item);
-		font-family: $stack2;
-		font-weight: 600;
-	    padding: 5px 10px 0 0;
-		text-align: center;
-		width: 28px;
-
-    	display: table-cell;
-	}
-}
-
 .fieldnotes-anchor {
     color: $colorAccent;
     font-family: $stack2;
@@ -396,20 +303,6 @@ ul {
 	position: relative;
 	top: 3px;	
     margin-left: -20px;
-}
-
-.hp-goals {
-	figcaption {
-		margin-right: 20px;
-		position: relative;
-		top: 20px;
-	}
-
-	.hp-goals__single {
-		figcaption {
-			margin-top: 15px;
-		}
-	}
 }
 
 .no-margin {
@@ -470,71 +363,118 @@ ul {
 	margin: 0 30px;
 }
 
+/*------------------------------------*\
+    #TypographyHomepage
+\*------------------------------------*/
 
-// .wf-loading h1,
-// .wf-loading h2,
-// .wf-loading h3,
-// .wf-loading h4,
-// .wf-loading h5,
-// .wf-loading p {
-// 	visibility: hidden;
-// }
+.hp-goals {
+	figcaption {
+		margin-right: 20px;
+		position: relative;
+		top: 20px;
+	}
 
-// .wf-active h1,
-// .wf-active h2,
-// .wf-active h3,
-// .wf-active h4,
-// .wf-active h5,
-// .wf-active p {
-// 	visibility: visible;
-// }
+	.hp-goals__single {
+		figcaption {
+			margin-top: 15px;
+		}
+	}
+}
 
+/*------------------------------------*\
+    #TypographyCaseStudies
+\*------------------------------------*/
 
-// input {
-// 	height: 58px;
-// 	background-color: transparent;
-// 	border: 3px solid #d5d7d8;
-// 	color: $colorTextSubtle;
-// 	font-family: $stack2;
-// 	font-size: em(18px);
-// 	font-weight: 600;
-// 	line-height: 25px;
-// 	margin-bottom: 30px;
-// 	padding: 15px 20px;
-// 	width: 100%;
+.c1__body,
+.c2__body,
+.c3__body {
+	h2 {
+		font-weight: 600;
+		font-style: normal;
+		color: $colorTextHeader;
+		margin-bottom: 0;
 
-// 	&.button {
-// 		background-color: $colorButton;
-// 		border: 0;
-// 		color: $colorAccent;
-// 		text-transform: uppercase;
+		&.lighter {
+			color: $colorAccent;
+		}
+	}
 
-// 		&:hover {
-// 			background-color: lighten($colorButton, 5%);
+	h3 {
+		color: $colorAccent;
+		margin: 0 0 15px;
 
-// 			@include transition;
-// 		}
-// 	}
+		&.darker {
+			color: $colorTextHeader;
+		}
+	}
+}
 
-// 	&.dramatic {
-// 		border-color: rgba(#d5d7d8,0.2);
-// 		color: #fff;
+.c1-numbers__body {
+	text-align: center;
 
-// 		@include at-query($two) {
-// 			height: 80px;
-// 			padding: 15px 40px;
-// 			margin-bottom: 10px;			
-// 		}
-// 	}
-// }
+	h5 {
+		font-size: em(24px);
+	}
 
-// .picker-upper {
-// 	position: relative;
-// 	top: -2px;
-// }
+	h6 {
+		font-size: em(30px);
+		font-weight: 300;
+	}
 
-// .filter--off {
-// 	opacity: 0.5;
+	hr {
+		border-bottom-width: 1px;
+		border-color: $colorTextHeader;
+		margin: 5px auto;
+	}
+}
 
-// 	@include transition;
-// }
+.c3-s5 {
+	h2 {
+		margin-bottom: 10px;
+	}
+}
+
+.cs-first::first-letter {
+	color: $colorAccentTwo;
+	float: left;
+    font-size: em(54px);
+    line-height: 0.72;
+    padding-top: 18px;
+    padding-right: 8px;
+    position: relative;
+}
+
+.cs-morework {
+	h4 {
+		margin-bottom: -30px;
+	}
+}
+
+.cs-ol {
+	counter-reset: item;
+	background-color: #fff;
+	border: 3px solid $colorAccent;
+	list-style: none;
+	margin: 20px 0 30px;
+	padding: 20px;
+
+	li {
+		counter-increment: item;
+		display: table-row;
+	}
+
+	li:before {
+		background-image: url(/img/casestudy-ol.gif);
+		background-position: 0 5px;
+		background-repeat: no-repeat;
+		background-size: 28px;
+		color: $colorAccent;
+		content: counter(item);
+    	display: table-cell;
+		font-family: $stack2;
+		font-weight: 600;
+	    padding: 5px 10px 0 0;
+		text-align: center;
+		width: 28px;
+	}
+}
