@@ -265,6 +265,10 @@ input {
 .hp-appearances {
 	margin: 50px 0;
 
+	ul {
+		padding: 0;
+	}
+
 	.hp-appearances__body {
 		margin-left: 20px;
 	}
@@ -272,7 +276,7 @@ input {
 
 .hp-bio {
     margin: 75% 0 0;
-	padding: 40px 0 0;
+	padding-top: 40px;
 
 	.hp-bio__body {
 		margin-left: 20px;
@@ -290,11 +294,11 @@ input {
 		display: block;
 
 		&:hover {
-			width: 110%;
 			height: 110%;
 			position: relative;
-			left: -5%;
-			top: -5%;
+				left: -5%;
+				top: -5%;
+			width: 110%;
 		}
 
 		@include transition;
@@ -316,17 +320,13 @@ input {
 .hp-portrait-bg {
 	max-width: 1000px;
 	position: fixed;
-		top: 15px;
 		left: 15px;
+		top: 15px;
 	z-index: -2;
 }
 
 .hp-work {
 	padding-bottom: 1px;
-
-	h4 {
-		margin-bottom: 30px / 3;
-	}
 
 	.hp-work__body {
 		background-color: $colorBGone;
@@ -359,10 +359,6 @@ input {
 .hp-work-single {
 	margin-top: 30px;
 
-	.cs-morework & {
-		margin-top: 0;
-		margin-bottom: 30px;
-	}
 	.hp-work-single__body {
 		padding: 10px 20px 15px 20px;
 	}
@@ -373,10 +369,10 @@ input {
 		display: block;
 
 		@include transition;
-	}
 
-	a:hover {
-		transform: scale(1.05);
+		&:hover {
+			transform: scale(1.05);
+		}
 	}
 }
 
@@ -397,18 +393,6 @@ input {
     }
 
     @include transition;
-}
-
-.post-single {
-	margin-bottom: 30px;
-}
-
-.writing__group {
-	padding-bottom: 10px;
-}
-
-.writing__single {
-	margin-bottom: 30px;
 }
 
 /*------------------------------------*\
@@ -448,20 +432,14 @@ input {
 	padding-bottom: 30px / 2;
 }
 
-// .homepage-articles {
-// 	padding-top: 10px;
+.writing__group {
+	padding-bottom: 10px;
+}
 
-// 	@include at-query($one) {
-// 		padding-top: 20px;
-// 	}
+.writing__single {
+	margin-bottom: 30px;
+}
 
-// 	@include at-query($two) {
-// 		margin-top: 50px;
-// 		padding: 0 0 90px;
-// 		position: relative;
-// 		z-index: 3;
-// 	}
-// }
 
 /*------------------------------------*\
     #CaseStudies
@@ -698,6 +676,11 @@ input {
 
 .cs-morework {
     margin-top: -20px;
+
+	.hp-work-single {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
 }
 
 .tag {
@@ -716,11 +699,6 @@ input {
     #Blog
 \*------------------------------------*/
 
-.book-cover {
-	background-image: none;
-	margin-bottom: 15px;
-}
-
 figure {
 	figcaption {
 		margin-left: 30px;
@@ -729,4 +707,12 @@ figure {
 	&.hero {
 		margin: 0 -30px 30px;
 	}
+}
+
+.book-cover {
+	margin-bottom: 15px;
+}
+
+.post-single {
+	margin-bottom: 30px;
 }
