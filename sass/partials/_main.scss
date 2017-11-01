@@ -718,15 +718,15 @@ input {
 
 .book-cover {
 	background-image: none;
-	margin-bottom: 30px / 2;
+	margin-bottom: 15px;
 }
 
-.hero {
-	figure {
-		margin: 0 (-30px) 30px;
-	}
-
+figure {
 	figcaption {
 		margin-left: 30px;
+	}
+
+	&.hero {
+		margin: 0 -30px 30px;
 	}
 }

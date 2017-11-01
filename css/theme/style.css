@@ -3211,14 +3211,14 @@ input {
 /* line 719, ../../sass/partials/_main.scss */
 .book-cover {
   background-image: none;
-  margin-bottom: 30px / 2;
+  margin-bottom: 15px;
 }
 
 /* line 725, ../../sass/partials/_main.scss */
-.hero figure {
-  margin: 0 -30px 30px;
+figure figcaption {
+  margin-left: 30px;
 }
 /* line 729, ../../sass/partials/_main.scss */
-.hero figcaption {
-  margin-left: 30px;
+figure.hero {
+  margin: 0 -30px 30px;
 }
