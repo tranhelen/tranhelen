@@ -144,6 +144,10 @@ h6 {
 	}
 }
 
+header {
+	margin: 40px 0;
+}
+
 p,
 ol li,
 ol li p,
@@ -334,9 +338,24 @@ ul {
 	}
 }
 
+.hp-writing {
+	h4 {
+		margin-bottom: 20px;
+	}
+}
+
 /*------------------------------------*\
     #TypographyBlogs
 \*------------------------------------*/
+
+.fullarchive-2017,
+.fullarchive-2016,
+.fullarchive-2015,
+.fullarchive-2014 {
+	h4 {
+		margin-bottom: 30px;
+	}
+}
 
 .post-single {
 	h1 {
