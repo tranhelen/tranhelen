@@ -238,12 +238,6 @@ hr {
 	&.noborder {
 		border-color: transparent;
 	}
-
-	.c1-numbers__body & {
-		border-bottom-width: 1px;
-		border-color: $colorTextHeader;
-		margin: 5px auto;
-	}
 }
 
 input {
@@ -330,6 +324,12 @@ ul {
 		font-size: em(30px);
 		font-weight: 300;
 	}
+
+	hr {
+		border-bottom-width: 1px;
+		border-color: $colorTextHeader;
+		margin: 5px auto;
+	}
 }
 
 .c3-s5 h2 {
@@ -405,7 +405,6 @@ ul {
 }
 
 .hp-goals {
-	
 	figcaption {
 		margin-right: 20px;
 		position: relative;

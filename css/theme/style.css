@@ -2162,20 +2162,14 @@ hr.small {
 hr.noborder {
   border-color: transparent;
 }
-/* line 242, ../../sass/partials/_typography.scss */
-.c1-numbers__body hr {
-  border-bottom-width: 1px;
-  border-color: #394047;
-  margin: 5px auto;
-}
 
-/* line 249, ../../sass/partials/_typography.scss */
+/* line 243, ../../sass/partials/_typography.scss */
 input {
   font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em;
 }
 
-/* line 254, ../../sass/partials/_typography.scss */
+/* line 248, ../../sass/partials/_typography.scss */
 pre,
 code {
   background-color: #efefef;
@@ -2184,11 +2178,11 @@ code {
   padding: 5px 10px;
 }
 
-/* line 262, ../../sass/partials/_typography.scss */
+/* line 256, ../../sass/partials/_typography.scss */
 code {
   font-size: 0.75em;
 }
-/* line 265, ../../sass/partials/_typography.scss */
+/* line 259, ../../sass/partials/_typography.scss */
 pre code {
   font-size: 0.875em;
   line-height: 24px;
@@ -2196,7 +2190,7 @@ pre code {
   word-wrap: break-word;
 }
 
-/* line 273, ../../sass/partials/_typography.scss */
+/* line 267, ../../sass/partials/_typography.scss */
 pre {
   padding: 15px 20px;
   white-space: pre-wrap;
@@ -2211,31 +2205,31 @@ pre {
   /* Internet Explorer 5.5+ */
 }
 
-/* line 282, ../../sass/partials/_typography.scss */
+/* line 276, ../../sass/partials/_typography.scss */
 ul {
   margin: 0;
 }
-/* line 285, ../../sass/partials/_typography.scss */
+/* line 279, ../../sass/partials/_typography.scss */
 .hp-appearances ul {
   margin-left: 20px;
   padding: 0;
 }
-/* line 289, ../../sass/partials/_typography.scss */
+/* line 283, ../../sass/partials/_typography.scss */
 .hp-appearances ul li {
   list-style-type: none;
 }
 
-/* line 295, ../../sass/partials/_typography.scss */
+/* line 289, ../../sass/partials/_typography.scss */
 .accent {
   color: #d0a233;
 }
 
-/* line 296, ../../sass/partials/_typography.scss */
+/* line 290, ../../sass/partials/_typography.scss */
 .accenttwo {
   color: #768fe1;
 }
 
-/* line 301, ../../sass/partials/_typography.scss */
+/* line 295, ../../sass/partials/_typography.scss */
 .c1__body h2, .c1__body .h2,
 .c2__body h2,
 .c2__body .h2,
@@ -2246,7 +2240,7 @@ ul {
   color: #394047;
   margin-bottom: 0;
 }
-/* line 307, ../../sass/partials/_typography.scss */
+/* line 301, ../../sass/partials/_typography.scss */
 .c1__body h2.lighter, .c1__body .lighter.h2,
 .c2__body h2.lighter,
 .c2__body .lighter.h2,
@@ -2254,7 +2248,7 @@ ul {
 .c3__body .lighter.h2 {
   color: #d0a233;
 }
-/* line 312, ../../sass/partials/_typography.scss */
+/* line 306, ../../sass/partials/_typography.scss */
 .c1__body h3, .c1__body .h3,
 .c2__body h3,
 .c2__body .h3,
@@ -2263,7 +2257,7 @@ ul {
   color: #d0a233;
   margin: 0 0 15px;
 }
-/* line 316, ../../sass/partials/_typography.scss */
+/* line 310, ../../sass/partials/_typography.scss */
 .c1__body h3.darker, .c1__body .darker.h3,
 .c2__body h3.darker,
 .c2__body .darker.h3,
@@ -2272,18 +2266,24 @@ ul {
   color: #394047;
 }
 
-/* line 322, ../../sass/partials/_typography.scss */
+/* line 316, ../../sass/partials/_typography.scss */
 .c1-numbers__body {
   text-align: center;
 }
-/* line 325, ../../sass/partials/_typography.scss */
+/* line 319, ../../sass/partials/_typography.scss */
 .c1-numbers__body h5, .c1-numbers__body .h5 {
   font-size: 1.5em;
 }
-/* line 329, ../../sass/partials/_typography.scss */
+/* line 323, ../../sass/partials/_typography.scss */
 .c1-numbers__body h6, .c1-numbers__body .h6 {
   font-size: 1.875em;
   font-weight: 300;
+}
+/* line 328, ../../sass/partials/_typography.scss */
+.c1-numbers__body hr {
+  border-bottom-width: 1px;
+  border-color: #394047;
+  margin: 5px auto;
 }
 
 /* line 335, ../../sass/partials/_typography.scss */
@@ -2362,29 +2362,29 @@ ul {
   margin-left: -20px;
 }
 
-/* line 409, ../../sass/partials/_typography.scss */
+/* line 408, ../../sass/partials/_typography.scss */
 .hp-goals figcaption {
   margin-right: 20px;
   position: relative;
   top: 20px;
 }
-/* line 416, ../../sass/partials/_typography.scss */
+/* line 415, ../../sass/partials/_typography.scss */
 .hp-goals .hp-goals__single figcaption {
   margin-top: 15px;
 }
 
-/* line 422, ../../sass/partials/_typography.scss */
+/* line 421, ../../sass/partials/_typography.scss */
 .no-margin {
   margin: 0;
 }
 
-/* line 427, ../../sass/partials/_typography.scss */
+/* line 426, ../../sass/partials/_typography.scss */
 .post-single h1, .post-single .h1 {
   font-size: 2.8125em;
   line-height: 1.2;
   margin: 30px 0;
 }
-/* line 433, ../../sass/partials/_typography.scss */
+/* line 432, ../../sass/partials/_typography.scss */
 .post-single h2, .post-single .h2 {
   color: #394047;
   font-size: 2.1875em;
@@ -2392,38 +2392,38 @@ ul {
   font-weight: 600;
   margin-top: 30px;
 }
-/* line 441, ../../sass/partials/_typography.scss */
+/* line 440, ../../sass/partials/_typography.scss */
 .post-single h3, .post-single .h3 {
   font-size: 1.875em;
   line-height: 1.33;
   margin: 15px 0;
 }
-/* line 447, ../../sass/partials/_typography.scss */
+/* line 446, ../../sass/partials/_typography.scss */
 .post-single figure {
   margin: 20px 0 30px;
 }
 
-/* line 453, ../../sass/partials/_typography.scss */
+/* line 452, ../../sass/partials/_typography.scss */
 .small a, figcaption p a {
   background-position: left 16px;
 }
-/* line 456, ../../sass/partials/_typography.scss */
+/* line 455, ../../sass/partials/_typography.scss */
 .small a:hover, figcaption p a:hover {
   background-position: left 20px;
   color: #5f6771;
 }
 
-/* line 464, ../../sass/partials/_typography.scss */
+/* line 463, ../../sass/partials/_typography.scss */
 .tag h6, .tag .h6 {
   color: #fff;
 }
 
-/* line 470, ../../sass/partials/_typography.scss */
+/* line 469, ../../sass/partials/_typography.scss */
 .writing__single h6, .writing__single .h6 {
   margin-bottom: 10px;
 }
 
-/* line 475, ../../sass/partials/_typography.scss */
+/* line 474, ../../sass/partials/_typography.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 0 30px;

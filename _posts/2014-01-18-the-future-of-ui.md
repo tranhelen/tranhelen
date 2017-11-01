@@ -53,7 +53,7 @@ Sound affects us physiologically, psychologically, cognitively, and behaviourall
 
 <figure>
 	<img src="/img/post/01-04journey.jpg">
-	<figcaption class="inline">Journey (Thatgamecompany)</figcaption>
+	<figcaption><p>Journey (Thatgamecompany)</p></figcaption>
 </figure>
 
 Journey is an indie video game showcasing a masterful use of sound.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> Austin Wintory, the game’s composer, based all the pieces on one theme which represented the player’s journey. The music dynamically responds to the user’s actions giving them immediate and personable feedback. The game designers’ efforts were rewarded with critical acclaim with many players describing it as “moving” or “religious.” Patrick Shaw, from Wired said the game made him feel a “wide range of emotions… wonder, fear, even sadness.”
@@ -62,7 +62,7 @@ While application interfaces probably don’t need to make use of immersive soun
 
 <figure>
 	<img src="/img/post/01-05apps.jpg">
-	<figcaption class="inline">Clear (left), Duolingo (right)</figcaption>
+	<figcaption><p>Clear (left), Duolingo (right)</p></figcaption>
 </figure>
 
 ### Animation
@@ -71,7 +71,7 @@ In UI design, we are afforded the luxury of using animation as a way to differen
 
 <figure>
 	<img src="/img/post/01-06walle.jpg">
-	<figcaption class="inline">Relating inanimate objects with human traits build emotional bonds which can last for days, months, or even years</figcaption>
+	<figcaption><p>Relating inanimate objects with human traits build emotional bonds which can last for days, months, or even years</p></figcaption>
 </figure>
 
 Pixar is one of the most successful animation studios of all time. They are at the forefront of their industry; masters at blending animation with human emotions. At Disney’s D23 Event in 2011, the Pixar Team panel was asked, “Is there one element in every Pixar film that makes a Pixar film a “special” film or “different” from any other film?” John Lasseter replied,
@@ -88,17 +88,17 @@ In Disney animators Ollie Johnston and Frank Thomas’ book, The Illusion of Lif
 
 <figure>
 	<img src="/img/post/01-07tweetbot.gif">
-	<figcaption>Tweetbot's modal dismissal mimics the movement of a falling board • <a href="http://ui-animations.com">Image Source</a></figcaption>
+	<figcaption><p>Tweetbot's modal dismissal mimics the movement of a falling board • <a href="http://ui-animations.com">Image Source</a></p></figcaption>
 </figure>
 
 <figure>
 	<img src="/img/post/01-08apple.gif">
-	<figcaption>Apple Maps’ pin drop feels like it would if you placed the pin there yourself. Falling slowly at first and then quickly pinning into place. • <a href="http://ui-animations.com">Image Source</a></figcaption>
+	<figcaption><p>Apple Maps’ pin drop feels like it would if you placed the pin there yourself. Falling slowly at first and then quickly pinning into place. • <a href="http://ui-animations.com">Image Source</a></p></figcaption>
 </figure>
 
 <figure>
 	<img src="/img/post/01-09vine.gif">
-	<figcaption>While simple, the animation in Vine feels more like a drawer opening than just a menu. • <a href="http://ui-animations.com">Image Source</a></figcaption>
+	<figcaption><p>While simple, the animation in Vine feels more like a drawer opening than just a menu. • <a href="http://ui-animations.com">Image Source</a></p></figcaption>
 </figure>
 
 ### Copy
@@ -111,12 +111,12 @@ We can make use of copy to speak to users conversationally, eliminate the chore 
 
 <figure>
 	<img src="/img/post/01-10codecademy.jpg">
-	<figcaption class="inline">Codecademy’s conversational approach to education is approachable and unintimidating</figcaption>
+	<figcaption><p>Codecademy’s conversational approach to education is approachable and unintimidating</p></figcaption>
 </figure>
 
 <figure class="left">
 	<img src="/img/post/01-11fantastical.jpg">
-	<figcaption>Fantastical’s smart user input</figcaption>
+	<figcaption><p>Fantastical’s smart user input</p></figcaption>
 </figure>
 
 <a href="http://flexibits.com/fantastical-iphone" class="external" target="_blank">&#8220;<span class="external-body">Fantastical</span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> eliminates the tedious task of inputting meta data associated with your events by providing a smart input which automatically translates your conversational sentences into an event. Keeping organized is no longer a chore.
@@ -125,7 +125,7 @@ Lastly, Clear, which relies on a series of gestures for interaction, doesn’t r
 
 <figure>
 	<img src="/img/post/01-12clear.jpg">
-	<figcaption class="inline">Clear's discoverable copy inspires and serves as a small reward for a hard day's work</figcaption>
+	<figcaption><p>Clear's discoverable copy inspires and serves as a small reward for a hard day's work</p></figcaption>
 </figure>
 
 In the tech world where solid competition pops up on a daily basis, convincing a user they *want* to use your product is key. By using sound, animation and copy Designers can endue delight into interfaces providing users with opportunities to build attachments to our products. While we can learn a lot from our science-fiction dreams, we need to understand how to connect deeper with our users.
