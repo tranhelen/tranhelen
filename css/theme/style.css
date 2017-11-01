@@ -2437,24 +2437,6 @@ figure img {
 }
 
 /* line 23, ../../sass/partials/_main.scss */
-footer header,
-footer footer {
-  background-position-x: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 30px;
-}
-/* line 31, ../../sass/partials/_main.scss */
-footer header {
-  background-image: url("/img/bg-watercolour-footer.svg");
-}
-/* line 35, ../../sass/partials/_main.scss */
-footer footer {
-  background-image: url("/img/bg-watercolour-footerft.svg");
-  margin-top: -10px;
-}
-
-/* line 41, ../../sass/partials/_main.scss */
 input {
   background-color: #fff;
   border: 0;
@@ -2463,13 +2445,13 @@ input {
   width: 100%;
 }
 
-/* line 49, ../../sass/partials/_main.scss */
+/* line 31, ../../sass/partials/_main.scss */
 ul {
   margin: 0 0 0 20px;
   padding: 0;
 }
 
-/* line 54, ../../sass/partials/_main.scss */
+/* line 36, ../../sass/partials/_main.scss */
 .header-bg-watercolour {
   background-repeat: no-repeat;
   height: 50px;
@@ -2479,31 +2461,31 @@ ul {
   width: 160%;
   z-index: -1;
 }
-/* line 63, ../../sass/partials/_main.scss */
+/* line 45, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--writing {
   background-image: url("/img/bg-watercolour-writing.svg");
 }
-/* line 67, ../../sass/partials/_main.scss */
+/* line 49, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--writing-archives {
   background-image: url("/img/bg-watercolour-writing-archives.svg");
 }
-/* line 71, ../../sass/partials/_main.scss */
+/* line 53, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs1-stage3 {
   background-image: url("/img/casestudy/1-bg-watercolour-header-stage3.svg");
   left: -40px;
   top: 30px;
 }
-/* line 76, ../../sass/partials/_main.scss */
+/* line 58, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs1-stage3.--b {
   left: -20px;
   top: 35px;
 }
-/* line 81, ../../sass/partials/_main.scss */
+/* line 63, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs1-stage3.--c {
   left: -60px;
   top: 20px;
 }
-/* line 87, ../../sass/partials/_main.scss */
+/* line 69, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs2-diversity {
   background-image: url("/img/casestudy/2-bg-watercolour-header-diversity.svg");
   left: -31px;
@@ -2511,38 +2493,38 @@ ul {
   height: 35px;
   z-index: 0;
 }
-/* line 94, ../../sass/partials/_main.scss */
+/* line 76, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs2-diversity.--b {
   left: -21px;
   top: 19px;
 }
-/* line 99, ../../sass/partials/_main.scss */
+/* line 81, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs2-diversity.--c {
   left: 19px;
   top: 24px;
 }
-/* line 104, ../../sass/partials/_main.scss */
+/* line 86, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs2-diversity.--d {
   left: -20px;
   top: 44px;
 }
-/* line 109, ../../sass/partials/_main.scss */
+/* line 91, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs2-diversity.--e {
   left: 39px;
   top: 25px;
 }
-/* line 114, ../../sass/partials/_main.scss */
+/* line 96, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs2-diversity.--f {
   left: -31px;
   top: 15px;
 }
-/* line 120, ../../sass/partials/_main.scss */
+/* line 102, ../../sass/partials/_main.scss */
 .header-bg-watercolour.--cs-morework {
   background-image: url("/img/casestudy/bg-watercolour-cs-morework.svg");
   top: -10px;
 }
 
-/* line 126, ../../sass/partials/_main.scss */
+/* line 108, ../../sass/partials/_main.scss */
 .line-one {
   background-color: #d0a233;
   height: 3px;
@@ -2551,7 +2533,7 @@ ul {
   top: 25px;
   width: 15px;
 }
-/* line 134, ../../sass/partials/_main.scss */
+/* line 116, ../../sass/partials/_main.scss */
 .line-one.hp-goals__img-one {
   float: right;
   left: -25%;
@@ -2559,28 +2541,28 @@ ul {
   width: 85px;
   z-index: 1;
 }
-/* line 142, ../../sass/partials/_main.scss */
+/* line 124, ../../sass/partials/_main.scss */
 .archive-design .line-one {
   top: 30px;
 }
-/* line 146, ../../sass/partials/_main.scss */
+/* line 128, ../../sass/partials/_main.scss */
 .c1__body .line-one, .c2__body .line-one, .c3__body .line-one {
   top: 15px;
 }
-/* line 152, ../../sass/partials/_main.scss */
+/* line 134, ../../sass/partials/_main.scss */
 .cs-morework .line-one {
   top: 35px;
 }
-/* line 156, ../../sass/partials/_main.scss */
+/* line 138, ../../sass/partials/_main.scss */
 .hp-work .line-one {
   top: 10px;
 }
-/* line 160, ../../sass/partials/_main.scss */
+/* line 142, ../../sass/partials/_main.scss */
 .hp-writing .line-one {
   top: 10px;
 }
 
-/* line 165, ../../sass/partials/_main.scss */
+/* line 147, ../../sass/partials/_main.scss */
 .line-two {
   background-color: #768fe1;
   height: 3px;
@@ -2589,65 +2571,81 @@ ul {
   top: 25px;
   width: 15px;
 }
-/* line 173, ../../sass/partials/_main.scss */
+/* line 155, ../../sass/partials/_main.scss */
 .c1-s2 .line-two, .c1-s4 .line-two {
   top: 15px;
 }
-/* line 178, ../../sass/partials/_main.scss */
+/* line 160, ../../sass/partials/_main.scss */
 .c2__body .line-two, .c3-s3 .line-two {
   top: 15px;
 }
 
-/* line 184, ../../sass/partials/_main.scss */
+/* line 166, ../../sass/partials/_main.scss */
 .mailinglist {
-  margin: 40px 0 50px;
+  margin: 20px 0 50px;
 }
-
-/* line 188, ../../sass/partials/_main.scss */
-.mailinglist__form {
+/* line 169, ../../sass/partials/_main.scss */
+.mailinglist .mailinglist__content {
+  margin-top: 40px;
+}
+/* line 173, ../../sass/partials/_main.scss */
+.mailinglist .mailinglist__header,
+.mailinglist .mailinglist__footer {
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+}
+/* line 181, ../../sass/partials/_main.scss */
+.mailinglist .mailinglist__header {
+  background-image: url("/img/bg-watercolour-footer.svg");
+}
+/* line 185, ../../sass/partials/_main.scss */
+.mailinglist .mailinglist__footer {
+  background-image: url("/img/bg-watercolour-footerft.svg");
+  margin-top: -10px;
+}
+/* line 190, ../../sass/partials/_main.scss */
+.mailinglist .mailinglist__form {
   background-color: #fcf8ef;
   padding: 10px 0 20px;
 }
-/* line 192, ../../sass/partials/_main.scss */
-.mailinglist__form input {
+/* line 194, ../../sass/partials/_main.scss */
+.mailinglist .mailinglist__form input {
   margin-bottom: 15px;
 }
 
-/* line 197, ../../sass/partials/_main.scss */
-.mailinglist__content {
-  margin-top: 40px;
-}
-
-/* line 201, ../../sass/partials/_main.scss */
+/* line 200, ../../sass/partials/_main.scss */
 .navigation {
   margin: 15px 0;
 }
 
-/* line 205, ../../sass/partials/_main.scss */
+/* line 204, ../../sass/partials/_main.scss */
 .toc {
   margin: 20px 0 30px -20px;
 }
-/* line 208, ../../sass/partials/_main.scss */
+/* line 207, ../../sass/partials/_main.scss */
 .toc h6, .toc .h6 {
   margin: 0 0 10px 20px;
 }
 
-/* line 213, ../../sass/partials/_main.scss */
+/* line 212, ../../sass/partials/_main.scss */
 .toc-list {
   margin: 0;
 }
-/* line 216, ../../sass/partials/_main.scss */
+/* line 215, ../../sass/partials/_main.scss */
 .toc-list li {
   margin: 0;
 }
-/* line 220, ../../sass/partials/_main.scss */
+/* line 219, ../../sass/partials/_main.scss */
 .toc-list .bullet {
   color: #d0a233;
 }
 
-/* line 225, ../../sass/partials/_main.scss */
+/* line 224, ../../sass/partials/_main.scss */
 #mc-embedded-subscribe {
   background-color: #d0a233;
+  border-radius: 0;
   color: #fff;
   font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em;

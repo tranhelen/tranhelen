@@ -19,24 +19,6 @@ figure {
 	}
 }
 
-footer {
-	header,
-	footer {
-	    background-position-x: 50%;
-	    background-repeat: no-repeat;
-	    background-size: cover;
-		height: 30px;
-	}
-
-	header {
-		background-image: url('/img/bg-watercolour-footer.svg');
-	}
-
-	footer {
-		background-image: url('/img/bg-watercolour-footerft.svg');
-	    margin-top: -10px;
-	}
-}
 
 input {
 	background-color: #fff;
@@ -182,20 +164,37 @@ ul {
 }
 
 .mailinglist {
-	margin: 40px 0 50px;
-}
+	margin: 20px 0 50px;
 
-.mailinglist__form {
-	background-color: $colorBGone;
-	padding: 10px 0 20px;
-
-	input {
-		margin-bottom: 15px;
+	.mailinglist__content {
+		margin-top: 40px;
 	}
-}
 
-.mailinglist__content {
-	margin-top: 40px;
+	.mailinglist__header,
+	.mailinglist__footer {
+	    background-position-x: 50%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+		height: 30px;
+	}
+
+	.mailinglist__header {
+		background-image: url('/img/bg-watercolour-footer.svg');
+	}
+
+	.mailinglist__footer {
+		background-image: url('/img/bg-watercolour-footerft.svg');
+	    margin-top: -10px;
+	}
+
+	.mailinglist__form {
+		background-color: $colorBGone;
+		padding: 10px 0 20px;
+
+		input {
+			margin-bottom: 15px;
+		}
+	}
 }
 
 .navigation {
@@ -224,6 +223,7 @@ ul {
 
 #mc-embedded-subscribe {
 	background-color: $colorAccent;
+	border-radius: 0;
 	color: #fff;
 	font-family: $stack2;
 	font-size: em(13px);
