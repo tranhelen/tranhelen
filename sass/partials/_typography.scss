@@ -333,7 +333,10 @@ ul {
 }
 
 .hp-goals figcaption {
-// start over
+	float: left;
+	padding-left: 30%;
+	padding-top: 5%;
+	width: 70%;
 }
 
 .hp-name {

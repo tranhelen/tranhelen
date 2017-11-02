@@ -155,18 +155,6 @@ input {
 		top: 35px;
 	}
 
-	.hp-goals__single & {
-		margin: 0;
-			top: -15px;
-			right: -130px;
-		width: 85px;
-	    z-index: 1;
-
-	    @include at-query($two) {
-	    		right: -160px;
-	    }
-	}
-
 	.hp-work & {
 		top: 10px;
 	}
@@ -365,17 +353,48 @@ input {
 		@include transition;
 	}
 
-	.hp-goals__single {
-		margin-bottom: 30px;
-	}
-
 	@include at-query($two) {
 		margin-bottom: -20px;
 	}
+}
 
+.hp-goals__single {
+	margin-bottom: 30px;
+
+	figure {
+		float: right;
+		width: 30%;
+	}
+
+	.line-one {
+		margin: 0;
+			top: -10px;
+			right: -130px;
+		width: 85px;
+	    z-index: 1;
+
+	    @include at-query($two) {
+	    		right: -160px;
+	    }
+	}
+
+	&.__go02 {
+		figcaption { 
+			float: right;
+			padding: 5% 30% 0 20px;
+		}
+
+		.line-one {
+			right: 40px;
+		}
+	}
+
+	@include clearfix;
 }
 
 .hp-header {
+	margin: 40px 0 20px;
+
 	@include at-query($one) {
 		margin-top: 100px;
 	}
