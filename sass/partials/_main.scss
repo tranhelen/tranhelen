@@ -377,6 +377,10 @@ input {
 			float: right;
 			width: 35%;
 		}
+
+		@include at-query($two) {
+			width: 50%;
+		}
 	}
 
 	.__second {
@@ -386,6 +390,11 @@ input {
 			float: left;
 			margin: 0 0 0 60px;
 			width: 55%;
+		}
+
+		@include at-query($two) {
+			margin-left: 10%;
+			width: 40%;
 		}
 	}
 }
@@ -403,6 +412,12 @@ input {
 		width: 128%;
 		z-index: 2;
 	}
+
+	@include at-query($two) {
+		margin-top: -110px;
+			top: -40px;
+		width: 112%;
+	}
 }
 
 .hp-portrait-bg {
@@ -419,6 +434,13 @@ input {
     		top: -10px;
     	width: 128%;
 		z-index: 0;
+	}
+
+	@include at-query($two) {
+		margin-top: -370px;
+			left: -30px;
+			top: -30px;
+		width: 112%;
 	}
 }
 
