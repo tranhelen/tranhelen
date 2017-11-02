@@ -23,6 +23,12 @@
 	text-align: right;
 }
 
+.one--text-right {
+	@include at-query($one) {
+		text-align: right;
+	}
+}
+
 /*------------------------------------*\
     #Animations
 \*------------------------------------*/

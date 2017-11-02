@@ -166,6 +166,14 @@ input {
 .mailinglist {
 	margin: 20px 0 50px;
 
+	.copy {
+		margin-bottom: 5px;
+
+		@include at-query($one) {
+			text-align: center;
+		}
+	}
+
 	.mailinglist__content {
 		margin-top: 40px;
 	}
@@ -194,6 +202,12 @@ input {
 
 		input {
 			margin-bottom: 15px;
+		}
+
+		@include at-query($one) {
+			input {
+				margin-bottom: 0;
+			}
 		}
 	}
 }
@@ -244,7 +258,7 @@ input {
 	// do this so the video doesn't load when someone has a small viewport, javascript takes care of not loading the asset
 	display: none;
 
-	@include at-query($one) {
+	@include at-query($two) {
 		display: block;
 	    position: fixed;
 	    min-width: 100%;

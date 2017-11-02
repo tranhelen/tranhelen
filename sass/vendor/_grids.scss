@@ -81,7 +81,7 @@ $use-markup-fix:        true!default;
  * that the breakpoint fires at.
  */
 $breakpoints: (
-    'one' '(min-width: 830px)',
+    'one' '(min-width: 600px)',
     'two' '(min-width: 1000px)'
 )!default;
 
