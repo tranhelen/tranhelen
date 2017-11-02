@@ -4,16 +4,10 @@
 
 body {
 	overflow-x: hidden;
-	padding-bottom: 50px;
 }
 
 .words {
-	position: fixed;
-	opacity: 0;
-	top: 40%;
-	margin: 0 10%;
-	width: 600px;
-	z-index: 2;
+	display: none;
 
 	h1,
 	h3 {
@@ -21,7 +15,13 @@ body {
 	}
 
 	@include at-query($two) {
-		opacity: 1;
+		display: block;
+		position: fixed;
+		top: 40%;
+		margin: 0 10%;
+		width: 600px;
+		z-index: 2;
+
 	}
 
 	@include transition;
@@ -330,7 +330,7 @@ input {
 	background-color: #fff;
 
 	@include at-query($two) {
-	    margin-top: -15%;
+		padding-bottom: 100px;
 		position: relative;
     	z-index: 3;
 	}
@@ -410,9 +410,11 @@ input {
 	}
 
 	@include at-query($two) {
-		margin-top: -110px;
-			top: -35px;
-		width: 112%;
+		margin-top: -27%;
+		position: relative;
+			left: 12%;
+			top: 40px;
+		width: 100%;
 	}
 }
 
@@ -433,10 +435,10 @@ input {
 	}
 
 	@include at-query($two) {
-		margin-top: -410px;
-			left: -20px;
-			top: -10px;
-		width: 112%;
+	    margin-top: -55%;
+		    top: 0;
+		    left: 30px;
+	    width: 100%;
 	}
 }
 
@@ -512,16 +514,23 @@ input {
 }
 
 .hp-video {
-	height: 100vh;
-	width: 100vh;
+	@include at-query($two) {
+		height: 100vh;
+		width: 100vh;		
+	}
 }
 
 .hp-video__overlay {
-	background-color: rgba(#000,0.5);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
+	display: none;
+
+	@include at-query($two) {
+		background-color: rgba(#000,0.5);
+		display: block;
+	    height: 100%;
+	    width: 100%;
+	    position: fixed;
+	    z-index: 1;		
+	}
 }
 
 /*------------------------------------*\
