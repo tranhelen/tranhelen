@@ -314,6 +314,10 @@ input {
 
 	.hp-appearances__body {
 		margin-left: 20px;
+
+		@include at-query($two) {
+			margin: 0;
+		}
 	}
 }
 
@@ -357,11 +361,19 @@ input {
 		margin-bottom: 30px;
 	}
 
+	@include at-query($two) {
+		margin-bottom: -20px;
+	}
+
 }
 
 .hp-header {
 	@include at-query($one) {
 		margin-top: 100px;
+	}
+
+	@include at-query($two) {
+		margin-bottom: 20px;
 	}
 }
 
@@ -443,8 +455,6 @@ input {
 }
 
 .hp-work {
-	padding-bottom: 1px;
-
 	.hp-work__body {
 		background-color: $colorBGone;
 	}
@@ -472,14 +482,20 @@ input {
 	    height: 25px;
 	    margin-top: -30px;
 	}
+
+	@include at-query($two) {
+		margin-top: 80px;
+	}
+}
+
+.hp-work__group {
+	@include at-query($two) {
+		margin-top: -30px;
+	}
 }
 
 .hp-work-single {
 	margin-top: 30px;
-
-	.hp-work-single__body {
-		padding: 10px 20px 15px 20px;
-	}
 
 	a {
 		background-color: #fff;
@@ -490,6 +506,16 @@ input {
 
 		&:hover {
 			transform: scale(1.05);
+		}
+	}
+
+	.hp-work-single__body {
+		padding: 10px 20px 15px 20px;
+	}
+
+	&.hp-work-single--move {
+		@include at-query($two) {
+			margin-top: 70%;
 		}
 	}
 }
