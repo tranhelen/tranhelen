@@ -11,17 +11,13 @@ body {
 	position: fixed;
 	opacity: 0;
 	top: 40%;
-	margin: 0 60px;
+	margin: 0 10%;
 	width: 600px;
 	z-index: 2;
 
 	h1,
 	h3 {
 		color: #fff;
-	}
-
-	.hp-name {
-		margin-top: 0;
 	}
 
 	@include at-query($two) {
@@ -334,7 +330,7 @@ input {
 	background-color: #fff;
 
 	@include at-query($two) {
-	    margin-top: -20%;
+	    margin-top: -15%;
 		position: relative;
     	z-index: 3;
 	}
@@ -438,8 +434,8 @@ input {
 
 	@include at-query($two) {
 		margin-top: -370px;
-			left: -30px;
-			top: -30px;
+			left: -20px;
+			top: -10px;
 		width: 112%;
 	}
 }
@@ -457,7 +453,7 @@ input {
 	}
 
 	.hp-work__header,
-	.ho-work__footer {
+	.hp-work__footer {
 		background-repeat: no-repeat;
 	}
 
