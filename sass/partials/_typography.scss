@@ -324,6 +324,17 @@ ul {
     #TypographyHomepage
 \*------------------------------------*/
 
+.hp-bio__body {
+	margin-left: 20px;
+}
+.hp-intro {
+	margin-top: 80%;
+
+	@include at-query($one) {
+		margin-top: 54%;
+	}
+}
+
 .hp-goals {
 	figcaption {
 		margin: 0 20px 0 25%;
