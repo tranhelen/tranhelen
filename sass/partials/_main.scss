@@ -347,6 +347,10 @@ input {
 .hp-goals__single {
 	margin-bottom: 30px;
 
+	a {
+		background-image: none;
+	}
+
 	figure {
 		float: right;
 		width: 30%;
@@ -359,8 +363,12 @@ input {
 		width: 85px;
 	    z-index: 1;
 
+	    @include at-query($one) {
+	    	right: -95px;
+	    }
+
 	    @include at-query($two) {
-	    		right: -160px;
+	    		right: -80px;
 	    }
 	}
 
@@ -368,10 +376,43 @@ input {
 		figcaption { 
 			float: right;
 			padding: 5% 30% 0 20px;
+
+			@include at-query($one) {
+				padding: 25px -0 0 20px;
+			}
+
+			@include at-query($two) {
+				float: left;
+				padding: 25px -0 0 0;
+			}
 		}
 
 		.line-one {
 			right: 40px;
+
+			@include at-query($two) {
+				right: -80px;
+			}
+		}
+
+		@include at-query($two) {
+			position: relative;
+				top: 50px;
+		}
+	}
+
+	&.__go03 {
+		figcaption {
+			@include at-query($two) {
+				float: right;
+				padding-left: 20px;
+			}
+		}
+
+		.line-one {
+			@include at-query($two) {
+				right: 20px;
+			}
 		}
 	}
 

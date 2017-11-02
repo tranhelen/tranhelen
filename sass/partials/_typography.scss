@@ -337,6 +337,10 @@ ul {
 	padding-left: 30%;
 	padding-top: 5%;
 	width: 70%;
+
+	@include at-query($one) {
+		padding: 25px 0 0 0;
+	}
 }
 
 .hp-name {
