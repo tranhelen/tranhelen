@@ -7,6 +7,30 @@ body {
 	padding-bottom: 50px;
 }
 
+.words {
+	position: fixed;
+	opacity: 0;
+	top: 40%;
+	margin: 0 60px;
+	width: 600px;
+	z-index: 2;
+
+	h1,
+	h3 {
+		color: #fff;
+	}
+
+	.hp-name {
+		margin-top: 0;
+	}
+
+	@include at-query($two) {
+		opacity: 1;
+	}
+
+	@include transition;
+}
+
 figure {
 	margin: 20px 0 30px 0;
 
@@ -33,6 +57,10 @@ input {
 
 	@include at-query($one) {
 		margin: 0 60px;
+	}
+
+	@include at-query($two) {
+		max-width: 1400px;
 	}
 }
 
@@ -303,6 +331,12 @@ input {
 
 .hp-container {
 	background-color: #fff;
+
+	@include at-query($two) {
+	    margin-top: -20%;
+		position: relative;
+    	z-index: 3;
+	}
 }
 
 .hp-goals {
@@ -325,6 +359,7 @@ input {
 	.hp-goals__single {
 		margin-bottom: 30px;
 	}
+
 }
 
 .hp-header {
@@ -372,14 +407,15 @@ input {
 .hp-portrait-bg {
 	margin-top: -78%;
 	position: relative;
+		left: 5%;
 	width: 118%;
 	z-index: 0;
 
 	@include at-query($one) {
-		margin-top: -50%;
+		margin-top: -66%;
 		position: relative;
-			left: 20px;
-    		top: -30px;
+			left: 0px;
+    		top: -10px;
     	width: 128%;
 		z-index: 0;
 	}
@@ -454,6 +490,19 @@ input {
     }
 
     @include transition;
+}
+
+.hp-video {
+	height: 100vh;
+	width: 100vh;
+}
+
+.hp-video__overlay {
+	background-color: rgba(#000,0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 /*------------------------------------*\
