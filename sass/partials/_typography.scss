@@ -326,6 +326,10 @@ ul {
 
 .hp-bio__body {
 	margin-left: 20px;
+
+	@include at-query($two) {
+		margin: 0;
+	}
 }
 
 .hp-goals {
@@ -349,7 +353,7 @@ ul {
 		margin-top: 42%;
 	}
 
-	@inclue at-query($two) {
+	@include at-query($two) {
 		margin-top: 200px;
 	}
 }

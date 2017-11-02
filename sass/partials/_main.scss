@@ -411,7 +411,7 @@ input {
 
 	@include at-query($two) {
 		margin-top: -110px;
-			top: -40px;
+			top: -35px;
 		width: 112%;
 	}
 }
@@ -433,7 +433,7 @@ input {
 	}
 
 	@include at-query($two) {
-		margin-top: -370px;
+		margin-top: -410px;
 			left: -20px;
 			top: -10px;
 		width: 112%;
