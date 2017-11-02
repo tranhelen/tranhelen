@@ -60,6 +60,7 @@ input {
 	}
 
 	@include at-query($two) {
+		margin: 0 10%;
 		max-width: 1400px;
 	}
 }
