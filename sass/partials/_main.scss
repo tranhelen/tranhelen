@@ -339,20 +339,6 @@ input {
 .hp-goals {
 	margin: 0 0 50px 0;
 
-	img {
-		display: block;
-
-		&:hover {
-			height: 110%;
-			position: relative;
-				left: -5%;
-				top: -5%;
-			width: 110%;
-		}
-
-		@include transition;
-	}
-
 	@include at-query($two) {
 		margin-bottom: -20px;
 	}
