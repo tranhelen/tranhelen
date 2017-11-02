@@ -332,17 +332,18 @@ ul {
 	}
 }
 
-.hp-goals {
-	figcaption {
-		margin: 0 20px 0 25%;
-		position: relative;
-		top: 20px;
+.hp-goals figcaption {
+	margin: 0 20px 0 25%;
+	position: relative;
+	top: 20px;
+
+	@include at-query($one) {
+		margin: 0 10px 0 10%;
+		margin-top: 15px;
 	}
 
-	.hp-goals__single {
-		figcaption {
-			margin-top: 15px;
-		}
+	@include at-query($two) {
+		margin-top: 55px;
 	}
 }
 

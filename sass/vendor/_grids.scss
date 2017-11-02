@@ -82,7 +82,8 @@ $use-markup-fix:        true!default;
  */
 $breakpoints: (
     'one' '(min-width: 600px)',
-    'two' '(min-width: 800px)'
+    'two' '(min-width: 800px)',
+    'three' '(min-width: 1130px)'
 )!default;
 
 
@@ -96,9 +97,9 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ('one', 'two')!default;
-$breakpoint-has-push:   ('one', 'two')!default;
-$breakpoint-has-pull:   ('one', 'two')!default;
+$breakpoint-has-widths: ('one', 'two', 'three')!default;
+$breakpoint-has-push:   ('one', 'two', 'three')!default;
+$breakpoint-has-pull:   ('one', 'two', 'three')!default;
 
 
 /**
