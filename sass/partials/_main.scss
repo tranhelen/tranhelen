@@ -327,11 +327,38 @@ input {
 	}
 }
 
+.hp-header {
+	@include at-query($one) {
+		margin-top: 100px;
+	}
+}
+
+.hp-header__intro {
+	@include clearfix;
+
+	.__one {
+		@include at-query($one) {
+			float: right;
+			width: 35%;
+		}
+	}
+
+	.__second {
+		margin: 0 30px;
+
+		@include at-query($one) {
+			float: left;
+			margin: 0 0 0 60px;
+			width: 55%;
+		}
+	}
+}
+
 .hp-portrait {
 	box-shadow: 0px 0px 30px rgba($colorShadow,0.5);
-	position: fixed;
-		left: 0;
-		top: 0px;
+	margin: -15% -12% 0px;
+	position: relative;
+	width: 124%;
 	z-index: 1;
 
 	@include at-query($one) {
@@ -343,9 +370,9 @@ input {
 }
 
 .hp-portrait-bg {
-	position: fixed;
-		left: 15px;
-		top: 15px;
+	margin-top: -78%;
+	position: relative;
+	width: 118%;
 	z-index: 0;
 
 	@include at-query($one) {

@@ -327,13 +327,6 @@ ul {
 .hp-bio__body {
 	margin-left: 20px;
 }
-.hp-intro {
-	margin-top: 80%;
-
-	@include at-query($one) {
-		margin-top: 54%;
-	}
-}
 
 .hp-goals {
 	figcaption {
@@ -346,6 +339,14 @@ ul {
 		figcaption {
 			margin-top: 15px;
 		}
+	}
+}
+
+.hp-name {
+	margin-top: 30px;
+
+	@include at-query($one) {
+		margin-top: 42%;
 	}
 }
 
