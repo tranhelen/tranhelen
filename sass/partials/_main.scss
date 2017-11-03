@@ -59,6 +59,10 @@ input {
 		margin: 0 10%;
 		max-width: 1400px;
 	}
+
+	@include at-query($four) {
+		margin: 0 auto;
+	}
 }
 
 .header-bg-watercolour {
@@ -483,10 +487,19 @@ input {
 
 	@include at-query($two) {
 		margin-bottom: 20px;
+		margin-top: 0;
 	}
 }
 
 .hp-header__intro {
+	@include at-query($three) {
+		max-width: 1400px;
+	}
+
+	@include at-query($four) {
+		margin: 0 auto;
+	}
+
 	@include clearfix;
 
 	.__one {
@@ -512,6 +525,10 @@ input {
 		@include at-query($two) {
 			margin-left: 10%;
 			width: 40%;
+		}
+
+		@include at-query($four) {
+			margin-left: 0;
 		}
 	}
 }
@@ -560,6 +577,10 @@ input {
 		    top: 0;
 		    left: 30px;
 	    width: 100%;
+	}
+
+	@include at-query($four) {
+		margin-top: -410px;
 	}
 }
 
@@ -625,6 +646,10 @@ input {
 	&.hp-work-single--move {
 		@include at-query($two) {
 			margin-top: 70%;
+		}
+
+		@include at-query($three) {
+			margin-top: 50%;
 		}
 	}
 }
