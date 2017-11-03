@@ -19,9 +19,22 @@ body {
 		position: fixed;
 		top: 50%;
 		margin: 0 10%;
-		width: 600px;
+		width: 500px;
 		z-index: 2;
+	}
 
+	@include at-query($three) {
+		width: 50%;
+	}
+
+	@include at-query($four) {
+		display: block;
+	    left: 50%;
+	    padding-right: 400px;
+	    margin: 0;
+	    transform: translateX(-50%);
+	    width: 1400px;
+	    z-index: 2;
 	}
 
 	@include transition;
@@ -529,6 +542,7 @@ input {
 
 		@include at-query($four) {
 			margin-left: 0;
+			width: 50%;
 		}
 	}
 }
