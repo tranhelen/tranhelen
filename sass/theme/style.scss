@@ -65,7 +65,7 @@ $stack2: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $one: 600px;
 $two: 800px;
 $three: 1130px;
-$four: 1440px;
+$four: 1500px;
 
 @import "normalize";
 
@@ -76,3 +76,7 @@ $four: 1440px;
 @import "partials/typography";
 
 @import "partials/main";
+@import "partials/homepage";
+@import "partials/archives";
+@import "partials/casestudies";
+@import "partials/blog";

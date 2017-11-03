@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #Blog
+\*------------------------------------*/
+
+figure {
+	figcaption {
+		margin-left: 30px;
+	}
+
+	&.hero {
+		margin: 0 -30px 30px;
+	}
+}
+
+.book-cover {
+	margin-bottom: 15px;
+}
+
+.post-single {
+	margin-bottom: 30px;
+}

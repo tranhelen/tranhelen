@@ -1,0 +1,44 @@
+/*------------------------------------*\
+    #Archives
+\*------------------------------------*/
+
+.archive-design {
+	background-image: url('/img/bg-watercolour-designarchive.svg');
+	background-repeat: no-repeat;
+    background-position-x: 50%;;
+	background-size: 396%;	
+	margin: 50px 0 30px;
+	padding-bottom: 10px;
+
+	.archive-design__header {
+		padding-top: 10px;
+		position: relative;
+		top: -30px;
+	}
+}
+
+.fullarchive-2014 {
+	background-image: url('/img/bg-watercolour-archive2014.svg');
+	background-repeat: no-repeat;
+    background-position: -20px 20px;
+	background-size: 300%;
+	margin: 50px 0 30px;
+	padding-bottom: 15px;
+}
+
+.fullarchive-2016 {
+	background-image: url('/img/bg-watercolour-archive2016mobile.svg');
+	background-repeat: no-repeat;
+    background-position-x: -20px;
+	background-size: 200%;	
+	margin: 50px 0 30px;
+	padding-bottom: 10px;
+}
+
+.writing__group {
+	padding-bottom: 10px;
+}
+
+.writing__single {
+	margin-bottom: 30px;
+}

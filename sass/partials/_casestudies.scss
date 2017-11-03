@@ -1,0 +1,253 @@
+/*------------------------------------*\
+    #CaseStudies
+\*------------------------------------*/
+
+.c1-s1,
+.c1-s2,
+.c1-s3,
+.c1-s4 {
+	margin: 50px 0;
+}
+
+.c1-numbers {
+	background-color: $colorBGone;
+	margin: 30px -30px;
+	padding: 15px;
+
+	.c1-numbers__body {
+		border: 5px solid #fff;
+		padding: 20px 10px 20px 30px;
+	}
+}
+
+.c1-stage3-images {
+	figure {
+		float: left;
+		margin: 20px 0 0 0;
+		position: relative;
+		width: 20%;
+    	z-index: 1;
+	}
+
+	.c1-stage3-images__body {
+		float: right;
+    	padding-left: 30px;
+		width: 80%;
+	}
+
+	@include clearfix;
+}
+
+.c2-diversity {
+	margin-bottom: 50px;
+}
+
+.c2-diversity-box {
+	background-color: #fff;
+	box-shadow: 0px 10px 30px rgba($colorShadow,0.3);
+    padding: 30px 30px 15px;
+    margin-top: 50px;
+}
+
+.c2-diversity-box__image {
+    display: block;
+    margin: -60px auto 0;
+    width: 151px;
+}
+
+.c2-header {
+	margin-top: -30px;
+}
+
+.c2-header-img {
+	margin-left: -230px;
+	margin-top: -100px;
+	width: 210%;
+}
+
+.c2-s2,
+.c2-s3,
+.c2-s4,
+.c2-s5,
+.c2-s6 {
+    background-position: -600px 50px;
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    margin-top: 40px;
+}
+
+.c2-s2 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+}
+
+.c2-s3 {
+	background-image: url('/img/casestudy/2-background-s3.svg');
+    background-position: 300px 0;
+    background-size: 2400px 2400px;
+    padding-top: 30px;
+}
+
+.c2-s4 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+}
+
+.c2-s5 {
+	background-image: url('/img/casestudy/2-background-s3.svg');
+    background-position: 300px 0;
+    background-size: 2400px 2400px;
+    padding-top: 30px;
+}
+
+.c2-s6 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+}
+
+.c3-s2,
+.c3-s3,
+.c3-s4,
+.c3-s5 {
+    background-position: 260px -10px;
+    background-repeat: no-repeat;
+    background-size: 2400px 2400px;
+    margin: 50px 0;
+}
+
+.c3-s2 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+    padding-top: 50px;
+}
+
+.c3-s3 {
+	background-image: url('/img/casestudy/2-background-s3.svg');
+	background-position: -1000px 50px;
+    background-size: 1200px 1200px;
+}
+
+.c3-s4 {
+	background-image: url('/img/casestudy/2-background-s2.svg');
+	background-size: 1200px 1200px;
+    padding-top: 50px;
+}
+
+.c3-s2-facebookad {
+    margin: 0 -30px 10px -30px;
+
+	figure {
+		float: left;
+		width: 50%;
+	}
+
+	.fa01 {
+	    position: relative;
+	    z-index: 1;
+	}
+
+	.fa02 {
+        margin-top: 8%;
+	}
+
+	@include clearfix;
+}
+
+.c3-s2-facebookcheckout {
+	figure {
+		float: left;
+		width: 48%;
+	}
+
+	.fc02 {
+		float: right;
+	}
+
+	@include clearfix;
+}
+
+.c3-s2-dashboards {
+    margin: 0 -30px 0 -30px;
+
+    figure {
+    	float: left;
+    }
+
+    .da01 {
+    	margin-top: 16%;
+    	width: 45%;
+    }
+
+    .da02 {
+    	margin-left: -20%;
+    	position: relative;
+    	width: 50%;
+    	z-index: 1;
+    }
+
+    .da03 {
+    	width: 35%;
+    	margin-left: -10%;
+    	margin-top: 10%;
+    }
+
+    @include clearfix;
+}
+
+.c3-s3-home {
+    margin: 0 -30px 0 -30px;
+
+    figure {
+    	float: left;
+    	margin: 20px 0 15px 0;
+    }
+
+    figcaption {
+    	margin: 0 0 30px 30px;
+    }
+
+    .ho01 {
+    	margin-top: 10%;
+    	width: 40%;
+    }
+
+    .ho02 {
+    	width: 60%;
+    }
+
+	@include clearfix;
+}
+
+.c3-s4-unite {
+	margin: 0 -30px;
+
+	figure {
+		width: 80%;
+	}
+
+	.un02 {
+		margin: -15% 0 0 20%;
+	    position: relative;
+	    z-index: 1;
+	    width: 80%;
+	}
+
+	@include clearfix;
+}
+
+.cs-morework {
+    margin-top: -20px;
+
+	.hp-work-single {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+}
+
+.tag {
+	background-color: $colorAccent;
+	color: #fff;
+	margin: 0 auto;
+	padding: 10px 0 5px;
+    position: relative;
+    	top: 20px;
+	text-align: center;
+	width: 120px;
+    z-index: 1;
+}
