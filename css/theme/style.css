@@ -3856,8 +3856,16 @@ input {
 .hp-writing .line-one {
   top: 10px;
 }
+@media screen and (min-width: 1500px) {
+  /* line 470, ../../sass/partials/_main.scss */
+  .line-one {
+    right: 5005%;
+    top: 35px;
+    width: 5000%;
+  }
+}
 
-/* line 501, ../../sass/partials/_main.scss */
+/* line 507, ../../sass/partials/_main.scss */
 .line-two {
   background-color: #768fe1;
   height: 3px;
@@ -3866,34 +3874,34 @@ input {
   top: 25px;
   width: 300px;
 }
-/* line 509, ../../sass/partials/_main.scss */
+/* line 515, ../../sass/partials/_main.scss */
 .c1-s2 .line-two, .c1-s4 .line-two {
   top: 15px;
 }
-/* line 514, ../../sass/partials/_main.scss */
+/* line 520, ../../sass/partials/_main.scss */
 .c2__body .line-two, .c3-s3 .line-two {
   top: 15px;
 }
 
-/* line 520, ../../sass/partials/_main.scss */
+/* line 526, ../../sass/partials/_main.scss */
 .mailinglist {
   margin: 20px 0 50px;
 }
-/* line 523, ../../sass/partials/_main.scss */
+/* line 529, ../../sass/partials/_main.scss */
 .mailinglist .copy {
   margin-bottom: 5px;
 }
 @media screen and (min-width: 600px) {
-  /* line 523, ../../sass/partials/_main.scss */
+  /* line 529, ../../sass/partials/_main.scss */
   .mailinglist .copy {
     text-align: center;
   }
 }
-/* line 531, ../../sass/partials/_main.scss */
+/* line 537, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__content {
   margin-top: 40px;
 }
-/* line 535, ../../sass/partials/_main.scss */
+/* line 541, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__header,
 .mailinglist .mailinglist__footer {
   background-position-x: 50%;
@@ -3901,62 +3909,62 @@ input {
   background-size: cover;
   height: 30px;
 }
-/* line 543, ../../sass/partials/_main.scss */
+/* line 549, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__header {
   background-image: url("/img/bg-watercolour-footer.svg");
   margin: 0;
 }
-/* line 548, ../../sass/partials/_main.scss */
+/* line 554, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__footer {
   background-image: url("/img/bg-watercolour-footerft.svg");
   margin-top: -10px;
 }
-/* line 553, ../../sass/partials/_main.scss */
+/* line 559, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__form {
   background-color: #fcf8ef;
   padding: 10px 0 20px;
 }
-/* line 557, ../../sass/partials/_main.scss */
+/* line 563, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__form input {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 600px) {
-  /* line 562, ../../sass/partials/_main.scss */
+  /* line 568, ../../sass/partials/_main.scss */
   .mailinglist .mailinglist__form input {
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 553, ../../sass/partials/_main.scss */
+  /* line 559, ../../sass/partials/_main.scss */
   .mailinglist .mailinglist__form {
     padding-bottom: 10px;
   }
 }
 
-/* line 573, ../../sass/partials/_main.scss */
+/* line 579, ../../sass/partials/_main.scss */
 .navigation {
   margin: 30px 0;
 }
 
-/* line 577, ../../sass/partials/_main.scss */
+/* line 583, ../../sass/partials/_main.scss */
 .toc {
   margin: 20px 0 30px -20px;
 }
-/* line 580, ../../sass/partials/_main.scss */
+/* line 586, ../../sass/partials/_main.scss */
 .toc h6, .toc .h6 {
   margin: 0 0 10px 20px;
 }
 
-/* line 585, ../../sass/partials/_main.scss */
+/* line 591, ../../sass/partials/_main.scss */
 .toc-list {
   padding: 0;
 }
-/* line 588, ../../sass/partials/_main.scss */
+/* line 594, ../../sass/partials/_main.scss */
 .toc-list .bullet {
   color: #d0a233;
 }
 
-/* line 593, ../../sass/partials/_main.scss */
+/* line 599, ../../sass/partials/_main.scss */
 #mc-embedded-subscribe {
   background-color: #d0a233;
   border-radius: 0;
@@ -3972,7 +3980,7 @@ input {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 604, ../../sass/partials/_main.scss */
+/* line 610, ../../sass/partials/_main.scss */
 #mc-embedded-subscribe:hover {
   background-color: #dab55c;
 }
