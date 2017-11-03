@@ -70,6 +70,10 @@
 	@include at-query($three) {
 		margin: 0 0 160px;
 	}
+
+	@include at-query($four) {
+		margin: 70px 0 200px;
+	}
 }
 
 .hp-goals__single {
@@ -82,6 +86,10 @@
 	figure {
 		float: right;
 		width: 30%;
+
+		img {
+			display: block;
+		}
 
 		@include at-query($three) {
 			float: left;
@@ -111,6 +119,35 @@
 	    	top: -10px;
 	    	right: -15%;
 	    }
+	}
+
+	figcaption {
+		float: left;
+		padding: 5% 5% 0 30%;
+		width: 70%;
+		text-align: right;
+
+		p {
+			float: right;
+		}
+
+		@include at-query($one) {
+			padding: 6% 5% 0 0;
+		}
+
+		@include at-query($three) {
+			padding: 0;
+			position: absolute;
+				top: 70%;
+				left: -75%;
+			width: 70%;
+			z-index: 2;
+		}
+
+		@include at-query($four) {
+				left: -65%;
+			width: 60%;
+		}
 	}
 
 	&.__go02 {
@@ -180,6 +217,11 @@
 			    padding: 0;
 				    left: auto;
 				    right: -55%;
+			}
+
+			@include at-query($four) {
+	    			right: -45%;
+				width: 60%;
 			}
 		}
 
@@ -428,30 +470,6 @@
 
 	@include at-query($two) {
 		margin: 0;
-	}
-}
-
-.hp-goals figcaption {
-	float: left;
-	padding: 5% 5% 0 30%;
-	width: 70%;
-	text-align: right;
-
-	p {
-		float: right;
-	}
-
-	@include at-query($one) {
-		padding: 6% 5% 0 0;
-	}
-
-	@include at-query($three) {
-		padding: 0;
-		position: absolute;
-			top: 70%;
-			left: -75%;
-		width: 70%;
-		z-index: 2;
 	}
 }
 
