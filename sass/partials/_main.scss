@@ -342,6 +342,10 @@ input {
 	@include at-query($two) {
 		margin-bottom: -20px;
 	}
+
+	@include at-query($three) {
+		margin: 0 0 160px;
+	}
 }
 
 .hp-goals__single {
@@ -354,44 +358,79 @@ input {
 	figure {
 		float: right;
 		width: 30%;
+
+		@include at-query($three) {
+			float: left;
+			width: 80%;
+		}
 	}
 
 	.line-one {
+		float: right;
 		margin: 0;
 			top: -10px;
-			right: -130px;
+			right: -25%;
 		width: 85px;
 	    z-index: 1;
 
 	    @include at-query($one) {
-	    	right: -95px;
+	    	right: -15%;
+	    	top: -5px;
 	    }
 
 	    @include at-query($two) {
-	    		right: -80px;
+    		right: -20%;
+			top: -5px;
+	    }
+
+	    @include at-query($three) {
+	    	top: -10px;
+	    	right: -15%;
 	    }
 	}
 
 	&.__go02 {
 		figcaption { 
 			float: right;
-			padding: 5% 30% 0 20px;
+			padding: 5% 30% 0 5%;
+			text-align: left;
+
+			p {
+				float: left;
+			}
 
 			@include at-query($one) {
-				padding: 25px -0 0 20px;
+				padding: 6% 0 0 5%;
 			}
 
 			@include at-query($two) {
 				float: left;
-				padding: 25px -0 0 0;
+				padding: 6% 5% 0 0;
+				text-align: right;
+			}
+
+			@include at-query($three) {
+				padding: 0;
 			}
 		}
 
 		.line-one {
-			right: 40px;
+				float: left;
+				left: -25%;
+
+			@include at-query($one) {
+				left: auto;
+				right: 15%;
+			}
 
 			@include at-query($two) {
-				right: -80px;
+			    float: right;
+			    left: 20%;
+			    right: auto;
+			}
+
+			@include at-query($three) {
+				left: 15%;
 			}
 		}
 
@@ -399,21 +438,37 @@ input {
 			position: relative;
 				top: 50px;
 		}
+
+		@include at-query($three) {
+				top: 150px;
+		}
 	}
 
 	&.__go03 {
 		figcaption {
 			@include at-query($two) {
 				float: right;
-				padding-left: 20px;
+				padding: 6% 0 0 5%;
+				text-align: left;
+			}
+
+			@include at-query($three) {
+			    padding: 0;
+				    left: auto;
+				    right: -65%;
 			}
 		}
 
 		.line-one {
 			@include at-query($two) {
-				right: 20px;
+				float: left;
+				left: -15%;
 			}
 		}
+	}
+
+	@include at-query($two) {
+		position: relative;
 	}
 
 	@include clearfix;

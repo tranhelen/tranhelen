@@ -334,12 +334,25 @@ ul {
 
 .hp-goals figcaption {
 	float: left;
-	padding-left: 30%;
-	padding-top: 5%;
+	padding: 5% 5% 0 30%;
 	width: 70%;
+	text-align: right;
+
+	p {
+		float: right;
+	}
 
 	@include at-query($one) {
-		padding: 25px 0 0 0;
+		padding: 6% 5% 0 0;
+	}
+
+	@include at-query($three) {
+		padding: 0;
+		position: absolute;
+			top: 75%;
+			left: -85%;
+		width: 80%;
+		z-index: 2;
 	}
 }
 
