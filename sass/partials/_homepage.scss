@@ -68,11 +68,11 @@
 	}
 
 	@include at-query($three) {
-		margin: 0 0 160px;
+		margin: 0 0 165px;
 	}
 
 	@include at-query($four) {
-		margin: 70px 0 200px;
+		margin: 70px 0 210px;
 	}
 }
 
@@ -359,6 +359,12 @@
 .hp-work {
 	.hp-work__body {
 		background-color: $colorBGone;
+		margin-bottom: -20px;
+
+		@include at-query($four) {
+			margin: 0;
+		    padding-bottom: 25px;
+		}
 	}
 
 	.hp-work__content {
@@ -374,19 +380,24 @@
 	.hp-work__header {
 		background-image: url('/img/bg-watercolour-hpwork.svg');
 	    background-size: 1600px 32px;
+	    background-repeat: repeat-x;
 		height: 32px;
 		margin: 0;
 	}
 
 	.hp-work__footer {
 		background-image: url('/img/bg-watercolour-hpworkfooter.svg');
-	    background-size: 1600px 24px;
-	    height: 25px;
-	    margin-top: -30px;
+	    background-size: 1600px 23px;
+	    background-repeat: repeat-x;
+	    height: 23px;
 	}
 
 	@include at-query($two) {
 		margin-top: 80px;
+	}
+
+	@include at-query($four) {
+		margin-top: 120px;
 	}
 }
 
@@ -413,6 +424,10 @@
 
 	.hp-work-single__body {
 		padding: 10px 20px 15px 20px;
+		
+		@include at-query($three) {
+			padding: 20px 30px 20px 30px;
+		}
 	}
 
 	&.hp-work-single--move {
