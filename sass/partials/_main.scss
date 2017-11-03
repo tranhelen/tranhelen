@@ -14,21 +14,38 @@ a {
 		.accent {
 	 		animation-name: arrowbounce;
 		}
+
+		@include at-query($three) {
+			background-position: left 80px;
+		}
 	}
 
 	@include at-query($three) {
 		background-position: left 25px;
+
+		@include transition-fast;
 	}
 
 	@include at-query($four) {
 		background-position: left 30px;
 	}
 
-	h3 & { background-position: left 24px; }
+	h3 & {
+		background-position: left 24px;
+
+		@include at-query($three) {
+			background-position: left 34px;			
+		}
+
+		@include at-query($four) {
+			background-position: left 44px;
+		}
+	}
+
 	footer & { background-position: left 16px; }
 
 	.accent {
-		animation-duration: 1s;
+		animation-duration: 0.75s;
 		animation-fill-mode: both;
 		animation-timing-function: ease-in-out;
 		animation-iteration-count: infinite;
@@ -130,7 +147,7 @@ h2 {
 
 h3 {
 	font-size: em(20px);
-	line-height: 1.65;
+	line-height: 1.53;
 	margin: 0 0 15px;
 
 	@include at-query($three) {
