@@ -568,6 +568,14 @@ input {
 			top: 40px;
 		width: 100%;
 	}
+
+	@include at-query($three) {
+		margin-top: -22.5%;
+	}
+
+	@include at-query($four) {
+		margin-top: -27.5%;
+	}
 }
 
 .hp-portrait-bg {
@@ -578,23 +586,24 @@ input {
 	z-index: 0;
 
 	@include at-query($one) {
-		margin-top: -66%;
+		margin-top: -55%;
 		position: relative;
 			left: 0px;
-    		top: -10px;
+    		top: -10%;
     	width: 128%;
 		z-index: 0;
 	}
 
 	@include at-query($two) {
-	    margin-top: -55%;
 		    top: 0;
-		    left: 30px;
+		    left: 5%;
 	    width: 100%;
 	}
 
 	@include at-query($four) {
-		margin-top: -410px;
+			left: 6%;
+		margin-top: -350px;
+		width: 92.75%;
 	}
 }
 

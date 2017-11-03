@@ -21,6 +21,14 @@ a {
 		}
 	}
 
+	@include at-query($three) {
+		background-position: left 25px;
+	}
+
+	@include at-query($four) {
+		background-position: left 30px;
+	}
+
 	&.external {
 		background-image: none;
     	color: #000;
