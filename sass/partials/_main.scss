@@ -42,8 +42,6 @@ a {
 		}
 	}
 
-	footer & { background-position: left 16px; }
-
 	.accent {
 		animation-duration: 0.75s;
 		animation-fill-mode: both;
@@ -224,13 +222,7 @@ ul li p {
 	line-height: 1.75;
 	margin: 0 0 15px;
 
-	footer & {
-		font-size: em(13px);
-		line-height: 1.84;
-	}
-
-	&.small,
-	.fieldnotes & {
+	.fieldnotes {
 		font-family: $stack2;
 		font-size: em(13px);
 		line-height: 1.84;
@@ -305,6 +297,10 @@ hr {
 input {
     font-family: $stack2;
     font-size: em(13px);
+
+    @include at-query($three) {
+    	font-size: em(16px);
+    }
 }
 
 pre,
@@ -345,13 +341,56 @@ ul {
 .accent { color: $colorAccent; }
 .accenttwo { color: $colorAccentTwo; }
 
+.copy {
+	font-size: em(13px);
+	line-height: 1.84;
+	margin-bottom: 5px;
+
+	a {
+		background-position: left 16px;
+
+		&:hover {
+			background-position: left 40px;
+		}
+
+		@include at-query($three) {
+			background-position: left 20px;			
+		}
+	}
+
+
+	@include at-query($one) {
+		text-align: center;
+	}
+
+	@include at-query($three) {
+		font-size: em(16px);
+	}
+}
+
 .small {
+	font-family: $stack2;
+	font-size: em(13px);
+	line-height: 1.84;
+
 	a {
 		background-position: left 16px;
 
 		&:hover {
 			background-position: left 20px;
 			color: $colorTextBody;
+		}
+	}
+
+	@include at-query($three) {
+		font-size: em(16px);
+
+		a {
+			background-position: left 20px;
+
+			&:hover {
+				background-position: left 40px;
+			}
 		}
 	}
 }
@@ -393,6 +432,10 @@ input {
     margin: 0;
     padding: 8px 15px 10px;
     width: 100%;
+
+    @include at-query($three) {
+    	padding: 15px 25px;
+    }
 }
 
 .container {
@@ -543,14 +586,6 @@ input {
 .mailinglist {
 	margin: 20px 0 50px;
 
-	.copy {
-		margin-bottom: 5px;
-
-		@include at-query($one) {
-			text-align: center;
-		}
-	}
-
 	.mailinglist__content {
 		margin-top: 40px;
 	}
@@ -626,6 +661,11 @@ input {
 
 	&:hover {
 		background-color: lighten($colorAccent,10%);
+	}
+
+	@include at-query($three) {
+		padding: 15px 25px;
+		font-size: em(16px);
 	}
 
 	@include transition;
