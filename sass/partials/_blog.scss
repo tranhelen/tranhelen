@@ -19,3 +19,65 @@ figure {
 .post-single {
 	margin-bottom: 30px;
 }
+
+.fullarchive-2017,
+.fullarchive-2016,
+.fullarchive-2015,
+.fullarchive-2014 {
+	h4 {
+		margin-bottom: 30px;
+	}
+}
+
+.post-single {
+	h1 {
+		font-size: em(45px);
+		line-height: 1.2;
+		margin: 30px 0;
+	}
+
+	h2 {
+		color: $colorTextHeader;
+		font-size: em(35px);
+		font-style: normal;
+		font-weight: 600;
+		margin-top: 30px;
+	}
+
+	h3 {
+		font-size: em(30px);
+		line-height: 1.33;
+		margin: 15px 0;
+	}
+
+	figure {
+		margin: 20px 0 30px;
+	}
+}
+
+.writing__single { 
+	h6 {
+		margin-bottom: 10px;
+	}
+}
+
+.fieldnotes-anchor {
+    color: $colorAccent;
+    font-family: $stack2;
+    font-size: em(10px);
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+	    bottom: 5px;
+}
+
+.footnote {
+	letter-spacing: 2px;
+}
+
+.footnote-back {
+	background-image: none;
+    margin-left: -20px;
+	position: relative;
+		top: 3px;
+}

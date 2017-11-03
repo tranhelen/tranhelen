@@ -1,40 +1,360 @@
 /*------------------------------------*\
-    #All
+    #TypographyMain
+\*------------------------------------*/
+
+a {
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAANTd+AAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjhGMTM0RERCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjhGMTM0REVCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOEYxMzREQkIyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyOEYxMzREQ0IyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) repeat-x left 20px;
+	color: $colorLink;
+    text-decoration: none;
+
+	&:hover {
+		background-position: left 40px;
+		color: $colorTextBody;
+
+		.accent {
+	 		animation-name: arrowbounce;
+		}
+	}
+
+	@include at-query($three) {
+		background-position: left 25px;
+	}
+
+	@include at-query($four) {
+		background-position: left 30px;
+	}
+
+	h3 & { background-position: left 24px; }
+	footer & { background-position: left 16px; }
+
+	.accent {
+		animation-duration: 1s;
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		display: inline-block;
+		position: relative;
+			bottom: 1px;
+	}
+
+	&.external {
+		background-image: none;
+    	color: #000;
+
+    	&:hover {
+    		.external-body {
+				background-position: left 40px;
+				color: $colorTextBody;
+    		}
+    	}
+	}
+
+	.external-body {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAANTd+AAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjhGMTM0RERCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjhGMTM0REVCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOEYxMzREQkIyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyOEYxMzREQ0IyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) repeat-x left 16px;
+
+		@include transition;
+	}
+
+	.external-box {
+	    border: 1px solid $colorAccent;
+	    display: inline-block;
+	    height: 10px;
+	    margin: 0 3px;
+	    position: relative;
+	   		top: 8px;
+	    width: 10px;
+	}
+
+	.external-box__arrow {
+		color: $colorAccent;
+		font-size: em(11px);
+	    font-weight: bold;
+	    position: relative;
+		    bottom: 12px;
+		    left: 3px;
+	}
+
+	&.h6 {
+		color: $colorLink;
+
+		&:hover {
+			color: $colorTextBody;
+		}
+	}
+
+	@include transition;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $colorTextHeader;
+	font-weight: 300;
+}
+
+.h1 { @extend h1; }
+.h2 { @extend h2; }
+.h3 { @extend h3; }
+.h4 { @extend h4; }
+.h5 { @extend h5; }
+.h6 { @extend h6; }
+
+h1 {
+	font-family: $stacksuper;
+	font-size: em(60px);
+	line-height: 1;
+	margin: 0;
+
+	@include at-query($three) {
+		font-size: em(90px);
+	}
+
+	@include at-query($four) {
+		font-size: em(120px);
+	}
+}
+
+h2 {
+	color: $colorAccent;
+	font-size: em(28px);
+	font-style: italic;
+	line-height: 1.36;
+	margin: 10px 0;
+
+	@include at-query($three) {
+		font-size: em(38px);
+	}
+
+	@include at-query($four) {
+		font-size: em(48px);
+	}
+}
+
+h3 {
+	font-size: em(20px);
+	line-height: 1.65;
+	margin: 0 0 15px;
+
+	@include at-query($three) {
+		font-size: em(28px);
+	}
+
+	@include at-query($four) {
+		font-size: em(36px);
+	}
+}
+
+h4 {
+	font-size: 40px;
+	font-style: italic;
+    line-height: 1;
+    margin: 0;
+    padding-top: 10px;
+
+	@include at-query($three) {
+		font-size: em(50px);
+	}
+
+	@include at-query($four) {
+		font-size: em(60px);
+	}
+}
+
+h5 {
+	font-size: em(20px);
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 30px 0;
+
+	@include at-query($three) {
+		font-size: em(25px);
+	}
+
+	@include at-query($four) {
+		font-size: em(39px);
+	}
+}
+
+h6 {
+	color: $colorAccent;
+	font-family: $stack2;
+	font-size: em(13px);
+	font-weight: 600;
+	margin: 0;
+	text-transform: uppercase;
+
+	@include at-query($four) {
+		font-size: em(16px);
+	}
+
+	&.larger {
+		font-size: em(16px);
+		margin-bottom: 30px;
+
+		@include at-query($four) {
+			font-size: em(24px);
+		}
+	}
+}
+
+header {
+	margin: 40px 0;
+}
+
+p,
+ol li p,
+ul li p {
+	color: $colorTextBody;
+	font-size: em(16px);
+	line-height: 1.75;
+	margin: 0 0 15px;
+
+	footer & {
+		font-size: em(13px);
+		line-height: 1.84;
+	}
+
+	&.small,
+	.fieldnotes & {
+		font-family: $stack2;
+		font-size: em(13px);
+		line-height: 1.84;
+	}
+
+	@include at-query($three) {
+		font-size: em(20px);
+	}
+
+	@include at-query($four) {
+		font-size: em(24px);
+	}
+}
+
+blockquote {
+	border: 5px solid rgba($colorAccentTwo,0.2);
+	border-width: 0 0 0 5px;
+	margin: 20px 0 30px;
+
+	p {
+		color: $colorTextHeader;
+		font-style: italic;
+		margin: 0 30px 15px;
+	}
+}
+
+blockquote.large {
+	border: 0;
+	margin: 30px 0;
+
+	p {
+		font-size: em(22px);
+		font-style: italic;
+		line-height: 1.45;
+		margin: 0;
+
+		.post-single & {
+			font-style: normal;
+			font-weight: 600;
+		}
+	}
+
+	.author {
+		color: $colorAccentTwo;
+		font-size: em(16px);
+		margin-top: 5px;
+	}
+}
+
+
+figcaption {
+	p {
+		@extend .small;
+	}
+}
+
+hr {
+	border: 0;
+	border-bottom: 3px solid $colorAccent;
+	border-radius: 999px;
+	margin: 30px auto;
+
+	&.small {
+		width: 30px;
+	}
+
+	&.noborder {
+		border-color: transparent;
+	}
+}
+
+input {
+    font-family: $stack2;
+    font-size: em(13px);
+}
+
+pre,
+code {
+    background-color: rgba($colorAccentTwo,0.1);
+    color: $colorTextHeader;
+    margin: 20px 0 30px;
+    padding: 5px 7px;
+}
+
+code {
+	font-size: em(12px);
+
+	pre & {
+		background-color: none;
+		font-size: em(14px);
+	    line-height: 1.71;
+	    padding: 0;
+	    word-wrap: break-word;
+	}
+}
+
+pre {
+	padding: 15px 20px;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+ul {
+	margin: 0;
+
+	&.no-bullet li {
+		list-style-type: none;
+	}
+}
+
+.accent { color: $colorAccent; }
+.accenttwo { color: $colorAccentTwo; }
+
+.small {
+	a {
+		background-position: left 16px;
+
+		&:hover {
+			background-position: left 20px;
+			color: $colorTextBody;
+		}
+	}
+}
+
+.tag h6 {
+	color: #fff;
+}
+
+#mce-success-response,
+#mce-error-response {
+	margin: 0 30px;
+}
+
+/*------------------------------------*\
+    #Shared
 \*------------------------------------*/
 
 body {
 	font-family: $stack1;
 	overflow-x: hidden;
-}
-
-.words {
-	display: none;
-
-	h1,
-	h3 {
-		color: #fff;
-	}
-
-	@include at-query($two) {
-		display: block;
-		position: fixed;
-		top: 50%;
-		margin: 0 10%;
-		width: 60%;
-		z-index: 2;
-	}
-
-	@include at-query($four) {
-		display: block;
-	    left: 50%;
-	    padding-right: 400px;
-	    margin: 0;
-	    transform: translateX(-50%);
-	    width: 1400px;
-	    z-index: 2;
-	}
-
-	@include transition;
 }
 
 figure {

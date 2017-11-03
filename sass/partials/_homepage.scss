@@ -229,7 +229,7 @@
 		}
 
 		@include at-query($two) {
-			width: 50%;
+			width: 45%;
 		}
 	}
 
@@ -269,7 +269,7 @@
 	}
 
 	@include at-query($two) {
-		margin-top: -27%;
+		margin-top: -22%;
 		position: relative;
 			left: 12%;
 			top: 40px;
@@ -277,11 +277,11 @@
 	}
 
 	@include at-query($three) {
-		margin-top: -22.5%;
+		margin-top: -18.5%;
 	}
 
 	@include at-query($four) {
-		margin-top: -27.5%;
+		margin-top: -22.5%;
 	}
 }
 
@@ -301,16 +301,16 @@
 	}
 
 	@include at-query($two) {
-		margin-top: -57%;
+		margin-top: -54%;
 		    top: 10%;
-		    left: 5%;
+		    left: 10%;
 	    width: 100%;
 	}
 
 	@include at-query($four) {
-			left: 6%;
-		margin-top: -350px;
-		width: 92.75%;
+			left: 10%;
+		margin-top: -300px;
+		width: 90.25%;
 	}
 }
 
@@ -421,4 +421,89 @@
 	    position: fixed;
 	    z-index: 1;		
 	}
+}
+
+.hp-bio__body {
+	margin-left: 20px;
+
+	@include at-query($two) {
+		margin: 0;
+	}
+}
+
+.hp-goals figcaption {
+	float: left;
+	padding: 5% 5% 0 30%;
+	width: 70%;
+	text-align: right;
+
+	p {
+		float: right;
+	}
+
+	@include at-query($one) {
+		padding: 6% 5% 0 0;
+	}
+
+	@include at-query($three) {
+		padding: 0;
+		position: absolute;
+			top: 70%;
+			left: -75%;
+		width: 70%;
+		z-index: 2;
+	}
+}
+
+.hp-name {
+	margin-top: 30px;
+
+	@include at-query($one) {
+		margin-top: 42%;
+	}
+
+	@include at-query($two) {
+		margin-top: 47%;
+	}
+
+	@include at-query($four) {
+		margin-top: 215px;
+	}
+}
+
+.hp-work,
+.hp-writing {
+	h4 {
+		margin-bottom: 20px;
+	}
+}
+
+.hp-video-words {
+	display: none;
+
+	h1,
+	h3 {
+		color: #fff;
+	}
+
+	@include at-query($two) {
+		display: block;
+		position: fixed;
+		top: 50%;
+		margin: 0 10%;
+		width: 60%;
+		z-index: 2;
+	}
+
+	@include at-query($four) {
+		display: block;
+	    left: 50%;
+	    padding-right: 400px;
+	    margin: 0;
+	    transform: translateX(-50%);
+	    width: 1400px;
+	    z-index: 2;
+	}
+
+	@include transition;
 }
