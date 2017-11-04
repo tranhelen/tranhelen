@@ -64,12 +64,8 @@
 .hp-goals {
 	margin: 0 0 50px 0;
 
-	@include at-query($two) {
-		margin-bottom: -20px;
-	}
-
 	@include at-query($three) {
-		margin: 0 0 165px;
+		margin: 0 0 200px;
 	}
 
 	@include at-query($four) {
