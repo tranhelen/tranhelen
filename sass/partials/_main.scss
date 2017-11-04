@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 
 	&:hover {
-		background-position: left 40px;
+		background-position: left 50px;
 		color: $colorTextBody;
 
 		.accent {
@@ -22,8 +22,6 @@ a {
 
 	@include at-query($three) {
 		background-position: left 25px;
-
-		@include transition-fast;
 	}
 
 	@include at-query($four) {
@@ -97,7 +95,7 @@ a {
 		}
 	}
 
-	@include transition;
+	@include transition-fast;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -212,6 +210,14 @@ h6 {
 
 header {
 	margin: 40px 0;
+
+	@include at-query($three) {
+		margin: 100px 0;
+	}
+
+	@include at-query($four) {
+		margin: 270px 0 160px;
+	}
 }
 
 p,
@@ -411,6 +417,11 @@ ul {
 body {
 	font-family: $stack1;
 	overflow-x: hidden;
+	padding-bottom: 50px;
+
+	&.--home {
+		padding: 0;
+	}
 }
 
 figure {
@@ -424,7 +435,6 @@ figure {
 		box-shadow: 0px 10px 30px rgba($colorShadow,0.3);
 	}
 }
-
 
 input {
 	background-color: #fff;
@@ -463,14 +473,6 @@ input {
 	    top: 90px;
     width: 160%;
     z-index: -1;
-
-	&.--writing {
-		background-image: url('/img/bg-watercolour-writing.svg');
-	}
-
-	&.--writing-archives {
-		background-image: url('/img/bg-watercolour-writing-archives.svg');	
-	}
 
 	&.--cs1-stage3 {
 		background-image: url('/img/casestudy/1-bg-watercolour-header-stage3.svg');	
@@ -555,6 +557,20 @@ input {
 
 	.hp-writing & {
 		top: 10px;
+	}
+
+	&.--writing {
+		@include at-query($two) {
+			right: 260px;
+		}
+
+		@include at-query($three) {
+			right: 240px;
+		}
+
+		@include at-query($four) {
+			right: 4995%;
+		}
 	}
 
 	@include at-query($four) {

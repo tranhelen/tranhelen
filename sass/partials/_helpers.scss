@@ -34,3 +34,42 @@
 		text-align: left;
 	}
 }
+
+.three--text-left {
+	@include at-query($three) {
+		text-align: left;
+	}
+}
+
+.zero--hide {
+	display: none;
+}
+
+.two--show {
+	@include at-query($two) {
+		display: block;
+	}
+}
+
+.three--container {
+	@include at-query($two) {
+		margin: 0 10%;
+		max-width: 1400px;
+	}
+
+	@include at-query($four) {
+		margin: 0 auto;
+	}
+}
+
+.three--hide {
+	@include at-query($three) {
+		display: none;
+	}
+}
+
+.three--show {
+	@include at-query($three) {
+		display: block;
+	}
+}

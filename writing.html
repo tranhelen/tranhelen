@@ -11,35 +11,70 @@ redirect_from:
 	<div class="container">
 		<div class="header-bg-watercolour --writing"></div>
 		<h1>Writing</h1>
-		<div class="line-one"></div>
-		<h2>On Design, Leadership, and Life as a Creative</h2>
+		<div class="line-one  --writing"></div>
+		<div class="grid grid--full">
+			<div class="grid__item push--two--one-eleventh"><h2>On Design, Leadership, and Life as a Creative</h2></div>
+		</div>
 	</div>
 </header>
 
 <div class="container">
-	{% for post in site.categories.blog limit:9  %}
-	<div class="writing__single no-margin"
-		data-aos="fade-up" 
-		data-aos-offset="50" 
-		data-aos-duration="1000"
-		data-aos-easing="ease-out-quad">
-		<h6>{{ post.date | date:'%B %-d, %Y' }}</h6>
-		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<p>{{ post.excerpt | strip_html | truncatewords: 14 }}</p>
-	</div>
-	{% endfor %}
+	<div class="grid grid--full">
+		<div class="grid__item push--two--one-eleventh two--ten-elevenths three--hide">
 
-	<div class="one--text-right"
+			{% assign rows = 8 | divided_by: 2 | ceil %}
+			{% for i in (1..rows) %}
+		  		{% assign offset = forloop.index0 | times: 2 %}
+			  	<div class="grid">
+				    {% for post in site.categories.blog limit:2 offset:offset %}
+						<div class="grid__item one--one-half">
+							<div class="writing__single no-margin"
+								data-aos="fade-up" 
+								data-aos-offset="50" 
+								data-aos-duration="1000"
+								data-aos-easing="ease-out-quad">
+								<h6>{{ post.date | date:'%B %-d, %Y' }}</h6>
+								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+								<p>{{ post.excerpt | strip_html | truncatewords: 14 }}</p>
+							</div>
+						</div>
+				    {% endfor %}
+			  	</div>
+			{% endfor %}
+
+		</div>
+		<div class="grid__item push--three--one-eleventh three--ten-elevenths zero--hide three--show">
+
+			{% assign rows = 9 | divided_by: 3 | ceil %}
+			{% for i in (1..rows) %}
+		  		{% assign offset = forloop.index0 | times: 3 %}
+			  	<div class="grid">
+				    {% for post in site.categories.blog limit:3 offset:offset %}
+						<div class="grid__item three--three-elevenths">
+							<div class="writing__single"
+								data-aos="fade-up" 
+								data-aos-offset="50" 
+								data-aos-duration="1000"
+								data-aos-easing="ease-out-quad">
+								<h6>{{ post.date | date:'%B %-d, %Y' }}</h6>
+								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+								<p>{{ post.excerpt | strip_html | truncatewords: 14 }}</p>
+							</div>
+						</div>
+				    {% endfor %}
+			  	</div>
+			{% endfor %}
+
+		</div>
+	</div>
+
+	<div class="one--text-right three--text-left push--three--seven-elevenths"
 		data-aos="fade-up" 
 		data-aos-offset="100" 
 		data-aos-duration="1000"
 		data-aos-easing="ease-out-quad">
-		<a href="writing-archives.html" class="h6"><span class="accent">→</span> Read all articles</a>
+		<a href="writing-archives.html" class="h6"><span class="accent">→</span> Full archive</a>
 	</div>
 </div>
 
-{% include article-list-design.html %}
-
-{% include article-list-popular.html %}
-
-{% include article-list-topic.html %}
+{% include archive-footer.html %}
