@@ -7,21 +7,21 @@
 	display: none;
 
 	@include at-query($two) {
-		display: block;
-	    position: fixed;
-	    min-width: 100%;
-	    min-height: 100%;
-	    left: 50%;
-	    top: 50%;
-	    width: auto;
-	    height: auto;
-	    z-index: -100;
-	    -ms-transform: translateX(-50%) translateY(-50%);
-	    -moz-transform: translateX(-50%) translateY(-50%);
-	    -webkit-transform: translateX(-50%) translateY(-50%);
-	    transform: translateX(-50%) translateY(-50%);
 	    background: url(/img/backgroundvideo-backup.jpg) no-repeat;
 	    background-size: cover; 
+		display: block;
+	    height: auto;
+	    min-width: 100%;
+	    min-height: 100%;
+	    position: fixed;
+		    left: 50%;
+		    top: 50%;
+		    -ms-transform: translateX(-50%) translateY(-50%);
+		    -moz-transform: translateX(-50%) translateY(-50%);
+		    -webkit-transform: translateX(-50%) translateY(-50%);
+	    transform: translateX(-50%) translateY(-50%);
+	    width: auto;
+	    z-index: -100;
 	}
 }
 
@@ -31,22 +31,26 @@
 	ul {
 		padding: 0;
 	}
+}
 
-	.hp-appearances__body {
-		margin-left: 20px;
+.hp-appearances__body {
+	margin-left: 20px;
 
-		@include at-query($two) {
-			margin: 0;
-		}
+	@include at-query($two) {
+		margin: 0;
 	}
 }
 
 .hp-bio {
     margin: 75% 0 0;
 	padding-top: 40px;
+}
 
-	.hp-bio__body {
-		margin-left: 20px;
+.hp-bio__body {
+	margin-left: 20px;
+
+	@include at-query($two) {
+		margin: 0;
 	}
 }
 
@@ -76,6 +80,10 @@
 .hp-goals__single {
 	margin-bottom: 30px;
 
+	@include at-query($two) {
+		position: relative;
+	}
+
 	a {
 		background-image: none;
 	}
@@ -84,9 +92,7 @@
 		float: right;
 		width: 30%;
 
-		img {
-			display: block;
-		}
+		img { display: block; }
 
 		@include at-query($three) {
 			float: left;
@@ -94,11 +100,40 @@
 		}
 	}
 
+	figcaption {
+		float: left;
+		padding: 5% 5% 0 30%;
+		width: 70%;
+		text-align: right;
+
+		p { float: right; }
+
+		@include at-query($one) {
+			padding: 6% 5% 0 0;
+		}
+
+		@include at-query($three) {
+			padding: 0;
+			position: absolute;
+				top: 70%;
+				left: -75%;
+			width: 70%;
+			z-index: 2;
+
+			p { font-size: em(13px); }
+		}
+
+		@include at-query($four) {
+				left: -65%;
+			width: 60%;
+		}
+	}
+
 	.line-one {
 		float: right;
 		margin: 0;
-			top: -10px;
 			right: -25%;
+			top: -10px;
 		width: 85px;
 	    z-index: 1;
 
@@ -113,49 +148,18 @@
 	    }
 
 	    @include at-query($three) {
-	    	top: -10px;
 	    	right: -15%;
+	    	top: -10px;
 	    }
 	}
 
-	figcaption {
-		float: left;
-		padding: 5% 5% 0 30%;
-		width: 70%;
-		text-align: right;
-
-		p {
-			float: right;
-		}
-
-		@include at-query($one) {
-			padding: 6% 5% 0 0;
-		}
-
-		@include at-query($three) {
-			padding: 0;
-			position: absolute;
-				top: 70%;
-				left: -75%;
-			width: 70%;
-			z-index: 2;
-		}
-
-		@include at-query($four) {
-				left: -65%;
-			width: 60%;
-		}
-	}
+	@include clearfix;
 
 	&.__go02 {
 		figcaption { 
 			float: right;
 			padding: 5% 30% 0 5%;
 			text-align: left;
-
-			p {
-				float: left;
-			}
 
 			@include at-query($one) {
 				padding: 6% 0 0 5%;
@@ -170,6 +174,8 @@
 			@include at-query($three) {
 				padding: 0;
 			}
+
+			p { float: left; }
 		}
 
 		.line-one {
@@ -229,12 +235,6 @@
 			}
 		}
 	}
-
-	@include at-query($two) {
-		position: relative;
-	}
-
-	@include clearfix;
 }
 
 .hp-header {
@@ -353,112 +353,20 @@
 	}
 }
 
-.hp-work {
-	@include at-query($two) {
-		margin-top: 80px;
-	}
-
-	@include at-query($four) {
-		margin-top: 120px;
-	}
-}
-
-.hp-work__body {
-	background-color: $colorBGone;
-	margin-bottom: -20px;
-
-	@include at-query($four) {
-		margin: 0;
-	    padding-bottom: 25px;
-	}
-}
-
-.hp-work__content {
-	position: relative;
-		top: -55px;
-}
-
-.hp-work__header,
-.hp-work__footer {
-	background-repeat: no-repeat;
-}
-
-.hp-work__header {
-	background-image: url('/img/bg-watercolour-hpwork.svg');
-    background-size: 1600px 32px;
-    background-repeat: repeat-x;
-	height: 32px;
-	margin: 0;
-}
-
-.hp-work__footer {
-	background-image: url('/img/bg-watercolour-hpworkfooter.svg');
-    background-size: 1600px 23px;
-    background-repeat: repeat-x;
-    height: 23px;
-}
-
-.hp-work__group {
-	@include at-query($two) {
-		margin-top: -30px;
-	}
-}
-
-.hp-work-single {
+.hp-name {
 	margin-top: 30px;
 
-	a {
-		background-color: #fff;
-		box-shadow: 0px 10px 30px rgba($colorShadow,0.3);
-		display: block;
-
-		@include transition;
-
-		&:hover {
-			transform: scale(1.05);
-		}
+	@include at-query($one) {
+		margin-top: 42%;
 	}
 
-	.hp-work-single__body {
-		padding: 10px 20px 15px 20px;
-		
-		@include at-query($three) {
-			padding: 20px 30px 20px 30px;
-		}
+	@include at-query($two) {
+		margin-top: 47%;
 	}
-
-	&.hp-work-single--move {
-		@include at-query($two) {
-			margin-top: 70%;
-		}
-
-		@include at-query($three) {
-			margin-top: 50%;
-		}
-	}
-}
-
-
-.hp-writing {
-	padding: 40px 0 10px;
 
 	@include at-query($four) {
-		padding: 75px 0 25px;
+		margin-top: 215px;
 	}
-}
-
-.overlay {
-	background-color: rgba(#000,0.3);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 3;
-
-    &:hover {
-    	opacity: 0;
-    }
-
-    @include transition;
 }
 
 .hp-video {
@@ -478,37 +386,6 @@
 	    width: 100%;
 	    position: fixed;
 	    z-index: 1;		
-	}
-}
-
-.hp-bio__body {
-	margin-left: 20px;
-
-	@include at-query($two) {
-		margin: 0;
-	}
-}
-
-.hp-name {
-	margin-top: 30px;
-
-	@include at-query($one) {
-		margin-top: 42%;
-	}
-
-	@include at-query($two) {
-		margin-top: 47%;
-	}
-
-	@include at-query($four) {
-		margin-top: 215px;
-	}
-}
-
-.hp-work,
-.hp-writing {
-	h4 {
-		margin-bottom: 20px;
 	}
 }
 
@@ -540,4 +417,118 @@
 	}
 
 	@include transition;
+}
+
+.hp-work {
+	@include at-query($two) {
+		margin-top: 80px;
+	}
+
+	@include at-query($four) {
+		margin-top: 120px;
+	}
+}
+
+.hp-work__body {
+	background-color: $colorBGone;
+	margin-bottom: -20px;
+
+	@include at-query($four) {
+		margin: 0;
+	    padding-bottom: 25px;
+	}
+}
+
+.hp-work__content {
+	position: relative;
+		top: -55px;
+}
+
+.hp-work__header,
+.hp-work__footer {
+	background-repeat: no-repeat;
+}
+
+.hp-work__footer {
+	background-image: url('/img/bg-watercolour-hpworkfooter.svg');
+    background-size: 1600px 23px;
+    background-repeat: repeat-x;
+    height: 23px;
+}
+
+.hp-work__header {
+	background-image: url('/img/bg-watercolour-hpwork.svg');
+    background-size: 1600px 32px;
+    background-repeat: repeat-x;
+	height: 32px;
+	margin: 0;
+}
+
+.hp-work__group {
+	@include at-query($two) {
+		margin-top: -30px;
+	}
+}
+
+.hp-work-single {
+	margin-top: 30px;
+
+	a {
+		background-color: #fff;
+		box-shadow: 0px 10px 30px rgba($colorShadow,0.3);
+		display: block;
+
+		@include transition;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+}
+
+.hp-work-single__body {
+	padding: 10px 20px 15px 20px;
+	
+	@include at-query($three) {
+		padding: 20px 30px 20px 30px;
+	}
+}
+
+.hp-work-single--move {
+	@include at-query($two) {
+		margin-top: 70%;
+	}
+
+	@include at-query($three) {
+		margin-top: 50%;
+	}
+}
+
+.hp-work,
+.hp-writing {
+	h4 {
+		margin-bottom: 20px;
+	}
+}
+
+.hp-writing {
+	padding: 40px 0 10px;
+
+	@include at-query($four) {
+		padding: 75px 0 25px;
+	}
+}
+
+.overlay {
+	background-color: rgba(#000,0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+
+    &:hover {
+    	opacity: 0;
+    }
+
+    @include transition;
 }
