@@ -668,9 +668,15 @@ input {
 		background-color: lighten($colorAccent,10%);
 	}
 
+	@include at-query($one) {
+		margin-top: 15px;
+	}
+
 	@include at-query($three) {
-		padding: 15px 25px;
 		font-size: em(16px);
+		margin: 0;
+		padding: 15px 0;
+		text-align: center;
 	}
 
 	@include transition;

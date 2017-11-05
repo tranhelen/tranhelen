@@ -136,6 +136,15 @@
 	background-size: 300%;
 	margin: 50px 0 30px;
 	padding-bottom: 15px;
+
+	@include at-query($one) {
+	    background-position: 0 20px;
+	    background-size: 120%;
+	}
+
+	@include at-query($two) {
+		margin: 0 0 40px;
+	}
 }
 
 .fullarchive-2016 {
@@ -145,6 +154,15 @@
 	background-size: 200%;	
 	margin: 50px 0 30px;
 	padding-bottom: 10px;
+
+	@include at-query($one) {
+		background-position-x: 0;
+		background-size: 100%;
+	}
+
+	@include at-query($two) {
+		margin: 0 0 40px;
+	}
 }
 
 .header-bg-watercolour {

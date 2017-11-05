@@ -4102,11 +4102,19 @@ input {
 #mc-embedded-subscribe:hover {
   background-color: #dab55c;
 }
+@media screen and (min-width: 600px) {
+  /* line 656, ../../sass/partials/_main.scss */
+  #mc-embedded-subscribe {
+    margin-top: 15px;
+  }
+}
 @media screen and (min-width: 1130px) {
   /* line 656, ../../sass/partials/_main.scss */
   #mc-embedded-subscribe {
-    padding: 15px 25px;
     font-size: 1em;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
   }
 }
 
@@ -4986,8 +4994,21 @@ input {
   margin: 50px 0 30px;
   padding-bottom: 15px;
 }
+@media screen and (min-width: 600px) {
+  /* line 132, ../../sass/partials/_archives.scss */
+  .fullarchive-2014 {
+    background-position: 0 20px;
+    background-size: 120%;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 132, ../../sass/partials/_archives.scss */
+  .fullarchive-2014 {
+    margin: 0 0 40px;
+  }
+}
 
-/* line 141, ../../sass/partials/_archives.scss */
+/* line 150, ../../sass/partials/_archives.scss */
 .fullarchive-2016 {
   background-image: url("/img/bg-watercolour-archive2016mobile.svg");
   background-repeat: no-repeat;
@@ -4996,17 +5017,30 @@ input {
   margin: 50px 0 30px;
   padding-bottom: 10px;
 }
+@media screen and (min-width: 600px) {
+  /* line 150, ../../sass/partials/_archives.scss */
+  .fullarchive-2016 {
+    background-position-x: 0;
+    background-size: 100%;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 150, ../../sass/partials/_archives.scss */
+  .fullarchive-2016 {
+    margin: 0 0 40px;
+  }
+}
 
-/* line 151, ../../sass/partials/_archives.scss */
+/* line 169, ../../sass/partials/_archives.scss */
 .header-bg-watercolour.--writing {
   background-image: url("/img/bg-watercolour-writing.svg");
 }
-/* line 155, ../../sass/partials/_archives.scss */
+/* line 173, ../../sass/partials/_archives.scss */
 .header-bg-watercolour.--writing-archives {
   background-image: url("/img/bg-watercolour-writing-archives.svg");
 }
 @media screen and (min-width: 1130px) {
-  /* line 159, ../../sass/partials/_archives.scss */
+  /* line 177, ../../sass/partials/_archives.scss */
   .header-bg-watercolour.--writing, .header-bg-watercolour.--writing-archives {
     height: 90px;
     left: 120px;
@@ -5015,63 +5049,63 @@ input {
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 159, ../../sass/partials/_archives.scss */
+  /* line 177, ../../sass/partials/_archives.scss */
   .header-bg-watercolour.--writing, .header-bg-watercolour.--writing-archives {
     left: 170px;
     top: 170px;
   }
 }
 
-/* line 176, ../../sass/partials/_archives.scss */
+/* line 194, ../../sass/partials/_archives.scss */
 .archive-design .line-one {
   top: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 180, ../../sass/partials/_archives.scss */
+  /* line 198, ../../sass/partials/_archives.scss */
   .line-one.--writing {
     right: 260px;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 180, ../../sass/partials/_archives.scss */
+  /* line 198, ../../sass/partials/_archives.scss */
   .line-one.--writing {
     right: 240px;
     top: 30px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 180, ../../sass/partials/_archives.scss */
+  /* line 198, ../../sass/partials/_archives.scss */
   .line-one.--writing {
     right: 4995%;
     top: 35px;
   }
 }
 
-/* line 197, ../../sass/partials/_archives.scss */
+/* line 215, ../../sass/partials/_archives.scss */
 .writing__group {
   padding-bottom: 10px;
 }
 
-/* line 201, ../../sass/partials/_archives.scss */
+/* line 219, ../../sass/partials/_archives.scss */
 .writing__single {
   margin-bottom: 30px;
 }
-/* line 204, ../../sass/partials/_archives.scss */
+/* line 222, ../../sass/partials/_archives.scss */
 .writing__single h3, .writing__single .h3 {
   margin-bottom: 0;
 }
 @media screen and (min-width: 1130px) {
-  /* line 201, ../../sass/partials/_archives.scss */
+  /* line 219, ../../sass/partials/_archives.scss */
   .writing__single {
     margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 201, ../../sass/partials/_archives.scss */
+  /* line 219, ../../sass/partials/_archives.scss */
   .writing__single {
     margin: 0 0 80px 0;
   }
-  /* line 215, ../../sass/partials/_archives.scss */
+  /* line 233, ../../sass/partials/_archives.scss */
   .archive-design__body .writing__single {
     margin: 40px 0 0;
   }
