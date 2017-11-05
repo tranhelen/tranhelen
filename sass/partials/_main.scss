@@ -537,10 +537,6 @@ input {
 		top: 25px;
 	width: 300px;
 
-	.archive-design & {
-		top: 30px;
-	}
-
 	.c1__body &,
 	.c2__body &,
 	.c3__body & {
@@ -549,28 +545,6 @@ input {
 
 	.cs-morework & {
 		top: 35px;
-	}
-
-	.hp-work & {
-		top: 10px;
-	}
-
-	.hp-writing & {
-		top: 10px;
-	}
-
-	&.--writing {
-		@include at-query($two) {
-			right: 260px;
-		}
-
-		@include at-query($three) {
-			right: 240px;
-		}
-
-		@include at-query($four) {
-			right: 4995%;
-		}
 	}
 
 	@include at-query($four) {

@@ -169,6 +169,28 @@
 	}
 }
 
+.line-one {
+	.archive-design & {
+		top: 30px;
+	}
+
+	&.--writing {
+		@include at-query($two) {
+			right: 260px;
+		}
+
+		@include at-query($three) {
+			right: 240px;
+			top: 30px;
+		}
+
+		@include at-query($four) {
+			right: 4995%;
+			top: 35px;
+		}
+	}
+}
+
 .writing__group {
 	padding-bottom: 10px;
 }
