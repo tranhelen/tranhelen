@@ -8,7 +8,6 @@
 .c1-s4 {
 	margin: 50px 0;
 }
-
 .c1-numbers {
 	background-color: $colorBGone;
 	margin: 30px -30px;
@@ -53,6 +52,17 @@
     display: block;
     margin: -60px auto 0;
     width: 151px;
+}
+
+.c1-header {
+	figure.hero {
+		margin: 0 -30px 10px;
+	}
+
+	img {
+		position: relative;
+		top: -20px;
+	}
 }
 
 .c2-header {
@@ -275,7 +285,6 @@
 	margin: 0 auto;
 	padding: 10px 0 5px;
     position: relative;
-    	top: 20px;
 	text-align: center;
 	width: 120px;
     z-index: 1;
