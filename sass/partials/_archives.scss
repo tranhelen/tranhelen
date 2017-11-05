@@ -143,7 +143,14 @@
 	}
 
 	@include at-query($two) {
+	    background-position: 70% 30%;
+	    background-size: 85%;
 		margin: 0 0 40px;
+	}
+
+	@include at-query($three) {
+        background-position: 45%;
+    	background-size: 80%;
 	}
 }
 
@@ -161,7 +168,14 @@
 	}
 
 	@include at-query($two) {
-		margin: 0 0 40px;
+		background-position-x: 70%;
+    	background-size: 85%;
+		margin: 0 0 40px;		
+	}
+
+	@include at-query($three) {
+	    background-position-x: 45%;
+	    background-size: 80%;
 	}
 }
 
@@ -195,6 +209,13 @@
 		top: 30px;
 	}
 
+	.fullarchive-2016 &,
+	.fullarchive-2014 & {
+		@include at-query($four) {
+			right: 5002%;
+		}
+	}
+
 	&.--writing {
 		@include at-query($two) {
 			right: 260px;
@@ -206,8 +227,23 @@
 		}
 
 		@include at-query($four) {
-			right: 4995%;
+			right: 4993%;
 			top: 35px;
+		}
+	}
+
+	&.--writing-archives {
+		@include at-query($four) {
+			right: 4993%;
+		}
+	}
+}
+
+.line-two {
+	.fullarchive-2017 &,
+	.fullarchive-2015 & {
+		@include at-query($four) {
+			right: 5002%;
 		}
 	}
 }
@@ -218,10 +254,6 @@
 
 .writing__single {
 	margin-bottom: 30px;
-
-	h3 {
-		margin-bottom: 0;
-	}
 
 	@include at-query($three) {
 		margin-bottom: 40px;
@@ -234,5 +266,19 @@
 			margin: 40px 0 0;
 		}
 	}
+
+	h3 {
+		margin-bottom: 0;
+	}
+
+	.fullarchive-2017 &,
+	.fullarchive-2016 &,
+	.fullarchive-2015 &,
+	.fullarchive-2014 & {
+		@include at-query($three) {
+			margin: 0 0px 30px 0;
+		}
+	}
+
 }
 

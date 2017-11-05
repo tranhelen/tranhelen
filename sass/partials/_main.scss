@@ -40,6 +40,16 @@ a {
 		}
 	}
 
+	h3.smaller & {
+		@include at-query($three) {
+			background-position: left 29px;
+		}
+
+		&:hover {
+			background-position: left 60px;
+		}
+	}
+
 	.accent {
 		animation-duration: 0.75s;
 		animation-fill-mode: both;
@@ -152,6 +162,12 @@ h3 {
 
 	@include at-query($four) {
 		font-size: em(36px);
+	}
+
+	&.smaller {
+		@include at-query($three) {
+			font-size: em(24px)
+		}
 	}
 }
 

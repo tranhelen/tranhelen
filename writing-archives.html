@@ -11,7 +11,7 @@ layout: subpage
 		<h1>Full Archive</h1>
 		<div class="line-one  --writing"></div>
 		<div class="grid grid--full">
-			<div class="grid__item push--two--one-eleventh"><h2>All posts listed by year</h2></div>
+			<div class="grid__item push--two--one-eleventh two--ten-elevenths"><h2>All posts listed by year</h2></div>
 		</div>
 	</div>
 </header>
@@ -22,7 +22,7 @@ layout: subpage
 	data-aos-easing="ease-out-quad">
 	<div class="container">
 		<div class="grid grid--full">
-			<div class="grid__item push--three--one-eleventh">
+			<div class="grid__item push--three--one-eleventh three--ten-elevenths">
 				<div class="line-two"></div>
 				<h4>2017</h4>
 				<div class="grid grid--full">
@@ -40,7 +40,7 @@ layout: subpage
 										data-aos-duration="1000"
 										data-aos-easing="ease-out-quad">
 										<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
-										<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+										<h3 class="smaller"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 									</div>
 								</div>
 						    {% endfor %}
@@ -62,7 +62,7 @@ layout: subpage
 										data-aos-duration="1000"
 										data-aos-easing="ease-out-quad">
 										<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
-										<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+										<h3 class="smaller"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 									</div>
 								</div>
 						    {% endfor %}
@@ -80,55 +80,58 @@ layout: subpage
 	data-aos-duration="1000"
 	data-aos-easing="ease-out-quad">
 	<div class="container">
-		<div class="line-one"></div>
-		<h4>2016</h4>
-
 		<div class="grid grid--full">
-			<div class="grid__item push--two--one-eleventh two--ten-elevenths three--hide">
-			{% assign posts2016 = site.posts | where:"date","2016" %}
-			{% assign rows = posts2016.size | divided_by: 2.0 | ceil %}
-			{% for i in (1..rows) %}
-		  		{% assign offset = forloop.index0 | times: 2 %}
-			  	<div class="grid">
-				    {% for post in posts2016 limit:2 offset:offset %}
-						<div class="grid__item one--one-half">
-							<div class="writing__single no-margin"
-								data-aos="fade-up" 
-								data-aos-offset="50" 
-								data-aos-duration="1000"
-								data-aos-easing="ease-out-quad">
-								<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
-								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-							</div>
-						</div>
-				    {% endfor %}
-			  	</div>
-			{% endfor %}
-			</div>
+			<div class="grid__item three--ten-elevenths">
+				<div class="line-one"></div>
+				<h4>2016</h4>
 
-			<div class="grid__item push--three--one-eleventh three--ten-elevenths zero--hide three--show">
-			{% assign posts2016b = site.posts | where:"date","2016" %}
-			{% assign rowsb = posts2016b.size | divided_by: 3.0 | ceil %}
-			{% for i in (1..rowsb) %}
-		  		{% assign offsetb = forloop.index0 | times: 3 %}
-			  	<div class="grid">
-				    {% for post in posts2016b limit:3 offset:offsetb %}
-						<div class="grid__item three--one-third">
-							<div class="writing__single"
-								data-aos="fade-up" 
-								data-aos-offset="50" 
-								data-aos-duration="1000"
-								data-aos-easing="ease-out-quad">
-								<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
-								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-							</div>
-						</div>
-				    {% endfor %}
-			  	</div>
-			{% endfor %}
+				<div class="grid grid--full">
+					<div class="grid__item push--two--one-eleventh two--ten-elevenths three--hide">
+					{% assign posts2016 = site.posts | where:"date","2016" %}
+					{% assign rows = posts2016.size | divided_by: 2.0 | ceil %}
+					{% for i in (1..rows) %}
+				  		{% assign offset = forloop.index0 | times: 2 %}
+					  	<div class="grid">
+						    {% for post in posts2016 limit:2 offset:offset %}
+								<div class="grid__item one--one-half">
+									<div class="writing__single no-margin"
+										data-aos="fade-up" 
+										data-aos-offset="50" 
+										data-aos-duration="1000"
+										data-aos-easing="ease-out-quad">
+										<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
+										<h3 class="smaller"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+									</div>
+								</div>
+						    {% endfor %}
+					  	</div>
+					{% endfor %}
+					</div>
+
+					<div class="grid__item push--three--one-eleventh three--ten-elevenths zero--hide three--show">
+					{% assign posts2016b = site.posts | where:"date","2016" %}
+					{% assign rowsb = posts2016b.size | divided_by: 3.0 | ceil %}
+					{% for i in (1..rowsb) %}
+				  		{% assign offsetb = forloop.index0 | times: 3 %}
+					  	<div class="grid">
+						    {% for post in posts2016b limit:3 offset:offsetb %}
+								<div class="grid__item three--one-third">
+									<div class="writing__single"
+										data-aos="fade-up" 
+										data-aos-offset="50" 
+										data-aos-duration="1000"
+										data-aos-easing="ease-out-quad">
+										<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
+										<h3 class="smaller"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+									</div>
+								</div>
+						    {% endfor %}
+					  	</div>
+					{% endfor %}
+					</div>
+				</div>
 			</div>
 		</div>
-
 	</div>
 </section>
 <section class="fullarchive-2015"
@@ -137,7 +140,7 @@ layout: subpage
 	data-aos-easing="ease-out-quad">
 	<div class="container">
 		<div class="grid grid--full">
-			<div class="grid__item push--three--one-eleventh">
+			<div class="grid__item push--three--one-eleventh three--ten-elevenths">
 				<div class="line-two"></div>
 				<h4>2015</h4>
 
@@ -156,7 +159,7 @@ layout: subpage
 										data-aos-duration="1000"
 										data-aos-easing="ease-out-quad">
 										<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
-										<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+										<h3 class="smaller"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 									</div>
 								</div>
 						    {% endfor %}
@@ -178,7 +181,7 @@ layout: subpage
 										data-aos-duration="1000"
 										data-aos-easing="ease-out-quad">
 										<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
-										<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+										<h3 class="smaller"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 									</div>
 								</div>
 						    {% endfor %}
@@ -195,52 +198,56 @@ layout: subpage
 	data-aos-duration="1000"
 	data-aos-easing="ease-out-quad">
 	<div class="container">
-		<div class="line-one"></div>
-		<h4>2014</h4>
-
 		<div class="grid grid--full">
-			<div class="grid__item push--two--one-eleventh two--ten-elevenths three--hide">
-			{% assign posts2014 = site.posts | where:"date","2014" %}
-			{% assign rows = posts2014.size | divided_by: 2.0 | ceil %}
-			{% for i in (1..rows) %}
-		  		{% assign offset = forloop.index0 | times: 2 %}
-			  	<div class="grid">
-				    {% for post in posts2014 limit:2 offset:offset %}
-						<div class="grid__item one--one-half">
-							<div class="writing__single no-margin"
-								data-aos="fade-up" 
-								data-aos-offset="50" 
-								data-aos-duration="1000"
-								data-aos-easing="ease-out-quad">
-								<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
-								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-							</div>
-						</div>
-				    {% endfor %}
-			  	</div>
-			{% endfor %}
-			</div>
+			<div class="grid__item three--ten-elevenths">
+				<div class="line-one"></div>
+				<h4>2014</h4>
 
-			<div class="grid__item push--three--one-eleventh three--ten-elevenths zero--hide three--show">
-			{% assign posts2014b = site.posts | where:"date","2014" %}
-			{% assign rowsb = posts2014b.size | divided_by: 3.0 | ceil %}
-			{% for i in (1..rowsb) %}
-		  		{% assign offsetb = forloop.index0 | times: 3 %}
-			  	<div class="grid">
-				    {% for post in posts2014b limit:3 offset:offsetb %}
-						<div class="grid__item three--one-third">
-							<div class="writing__single"
-								data-aos="fade-up" 
-								data-aos-offset="50" 
-								data-aos-duration="1000"
-								data-aos-easing="ease-out-quad">
-								<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
-								<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-							</div>
-						</div>
-				    {% endfor %}
-			  	</div>
-			{% endfor %}
+				<div class="grid grid--full">
+					<div class="grid__item push--two--one-eleventh two--ten-elevenths three--hide">
+					{% assign posts2014 = site.posts | where:"date","2014" %}
+					{% assign rows = posts2014.size | divided_by: 2.0 | ceil %}
+					{% for i in (1..rows) %}
+				  		{% assign offset = forloop.index0 | times: 2 %}
+					  	<div class="grid">
+						    {% for post in posts2014 limit:2 offset:offset %}
+								<div class="grid__item one--one-half">
+									<div class="writing__single no-margin"
+										data-aos="fade-up" 
+										data-aos-offset="50" 
+										data-aos-duration="1000"
+										data-aos-easing="ease-out-quad">
+										<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
+										<h3 class="smaller"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+									</div>
+								</div>
+						    {% endfor %}
+					  	</div>
+					{% endfor %}
+					</div>
+
+					<div class="grid__item push--three--one-eleventh three--ten-elevenths zero--hide three--show">
+					{% assign posts2014b = site.posts | where:"date","2014" %}
+					{% assign rowsb = posts2014b.size | divided_by: 3.0 | ceil %}
+					{% for i in (1..rowsb) %}
+				  		{% assign offsetb = forloop.index0 | times: 3 %}
+					  	<div class="grid">
+						    {% for post in posts2014b limit:3 offset:offsetb %}
+								<div class="grid__item three--one-third">
+									<div class="writing__single"
+										data-aos="fade-up" 
+										data-aos-offset="50" 
+										data-aos-duration="1000"
+										data-aos-easing="ease-out-quad">
+										<h6>{{ post.date | date:'%B %-d' }} <span class="alt">{{ post.categories | last }}</span></h6>
+										<h3 class="smaller"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+									</div>
+								</div>
+						    {% endfor %}
+					  	</div>
+					{% endfor %}
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
