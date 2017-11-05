@@ -597,10 +597,20 @@ input {
 	.c3-s3 & {
 		top: 15px;
 	}
+
+	@include at-query($four) {
+		right: 5005%;
+		top: 35px;
+		width: 5000%;
+	}
 }
 
 .mailinglist {
 	margin: 20px 0 50px;
+
+	@include at-query($four) {
+		margin: 70px 0 100px;
+	}
 
 	.mailinglist__content {
 		margin-top: 40px;

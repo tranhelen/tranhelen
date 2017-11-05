@@ -23,11 +23,13 @@
 
 	@include at-query($three) {
 		background-position: 0;
-		background-size: 120%;
+		background-size: 150%;
+	    margin-top: 60px;
 		padding: 0px 50px;
 	}
 
 	@include at-query($four) {
+	    margin-top: 140px;
 		padding: 0px 100px 50px;
 	}
 }
@@ -50,22 +52,80 @@
 
 .archive-popular__body,
 .archive-topic__body {
+	padding: 0 30px;
+
 	@include at-query($three) {
-		margin-left: 30px;
+		padding: 0 0 0 30px;
+	}
+
+	@include at-query($four) {
+		padding: 0 0 0 60px;
+	}
+}
+
+.archive-popular__body {
+	@include at-query($one) {
+		padding: 0 0 0 60px;
+	}
+
+	@include at-query($three) {
+		padding-left: 30px;
+	}
+
+	@include at-query($four) {
+		padding-left: 50px;
+	}
+}
+
+.archive-topic__body {
+	@include at-query($one) {
+		padding: 0;
+	}
+
+	@include at-query($three) {
+		padding-left: 30px;
+	}
+
+	@include at-query($four) {
+		padding-left: 50px;
 	}
 }
 
 .archive-popular__header {
+    margin-bottom: 20px;
+	padding: 0 30px;
+
+	@include at-query($one) {
+		padding-left: 60px;
+	}
+
 	@include at-query($three) {
-		margin-top: 30px;
+		margin-top: 35px;
 		padding-left: 30px;
+	}
+
+	@include at-query($four) {
+	    margin: 85px 0 30px ;
+	    padding-left: 50px;
 	}
 }
 
 .archive-topic__header {
+    margin-bottom: 20px;
+	padding: 0 30px;
+
+	@include at-query($one) {
+		padding: 0;
+	}
+
 	@include at-query($three) {
 		margin-top: 10px;
 		padding-left: 30px;
+	}
+
+	@include at-query($four) {
+		margin: 60px 0 30px;
+		padding-left: 50px;
 	}
 }
 
@@ -126,6 +186,10 @@
 
 	@include at-query($four) {
 		margin: 0 0 80px 0;
+
+		.archive-design__body & {
+			margin: 40px 0 0;
+		}
 	}
 }
 
