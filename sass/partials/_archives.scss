@@ -166,6 +166,18 @@
 
 	&.--writing-archives {
 		background-image: url('/img/bg-watercolour-writing-archives.svg');	
+
+		@include at-query($three) {
+		    height: 90px;
+		    left: 120px;
+		    margin-top: 0px;
+		    top: 140px;
+		}
+
+		@include at-query($four) {
+		    left: 170px;
+		    top: 170px;
+		}
 	}
 }
 
