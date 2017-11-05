@@ -138,19 +138,23 @@
 	padding-bottom: 15px;
 
 	@include at-query($one) {
-	    background-position: 0 20px;
+	    background-position: 0 50px;
 	    background-size: 120%;
 	}
 
 	@include at-query($two) {
-	    background-position: 70% 30%;
-	    background-size: 85%;
+		background-position: center 30px;
+    	background-size: 800px;
 		margin: 0 0 40px;
 	}
 
 	@include at-query($three) {
-        background-position: 45%;
-    	background-size: 80%;
+	    background-position: center 30px;
+	    background-size: 1060px;
+	}
+
+	@include at-query($four) {
+    	background-size: 1380px;
 	}
 }
 
@@ -168,14 +172,18 @@
 	}
 
 	@include at-query($two) {
-		background-position-x: 70%;
-    	background-size: 85%;
+		background-position: center 0px;
+    	background-size: 800px;
 		margin: 0 0 40px;		
 	}
 
 	@include at-query($three) {
-	    background-position-x: 45%;
-	    background-size: 80%;
+	    background-position: center -10px;
+	    background-size: 1060px;
+	}
+
+	@include at-query($four) {
+    	background-size: 1380px;
 	}
 }
 
