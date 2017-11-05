@@ -151,10 +151,12 @@
 	@include at-query($three) {
 	    background-position: center 30px;
 	    background-size: 1060px;
+	    margin: 40px 0 90px;
 	}
 
 	@include at-query($four) {
     	background-size: 1380px;
+    	margin: 140px 0 190px;
 	}
 }
 
@@ -174,16 +176,18 @@
 	@include at-query($two) {
 		background-position: center 0px;
     	background-size: 800px;
-		margin: 0 0 40px;		
+		margin: 0 0 40px;
 	}
 
 	@include at-query($three) {
 	    background-position: center -10px;
 	    background-size: 1060px;
+	    margin: 40px 0 90px;
 	}
 
 	@include at-query($four) {
     	background-size: 1380px;
+    	margin: 140px 0 190px;
 	}
 }
 
