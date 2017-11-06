@@ -2,6 +2,117 @@
     #CaseStudies
 \*------------------------------------*/
 
+.cs-tag {
+	background-color: $colorAccent;
+	color: #fff;
+	margin: 0 auto;
+	padding: 10px 0 5px;
+	position: relative;
+	text-align: center;
+	width: 120px;
+    z-index: 1;
+
+    @include at-query($one) {
+    	margin: 0;
+    }
+
+    @include at-query($two) {
+    	padding-bottom: 0;
+    }
+
+    @include at-query($three) {
+    	padding: 15px 0 5px;
+    	width: 160px;
+    }
+
+    h6 {
+    	color: #fff;
+    }
+}
+
+.header-bg-watercolour {
+	.c1-s1 & {
+		background-image: url('/img/casestudy/bg-watercolour-cs.svg');	
+	    left: 30px;
+		top: 70px;
+	}
+
+	&.--cs1-stage3 {
+		background-image: url('/img/casestudy/1-bg-watercolour-header-stage3.svg');	
+    		left: -40px;
+		    top: 30px;
+
+		&.--b {
+    		left: -20px;
+		    top: 35px;
+		}
+
+		&.--c {
+    		left: -60px;
+		    top: 20px;
+		}
+	}
+
+	&.--cs2-diversity {
+		background-image: url('/img/casestudy/2-bg-watercolour-header-diversity.svg');	
+		    left: -31px;
+		    top: 29px;
+    	height: 35px;
+    	z-index: 0;
+
+    	&.--b {
+			left: -21px;
+			top: 19px;
+    	}
+
+    	&.--c {
+			left: 19px;
+			top: 24px;
+    	}
+
+    	&.--d {
+		    left: -20px;
+		    top: 44px;
+    	}
+
+    	&.--e {
+			left: 39px;
+			top: 25px;
+    	}
+
+    	&.--f {
+			left: -31px;
+			top: 15px;
+    	}
+    }
+
+	&.--cs-morework {
+		background-image: url('/img/casestudy/bg-watercolour-cs-morework.svg');
+			top: -10px;
+	}
+}
+
+/*------------------------------------*\
+    #CS1
+\*------------------------------------*/
+
+.c1-hero {
+	margin: 0 -30px 10px;
+
+	@include at-query($one) {
+		position: relative;
+		left: -30px;
+	}
+
+	@include at-query($two) {
+		left: -60px;
+	}
+
+	@include at-query($three) {
+		left: -15%;
+	}
+}
+
 .c1-s1,
 .c1-s2,
 .c1-s3,
@@ -192,6 +303,10 @@
 	@include clearfix;
 }
 
+/*------------------------------------*\
+    #CS2
+\*------------------------------------*/
+
 .c2-diversity {
 	margin-bottom: 50px;
 }
@@ -216,23 +331,6 @@
 		margin: 50px 0 30px;
 	}
 
-	figure.hero {
-		margin: 0 -30px 10px;
-
-		@include at-query($one) {
-			position: relative;
-			left: -30px;
-		}
-
-		@include at-query($two) {
-			left: -60px;
-		}
-
-		@include at-query($three) {
-			left: -15%;
-		}
-	}
-
 	@include at-query($one) {
 		h1 {
 		    margin-top: -70px;
@@ -248,6 +346,8 @@
 		top: -20px;
 	}
 }
+
+
 
 .c2-header {
 	margin-top: -30px;
@@ -295,6 +395,10 @@
 .c2-s6 {
 	background-image: url('/img/casestudy/2-background-s2.svg');
 }
+
+/*------------------------------------*\
+    #CS3
+\*------------------------------------*/
 
 .c3-s2,
 .c3-s3,
@@ -463,30 +567,6 @@
 	}
 }
 
-.tag {
-	background-color: $colorAccent;
-	color: #fff;
-	margin: 0 auto;
-	padding: 10px 0 5px;
-    position: relative;
-	text-align: center;
-	width: 120px;
-    z-index: 1;
-
-    @include at-query($one) {
-    	margin: 0;
-    }
-
-    @include at-query($two) {
-    	padding-bottom: 0;
-    }
-
-    @include at-query($three) {
-    	padding: 15px 0 5px;
-    	width: 160px;
-    }
-}
-
 .c1__body {
 	.toc {
 		margin: 0 0 0 -20px;
@@ -559,67 +639,5 @@
 .cs-morework {
 	h4 {
 		margin-bottom: -30px;
-	}
-}
-
-.header-bg-watercolour {
-	.c1-s1 & {
-		background-image: url('/img/casestudy/bg-watercolour-cs.svg');	
-	    left: 30px;
-		top: 70px;
-	}
-
-	&.--cs1-stage3 {
-		background-image: url('/img/casestudy/1-bg-watercolour-header-stage3.svg');	
-    		left: -40px;
-		    top: 30px;
-
-		&.--b {
-    		left: -20px;
-		    top: 35px;
-		}
-
-		&.--c {
-    		left: -60px;
-		    top: 20px;
-		}
-	}
-
-	&.--cs2-diversity {
-		background-image: url('/img/casestudy/2-bg-watercolour-header-diversity.svg');	
-		    left: -31px;
-		    top: 29px;
-    	height: 35px;
-    	z-index: 0;
-
-    	&.--b {
-			left: -21px;
-			top: 19px;
-    	}
-
-    	&.--c {
-			left: 19px;
-			top: 24px;
-    	}
-
-    	&.--d {
-		    left: -20px;
-		    top: 44px;
-    	}
-
-    	&.--e {
-			left: 39px;
-			top: 25px;
-    	}
-
-    	&.--f {
-			left: -31px;
-			top: 15px;
-    	}
-    }
-
-	&.--cs-morework {
-		background-image: url('/img/casestudy/bg-watercolour-cs-morework.svg');
-			top: -10px;
 	}
 }
