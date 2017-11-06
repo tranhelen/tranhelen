@@ -11,6 +11,22 @@
 
 .c1-s1 {
 	margin-top: 40px;
+
+	figure {
+		position: relative;
+
+		@include at-query($one) {
+			margin: 30px -30px 30px -16%;
+		}
+
+		@include at-query($three) {
+			margin: 30px -43% 30px -14.35%;
+		}
+
+		@include at-query($four) {
+			margin: 80px -43% 80px -14.35%;
+		}
+	}
 }
 
 .c1-numbers {
@@ -31,9 +47,17 @@
 
 	@include at-query($two) {
 		background-image: url(/img/casestudy/1-bg-numbers.svg);
+		background-position: center;
+		background-repeat: no-repeat;
 		border: 0;
 		margin-top: 80%;
 		padding: 40px 30px 20px 30px;
+	}
+
+	@include at-query($three) {
+		background-size: 90%;
+    	margin-top: 50%;
+    	padding: 90px 70px 70px 70px;
 	}
 }
 
@@ -55,6 +79,12 @@
 		    right: 0;
 	    width: 450px;
 	    z-index: -2;
+	}
+
+	@include at-query($three) {
+		width: 750px;
+		left: 60%;
+		right: initial;
 	}
 }
 
