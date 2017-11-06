@@ -8,6 +8,11 @@
 .c1-s4 {
 	margin: 50px 0;
 }
+
+.c1-s1 {
+	margin-top: 40px;
+}
+
 .c1-numbers {
 	background-color: $colorBGone;
 	margin: 30px -30px;
@@ -55,8 +60,24 @@
 }
 
 .c1-header {
+	margin: 30px;
+
+	@include at-query($one) {
+		margin: 50px 0 30px;
+	}
+
 	figure.hero {
 		margin: 0 -30px 10px;
+	}
+
+	@include at-query($two) {
+		h1 {
+		    margin-top: -70px;
+		}		
+	}
+
+	h2 {
+		margin-bottom: 0;
 	}
 
 	img {
@@ -288,6 +309,24 @@
 	text-align: center;
 	width: 120px;
     z-index: 1;
+
+    @include at-query($one) {
+    	margin: 0;
+    }
+
+    @include at-query($two) {
+    	padding-bottom: 0;
+    }
+}
+
+.c1__body {
+	.toc {
+		margin: 0 30px 0 10px;
+
+		@include at-query($one) {
+			margin: 0 0 0 -20px;
+		}
+	}
 }
 
 .c1__body,
