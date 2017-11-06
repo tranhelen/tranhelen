@@ -2,6 +2,24 @@
     #CaseStudies
 \*------------------------------------*/
 
+.cs-firstletter::first-letter {
+	color: $colorAccentTwo;
+	float: left;
+    font-size: em(54px);
+    line-height: 0.72;
+    padding: 18px 8px 0 0;
+    position: relative;
+
+    @include at-query($three) {
+    	font-size: em(52px);
+	    padding-top: 24px;
+    }
+
+    @include at-query($four) {
+    	padding-top: 28px;
+    }
+}
+
 .cs-tag {
 	background-color: $colorAccent;
 	color: #fff;
@@ -25,19 +43,61 @@
     	width: 160px;
     }
 
+    @include at-query($four) {
+	    margin-top: 50px;
+    }
+
     h6 {
     	color: #fff;
     }
 }
 
+.cs-toc {
+	margin: 0 0 0 -20px;
+
+	@include at-query($three) {
+		margin-left: -25px;
+	}
+
+	@include at-query($four) {
+		margin: 40px 0 50px;
+	}
+
+	h6 {
+		margin: 0 0 10px 20px;
+
+		@include at-query($three) {
+			margin-left: 25px;
+		}
+	}
+
+	.cs-toc__list {
+		padding: 0;
+
+		.bullet {
+			color: $colorAccent;
+		}
+	}
+}
+
 .header-bg-watercolour {
-	.c1-s1 & {
+	&.--c1-s1 {
 		background-image: url('/img/casestudy/bg-watercolour-cs.svg');	
 	    left: 30px;
 		top: 70px;
+
+		@include at-query($three) {
+    		height: 80px;
+			top: 90px;
+		}
+
+		@include at-query($four) {
+			height: 100px;
+		    top: 120px;
+		}
 	}
 
-	&.--cs1-stage3 {
+	&.--c1-s3 {
 		background-image: url('/img/casestudy/1-bg-watercolour-header-stage3.svg');	
     		left: -40px;
 		    top: 30px;
@@ -53,6 +113,7 @@
 		}
 	}
 
+// to review
 	&.--cs2-diversity {
 		background-image: url('/img/casestudy/2-bg-watercolour-header-diversity.svg');	
 		    left: -31px;
@@ -92,9 +153,42 @@
 	}
 }
 
+.line-one {
+	.c1-body &,
+	.c2-body &,
+	.c3-body & {
+		top: 15px;
+	}
+
+	.cs-morework & {
+		top: 35px;
+	}
+}
+
 /*------------------------------------*\
     #CS1
 \*------------------------------------*/
+
+.c1-header {
+	margin: 30px 0;
+
+	@include at-query($one) {
+		margin: 50px 0 30px;
+
+		h1 {
+		    margin-top: -70px;
+		}		
+	}
+
+	h2 {
+		margin-bottom: 0;
+	}
+
+	img {
+		position: relative;
+		top: -20px;
+	}
+}
 
 .c1-hero {
 	margin: 0 -30px 10px;
@@ -113,37 +207,6 @@
 	}
 }
 
-.c1-s1,
-.c1-s2,
-.c1-s3,
-.c1-s4 {
-	margin: 50px 0;
-}
-
-.c1-s1 {
-	margin-top: -20px;
-
-	@include at-query($two) {
-		margin-top: 20px;
-	}
-
-	figure {
-		position: relative;
-
-		@include at-query($one) {
-			margin: 30px -30px 30px -16%;
-		}
-
-		@include at-query($three) {
-			margin: 30px -43% 30px -14.35%;
-		}
-
-		@include at-query($four) {
-			margin: 80px -43% 80px -14.35%;
-		}
-	}
-}
-
 .c1-numbers {
 	background-color: $colorBGone;
 	margin: 30px -30px;
@@ -159,6 +222,7 @@
 .c1-numbers__body {
 	border: 5px solid #fff;
 	padding: 20px 10px 20px 30px;
+	text-align: center;
 
 	@include at-query($two) {
 		background-image: url(/img/casestudy/1-bg-numbers.svg);
@@ -174,6 +238,21 @@
     	margin-top: 50%;
     	padding: 90px 30px 70px 30px;
 	}
+
+	h5 {
+		font-size: em(24px);
+	}
+
+	h6 {
+		font-size: em(30px);
+		font-weight: 300;
+	}
+
+	hr {
+		border-bottom-width: 1px;
+		border-color: $colorTextHeader;
+		margin: 5px auto;
+	}
 }
 
 .c1-numbers__single {
@@ -182,7 +261,46 @@
 	}
 }
 
-.c1-s1-bg {
+.c1-s1,
+.c1-s2,
+.c1-s3,
+.c1-s4 {
+	margin: -20px 0 50px 0;
+
+	@include at-query($two) {
+		margin-top: 0;
+	}
+
+	@include at-query($four) {
+		margin-bottom: 60px;
+	}
+}
+
+.c1-s1,
+.c1-s2,
+.c1-s3 {
+	@include at-query($four) {
+		margin-bottom: 160px;
+	}
+}
+
+.c1-s1__img1 {
+	position: relative;
+
+	@include at-query($one) {
+		margin: 30px -30px 30px -16%;
+	}
+
+	@include at-query($three) {
+		margin: 30px -43% 30px -14.35%;
+	}
+
+	@include at-query($four) {
+		margin: 80px -43% 80px -14.35%;
+	}
+}
+
+.c1-bg {
 	display: none;
 
 	@include at-query($two) {
@@ -201,49 +319,26 @@
 		left: 60%;
 		right: initial;
 	}
-}
 
-.c1-s2-bg {
-	display: none;
+	&.--b {
+		@include at-query($two) {
+		    background-image: url(/img/casestudy/1-bg-s2.svg);
+			    left: 0;
+		}
 
-	@include at-query($two) {
-	    background-image: url(/img/casestudy/1-bg-s2.svg);
-	    background-repeat: no-repeat;
-	    display: block;
-	    height: 1200px;		
-	    position: absolute;
-		    left: 0;
-	    width: 450px;
-	    z-index: -2;
+		@include at-query($three) {
+			right: 60%;
+			left: initial;
+		}
 	}
 
-	@include at-query($three) {
-		width: 750px;
-		right: 60%;
-		left: initial;
+	&.--c {
+		@include at-query($two) {
+		    background-image: url(/img/casestudy/1-bg-s3.svg);
+		}
 	}
 }
 
-.c1-s3-bg {
-	display: none;
-
-	@include at-query($two) {
-	    background-image: url(/img/casestudy/1-bg-s3.svg);
-	    background-repeat: no-repeat;
-	    display: block;
-	    height: 1200px;		
-	    position: absolute;
-		    right: 0;
-	    width: 450px;
-	    z-index: -2;
-	}
-
-	@include at-query($three) {
-		width: 750px;
-		left: 60%;
-		right: initial;
-	}
-}
 
 .c1-s2-imagegrid {
 	margin: 30px -13% 30px 0;
@@ -265,7 +360,7 @@
 	}
 }
 
-.c1-stage3-images {
+.c1-s3-images {
 	margin: 10px 0; 
 
 	@include at-query($four) {
@@ -278,15 +373,23 @@
 		position: relative;
 		width: 20%;
     	z-index: 1;
+
+    	@include at-query($three) {
+    		width: 27.27%;
+    	}
 	}
 
-	.c1-stage3-images__body {
+	.c1-s3-images__body {
 		float: right;
     	padding-left: 30px;
 		width: 80%;
 
 		@include at-query($two) {
-			padding-left: 60px;
+			padding-left: 35px;
+		}
+
+		@include at-query($three) {
+			width: 72.73%;
 		}
 	}
 
@@ -295,7 +398,7 @@
 			float: right;
 		}
 
-		.c1-stage3-images__body {
+		.c1-s3-images__body {
 			padding-right: 60px;
 		}
 	}
@@ -323,31 +426,6 @@
     margin: -60px auto 0;
     width: 151px;
 }
-
-.c1-header {
-	margin: 30px 0;
-
-	@include at-query($one) {
-		margin: 50px 0 30px;
-	}
-
-	@include at-query($one) {
-		h1 {
-		    margin-top: -70px;
-		}		
-	}
-
-	h2 {
-		margin-bottom: 0;
-	}
-
-	img {
-		position: relative;
-		top: -20px;
-	}
-}
-
-
 
 .c2-header {
 	margin-top: -30px;
@@ -567,19 +645,9 @@
 	}
 }
 
-.c1__body {
-	.toc {
-		margin: 0 0 0 -20px;
-
-		@include at-query($three) {
-			margin-left: -25px;
-		}
-	}
-}
-
-.c1__body,
-.c2__body,
-.c3__body {
+.c1-body,
+.c2-body,
+.c3-body {
 	h2 {
 		font-weight: 600;
 		font-style: normal;
@@ -601,39 +669,10 @@
 	}
 }
 
-.c1-numbers__body {
-	text-align: center;
-
-	h5 {
-		font-size: em(24px);
-	}
-
-	h6 {
-		font-size: em(30px);
-		font-weight: 300;
-	}
-
-	hr {
-		border-bottom-width: 1px;
-		border-color: $colorTextHeader;
-		margin: 5px auto;
-	}
-}
-
 .c3-s5 {
 	h2 {
 		margin-bottom: 10px;
 	}
-}
-
-.cs-first::first-letter {
-	color: $colorAccentTwo;
-	float: left;
-    font-size: em(54px);
-    line-height: 0.72;
-    padding-top: 18px;
-    padding-right: 8px;
-    position: relative;
 }
 
 .cs-morework {

@@ -253,6 +253,10 @@ ul li p {
 		font-family: $stack2;
 		font-size: em(13px);
 		line-height: 1.84;
+
+		@include at-query($three) {
+			font-size: em(16px);
+		}
 	}
 
 	@include at-query($three) {
@@ -395,6 +399,22 @@ ul {
 	}
 }
 
+.fieldnotes {
+	@include at-query($three) {
+		.external-body {
+			background-position: left 20px;
+		}
+
+		.external-box {
+		   		top: 12px;
+		}
+
+		.external-box__arrow {
+			    bottom: 17px;
+		}
+	}
+}
+
 .small {
 	font-family: $stack2;
 	font-size: em(13px);
@@ -500,16 +520,6 @@ input {
 		top: 25px;
 	width: 300px;
 
-	.c1__body &,
-	.c2__body &,
-	.c3__body & {
-		top: 15px;
-	}
-
-	.cs-morework & {
-		top: 35px;
-	}
-
 	@include at-query($four) {
 		right: 5005%;
 		top: 35px;
@@ -593,26 +603,6 @@ input {
 
 .navigation {
 	margin: 30px 0;
-}
-
-.toc {
-	margin: 20px 0 30px -20px;
-
-	h6 {
-		margin: 0 0 10px 20px;
-
-		@include at-query($three) {
-			margin-left: 25px;
-		}
-	}
-}
-
-.toc-list {
-	padding: 0;
-
-	.bullet {
-		color: $colorAccent;
-	}
 }
 
 #mc-embedded-subscribe {
