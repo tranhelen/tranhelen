@@ -494,60 +494,6 @@ input {
 	    top: 90px;
     width: 160%;
     z-index: -1;
-
-	&.--cs1-stage3 {
-		background-image: url('/img/casestudy/1-bg-watercolour-header-stage3.svg');	
-    		left: -40px;
-		    top: 30px;
-
-		&.--b {
-    		left: -20px;
-		    top: 35px;
-		}
-
-		&.--c {
-    		left: -60px;
-		    top: 20px;
-		}
-	}
-
-	&.--cs2-diversity {
-		background-image: url('/img/casestudy/2-bg-watercolour-header-diversity.svg');	
-		    left: -31px;
-		    top: 29px;
-    	height: 35px;
-    	z-index: 0;
-
-    	&.--b {
-			left: -21px;
-			top: 19px;
-    	}
-
-    	&.--c {
-			left: 19px;
-			top: 24px;
-    	}
-
-    	&.--d {
-		    left: -20px;
-		    top: 44px;
-    	}
-
-    	&.--e {
-			left: 39px;
-			top: 25px;
-    	}
-
-    	&.--f {
-			left: -31px;
-			top: 15px;
-    	}
-    }
-
-	&.--cs-morework {
-		background-image: url('/img/casestudy/bg-watercolour-cs-morework.svg');
-			top: -10px;
-	}
 }
 
 .line-one {
