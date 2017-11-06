@@ -10,7 +10,11 @@
 }
 
 .c1-s1 {
-	margin-top: 40px;
+	margin-top: -20px;
+
+	@include at-query($two) {
+		margin-top: 20px;
+	}
 
 	figure {
 		position: relative;
@@ -57,7 +61,7 @@
 	@include at-query($three) {
 		background-size: 90%;
     	margin-top: 50%;
-    	padding: 90px 70px 70px 70px;
+    	padding: 90px 30px 70px 30px;
 	}
 }
 
@@ -88,7 +92,75 @@
 	}
 }
 
+.c1-s2-bg {
+	display: none;
+
+	@include at-query($two) {
+	    background-image: url(/img/casestudy/1-bg-s2.svg);
+	    background-repeat: no-repeat;
+	    display: block;
+	    height: 1200px;		
+	    position: absolute;
+		    left: 0;
+	    width: 450px;
+	    z-index: -2;
+	}
+
+	@include at-query($three) {
+		width: 750px;
+		right: 60%;
+		left: initial;
+	}
+}
+
+.c1-s3-bg {
+	display: none;
+
+	@include at-query($two) {
+	    background-image: url(/img/casestudy/1-bg-s3.svg);
+	    background-repeat: no-repeat;
+	    display: block;
+	    height: 1200px;		
+	    position: absolute;
+		    right: 0;
+	    width: 450px;
+	    z-index: -2;
+	}
+
+	@include at-query($three) {
+		width: 750px;
+		left: 60%;
+		right: initial;
+	}
+}
+
+.c1-s2-imagegrid {
+	margin: 30px -13% 30px 0;
+
+	@include at-query($four) {
+		margin: 70px -13% 80px 0;
+	}
+
+	figure {
+		margin: 0;
+	}
+
+	.imagegrid01 {
+		margin-bottom: 20px;
+	}
+
+	.imagegrid03 {
+		margin-top: 10%;
+	}
+}
+
 .c1-stage3-images {
+	margin: 10px 0; 
+
+	@include at-query($four) {
+		margin: 50px 0 0;
+	}
+
 	figure {
 		float: left;
 		margin: 20px 0 0 0;
@@ -101,6 +173,20 @@
 		float: right;
     	padding-left: 30px;
 		width: 80%;
+
+		@include at-query($two) {
+			padding-left: 60px;
+		}
+	}
+
+	&.--b {
+		figure {
+			float: right;
+		}
+
+		.c1-stage3-images__body {
+			padding-right: 60px;
+		}
 	}
 
 	@include clearfix;
@@ -354,7 +440,7 @@
 	border: 3px solid $colorAccent;
 	list-style: none;
 	margin: 20px 0 30px;
-	padding: 20px;
+	padding: 20px 20px 0;
 
 	li {
 		counter-increment: item;
@@ -363,7 +449,7 @@
 
 	li:before {
 		background-image: url(/img/casestudy-ol.gif);
-		background-position: 0 5px;
+		background-position: 0 2px;
 		background-repeat: no-repeat;
 		background-size: 28px;
 		color: $colorAccent;
@@ -404,6 +490,10 @@
 .c1__body {
 	.toc {
 		margin: 0 0 0 -20px;
+
+		@include at-query($three) {
+			margin-left: -25px;
+		}
 	}
 }
 

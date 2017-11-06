@@ -604,6 +604,10 @@ input {
 
 	h6 {
 		margin: 0 0 10px 20px;
+
+		@include at-query($three) {
+			margin-left: 25px;
+		}
 	}
 }
 

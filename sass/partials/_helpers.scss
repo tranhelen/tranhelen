@@ -62,6 +62,12 @@
 	}
 }
 
+.two--hide {
+	@include at-query($two) {
+		display: none;
+	}
+}
+
 .three--hide {
 	@include at-query($three) {
 		display: none;
