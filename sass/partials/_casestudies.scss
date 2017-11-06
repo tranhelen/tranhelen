@@ -60,7 +60,7 @@
 }
 
 .c1-header {
-	margin: 30px;
+	margin: 30px 0;
 
 	@include at-query($one) {
 		margin: 50px 0 30px;
@@ -68,9 +68,22 @@
 
 	figure.hero {
 		margin: 0 -30px 10px;
+
+		@include at-query($one) {
+			position: relative;
+			left: -30px;
+		}
+
+		@include at-query($two) {
+			left: -60px;
+		}
+
+		@include at-query($three) {
+			left: -15%;
+		}
 	}
 
-	@include at-query($two) {
+	@include at-query($one) {
 		h1 {
 		    margin-top: -70px;
 		}		
@@ -316,6 +329,11 @@
 
     @include at-query($two) {
     	padding-bottom: 0;
+    }
+
+    @include at-query($three) {
+    	padding: 15px 0 5px;
+    	width: 160px;
     }
 }
 
