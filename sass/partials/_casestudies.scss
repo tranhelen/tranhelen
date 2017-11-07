@@ -695,6 +695,7 @@
 	    padding: 40px 40px 20px;
 
 	    li:before {
+			background-image: url(/img/casestudy/casestudy-ol-med.svg);
 	    	background-position: 1px 0px;
 	    	background-size: 30px;
     		padding: 0px 20px 0 2px;
@@ -703,6 +704,7 @@
 
 	@include at-query($four) {
 		li:before {
+			background-image: url(/img/casestudy/casestudy-ol-large.svg);
 		    background-position: 0px 0px;
 		    background-size: 36px;
 		    padding: 0px 20px 0 4px;
