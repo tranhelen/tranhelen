@@ -157,11 +157,31 @@
 	.c1-body &,
 	.c2-body &,
 	.c3-body & {
-		top: 15px;
+		top: 20px;
+
+		@include at-query($four) {
+			right: 5002%;
+		}
 	}
 
 	.cs-morework & {
 		top: 35px;
+
+		@include at-query($four) {
+			right: 5002%;
+		}
+	}
+}
+
+.line-two {
+	.c1-body &,
+	.c2-body &,
+	.c3-body & {
+		top: 20px;
+
+		@include at-query($four) {
+			right: 5002%;
+		}
 	}
 }
 
@@ -618,7 +638,7 @@
 	}
 
 	@include at-query($two) {
-		margin-top: 95px;
+		margin-top: 100px;
 
 		.--a {
 			margin-top: -100px; 
@@ -626,7 +646,19 @@
 
 		.--b {
 			margin-top: -140px;
-		}	
+		}
+	}
+
+	@include at-query($four) {
+		margin: 200px 0 160px 0;
+
+		.--a {
+			margin-top: -120px; 
+		}
+
+		.--b {
+			margin-top: -200px;
+		}
 	}
 }
 
@@ -644,7 +676,7 @@
 	}
 
 	li:before {
-		background-image: url(/img/casestudy-ol.gif);
+		background-image: url(/img/casestudy/casestudy-ol.svg);
 		background-position: 0 2px;
 		background-repeat: no-repeat;
 		background-size: 28px;
@@ -656,6 +688,25 @@
 	    padding: 5px 10px 0 0;
 		text-align: center;
 		width: 28px;
+	}
+
+	@include at-query($three) {
+	    margin: 40px -60px 50px;
+	    padding: 40px 40px 20px;
+
+	    li:before {
+	    	background-position: 1px 0px;
+	    	background-size: 30px;
+    		padding: 0px 20px 0 2px;
+	    }
+	}
+
+	@include at-query($four) {
+		li:before {
+		    background-position: 0px 0px;
+		    background-size: 36px;
+		    padding: 0px 20px 0 4px;
+		}
 	}
 }
 
