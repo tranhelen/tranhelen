@@ -241,9 +241,7 @@ header {
 	}
 }
 
-p,
-ol li p,
-ul li p {
+p {
 	color: $colorTextBody;
 	font-size: em(16px);
 	line-height: 1.75;
@@ -266,7 +264,7 @@ ul li p {
 
 	@include at-query($four) {
 		font-size: em(24px);
-	}
+	}	
 }
 
 ol li,

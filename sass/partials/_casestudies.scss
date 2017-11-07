@@ -60,19 +60,23 @@
 	}
 
 	@include at-query($four) {
-		margin: 40px 0 50px;
+		margin: 40px 0 50px -30px;
 	}
 
 	h6 {
 		margin: 0 0 10px 20px;
 
 		@include at-query($three) {
-			margin-left: 25px;
+			margin-left: 30px;
 		}
 	}
 
 	.cs-toc__list {
 		padding: 0;
+
+		li {
+			margin: 0;
+		}
 
 		.bullet {
 			color: $colorAccent;
@@ -702,11 +706,11 @@
 
 	@include at-query($three) {
 	    margin: 40px -60px 50px;
-	    padding: 40px 40px 20px;
+	    padding: 40px;
 
 	    li:before {
 			background-image: url(/img/casestudy/casestudy-ol-med.svg);
-	    	background-position: 1px 0px;
+	    	background-position: 1px 3px;
 	    	background-size: 30px;
     		padding: 0px 20px 0 2px;
 	    }
@@ -715,7 +719,7 @@
 	@include at-query($four) {
 		li:before {
 			background-image: url(/img/casestudy/casestudy-ol-large.svg);
-		    background-position: 0px 0px;
+		    background-position: 0px 4px;
 		    background-size: 36px;
 		    padding: 0px 20px 0 4px;
 		}
