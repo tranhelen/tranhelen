@@ -316,10 +316,6 @@ blockquote.large {
 figcaption {
 	@extend .small;
 
-	figure & {
-		margin-left: 30px;
-	}
-
 	p {
 		@extend .small;
 	}

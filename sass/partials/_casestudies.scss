@@ -20,6 +20,103 @@
     }
 }
 
+.cs-morework {
+    margin-top: -20px;
+
+	h4 {
+		margin-bottom: -30px;
+	}
+	
+	.hp-work-single {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	@include at-query($two) {
+		margin-top: 100px;
+
+		.--a {
+			margin-top: -100px; 
+		}
+
+		.--b {
+			margin-top: -140px;
+		}
+	}
+
+	@include at-query($four) {
+		margin: 200px 0 160px 0;
+
+		.--a {
+			margin-top: -120px; 
+		}
+
+		.--b {
+			margin-top: -200px;
+		}
+	}
+}
+
+.cs-ol {
+	counter-reset: item;
+	background-color: #fff;
+	border: 3px solid $colorAccent;
+	list-style: none;
+	margin: 20px 0 30px;
+	padding: 20px 20px 0;
+
+	li {
+		counter-increment: item;
+		display: table-row;
+	}
+
+	li:before {
+		background-image: url(/img/casestudy/casestudy-ol.svg);
+		background-position: 0 5px;
+		background-repeat: no-repeat;
+		background-size: 28px;
+		color: $colorAccent;
+		content: counter(item);
+    	display: table-cell;
+		font-family: $stack2;
+		font-weight: 600;
+	    padding: 5px 10px 0 0;
+		text-align: center;
+		width: 28px;
+	}
+
+	@include at-query($three) {
+	    margin: 40px -60px 50px;
+    	padding: 40px 40px 20px 40px;
+
+	    li:before {
+			background-image: url(/img/casestudy/casestudy-ol-med.svg);
+	    	background-position: 1px 3px;
+	    	background-size: 30px;
+    		padding: 0px 20px 0 2px;
+	    }
+
+	    p {
+	    	font-size: inherit;
+	    	margin-bottom: 15px;
+	    }
+	}
+
+	@include at-query($four) {
+		li:before {
+			background-image: url(/img/casestudy/casestudy-ol-large.svg);
+		    background-position: 0px 4px;
+		    background-size: 36px;
+		    padding: 0px 20px 0 4px;
+		}
+
+    	p {
+    		font-size: inherit;
+	    	margin-bottom: 15px;
+    	}
+	}
+}
+
 .cs-tag {
 	background-color: $colorAccent;
 	color: #fff;
@@ -69,6 +166,10 @@
 		@include at-query($three) {
 			margin-left: 30px;
 		}
+	}
+
+	&.--b {
+		margin-top: 35px;
 	}
 
 	.cs-toc__list {
@@ -185,6 +286,30 @@
 
 		@include at-query($four) {
 			right: 5002%;
+		}
+	}
+}
+
+.c1-body,
+.c2-body,
+.c3-body {
+	h2 {
+		font-weight: 600;
+		font-style: normal;
+		color: $colorTextHeader;
+		margin-bottom: 0;
+
+		&.lighter {
+			color: $colorAccent;
+		}
+	}
+
+	h3 {
+		color: $colorAccent;
+		margin: 0 0 15px;
+
+		&.darker {
+			color: $colorTextHeader;
 		}
 	}
 }
@@ -446,6 +571,29 @@
     #CS2
 \*------------------------------------*/
 
+.c2-body {
+	margin-bottom: 50px;
+}
+
+.c2-hero {
+	margin: -100px 0 -30px 0;
+    width: 120%;
+}
+
+.cs-tag {
+	&.--b {
+		margin: 0 -30px;
+
+		@include at-query($one) {
+			position: relative;
+    		top: 210px;
+		}
+	}
+}
+
+
+// divider
+
 .c2-diversity {
 	margin-bottom: 50px;
 }
@@ -461,16 +609,6 @@
     display: block;
     margin: -60px auto 0;
     width: 151px;
-}
-
-.c2-header {
-	margin-top: -30px;
-}
-
-.c2-header-img {
-	margin-left: -230px;
-	margin-top: -100px;
-	width: 210%;
 }
 
 .c2-s2,
@@ -643,131 +781,10 @@
 	@include clearfix;
 }
 
-.cs-morework {
-    margin-top: -20px;
 
-	.hp-work-single {
-		margin-top: 0;
-		margin-bottom: 30px;
-	}
-
-	@include at-query($two) {
-		margin-top: 100px;
-
-		.--a {
-			margin-top: -100px; 
-		}
-
-		.--b {
-			margin-top: -140px;
-		}
-	}
-
-	@include at-query($four) {
-		margin: 200px 0 160px 0;
-
-		.--a {
-			margin-top: -120px; 
-		}
-
-		.--b {
-			margin-top: -200px;
-		}
-	}
-}
-
-.cs-ol {
-	counter-reset: item;
-	background-color: #fff;
-	border: 3px solid $colorAccent;
-	list-style: none;
-	margin: 20px 0 30px;
-	padding: 20px 20px 0;
-
-	li {
-		counter-increment: item;
-		display: table-row;
-	}
-
-	li:before {
-		background-image: url(/img/casestudy/casestudy-ol.svg);
-		background-position: 0 5px;
-		background-repeat: no-repeat;
-		background-size: 28px;
-		color: $colorAccent;
-		content: counter(item);
-    	display: table-cell;
-		font-family: $stack2;
-		font-weight: 600;
-	    padding: 5px 10px 0 0;
-		text-align: center;
-		width: 28px;
-	}
-
-	@include at-query($three) {
-	    margin: 40px -60px 50px;
-    	padding: 40px 40px 20px 40px;
-
-	    li:before {
-			background-image: url(/img/casestudy/casestudy-ol-med.svg);
-	    	background-position: 1px 3px;
-	    	background-size: 30px;
-    		padding: 0px 20px 0 2px;
-	    }
-
-	    p {
-	    	font-size: inherit;
-	    	margin-bottom: 15px;
-	    }
-	}
-
-	@include at-query($four) {
-		li:before {
-			background-image: url(/img/casestudy/casestudy-ol-large.svg);
-		    background-position: 0px 4px;
-		    background-size: 36px;
-		    padding: 0px 20px 0 4px;
-		}
-
-    	p {
-    		font-size: inherit;
-	    	margin-bottom: 15px;
-    	}
-	}
-}
-
-.c1-body,
-.c2-body,
-.c3-body {
-	h2 {
-		font-weight: 600;
-		font-style: normal;
-		color: $colorTextHeader;
-		margin-bottom: 0;
-
-		&.lighter {
-			color: $colorAccent;
-		}
-	}
-
-	h3 {
-		color: $colorAccent;
-		margin: 0 0 15px;
-
-		&.darker {
-			color: $colorTextHeader;
-		}
-	}
-}
 
 .c3-s5 {
 	h2 {
 		margin-bottom: 10px;
-	}
-}
-
-.cs-morework {
-	h4 {
-		margin-bottom: -30px;
 	}
 }
