@@ -4,37 +4,41 @@
 
 <div class="post-single">
 	<div class="container">
+		<div class="grid">
+			<div class="grid__item push--two--two-elevenths two--seven-elevenths">
 
-		<div class="text-center"
-			data-aos="fade-up" 
-			data-aos-duration="1000"
-			data-aos-easing="ease-out-quad">
-			<h6>{{ page.date | date:'%B %-d, %Y' }}</h6>
-			<p><em>Categorized under '<a href="writing-category-{{ page.categories | last }}.html">{{ page.categories | last }}</a>'</em></p>
-		</div>
+				<div class="text-center"
+					data-aos="fade-up" 
+					data-aos-duration="1000"
+					data-aos-easing="ease-out-quad">
+					<h6>{{ page.date | date:'%B %-d, %Y' }}</h6>
+					<p><em>Categorized under '<a href="writing-category-{{ page.categories | last }}.html">{{ page.categories | last }}</a>'</em></p>
+				</div>
 
-		{% if page.hero %}
-		<figure class="hero" 
-			data-aos="fade-up" 
-			data-aos-duration="1000"
-			data-aos-easing="ease-out-quad">
-			<img src="/img/post/{{ page.hero }}">
-			{% if page.hero_caption %}
-				<figcaption><p>{{ page.hero_caption }}</p></figcaption>
-			{% endif %}
-		</figure>
-		{% endif %}
+				{% if page.hero %}
+				<figure class="hero" 
+					data-aos="fade-up" 
+					data-aos-duration="1000"
+					data-aos-easing="ease-out-quad">
+					<img src="/img/post/{{ page.hero }}">
+					{% if page.hero_caption %}
+						<figcaption><p>{{ page.hero_caption }}</p></figcaption>
+					{% endif %}
+				</figure>
+				{% endif %}
 
-		<h1 class="text-center"
-		data-aos="fade-up" 
-		data-aos-duration="1000"
-		data-aos-easing="ease-out-quad">{{ page.title }}</h1>
+				<h1 class="text-center"
+				data-aos="fade-up" 
+				data-aos-duration="1000"
+				data-aos-easing="ease-out-quad">{{ page.title }}</h1>
 
-		<div class="post-single__body" 
-			data-aos="fade-up" 
-			data-aos-duration="1000"
-			data-aos-easing="ease-out-quad">
-			{{ content }}
+				<div class="post-single__body" 
+					data-aos="fade-up" 
+					data-aos-duration="1000"
+					data-aos-easing="ease-out-quad">
+					{{ content }}
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
