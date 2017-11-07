@@ -651,19 +651,43 @@ blockquote.large {
     width: 151px;
 }
 
-.c2-s2,
-.c2-s3,
-.c2-s4,
-.c2-s5,
-.c2-s6 {
-    background-position: -600px 50px;
-    background-repeat: no-repeat;
-    background-size: 800px 800px;
-    margin-top: 40px;
+.c2-s2 {
+    padding-top: 30px;
+    position: relative;
+
+
+    @include at-query($two) {
+    	padding-top: 80px;
+    }
 }
 
-.c2-s2 {
+.c2-s2-background {
 	background-image: url('/img/casestudy/2-background-s2.svg');
+	background-repeat: no-repeat;
+	height: 800px;
+	width: 800px;
+    position: absolute;
+	    left: -600px;
+	    top: 50px;
+	z-index: -50;
+
+	@include at-query($two) {
+		height: 1200px;
+		width: 1200px;
+			top: 40px;
+	}
+}
+
+.c2-s2-bubbles {
+	@include at-query($two) {	
+		background-image: url('/img/casestudy/2-bubbles.svg');
+		height: 1228px;
+		width: 300px;
+	    position: absolute;
+		    left: -150px;
+		    top: 0;
+		z-index: -10;
+	}
 }
 
 .c2-s3 {
