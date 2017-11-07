@@ -363,7 +363,11 @@
 
 
 .c1-s2-imagegrid {
-	margin: 30px -13% 30px 0;
+	margin: 30px 0 40px -30px;
+
+	@include at-query($two) {
+		margin: 30px -13% 40px 0;
+	}
 
 	@include at-query($four) {
 		margin: 70px -13% 80px 0;
@@ -378,7 +382,7 @@
 	}
 
 	.imagegrid03 {
-		margin-top: 10%;
+		margin-top: 5%;
 	}
 }
 
@@ -426,6 +430,12 @@
 	}
 
 	@include clearfix;
+}
+
+.c1-s4-img {
+	@include at-query($four) {
+		width: 96%;
+	}
 }
 
 /*------------------------------------*\
