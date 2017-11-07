@@ -35,11 +35,11 @@
 }
 
 .archive-design__header {
-	margin-top: 10px;
+	margin: 10px 0;
 	position: relative;
-	top: -30px;
+	top: -20px;
 
-	@include at-query($four) {
+	@include at-query($three) {
 		margin-top: -30px;
 	}
 }

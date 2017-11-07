@@ -29,6 +29,38 @@ figure {
 	}
 }
 
+.navigation {
+	margin: 20px 0 35px;
+
+	@include at-query($two) {
+		margin: 30px 0 50px;
+	}
+
+	@include at-query($three) {
+		margin: 40px 0 85px;
+	}
+
+	@include at-query($four) {
+		margin: 45px 0 185px;
+	}
+
+	&.--footer {
+		margin: 10px 0 0; 
+
+		@include at-query($two) {
+			margin: 50px 0 0;
+		}
+
+		@include at-query($three) {
+			margin: 70px 0 70px;
+		}
+
+		@include at-query($four) {
+			margin: 160px 0 -10px;
+		}
+	}
+}
+
 .post-single {
 	h1 {
 		font-size: em(45px);

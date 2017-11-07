@@ -9,6 +9,7 @@
 
 				<div class="text-center"
 					data-aos="fade-up" 
+					data-aos-delay="500"
 					data-aos-duration="1000"
 					data-aos-easing="ease-out-quad">
 					<h6>{{ page.date | date:'%B %-d, %Y' }}</h6>
@@ -18,6 +19,7 @@
 				{% if page.hero %}
 				<figure class="hero" 
 					data-aos="fade-up" 
+					data-aos-delay="1000"
 					data-aos-duration="1000"
 					data-aos-easing="ease-out-quad">
 					<img src="/img/post/{{ page.hero }}">
@@ -29,11 +31,13 @@
 
 				<h1 class="text-center"
 				data-aos="fade-up" 
+				data-aos-delay="1000"
 				data-aos-duration="1000"
 				data-aos-easing="ease-out-quad">{{ page.title }}</h1>
 
 				<div class="post-single__body" 
 					data-aos="fade-up" 
+					data-aos-delay="1000"
 					data-aos-duration="1000"
 					data-aos-easing="ease-out-quad">
 					{{ content }}
@@ -43,7 +47,7 @@
 	</div>
 </div>
 
-{% include navigation.html %}
+{% include navigation-footer.html %}
 
 {% include archive-footer.html %}
 
