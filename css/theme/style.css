@@ -3776,7 +3776,7 @@ code {
 }
 /* line 373, ../../sass/partials/_main.scss */
 pre code {
-  background-color: none;
+  background-color: transparent;
   font-size: 0.875em;
   line-height: 1.71;
   padding: 0;
