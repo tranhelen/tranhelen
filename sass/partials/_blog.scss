@@ -30,18 +30,18 @@ figure {
 }
 
 .navigation {
-	margin: 20px 0 35px;
+	margin: 20px 0 15px;
 
 	@include at-query($two) {
-		margin: 30px 0 50px;
+		margin: 30px 0 70px;
 	}
 
 	@include at-query($three) {
-		margin: 40px 0 85px;
+		margin: 30px 0 45px;
 	}
 
 	@include at-query($four) {
-		margin: 45px 0 185px;
+		margin: 45px 0 145px;
 	}
 
 	&.--footer {
@@ -64,8 +64,20 @@ figure {
 .post-single {
 	h1 {
 		font-size: em(45px);
-		line-height: 1.2;
-		margin: 30px 0;
+		margin: 0 0 35px;
+
+		@include at-query($two) {
+			margin: 0 0 35px;
+		}
+
+		@include at-query($three) {
+			font-size: em(90px);
+			margin: 10px 0 70px;
+		}
+
+		@include at-query($four) {
+			font-size: em(120px);
+		}
 	}
 
 	h2 {

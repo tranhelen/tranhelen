@@ -6068,24 +6068,24 @@ figure.hero {
 
 /* line 32, ../../sass/partials/_blog.scss */
 .navigation {
-  margin: 20px 0 35px;
+  margin: 20px 0 15px;
 }
 @media screen and (min-width: 800px) {
   /* line 32, ../../sass/partials/_blog.scss */
   .navigation {
-    margin: 30px 0 50px;
+    margin: 30px 0 70px;
   }
 }
 @media screen and (min-width: 1130px) {
   /* line 32, ../../sass/partials/_blog.scss */
   .navigation {
-    margin: 40px 0 85px;
+    margin: 30px 0 45px;
   }
 }
 @media screen and (min-width: 1500px) {
   /* line 32, ../../sass/partials/_blog.scss */
   .navigation {
-    margin: 45px 0 185px;
+    margin: 45px 0 145px;
   }
 }
 /* line 47, ../../sass/partials/_blog.scss */
@@ -6114,10 +6114,28 @@ figure.hero {
 /* line 65, ../../sass/partials/_blog.scss */
 .post-single h1, .post-single .h1 {
   font-size: 2.8125em;
-  line-height: 1.2;
-  margin: 30px 0;
+  margin: 0 0 35px;
 }
-/* line 71, ../../sass/partials/_blog.scss */
+@media screen and (min-width: 800px) {
+  /* line 65, ../../sass/partials/_blog.scss */
+  .post-single h1, .post-single .h1 {
+    margin: 0 0 35px;
+  }
+}
+@media screen and (min-width: 1130px) {
+  /* line 65, ../../sass/partials/_blog.scss */
+  .post-single h1, .post-single .h1 {
+    font-size: 5.625em;
+    margin: 10px 0 70px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* line 65, ../../sass/partials/_blog.scss */
+  .post-single h1, .post-single .h1 {
+    font-size: 7.5em;
+  }
+}
+/* line 83, ../../sass/partials/_blog.scss */
 .post-single h2, .post-single .h2 {
   color: #394047;
   font-size: 2.1875em;
@@ -6125,23 +6143,23 @@ figure.hero {
   font-weight: 600;
   margin-top: 30px;
 }
-/* line 79, ../../sass/partials/_blog.scss */
+/* line 91, ../../sass/partials/_blog.scss */
 .post-single h3, .post-single .h3 {
   font-size: 1.875em;
   line-height: 1.33;
   margin: 15px 0;
 }
-/* line 85, ../../sass/partials/_blog.scss */
+/* line 97, ../../sass/partials/_blog.scss */
 .post-single figure {
   margin: 20px 0 30px;
 }
 
-/* line 91, ../../sass/partials/_blog.scss */
+/* line 103, ../../sass/partials/_blog.scss */
 .writing__single h6, .writing__single .h6 {
   margin-bottom: 10px;
 }
 
-/* line 96, ../../sass/partials/_blog.scss */
+/* line 108, ../../sass/partials/_blog.scss */
 .fieldnotes-anchor {
   color: #d0a233;
   font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -6152,12 +6170,12 @@ figure.hero {
   bottom: 5px;
 }
 
-/* line 106, ../../sass/partials/_blog.scss */
+/* line 118, ../../sass/partials/_blog.scss */
 .footnote {
   letter-spacing: 2px;
 }
 
-/* line 110, ../../sass/partials/_blog.scss */
+/* line 122, ../../sass/partials/_blog.scss */
 .footnote-back {
   background-image: none;
   margin-left: -20px;
