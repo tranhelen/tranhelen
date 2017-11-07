@@ -6243,8 +6243,8 @@ input {
   .post-single figure.hero {
     margin: -45px 0 -60px 0;
     position: relative;
-    width: 200%;
-    left: -50%;
+    width: 180%;
+    left: -40%;
   }
 }
 @media screen and (min-width: 1500px) {
@@ -6253,35 +6253,29 @@ input {
     margin: -130px 0 -80px 0;
   }
 }
-@media screen and (min-width: 1500px) {
-  /* line 137, ../../sass/partials/_blog.scss */
-  .post-single figure.hero figcaption {
-    margin-left: 60px;
-  }
-}
 @media screen and (min-width: 1130px) {
-  /* line 143, ../../sass/partials/_blog.scss */
+  /* line 137, ../../sass/partials/_blog.scss */
   .post-single figure.hero.--wcaption {
     margin-bottom: -100px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 143, ../../sass/partials/_blog.scss */
+  /* line 137, ../../sass/partials/_blog.scss */
   .post-single figure.hero.--wcaption {
     margin-bottom: -110px;
   }
 }
-/* line 154, ../../sass/partials/_blog.scss */
+/* line 148, ../../sass/partials/_blog.scss */
 .post-single figure.left {
   float: left;
   margin: 0 30px 0 0;
 }
-/* line 160, ../../sass/partials/_blog.scss */
+/* line 154, ../../sass/partials/_blog.scss */
 .post-single figcaption {
   margin: 0;
 }
 
-/* line 165, ../../sass/partials/_blog.scss */
+/* line 159, ../../sass/partials/_blog.scss */
 .fieldnotes-anchor {
   color: #d0a233;
   font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -6292,12 +6286,12 @@ input {
   bottom: 5px;
 }
 
-/* line 175, ../../sass/partials/_blog.scss */
+/* line 169, ../../sass/partials/_blog.scss */
 .footnote {
   letter-spacing: 2px;
 }
 
-/* line 179, ../../sass/partials/_blog.scss */
+/* line 173, ../../sass/partials/_blog.scss */
 .footnote-back {
   background-image: none;
   margin-left: -20px;
@@ -6308,14 +6302,14 @@ input {
 /*------------------------------------*\
     #Snowflakes :( Suckkkk ittttt
 \*------------------------------------*/
-/* line 190, ../../sass/partials/_blog.scss */
+/* line 184, ../../sass/partials/_blog.scss */
 .book-cover {
   background: none;
   display: block;
   margin-bottom: 15px;
 }
 @media screen and (min-width: 800px) {
-  /* line 190, ../../sass/partials/_blog.scss */
+  /* line 184, ../../sass/partials/_blog.scss */
   .book-cover {
     margin: 30px 0;
   }

@@ -126,18 +126,12 @@
 			@include at-query($three) {
 				margin: -45px 0 -60px 0;
 			    position: relative;
-			    width: 200%;
-			    left: -50%;
+			    width: 180%;
+			    left: -40%;
 			}
 
 			@include at-query($four) {
 				margin: -130px 0 -80px 0;
-			}
-
-			figcaption {
-				@include at-query($four) {
-					margin-left: 60px;
-				}
 			}
 
 			&.--wcaption {
