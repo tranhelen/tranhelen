@@ -706,13 +706,18 @@
 
 	@include at-query($three) {
 	    margin: 40px -60px 50px;
-	    padding: 40px;
+    	padding: 40px 40px 20px 40px;
 
 	    li:before {
 			background-image: url(/img/casestudy/casestudy-ol-med.svg);
 	    	background-position: 1px 3px;
 	    	background-size: 30px;
     		padding: 0px 20px 0 2px;
+	    }
+
+	    p {
+	    	font-size: inherit;
+	    	margin-bottom: 15px;
 	    }
 	}
 
@@ -723,6 +728,11 @@
 		    background-size: 36px;
 		    padding: 0px 20px 0 4px;
 		}
+
+    	p {
+    		font-size: inherit;
+	    	margin-bottom: 15px;
+    	}
 	}
 }
 

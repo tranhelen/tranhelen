@@ -6005,7 +6005,7 @@ input {
   /* line 679, ../../sass/partials/_casestudies.scss */
   .cs-ol {
     margin: 40px -60px 50px;
-    padding: 40px;
+    padding: 40px 40px 20px 40px;
   }
   /* line 711, ../../sass/partials/_casestudies.scss */
   .cs-ol li:before {
@@ -6014,18 +6014,28 @@ input {
     background-size: 30px;
     padding: 0px 20px 0 2px;
   }
+  /* line 718, ../../sass/partials/_casestudies.scss */
+  .cs-ol p {
+    font-size: inherit;
+    margin-bottom: 15px;
+  }
 }
 @media screen and (min-width: 1500px) {
-  /* line 720, ../../sass/partials/_casestudies.scss */
+  /* line 725, ../../sass/partials/_casestudies.scss */
   .cs-ol li:before {
     background-image: url(/img/casestudy/casestudy-ol-large.svg);
     background-position: 0px 4px;
     background-size: 36px;
     padding: 0px 20px 0 4px;
   }
+  /* line 732, ../../sass/partials/_casestudies.scss */
+  .cs-ol p {
+    font-size: inherit;
+    margin-bottom: 15px;
+  }
 }
 
-/* line 732, ../../sass/partials/_casestudies.scss */
+/* line 742, ../../sass/partials/_casestudies.scss */
 .c1-body h2, .c1-body .h2,
 .c2-body h2,
 .c2-body .h2,
@@ -6036,7 +6046,7 @@ input {
   color: #394047;
   margin-bottom: 0;
 }
-/* line 738, ../../sass/partials/_casestudies.scss */
+/* line 748, ../../sass/partials/_casestudies.scss */
 .c1-body h2.lighter, .c1-body .lighter.h2,
 .c2-body h2.lighter,
 .c2-body .lighter.h2,
@@ -6044,7 +6054,7 @@ input {
 .c3-body .lighter.h2 {
   color: #d0a233;
 }
-/* line 743, ../../sass/partials/_casestudies.scss */
+/* line 753, ../../sass/partials/_casestudies.scss */
 .c1-body h3, .c1-body .h3,
 .c2-body h3,
 .c2-body .h3,
@@ -6053,7 +6063,7 @@ input {
   color: #d0a233;
   margin: 0 0 15px;
 }
-/* line 747, ../../sass/partials/_casestudies.scss */
+/* line 757, ../../sass/partials/_casestudies.scss */
 .c1-body h3.darker, .c1-body .darker.h3,
 .c2-body h3.darker,
 .c2-body .darker.h3,
@@ -6062,12 +6072,12 @@ input {
   color: #394047;
 }
 
-/* line 754, ../../sass/partials/_casestudies.scss */
+/* line 764, ../../sass/partials/_casestudies.scss */
 .c3-s5 h2, .c3-s5 .h2 {
   margin-bottom: 10px;
 }
 
-/* line 760, ../../sass/partials/_casestudies.scss */
+/* line 770, ../../sass/partials/_casestudies.scss */
 .cs-morework h4, .cs-morework .h4 {
   margin-bottom: -30px;
 }
