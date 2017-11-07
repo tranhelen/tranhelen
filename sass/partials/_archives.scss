@@ -129,6 +129,15 @@
 	}
 }
 
+.fullarchive-2017,
+.fullarchive-2016,
+.fullarchive-2015,
+.fullarchive-2014 {
+	h4 {
+		margin-bottom: 30px;
+	}
+}
+
 .fullarchive-2014 {
 	background-image: url('/img/bg-watercolour-archive2014.svg');
 	background-repeat: no-repeat;
@@ -281,6 +290,10 @@
 
 	h3 {
 		margin-bottom: 0;
+	}
+
+	h6 {
+		margin-bottom: 10px;
 	}
 
 	.fullarchive-2017 &,

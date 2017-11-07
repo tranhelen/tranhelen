@@ -2,29 +2,6 @@
     #Blog
 \*------------------------------------*/
 
-figure {
-	figcaption {
-		margin-left: 30px;
-	}
-}
-
-.book-cover {
-	margin-bottom: 15px;
-}
-
-.post-single {
-	margin-bottom: 30px;
-}
-
-.fullarchive-2017,
-.fullarchive-2016,
-.fullarchive-2015,
-.fullarchive-2014 {
-	h4 {
-		margin-bottom: 30px;
-	}
-}
-
 .navigation {
 	margin: 20px 0 15px;
 
@@ -58,6 +35,8 @@ figure {
 }
 
 .post-single {
+	margin-bottom: 30px;
+
 	h1 {
 		font-size: em(45px);
 		margin: 0 0 35px;
@@ -141,12 +120,6 @@ figure {
 	}
 }
 
-.writing__single { 
-	h6 {
-		margin-bottom: 10px;
-	}
-}
-
 .fieldnotes-anchor {
     color: $colorAccent;
     font-family: $stack2;
@@ -166,4 +139,18 @@ figure {
     margin-left: -20px;
 	position: relative;
 		top: 3px;
+}
+
+/*------------------------------------*\
+    #Snowflakes :( Suckkkk ittttt
+\*------------------------------------*/
+
+.book-cover {
+	background: none;
+	display: block;
+	margin-bottom: 15px;
+
+	@include at-query($two) {
+		margin: 30px 0;
+	}
 }
