@@ -210,7 +210,7 @@ h6 {
 	margin: 0;
 	text-transform: uppercase;
 
-	@include at-query($four) {
+	@include at-query($three) {
 		font-size: em(16px);
 	}
 
@@ -226,7 +226,6 @@ h6 {
 	.alt {
 		color: $colorAccentTwo;
 	}
-
 }
 
 header {
@@ -304,12 +303,28 @@ blockquote.large {
 		font-style: italic;
 		line-height: 1.45;
 		margin: 0;
+
+		@include at-query($three) {
+			font-size: em(30px);
+		}
+
+		@include at-query($four) {
+			font-size: em(36px);
+		}
 	}
 
 	.author {
 		color: $colorAccentTwo;
 		font-size: em(16px);
 		margin-top: 5px;
+
+		@include at-query($three) {
+			font-size: em(20px);
+		}
+
+		@include at-query($four) {
+			font-size: em(24px);
+		}
 	}
 }
 

@@ -170,6 +170,10 @@
 
 	&.--b {
 		margin-top: 35px;
+
+		@include at-query($four) {
+			margin-top: 75px;
+		}
 	}
 
 	.cs-toc__list {
@@ -575,9 +579,41 @@
 	margin-bottom: 50px;
 }
 
+.c2-header {
+	@include at-query($three) {
+		margin-top: 0;
+	}
+}
+
 .c2-hero {
-	margin: -100px 0 -30px 0;
+	margin: -100px 0 -35px 0;
     width: 120%;
+
+    @include at-query($four) {
+    	margin: -100px 0 -20px 0;
+    }
+}
+
+.c2-hr {
+	margin: 30px 0 -20px -30px;
+
+	@include at-query($three) {
+		margin: 20px 0 -85px 50px
+	}
+
+	@include at-query($four) {
+		margin: 65px 0 -95px 100px;
+	}
+}
+
+blockquote.large {
+	&.c2-s1-blockquote {
+		margin-bottom: 35px;
+
+		@include at-query($four) {
+			margin-bottom: 75px;
+		}
+	}
 }
 
 .cs-tag {
@@ -587,6 +623,10 @@
 		@include at-query($one) {
 			position: relative;
     		top: 210px;
+		}
+
+		@include at-query($four) {
+			top: 500px;
 		}
 	}
 }
