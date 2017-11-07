@@ -265,14 +265,10 @@
 .c1-s2,
 .c1-s3,
 .c1-s4 {
-	margin: -20px 0 50px 0;
+	margin: -20px 0 40px 0;
 
 	@include at-query($two) {
 		margin-top: 0;
-	}
-
-	@include at-query($four) {
-		margin-bottom: 60px;
 	}
 }
 
@@ -281,6 +277,12 @@
 .c1-s3 {
 	@include at-query($four) {
 		margin-bottom: 160px;
+	}
+}
+
+.c1-s4 {
+	@include at-query($four) {
+		margin-bottom: 190px;
 	}
 }
 
@@ -613,6 +615,18 @@
 	.hp-work-single {
 		margin-top: 0;
 		margin-bottom: 30px;
+	}
+
+	@include at-query($two) {
+		margin-top: 95px;
+
+		.--a {
+			margin-top: -100px; 
+		}
+
+		.--b {
+			margin-top: -140px;
+		}	
 	}
 }
 
