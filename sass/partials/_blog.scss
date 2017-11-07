@@ -88,6 +88,27 @@
 		}
 	}
 
+	blockquote.large {
+		p {
+			font-style: normal;
+			font-weight: 600;
+			line-height: 1.45;
+
+			@include at-query($three) {
+				font-size: em(25px);
+				line-height: 1.6;
+				margin: 30px -60px;
+			}
+
+			@include at-query($four) {
+				font-size: em(30px);
+				line-height: 1.8;
+				margin: 60px -100px;
+			    text-align: center;
+			}
+		}
+	}
+
 	figure {
 		margin: 20px 0 30px;
 
@@ -112,6 +133,27 @@
 			@include at-query($four) {
 				margin: -130px 0 -80px 0;
 			}
+
+			figcaption {
+				@include at-query($four) {
+					margin-left: 60px;
+				}
+			}
+
+			&.--wcaption {
+				@include at-query($three) {
+					margin-bottom: -100px;
+				}
+
+				@include at-query($four) {
+					margin-bottom: -110px;
+				}
+			}
+		}
+
+		&.left {
+			float: left;
+			margin: 0 30px 0 0;
 		}
 	}
 

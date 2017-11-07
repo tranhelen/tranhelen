@@ -7,7 +7,7 @@
 		<div class="grid">
 			<div class="grid__item push--two--two-elevenths two--seven-elevenths">
 				{% if page.hero %}
-				<figure class="hero" 
+				<figure class="hero{% if page.hero_caption %} --wcaption{% endif %}" 
 					data-aos="fade-up" 
 					data-aos-delay="1000"
 					data-aos-duration="1000"

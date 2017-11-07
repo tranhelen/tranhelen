@@ -261,6 +261,7 @@ ul li p {
 
 	@include at-query($three) {
 		font-size: em(20px);
+		margin-bottom: 30px;
 	}
 
 	@include at-query($four) {
@@ -305,11 +306,6 @@ blockquote.large {
 		font-style: italic;
 		line-height: 1.45;
 		margin: 0;
-
-		.post-single & {
-			font-style: normal;
-			font-weight: 600;
-		}
 	}
 
 	.author {
