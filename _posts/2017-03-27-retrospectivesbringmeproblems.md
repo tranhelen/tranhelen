@@ -55,7 +55,7 @@ Before the team arrived, we wrote the themes down on stickies and cordoned off w
 
 <figure>
     <img src="/img/post/82-02.jpg">
-    <figcaption class="inline">Things get a bit messy</figcaption>
+    <figcaption>Things get a bit messy</figcaption>
 </figure>
 
 Everyone was encouraged to put up their stickies as soon as they wrote it and to walk around and read  as other team members put theirs up. If they agreed with anything, they could simply write a “+1” sticky note and add it beside the original. We gave ourselves 30 minutes to do the exercise.
@@ -90,7 +90,7 @@ Then we took a break and ate pizza and drank optional mimosas for a bit.
 
 <figure>
     <img src="/img/post/82-04.jpg">
-    <figcaption class="inline">Design Thinking needs pizza</figcaption>
+    <figcaption>Design Thinking needs pizza</figcaption>
 </figure>
 
 After lunch, the teams were tasked with brainstorming possible solutions for how to fix the problems identified and/or continue doing better on the things we were already getting right. The goal was to come up with not only a solution but an implementation plan answering what, how, and who?
@@ -121,7 +121,7 @@ We are still working through this and expect to follow up soon on our results th
 
 <figure>
     <img src="/img/post/82-06.jpg">
-    <figcaption class="inline">This must be an embarrassing picture for some of them</figcaption>
+    <figcaption>This must be an embarrassing picture for some of them</figcaption>
 </figure>
 
 _P.S. If you’re looking for a team who is impressive on many levels and has no shortage of hard problems to solve (project or team) send us your portfolio. Play a game and pick one of three: [Darrin](https://twitter.com/darrinhenein), [Helen](https://twitter.com/tranhelen), or [Ilia](https://twitter.com/ilialarionov)._

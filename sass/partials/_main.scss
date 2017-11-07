@@ -268,6 +268,22 @@ ul li p {
 	}
 }
 
+ol li,
+ul li {
+	color: $colorTextBody;
+	font-size: em(16px);
+	line-height: 1.75;
+	margin: 0 0 15px;
+
+	@include at-query($three) {
+		font-size: em(20px);
+	}
+
+	@include at-query($four) {
+		font-size: em(24px);
+	}
+}
+
 blockquote {
 	border: 5px solid rgba($colorAccentTwo,0.2);
 	border-width: 0 0 0 5px;
@@ -305,6 +321,8 @@ blockquote.large {
 
 
 figcaption {
+	@extend .small;
+
 	p {
 		@extend .small;
 	}
@@ -315,6 +333,10 @@ hr {
 	border-bottom: 3px solid $colorAccent;
 	border-radius: 999px;
 	margin: 30px auto;
+
+	@include at-query($three) {
+		margin: 50px auto;
+	}
 
 	&.small {
 		width: 30px;

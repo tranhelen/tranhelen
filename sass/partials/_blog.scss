@@ -6,10 +6,6 @@ figure {
 	figcaption {
 		margin-left: 30px;
 	}
-
-	&.hero {
-		margin: 0 -30px 30px;
-	}
 }
 
 .book-cover {
@@ -85,17 +81,63 @@ figure {
 		font-size: em(35px);
 		font-style: normal;
 		font-weight: 600;
-		margin-top: 30px;
+		margin: 30px 0 20px;
+
+		@include at-query($three) {
+			font-size: em(38px);
+			margin: 60px 0 30px;
+		}
+
+		@include at-query($four) {
+			font-size: em(48px);
+		}
 	}
 
 	h3 {
 		font-size: em(30px);
+		font-weight: 600;
 		line-height: 1.33;
-		margin: 15px 0;
+		margin: 35px 0 20px;
+
+		@include at-query($three) {
+			font-size: em(35px);
+			margin: 55px 0 30px;
+		}
+
+		@include at-query($four) {
+			font-size: em(40px);
+		}
 	}
 
 	figure {
 		margin: 20px 0 30px;
+
+		@include at-query($three) {
+			margin: 50px 0 60px;
+		}
+
+		&.hero {
+			margin: -15px -30px 30px;
+
+			@include at-query($two) {
+				margin: 15px -60px 35px;
+			}
+
+			@include at-query($three) {
+				margin: -45px 0 -60px 0;
+			    position: relative;
+			    width: 200%;
+			    left: -50%;
+			}
+
+			@include at-query($four) {
+				margin: -130px 0 -80px 0;
+			}
+		}
+	}
+
+	figcaption {
+		margin: 0;
 	}
 }
 
