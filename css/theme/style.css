@@ -6637,14 +6637,24 @@ blockquote.large.c2-s4-blockquote {
   clear: both;
 }
 
-/* line 1204, ../../sass/partials/_casestudies.scss */
+/* line 1203, ../../sass/partials/_casestudies.scss */
+.c3-s2-facebookcheckout {
+  margin: 10px 0;
+}
+/* line 1206, ../../sass/partials/_casestudies.scss */
 .c3-s2-facebookcheckout figure {
   float: left;
   width: 48%;
 }
-/* line 1209, ../../sass/partials/_casestudies.scss */
+/* line 1211, ../../sass/partials/_casestudies.scss */
 .c3-s2-facebookcheckout .fc02 {
   float: right;
+}
+@media screen and (min-width: 1500px) {
+  /* line 1203, ../../sass/partials/_casestudies.scss */
+  .c3-s2-facebookcheckout {
+    margin: 40px 0 50px;
+  }
 }
 /* line 2, ../../sass/modules/_mixins.scss */
 .c3-s2-facebookcheckout:before, .c3-s2-facebookcheckout:after {
@@ -6656,27 +6666,27 @@ blockquote.large.c2-s4-blockquote {
   clear: both;
 }
 
-/* line 1216, ../../sass/partials/_casestudies.scss */
+/* line 1222, ../../sass/partials/_casestudies.scss */
 .c3-s2-dashboards {
   margin: 0 -30px 0 -30px;
 }
-/* line 1219, ../../sass/partials/_casestudies.scss */
+/* line 1225, ../../sass/partials/_casestudies.scss */
 .c3-s2-dashboards figure {
   float: left;
 }
-/* line 1223, ../../sass/partials/_casestudies.scss */
+/* line 1229, ../../sass/partials/_casestudies.scss */
 .c3-s2-dashboards .da01 {
   margin-top: 16%;
   width: 45%;
 }
-/* line 1228, ../../sass/partials/_casestudies.scss */
+/* line 1234, ../../sass/partials/_casestudies.scss */
 .c3-s2-dashboards .da02 {
   margin-left: -20%;
   position: relative;
   width: 50%;
   z-index: 1;
 }
-/* line 1235, ../../sass/partials/_casestudies.scss */
+/* line 1241, ../../sass/partials/_casestudies.scss */
 .c3-s2-dashboards .da03 {
   width: 35%;
   margin-left: -10%;
@@ -6692,34 +6702,34 @@ blockquote.large.c2-s4-blockquote {
   clear: both;
 }
 
-/* line 1244, ../../sass/partials/_casestudies.scss */
+/* line 1250, ../../sass/partials/_casestudies.scss */
 .c3-s3 {
   margin-top: 10px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 1244, ../../sass/partials/_casestudies.scss */
+  /* line 1250, ../../sass/partials/_casestudies.scss */
   .c3-s3 {
     margin-top: 70px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 1244, ../../sass/partials/_casestudies.scss */
+  /* line 1250, ../../sass/partials/_casestudies.scss */
   .c3-s3 {
     margin-top: 160px;
   }
 }
-/* line 1255, ../../sass/partials/_casestudies.scss */
+/* line 1261, ../../sass/partials/_casestudies.scss */
 .c3-s3 h3, .c3-s3 .h3 {
   margin-bottom: 35px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 1255, ../../sass/partials/_casestudies.scss */
+  /* line 1261, ../../sass/partials/_casestudies.scss */
   .c3-s3 h3, .c3-s3 .h3 {
     margin-bottom: 70px;
   }
 }
 
-/* line 1264, ../../sass/partials/_casestudies.scss */
+/* line 1270, ../../sass/partials/_casestudies.scss */
 .c3-s3-background {
   background-image: url("/img/casestudy/3-s3-bg.svg");
   background-repeat: no-repeat;
@@ -6731,14 +6741,14 @@ blockquote.large.c2-s4-blockquote {
   z-index: -50;
 }
 @media screen and (min-width: 1130px) {
-  /* line 1264, ../../sass/partials/_casestudies.scss */
+  /* line 1270, ../../sass/partials/_casestudies.scss */
   .c3-s3-background {
     height: 1407px;
     width: 678px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 1264, ../../sass/partials/_casestudies.scss */
+  /* line 1270, ../../sass/partials/_casestudies.scss */
   .c3-s3-background {
     height: 1877px;
     width: 930px;
@@ -6747,34 +6757,34 @@ blockquote.large.c2-s4-blockquote {
   }
 }
 
-/* line 1287, ../../sass/partials/_casestudies.scss */
+/* line 1293, ../../sass/partials/_casestudies.scss */
 .c3-s4 {
   margin-top: 10px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 1287, ../../sass/partials/_casestudies.scss */
+  /* line 1293, ../../sass/partials/_casestudies.scss */
   .c3-s4 {
     margin-top: 70px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 1287, ../../sass/partials/_casestudies.scss */
+  /* line 1293, ../../sass/partials/_casestudies.scss */
   .c3-s4 {
     margin-top: 160px;
   }
 }
-/* line 1298, ../../sass/partials/_casestudies.scss */
+/* line 1304, ../../sass/partials/_casestudies.scss */
 .c3-s4 h3, .c3-s4 .h3 {
   margin-bottom: 35px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 1298, ../../sass/partials/_casestudies.scss */
+  /* line 1304, ../../sass/partials/_casestudies.scss */
   .c3-s4 h3, .c3-s4 .h3 {
     margin-bottom: 70px;
   }
 }
 
-/* line 1307, ../../sass/partials/_casestudies.scss */
+/* line 1313, ../../sass/partials/_casestudies.scss */
 .c3-s4-background {
   background-image: url("/img/casestudy/3-s4-bg.svg");
   background-repeat: no-repeat;
@@ -6786,14 +6796,14 @@ blockquote.large.c2-s4-blockquote {
   z-index: -50;
 }
 @media screen and (min-width: 1130px) {
-  /* line 1307, ../../sass/partials/_casestudies.scss */
+  /* line 1313, ../../sass/partials/_casestudies.scss */
   .c3-s4-background {
     height: 1160px;
     width: 563px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 1307, ../../sass/partials/_casestudies.scss */
+  /* line 1313, ../../sass/partials/_casestudies.scss */
   .c3-s4-background {
     height: 1546px;
     width: 750px;
@@ -6802,25 +6812,25 @@ blockquote.large.c2-s4-blockquote {
   }
 }
 
-/* line 1330, ../../sass/partials/_casestudies.scss */
+/* line 1336, ../../sass/partials/_casestudies.scss */
 .c3-s3-home {
   margin: 0 -30px 0 -30px;
 }
-/* line 1333, ../../sass/partials/_casestudies.scss */
+/* line 1339, ../../sass/partials/_casestudies.scss */
 .c3-s3-home figure {
   float: left;
   margin: 20px 0 15px 0;
 }
-/* line 1338, ../../sass/partials/_casestudies.scss */
+/* line 1344, ../../sass/partials/_casestudies.scss */
 .c3-s3-home figcaption {
   margin: 0 0 30px 30px;
 }
-/* line 1342, ../../sass/partials/_casestudies.scss */
+/* line 1348, ../../sass/partials/_casestudies.scss */
 .c3-s3-home .ho01 {
   margin-top: 10%;
   width: 40%;
 }
-/* line 1347, ../../sass/partials/_casestudies.scss */
+/* line 1353, ../../sass/partials/_casestudies.scss */
 .c3-s3-home .ho02 {
   width: 60%;
 }
@@ -6834,15 +6844,15 @@ blockquote.large.c2-s4-blockquote {
   clear: both;
 }
 
-/* line 1354, ../../sass/partials/_casestudies.scss */
+/* line 1360, ../../sass/partials/_casestudies.scss */
 .c3-s4-unite {
   margin: 0 -30px;
 }
-/* line 1357, ../../sass/partials/_casestudies.scss */
+/* line 1363, ../../sass/partials/_casestudies.scss */
 .c3-s4-unite figure {
   width: 80%;
 }
-/* line 1361, ../../sass/partials/_casestudies.scss */
+/* line 1367, ../../sass/partials/_casestudies.scss */
 .c3-s4-unite .un02 {
   margin: -15% 0 0 20%;
   position: relative;
@@ -6859,7 +6869,7 @@ blockquote.large.c2-s4-blockquote {
   clear: both;
 }
 
-/* line 1374, ../../sass/partials/_casestudies.scss */
+/* line 1380, ../../sass/partials/_casestudies.scss */
 .c3-s5 h2, .c3-s5 .h2 {
   margin-bottom: 10px;
 }

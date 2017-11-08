@@ -1201,6 +1201,8 @@ blockquote.large {
 }
 
 .c3-s2-facebookcheckout {
+	margin: 10px 0;
+
 	figure {
 		float: left;
 		width: 48%;
@@ -1208,6 +1210,10 @@ blockquote.large {
 
 	.fc02 {
 		float: right;
+	}
+
+	@include at-query($four) {
+		margin: 40px 0 50px;
 	}
 
 	@include clearfix;
