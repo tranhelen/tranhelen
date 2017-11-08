@@ -1351,14 +1351,14 @@ blockquote.large {
 }
 
 .c3-s4 {
-	margin-top: 10px;
+	margin-top: 20px;
 
 	@include at-query($three) {
 		margin-top: 70px;
 	}
 
 	@include at-query($four) {
-		margin-top: 160px;
+		margin-top: 50px;
 	}
 
     h3 {
@@ -1376,20 +1376,26 @@ blockquote.large {
     height: 928px;
     width: 450px;
     position: absolute;
-    	right: 57%;
-    	top: 50px;
+    	right: -57%;
+    	top: 10px;
 	z-index: -50;
+
+	@include at-query($two) {
+			right: -37%;
+	}
 
 	@include at-query($three) {
 		height: 1160px;
     	width: 563px;
+    		right: -16%;
+    		top: 0;
 	}
 
 	@include at-query($four) {
 		height: 1546px;
     	width: 750px;
-			right: -30%;
-    		top: -80px;
+			right: -10%;
+    		top: 30px;
 	}
 }
 
