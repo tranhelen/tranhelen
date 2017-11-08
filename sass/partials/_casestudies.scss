@@ -152,6 +152,18 @@
     h6 {
     	color: #fff;
     }
+
+    &.--c {
+	    margin-top: 0;
+
+	    @include at-query($one) {
+	    	margin-top: 50px;
+	    }
+
+	    @include at-query($four) {
+	    	margin-top: 220px;
+	    }
+    }
 }
 
 .cs-toc {
@@ -189,7 +201,7 @@
 		}
 	}
 
-	.cs-toc__list {
+	.ctoc__list {
 		padding: 0;
 
 		li {
@@ -1087,10 +1099,20 @@ blockquote.large {
 
 	@include at-query($one) {
 		margin: 50px 0 30px;
+	}
 
-		h1 {
+	@include at-query($four) {
+		margin-bottom: 70px;
+	}
+
+	h1 {
+		@include at-query($one) {
 		    margin-top: -70px;
-		}		
+		}
+
+		@include at-query($four) {
+			margin-top: -100px;
+		}
 	}
 
 	h2 {
@@ -1107,7 +1129,11 @@ blockquote.large {
 	margin: 0 -30px 10px;
 
 	@include at-query($one) {
-		margin: 0;
+		margin: -80px 0 0 0;
+	}
+
+	@include at-query($three) {
+		margin: -130px 0 0 0px;
 	}
 }
 
