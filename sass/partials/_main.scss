@@ -243,8 +243,8 @@ header {
 p {
 	color: $colorTextBody;
 	font-size: em(16px);
-	line-height: 1.75;
-	margin: 0 0 15px;
+	line-height: 1.7;
+	margin: 0 0 10px;
 
 	.fieldnotes & {
 		font-family: $stack2;
@@ -258,7 +258,7 @@ p {
 
 	@include at-query($three) {
 		font-size: em(20px);
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	@include at-query($four) {
@@ -280,6 +280,10 @@ ul li {
 	@include at-query($four) {
 		font-size: em(24px);
 	}
+}
+
+ul li p {
+    font-size: inherit;
 }
 
 blockquote {

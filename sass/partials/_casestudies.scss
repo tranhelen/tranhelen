@@ -2,21 +2,26 @@
     #CaseStudies
 \*------------------------------------*/
 
+.container {
+	&.--background-container {
+		position: relative;
+	}
+}
+
 .cs-firstletter::first-letter {
 	color: $colorAccentTwo;
 	float: left;
     font-size: em(54px);
-    line-height: 0.72;
-    padding: 18px 8px 0 0;
+	line-height: 0.1;
+    padding: 34px 10px 0 0;
     position: relative;
 
     @include at-query($three) {
-    	font-size: em(52px);
-	    padding-top: 24px;
+	    padding-top: 44px;
     }
 
     @include at-query($four) {
-    	padding-top: 28px;
+    	padding-top: 50px;
     }
 }
 
@@ -169,6 +174,14 @@
 	}
 
 	&.--b {
+		margin-top: 35px;
+
+		@include at-query($four) {
+			margin-top: 75px;
+		}
+	}
+
+	&.--c {
 		margin-top: 35px;
 
 		@include at-query($four) {
@@ -611,12 +624,6 @@
 /*------------------------------------*\
     #CS2
 \*------------------------------------*/
-
-.container {
-	&.--c2-background-container {
-		position: relative;
-	}
-}
 
 .c2-body {
 	margin-bottom: 50px;
@@ -1075,31 +1082,129 @@ blockquote.large {
     #CS3
 \*------------------------------------*/
 
-.c3-s2,
-.c3-s3,
-.c3-s4,
-.c3-s5 {
-    background-position: 260px -10px;
-    background-repeat: no-repeat;
-    background-size: 2400px 2400px;
-    margin: 50px 0;
+.c3-header {
+	margin: 30px 0;
+
+	@include at-query($one) {
+		margin: 50px 0 30px;
+
+		h1 {
+		    margin-top: -70px;
+		}		
+	}
+
+	h2 {
+		margin-bottom: 0;
+	}
+
+	img {
+		position: relative;
+		top: -20px;
+	}
+}
+
+.c3-hero {
+	margin: 0 -30px 10px;
+
+	@include at-query($one) {
+		margin: 0;
+	}
 }
 
 .c3-s2 {
-	background-image: url('/img/casestudy/2-background-s2.svg');
-    padding-top: 50px;
+    margin-top: 85px;
+}
+.c3-s2-background {
+	background-image: url('/img/casestudy/3-s2-bg.svg');
+	background-repeat: no-repeat;
+	height: 2078px;
+    width: 240px;
+    position: absolute;
+	    right: -13%;
+	    top: -50px;
+	z-index: -50;
+
+	@include at-query($three) {
+		height: 3098px;
+    	width: 563px;
+	}
+
+	@include at-query($four) {
+		height: 4130px;
+    	width: 750px;
+			right: -30%;
+    		top: -80px;
+	}
 }
 
 .c3-s3 {
-	background-image: url('/img/casestudy/2-background-s3.svg');
-	background-position: -1000px 50px;
-    background-size: 1200px 1200px;
+	margin-top: 10px;
+
+	@include at-query($three) {
+		margin-top: 70px;
+	}
+
+	@include at-query($four) {
+		margin-top: 160px;
+	}
+}
+
+.c3-s3-background {
+	background-image: url('/img/casestudy/3-s3-bg.svg');
+	background-repeat: no-repeat;
+    height: 1026px;
+    width: 558px;
+    position: absolute;
+    	left: 57%;
+    	top: 50px;
+	z-index: -50;
+
+	@include at-query($three) {
+		height: 1407px;
+    	width: 678px;
+	}
+
+	@include at-query($four) {
+		height: 1877px;
+    	width: 930px;
+			left: -30%;
+    		top: -80px;
+	}
 }
 
 .c3-s4 {
-	background-image: url('/img/casestudy/2-background-s2.svg');
-	background-size: 1200px 1200px;
-    padding-top: 50px;
+	margin-top: 10px;
+
+	@include at-query($three) {
+		margin-top: 70px;
+	}
+
+	@include at-query($four) {
+		margin-top: 160px;
+	}
+}
+
+.c3-s4-background {
+	background-image: url('/img/casestudy/3-s4-bg.svg');
+	background-repeat: no-repeat;
+    height: 928px;
+    width: 450px;
+    position: absolute;
+    	right: 57%;
+    	top: 50px;
+	z-index: -50;
+
+	@include at-query($three) {
+		height: 1160px;
+    	width: 563px;
+	}
+
+	@include at-query($four) {
+		height: 1546px;
+    	width: 750px;
+			right: -30%;
+    		top: -80px;
+	}
 }
 
 .c3-s2-facebookad {
