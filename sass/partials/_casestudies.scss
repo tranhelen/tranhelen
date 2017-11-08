@@ -1342,6 +1342,14 @@ blockquote.large {
 	@include clearfix;
 }
 
+.c3-s3-sdk {
+    margin: 10px 0;
+
+	@include at-query($four) {
+		margin: 40px 0 50px;
+	}
+}
+
 .c3-s4 {
 	margin-top: 10px;
 
