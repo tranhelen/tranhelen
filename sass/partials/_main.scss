@@ -565,11 +565,6 @@ input {
 		top: 25px;
 	width: 300px;
 
-	.c2__body &,
-	.c3-s3 & {
-		top: 15px;
-	}
-
 	@include at-query($four) {
 		right: 5005%;
 		top: 35px;

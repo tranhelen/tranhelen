@@ -287,13 +287,16 @@
 
 .line-one {
 	.c1-body &,
-	.c2-body &,
 	.c3-body & {
 		top: 20px;
 
 		@include at-query($four) {
 			right: 5002%;
 		}
+	}
+
+	.c2-body & {
+		top: 13px;
 	}
 
 	.cs-morework & {
@@ -314,6 +317,10 @@
 		@include at-query($four) {
 			right: 5002%;
 		}
+	}
+
+	.c2-body & {
+		top: 13px;
 	}
 }
 
@@ -713,6 +720,14 @@ blockquote.large {
     @include at-query($four) {
     	padding-top: 120px;
     }
+
+    h3 {
+    	margin-bottom: 35px;
+
+    	@include at-query($four) {
+    		margin-bottom: 70px;
+    	}
+    }
 }
 
 .c2-s2-background {
@@ -777,6 +792,14 @@ blockquote.large {
 	@include at-query($four) {
 		padding-top: 140px;
 	}
+
+    h3 {
+    	margin-bottom: 35px;
+
+    	@include at-query($four) {
+    		margin-bottom: 70px;
+    	}
+    }
 }
 
 .c2-s3-background {
@@ -835,6 +858,14 @@ blockquote.large {
 
     @include at-query($four) {
     	padding-top: 40px;
+    }
+
+    h3 {
+    	margin-bottom: 35px;
+
+    	@include at-query($four) {
+    		margin-bottom: 70px;
+    	}
     }
 }
 
@@ -897,6 +928,14 @@ blockquote.large {
 
     @include at-query($four) {
     	padding-top: 170px;
+    }
+
+    h3 {
+    	margin-bottom: 35px;
+
+    	@include at-query($four) {
+    		margin-bottom: 70px;
+    	}
     }
 }
 
@@ -965,6 +1004,14 @@ blockquote.large {
 	@include at-query($four) {
 		padding-top: 140px;
 	}
+
+    h3 {
+    	margin-bottom: 35px;
+
+    	@include at-query($four) {
+    		margin-bottom: 70px;
+    	}
+    }
 }
 
 .c2-s6-background {
