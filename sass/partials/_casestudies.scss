@@ -1177,7 +1177,7 @@ blockquote.large {
 }
 
 .c3-s2-dashboards {
-    margin: 0 -30px 0 -30px;
+    margin: 10px -30px;
 
     figure {
     	float: left;
@@ -1200,6 +1200,10 @@ blockquote.large {
     	margin-left: -10%;
     	margin-top: 10%;
     }
+
+	@include at-query($four) {
+		margin: 40px -30px 50px -30px;
+	}
 
     @include clearfix;
 }
