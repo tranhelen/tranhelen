@@ -297,6 +297,10 @@
 
 	.c2-body & {
 		top: 13px;
+
+		@include at-query($four) {
+			right: 5002%;
+		}
 	}
 
 	.cs-morework & {
@@ -310,7 +314,6 @@
 
 .line-two {
 	.c1-body &,
-	.c2-body &,
 	.c3-body & {
 		top: 20px;
 
@@ -321,6 +324,10 @@
 
 	.c2-body & {
 		top: 13px;
+
+		@include at-query($four) {
+			right: 5002%;
+		}
 	}
 }
 
@@ -1002,7 +1009,7 @@ blockquote.large {
 	}
 
 	@include at-query($four) {
-		padding-top: 140px;
+		padding: 140px 0 70px;
 	}
 
     h3 {
