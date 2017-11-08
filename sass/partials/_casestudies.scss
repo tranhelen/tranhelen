@@ -194,14 +194,14 @@
 	}
 
 	&.--c {
-		margin-top: 35px;
+		margin-top: 40px;
 
 		@include at-query($four) {
-			margin-top: 75px;
+			margin-top: 85px;
 		}
 	}
 
-	.ctoc__list {
+	.cs-toc__list {
 		padding: 0;
 
 		li {

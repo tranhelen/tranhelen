@@ -5407,24 +5407,24 @@ input {
 }
 /* line 196, ../../sass/partials/_casestudies.scss */
 .cs-toc.--c {
-  margin-top: 35px;
+  margin-top: 40px;
 }
 @media screen and (min-width: 1500px) {
   /* line 196, ../../sass/partials/_casestudies.scss */
   .cs-toc.--c {
-    margin-top: 75px;
+    margin-top: 85px;
   }
 }
 /* line 204, ../../sass/partials/_casestudies.scss */
-.cs-toc .ctoc__list {
+.cs-toc .cs-toc__list {
   padding: 0;
 }
 /* line 207, ../../sass/partials/_casestudies.scss */
-.cs-toc .ctoc__list li {
+.cs-toc .cs-toc__list li {
   margin: 0;
 }
 /* line 211, ../../sass/partials/_casestudies.scss */
-.cs-toc .ctoc__list .bullet {
+.cs-toc .cs-toc__list .bullet {
   color: #d0a233;
 }
 
