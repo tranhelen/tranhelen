@@ -311,8 +311,7 @@
 }
 
 .line-one {
-	.c1-body &,
-	.c3-body & {
+	.c1-body & {
 		top: 20px;
 
 		@include at-query($four) {
@@ -320,10 +319,12 @@
 		}
 	}
 
-	.c2-body & {
+	.c2-body &,
+	.c3-body & {
 		top: 13px;
 
 		@include at-query($four) {
+			top: 23px;
 			right: 5002%;
 		}
 	}
@@ -338,8 +339,7 @@
 }
 
 .line-two {
-	.c1-body &,
-	.c3-body & {
+	.c1-body & {
 		top: 20px;
 
 		@include at-query($four) {
@@ -347,10 +347,12 @@
 		}
 	}
 
-	.c2-body & {
+	.c2-body &,
+	.c3-body & {
 		top: 13px;
 
 		@include at-query($four) {
+			top: 23px;
 			right: 5002%;
 		}
 	}
@@ -1262,12 +1264,16 @@ blockquote.large {
 .c3-s3 {
 	margin-top: 10px;
 
+	@include at-query($two) {
+		margin-top: 20px;
+	}
+
 	@include at-query($three) {
 		margin-top: 70px;
 	}
 
 	@include at-query($four) {
-		margin-top: 160px;
+		margin-top: 150px;
 	}
 
     h3 {
@@ -1285,21 +1291,55 @@ blockquote.large {
     height: 1026px;
     width: 558px;
     position: absolute;
-    	left: 57%;
-    	top: 50px;
+    	left: -65%;
+    	top: 60px;
 	z-index: -50;
+
+	@include at-query($one) {
+			left: -30%
+
+	}
 
 	@include at-query($three) {
 		height: 1407px;
     	width: 678px;
+    		top: 80px;
 	}
 
 	@include at-query($four) {
 		height: 1877px;
     	width: 930px;
 			left: -30%;
-    		top: -80px;
+    		top: 100px;
 	}
+}
+
+.c3-s3-home {
+    margin: 10px -30px;
+
+    figure {
+    	float: left;
+    	margin: 20px 0 15px 0;
+    }
+
+    figcaption {
+    	margin: 0 0 30px 30px;
+    }
+
+    .ho01 {
+    	margin-top: 10%;
+    	width: 40%;
+    }
+
+    .ho02 {
+    	width: 60%;
+    }
+
+	@include at-query($four) {
+		margin: 40px -30px 50px;
+	}
+
+	@include clearfix;
 }
 
 .c3-s4 {
@@ -1345,29 +1385,6 @@ blockquote.large {
 	}
 }
 
-.c3-s3-home {
-    margin: 0 -30px 0 -30px;
-
-    figure {
-    	float: left;
-    	margin: 20px 0 15px 0;
-    }
-
-    figcaption {
-    	margin: 0 0 30px 30px;
-    }
-
-    .ho01 {
-    	margin-top: 10%;
-    	width: 40%;
-    }
-
-    .ho02 {
-    	width: 60%;
-    }
-
-	@include clearfix;
-}
 
 .c3-s4-unite {
 	margin: 0 -30px;
