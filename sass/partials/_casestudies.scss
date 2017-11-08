@@ -38,7 +38,7 @@
 	}
 
 	@include at-query($two) {
-		margin-top: 100px;
+		margin-top: 80px;
 
 		.--a {
 			margin-top: -100px; 
@@ -47,6 +47,10 @@
 		.--b {
 			margin-top: -140px;
 		}
+	}
+
+	@include at-query($three) {
+		margin-top: 120px;
 	}
 
 	@include at-query($four) {
@@ -1420,7 +1424,25 @@ blockquote.large {
 
 
 .c3-s5 {
+	padding: 20px 0 0; 
+
+	@include at-query($three) {
+		padding: 75px 0 0;
+	}
+
+	@include at-query($four) {
+		padding: 175px 0 140px;
+	}
+
 	h2 {
 		margin-bottom: 10px;
+	}
+
+	.line-two {
+		top: 23px;
+
+		@include at-query($four) {
+			top: 33px;
+		}
 	}
 }
