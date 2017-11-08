@@ -1176,6 +1176,34 @@ blockquote.large {
 	}
 }
 
+.c3-s2-dashboards {
+    margin: 0 -30px 0 -30px;
+
+    figure {
+    	float: left;
+    }
+
+    .da01 {
+    	margin-top: 16%;
+    	width: 45%;
+    }
+
+    .da02 {
+    	margin-left: -20%;
+    	position: relative;
+    	width: 50%;
+    	z-index: 1;
+    }
+
+    .da03 {
+    	width: 35%;
+    	margin-left: -10%;
+    	margin-top: 10%;
+    }
+
+    @include clearfix;
+}
+
 .c3-s2-facebookad {
     margin: 10px -30px 10px -30px;
 
@@ -1219,32 +1247,12 @@ blockquote.large {
 	@include clearfix;
 }
 
-.c3-s2-dashboards {
-    margin: 0 -30px 0 -30px;
+.c3-s2-pinterest {
+    margin: 10px -30px 10px -30px;
 
-    figure {
-    	float: left;
-    }
-
-    .da01 {
-    	margin-top: 16%;
-    	width: 45%;
-    }
-
-    .da02 {
-    	margin-left: -20%;
-    	position: relative;
-    	width: 50%;
-    	z-index: 1;
-    }
-
-    .da03 {
-    	width: 35%;
-    	margin-left: -10%;
-    	margin-top: 10%;
-    }
-
-    @include clearfix;
+	@include at-query($four) {
+		margin: 40px -30px 50px -30px;
+	}
 }
 
 .c3-s3 {
