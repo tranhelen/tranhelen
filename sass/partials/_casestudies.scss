@@ -1139,7 +1139,20 @@ blockquote.large {
 
 .c3-s2 {
     margin-top: 85px;
+
+    @include at-query($four) {
+    	margin-top: 130px;
+    }
+
+    h3 {
+    	margin-bottom: 35px;
+
+    	@include at-query($four) {
+    		margin-bottom: 70px;
+    	}
+    }
 }
+
 .c3-s2-background {
 	background-image: url('/img/casestudy/3-s2-bg.svg');
 	background-repeat: no-repeat;
@@ -1159,82 +1172,12 @@ blockquote.large {
 		height: 4130px;
     	width: 750px;
 			right: -30%;
-    		top: -80px;
-	}
-}
-
-.c3-s3 {
-	margin-top: 10px;
-
-	@include at-query($three) {
-		margin-top: 70px;
-	}
-
-	@include at-query($four) {
-		margin-top: 160px;
-	}
-}
-
-.c3-s3-background {
-	background-image: url('/img/casestudy/3-s3-bg.svg');
-	background-repeat: no-repeat;
-    height: 1026px;
-    width: 558px;
-    position: absolute;
-    	left: 57%;
-    	top: 50px;
-	z-index: -50;
-
-	@include at-query($three) {
-		height: 1407px;
-    	width: 678px;
-	}
-
-	@include at-query($four) {
-		height: 1877px;
-    	width: 930px;
-			left: -30%;
-    		top: -80px;
-	}
-}
-
-.c3-s4 {
-	margin-top: 10px;
-
-	@include at-query($three) {
-		margin-top: 70px;
-	}
-
-	@include at-query($four) {
-		margin-top: 160px;
-	}
-}
-
-.c3-s4-background {
-	background-image: url('/img/casestudy/3-s4-bg.svg');
-	background-repeat: no-repeat;
-    height: 928px;
-    width: 450px;
-    position: absolute;
-    	right: 57%;
-    	top: 50px;
-	z-index: -50;
-
-	@include at-query($three) {
-		height: 1160px;
-    	width: 563px;
-	}
-
-	@include at-query($four) {
-		height: 1546px;
-    	width: 750px;
-			right: -30%;
-    		top: -80px;
+    		top: -100px;
 	}
 }
 
 .c3-s2-facebookad {
-    margin: 0 -30px 10px -30px;
+    margin: 10px -30px 10px -30px;
 
 	figure {
 		float: left;
@@ -1248,6 +1191,10 @@ blockquote.large {
 
 	.fa02 {
         margin-top: 8%;
+	}
+
+	@include at-query($four) {
+		margin: 40px -30px 50px -30px;
 	}
 
 	@include clearfix;
@@ -1292,6 +1239,92 @@ blockquote.large {
     }
 
     @include clearfix;
+}
+
+.c3-s3 {
+	margin-top: 10px;
+
+	@include at-query($three) {
+		margin-top: 70px;
+	}
+
+	@include at-query($four) {
+		margin-top: 160px;
+	}
+
+    h3 {
+    	margin-bottom: 35px;
+
+    	@include at-query($four) {
+    		margin-bottom: 70px;
+    	}
+    }
+}
+
+.c3-s3-background {
+	background-image: url('/img/casestudy/3-s3-bg.svg');
+	background-repeat: no-repeat;
+    height: 1026px;
+    width: 558px;
+    position: absolute;
+    	left: 57%;
+    	top: 50px;
+	z-index: -50;
+
+	@include at-query($three) {
+		height: 1407px;
+    	width: 678px;
+	}
+
+	@include at-query($four) {
+		height: 1877px;
+    	width: 930px;
+			left: -30%;
+    		top: -80px;
+	}
+}
+
+.c3-s4 {
+	margin-top: 10px;
+
+	@include at-query($three) {
+		margin-top: 70px;
+	}
+
+	@include at-query($four) {
+		margin-top: 160px;
+	}
+
+    h3 {
+    	margin-bottom: 35px;
+
+    	@include at-query($four) {
+    		margin-bottom: 70px;
+    	}
+    }
+}
+
+.c3-s4-background {
+	background-image: url('/img/casestudy/3-s4-bg.svg');
+	background-repeat: no-repeat;
+    height: 928px;
+    width: 450px;
+    position: absolute;
+    	right: 57%;
+    	top: 50px;
+	z-index: -50;
+
+	@include at-query($three) {
+		height: 1160px;
+    	width: 563px;
+	}
+
+	@include at-query($four) {
+		height: 1546px;
+    	width: 750px;
+			right: -30%;
+    		top: -80px;
+	}
 }
 
 .c3-s3-home {
