@@ -1338,6 +1338,13 @@ blockquote.large {
     }
 
     .ho02 {
+	    margin-bottom: 0;
+	    margin-top: -80px;
+    }
+
+    .ho03 {
+    	margin-bottom: 20px;
+	    margin-top: 10px;
     }
 
 	@include clearfix;
