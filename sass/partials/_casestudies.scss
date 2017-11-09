@@ -503,7 +503,7 @@
 
 .c1-s4 {
 	@include at-query($four) {
-		margin-bottom: 190px;
+		margin-bottom: 280px;
 	}
 }
 
@@ -1034,7 +1034,7 @@ blockquote.large {
 	}
 
 	@include at-query($four) {
-		padding: 140px 0 70px;
+		padding: 140px 0 80px;
 	}
 
     h3 {
@@ -1321,27 +1321,24 @@ blockquote.large {
 .c3-s3-home {
     margin: 10px -30px;
 
-    figure {
-    	float: left;
-    	margin: 20px 0 15px 0;
-    }
-
-    figcaption {
-    	margin: 0 0 30px 30px;
-    }
-
-    .ho01 {
-    	margin-top: 10%;
-    	width: 40%;
-    }
-
-    .ho02 {
-    	width: 60%;
-    }
-
 	@include at-query($four) {
 		margin: 40px -30px 50px;
 	}
+
+    figure {
+
+    }
+
+    figcaption {
+
+    }
+
+    .ho01 {
+
+    }
+
+    .ho02 {
+    }
 
 	@include clearfix;
 }
@@ -1424,14 +1421,18 @@ blockquote.large {
 
 
 .c3-s5 {
-	padding: 20px 0 0; 
+	margin: 20px 0 40px;
+
+	@include at-query($two) {
+		margin-bottom: 100px;
+	}
 
 	@include at-query($three) {
-		padding: 75px 0 0;
+		margin: 75px 0 60px;
 	}
 
 	@include at-query($four) {
-		padding: 175px 0 140px;
+		margin: 175px 0 240px;
 	}
 
 	h2 {

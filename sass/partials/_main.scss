@@ -336,7 +336,7 @@ figcaption {
 	@extend .small;
 
 	p {
-		@extend .small;
+		font-size: inherit;
 	}
 }
 
