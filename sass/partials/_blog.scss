@@ -98,13 +98,13 @@
 				font-size: em(25px);
 				line-height: 1.6;
 				margin: 30px -60px;
+			    text-align: center;
 			}
 
 			@include at-query($four) {
 				font-size: em(30px);
 				line-height: 1.8;
 				margin: 60px -100px;
-			    text-align: center;
 			}
 		}
 	}

@@ -105,6 +105,10 @@ a {
 		}
 	}
 
+	&.wimage {
+		background: none;
+	}
+
 	@include transition-fast;
 }
 
