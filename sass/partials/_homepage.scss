@@ -26,12 +26,27 @@
 }
 
 .line-one {
+	.hp-header__intro &,
+	.hp-video-words & {
+		@include at-query($four) {
+			right: 5003%;
+		}
+	}
+
 	.hp-work & {
 		top: 10px;
+
+		@include at-query($four) {
+			right: 5008%;
+		}
 	}
 
 	.hp-writing & {
 		top: 10px;
+
+		@include at-query($four) {
+			right: 5002%;
+		}
 	}
 }
 
