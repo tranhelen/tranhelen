@@ -37,6 +37,10 @@
 		margin-bottom: 30px;
 	}
 
+	.line-one {
+		top: 30px;
+	}
+
 	@include at-query($two) {
 		margin-top: 80px;
 
