@@ -5234,7 +5234,7 @@ input {
 }
 /* line 31, ../../sass/partials/_casestudies.scss */
 .cs-morework h4, .cs-morework .h4 {
-  margin-bottom: -30px;
+  margin-bottom: -10px;
 }
 /* line 35, ../../sass/partials/_casestudies.scss */
 .cs-morework .hp-work-single {
@@ -5557,7 +5557,7 @@ input {
 /* line 315, ../../sass/partials/_casestudies.scss */
 .header-bg-watercolour.--cs-morework {
   background-image: url("/img/casestudy/bg-watercolour-cs-morework.svg");
-  top: -10px;
+  top: -30px;
 }
 
 /* line 322, ../../sass/partials/_casestudies.scss */
