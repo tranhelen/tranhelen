@@ -1319,7 +1319,7 @@ blockquote.large {
 }
 
 .c3-s3-home {
-    margin: 10px -30px;
+    margin: 10px 0;
 
     .ho02 {
 	    margin-bottom: 0;
@@ -1336,10 +1336,14 @@ blockquote.large {
     	width: 50px;
     }
 
-	@include at-query($four) {
-		margin: 80px 0 50px;
+    @include at-query($two) {
+    	margin: 20px 0;
+    }
 
-    	figcaption p {
+	@include at-query($three) {
+		margin: 25px 0 -10px;
+
+    	figcaption  p {
 			margin-left: 30px;
 			margin-top: 30px;
     	}
@@ -1349,12 +1353,24 @@ blockquote.large {
     	}
 
     	.ho03 {
-    		margin-top: 120px;
+    		margin-top: 150px;
     	}
 
 		.line-one {
 			left: -40px;
 		    width: 80px;
+		}
+	}
+
+	@include at-query($four) {
+		margin: 80px 0 80px;
+
+		figcaption p {
+			margin-top: 50px;
+		}
+
+		.ho03 {
+			margin-top: 210px;
 		}
 	}
 }
