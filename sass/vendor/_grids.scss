@@ -237,7 +237,7 @@ $class-type:            unquote(".");
  * Extends `.grid`.
  */
 #{$class-type}grid--full{
-    left:0;
+    margin-left:0;
 
     > #{$class-type}grid__item{
         padding-left:0;
@@ -245,7 +245,6 @@ $class-type:            unquote(".");
 
     @include clearfix;
 }
-
 
 
 /*------------------------------------*\
