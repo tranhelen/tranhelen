@@ -379,7 +379,7 @@ $class-type:            unquote(".");
     /**
      * Reset
      */
-    #{$class-type}push--#{$namespace}none           { left:0; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}none           { left:0%; @include silent-relative(); }
 
     /**
      * Whole

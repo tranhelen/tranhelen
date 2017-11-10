@@ -1376,10 +1376,37 @@ blockquote.large {
 }
 
 .c3-s3-sdk {
-    margin: 10px 0;
+    margin: 30px 0 40px;
+
+    .line-one {
+		left: -60px;
+    	width: 50px;
+    }
+
+    @include at-query($three) {
+    	.line-one {
+		    float: right;
+		    left: initial;
+		    right: -50px;
+		    top: -20px;
+		    z-index: 1;
+    	}
+
+		figcaption {
+			margin-top: 200px;
+		}
+
+    	p {
+    		margin: 30px 0 0 0;
+    	}
+    }
 
 	@include at-query($four) {
 		margin: 40px 0 50px;
+
+		figcaption {
+			margin-top: 440px;
+		}
 	}
 }
 
