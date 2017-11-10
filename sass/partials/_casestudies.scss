@@ -818,6 +818,33 @@ blockquote.large {
 	}
 }
 
+.c2-s2-experience {
+	figcaption {
+		margin: 10px 0 0;
+	}
+
+    .line-one {
+		top: 12px;
+    	left: -60px;
+		right: unset;
+		width: 50px;
+    }
+
+    @include at-query($three) {
+    	figcaption {
+	    	margin: 32% 0 0;
+    	}
+    }
+
+    @include at-query($four) {
+    	margin: 60px 0 80px;
+
+    	figcaption {
+    		margin-top: 36%;
+    	}
+    }
+}
+
 .c2-s3 {
 	padding-top: 10px;
 
