@@ -243,15 +243,14 @@ header {
 		margin: 270px 0 160px;
 	}
 
-	.small {
+	&.--mailinglist {
 		@include at-query($three) {
 			margin: 50px 0;
 		}
 
 		@include at-query($four) {
-			margin: 100px 0 160px;
+			margin: 100px 0 100px;
 		}
-
 	}
 }
 
