@@ -242,6 +242,17 @@ header {
 	@include at-query($four) {
 		margin: 270px 0 160px;
 	}
+
+	.small {
+		@include at-query($three) {
+			margin: 50px 0;
+		}
+
+		@include at-query($four) {
+			margin: 100px 0 160px;
+		}
+
+	}
 }
 
 p {
@@ -627,6 +638,21 @@ input {
 			padding-bottom: 10px;
 		}
 	}
+}
+
+.mailinglistpage {
+	background-color: $colorBGone;
+	margin: 30px 0;
+    padding: 30px 30px 0;
+
+    input {
+    	margin-bottom: 30px;
+    }
+
+    @include at-query($three) {
+    	margin: 0;
+    	padding: 30px;
+    }
 }
 
 #mc-embedded-subscribe {
