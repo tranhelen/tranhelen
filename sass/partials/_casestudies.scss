@@ -1131,7 +1131,7 @@ blockquote.large {
     #CS3
 \*------------------------------------*/
 
-.c3-header {
+.header {
 	margin: 30px 0;
 
 	@include at-query($one) {
@@ -1372,7 +1372,7 @@ blockquote.large {
     }
 
 	@include at-query($three) {
-		margin: 25px 0 -10px;
+		margin: 25px 0 30px;
 
     	figcaption  p {
 			margin-left: 30px;
@@ -1384,7 +1384,8 @@ blockquote.large {
     	}
 
     	.ho03 {
-    		margin-top: 150px;
+    		margin-bottom: 0;
+    		margin-top: 17%;
     	}
 
 		.line-one {
@@ -1398,10 +1399,6 @@ blockquote.large {
 
 		figcaption p {
 			margin-top: 50px;
-		}
-
-		.ho03 {
-			margin-top: 210px;
 		}
 	}
 }
@@ -1424,7 +1421,7 @@ blockquote.large {
     	}
 
 		figcaption {
-			margin-top: 200px;
+			margin-top: 140%;
 		}
 
     	p {
@@ -1436,7 +1433,7 @@ blockquote.large {
 		margin: 40px 0 50px;
 
 		figcaption {
-			margin-top: 440px;
+			margin-top: 190%;
 		}
 	}
 }
