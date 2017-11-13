@@ -499,9 +499,13 @@ ul {
     #Shared
 \*------------------------------------*/
 
+body,
+html {
+	overflow-x: hidden;
+}
+
 body {
 	font-family: $stack1;
-	overflow-x: hidden;
 	padding-bottom: 50px;
 
 	&.--home {

@@ -3948,30 +3948,35 @@ ul.no-bullet li {
     #Shared
 \*------------------------------------*/
 /* line 502, ../../sass/partials/_main.scss */
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* line 507, ../../sass/partials/_main.scss */
 body {
   font-family: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
-  overflow-x: hidden;
   padding-bottom: 50px;
 }
-/* line 507, ../../sass/partials/_main.scss */
+/* line 511, ../../sass/partials/_main.scss */
 body.--home {
   padding: 0;
 }
 
-/* line 512, ../../sass/partials/_main.scss */
+/* line 516, ../../sass/partials/_main.scss */
 figure {
   margin: 20px 0 30px 0;
 }
-/* line 515, ../../sass/partials/_main.scss */
+/* line 519, ../../sass/partials/_main.scss */
 figure a {
   border: 0;
 }
-/* line 519, ../../sass/partials/_main.scss */
+/* line 523, ../../sass/partials/_main.scss */
 figure img {
   box-shadow: 0px 10px 30px rgba(121, 107, 93, 0.2);
 }
 
-/* line 524, ../../sass/partials/_main.scss */
+/* line 528, ../../sass/partials/_main.scss */
 input {
   background-color: #fff;
   border: 0;
@@ -3980,37 +3985,37 @@ input {
   width: 100%;
 }
 @media screen and (min-width: 1130px) {
-  /* line 524, ../../sass/partials/_main.scss */
+  /* line 528, ../../sass/partials/_main.scss */
   input {
     padding: 15px 25px;
   }
 }
 
-/* line 536, ../../sass/partials/_main.scss */
+/* line 540, ../../sass/partials/_main.scss */
 .container {
   margin: 0 30px;
 }
 @media screen and (min-width: 600px) {
-  /* line 536, ../../sass/partials/_main.scss */
+  /* line 540, ../../sass/partials/_main.scss */
   .container {
     margin: 0 60px;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 536, ../../sass/partials/_main.scss */
+  /* line 540, ../../sass/partials/_main.scss */
   .container {
     margin: 0 10%;
     max-width: 1400px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 536, ../../sass/partials/_main.scss */
+  /* line 540, ../../sass/partials/_main.scss */
   .container {
     margin: 0 auto;
   }
 }
 
-/* line 553, ../../sass/partials/_main.scss */
+/* line 557, ../../sass/partials/_main.scss */
 .header-bg-watercolour {
   background-repeat: no-repeat;
   height: 50px;
@@ -4021,7 +4026,7 @@ input {
   z-index: -1;
 }
 
-/* line 563, ../../sass/partials/_main.scss */
+/* line 567, ../../sass/partials/_main.scss */
 .line-one {
   background-color: #d0a233;
   height: 3px;
@@ -4031,7 +4036,7 @@ input {
   width: 300px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 563, ../../sass/partials/_main.scss */
+  /* line 567, ../../sass/partials/_main.scss */
   .line-one {
     right: 5005%;
     top: 35px;
@@ -4039,7 +4044,7 @@ input {
   }
 }
 
-/* line 578, ../../sass/partials/_main.scss */
+/* line 582, ../../sass/partials/_main.scss */
 .line-two {
   background-color: #768fe1;
   height: 3px;
@@ -4049,7 +4054,7 @@ input {
   width: 300px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 578, ../../sass/partials/_main.scss */
+  /* line 582, ../../sass/partials/_main.scss */
   .line-two {
     right: 5005%;
     top: 35px;
@@ -4057,21 +4062,21 @@ input {
   }
 }
 
-/* line 593, ../../sass/partials/_main.scss */
+/* line 597, ../../sass/partials/_main.scss */
 .mailinglist {
   margin: 20px 0 50px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 593, ../../sass/partials/_main.scss */
+  /* line 597, ../../sass/partials/_main.scss */
   .mailinglist {
     margin: 70px 0 100px;
   }
 }
-/* line 600, ../../sass/partials/_main.scss */
+/* line 604, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__content {
   margin-top: 40px;
 }
-/* line 604, ../../sass/partials/_main.scss */
+/* line 608, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__header,
 .mailinglist .mailinglist__footer {
   background-position-x: 50%;
@@ -4079,57 +4084,57 @@ input {
   background-size: cover;
   height: 30px;
 }
-/* line 612, ../../sass/partials/_main.scss */
+/* line 616, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__header {
   background-image: url("/img/bg-watercolour-footer.svg");
   margin: 0;
 }
-/* line 617, ../../sass/partials/_main.scss */
+/* line 621, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__footer {
   background-image: url("/img/bg-watercolour-footerft.svg");
   margin-top: -10px;
 }
-/* line 622, ../../sass/partials/_main.scss */
+/* line 626, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__form {
   background-color: #fcf8ef;
   padding: 10px 0 20px;
 }
-/* line 626, ../../sass/partials/_main.scss */
+/* line 630, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__form input {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 600px) {
-  /* line 631, ../../sass/partials/_main.scss */
+  /* line 635, ../../sass/partials/_main.scss */
   .mailinglist .mailinglist__form input {
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 622, ../../sass/partials/_main.scss */
+  /* line 626, ../../sass/partials/_main.scss */
   .mailinglist .mailinglist__form {
     padding-bottom: 10px;
   }
 }
 
-/* line 642, ../../sass/partials/_main.scss */
+/* line 646, ../../sass/partials/_main.scss */
 .mailinglistpage {
   background-color: #fcf8ef;
   margin: 30px 0;
   padding: 30px 30px 0;
 }
-/* line 647, ../../sass/partials/_main.scss */
+/* line 651, ../../sass/partials/_main.scss */
 .mailinglistpage input {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 642, ../../sass/partials/_main.scss */
+  /* line 646, ../../sass/partials/_main.scss */
   .mailinglistpage {
     margin: 0;
     padding: 30px;
   }
 }
 
-/* line 657, ../../sass/partials/_main.scss */
+/* line 661, ../../sass/partials/_main.scss */
 #mc-embedded-subscribe {
   background-color: #d0a233;
   border-radius: 0;
@@ -4145,18 +4150,18 @@ input {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 668, ../../sass/partials/_main.scss */
+/* line 672, ../../sass/partials/_main.scss */
 #mc-embedded-subscribe:hover {
   background-color: #dab55c;
 }
 @media screen and (min-width: 600px) {
-  /* line 657, ../../sass/partials/_main.scss */
+  /* line 661, ../../sass/partials/_main.scss */
   #mc-embedded-subscribe {
     margin-top: 15px;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 657, ../../sass/partials/_main.scss */
+  /* line 661, ../../sass/partials/_main.scss */
   #mc-embedded-subscribe {
     font-size: 1em;
     margin: 0;
