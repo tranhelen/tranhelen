@@ -2,17 +2,13 @@
     #Helpers
 \*------------------------------------*/
 
-.list--nobullet {
-	list-style-type: none;
+.no-margin {
+	margin: 0;
 }
 
-.list--inline {
-	list-style-type: none;
-
-	li {
-		display: inline-block;
-		margin-bottom: 0;
-	}
+.one-one-half {
+	float: left;
+	width: 50%;
 }
 
 .text-center {
@@ -27,54 +23,59 @@
 	text-align: right;
 }
 
-.one--text-center {
+.one--text-right {
 	@include at-query($one) {
-		text-align: center;
+		text-align: right;
 	}
 }
 
-.two--text-center {
+.two--text-left {
 	@include at-query($two) {
-		text-align: center;
+		text-align: left;
 	}
 }
 
-.two--table {
-	@include at-query($two) {
-		display: table;
-		height: 85vh
+.three--text-left {
+	@include at-query($three) {
+		text-align: left;
 	}
 }
 
-.two--table-cell {
-	@include at-query($two) {
-		display: table-cell;
-		vertical-align: middle;
-	}
-}
-
-.two--table--mailinglist {
-	@include at-query($two) {
-		display: table;
-		height: 80vh
-	}
-}
-
-.two--table-cell--mailinglist {
-	@include at-query($two) {
-		display: table-cell;
-		vertical-align: middle;
-	}
+.zero--hide {
+	display: none;
 }
 
 .two--show {
-	display: none; 
-	
 	@include at-query($two) {
 		display: block;
 	}
 }
 
-.load {
-	display: none;
+.three--container {
+	@include at-query($two) {
+		margin: 0 10%;
+		max-width: 1400px;
+	}
+
+	@include at-query($four) {
+		margin: 0 auto;
+	}
+}
+
+.two--hide {
+	@include at-query($two) {
+		display: none;
+	}
+}
+
+.three--hide {
+	@include at-query($three) {
+		display: none;
+	}
+}
+
+.three--show {
+	@include at-query($three) {
+		display: block;
+	}
 }

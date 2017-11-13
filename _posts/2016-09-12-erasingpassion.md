@@ -4,7 +4,7 @@ date: 2016-09-12 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 A sharp breath escaped me as the needle hit my spine again. My tattoo artist asked, "You alright?" to which I nodded slowly. I was trying not to let on that I had stopped breathing normally. Tattoos hadn't hurt me before, but as the gun passed over my spine for the third time I couldn't help but wince.
@@ -50,9 +50,9 @@ If you don't know what that is yet, then just pick *something* and dedicate some
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Popular culture suggests that I mention The Oatmeal's <a href="http://theoatmeal.com/comics/unhappy" class="external" target="_blank"><span class="external-body">latest comic</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> about this.</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Popular culture suggests that I mention The Oatmeal's <a href="http://theoatmeal.com/comics/unhappy" class="external" target="_blank"><span class="external-body">latest comic</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> about this.</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Cal Newport <a href="http://amzn.to/2ceFbBa" class="external" target="_blank">&#8220;<span class="external-body"><em>So Good They Can't Ignore You</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2012</p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Cal Newport <a href="http://amzn.to/2ceFbBa" class="external" target="_blank">&#8220;<span class="external-body"><em>So Good They Can't Ignore You</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 2012</p>
 
-    <p id="note-3" class="h6"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> Joshua Fields Millburn, <a href="http://www.theminimalists.com/cal/" class="external" target="_blank">&#8220;<span class="external-body"><em>'Follow Your Passion' is Crappy Advice</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> Joshua Fields Millburn, <a href="http://www.theminimalists.com/cal/" class="external" target="_blank">&#8220;<span class="external-body"><em>'Follow Your Passion' is Crappy Advice</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

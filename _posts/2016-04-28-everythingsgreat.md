@@ -4,7 +4,7 @@ date: 2016-04-28 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 "The Big Short" was a film released last year covering the collapse of the housing market and unearthing the apathy behind some of the most fraudulent loans ever created. The movie (perhaps excessively) makes mention of optimism and cynicism as driving forces behind the main actions of the characters. It's hard to criticize it for making this claim, as we know from the aftermath of the collapse there were many signs of a collapsing market but nobody pointed it out because it seemed like *everything was going to be okay.*
@@ -31,5 +31,5 @@ You have to be willing to admit there's a problem to begin with and remove your 
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> To be fair, if the housing market is built on toothpicks and no one wants to say anything about it because they're getting rich, you probably have good reason to be pretty angry.</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> To be fair, if the housing market is built on toothpicks and no one wants to say anything about it because they're getting rich, you probably have good reason to be pretty angry.</p>
 </div>

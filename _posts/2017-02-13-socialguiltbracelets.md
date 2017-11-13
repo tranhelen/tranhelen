@@ -4,7 +4,7 @@ date: 2017-02-13 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 "_Tech is well-intended but not explicitly moral._" I grimaced as I wrote this sentence down during a talk by Evan Sharp, co-founder of Pinterest, last Friday. I've been thinking about this a lot lately. Coincidentally, so have quite a few other people at source.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
@@ -36,9 +36,9 @@ On my arm sits Mama Toti's bracelet. I don't know if wearing it matters or signi
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Source is a <a href="https://designerfund.com/source/" class="external" target="_blank"><span class="external-body">daylong summit</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> for design leaders run by Designer Fund</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Source is a <a href="https://designerfund.com/source/" class="external" target="_blank"><span class="external-body">daylong summit</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> for design leaders run by Designer Fund</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Check out what Patagonia has been doing to protect natural monuments in <a href="https://twitter.com/i/moments/829056379423821824" class="external" target="_blank"><span class="external-body">Utah</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Check out what Patagonia has been doing to protect natural monuments in <a href="https://twitter.com/i/moments/829056379423821824" class="external" target="_blank"><span class="external-body">Utah</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 
-    <p id="note-3" class="h6"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> He used a better word for this but I missed what word he used in my notes... sorry Evan</p>
+    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> He used a better word for this but I missed what word he used in my notes... sorry Evan</p>
 </div>

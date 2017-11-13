@@ -4,7 +4,7 @@ date: 2016-08-29 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 I attended <a href="https://2016.theconference.se/" class="external" target="_blank"><span class="external-body">The Conference</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> this year on a recommendation about it being a little bit different than most conferences. I'll admit that many conferences these days put me to sleep. Thankfully this experience was much more exciting, and I want to plug this particular talk by <a href="https://twitter.com/triciawang" class="external" target="_blank"><span class="external-body">Tricia Wang</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> called, <a href="http://videos.theconference.se/dont-trust-the-truth" class="external" target="_blank">&#8220;<span class="external-body"><em>Don't Trust the Truth!</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> Watch it and then come back to me.
@@ -40,11 +40,11 @@ As I research the topic more, I'm finding myself moving towards siding with thos
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Paul Bloom, <a href="http://bostonreview.net/forum/paul-bloom-against-empathy" class="external" target="_blank">&#8220;<span class="external-body"><em>Against Empathy</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 9/10/2014</p>
+    <p id="note-1" class="small"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Paul Bloom, <a href="http://bostonreview.net/forum/paul-bloom-against-empathy" class="external" target="_blank">&#8220;<span class="external-body"><em>Against Empathy</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 9/10/2014</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> <a href="https://en.wikipedia.org/wiki/Slacktivism#Criticism_of_slacktivism)" class="external" target="_blank"><span class="external-body">Slacktivism</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2" class="small"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> <a href="https://en.wikipedia.org/wiki/Slacktivism#Criticism_of_slacktivism)" class="external" target="_blank"><span class="external-body">Slacktivism</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 
-    <p id="note-3" class="h6"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> For more about this, do some exploration into psychopaths with Jon Ronson, <a href="http://amzn.to/2c5YPgY" class="external" target="_blank">&#8220;<span class="external-body"><em>The Psychopath Test</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-3" class="small"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> For more about this, do some exploration into psychopaths with Jon Ronson, <a href="http://amzn.to/2c5YPgY" class="external" target="_blank">&#8220;<span class="external-body"><em>The Psychopath Test</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 
-    <p id="note-4" class="h6"><a href="#anchor-4" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[4]</span> Alistair Barr, <a href="http://blogs.wsj.com/digits/2015/07/01/google-mistakenly-tags-black-people-as-gorillas-showing-limits-of-algorithms/" class="external" target="_blank">&#8220;<span class="external-body"><em>Google Mistakenly Tags Black People as ‘Gorillas,’ Showing Limits of Algorithms</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 7/1/2015</p>
+    <p id="note-4" class="small"><a href="#anchor-4" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[4]</span> Alistair Barr, <a href="http://blogs.wsj.com/digits/2015/07/01/google-mistakenly-tags-black-people-as-gorillas-showing-limits-of-algorithms/" class="external" target="_blank">&#8220;<span class="external-body"><em>Google Mistakenly Tags Black People as ‘Gorillas,’ Showing Limits of Algorithms</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 7/1/2015</p>
 </div>

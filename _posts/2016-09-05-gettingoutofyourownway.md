@@ -4,7 +4,7 @@ date: 2016-09-05 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 Self-improvement is a laudable goal. It's as inseparable from tech culture as efficiency hacking or Soylent (these may be two sides of the same coin). Admittedly, I've been caught up in the same fervour and have become obsessed with it. Except, I have gone the wrong way and it has been impacting me negatively.
@@ -37,5 +37,5 @@ Alan Watts has a good talk about this...<a id="anchor-1" href="#note-1" class="f
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Alan Watts, <a href="https://www.youtube.com/watch?v=v4jBd4fArfQ" class="external" target="_blank">&#8220;<span class="external-body"><em>Getting Out Of Your Own Way</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Alan Watts, <a href="https://www.youtube.com/watch?v=v4jBd4fArfQ" class="external" target="_blank">&#8220;<span class="external-body"><em>Getting Out Of Your Own Way</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

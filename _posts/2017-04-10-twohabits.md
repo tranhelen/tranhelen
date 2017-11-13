@@ -4,7 +4,7 @@ date: 2017-04-10 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 It's the small things that make big waves. I have two habits I've picked up over the years which I can attribute a large part of my productive periods to: taking notes and closing feedback loops.
@@ -46,7 +46,7 @@ If there's any career advice I can give anyone, it's to take notes and close all
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Professor Steven Novella, <a href="http://www.audible.com/pd/Science-Technology/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/B00D9473WC" target="_blank">&#8220;<span class="external-body"><em>Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 07-08-13</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Professor Steven Novella, <a href="http://www.audible.com/pd/Science-Technology/Your-Deceptive-Mind-A-Scientific-Guide-to-Critical-Thinking-Skills-Audiobook/B00D9473WC" class="external" target="_blank">&#8220;<span class="external-body"><em>Your Deceptive Mind: A Scientific Guide to Critical Thinking Skills</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 07-08-13</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Check out the <a href="http://bulletjournal.com/" class="external" target="_blank"><span class="external-body">Bullet Journal system</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> but I'd advise not looking at the Instagrams about it...</p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Check out the <a href="http://bulletjournal.com/" class="external" target="_blank"><span class="external-body">Bullet Journal system</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> but I'd advise not looking at the Instagrams about it...</p>
 </div>

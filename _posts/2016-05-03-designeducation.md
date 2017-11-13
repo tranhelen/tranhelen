@@ -4,7 +4,7 @@ date: 2016-05-03 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 I've been focusing a lot lately on the education of non-Designers wanting to be Designers, new Designers, transitioning Designers and old creaky Designers. Mostly, the problem is there isn't any education. Compounded, the field is so new mature Product Design practices don't really exist so we're all kind of heading into a dark cave but at least we're holding hands.
@@ -46,7 +46,7 @@ I'm not using this post to announce some sort of educational product so we can a
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> I've witnessed this before and it was hilarious.</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> I've witnessed this before and it was hilarious.</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/" class="external" target="_blank"><span class="external-body">Bloc</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> Just to clarify, it's not.</p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Some people have taken this as an attack on the company I used to work for, <a href="https://www.bloc.io/" class="external" target="_blank"><span class="external-body">Bloc</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> Just to clarify, it's not.</p>
 </div>

@@ -4,7 +4,7 @@ date: 2016-08-01 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 A couple of years ago, my best friend and I went on a road trip from Paris, to Grenoble, down the eastern edge of France, and then along the southern coast. Every town or city we passed had a beautifully landscaped place for people to sit around a river or a stream. When I visited Japan, I encountered the same commitment. Commmitments to the immeasurable.
@@ -28,7 +28,7 @@ I do not subscribe to the idea that we are all *just* problem solvers. Problem s
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> I specifically say Product Design because our slice of the Design world seems particularly enthusiastic about this view but I doubt this is only specific to us.</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> I specifically say Product Design because our slice of the Design world seems particularly enthusiastic about this view but I doubt this is only specific to us.</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Sep Kamvar, <a href="http://farmerandfarmer.org/mastery/builder.html" class="external" target="_blank">&#8220;<span class="external-body"><em>Mastery and Mimicry</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Sep Kamvar, <a href="http://farmerandfarmer.org/mastery/builder.html" class="external" target="_blank">&#8220;<span class="external-body"><em>Mastery and Mimicry</em></span>&#8221;<span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

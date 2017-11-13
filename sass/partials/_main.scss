@@ -1,331 +1,684 @@
 /*------------------------------------*\
-    #Homepage
+    #TypographyMain
 \*------------------------------------*/
 
-header {
-	padding: 50px 0 $unit;
-}
+a {
+    background: url(data:image/gif;base64,R0lGODlhAQABAIAAANTd+AAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjhGMTM0RERCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjhGMTM0REVCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOEYxMzREQkIyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyOEYxMzREQ0IyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) repeat-x left 20px;
+	color: $colorLink;
+    text-decoration: none;
 
-footer {
-	background-color: $colorBGdark;
-	padding: $unit;
+	&:hover {
+		background-position: left 50px;
+		color: $colorTextBody;
 
-	@include at-query($one) {
-		text-align: center;
-	}
+		.accent {
+	 		animation-name: arrowbounce;
+		}
 
-	@include at-query($two) {
-		padding: 50px 0;
-	}
-}
-
-section {
-	padding: 50px 0;
-}
-
-.container {
-	margin: 0 $unit;
-	max-width: 760px;
-
-	@include at-query($one) {
-		margin: 0 auto;
-		padding: 0 50px;
-	}
-
-	@include at-query($two) {
-		max-width: 1400px;
+		@include at-query($three) {
+			background-position: left 80px;
+		}
 	}
 
 	@include at-query($three) {
-		padding: 0;
+		background-position: left 25px;
+	}
+
+	@include at-query($four) {
+		background-position: left 30px;
+	}
+
+	h3 & {
+		background-position: left 24px;
+
+		@include at-query($three) {
+			background-position: left 34px;			
+		}
+
+		@include at-query($four) {
+			background-position: left 44px;
+		}
+	}
+
+	h3.smaller & {
+		@include at-query($three) {
+			background-position: left 29px;
+		}
+
+		&:hover {
+			background-position: left 60px;
+		}
+	}
+
+	.accent {
+		animation-duration: 0.75s;
+		animation-fill-mode: both;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+		display: inline-block;
+		position: relative;
+			bottom: 1px;
+	}
+
+	&.external {
+		background-image: none;
+    	color: #000;
+
+    	&:hover {
+    		.external-body {
+				background-position: left 40px;
+				color: $colorTextBody;
+    		}
+    	}
+	}
+
+	.external-body {
+		background: url(data:image/gif;base64,R0lGODlhAQABAIAAANTd+AAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjhGMTM0RERCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjhGMTM0REVCMkU3MTFFNzk5M0RFRUFBNzg4MDMzODYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyOEYxMzREQkIyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyOEYxMzREQ0IyRTcxMUU3OTkzREVFQUE3ODgwMzM4NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) repeat-x left 16px;
+
+		@include transition;
+	}
+
+	.external-box {
+	    border: 1px solid $colorAccent;
+	    display: inline-block;
+	    height: 10px;
+	    margin: 0 3px;
+	    position: relative;
+	   		top: 8px;
+	    width: 10px;
+	}
+
+	.external-box__arrow {
+		color: $colorAccent;
+		font-size: em(11px);
+	    font-weight: bold;
+	    position: relative;
+		    bottom: 12px;
+		    left: 3px;
+	}
+
+	&.h6 {
+		color: $colorLink;
+
+		&:hover {
+			color: $colorTextBody;
+		}
+	}
+
+	&.wimage {
+		background: none;
+	}
+
+	@include transition-fast;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $colorTextHeader;
+	font-weight: 300;
+}
+
+.h1 { @extend h1; }
+.h2 { @extend h2; }
+.h3 { @extend h3; }
+.h4 { @extend h4; }
+.h5 { @extend h5; }
+.h6 { @extend h6; }
+
+h1 {
+	font-family: $stacksuper;
+	font-size: em(60px);
+	line-height: 1;
+	margin: 0;
+
+	@include at-query($three) {
+		font-size: em(90px);
+	}
+
+	@include at-query($four) {
+		font-size: em(120px);
 	}
 }
 
-.bio {
-	background: $colorBGdark url('/img/header-background2.jpg');
-	background-size: cover;
-	padding: 60px 0 90px;
-	position: relative;
-	width: 100%;
+h2 {
+	color: $colorAccent;
+	font-size: em(28px);
+	font-style: italic;
+	line-height: 1.36;
+	margin: 10px 0;
 
-	&::after{
-	  background: white;
-	  bottom: 0px;
-	  content: '';
-	  height: 70px;
-	  position: absolute;
-	  transform-origin: left bottom;
-	  transform: skewY(4deg);
-	  width: 100%;
-	  z-index: 1;
+	@include at-query($three) {
+		font-size: em(38px);
 	}
 
-	@include at-query($two) {
-		background-position: 50% -80px;
-		padding: 100px 0 235px;
+	@include at-query($four) {
+		font-size: em(48px);
+	}
+}
 
-		&::after {
-			height: 200px;
+h3 {
+	font-size: em(20px);
+	line-height: 1.53;
+	margin: 0 0 15px;
+
+	@include at-query($three) {
+		font-size: em(28px);
+	}
+
+	@include at-query($four) {
+		font-size: em(36px);
+	}
+
+	&.smaller {
+		@include at-query($three) {
+			font-size: em(24px)
 		}
 	}
 }
 
-.bio__content {
-	@include at-query($two) {
-		position: relative;
-		z-index: 2;
+h4 {
+	font-size: 40px;
+	font-style: italic;
+    line-height: 1;
+    margin: 0;
+    padding-top: 10px;
+
+	@include at-query($three) {
+		font-size: em(50px);
+	}
+
+	@include at-query($four) {
+		font-size: em(60px);
 	}
 }
 
-.bio__text {
-	@include at-query($two) {
-		position: relative;
-		z-index: 1;
-		width: 50%;		
-		padding-top: 100px;
+h5 {
+	font-size: em(20px);
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 30px 0;
+
+	@include at-query($three) {
+		font-size: em(25px);
+	}
+
+	@include at-query($four) {
+		font-size: em(30px);
 	}
 }
 
-.bio__portrait {
-	position: absolute;
-	background: 50% url('/img/header-portrait2.jpg') no-repeat;
-	background-size: cover;
-	z-index: 1;
-	right: 0;
-	height: 710px;
-	width: 80%;
+h6 {
+	color: $colorAccent;
+	font-family: $stack2;
+	font-size: em(13px);
+	font-weight: 600;
+	margin: 0;
+	text-transform: uppercase;
+
+	@include at-query($three) {
+		font-size: em(16px);
+	}
+
+	&.larger {
+		font-size: em(16px);
+		margin-bottom: 30px;
+
+		@include at-query($four) {
+			font-size: em(24px);
+		}
+	}
+
+	.alt {
+		color: $colorAccentTwo;
+	}
 }
 
-.homepage-articles {
-	padding-top: 10px;
+header {
+	margin: 40px 0;
+
+	@include at-query($three) {
+		margin: 100px 0;
+	}
+
+	@include at-query($four) {
+		margin: 270px 0 160px;
+	}
+
+	&.--mailinglist {
+		@include at-query($three) {
+			margin: 50px 0;
+		}
+
+		@include at-query($four) {
+			margin: 100px 0 100px;
+		}
+	}
+}
+
+p {
+	color: $colorTextBody;
+	font-size: em(16px);
+	line-height: 1.7;
+	margin: 0 0 10px;
+
+	.fieldnotes & {
+		font-family: $stack2;
+		font-size: em(13px);
+		line-height: 1.84;
+
+		@include at-query($three) {
+			font-size: em(16px);
+		}
+	}
+
+	@include at-query($three) {
+		font-size: em(20px);
+		margin-bottom: 20px;
+	}
+
+	@include at-query($four) {
+		font-size: em(24px);
+	}	
+}
+
+ol li,
+ul li {
+	color: $colorTextBody;
+	font-size: em(16px);
+	line-height: 1.75;
+	margin: 0 0 15px;
+
+	@include at-query($three) {
+		font-size: em(20px);
+	}
+
+	@include at-query($four) {
+		font-size: em(24px);
+	}
+}
+
+ul li p {
+    font-size: inherit;
+}
+
+blockquote {
+	border: 5px solid $colorAccent;
+	border-width: 0 0 0 5px;
+	margin: 20px 0 30px;
+
+	p {
+		color: $colorTextHeader;
+		font-style: italic;
+		margin: 0 30px 15px;
+	}
+}
+
+blockquote.large {
+	border: 0;
+	margin: 30px 0;
+
+	p {
+		font-size: em(22px);
+		font-style: italic;
+		line-height: 1.45;
+		margin: 0;
+
+		@include at-query($three) {
+			font-size: em(30px);
+		}
+
+		@include at-query($four) {
+			font-size: em(36px);
+		}
+	}
+
+	.author {
+		color: $colorAccentTwo;
+		font-size: em(16px);
+		margin-top: 5px;
+
+		@include at-query($three) {
+			font-size: em(20px);
+		}
+
+		@include at-query($four) {
+			font-size: em(24px);
+		}
+	}
+}
+
+figcaption {
+	@extend .small;
+
+	p {
+		font-size: inherit;
+	}
+}
+
+hr {
+	border: 0;
+	border-bottom: 3px solid $colorAccent;
+	border-radius: 999px;
+	margin: 30px auto;
+
+	@include at-query($three) {
+		margin: 50px auto;
+	}
+
+	&.small {
+		width: 30px;
+	}
+
+	&.noborder {
+		border-color: transparent;
+	}
+}
+
+input {
+    font-family: $stack2;
+    font-size: em(13px);
+
+    @include at-query($three) {
+    	font-size: em(16px);
+    }
+}
+
+pre,
+code {
+    background-color: rgba($colorAccentTwo,0.1);
+    color: $colorTextHeader;
+    margin: 20px 0 30px;
+    padding: 5px 7px;
+}
+
+code {
+	font-size: em(12px);
+
+	pre & {
+		background-color: transparent;
+		font-size: em(14px);
+	    line-height: 1.71;
+	    padding: 0;
+	    word-wrap: break-word;
+	}
+}
+
+pre {
+	padding: 15px 20px;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+ul {
+	margin: 0;
+
+	&.no-bullet li {
+		list-style-type: none;
+	}
+}
+
+.accent { color: $colorAccent; }
+.accenttwo { color: $colorAccentTwo; }
+
+.copy {
+	font-size: em(13px);
+	line-height: 1.84;
+	margin-bottom: 5px;
+
+	a {
+		background-position: left 16px;
+
+		&:hover {
+			background-position: left 40px;
+		}
+
+		@include at-query($three) {
+			background-position: left 20px;			
+		}
+	}
+
 
 	@include at-query($one) {
-		padding-top: 20px;
+		text-align: center;
 	}
 
-	@include at-query($two) {
-		margin-top: 50px;
-		padding: 0 0 90px;
-		position: relative;
-		z-index: 3;
+	@include at-query($three) {
+		font-size: em(16px);
 	}
 }
 
-.instagrid {
-	padding: 0;
-	position: relative;
-}
+.fieldnotes {
+	@include at-query($three) {
+		.external-body {
+			background-position: left 20px;
+		}
 
-.instagrid__background {
-	background: #fff url('/img/instagrid-background.svg') no-repeat;
-	background-size: cover;
-	background-position: 50%;
+		.external-box {
+		   		top: 12px;
+		}
 
-	@include at-query($two) {
-		background-position: 0%;
-	}
-}
-
-.instagrid__content {
-	padding: 60px 0;
-
-	@include at-query($two) {
-		padding: 0;
-		position: relative;
-	    margin-bottom: 190px;
-	    top: 100px;
-	}
-}
-
-.instagrid__description {
-	margin-bottom: $unit;
-
-	@include at-query($two) {
-		float: right;
-		margin: 0;
-	}
-}
-
-.instagrid__pics {
-	margin: 10px 0 0;
-
-	@include at-query($two) {
-		margin-top: 18px;
-	}
-}
-
-.instagrid__separator {
-	clear: both;
-	height: $unit / 3;
-
-	@include at-query($two) {
-		display: none;
-	}
-}
-
-.post-listing {
-	padding: $unit 0 ($unit / 3);
-
-	.square & {
-		padding: $unit 0 0;
-	}
-
-	@include at-query($two) {
-		padding: ($unit / 3) 0 0;
-
-		.subpage &,
-		.subpage-custom & {
-			padding-top: $unit;
+		.external-box__arrow {
+			    bottom: 17px;
 		}
 	}
 }
 
-.post-listing__single {
-	margin-bottom: $unit;
+.small {
+	font-family: $stack2;
+	font-size: em(13px);
+	line-height: 1.84;
 
-	&.last {
-		margin-bottom: 0;
+	a {
+		background-position: left 16px;
+
+		&:hover {
+			background-position: left 20px;
+			color: $colorTextBody;
+		}
 	}
+
+	@include at-query($three) {
+		font-size: em(16px);
+
+		a {
+			background-position: left 20px;
+
+			&:hover {
+				background-position: left 40px;
+			}
+		}
+	}
+}
+
+#mce-success-response,
+#mce-error-response {
+	margin: 0 30px;
 }
 
 /*------------------------------------*\
-    #Subpages
+    #Shared
 \*------------------------------------*/
 
-.about {
-	@include at-query($two) {
-		background: $colorBGdark url('/img/about-background2.jpg');
-		background-attachment: fixed;
-		background-position: 50%;
-		background-size: cover;
+body {
+	font-family: $stack1;
+	overflow-x: hidden;
+	padding-bottom: 50px;
+
+	&.--home {
+		padding: 0;
 	}
 }
 
-.archives {
-	@include at-query($two) {
-		background: #fff url("/img/archives-background.jpg") no-repeat;
-	    background-attachment: fixed;
-	    background-position: 50% 500px;
-	    background-size: cover;
-	}	
-}
+figure {
+	margin: 20px 0 30px 0;
 
-.archives__content {
-	@include at-query($two) {
-		padding: 80px 0 40px;
+	a {
+		border: 0;
+	}
+
+	img {
+		box-shadow: 0px 10px 30px rgba($colorShadow,0.2);
 	}
 }
 
-.archives__filter {
-	margin-top: $unit / 2;
+input {
+	background-color: #fff;
+	border: 0;
+    margin: 0;
+    padding: 8px 15px 10px;
+    width: 100%;
+
+    @include at-query($three) {
+    	padding: 15px 25px;
+    }
+}
+
+.container {
+	margin: 0 30px;
+
+	@include at-query($one) {
+		margin: 0 60px;
+	}
 
 	@include at-query($two) {
-		margin-top: $unit;
+		margin: 0 10%;
+		max-width: 1400px;
+	}
+
+	@include at-query($four) {
+		margin: 0 auto;
 	}
 }
 
-.book-cover {
-	margin-bottom: $unit / 2;
+.header-bg-watercolour {
+	background-repeat: no-repeat;
+    height: 50px;
+    position: relative;
+	    left: 30px;
+	    top: 90px;
+    width: 160%;
+    z-index: -1;
+}
 
-	@include at-query($two) {
-		margin: $unit 0;
+.line-one {
+	background-color: $colorAccent;
+	height: 3px;
+	position: relative;
+		right: 320px;
+		top: 25px;
+	width: 300px;
+
+	@include at-query($four) {
+		right: 5005%;
+		top: 35px;
+		width: 5000%;
 	}
 }
 
-.img-border {
-	border: 5px solid #efefef;
+.line-two {
+	background-color: $colorAccentTwo;
+	height: 3px;
+	position: relative;
+		right: 320px;
+		top: 25px;
+	width: 300px;
+
+	@include at-query($four) {
+		right: 5005%;
+		top: 35px;
+		width: 5000%;
+	}
 }
 
 .mailinglist {
-	@include at-query($two) {
-		background: $colorBGdark url('/img/mailinglist-background.jpg');
-		background-attachment: fixed;
-		background-position: 50%;
-		background-size: cover;
-	}	
-}
+	margin: 20px 0 50px;
 
-.post-header {
-	margin: 0 0 ($unit / 3);
-	padding: 0;
-
-	@include at-query($one) {
-		text-align: center;
+	@include at-query($four) {
+		margin: 70px 0 100px;
 	}
 
-	@include at-query($two) {
-	    margin: 0 0 90px;
+	.mailinglist__content {
+		margin-top: 40px;
 	}
-}
 
-.post-navigation {
-	padding: 50px $unit;
-
-	@include at-query($two) {
-		padding: 50px 50px 100px;
+	.mailinglist__header,
+	.mailinglist__footer {
+	    background-position-x: 50%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+		height: 30px;
 	}
-}
 
-.post-mailinglist {
-	padding: 25px 0 0;
-
-	@include at-query($one) {
-		padding: 65px 0 50px;
-		text-align: center;
+	.mailinglist__header {
+		background-image: url('/img/bg-watercolour-footer.svg');
+		margin: 0;
 	}
-}
 
-.post-toc {
-	background-color: #f7f9fa;
-	margin-top: 40px;
-	padding: $unit 0 0;
-
-	@include at-query($one) {
-		margin-top: 80px;
-		text-align: center;
+	.mailinglist__footer {
+		background-image: url('/img/bg-watercolour-footerft.svg');
+	    margin-top: -10px;
 	}
-}
 
-.subpage-body {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 $unit;
+	.mailinglist__form {
+		background-color: $colorBGone;
+		padding: 10px 0 20px;
 
-	&.experiments {
-		margin-bottom: $unit;
+		input {
+			margin-bottom: 15px;
+		}
 
 		@include at-query($one) {
-			margin-bottom: $unit * 2;
+			input {
+				margin-bottom: 0;
+			}
+		}
+
+		@include at-query($two) {
+			padding-bottom: 10px;
 		}
 	}
 }
 
-.square {
-	padding-bottom: 50px;
+.mailinglistpage {
+	background-color: $colorBGone;
+	margin: 30px 0;
+    padding: 30px 30px 0;
 
-	&.dark {
-		background-color: $colorBGdark;
-	}
+    input {
+    	margin-bottom: 30px;
+    }
+
+    @include at-query($three) {
+    	margin: 0;
+    	padding: 30px;
+    }
 }
 
-#mc_embed_signup {
-	padding: 50px 0;
+#mc-embedded-subscribe {
+	background-color: $colorAccent;
+	border-radius: 0;
+	color: #fff;
+	font-family: $stack2;
+	font-size: em(13px);
+	font-weight: 600;
+	padding: 8px 15px 10px;
+	text-align: center;
+	width: 100%;
 
-	.post-mailinglist & {
-		padding: $unit 0 20px;
+	&:hover {
+		background-color: lighten($colorAccent,10%);
 	}
 
 	@include at-query($one) {
-		margin: 0 auto;
-		max-width: 500px;
+		margin-top: 15px;
 	}
 
-	@include at-query($two) {
-		max-width: none;
-
-		.mailinglist & {
-			padding: 100px 0 0;
-		}	
+	@include at-query($three) {
+		font-size: em(16px);
+		margin: 0;
+		padding: 15px 0;
+		text-align: center;
 	}
+
+	@include transition;
 }
-

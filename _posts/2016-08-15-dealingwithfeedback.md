@@ -4,10 +4,10 @@ date: 2016-08-15 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
-A few months ago <a href="https://twitter.com/AdaptivePath" class="external" target="_blank">&#8220;<span class="external-body"><em>Adaptive Path</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> wrote an article called <a href="https://medium.com/@adaptivepath/the-do-s-and-don-ts-of-managing-designers-90736ac7608b#.yu7vb4t3f" class="external" target="_blank">&#8220;<span class="external-body"><em>The Do's and Don'ts of Managing Designers</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>. Some of the most liked retweets of this article from the Design community highlighted these sentences,
+Some of the most liked retweets of an Adaptive Path article<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> from the Design community highlighted these sentences,
 
 > There’s such a culture of critique around design deliverables that doesn’t exist with any other deliverables. For designers, a typical day is everyone telling them what’s wrong with their work.
 
@@ -39,3 +39,9 @@ Here are the questions you can ask yourself,
 * Am I holding on too tightly? Is this a matter of philosophy/vision, lack of data, lack of context, lack of trust, or all of the above? Or none of the above?
 
 There are often no right answers, there is just *not close enough*. It's a field of grey so there's naturally going to be a lot of opinions about what you should be doing. The key to not questioning your existence is straddling the line between asserting your role as the Designer and being too open to feedback. Neither extremes lead to a happy conclusion.
+
+<hr class="small">
+
+<div class="fieldnotes">
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> <a href="https://twitter.com/AdaptivePath" class="external" target="_blank">&#8220;<span class="external-body">Adaptive Path</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, <a href="https://medium.com/@adaptivepath/the-do-s-and-don-ts-of-managing-designers-90736ac7608b#.yu7vb4t3f" class="external" target="_blank">&#8220;<span class="external-body"><em>The Do's and Don'ts of Managing Designers</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>03-17-16</p>
+</div>

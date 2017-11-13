@@ -1,0 +1,44 @@
+{% include header.html %}
+
+{% include navigation.html %}
+
+<div class="post-single">
+	<div class="container">
+		<div class="grid">
+			<div class="grid__item push--two--two-elevenths two--seven-elevenths">
+				{% if page.hero %}
+				<figure class="hero" 
+					data-aos="fade-up" 
+					data-aos-delay="1000"
+					data-aos-duration="1000"
+					data-aos-easing="ease-out-quad">
+					<img src="/img/post/{{ page.hero }}">
+					{% if page.hero_caption %}
+						<figcaption><p>{{ page.hero_caption }}</p></figcaption>
+					{% endif %}
+				</figure>
+				{% endif %}
+			</div>
+		</div>
+		
+		<h1 class="text-center"
+			data-aos="fade-up" 
+			data-aos-delay="1000"
+			data-aos-duration="1000"
+			data-aos-easing="ease-out-quad">{{ page.title }}</h1>
+
+		<div class="post-single__body" 
+			data-aos="fade-up" 
+			data-aos-delay="1000"
+			data-aos-duration="1000"
+			data-aos-easing="ease-out-quad">
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+{% include navigation-footer.html %}
+
+{% include archive-footer.html %}
+
+{% include footer.html %}

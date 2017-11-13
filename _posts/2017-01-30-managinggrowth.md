@@ -4,7 +4,7 @@ date: 2017-01-30 00:00:00 Z
 categories:
 - blog
 - management
-layout: subpage
+layout: post
 ---
 
 Growth is my job. Well, management is my job, but growth is mostly what I think about. I'm tasked to care for the growth of the company/product, the growth of my discipline in the company/industry-wide, and, my favourite, the growth of my reports.
@@ -80,5 +80,5 @@ Design problems with people are just like design problems with pixels; no soluti
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> You can talk to <a href="https://www.twitter.com/tranhelen" class="external" target="_blank"><span class="external-body">me</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, <a href="https://twitter.com/darrinhenein" class="external" target="_blank"><span class="external-body">Darrin</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, or <a href="https://twitter.com/ilialarionov" class="external" target="_blank"><span class="external-body">Ilia</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> on Twitter</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> You can talk to <a href="https://www.twitter.com/tranhelen" class="external" target="_blank"><span class="external-body">me</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, <a href="https://twitter.com/darrinhenein" class="external" target="_blank"><span class="external-body">Darrin</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, or <a href="https://twitter.com/ilialarionov" class="external" target="_blank"><span class="external-body">Ilia</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> on Twitter</p>
 </div>

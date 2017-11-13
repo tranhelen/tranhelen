@@ -4,7 +4,7 @@ date: 2016-11-28 00:00:00 Z
 categories:
 - blog
 - creative
-layout: subpage
+layout: post
 ---
 
 I have collected some rules which has improved my writing dramatically over the past year.

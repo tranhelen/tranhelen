@@ -4,7 +4,7 @@ date: 2016-09-19 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 The light shining into the room outlined a silhouette of the familiar short-*ish* man. He faced away from me looking out towards the city with his arms clasped behind his back. I was sitting at a long boardroom table, behind him, at a seat chosen out of reservation&mdash;not too far, not too close. I was told to come here, instead of our office, into a tall glossy building which reeked of excessive wealth.
@@ -32,5 +32,5 @@ The silhouette was only half right. The world has no boundaries except for the o
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This actually happened. I know… it sounds like I made it up. It’s fucking ridiculous.</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This actually happened. I know… it sounds like I made it up. It’s fucking ridiculous.</p>
 </div>

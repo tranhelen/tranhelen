@@ -4,7 +4,7 @@ date: 2016-12-19 00:00:00 Z
 categories:
 - blog
 - creative
-layout: subpage
+layout: post
 ---
 
 This year I passed the threshold of writing down more than 100,000 words. Only a fraction of that was published here and I have been grateful with the thoughtful responses I've received. My goals regarding my writing practice were:
@@ -49,9 +49,9 @@ My writing practice is completely different than what it was a year ago. All it 
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> <a href="http://www.secondcity.com/courses/hollywood/online-classes/" class="external" target="_blank"><span class="external-body">Second City Online Writing Courses</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> <a href="http://www.secondcity.com/courses/hollywood/online-classes/" class="external" target="_blank"><span class="external-body">Second City Online Writing Courses</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> <a href="https://www.writingclasses.com/" class="external" target="_blank"><span class="external-body">Gotham Writer's online courses</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> <a href="https://www.writingclasses.com/" class="external" target="_blank"><span class="external-body">Gotham Writer's online courses</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 
-    <p id="note-3" class="h6"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> <a href="http://howtowritebetter.org/" class="external" target="_blank"><span class="external-body">How to Write Better</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> <a href="http://howtowritebetter.org/" class="external" target="_blank"><span class="external-body">How to Write Better</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

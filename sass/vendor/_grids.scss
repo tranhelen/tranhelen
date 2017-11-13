@@ -81,8 +81,10 @@ $use-markup-fix:        true!default;
  * that the breakpoint fires at.
  */
 $breakpoints: (
-    'one' '(min-width: 830px)',
-    'two' '(min-width: 1000px)'
+    'one' '(min-width: 600px)',
+    'two' '(min-width: 800px)',
+    'three' '(min-width: 1130px)',
+    'four' '(min-width: 1500px)'
 )!default;
 
 
@@ -96,9 +98,9 @@ $breakpoints: (
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
  * have been set to ‘true’.
  */
-$breakpoint-has-widths: ('one', 'two')!default;
-$breakpoint-has-push:   ('one', 'two')!default;
-$breakpoint-has-pull:   ('one', 'two')!default;
+$breakpoint-has-widths: ('one', 'two', 'three', 'four')!default;
+$breakpoint-has-push:   ('one', 'two', 'three', 'four')!default;
+$breakpoint-has-pull:   ('one', 'two', 'three', 'four')!default;
 
 
 /**
@@ -245,7 +247,6 @@ $class-type:            unquote(".");
 }
 
 
-
 /*------------------------------------*\
     $WIDTHS
 \*------------------------------------*/
@@ -328,20 +329,18 @@ $class-type:            unquote(".");
 
 
     /**
-     * Twelfths
+     * Elevenths
      */
-    #{$class-type}#{$namespace}one-twelfth       { width:8.333%; }
-    #{$class-type}#{$namespace}two-twelfths      { @extend #{$class-type}#{$namespace}one-sixth; }
-    #{$class-type}#{$namespace}three-twelfths    { @extend #{$class-type}#{$namespace}one-quarter; }
-    #{$class-type}#{$namespace}four-twelfths     { @extend #{$class-type}#{$namespace}one-third; }
-    #{$class-type}#{$namespace}five-twelfths     { width:41.666% }
-    #{$class-type}#{$namespace}six-twelfths      { @extend #{$class-type}#{$namespace}one-half; }
-    #{$class-type}#{$namespace}seven-twelfths    { width:58.333%; }
-    #{$class-type}#{$namespace}eight-twelfths    { @extend #{$class-type}#{$namespace}two-thirds; }
-    #{$class-type}#{$namespace}nine-twelfths     { @extend #{$class-type}#{$namespace}three-quarters; }
-    #{$class-type}#{$namespace}ten-twelfths      { @extend #{$class-type}#{$namespace}five-sixths; }
-    #{$class-type}#{$namespace}eleven-twelfths   { width:91.666%; }
-
+    #{$class-type}#{$namespace}one-eleventh       { width:9.090%; }
+    #{$class-type}#{$namespace}two-elevenths      { width:18.181%; }
+    #{$class-type}#{$namespace}three-elevenths    { width:27.27%; }
+    #{$class-type}#{$namespace}four-elevenths     { width:36.36%; }
+    #{$class-type}#{$namespace}five-elevenths     { width:45.45% }
+    #{$class-type}#{$namespace}six-elevenths      { width:54.54%; }
+    #{$class-type}#{$namespace}seven-elevenths    { width:63.63%; }
+    #{$class-type}#{$namespace}eight-elevenths    { width:72.72%; }
+    #{$class-type}#{$namespace}nine-elevenths     { width:81.81%; }
+    #{$class-type}#{$namespace}ten-elevenths      { width:90.9%; }
 
 }
 
@@ -377,6 +376,10 @@ $class-type:            unquote(".");
  * Push classes, to move grid items over to the right by certain amounts.
  */
 @mixin push-setup($namespace: ""){
+    /**
+     * Reset
+     */
+    #{$class-type}push--#{$namespace}none           { left:0%; @include silent-relative(); }
 
     /**
      * Whole
@@ -449,21 +452,19 @@ $class-type:            unquote(".");
     #{$class-type}push--#{$namespace}eight-tenths        { @extend #{$class-type}push--#{$namespace}four-fifths; }
     #{$class-type}push--#{$namespace}nine-tenths         { left:90%; @include silent-relative(); }
 
-
     /**
-     * Twelfths
+     * elevenths
      */
-    #{$class-type}push--#{$namespace}one-twelfth         { left:8.333%; @include silent-relative(); }
-    #{$class-type}push--#{$namespace}two-twelfths        { @extend #{$class-type}push--#{$namespace}one-sixth; }
-    #{$class-type}push--#{$namespace}three-twelfths      { @extend #{$class-type}push--#{$namespace}one-quarter; }
-    #{$class-type}push--#{$namespace}four-twelfths       { @extend #{$class-type}push--#{$namespace}one-third; }
-    #{$class-type}push--#{$namespace}five-twelfths       { left:41.666%; @include silent-relative(); }
-    #{$class-type}push--#{$namespace}six-twelfths        { @extend #{$class-type}push--#{$namespace}one-half; }
-    #{$class-type}push--#{$namespace}seven-twelfths      { left:58.333%; @include silent-relative(); }
-    #{$class-type}push--#{$namespace}eight-twelfths      { @extend #{$class-type}push--#{$namespace}two-thirds; }
-    #{$class-type}push--#{$namespace}nine-twelfths       { @extend #{$class-type}push--#{$namespace}three-quarters; }
-    #{$class-type}push--#{$namespace}ten-twelfths        { @extend #{$class-type}push--#{$namespace}five-sixths; }
-    #{$class-type}push--#{$namespace}eleven-twelfths     { left:91.666%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}one-eleventh       { left:9.090%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}two-elevenths      { left:18.181%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}three-elevenths    { left:27.27%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}four-elevenths     { left:36.36%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}five-elevenths     { left:45.45%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}six-elevenths      { left:54.54%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}seven-elevenths    { left:63.63%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}eight-elevenths    { left:72.72%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}nine-elevenths     { left:81.81%; @include silent-relative(); }
+    #{$class-type}push--#{$namespace}ten-elevenths      { left:90.9%; @include silent-relative(); }
 }
 
 @if $push == true {
@@ -473,9 +474,7 @@ $class-type:            unquote(".");
      */
     [class*="push--"]{ position:relative; }
 
-
     @include push-setup();
-
 
     @if $responsive == true{
         @each $name in $breakpoint-has-push {
@@ -573,19 +572,18 @@ $class-type:            unquote(".");
 
 
     /**
-     * Twelfths
+     * elevenths
      */
-    #{$class-type}pull--#{$namespace}one-twelfth         { right:8.333%; @include silent-relative(); }
-    #{$class-type}pull--#{$namespace}two-twelfths        { @extend #{$class-type}pull--#{$namespace}one-sixth; }
-    #{$class-type}pull--#{$namespace}three-twelfths      { @extend #{$class-type}pull--#{$namespace}one-quarter; }
-    #{$class-type}pull--#{$namespace}four-twelfths       { @extend #{$class-type}pull--#{$namespace}one-third; }
-    #{$class-type}pull--#{$namespace}five-twelfths       { right:41.666%; @include silent-relative(); }
-    #{$class-type}pull--#{$namespace}six-twelfths        { @extend #{$class-type}pull--#{$namespace}one-half; }
-    #{$class-type}pull--#{$namespace}seven-twelfths      { right:58.333%; @include silent-relative(); }
-    #{$class-type}pull--#{$namespace}eight-twelfths      { @extend #{$class-type}pull--#{$namespace}two-thirds; }
-    #{$class-type}pull--#{$namespace}nine-twelfths       { @extend #{$class-type}pull--#{$namespace}three-quarters; }
-    #{$class-type}pull--#{$namespace}ten-twelfths        { @extend #{$class-type}pull--#{$namespace}five-sixths; }
-    #{$class-type}pull--#{$namespace}eleven-twelfths     { right:91.666%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}one-eleventh       { right:9.090%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}two-elevenths      { right:18.181%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}three-elevenths    { right:27.27%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}four-elevenths     { right:36.36%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}five-elevenths     { right:45.45%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}six-elevenths      { right:54.54%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}seven-elevenths    { right:63.63%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}eight-elevenths    { right:72.72%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}nine-elevenths     { right:81.81%; @include silent-relative(); }
+    #{$class-type}pull--#{$namespace}ten-elevenths      { right:90.9%; @include silent-relative(); }
 }
 
 @if $pull == true{
@@ -595,9 +593,7 @@ $class-type:            unquote(".");
      */
     [class*="pull--"]{ position:relative; }
 
-
     @include pull-setup();
-
 
     @if $responsive == true{
         @each $name in $breakpoint-has-pull {

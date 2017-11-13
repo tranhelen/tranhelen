@@ -4,7 +4,7 @@ date: 2016-01-01 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 1. Vulnerability is your greatest strength.

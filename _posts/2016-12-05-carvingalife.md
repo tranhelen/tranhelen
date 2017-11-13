@@ -4,7 +4,7 @@ date: 2016-12-05 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 <blockquote class="large">
@@ -61,5 +61,5 @@ Living this way has gifted me with a sense of peace. I no longer feel the need t
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Alan Watts, <a href="https://www.youtube.com/watch?v=khOaAHK7efc" class="external" target="_blank">&#8220;<span class="external-body">What If Money Was No Object?</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Alan Watts, <a href="https://www.youtube.com/watch?v=khOaAHK7efc" class="external" target="_blank">&#8220;<span class="external-body">What If Money Was No Object?</span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

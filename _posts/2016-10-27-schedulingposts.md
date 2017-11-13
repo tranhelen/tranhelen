@@ -4,7 +4,7 @@ date: 2016-10-27 00:00:00 Z
 categories:
 - blog
 - website
-layout: subpage
+layout: post
 ---
 
 My website is built on Jekyll and Github Pages. Jekyll allows you to assign a date of publication on a post but Github Pages won't automatically push this post on that date for you. I have been wishing for ways to publish my editorial schedule without babysitting. I ran into a post<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> which promised what I was looking for but it didn't quite work for my requirements:
@@ -105,9 +105,9 @@ Thanks to the Peter Corey for starting this and Larry Marbuger<a id="anchor-3" h
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Peter Corey, <a href="http://www.east5th.co/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/" class="external" target="_blank">&#8220;<span class="external-body"><em>Scheduling Posts with Jekyll Github Pages and Zapier</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 12/29/2014</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Peter Corey, <a href="http://www.east5th.co/blog/2014/12/29/scheduling-posts-with-jekyll-github-pages-and-zapier/" class="external" target="_blank">&#8220;<span class="external-body"><em>Scheduling Posts with Jekyll Github Pages and Zapier</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 12/29/2014</p>
 
-    <p id="note-2" class="h6"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Named variables are something Zapier uses, this is <a href="https://zapier.com/help/named-variables/" class="external" target="_blank"><span class="external-body">explained here</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> Named variables are something Zapier uses, this is <a href="https://zapier.com/help/named-variables/" class="external" target="_blank"><span class="external-body">explained here</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 
-    <p id="note-3" class="h6"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> Larry Marburger's <a href="https://twitter.com/lmarburger" class="external" target="_blank"><span class="external-body">Twitter</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> Larry Marburger's <a href="https://twitter.com/lmarburger" class="external" target="_blank"><span class="external-body">Twitter</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

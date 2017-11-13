@@ -4,7 +4,7 @@ date: 2016-05-11 00:00:00 Z
 categories:
 - blog
 - life
-layout: subpage
+layout: post
 ---
 
 "I have nothing to give you," was one of the last things he said to me. We were standing in his hospital room and it had been about eight years since I had last seen him. He was unfamiliar to me having spent the majority of my life without him around but my usually quite shielded heart broke a little upon hearing those words. 
@@ -36,6 +36,6 @@ In his death he gave me the greatest gift I've ever received: clarity. Thank goo
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> The Tran family gene strikes again.</p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> The Tran family gene strikes again.</p>
 </div>
 

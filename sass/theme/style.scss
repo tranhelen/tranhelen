@@ -16,37 +16,32 @@
 
 /* Colour Variables */
 	/* Main */
-	$colorAccent: #e9ac00;
+	$colorAccent: #d0a233;
+	$colorAccentTwo: #768fe1;
 
 	/* Text */
-	$colorTextHeader: #627682;
-	$colorTextHeaderIntense: #434d54;
-	$colorTextHeaderDark: #cedbe4;
-	$colorTextBody: #434d54; 
-	$colorTextQuote: #434d54;
-	$colorTextSubtle: #577b90;
-	$colorTextIntense: #B78C12;
+	$colorTextHeader: #394047;
+	$colorTextBody: #5f6771; 
 
 	/* Links */
-	$colorLink: #d29c23;
+	$colorLink: #768fe1;
 	
 	/* Other */
-	$colorBGdark: #283e4c;
-	$colorButton: #00111d;
-	$selection: #eaeff2;
+	$colorShadow: #796b5d;
+	$colorBGone: #fcf8ef;
+	$colorBGtwo: #f6fafc;
+	$selection: #ff0;
 
 /*------------------------------------*\
     #Base
 \*------------------------------------*/
 
 * {
--webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-		box-sizing: border-box;
+box-sizing: border-box;
 -webkit-font-smoothing:antialiased;
--moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
- text-rendering:optimizeLegibility;
+moz-osx-font-smoothing: grayscale;
+-webkit-text-size-adjust: 100%;
+text-rendering:optimizeLegibility;
 }
 
 ::selection {
@@ -61,16 +56,16 @@ img {
 	width: 100%;
 }
 
-$stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
-$stack2: "soleil", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 $baseFontSize: 16px;
-$unit: 30px;
+$stacksuper: "ltc-bodoni-175", Georgia, Times, Times New Roman, serif;
+$stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
+$stack2: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
-$one: 830px;
-$two: 1000px;
-$three: 1500px;
+$one: 600px;
+$two: 800px;
+$three: 1130px;
+$four: 1500px;
 
 @import "normalize";
 
@@ -78,6 +73,9 @@ $three: 1500px;
 @import "vendor/grids";
 
 @import "partials/helpers";
-@import "partials/typography";
 
 @import "partials/main";
+@import "partials/homepage";
+@import "partials/archives";
+@import "partials/casestudies";
+@import "partials/blog";

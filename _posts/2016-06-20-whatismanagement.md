@@ -4,7 +4,7 @@ date: 2016-06-20 00:00:00 Z
 categories:
 - blog
 - management
-layout: subpage
+layout: post
 ---
 
 Management isn't a promotion from Senior Designer to Lead. It's a completely different job with a unique set of goals. For those considering moving into Design leadership, here are the following things you must know:
@@ -30,5 +30,5 @@ Ask yourself these questions before accepting the position: what motivates you? 
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1" class="h6"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Why? Read up on the <a href="https://en.wikipedia.org/wiki/Peter_principle" class="external" target="_blank"><span class="external-body">Peter Principle</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> Why? Read up on the <a href="https://en.wikipedia.org/wiki/Peter_principle" class="external" target="_blank"><span class="external-body">Peter Principle</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>

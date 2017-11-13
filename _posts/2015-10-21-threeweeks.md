@@ -4,7 +4,7 @@ date: 2015-10-21 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 I have just come back from a three week trip in Japan for which the only device I brought was my phone. This wasn't really a difficult decision for me to make but after relying on it as my primary device, I've noticed a few things:

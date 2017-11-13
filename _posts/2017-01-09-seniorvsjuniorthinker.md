@@ -4,7 +4,7 @@ date: 2017-01-09 00:00:00 Z
 categories:
 - blog
 - design
-layout: subpage
+layout: post
 ---
 
 Design is a long education in how to critically think about a problem. The difference between a Junior and Senior is rarely ever about the craft or practical skill-set; likely the easiest comparison but very rarely the right one to make when assessing effectiveness.
