@@ -60,7 +60,7 @@ As I ready myself to write more for <a href="/mailinglist.html">my mailing list<
 
 ## Content Creation
 
-I see no point starting a website if you don't have any content so I started by writing the case studies, which were the large missing part. They were written over the course of two-three weeks as I collected assets in the background. Chantel Hamilton<a id="anchor-3" href="#note-3" class="fieldnotes-anchor">[3]</a> helped me clarify the structure of them and I did one final edit during production after a month break for brevity. 
+I see no point starting a website if you don't have any content so I started by writing the case studies, which were the large missing part. They were written over the course of two-three weeks as I collected assets in the background. Chantel Hamilton<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> helped me clarify the structure of them and I did one final edit during production after a month break for brevity. 
 
 I met with a friend to shoot my portrait. I wanted a video portrait because I felt (and still feel) that still portraits weren't exactly how I wanted to go with the new website. We ended up with these shots:
 
@@ -73,7 +73,7 @@ I met with a friend to shoot my portrait. I wanted a video portrait because I fe
 	</div>
 </div>
 
-After sitting on the pictures a bit I wasn't too satisfied with how I looked so I messaged my friend Jeremiah<a id="anchor-4" href="#note-4" class="fieldnotes-anchor">[4]</a> to meet me in my soul place, the desert. He shot the new video and portrait for me and I finished it off with retouching.
+After sitting on the pictures a bit I wasn't too satisfied with how I looked so I messaged my friend Jeremiah<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> to meet me in my soul place, the desert. He shot the new video and portrait for me and I finished it off with retouching.
 
 ## Style Decisions
 
@@ -109,9 +109,9 @@ After a day or so of sprinting, I felt a lot better about the direction and quic
 
 Before I jump into code, I put together a small style guide so I can ensure that I'm not introducing any snowflake elements without reason. I went back and forth between the style guide and my mock-ups to ensure I'm more or less following the rules but <em>I don't break my back.</em> There are diminishing returns if I try to be pixel-perfect with a mock-up made for myself.
 
-I built this website using HTML + SCSS using Jekyll and Github pages all of which I've made available on it's Github repo<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> for reference purposes.
+I built this website using HTML + SCSS using Jekyll and Github pages all of which I've made available on it's Github repo<a id="anchor-3" href="#note-3" class="fieldnotes-anchor">[3]</a> for reference purposes.
 
-The only thing particularly unique for my website is that I designed on, and developed with, an 11-column grid. I tend to design with an odd number of columns. I've done this for a very long time because I generally find even-numbered grids to be stifling. I used csswizardry's grid<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> to start with and adjusted it to accommodate.
+The only thing particularly unique for my website is that I designed on, and developed with, an 11-column grid. I tend to design with an odd number of columns. I've done this for a very long time because I generally find even-numbered grids to be stifling. I used csswizardry's grid<a id="anchor-4" href="#note-4" class="fieldnotes-anchor">[4]</a> to start with and adjusted it to accommodate.
 
 ## Launch
 
@@ -126,11 +126,11 @@ Seriously though,
 <hr class="small">
 
 <div class="fieldnotes">
-    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> For reference purposes only, you can see the code behind this website on <a href="https://github.com/tranhelen/tranhelen.github.io" class="external" target="_blank">&#8220;<span class="external-body"><em>Github</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> <a href="http://afterwordscommunications.com/" class="external" target="_blank"><span class="external-body">Chantel Hamilton's</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> website</p>
 
-    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> <a href="http://bulletjournal.com/" class="external" target="_blank"><span class="external-body">czzwizardry's grid</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> <a href="http://jeremiahwarren.com/" class="external" target="_blank"><span class="external-body">Jeremiah Warren's</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> website</p>
 
-    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> <a href="http://afterwordscommunications.com/" class="external" target="_blank"><span class="external-body">More about her here</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> For reference purposes only, you can see the code behind this website on <a href="https://github.com/tranhelen/tranhelen.github.io" class="external" target="_blank">&#8220;<span class="external-body"><em>Github</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 
-    <p id="note-4"><a href="#anchor-4" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[4]</span> <a href="http://jeremiahwarren.com/" class="external" target="_blank"><span class="external-body">More about him here</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
+    <p id="note-4"><a href="#anchor-4" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[4]</span> <a href="https://github.com/csswizardry/csswizardry-grids" class="external" target="_blank"><span class="external-body">czzwizardry's grid</span> <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>
