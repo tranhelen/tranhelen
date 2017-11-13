@@ -1,6 +1,6 @@
 ---
 title: Breaking Down Systems
-date: 2017-01-02 00:00:00 Z
+date: 2017-01-01 19:00:00 -05:00
 categories:
 - blog
 - design

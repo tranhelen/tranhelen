@@ -1,6 +1,6 @@
 ---
 title: An Open Letter to Fem-Designers-in-Tech
-date: 2017-03-20 00:00:00 Z
+date: 2017-03-19 20:00:00 -04:00
 categories:
 - blog
 - tech

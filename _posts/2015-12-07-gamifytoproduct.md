@@ -1,6 +1,6 @@
 ---
 title: Gamify to Product Failure
-date: 2015-12-07 00:00:00 Z
+date: 2015-12-06 19:00:00 -05:00
 categories:
 - blog
 - design

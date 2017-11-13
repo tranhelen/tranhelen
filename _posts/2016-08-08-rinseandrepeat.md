@@ -1,6 +1,6 @@
 ---
 title: Rinse and Repeat
-date: 2016-08-08 00:00:00 Z
+date: 2016-08-07 20:00:00 -04:00
 categories:
 - blog
 - design

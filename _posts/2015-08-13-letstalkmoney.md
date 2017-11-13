@@ -1,6 +1,6 @@
 ---
 title: Let&rsquo;s Talk Money
-date: 2015-08-13 00:00:00 Z
+date: 2015-08-12 20:00:00 -04:00
 categories:
 - blog
 - life

@@ -1,6 +1,6 @@
 ---
 title: Deliberate Practice
-date: 2014-12-08 00:00:00 Z
+date: 2014-12-07 19:00:00 -05:00
 categories:
 - blog
 - design

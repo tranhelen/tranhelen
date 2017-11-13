@@ -1,6 +1,6 @@
 ---
 title: The State of Design Education
-date: 2016-05-03 00:00:00 Z
+date: 2016-05-02 20:00:00 -04:00
 categories:
 - blog
 - design

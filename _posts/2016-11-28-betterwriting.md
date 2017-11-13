@@ -1,6 +1,6 @@
 ---
 title: 7 Writing Tips
-date: 2016-11-28 00:00:00 Z
+date: 2016-11-27 19:00:00 -05:00
 categories:
 - blog
 - creative

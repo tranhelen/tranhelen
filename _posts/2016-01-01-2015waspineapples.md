@@ -1,6 +1,6 @@
 ---
 title: 2015 was Pineapples
-date: 2016-01-01 00:00:00 Z
+date: 2015-12-31 19:00:00 -05:00
 categories:
 - blog
 - life

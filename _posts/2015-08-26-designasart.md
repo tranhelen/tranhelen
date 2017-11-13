@@ -1,6 +1,6 @@
 ---
 title: Design as Art
-date: 2015-08-26 00:00:00 Z
+date: 2015-08-25 20:00:00 -04:00
 categories:
 - blog
 - design

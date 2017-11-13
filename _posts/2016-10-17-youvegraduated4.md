@@ -1,6 +1,6 @@
 ---
 title: You've Graduated... Part Four
-date: 2016-10-17 00:00:00 Z
+date: 2016-10-16 20:00:00 -04:00
 categories:
 - blog
 - design

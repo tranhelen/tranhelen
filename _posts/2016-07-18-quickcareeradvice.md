@@ -1,6 +1,6 @@
 ---
 title: Quick Career Advice
-date: 2016-07-18 00:00:00 Z
+date: 2016-07-17 20:00:00 -04:00
 categories:
 - blog
 - design

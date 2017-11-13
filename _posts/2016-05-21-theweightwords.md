@@ -1,6 +1,6 @@
 ---
 title: The Weight of Words
-date: 2016-05-21 00:00:00 Z
+date: 2016-05-20 20:00:00 -04:00
 categories:
 - blog
 - management

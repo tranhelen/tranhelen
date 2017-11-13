@@ -1,6 +1,6 @@
 ---
 title: What is Management?
-date: 2016-06-20 00:00:00 Z
+date: 2016-06-19 20:00:00 -04:00
 categories:
 - blog
 - management

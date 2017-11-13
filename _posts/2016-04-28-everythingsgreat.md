@@ -1,6 +1,6 @@
 ---
 title: Everything&rsquo;s Great
-date: 2016-04-28 00:00:00 Z
+date: 2016-04-27 20:00:00 -04:00
 categories:
 - blog
 - life

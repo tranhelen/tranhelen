@@ -1,6 +1,6 @@
 ---
 title: Privilege
-date: 2016-10-24 00:00:00 Z
+date: 2016-10-23 20:00:00 -04:00
 categories:
 - blog
 - life

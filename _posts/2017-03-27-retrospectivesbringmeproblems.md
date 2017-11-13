@@ -1,6 +1,6 @@
 ---
 title: Retrospectives&colon; Bring Me Only Problems
-date: 2017-03-27 00:00:00 Z
+date: 2017-03-26 20:00:00 -04:00
 categories:
 - blog
 - design

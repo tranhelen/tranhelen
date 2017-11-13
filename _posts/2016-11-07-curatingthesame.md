@@ -1,6 +1,6 @@
 ---
 title: Curating the Same Future
-date: 2016-11-07 00:00:00 Z
+date: 2016-11-06 19:00:00 -05:00
 categories:
 - blog
 - tech

@@ -1,6 +1,6 @@
 ---
 title: Are We Solving the Right Problems?
-date: 2016-10-31 00:00:00 Z
+date: 2016-10-30 20:00:00 -04:00
 categories:
 - blog
 - design

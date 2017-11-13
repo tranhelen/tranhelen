@@ -1,6 +1,6 @@
 ---
 title: From the Desk of the Politely Angry
-date: 2014-09-19 00:00:00 Z
+date: 2014-09-18 20:00:00 -04:00
 categories:
 - blog
 - tech

@@ -1,6 +1,6 @@
 ---
 title: Nearly Everything's Changed
-date: 2017-02-05 00:00:00 Z
+date: 2017-02-04 19:00:00 -05:00
 categories:
 - blog
 - management

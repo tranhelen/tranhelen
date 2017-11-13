@@ -1,6 +1,6 @@
 ---
 title: You've Graduated... Part One
-date: 2016-09-26 00:00:00 Z
+date: 2016-09-25 20:00:00 -04:00
 categories:
 - blog
 - design

@@ -1,6 +1,6 @@
 ---
 title: Assessing Impact
-date: 2017-01-23 00:00:00 Z
+date: 2017-01-22 19:00:00 -05:00
 categories:
 - blog
 - management

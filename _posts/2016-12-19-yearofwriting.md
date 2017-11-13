@@ -1,6 +1,6 @@
 ---
 title: Year of Writing
-date: 2016-12-19 00:00:00 Z
+date: 2016-12-18 19:00:00 -05:00
 categories:
 - blog
 - creative

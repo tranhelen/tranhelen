@@ -1,6 +1,6 @@
 ---
 title: Senior vs. Junior Thinker
-date: 2017-01-09 00:00:00 Z
+date: 2017-01-08 19:00:00 -05:00
 categories:
 - blog
 - design

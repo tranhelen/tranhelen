@@ -1,6 +1,6 @@
 ---
 title: Beauty in the Immeasurables
-date: 2016-08-01 00:00:00 Z
+date: 2016-07-31 20:00:00 -04:00
 categories:
 - blog
 - life

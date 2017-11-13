@@ -1,6 +1,6 @@
 ---
 title: Getting Out of Your Own Way
-date: 2016-09-05 00:00:00 Z
+date: 2016-09-04 20:00:00 -04:00
 categories:
 - blog
 - life

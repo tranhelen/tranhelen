@@ -1,6 +1,6 @@
 ---
 title: Follow Your Own Advice
-date: 2017-11-09 00:00:00 Z
+date: 2017-11-08 19:00:00 -05:00
 categories:
 - blog
 - design

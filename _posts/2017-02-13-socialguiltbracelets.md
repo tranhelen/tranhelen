@@ -1,6 +1,6 @@
 ---
 title: Social Guilt Bracelets
-date: 2017-02-13 00:00:00 Z
+date: 2017-02-12 19:00:00 -05:00
 categories:
 - blog
 - design

@@ -1,6 +1,6 @@
 ---
 title: Managing Growth
-date: 2017-01-30 00:00:00 Z
+date: 2017-01-29 19:00:00 -05:00
 categories:
 - blog
 - management

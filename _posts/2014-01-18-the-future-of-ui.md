@@ -1,6 +1,6 @@
 ---
 title: The Future of UI and the Dream of the &rsquo;90s
-date: 2014-01-18 00:00:00 Z
+date: 2014-01-17 19:00:00 -05:00
 categories:
 - blog
 - design

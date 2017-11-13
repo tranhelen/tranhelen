@@ -1,6 +1,6 @@
 ---
 title: Yearly Themes
-date: 2016-02-24 00:00:00 Z
+date: 2016-02-23 19:00:00 -05:00
 categories:
 - blog
 - life

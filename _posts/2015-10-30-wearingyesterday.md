@@ -1,6 +1,6 @@
 ---
 title: Wearing Yesterday
-date: 2015-10-30 00:00:00 Z
+date: 2015-10-29 20:00:00 -04:00
 categories:
 - blog
 - tech

@@ -1,6 +1,6 @@
 ---
 title: Scheduling Posts with Jekyll and Github Pages
-date: 2016-10-27 00:00:00 Z
+date: 2016-10-26 20:00:00 -04:00
 categories:
 - blog
 - website

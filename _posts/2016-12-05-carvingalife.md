@@ -1,6 +1,6 @@
 ---
 title: Carving a Life
-date: 2016-12-05 00:00:00 Z
+date: 2016-12-04 19:00:00 -05:00
 categories:
 - blog
 - life

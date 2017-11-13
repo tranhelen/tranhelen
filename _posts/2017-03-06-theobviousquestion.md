@@ -1,6 +1,6 @@
 ---
 title: The Obvious Question
-date: 2017-03-06 00:00:00 Z
+date: 2017-03-05 19:00:00 -05:00
 categories:
 - blog
 - tech

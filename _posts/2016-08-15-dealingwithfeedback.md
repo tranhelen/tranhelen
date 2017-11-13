@@ -1,6 +1,6 @@
 ---
 title: Dealing with Feedback
-date: 2016-08-15 00:00:00 Z
+date: 2016-08-14 20:00:00 -04:00
 categories:
 - blog
 - design

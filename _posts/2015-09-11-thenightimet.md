@@ -1,6 +1,6 @@
 ---
 title: The Night I Met &ldquo;Hate&rdquo;
-date: 2015-09-11 00:00:00 Z
+date: 2015-09-10 20:00:00 -04:00
 categories:
 - blog
 - life

@@ -1,6 +1,6 @@
 ---
 title: Three Pictures
-date: 2016-06-27 00:00:00 Z
+date: 2016-06-26 20:00:00 -04:00
 categories:
 - blog
 - design

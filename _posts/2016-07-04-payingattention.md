@@ -1,6 +1,6 @@
 ---
 title: Paying Attention
-date: 2016-07-04 00:00:00 Z
+date: 2016-07-03 20:00:00 -04:00
 categories:
 - blog
 - management

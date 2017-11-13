@@ -1,6 +1,6 @@
 ---
 title: 3 Weeks of Mobile
-date: 2015-10-21 00:00:00 Z
+date: 2015-10-20 20:00:00 -04:00
 categories:
 - blog
 - design
