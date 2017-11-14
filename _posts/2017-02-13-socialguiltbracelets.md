@@ -5,7 +5,7 @@ categories:
 - blog
 - design
 layout: post
-twitter_desc: "Tech is well-intended but not explicitly moral."
+twitter_desc: Tech is well-intended but not explicitly moral.
 twitter_image: 76-00card.jpg
 ---
 

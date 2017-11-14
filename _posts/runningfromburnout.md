@@ -1,12 +1,5 @@
 ---
-title: Running from Burnout
-date: 2017-02-19 19:00:00 -05:00
-categories:
-- blog
-- tech
-layout: post
-twitter_desc: Preventative care: some tips on avoiding burn-out.
-twitter_image: 77-00card.jpg
+title: 2017 02 20 Runningfromburnout
 ---
 
 Five years ago I burned out spectacularly. It was emotionally overwhelming and it's all-consuming nature made me useless at work. Since then I've guarded my life aggressively to ensure it never happens again. These are the things that have helped:
