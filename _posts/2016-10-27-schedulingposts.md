@@ -5,7 +5,8 @@ categories:
 - blog
 - website
 layout: post
-twitter_desc: How to schedule a post for future publication using Jekyll and Github pages.
+twitter_desc: How to schedule a post for future publication using Jekyll and Github
+  pages.
 twitter_image: 61-00card.jpg
 ---
 

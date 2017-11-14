@@ -5,7 +5,8 @@ categories:
 - blog
 - creative
 layout: post
-twitter_desc: How I built a habit of writing and became more comfortable with publishing in a year.
+twitter_desc: How I built a habit of writing and became more comfortable with publishing
+  in a year.
 twitter_image: 68-00card.jpg
 ---
 

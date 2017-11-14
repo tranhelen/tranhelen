@@ -5,7 +5,8 @@ categories:
 - blog
 - design
 layout: post
-twitter_desc: How we don't really understand the word empathy and what we're looking for is compassion instead.
+twitter_desc: How we don't really understand the word empathy and what we're looking
+  for is compassion instead.
 twitter_image: 51-00card.jpg
 ---
 
