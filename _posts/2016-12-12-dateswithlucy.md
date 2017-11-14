@@ -9,7 +9,7 @@ layout: post
 
 _**Disclaimer:** I'm not a doctor, which should be obvious, but just in case this disclaimer is here. I take zero responsibility for you. Do some heavy reading or research before taking anything here too seriously.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> I mean it._
 
-_**Second Disclaimer:** Do not read this if you think all drugs are bad, makes people emotionally or intellectually unstable, or makes people irresponsible. I don't have enough patience to describe why that position is ignorant so it's just easier to suggest you don't read this._
+_**Second Disclaimer:** Do not read this if you think all drugs are bad or make people emotinoally and intellectually unstable or irresponsible. I don't have enough patience to describe why that position is ignorant so it's just easier to suggest you don't read this._
 
 <hr class="small">
 
