@@ -7,7 +7,8 @@ categories:
 layout: post
 redirect_from:
 - "/ive-graduated-now-what-4"
-twitter_desc: Part 4 of 4 pieces about the graduation process for designers looking to start in the industry.
+twitter_desc: Part 4 of 4 pieces about the graduation process for designers looking
+  to start in the industry.
 twitter_image: 58-00card.jpg
 ---
 

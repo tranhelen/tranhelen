@@ -5,7 +5,8 @@ categories:
 - blog
 - design
 layout: post
-twitter_desc: I answer a complicated question about whether or not designers are solving the right problems.
+twitter_desc: I answer a complicated question about whether or not designers are solving
+  the right problems.
 twitter_image: 61-00card.jpg
 ---
 

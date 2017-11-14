@@ -5,7 +5,8 @@ categories:
 - blog
 - life
 layout: post
-twitter_desc: About a hang-up I've had recently when people directed the word "too" at me.
+twitter_desc: About a hang-up I've had recently when people directed the word "too"
+  at me.
 twitter_image: 52-00card.jpg
 ---
 

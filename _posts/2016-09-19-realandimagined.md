@@ -5,7 +5,8 @@ categories:
 - blog
 - life
 layout: post
-twitter_desc: Understanding boundaries and how they change the way you act throughout your life.
+twitter_desc: Understanding boundaries and how they change the way you act throughout
+  your life.
 twitter_image: 54-00card.jpg
 ---
 
