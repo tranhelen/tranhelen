@@ -77,7 +77,7 @@ After sitting with the pictures a bit I wasn't too satisfied so I messaged my ot
 
 ## Style Decisions
 
-Visual design is a series of decisions made one after another to craft a look and feel. A lot of these decisions were made in previous iterations of my website. I don't always have to start over because I carry forward the decisions I still agree with (that's the joy of working in iterative chunks.) 
+Visual design is a series of decisions made one after another to craft a look and feel. A lot of these decisions were made in previous iterations. I don't always have to start over because I carry forward the decisions I still agree with (that's the joy of working in iterative chunks.) 
 
 After doing some sketches on paper I started laying things out in Photoshop:
 
