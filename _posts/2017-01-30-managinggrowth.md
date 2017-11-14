@@ -5,7 +5,8 @@ categories:
 - blog
 - management
 layout: post
-twitter_desc: How to look at the growth of your report as a manager and provide an environment of accountability so they can 10x their growth.
+twitter_desc: How to look at the growth of your report as a manager and provide an
+  environment of accountability so they can 10x their growth.
 twitter_image: 74-00card.jpg
 ---
 

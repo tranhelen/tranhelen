@@ -5,7 +5,8 @@ categories:
 - blog
 - design
 layout: post
-twitter_desc: How everything is a system and every Designer's job is to dismantle it.
+twitter_desc: How everything is a system and every Designer's job is to dismantle
+  it.
 twitter_image: 70-00card.jpg
 ---
 

@@ -5,7 +5,8 @@ categories:
 - blog
 - management
 layout: post
-twitter_desc: What changes and what stays the same when you're working in a company which is quickly growing year by year.
+twitter_desc: What changes and what stays the same when you're working in a company
+  which is quickly growing year by year.
 twitter_image: 75-00card.jpg
 ---
 
