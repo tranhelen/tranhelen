@@ -5,7 +5,8 @@ categories:
 - blog
 - life
 layout: post
-twitter_desc: Maybe we're not all wrong now, but we may all be wrong eventually. Does that matter?
+twitter_desc: Maybe we're not all wrong now, but we may all be wrong eventually. Does
+  that matter?
 twitter_image: 85-00card.jpg
 ---
 
