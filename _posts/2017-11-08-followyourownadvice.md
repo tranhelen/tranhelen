@@ -7,7 +7,7 @@ categories:
 layout: post
 ---
 
-Out of all the advice I give I tend to give this one the most often. It's old-school advice drilled into me when I was in college. I pass it along to all my students still because I believe it's just as relevant now to our industry. 
+Out of all the advice I give I tend to give this one the most often. It's old-school advice drilled into me when I was in college. I pass it along to all my students still because I believe it's just as relevant now to our industry: 
 
 <blockquote class="large">
 	<p>Always keep an updated portfolio.</p>
@@ -60,7 +60,7 @@ As I ready myself to write more for <a href="/mailinglist.html">my mailing list<
 
 ## Content Creation
 
-If there's no content, there's no website. So, I started my project by writing the case studies which were missing. They were written over the course of two-three weeks as I collected assets in the background. Chantel Hamilton<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> helped me clarify the structure of them and I did one final edit during production after a month break for brevity. 
+If there's no content, there's no website. So, I started my project by writing the case studies I didn't have. They were written over the course of two-three weeks as I collected assets in the background. Chantel Hamilton<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> helped me clarify the structure of them and I did one final edit during production after a month break for brevity. 
 
 I wanted something more personable for my website this time so I decided to supplement a photo portrait with a video portrait. I asked my friend to help me shoot and we ended up with these shots:
 
