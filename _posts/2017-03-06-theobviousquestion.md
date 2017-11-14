@@ -5,6 +5,8 @@ categories:
 - blog
 - tech
 layout: post
+twitter_desc: An honest conversation about being a woman in tech.
+twitter_image: 79-00card.jpg
 ---
 
 *I wrote this to answer a question I get pretty often. I tried for many years to side-step the conversation but I won't be doing that anymore. In light of what's been happening recently with Uber, I documented my current thoughts about the industry.*

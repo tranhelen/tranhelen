@@ -5,6 +5,9 @@ categories:
 - blog
 - management
 layout: post
+twitter_desc: How Shopify gauges the impact or success of a Designer within our product teams.
+twitter_image: 73-00card.jpg
+
 ---
 
 As a company scales a Design team cannot afford to function any longer on an ad-hoc basis. Many things get lost within rapid growth of a company-even the expectations you hold of your peers in your own discipline.

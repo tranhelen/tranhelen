@@ -5,6 +5,8 @@ categories:
 - blog
 - creative
 layout: post
+twitter_desc: How to keep yourself motivated during a long career.
+twitter_image: 78-00card.jpg
 ---
 
 A novice's output is really special. Not only are they creating during a time of little pressure, they output an extraordinary amount of energy that others rarely match. When nurtured with frequent and positive feedback loops, this period can be a great contributor to creative fulfillment.

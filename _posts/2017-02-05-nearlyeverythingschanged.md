@@ -5,6 +5,8 @@ categories:
 - blog
 - management
 layout: post
+twitter_desc: What changes and what stays the same when you're working in a company which is quickly growing year by year.
+twitter_image: 75-00card.jpg
 ---
 
 High-growth companies are not for those who love stability. Those caught in the growth spurt rarely have time to reflect and I have been victim to this hurried state as well. I don’t think I take enough note of what’s going on.

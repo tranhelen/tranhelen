@@ -5,6 +5,8 @@ categories:
 - blog
 - management
 layout: post
+twitter_desc: How to look at the growth of your report as a manager and provide an environment of accountability so they can 10x their growth.
+twitter_image: 74-00card.jpg
 ---
 
 Growth is my job. Well, management is my job, but growth is mostly what I think about. I'm tasked to care for the growth of the company/product, the growth of my discipline in the company/industry-wide, and, my favourite, the growth of my reports.

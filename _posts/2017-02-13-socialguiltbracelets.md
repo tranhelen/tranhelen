@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: "Tech is well-intended but not explicitly moral."
+twitter_image: 76-00card.jpg
 ---
 
 "_Tech is well-intended but not explicitly moral._" I grimaced as I wrote this sentence down during a talk by Evan Sharp, co-founder of Pinterest, last Friday. I've been thinking about this a lot lately. Coincidentally, so have quite a few other people at source.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>

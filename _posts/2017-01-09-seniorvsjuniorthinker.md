@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: A break-down of the difference between a junior and a senior designer.
+twitter_image: 71-00card.jpg
 ---
 
 Design is a long education in how to critically think about a problem. The difference between a Junior and Senior is rarely ever about the craft or practical skill-set; likely the easiest comparison but very rarely the right one to make when assessing effectiveness.
