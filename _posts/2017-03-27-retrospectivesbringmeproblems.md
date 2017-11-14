@@ -6,6 +6,8 @@ categories:
 - design
 layout: post
 hero: 82-01.jpg
+twitter_desc: How to run a retrospective and get the most out of your team.
+twitter_image: 82-00card.jpg
 ---
 
 Asking for solutions first is bad management advice. _‘Don’t bring me problems—bring me solutions!'_ teaches your team not to speak up if they cannot solve it themselves. That’s not how to work as a team and it certainly doesn't leverage the collective intelligence of the people you've hired.

@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: Two habits that will change your career, no matter who you are.
+twitter_image: 84-00card.jpg
 ---
 
 It's the small things that make big waves. I have two habits I've picked up over the years which I can attribute a large part of my productive periods to: taking notes and closing feedback loops.

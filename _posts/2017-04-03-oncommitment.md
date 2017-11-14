@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: What does commitment mean?
+twitter_image: 83-00card.jpg
 ---
 
 The biggest lessons I've ever learned were from periods of extended commitment. Our available choices now send us into paralysis and it's hard to choose which direction to go in. I'd argue that it doesn't really matter which direction-as long as you fully commit to it.

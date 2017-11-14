@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: Maybe we're not all wrong now, but we may all be wrong eventually. Does that matter?
+twitter_image: 85-00card.jpg
 ---
 
 There are beliefs you hold onto for dear life (like the belief in a higher being) and inconsequential opinions (like whether or not pineapple belongs on pizza (it does, you heathen)). We tend to hold these beliefs in high-esteem, identifying with them and protecting them when other internet users tell us how wrong we are.
