@@ -5,7 +5,8 @@ categories:
 - blog
 - design
 layout: post
-twitter_desc: About maintaining sanity as a Designer and not becoming overwhelmed by what's around you.
+twitter_desc: About maintaining sanity as a Designer and not becoming overwhelmed
+  by what's around you.
 twitter_image: 38-00card.jpg
 ---
 

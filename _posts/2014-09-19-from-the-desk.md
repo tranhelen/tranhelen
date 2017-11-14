@@ -5,7 +5,8 @@ categories:
 - blog
 - tech
 layout: post
-twitter_desc: I write an honest letter about the first time I've ever experienced obvert sexism in the tech industry.
+twitter_desc: I write an honest letter about the first time I've ever experienced
+  obvert sexism in the tech industry.
 twitter_image: 16-00card.jpg
 ---
 

@@ -5,7 +5,8 @@ categories:
 - blog
 - design
 layout: post
-twitter_desc: About gamification and how to apply game mechanics to product design properly.
+twitter_desc: About gamification and how to apply game mechanics to product design
+  properly.
 twitter_image: 26-00card.jpg
 ---
 

@@ -5,7 +5,8 @@ categories:
 - blog
 - life
 layout: post
-twitter_desc: A story about the ticking clock that every working woman has to contend with.
+twitter_desc: A story about the ticking clock that every working woman has to contend
+  with.
 twitter_image: 32-00card.jpg
 ---
 

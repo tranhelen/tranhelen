@@ -5,7 +5,8 @@ categories:
 - blog
 - management
 layout: post
-twitter_desc: A brief primer on what management is and isn't, for anyone who is looking at a promotion that will push them in that direction.
+twitter_desc: A brief primer on what management is and isn't, for anyone who is looking
+  at a promotion that will push them in that direction.
 twitter_image: 41-00card.jpg
 ---
 

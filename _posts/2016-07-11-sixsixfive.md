@@ -5,7 +5,8 @@ categories:
 - blog
 - life
 layout: post
-twitter_desc: A story about the internet of old and why it's necessary to keep writing even if you don't exactly know why.
+twitter_desc: A story about the internet of old and why it's necessary to keep writing
+  even if you don't exactly know why.
 twitter_image: 44-00card.jpg
 ---
 
