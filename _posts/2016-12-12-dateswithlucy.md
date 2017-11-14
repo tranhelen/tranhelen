@@ -44,11 +44,11 @@ The biggest issue I have with micro-dosing experimentations is that it seems lik
 
 ## The Results
 
-During the month I was happier, more productive on _some_ days, more creative on _some_ days, and friendlier overall. In general, Lucy made me more open. This sentiment has been echoed by many dosers.
+During the month I was happier and friendlier overall. I originally said I was more productive and creative on some days, but it's hard to tell if that wasn't simply the normal ebb and flow of life. In general, Lucy made me more open. This sentiment has been echoed by many dosers.
 
 I am biased towards choosing the sober path when I can. I was already on an upswing with happiness so I can't say it was a big improvement. When it comes to fulfillment and happiness, living by [my values](http://helentran.com/carving-a-life) and working on my emotional IQ has had more permanent effects than micro-dosing.
 
-The only negative side effect I noted is that it tends to make me less hungry. Since this impedes my fitness goals I stopped. In the end, micro-dosing was enjoyable but it wasn't making enough marked improvements in my life to justify continuing it. I believe that's it's more effective on certain individuals than others, as I find I get the same effect from exercising.
+The only negative side effect I noted is that it tends to make me less hungry. Since this impedes my fitness goals I stopped. In the end, micro-dosing was enjoyable but it wasn't making enough marked improvements in my life to justify continuing it.
 
 I still intend to experiment with stronger doses as I am curious about the usage of LSD to explore the spiritual realm. Stay tuned for more dates with Lucy.
 
