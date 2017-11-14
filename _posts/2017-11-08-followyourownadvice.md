@@ -7,7 +7,7 @@ categories:
 layout: post
 ---
 
-Out of all the advice I give I tend to give this one the most often. It's old-school advice drilled into me when I was in college. I pass it along to all my students because I believe it's just as relevant now to our industry. 
+Out of all the advice I give I tend to give this one the most often. It's old-school advice drilled into me when I was in college. I pass it along to all my students still because I believe it's just as relevant now to our industry. 
 
 <blockquote class="large">
 	<p>Always keep an updated portfolio.</p>
@@ -15,14 +15,14 @@ Out of all the advice I give I tend to give this one the most often. It's old-sc
 
 Even if you're not looking for a job or if you're happy with your company, you should always have an updated portfolio, somewhere. There are many non-obvious benefits:
 
-- It's another opportunity to practice
+- It's another opportunity for you to practice
 - It gives you a good sense of progress throughout your career
-- It helps other Designers looking to get into an industry by providing examples of what you do day-to-day
-- It helps other disciplines who are interested in our field learn more about our craft and language, something we should welcome
+- It helps other Designers by providing examples of what you do
+- It helps other disciplines who are interested in our field learn more about our craft and language
 
-For the past four years though I didn't followed my own advice. I had a writing portfolio but let my  portfolio languish. While I went through this process over the past few months I found it difficult to describe my projects a year or two or even three out from launch. While I remember the broad strokes, I simply forgot most of the details.
+In the past four years, though, while I was working at Shopify I didn't follow my own advice. I had a writing portfolio but let my portfolio languish. As a result, when I finally went through this process I found it difficult to describe my projects a year or two or even three out from launch. The broad strokes are there but the details are lost.
 
-Most of the production work was gone because product iterations overwrite. Even my process work had been thrown away, misplaced, or left behind. While I was able to dig up some mock-ups, it wasn't the same and it was tedious to remake them and ensure that it was what launched.
+Most of the production work was gone because product iterations overwrite. Even my process work had been thrown away, misplaced, or left behind. While I was able to dig up some mock-ups, it wasn't the same and it was tedious to remake them.
 
 I generally try to lead by example. So, here it is again:
 
@@ -32,9 +32,9 @@ I generally try to lead by example. So, here it is again:
 
 ## Goals
 
-The main reason behind this redesign was to add the case studies onto my website–I wanted to feel "finished" with my last position and it felt strange to leave a position with no documentation. In addition, I had a sneaking suspicion that the content was overgrowing the last design and I needed to make room for more writing in the future.
+The main reason behind this redesign was to add the case studies–I wanted to feel "finished" with my last position and it felt strange to leave a position with no documentation. I also had a sneaking suspicion that the content was overgrowing the last design and I needed to make room for more writing in the future.
 
-The frequent redesigns have been accommodating for doubling content every year. As you can probably tell, I'm more of an <a href="/payingattention">incrementalist than I am a completionist</a>:
+My frequent redesigns have been accommodating for doubling content every year. As you can probably tell, I'm more of an <a href="/payingattention">incrementalist than I am a completionist</a>:
 
 <figure>
 	<div class="grid">
@@ -56,13 +56,13 @@ The frequent redesigns have been accommodating for doubling content every year. 
 	</div>
 </figure>
 
-As I ready myself to write more for <a href="/mailinglist.html">my mailing list</a>, I needed a template that would accommodate for more posts and grow as I did. I doubt any of my designs will stick around very long though.
+As I ready myself to write more for <a href="/mailinglist.html">my mailing list</a>, I needed a template that would accommodate for more posts. This meant a better way of dealing with archives and giving people more opportunities to find content that would suit them.
 
 ## Content Creation
 
-I see no point starting a website if you don't have any content so I started by writing the case studies, which were the large missing part. They were written over the course of two-three weeks as I collected assets in the background. Chantel Hamilton<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> helped me clarify the structure of them and I did one final edit during production after a month break for brevity. 
+If there's no content, there's no website. So, I started my project by writing the case studies which were missing. They were written over the course of two-three weeks as I collected assets in the background. Chantel Hamilton<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> helped me clarify the structure of them and I did one final edit during production after a month break for brevity. 
 
-I met with a friend to shoot my portrait. I wanted a video portrait because I felt (and still feel) that still portraits weren't exactly how I wanted to go with the new website. We ended up with these shots:
+I wanted something more personable for my website this time so I decided to supplement a photo portrait with a video portrait. I asked my friend to help me shoot and we ended up with these shots:
 
 <div class="grid">
 	<div class="grid__item three--three-fifths">
@@ -73,13 +73,13 @@ I met with a friend to shoot my portrait. I wanted a video portrait because I fe
 	</div>
 </div>
 
-After sitting on the pictures a bit I wasn't too satisfied with how I looked so I messaged my friend Jeremiah<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> to meet me in my soul place, the desert. He shot the new video and portrait for me and I finished it off with retouching.
+After sitting with the pictures a bit I wasn't too satisfied so I messaged my other friend Jeremiah<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> to meet me in my soul place, the desert. He shot a new video and portrait for me and I retouched them for the website.
 
 ## Style Decisions
 
 Visual design is a series of decisions made one after another to craft a look and feel. A lot of these decisions were made in previous iterations of my website. I don't always have to start over because I carry forward the decisions I still agree with (that's the joy of working in iterative chunks.) 
 
-After doing some sketches on paper (no sense taking a picture of these because they're scribbles), I started laying things out:
+After doing some sketches on paper I started laying things out in Photoshop:
 
 <div class="grid">
 	<div class="grid__item three--one-half">
@@ -107,11 +107,11 @@ After a day or so of sprinting, I felt a lot better about the direction and quic
 	<a href="https://dribbble.com/shots/3914162-V9-0-Style-Guide" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/3914162/helen9-styleguide.jpg"></a>
 </figure>
 
-Before I jump into code, I put together a small style guide so I can ensure that I'm not introducing any snowflake elements without reason. I went back and forth between the style guide and my mock-ups to ensure I'm more or less following the rules but <em>I don't break my back.</em> There are diminishing returns if I try to be pixel-perfect with a mock-up made for myself.
+Before I jumped into code, I wanted to double-check that I hadn't introduced any unnecessary styles so I built a small style guide to compare styles. I went back and forth between the style guide and my mock-ups to ensure I'm more or less following the rules but <em>I didn't break my back.</em> There are diminishing returns if I try to be pixel-perfect with a mock-up made for myself.
 
-I built this website using HTML + SCSS using Jekyll and Github pages all of which I've made available on it's Github repo<a id="anchor-3" href="#note-3" class="fieldnotes-anchor">[3]</a> for reference purposes.
+After that I was in development mode. This website is built using HTML + SCSS using Jekyll and Github pages all of which I've made available on it's Github repo<a id="anchor-3" href="#note-3" class="fieldnotes-anchor">[3]</a> for reference purposes.
 
-The only thing particularly unique for my website is that I designed on, and developed with, an 11-column grid. I tend to design with an odd number of columns. I've done this for a very long time because I generally find even-numbered grids to be stifling. I used csswizardry's grid<a id="anchor-4" href="#note-4" class="fieldnotes-anchor">[4]</a> to start with and adjusted it to accommodate.
+The only thing particularly unique for my website is that I designed on and developed with an 11-column grid. I've done this for a very long time because I generally find even-numbered grids to be stifling. I altered csswizardry's grid<a id="anchor-4" href="#note-4" class="fieldnotes-anchor">[4]</a> to accommodate.
 
 ## Launch
 
