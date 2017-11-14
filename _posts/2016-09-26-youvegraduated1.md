@@ -7,6 +7,8 @@ categories:
 layout: post
 redirect_from:
 - "/ive-graduated-now-what-1"
+twitter_desc: Part 1 of 4 pieces about the graduation process for designers looking to start in the industry.
+twitter_image: 55-00card.jpg
 ---
 
 *I did a talk at Bitmaker in Toronto a few weeks ago to aspiring Designers about what to do when starting out. I receive a lot of the same type of questions through Twitter and e-mail so I thought I'd expand on the topic. This is part one of four.*

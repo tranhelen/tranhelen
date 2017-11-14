@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: Understanding boundaries and how they change the way you act throughout your life.
+twitter_image: 54-00card.jpg
 ---
 
 The light shining into the room outlined a silhouette of the familiar short-*ish* man. He faced away from me looking out towards the city with his arms clasped behind his back. I was sitting at a long boardroom table, behind him, at a seat chosen out of reservation&mdash;not too far, not too close. I was told to come here, instead of our office, into a tall glossy building which reeked of excessive wealth.

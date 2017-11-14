@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: A story from college about what validation means.
+twitter_image: 50-00card.jpg
 ---
 
 College was a little competitive for me. A classmate would hand in an assignment, we would both receive our marks, and I would silently vow to *never be shamed again*. Three assignments into this cycle and the outliers were clear. There are just some people who appeared to be *naturally talented* at design. But things weren't locked in stone: I was going to draw the shit out of the next asssignment. Misplaced priorities. It's college, that happens.

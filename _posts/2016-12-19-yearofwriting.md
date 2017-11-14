@@ -5,6 +5,8 @@ categories:
 - blog
 - creative
 layout: post
+twitter_desc: How I built a habit of writing and became more comfortable with publishing in a year.
+twitter_image: 68-00card.jpg
 ---
 
 This year I passed the threshold of writing down more than 100,000 words. Only a fraction of that was published here and I have been grateful with the thoughtful responses I've received. My goals regarding my writing practice were:

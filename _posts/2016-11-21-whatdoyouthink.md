@@ -5,6 +5,8 @@ categories:
 - blog
 - creative
 layout: post
+twitter_desc: How to come up with new topics to write about and understand what you really think about things.
+twitter_image: 65-00card.jpg
 ---
 
 Everyone has been gifted a unique experience but not everyone cultivates what they _think_ about it. It's not that you have nothing to write about, it's that the skill of forming an opinion about your observations is undeveloped.

@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: I try micro-dosing for a month and I report on the results.
+twitter_image: 67-00card.jpg
 ---
 
 _**Disclaimer:** I'm not a doctor, which should be obvious, but just in case this disclaimer is here. I take zero responsibility for you. Do some heavy reading or research before taking anything here too seriously.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> I mean it._

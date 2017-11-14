@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: How to identify your values to live a more deliberate life.
+twitter_image: 66-00card.jpg
 ---
 
 <blockquote class="large">

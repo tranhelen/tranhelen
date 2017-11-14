@@ -5,6 +5,8 @@ categories:
 - blog
 - creative
 layout: post
+twitter_desc: 7 writing tips to dramatically improve your writing right away.
+twitter_image: 66-00card.jpg
 ---
 
 I have collected some rules which has improved my writing dramatically over the past year.

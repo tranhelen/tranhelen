@@ -7,6 +7,8 @@ categories:
 layout: post
 redirect_from:
 - "/ive-graduated-now-what-3"
+twitter_desc: Part 3 of 4 pieces about the graduation process for designers looking to start in the industry.
+twitter_image: 57-00card.jpg
 ---
 
 *This is part three of four in my graduation series which I started last week. If you haven't already, read the <a href="http://helentran.com/ive-graduated-now-what-1">first</a> and <a href="http://helentran.com/ive-graduated-now-what-2">second</a> parts.*

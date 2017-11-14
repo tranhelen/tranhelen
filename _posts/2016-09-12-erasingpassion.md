@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: About how it's unfair to ask yourself what your passion is.
+twitter_image: 53-00card.jpg
 ---
 
 A sharp breath escaped me as the needle hit my spine again. My tattoo artist asked, "You alright?" to which I nodded slowly. I was trying not to let on that I had stopped breathing normally. Tattoos hadn't hurt me before, but as the gun passed over my spine for the third time I couldn't help but wince.

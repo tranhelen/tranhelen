@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: A first-generation Canadian explores what privlege means.
+twitter_image: 60-00card.jpg
 ---
 
 “Sometimes I would go to school and my friends would be missing their limbs,” said my mother, recounting Vietnam before they left. 34 years ago, they got on a boat to leave the bomb-riddled fields of Vietnam and found themselves in a refuge camp in the Philippines. While there, my mother gave birth to my brother and lost almost all her teeth in the pregnancy from lack of nutrition. They raised him on rice milk boiled from their rations.
@@ -19,4 +21,4 @@ I stand strong because of what others gave me. Even though the start of my life 
 
 When we address the concept of *privilege*, like the privilege I have now, I am not offended. I know where I came from and what I did. Acknowledging that I am privileged now does not erase my past nor my accomplishments. It means I have a responsibility to level the playing field like others did for my parents.
 
-As someone who has greatly benefitted from compassionate people, I don’t consider it only a responsibility to take care of others in this way. I consider it a  privilege of the privileged to lift others up.
+As someone who has greatly benefitted from compassionate people, I don’t consider it only a responsibility to take care of others in this way. I consider it a privilege of the privileged to lift others up.

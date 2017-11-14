@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: I answer a complicated question about whether or not designers are solving the right problems.
+twitter_image: 61-00card.jpg
 ---
 
 "Are we solving the right problems?” is a question I was asked about a month ago and I said that I didn’t think it was a fair judgement to cast. My attention has since turned to the actual question itself, which carries its own problems: what is _right_, what does _solving_ the problem mean, and who the hell is _we_ anyway?
