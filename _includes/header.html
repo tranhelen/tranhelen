@@ -10,6 +10,15 @@
             <meta http-equiv="refresh" content="4; url=/">
         {% endif %}
         
+        {% if page.twitter_desc %}
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="@tranhelen">
+            <meta name="twitter:creator" content="@tranhelen">
+            <meta name="twitter:title" content="{{ page.title }}">
+            <meta name="twitter:description" content="{{ page.twitter_desc }}">
+            <meta name="twitter:image" content="http://helentran.com/img/post/{{ page.twitter_image }}">
+        {% endif %}
+        
         <link rel="stylesheet" href="/css/theme/style.css">
         <link rel="stylesheet" href="/css/aos/aos.css" />
 
