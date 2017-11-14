@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: Out of all the advice I give I tend to give this one the most often.
+twitter_image: 86-00card.jpg
 ---
 
 Out of all the advice I give I tend to give this one the most often. It's old-school advice drilled into me when I was in college. I pass it along to all my students still because I believe it's just as relevant now to our industry: 
