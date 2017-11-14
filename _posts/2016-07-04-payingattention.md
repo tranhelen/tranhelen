@@ -5,7 +5,8 @@ categories:
 - blog
 - management
 layout: post
-twitter_desc: Why paying close attention to words can change how you look at something very quickly.
+twitter_desc: Why paying close attention to words can change how you look at something
+  very quickly.
 twitter_image: 43-00card.jpg
 ---
 

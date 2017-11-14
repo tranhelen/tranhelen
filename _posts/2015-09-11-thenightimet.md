@@ -5,7 +5,8 @@ categories:
 - blog
 - life
 layout: post
-twitter_desc: A story about the night I met 'hate' and why the emotion shouldn't be vilified.
+twitter_desc: A story about the night I met 'hate' and why the emotion shouldn't be
+  vilified.
 twitter_image: 20-00card.jpg
 ---
 

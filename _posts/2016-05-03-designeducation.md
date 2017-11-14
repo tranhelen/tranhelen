@@ -5,7 +5,8 @@ categories:
 - blog
 - design
 layout: post
-twitter_desc: I talk about the gap which is missing in the design industry and go through the benefits and pitfalls of the various education methods available now.
+twitter_desc: I talk about the gap which is missing in the design industry and go
+  through the benefits and pitfalls of the various education methods available now.
 twitter_image: 35-00card.jpg
 ---
 

@@ -5,7 +5,8 @@ categories:
 - blog
 - creative
 layout: post
-twitter_desc: How to come up with new topics to write about and understand what you really think about things.
+twitter_desc: How to come up with new topics to write about and understand what you
+  really think about things.
 twitter_image: 64-00card.jpg
 ---
 

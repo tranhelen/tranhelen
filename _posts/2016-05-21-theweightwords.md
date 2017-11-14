@@ -5,7 +5,8 @@ categories:
 - blog
 - management
 layout: post
-twitter_desc: About how the weight of your words shift when you become a lead an what that means.
+twitter_desc: About how the weight of your words shift when you become a lead an what
+  that means.
 twitter_image: 37-00card.jpg
 ---
 

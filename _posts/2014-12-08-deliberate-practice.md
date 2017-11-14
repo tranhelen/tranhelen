@@ -7,7 +7,8 @@ categories:
 layout: post
 hero: 06-01hero.jpg
 hero_caption: Pixar's Short; Geri's Game
-twitter_desc: I talk about how deliberate practice can change your design career and give some practical tips and list resources which could help you start.
+twitter_desc: I talk about how deliberate practice can change your design career and
+  give some practical tips and list resources which could help you start.
 twitter_image: 17-00card.jpg
 ---
 
