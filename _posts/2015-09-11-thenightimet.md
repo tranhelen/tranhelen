@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: A story about the night I met 'hate' and why the emotion shouldn't be vilified.
+twitter_image: 20-00card.jpg
 ---
 
 My life generally has been pretty positive. I was raised by two parents whose commitment to their partnership is nothing short of a miracle. My family was incredibly supportive, the majority of my childhood was happy and my growing years passed by without many negative experiences. In general, I have been very lucky.

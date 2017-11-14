@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: A brief description of this redesign.
+twitter_image: 48-00card.jpg
 ---
 
 <div class="grid grid--full">

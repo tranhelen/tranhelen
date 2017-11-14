@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: A story about the ticking clock that every working woman has to contend with.
+twitter_image: 32-00card.jpg
 ---
 
 Six years ago, I flew to Australia for the second time to visit my grandparents and relatives. I don't get to see them much so occasionally I meet people I'm related to and have no idea how. During this particular trip, I met my cousin's daughter, who decided the moment she met me that I was the sunshine of her life. We were in a relationship.

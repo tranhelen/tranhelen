@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: What I really love about the internet and my redesign.
+twitter_image: 29-00card.jpg
 ---
 
 Almost exactly a year ago Louis C.K. sent a letter to his fans detailing his career in stand-up. He talked about what it was like when he was growing up and the comedy clubs which defined and guided his career. It was a love letter.

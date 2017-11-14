@@ -7,6 +7,8 @@ categories:
 layout: post
 hero: 06-01hero.jpg
 hero_caption: Pixar's Short; Geri's Game
+twitter_desc: I talk about how deliberate practice can change your design career and give some practical tips and list resources which could help you start.
+twitter_image: 17-00card.jpg
 ---
 
 When Malcolm Gladwell’s book, "<em>Outliers</em>", is referenced, the 10,000 hour rule (or the ten-year rule) is typically just glossed over as, “10,000 hours of practice.”<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> This is an over-simplication of the study from which it came. The study not only involved how long people worked, but what type of work they did. One of my favourite books, "<em>So Good They Can’t Ignore You</em>"</a>, by Cal Newport takes a closer look.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a>

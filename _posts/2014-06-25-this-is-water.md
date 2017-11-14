@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: I talk about water.
+twitter_image: 15-00card.jpg
 ---
 
 David Foster Wallace’s commencement speech for Kenyon graduates in 2005 opens with a parable,

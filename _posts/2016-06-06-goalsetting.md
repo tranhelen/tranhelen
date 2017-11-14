@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: Practical tips on how to set goals for yourself.
+twitter_image: 39-00card.jpg
 ---
 
 I set up goals on a yearly basis. Anything beyond that doesn't work for me because anything beyond one year makes me feel trapped. This may be different for you so feel free to adjust as you see fit.

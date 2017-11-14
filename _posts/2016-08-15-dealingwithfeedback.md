@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: All about the various ways you can get feedback as a designer on your work and how to deal with it.
+twitter_image: 49-00card.jpg
 ---
 
 Some of the most liked retweets of an Adaptive Path article<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> from the Design community highlighted these sentences,

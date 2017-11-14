@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: About maintaining sanity as a Designer and not becoming overwhelmed by what's around you.
+twitter_image: 38-00card.jpg
 ---
 
 When you choose to become a Designer, if you were taught the right thing, you have silently signed a document promising that you will solve problems. What they don't tell you is that you will not be able to turn it off. It's one of those careers which truly tranforms your entire mode of thinking. &#8220;*Design thinking*&#8221;–that's what 'dem business folk call it.

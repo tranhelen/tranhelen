@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: Why it's important for you to say out loud when and why things are wrong.
+twitter_image: 34-00card.jpg
 ---
 
 "The Big Short" was a film released last year covering the collapse of the housing market and unearthing the apathy behind some of the most fraudulent loans ever created. The movie (perhaps excessively) makes mention of optimism and cynicism as driving forces behind the main actions of the characters. It's hard to criticize it for making this claim, as we know from the aftermath of the collapse there were many signs of a collapsing market but nobody pointed it out because it seemed like *everything was going to be okay.*

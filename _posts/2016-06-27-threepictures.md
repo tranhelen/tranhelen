@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: All designers should be looking at more than simply the big picture.
+twitter_image: 42-00card.jpg
 ---
 
 Every Designer should concern themselves with the size of pictures. There are exactly three and I'm going to label them small, medium, and large. Some people may call the last one *the big picture*. It doesn't matter what you name them, just know there are exactly three.

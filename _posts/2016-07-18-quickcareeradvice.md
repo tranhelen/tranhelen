@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: Some quick career advice to designers working in the industry now.
+twitter_image: 45-00card.jpg
 ---
 
 1. **Make yourself indispensable to people who aren't designers.**  

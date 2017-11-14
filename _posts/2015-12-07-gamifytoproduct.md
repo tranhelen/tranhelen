@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: About gamification and how to apply game mechanics to product design properly.
+twitter_image: 26-00card.jpg
 ---
 
 In a press release written in 2012, Gartner said by 2014,<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>

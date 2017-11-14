@@ -6,7 +6,7 @@ categories:
 - tech
 layout: post
 twitter_desc: An exploration about tech culture and the echo chamber.
-twitter_image: 63-00card.jpg
+twitter_image: 62-00card.jpg
 ---
 
 Jon Ronson outlines the dangers of group-think in his latest book, <em>&#8220;So You’ve Been Publicly Shamed.&#8221;</em><a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> After running through several case studies of the immense emotional and social damage some people have undergone due to public shaming on the internet, he posits that group-thinking encourages us to behave unlike we would if we were alone. He asserts,

@@ -5,6 +5,8 @@ categories:
 - blog
 - tech
 layout: post
+twitter_desc: I think about the problem with current wearables right now.
+twitter_image: 22-00card.jpg
 ---
 
 There has been much talk about the Law of Accelerating Returns recently in the context of artificial intelligence especially since the likes of Elon Musk, Bill Gates and Stephen Hawking are calling for restraint in the industry.

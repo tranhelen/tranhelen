@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: How I keep myself inspired and focused on a yearly basis.
+twitter_image: 30-00card.jpg
 ---
 
 One of the [books I read last year](http://helentran.com/46-books-later) was a commencement speech book. I'll admit I love commencement speeches so you can smirk and we can both move forward. I like them because I never heard mine. I didn't go to my graduation and it will always be a small regret that I didn't stand next to my classmates and listen to someone give me advice that I wouldn't listen to.

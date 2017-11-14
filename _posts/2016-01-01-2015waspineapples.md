@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: A series of lessons learned from 2015.
+twitter_image: 27-00card.jpg
 ---
 
 1. Vulnerability is your greatest strength.

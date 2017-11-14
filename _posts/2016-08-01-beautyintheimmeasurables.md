@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: I question the value of things that are immeasurable.
+twitter_image: 47-00card.jpg
 ---
 
 A couple of years ago, my best friend and I went on a road trip from Paris, to Grenoble, down the eastern edge of France, and then along the southern coast. Every town or city we passed had a beautifully landscaped place for people to sit around a river or a stream. When I visited Japan, I encountered the same commitment. Commmitments to the immeasurable.

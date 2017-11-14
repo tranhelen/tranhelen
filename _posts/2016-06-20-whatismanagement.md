@@ -5,6 +5,8 @@ categories:
 - blog
 - management
 layout: post
+twitter_desc: A brief primer on what management is and isn't, for anyone who is looking at a promotion that will push them in that direction.
+twitter_image: 41-00card.jpg
 ---
 
 Management isn't a promotion from Senior Designer to Lead. It's a completely different job with a unique set of goals. For those considering moving into Design leadership, here are the following things you must know:

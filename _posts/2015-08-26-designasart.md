@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: I talk about the age-old question, "Is design art?"
+twitter_image: 19-00card.jpg
 ---
 
 When I was on a solo portion of a road trip in Iceland I absorbed a few books on my reading list, one of which was Amanda Palmer's, “The Art of Asking.” She read from a keynote address she wrote in 2013,

@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: I talk about money and our weak correlation between it and passion.
+twitter_image: 18-00card.jpg
 ---
 
 We're going to talk about money.

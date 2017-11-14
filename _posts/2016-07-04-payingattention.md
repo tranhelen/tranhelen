@@ -5,6 +5,8 @@ categories:
 - blog
 - management
 layout: post
+twitter_desc: Why paying close attention to words can change how you look at something very quickly.
+twitter_image: 43-00card.jpg
 ---
 
 A few pages in and my body is softening to comform to the edges of the couch I&rsquo;m sitting in.  

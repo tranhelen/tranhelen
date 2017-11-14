@@ -6,7 +6,7 @@ categories:
 - website
 layout: post
 twitter_desc: How to schedule a post for future publication using Jekyll and Github pages.
-twitter_image: 61-00card.jpg
+twitter_image: 60-00card.jpg
 ---
 
 My website is built on Jekyll and Github Pages. Jekyll allows you to assign a date of publication on a post but Github Pages won't automatically push this post on that date for you. I have been wishing for ways to publish my editorial schedule without babysitting. I ran into a post<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> which promised what I was looking for but it didn't quite work for my requirements:

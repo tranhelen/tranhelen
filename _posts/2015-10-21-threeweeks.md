@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: What I've learned from living with just my phone for three weeks.
+twitter_image: 21-00card.jpg
 ---
 
 I have just come back from a three week trip in Japan for which the only device I brought was my phone. This wasn't really a difficult decision for me to make but after relying on it as my primary device, I've noticed a few things:

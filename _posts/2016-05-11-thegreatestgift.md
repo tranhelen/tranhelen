@@ -5,6 +5,8 @@ categories:
 - blog
 - life
 layout: post
+twitter_desc: A story about my grandpa.
+twitter_image: 36-00card.jpg
 ---
 
 "I have nothing to give you," was one of the last things he said to me. We were standing in his hospital room and it had been about eight years since I had last seen him. He was unfamiliar to me having spent the majority of my life without him around but my usually quite shielded heart broke a little upon hearing those words. 

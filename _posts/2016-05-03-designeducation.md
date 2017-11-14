@@ -5,6 +5,8 @@ categories:
 - blog
 - design
 layout: post
+twitter_desc: I talk about the gap which is missing in the design industry and go through the benefits and pitfalls of the various education methods available now.
+twitter_image: 35-00card.jpg
 ---
 
 I've been focusing a lot lately on the education of non-Designers wanting to be Designers, new Designers, transitioning Designers and old creaky Designers. Mostly, the problem is there isn't any education. Compounded, the field is so new mature Product Design practices don't really exist so we're all kind of heading into a dark cave but at least we're holding hands.
