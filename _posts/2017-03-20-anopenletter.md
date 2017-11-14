@@ -5,7 +5,8 @@ categories:
 - blog
 - tech
 layout: post
-twitter_desc: A hiring designer manager asks female Designers to meet her halfway and gives tips on how to make yourself more visible to the industry.
+twitter_desc: A hiring designer manager asks female Designers to meet her halfway
+  and gives tips on how to make yourself more visible to the industry.
 twitter_image: 81-00card.jpg
 ---
 
