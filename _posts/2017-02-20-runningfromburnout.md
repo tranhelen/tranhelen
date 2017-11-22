@@ -5,7 +5,7 @@ categories:
 - blog		
 - tech		
 layout: post		
-twitter_desc: Preventative care: some tips on avoiding burn-out.		
+twitter_desc: Preventative care, some tips on avoiding burn-out.		
 twitter_image: 77-00card.jpg
 ---
 
