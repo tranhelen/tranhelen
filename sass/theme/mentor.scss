@@ -127,10 +127,25 @@ h6 {
 	text-transform: uppercase;	
 }
 
-p {
+p,
+ul,
+ul li {
 	color: $colorTextBody;
 	font-size: em(18px);
 	line-height: 27px;
+}
+
+ul,
+ul li {
+	font-size: inherit;
+}
+
+ul {
+	padding: 0 0 0 25px;
+
+	li {
+		margin-bottom: 5px;
+	}
 }
 
 a {
@@ -155,10 +170,45 @@ header {
 
 footer {
 	font-size: em(14px);
+	padding: 10px 0 50px;
+
+	p {
+		margin: 0;
+	}
+}
+
+input,
+textarea {
+	border: 0;
+	color: $colorTextBody;
+	padding: 15px;
+	width: 100%;
+}
+
+label {
+	display: block;
+	font-weight: 600;
+	margin: 20px 0 10px;
+
+	@extend h5;
+}
+
+.btTxt {
+	background-color: $colorTextHeader;
+	border-radius: 0;
+	color: #fff;
+	font-weight: 600;
+	font-size: em(14px);
+	margin-top: 20px;
+	text-transform: uppercase;
 }
 
 .container {
 	margin: 0 30px;
+}
+
+.hide {
+	display: none;
 }
 
 .no-list {
@@ -167,10 +217,38 @@ footer {
 	padding: 0;
 }
 
+.pricing-num {
+	font-family: $stack1;
+	font-size: em(160px);
+	letter-spacing: -10px;
+	line-height: 150px;
+	margin: -40px 0 -70px;
+    text-align: center;
+
+	.dollar {
+		font-size: 60px;
+		margin-right: 10px;
+		position: relative;
+		top: -35px;
+	}
+
+	.kerning {
+		position: relative;
+		left: -7px;
+	}
+}
+
+.pricing-sub {
+	font-family: $stack1;
+	font-style: italic;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
 .quote {
 	border-bottom: 1px dotted $colorTextHeader;
-	padding-bottom: 10px;
-    margin-bottom: 30px;
+	padding: 5px 0 25px;
+    margin-bottom: 40px;
 
     &.--last {
     	border: 0;
@@ -217,9 +295,9 @@ footer {
 
 .s3 {
 	background: url('/img/mentor/watercolour04.png');
-	background-position: -50px -50px;
+	background-position: 20% -50px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 130%;
     padding: 50px 0 0;
 }
 
@@ -236,7 +314,7 @@ footer {
 
 	.double-border2 {
 		border: 1px dotted $colorTextBody;
-		padding: 30px;
+		padding: 40px 30px;
 	}
 }
 
@@ -253,20 +331,26 @@ footer {
 }
 
 .s5 {
-	padding: 20px 0 30px;
+	padding: 10px 0 30px;
 	position: relative;
 }
 
 .s5-background {
 	background: url('/img/mentor/watercolour06.png');
-	background-position: top left;
+	background-position: 12% 3%;
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 150%;
     height: 100%;
-    margin-top: -280px;
+    margin-top: -340px;
     position: absolute;
     width: 100%;
     z-index: -1;
+}
+
+.consultation {
+	background-color: #f6fcfc;
+	margin: 40px 0 0;
+	padding: 50px 0;
 }
 
 .separator-double {
