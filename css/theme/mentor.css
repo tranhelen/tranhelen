@@ -3380,8 +3380,15 @@ h1 {
   line-height: 60px;
   margin: 0;
 }
+@media screen and (min-width: 1000px) {
+  /* line 95, ../../sass/theme/mentor.scss */
+  h1 {
+    font-size: 5.625em;
+    line-height: 70px;
+  }
+}
 
-/* line 102, ../../sass/theme/mentor.scss */
+/* line 107, ../../sass/theme/mentor.scss */
 h2 {
   font-size: 2.75em;
   font-weight: 600;
@@ -3389,7 +3396,7 @@ h2 {
   margin: 0 0 30px;
 }
 
-/* line 109, ../../sass/theme/mentor.scss */
+/* line 114, ../../sass/theme/mentor.scss */
 h3 {
   color: #3399cc;
   font-size: 1.25em;
@@ -3397,7 +3404,7 @@ h3 {
   margin: 0 0 -5px;
 }
 
-/* line 116, ../../sass/theme/mentor.scss */
+/* line 121, ../../sass/theme/mentor.scss */
 h5, label {
   color: #0e3c5f;
   font-size: 0.875em;
@@ -3405,7 +3412,7 @@ h5, label {
   text-transform: uppercase;
 }
 
-/* line 123, ../../sass/theme/mentor.scss */
+/* line 128, ../../sass/theme/mentor.scss */
 h6 {
   color: #3399cc;
   font-size: 0.875em;
@@ -3413,7 +3420,12 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 130, ../../sass/theme/mentor.scss */
+/* line 135, ../../sass/theme/mentor.scss */
+p {
+  margin-top: 0;
+}
+
+/* line 139, ../../sass/theme/mentor.scss */
 p,
 ul,
 ul li {
@@ -3422,22 +3434,22 @@ ul li {
   line-height: 27px;
 }
 
-/* line 138, ../../sass/theme/mentor.scss */
+/* line 147, ../../sass/theme/mentor.scss */
 ul,
 ul li {
   font-size: inherit;
 }
 
-/* line 143, ../../sass/theme/mentor.scss */
+/* line 152, ../../sass/theme/mentor.scss */
 ul {
   padding: 0 0 0 25px;
 }
-/* line 146, ../../sass/theme/mentor.scss */
+/* line 155, ../../sass/theme/mentor.scss */
 ul li {
   margin-bottom: 5px;
 }
 
-/* line 151, ../../sass/theme/mentor.scss */
+/* line 160, ../../sass/theme/mentor.scss */
 a {
   color: #3399cc;
   text-decoration: none;
@@ -3446,13 +3458,13 @@ a {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 157, ../../sass/theme/mentor.scss */
+/* line 166, ../../sass/theme/mentor.scss */
 a:hover {
   border-bottom: 1px solid rgba(51, 153, 204, 0.2);
   color: #1f5c7a;
 }
 
-/* line 163, ../../sass/theme/mentor.scss */
+/* line 172, ../../sass/theme/mentor.scss */
 header {
   background: url("/img/mentor/watercolour01.png");
   background-position: 30% 100%;
@@ -3461,36 +3473,53 @@ header {
   padding-top: 40px;
 }
 @media screen and (min-width: 600px) {
-  /* line 163, ../../sass/theme/mentor.scss */
+  /* line 172, ../../sass/theme/mentor.scss */
   header {
     background-position: 30% 60%;
     background-size: 100%;
     padding-top: 90px;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 172, ../../sass/theme/mentor.scss */
+  header {
+    background-position: top left;
+    padding: 190px 0 100px;
+  }
+}
 
-/* line 177, ../../sass/theme/mentor.scss */
+/* line 191, ../../sass/theme/mentor.scss */
 footer {
   font-size: 0.875em;
   padding: 10px 0 30px;
 }
-/* line 181, ../../sass/theme/mentor.scss */
+/* line 195, ../../sass/theme/mentor.scss */
 footer p {
   margin: 0;
 }
 @media screen and (min-width: 600px) {
-  /* line 177, ../../sass/theme/mentor.scss */
+  /* line 191, ../../sass/theme/mentor.scss */
   footer {
     padding-bottom: 100px;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 191, ../../sass/theme/mentor.scss */
+  footer {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHCAYAAAAvZezQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkY1ODNERDlDODE2MTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkY1ODNERDhDODE2MTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDEwNEI5N0RDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDEwNEI5N0VDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5RPdJ3AAAAIUlEQVR42mL8//8/AzJg4rdNQBFhxFDBgAYwBQiaARBgAF2IDFlQvW/sAAAAAElFTkSuQmCC");
+    background-repeat: repeat-x;
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+  }
+}
 
-/* line 190, ../../sass/theme/mentor.scss */
+/* line 212, ../../sass/theme/mentor.scss */
 form {
   padding-top: 1px;
 }
 
-/* line 194, ../../sass/theme/mentor.scss */
+/* line 216, ../../sass/theme/mentor.scss */
 input,
 textarea {
   border: 0;
@@ -3499,14 +3528,14 @@ textarea {
   width: 100%;
 }
 
-/* line 202, ../../sass/theme/mentor.scss */
+/* line 224, ../../sass/theme/mentor.scss */
 label {
   display: block;
   font-weight: 600;
   margin: 20px 0 10px;
 }
 
-/* line 210, ../../sass/theme/mentor.scss */
+/* line 232, ../../sass/theme/mentor.scss */
 .btTxt {
   background-color: #0e3c5f;
   border-radius: 0;
@@ -3517,52 +3546,68 @@ label {
   text-transform: uppercase;
 }
 
-/* line 220, ../../sass/theme/mentor.scss */
+/* line 242, ../../sass/theme/mentor.scss */
 .container {
   padding: 0 30px;
 }
 @media screen and (min-width: 600px) {
-  /* line 220, ../../sass/theme/mentor.scss */
+  /* line 242, ../../sass/theme/mentor.scss */
   .container {
     padding: 0 60px;
   }
 }
 
-/* line 228, ../../sass/theme/mentor.scss */
+/* line 250, ../../sass/theme/mentor.scss */
 .hide {
   display: none;
 }
 
-/* line 232, ../../sass/theme/mentor.scss */
+/* line 254, ../../sass/theme/mentor.scss */
 .no-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 238, ../../sass/theme/mentor.scss */
+@media screen and (min-width: 1000px) {
+  /* line 260, ../../sass/theme/mentor.scss */
+  .pricing {
+    padding: 90px 50px 0 0;
+  }
+  /* line 264, ../../sass/theme/mentor.scss */
+  .pricing h2 {
+    text-align: center;
+  }
+  /* line 268, ../../sass/theme/mentor.scss */
+  .pricing .separator-x {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 275, ../../sass/theme/mentor.scss */
 .pricing-num {
   font-family: "mrs-eaves", Times, Times New Roman, serif;
   font-size: 10em;
   letter-spacing: -10px;
   line-height: 150px;
-  margin: -40px 0 -70px;
+  margin: -40px 0 -50px;
   text-align: center;
 }
-/* line 246, ../../sass/theme/mentor.scss */
+/* line 283, ../../sass/theme/mentor.scss */
 .pricing-num .dollar {
   font-size: 60px;
   margin-right: 10px;
   position: relative;
   top: -35px;
 }
-/* line 253, ../../sass/theme/mentor.scss */
+/* line 290, ../../sass/theme/mentor.scss */
 .pricing-num .kerning {
   position: relative;
   left: -7px;
 }
 
-/* line 259, ../../sass/theme/mentor.scss */
+/* line 296, ../../sass/theme/mentor.scss */
 .pricing-sub {
   font-family: "mrs-eaves", Times, Times New Roman, serif;
   font-style: italic;
@@ -3570,19 +3615,19 @@ label {
   text-align: center;
 }
 
-/* line 266, ../../sass/theme/mentor.scss */
+/* line 303, ../../sass/theme/mentor.scss */
 .quote {
   border-bottom: 1px dotted #0e3c5f;
   padding: 5px 0 25px;
   margin-bottom: 40px;
 }
-/* line 271, ../../sass/theme/mentor.scss */
+/* line 308, ../../sass/theme/mentor.scss */
 .quote.--last {
   border: 0;
   margin: 0;
   padding: 0;
 }
-/* line 277, ../../sass/theme/mentor.scss */
+/* line 314, ../../sass/theme/mentor.scss */
 .quote p {
   font-family: "mrs-eaves", Times, Times New Roman, serif;
   font-style: italic;
@@ -3590,23 +3635,23 @@ label {
   line-height: 32px;
   margin-bottom: 16px;
 }
-/* line 284, ../../sass/theme/mentor.scss */
+/* line 321, ../../sass/theme/mentor.scss */
 .quote p strong {
   color: #0e3c5f;
 }
-/* line 288, ../../sass/theme/mentor.scss */
+/* line 325, ../../sass/theme/mentor.scss */
 .quote p.author {
   color: #617c90;
   font-size: 1.375em;
   font-weight: 600;
   line-height: 28px;
 }
-/* line 294, ../../sass/theme/mentor.scss */
+/* line 331, ../../sass/theme/mentor.scss */
 .quote p.author.--last {
   margin-bottom: 0;
 }
 
-/* line 301, ../../sass/theme/mentor.scss */
+/* line 338, ../../sass/theme/mentor.scss */
 .s1 {
   background: url("/img/mentor/watercolour02.png"), url("/img/mentor/watercolour03.png");
   background-position: 30% 0, right bottom;
@@ -3615,22 +3660,29 @@ label {
   padding-bottom: 30px;
 }
 @media screen and (min-width: 600px) {
-  /* line 301, ../../sass/theme/mentor.scss */
+  /* line 338, ../../sass/theme/mentor.scss */
   .s1 {
     background-size: 100%, 70%;
     padding-bottom: 80px;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 301, ../../sass/theme/mentor.scss */
+  /* line 338, ../../sass/theme/mentor.scss */
   .s1 {
     background-size: 100%, 60%;
     padding: 50px 0 60px;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 356, ../../sass/theme/mentor.scss */
+  .s1 h2 {
+    margin-bottom: 35px;
+    width: 49.98%;
+  }
+}
 
 @media screen and (min-width: 800px) {
-  /* line 319, ../../sass/theme/mentor.scss */
+  /* line 363, ../../sass/theme/mentor.scss */
   .s1-benefits-row {
     column-count: 2;
     column-gap: 50px;
@@ -3639,33 +3691,49 @@ label {
     column-rule-style: dotted;
     margin-bottom: 30px;
   }
-  /* line 328, ../../sass/theme/mentor.scss */
+  /* line 372, ../../sass/theme/mentor.scss */
   .s1-benefits-row p {
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 363, ../../sass/theme/mentor.scss */
+  .s1-benefits-row {
+    margin-left: 8.33%;
+  }
+}
 
-/* line 334, ../../sass/theme/mentor.scss */
+/* line 382, ../../sass/theme/mentor.scss */
 .s2 {
   background-color: #f6fcfc;
   padding: 40px 0 10px;
 }
 @media screen and (min-width: 600px) {
-  /* line 334, ../../sass/theme/mentor.scss */
+  /* line 382, ../../sass/theme/mentor.scss */
   .s2 {
     padding: 90px 0 60px;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 391, ../../sass/theme/mentor.scss */
+  .s2 h2 {
+    text-align: center;
+  }
+  /* line 395, ../../sass/theme/mentor.scss */
+  .s2 .separator-x {
+    margin: 0 auto 50px;
+  }
+}
 
 @media screen and (min-width: 800px) {
-  /* line 343, ../../sass/theme/mentor.scss */
+  /* line 401, ../../sass/theme/mentor.scss */
   .s2-typesofstudents {
     column-count: 3;
     column-gap: 50px;
   }
 }
 
-/* line 350, ../../sass/theme/mentor.scss */
+/* line 408, ../../sass/theme/mentor.scss */
 .s3 {
   background: url("/img/mentor/watercolour04.png");
   background-position: 20% -50px;
@@ -3674,7 +3742,7 @@ label {
   padding: 50px 0 0;
 }
 @media screen and (min-width: 600px) {
-  /* line 350, ../../sass/theme/mentor.scss */
+  /* line 408, ../../sass/theme/mentor.scss */
   .s3 {
     background-position: 40% -270%;
     background-size: 100%;
@@ -3682,13 +3750,32 @@ label {
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 350, ../../sass/theme/mentor.scss */
+  /* line 408, ../../sass/theme/mentor.scss */
   .s3 {
     background-position: 40% 130%;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 408, ../../sass/theme/mentor.scss */
+  .s3 {
+    background-position: -40% -370%;
+    background-size: 60%;
+  }
+  /* line 429, ../../sass/theme/mentor.scss */
+  .s3 h2 {
+    width: 49.98%;
+  }
+}
 
-/* line 368, ../../sass/theme/mentor.scss */
+@media screen and (min-width: 1000px) {
+  /* line 435, ../../sass/theme/mentor.scss */
+  .s3-profile {
+    column-count: 2;
+    margin-left: 8.33%;
+  }
+}
+
+/* line 442, ../../sass/theme/mentor.scss */
 .s4 {
   background-color: #f2f2e9;
   margin: 40px 15px 30px;
@@ -3696,30 +3783,36 @@ label {
   position: relative;
 }
 @media screen and (min-width: 600px) {
-  /* line 368, ../../sass/theme/mentor.scss */
+  /* line 442, ../../sass/theme/mentor.scss */
   .s4 {
     margin: 40px 30px 30px;
     padding: 30px;
   }
 }
-/* line 379, ../../sass/theme/mentor.scss */
+/* line 453, ../../sass/theme/mentor.scss */
 .s4 .double-border {
   border: 1px dotted #0e3c5f;
   padding: 3px;
 }
-/* line 384, ../../sass/theme/mentor.scss */
+/* line 458, ../../sass/theme/mentor.scss */
 .s4 .double-border2 {
   border: 1px dotted #0e3c5f;
   padding: 40px 30px;
 }
 @media screen and (min-width: 600px) {
-  /* line 384, ../../sass/theme/mentor.scss */
+  /* line 458, ../../sass/theme/mentor.scss */
   .s4 .double-border2 {
     padding: 45px 50px;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 458, ../../sass/theme/mentor.scss */
+  .s4 .double-border2 {
+    padding: 90px 100px;
+  }
+}
 
-/* line 394, ../../sass/theme/mentor.scss */
+/* line 472, ../../sass/theme/mentor.scss */
 .s4-background {
   background: url("/img/mentor/watercolour05.png");
   background-position: top right;
@@ -3732,25 +3825,69 @@ label {
   z-index: -1;
 }
 @media screen and (min-width: 600px) {
-  /* line 394, ../../sass/theme/mentor.scss */
+  /* line 472, ../../sass/theme/mentor.scss */
   .s4-background {
     margin-top: -250px;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 472, ../../sass/theme/mentor.scss */
+  .s4-background {
+    background-size: 70%;
+    margin-top: -40%;
+  }
+}
 
-/* line 410, ../../sass/theme/mentor.scss */
+/* line 493, ../../sass/theme/mentor.scss */
 .s5 {
   padding: 10px 0 30px;
   position: relative;
 }
+/* line 2, ../../sass/modules/_mixins.scss */
+.s5:before, .s5:after {
+  content: "";
+  display: table;
+}
+/* line 6, ../../sass/modules/_mixins.scss */
+.s5:after {
+  clear: both;
+}
+/* line 499, ../../sass/theme/mentor.scss */
+.s5 .container {
+  padding: 0;
+}
 @media screen and (min-width: 600px) {
-  /* line 410, ../../sass/theme/mentor.scss */
+  /* line 493, ../../sass/theme/mentor.scss */
   .s5 {
     padding: 60px 0 30px;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 493, ../../sass/theme/mentor.scss */
+  .s5 {
+    padding: 25px 0 30px;
+  }
+  /* line 510, ../../sass/theme/mentor.scss */
+  .s5 .container {
+    padding: 0 50px;
+  }
+  /* line 514, ../../sass/theme/mentor.scss */
+  .s5 .consultation {
+    float: left;
+    width: 66%;
+  }
+  /* line 519, ../../sass/theme/mentor.scss */
+  .s5 .pricing {
+    float: left;
+    width: 33%;
+  }
+  /* line 520, ../../sass/theme/mentor.scss */
+  .s5 .pricing .container {
+    padding: 0;
+  }
+}
 
-/* line 419, ../../sass/theme/mentor.scss */
+/* line 530, ../../sass/theme/mentor.scss */
 .s5-background {
   background: url("/img/mentor/watercolour06.png");
   background-position: 12% 3%;
@@ -3763,35 +3900,58 @@ label {
   z-index: -1;
 }
 @media screen and (min-width: 600px) {
-  /* line 419, ../../sass/theme/mentor.scss */
+  /* line 530, ../../sass/theme/mentor.scss */
   .s5-background {
     background-size: 130%;
     margin-top: -610px;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 419, ../../sass/theme/mentor.scss */
+  /* line 530, ../../sass/theme/mentor.scss */
   .s5-background {
     background-size: 130%;
     margin-top: -100%;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 530, ../../sass/theme/mentor.scss */
+  .s5-background {
+    background-size: 50%;
+    margin-left: -12%;
+    margin-top: -16%;
+  }
+}
 
-/* line 441, ../../sass/theme/mentor.scss */
+/* line 558, ../../sass/theme/mentor.scss */
 .consultation {
   background-color: #f6fcfc;
   margin: 40px 0 0;
   padding: 50px 0;
 }
 @media screen and (min-width: 600px) {
-  /* line 441, ../../sass/theme/mentor.scss */
+  /* line 558, ../../sass/theme/mentor.scss */
   .consultation {
     margin: 90px 0 0;
     padding: 90px 0 100px;
   }
 }
+@media screen and (min-width: 1000px) {
+  /* line 558, ../../sass/theme/mentor.scss */
+  .consultation {
+    margin-top: 0;
+  }
+  /* line 571, ../../sass/theme/mentor.scss */
+  .consultation h2 {
+    text-align: center;
+  }
+  /* line 575, ../../sass/theme/mentor.scss */
+  .consultation .separator-x {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
-/* line 452, ../../sass/theme/mentor.scss */
+/* line 582, ../../sass/theme/mentor.scss */
 .separator-double {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHCAYAAAAvZezQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkY1ODNERDlDODE2MTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkY1ODNERDhDODE2MTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDEwNEI5N0RDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDEwNEI5N0VDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5RPdJ3AAAAIUlEQVR42mL8//8/AzJg4rdNQBFhxFDBgAYwBQiaARBgAF2IDFlQvW/sAAAAAElFTkSuQmCC");
   background-repeat: repeat-x;
@@ -3799,7 +3959,7 @@ label {
   margin: -50px 0 50px;
 }
 
-/* line 459, ../../sass/theme/mentor.scss */
+/* line 589, ../../sass/theme/mentor.scss */
 .separator-inline {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAHCAYAAAAbHC3MAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDc0RDI1M0NDODJDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDc0RDI1M0JDODJDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDEwNEI5N0RDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDEwNEI5N0VDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6+/jLqAAAAa0lEQVR42mL4//8/A7E4Z+ut/2efff6PLHb22af/IHFizWAgxUKQ4c4LL8AtRfA/0cZCZEuWX35JsmVgC/ls4lE0oPOxYZBlprPOgC3Fpw6b2WT48DOaDz+T5kNyLMOMw8+0iUNqpFKAAAMA9dtNzI4oa2sAAAAASUVORK5CYII=");
   background-repeat: no-repeat;
@@ -3809,7 +3969,7 @@ label {
   width: 28px;
 }
 
-/* line 468, ../../sass/theme/mentor.scss */
+/* line 598, ../../sass/theme/mentor.scss */
 .separator-x {
   background: url("data:image/png;base64,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UmVhZHlxyWU8AAADI2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDEwNEI5N0RDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDEwNEI5N0VDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEMTA0Qjk3QkM4MEMxMUU3QTUwNkI4QkYzM0Q4RDVDMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEMTA0Qjk3Q0M4MEMxMUU3QTUwNkI4QkYzM0Q4RDVDMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjQfimkAAAAYUExURQ48X83m80Oh0M3m8my12qfT6TWazP///2OMLDAAAAAIdFJOU/////////8A3oO9WQAAAEpJREFUeNq0ksEOADAEQ3WY///jieywoy7RpG7yFBKcDFnUuCYhIbqQ1llIEpxlhMgldVzy7c+ALdNJkEkQs+tC3QSzkK/vOgIMAN/9Ef4PLUkhAAAAAElFTkSuQmCC");
   background-repeat: no-repeat;
@@ -3818,7 +3978,7 @@ label {
   width: 100px;
 }
 
-/* line 476, ../../sass/theme/mentor.scss */
+/* line 606, ../../sass/theme/mentor.scss */
 .tag {
   background-color: #0e3c5f;
   border: 1px solid #57778f;
@@ -3828,47 +3988,47 @@ label {
   margin: 5px;
 }
 
-/* line 485, ../../sass/theme/mentor.scss */
+/* line 615, ../../sass/theme/mentor.scss */
 .tag-block {
   text-align: center;
 }
 @media screen and (min-width: 600px) {
-  /* line 485, ../../sass/theme/mentor.scss */
+  /* line 615, ../../sass/theme/mentor.scss */
   .tag-block {
     margin: 5px 0 70px;
   }
 }
 
-/* line 493, ../../sass/theme/mentor.scss */
+/* line 623, ../../sass/theme/mentor.scss */
 .tag-holder {
   display: inline-block;
   background-color: #0e3c5f;
   padding: 0;
 }
 
-/* line 499, ../../sass/theme/mentor.scss */
+/* line 629, ../../sass/theme/mentor.scss */
 .topic {
   max-width: 150px;
 }
 
-/* line 503, ../../sass/theme/mentor.scss */
+/* line 633, ../../sass/theme/mentor.scss */
 .topic-list {
   column-count: 2;
   column-gap: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 503, ../../sass/theme/mentor.scss */
+  /* line 633, ../../sass/theme/mentor.scss */
   .topic-list {
     column-count: 3;
   }
 }
 
-/* line 512, ../../sass/theme/mentor.scss */
+/* line 642, ../../sass/theme/mentor.scss */
 .topic-single {
   margin-bottom: 40px;
   text-align: center;
 }
-/* line 516, ../../sass/theme/mentor.scss */
+/* line 646, ../../sass/theme/mentor.scss */
 .topic-single h5, .topic-single label {
   margin-top: 20px;
 }

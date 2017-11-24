@@ -93,10 +93,15 @@ h1,h2 {
 }
 
 h1 {
-	font-size: em(70px); // make 90px when you can fit it
+	font-size: em(70px);
 	font-weight: 300;
 	line-height: 60px;
 	margin: 0;
+
+	@include at-query($three) {
+		font-size: em(90px);
+		line-height: 70px;
+	}
 }
 
 h2 {
@@ -125,6 +130,10 @@ h6 {
 	font-size: em(14px);
 	margin: 0 auto;
 	text-transform: uppercase;	
+}
+
+p {
+	margin-top: 0;
 }
 
 p,
@@ -172,6 +181,11 @@ header {
 		background-size: 100%;
 		padding-top: 90px;
 	}
+
+	@include at-query($three) {
+		background-position: top left;
+		padding: 190px 0 100px;
+	}
 }
 
 footer {
@@ -184,6 +198,14 @@ footer {
 
 	@include at-query($one) {
 		padding-bottom: 100px;
+	}
+
+	@include at-query($three) {
+		background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHCAYAAAAvZezQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkY1ODNERDlDODE2MTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkY1ODNERDhDODE2MTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RDEwNEI5N0RDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RDEwNEI5N0VDODBDMTFFN0E1MDZCOEJGMzNEOEQ1QzMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5RPdJ3AAAAIUlEQVR42mL8//8/AzJg4rdNQBFhxFDBgAYwBQiaARBgAF2IDFlQvW/sAAAAAElFTkSuQmCC');
+		background-repeat: repeat-x;
+		margin-top: 20px;
+		padding-top: 30px;
+		text-align: center;
 	}
 }
 
@@ -235,12 +257,27 @@ label {
 	padding: 0;
 }
 
+.pricing {
+	@include at-query($three) {
+		padding: 90px 50px 0 0;
+
+		h2 {
+			text-align: center;
+		}
+
+		.separator-x {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
 .pricing-num {
 	font-family: $stack1;
 	font-size: em(160px);
 	letter-spacing: -10px;
 	line-height: 150px;
-	margin: -40px 0 -70px;
+	margin: -40px 0 -50px;
     text-align: center;
 
 	.dollar {
@@ -314,6 +351,13 @@ label {
 		background-size: 100%, 60%;
 		padding: 50px 0 60px;
 	}
+
+	@include at-query($three) {
+		h2 {
+	    	margin-bottom: 35px;
+	    	width: 49.98%;
+		}
+	}
 }
 
 .s1-benefits-row {
@@ -329,6 +373,10 @@ label {
 			margin-bottom: 0;
 		}
 	}
+
+	@include at-query($three) {
+		margin-left: 8.33%;
+	}
 }
 
 .s2 {
@@ -337,6 +385,16 @@ label {
 
 	@include at-query($one) {
 		padding: 90px 0 60px;
+	}
+
+	@include at-query($three) {
+		h2 {
+			text-align: center;
+		}
+
+		.separator-x {
+			margin: 0 auto 50px;
+		}
 	}
 }
 
@@ -363,6 +421,22 @@ label {
     @include at-query($two) {
     	background-position: 40% 130%;
     }
+
+    @include at-query($three) {
+	    background-position: -40% -370%;
+	    background-size: 60%;
+
+    	h2 {
+    		width: 49.98%;
+    	}
+    }
+}
+
+.s3-profile {
+	@include at-query($three) {
+		column-count: 2;	
+		margin-left: 8.33%;
+	}
 }
 
 .s4 {
@@ -388,6 +462,10 @@ label {
 		@include at-query($one) {
 			padding: 45px 50px;
 		}
+
+		@include at-query($three) {
+			padding: 90px 100px;
+		}
 	}
 }
 
@@ -405,14 +483,47 @@ label {
     @include at-query($one) {
     	margin-top: -250px;
     }
+
+    @include at-query($three) {
+	    background-size: 70%;
+	    margin-top: -40%;
+    }
 }
 
 .s5 {
 	padding: 10px 0 30px;
 	position: relative;
 
+	@include clearfix;
+
+	.container {
+		padding: 0;
+	}
+
 	@include at-query($one) {
 		padding: 60px 0 30px;
+	}
+
+	@include at-query($three) {
+		padding: 25px 0 30px;
+
+		.container {
+			padding: 0 50px;
+		}
+
+		.consultation {
+			float: left;
+			width: 66%;
+		}
+
+		.pricing {
+			.container {
+				padding: 0;
+			}
+
+			float: left;
+			width: 33%;
+		}
 	}
 }
 
@@ -436,6 +547,12 @@ label {
 	    background-size: 130%;
 	    margin-top: -100%;
     }
+
+    @include at-query($three) {
+	    background-size: 50%;
+	    margin-left: -12%;
+   		margin-top: -16%;
+    }
 }
 
 .consultation {
@@ -446,6 +563,19 @@ label {
 	@include at-query($one) {
 		margin: 90px 0 0;
     	padding: 90px 0 100px;
+	}
+
+	@include at-query($three) {
+		margin-top: 0;
+
+		h2 {
+			text-align: center;
+		}
+
+		.separator-x {
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 }
 
