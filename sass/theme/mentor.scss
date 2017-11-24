@@ -162,26 +162,40 @@ a {
 
 header {
 	background: url('/img/mentor/watercolour01.png');
-    background-position: 30% 0;
+    background-position: 30% 100%;
 	background-repeat: no-repeat;
     background-size: 150%;
 	padding-top: 40px;
+
+	@include at-query($one) {
+		background-position: 30% 60%;
+		background-size: 100%;
+		padding-top: 90px;
+	}
 }
 
 footer {
 	font-size: em(14px);
-	padding: 10px 0 50px;
+	padding: 10px 0 30px;
 
 	p {
 		margin: 0;
 	}
+
+	@include at-query($one) {
+		padding-bottom: 100px;
+	}
+}
+
+form {
+	padding-top: 1px;
 }
 
 input,
 textarea {
 	border: 0;
 	color: $colorTextBody;
-	padding: 15px;
+	padding: 10px 15px;
 	width: 100%;
 }
 
@@ -204,7 +218,11 @@ label {
 }
 
 .container {
-	margin: 0 30px;
+	padding: 0 30px;
+
+	@include at-query($one) {
+		padding: 0 60px;
+	}
 }
 
 .hide {
@@ -286,11 +304,20 @@ label {
 	background-repeat: no-repeat, no-repeat;
 	background-size: 140%, 100%;
 	padding-bottom: 30px;
+
+	@include at-query($one) {
+		background-size: 100%, 70%;
+		padding-bottom: 80px;
+	}
 }
 
 .s2 {
 	background-color: $colorBGone;
 	padding: 40px 0 10px;
+
+	@include at-query($one) {
+		padding: 90px 0 60px;
+	}
 }
 
 .s3 {
@@ -299,6 +326,10 @@ label {
     background-repeat: no-repeat;
     background-size: 130%;
     padding: 50px 0 0;
+
+    @include at-query($one) {
+		padding: 90px 0 30px;
+    }
 }
 
 .s4 {
@@ -306,6 +337,11 @@ label {
 	margin: 40px 15px 30px;
 	padding: 10px;
 	position: relative;
+
+	@include at-query($one) {
+	    margin: 40px 30px 30px;
+	    padding: 30px;
+	}
 
 	.double-border {
 		border: 1px dotted $colorTextBody;
@@ -315,6 +351,10 @@ label {
 	.double-border2 {
 		border: 1px dotted $colorTextBody;
 		padding: 40px 30px;
+
+		@include at-query($one) {
+			padding: 45px 50px;
+		}
 	}
 }
 
@@ -333,6 +373,10 @@ label {
 .s5 {
 	padding: 10px 0 30px;
 	position: relative;
+
+	@include at-query($one) {
+		padding: 60px 0 30px;
+	}
 }
 
 .s5-background {
@@ -351,6 +395,11 @@ label {
 	background-color: #f6fcfc;
 	margin: 40px 0 0;
 	padding: 50px 0;
+
+	@include at-query($one) {
+		margin: 90px 0 0;
+    	padding: 90px 0 100px;
+	}
 }
 
 .separator-double {
@@ -388,6 +437,10 @@ label {
 
 .tag-block {
 	text-align: center;
+
+	@include at-query($one) {
+		margin: 5px 0 70px;
+	}
 }
 
 .tag-holder {
