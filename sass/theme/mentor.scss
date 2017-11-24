@@ -412,9 +412,9 @@ label {
 
 .s1-background {
 	background: url('/img/mentor/watercolour03.png');
-    background-position: 30% -50%;
+    background-position: -100% -200%;
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 110%;
 	height: 100%;
 	position: absolute;
 	width: 100%;
@@ -458,6 +458,8 @@ label {
 .s2 {
 	background-color: $colorBGone;
 	padding: 40px 0 10px;
+    position: relative;
+    z-index: 1;
 
 	@include at-query($one) {
 		padding: 90px 0 60px;
@@ -482,51 +484,61 @@ label {
 }
 
 .s3 {
-	background: url('/img/mentor/watercolour04.png');
-	background-position: 20% -50px;
-    background-repeat: no-repeat;
-    background-size: 130%;
     padding: 50px 0 0;
     position: relative;
 
     @include at-query($one) {
-	    background-position: 40% -270%;
-	    background-size: 100%;
 		padding: 90px 0 30px;
     }
 
     @include at-query($two) {
-    	background-position: 40% 130%;
+	    background-size: 50%;
     }
 
     @include at-query($three) {
-	    background-position: -40% -370%;
-	    background-size: 60%;
+	    margin: 0 auto;
+	    max-width: 1600px;
+    }
 
-    	h2 {
+    h2 {
+		background: url('/img/mentor/watercolour04.png');
+		background-position: 0 0;
+	    background-repeat: no-repeat;
+	    background-size: 80%;
+	    margin: -235px 0 -205px -50px;
+	    padding: 240px 0 240px 50px;
+
+	    @include at-query($two) {
+	    	background-size: 50%;
+	    }
+
+	    @include at-query($three) {
+	    	background-position: 0% 20%;
+	    	background-size: 90%;
     		width: 49.98%;
-    	}
+	    }
     }
 }
 
 .s3-background {
 	background: url('/img/mentor/watercolour05.png');
-	background-position: top right;
+    background-position: -400% 400px;
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100%;
-    margin-top: -200px;
+    background-size: 110%;
+    height: 150%;
     position: absolute;
     width: 100%;
     z-index: -1;
 
     @include at-query($one) {
-    	margin-top: -250px;
+    	background-position: -300% 100px;
+    	height: 180%;
     }
 
-    @include at-query($three) {
-	    background-size: 70%;
-	    margin-top: -40%;
+    @include at-query($two) {
+    	background-position: 110% 200px;
+	    background-size: 75%;
+	    height: 240%;
     }
 }
 
