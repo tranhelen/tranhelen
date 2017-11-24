@@ -62,7 +62,7 @@ $stack2: "Europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
 /* Breakpoints */
 $one: 600px;
 $two: 800px;
-$three: 1130px;
+$three: 1000px;
 $four: 1500px;
 
 @import "normalize";
@@ -309,6 +309,26 @@ label {
 		background-size: 100%, 70%;
 		padding-bottom: 80px;
 	}
+
+	@include at-query($two) {
+		background-size: 100%, 60%;
+		padding: 50px 0 60px;
+	}
+}
+
+.s1-benefits-row {
+	@include at-query($two) {
+		column-count: 2;
+		column-gap: 50px;
+		column-rule-width: 1px;
+		column-rule-color: $colorTextHeader;
+		column-rule-style: dotted;
+		margin-bottom: 30px;		
+
+		p {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .s2 {
@@ -320,6 +340,13 @@ label {
 	}
 }
 
+.s2-typesofstudents {
+	@include at-query($two) {
+		column-count: 3;
+		column-gap: 50px;		
+	}
+}
+
 .s3 {
 	background: url('/img/mentor/watercolour04.png');
 	background-position: 20% -50px;
@@ -328,7 +355,13 @@ label {
     padding: 50px 0 0;
 
     @include at-query($one) {
+	    background-position: 40% -270%;
+	    background-size: 100%;
 		padding: 90px 0 30px;
+    }
+
+    @include at-query($two) {
+    	background-position: 40% 130%;
     }
 }
 
@@ -368,6 +401,10 @@ label {
     position: absolute;
     width: 100%;
     z-index: -1;
+
+    @include at-query($one) {
+    	margin-top: -250px;
+    }
 }
 
 .s5 {
@@ -389,6 +426,16 @@ label {
     position: absolute;
     width: 100%;
     z-index: -1;
+
+    @include at-query($one) {
+	    background-size: 130%;
+	    margin-top: -610px;
+    }
+
+    @include at-query($two) {
+	    background-size: 130%;
+	    margin-top: -100%;
+    }
 }
 
 .consultation {
@@ -456,6 +503,10 @@ label {
 .topic-list {
 	column-count: 2;
 	column-gap: 30px;
+
+	@include at-query($two) {
+		column-count: 3;
+	}
 }
 
 .topic-single {
