@@ -16,20 +16,12 @@
 
 /* Colour Variables */
 	/* Main */
+	$colorPrimary: #0e3c5f;
 	$colorAccent: #3399cc;
 
-	/* Text */
-	$colorTextHeader: #0e3c5f;
-	$colorTextBody: #0e3c5f; 
-
-	/* Links */
-	$colorLink: #768fe1;
-	
 	/* Other */
-	$colorShadow: #796b5d;
 	$colorBGone: #f6fcfc;
 	$colorBGtwo: #f2f2e9;
-	$selection: #ff0;
 
 /*------------------------------------*\
     #Base
@@ -75,14 +67,9 @@ body {
 	font-family: $stack2;
 }
 
-form#form1 {
-	header {
-		display: none;
-	}
-}
-
-h1,h2 {
-	color: $colorTextHeader;
+h1,
+h2 {
+	color: $colorPrimary;
 	font-family: $stack1;
 }
 
@@ -113,7 +100,7 @@ h3 {
 }
 
 h5 {
-	color: $colorTextHeader;
+	color: $colorPrimary;
 	font-size: em(14px);
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -130,7 +117,7 @@ h6 {
 p,
 ul {
 	margin-top: 0;
-	color: $colorTextBody;
+	color: $colorPrimary;
 	font-size: em(18px);
 	line-height: 27px;
 }
@@ -233,12 +220,16 @@ footer {
 
 form {
 	padding-top: 1px;
+
+	header {
+		display: none;
+	}
 }
 
 input,
 textarea {
 	border: 0;
-	color: $colorTextBody;
+	color: $colorPrimary;
 	padding: 10px 15px;
 	width: 100%;
 }
@@ -285,7 +276,7 @@ label {
 }
 
 .btTxt {
-	background-color: $colorTextHeader;
+	background-color: $colorPrimary;
 	border-radius: 0;
 	color: #fff;
 	font-weight: 600;
@@ -400,7 +391,7 @@ label {
 }
 
 .quote {
-	border-bottom: 1px dotted $colorTextHeader;
+	border-bottom: 1px dotted $colorPrimary;
 	padding: 5px 0 25px;
     margin-bottom: 40px;
 
@@ -418,7 +409,7 @@ label {
 		margin-bottom: 16px;
 
 		strong {
-			color: $colorTextHeader;
+			color: $colorPrimary;
 		}
 
 		&.author {
@@ -501,7 +492,7 @@ label {
 		column-count: 2;
 		column-gap: 50px;
 		column-rule-width: 1px;
-		column-rule-color: $colorTextHeader;
+		column-rule-color: $colorPrimary;
 		column-rule-style: dotted;
 		margin-bottom: 30px;		
 
@@ -627,12 +618,12 @@ label {
 	}
 
 	.double-border {
-		border: 1px dotted $colorTextBody;
+		border: 1px dotted $colorPrimary;
 		padding: 3px;
 	}
 
 	.double-border2 {
-		border: 1px dotted $colorTextBody;
+		border: 1px dotted $colorPrimary;
 		padding: 40px 30px;
 
 		@include at-query($one) {
@@ -738,7 +729,7 @@ label {
 }
 
 .tag {
-	background-color: $colorTextHeader;
+	background-color: $colorPrimary;
     border: 1px solid #57778f;
     color: #fff;
     padding: 7px 20px 10px;
@@ -756,7 +747,7 @@ label {
 
 .tag-holder {
 	display: inline-block;
-    background-color: $colorTextHeader;
+    background-color: $colorPrimary;
     padding: 0;
 }
 
