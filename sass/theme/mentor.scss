@@ -412,32 +412,27 @@ label {
 
 .s1-background {
 	background: url('/img/mentor/watercolour03.png');
-    background-position: bottom right;
-	background-repeat: no-repeat;
-	background-size: 80%;
+    background-position: 30% -50%;
+    background-repeat: no-repeat;
+    background-size: 150%;
 	height: 100%;
 	position: absolute;
-		left: 20%;
-		top: 50%;
 	width: 100%;
 	z-index: -1;
 
 	@include at-query($one) {
-		background-size: 60%;
-			top: 20%;
+		background-size: 110%;
+    	background-position: -240% -20%;
 	}
 
 	@include at-query($two) {
-		background-position: 0 0;
+	    background-position: 170% 0;
 		background-size: 760px;
-			left: 30%;
 	}
 
 	@include at-query($three) {
+	    background-position: 100% 0;
 		background-size: 760px;
-	    background-position: 0 0;
-		    left: 60%;
-		    top: 0%;
 	}
 }
 
