@@ -76,6 +76,11 @@ $four: 1200px;
     #Base
 \*------------------------------------*/
 
+body,
+html {
+	overflow-x: hidden;
+}
+
 body {
 	background: #eaf4f1 url('/img/mentor/background.png');
 	font-family: $stack2;
