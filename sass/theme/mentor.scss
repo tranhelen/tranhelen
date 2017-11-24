@@ -43,14 +43,6 @@ moz-osx-font-smoothing: grayscale;
 text-rendering:optimizeLegibility;
 }
 
-::selection {
-	background: $selection;
-}
-
-::-moz-selection {
-	background: $selection;
-}
-
 img {
 	width: 100%;
 }
@@ -66,10 +58,7 @@ $three: 1000px;
 $four: 1200px;
 
 @import "normalize";
-
 @import "modules/mixins";
-@import "vendor/grids";
-
 @import "partials/helpers";
 
 /*------------------------------------*\
