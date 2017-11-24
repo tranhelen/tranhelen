@@ -122,14 +122,11 @@ ul {
 	line-height: 27px;
 }
 
-ul li {
-	font-size: inherit;
-}
-
 ul {
 	padding: 0 0 0 25px;
 
 	li {
+		font-size: inherit;
 		margin-bottom: 5px;
 	}
 }
@@ -147,8 +144,6 @@ a {
 }
 
 header {
-	position: relative;
-
 	h1 {
 		padding-top: 40px;
 
@@ -162,39 +157,14 @@ header {
 	}
 
 	@include at-query($three) {
-	    max-width: 1400px;
 	    margin: 0 auto;
+	    max-width: 1400px;
 		padding-bottom: 100px;
 
 		h1 {
 			padding-top: 190px;
 		}
     }
-}
-
-.header-background {
-	background: url('/img/mentor/watercolour01.png');
-	background-position: 20% 77%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-	height: 100%;
-	position: absolute;
-	width: 100%;
-	z-index: -1;
-
-	@include at-query($two) {
-		background-position: -100px 80%;
-    	background-size: 100%;
-	}
-
-	@include at-query($three) {
-		background-position: -100px 80%;
-		background-size: 100%;
-	}
-
-	@include at-query($four) {
-		background-position: 0 80%;
-	}
 }
 
 footer {
@@ -224,6 +194,20 @@ form {
 	header {
 		display: none;
 	}
+
+	.btTxt {
+		background-color: $colorPrimary;
+		border-radius: 0;
+		color: #fff;
+		font-weight: 600;
+		font-size: em(14px);
+		margin-top: 20px;
+		text-transform: uppercase;
+	}
+
+	.hide {
+		display: none;
+	}
 }
 
 input,
@@ -242,47 +226,31 @@ label {
 	@extend h5;
 }
 
-.avatar {
-	width: 100px;
-	margin: 0 auto 30px;
+.consultation {
+	background-color: #f6fcfc;
+	margin: 40px 0 0;
+	padding: 50px 30px;
 
 	@include at-query($one) {
-		float: left;
-		margin: 0 0 15px 0;
-		width: 16.66%;
-
-		.--second & {
-			float: right;
-		}
+		margin: 90px 0 0;
+    	padding: 90px 50px 100px;
 	}
 
-	img {
-		border-radius: 99%;
-	}
-}
-
-.quote-body {
-	@include at-query($one) {
+	@include at-query($three) {
 		float: right;
-		padding-left: 30px;
-		width: 83.34%;
+		margin-top: 0;
+		padding: 90px 50px 100px;
+		width: 66.666%;
+		
+		h2 {
+			text-align: center;
+		}
 
-		.--second & {
-			float: left;
-			padding-left: 0;
-			padding-right: 30px;
+		.separator-x {
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
-}
-
-.btTxt {
-	background-color: $colorPrimary;
-	border-radius: 0;
-	color: #fff;
-	font-weight: 600;
-	font-size: em(14px);
-	margin-top: 20px;
-	text-transform: uppercase;
 }
 
 .container {
@@ -302,8 +270,29 @@ label {
 	}
 }
 
-.hide {
-	display: none;
+.header-background {
+	background: url('/img/mentor/watercolour01.png');
+	background-position: 20% 77%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	position: absolute;
+		height: 100%;
+		width: 100%;
+	z-index: -1;
+
+	@include at-query($two) {
+		background-position: -100px 80%;
+    	background-size: 100%;
+	}
+
+	@include at-query($three) {
+		background-position: -100px 80%;
+		background-size: 100%;
+	}
+
+	@include at-query($four) {
+		background-position: 0 80%;
+	}
 }
 
 .no-list {
@@ -334,10 +323,19 @@ label {
 	}
 
 	@include at-query($three) {
+		float: left;
 		padding: 90px 50px 0 0;
+		margin: 0;
+
+		width: 33.333%;
+
 
 		h2 {
 			text-align: center;
+		}
+
+		.container {
+			padding: 0;
 		}
 
 		.separator-x {
@@ -399,6 +397,24 @@ label {
     	border: 0;
     	margin: 0;
     	padding: 0;
+
+    	p {
+    		margin-bottom: 0;
+    	}
+    }
+
+    &.--second {
+    	@include at-query($one) {
+    		.avatar {
+    			float: right;
+    		}
+
+    		.quote-body {
+				float: left;
+				padding-left: 0;
+				padding-right: 30px;
+    		}
+    	}
     }
 
 	p {
@@ -417,10 +433,29 @@ label {
 			font-size: em(22px); // 24
 			font-weight: 600;
 			line-height: 28px;
+		}
+	}
 
-			&.--last {
-				margin-bottom: 0;
-			}
+	.avatar {
+		width: 100px;
+		margin: 0 auto 30px;
+
+		img {
+			border-radius: 99%;
+		}
+	}
+
+	@include at-query($one) {
+		.avatar {
+			float: left;
+			margin: 0 0 15px 0;
+			width: 16.66%;
+		}
+
+		.quote-body {
+			float: right;
+			padding-left: 30px;
+			width: 83.34%;
 		}
 	}
 
@@ -466,9 +501,9 @@ label {
     background-position: -100% -200%;
     background-repeat: no-repeat;
     background-size: 110%;
-	height: 100%;
 	position: absolute;
-	width: 100%;
+		height: 100%;
+		width: 100%;
 	z-index: -1;
 
 	@include at-query($one) {
@@ -576,9 +611,9 @@ label {
     background-position: -400% 400px;
     background-repeat: no-repeat;
     background-size: 110%;
-    height: 150%;
     position: absolute;
-    width: 100%;
+	    height: 150%;
+	    width: 100%;
     z-index: -1;
 
     @include at-query($one) {
@@ -614,7 +649,7 @@ label {
 
 	@include at-query($three) {
 	    margin: 40px auto 30px;
-		max-width: 1100px;
+		max-width: 1220px;
 	}
 
 	.double-border {
@@ -654,52 +689,11 @@ label {
 		.container {
 			padding: 0 50px;
 		}
-
-		.consultation {
-			float: right;
-			width: 66.666%;
-		}
-
-		.pricing {
-			.container {
-				padding: 0;
-			}
-
-			float: left;
-			width: 33.333%;
-			margin: 0;
-		    padding-right: 0;
-		}
 	}
 
 	@include at-query($four) {
 		.container {
 			padding: 0;
-		}
-	}
-}
-
-.consultation {
-	background-color: #f6fcfc;
-	margin: 40px 0 0;
-	padding: 50px 30px;
-
-	@include at-query($one) {
-		margin: 90px 0 0;
-    	padding: 90px 50px 100px;
-	}
-
-	@include at-query($three) {
-		margin-top: 0;
-		padding: 90px 50px 100px;
-
-		h2 {
-			text-align: center;
-		}
-
-		.separator-x {
-			margin-left: auto;
-			margin-right: auto;
 		}
 	}
 }
@@ -732,9 +726,9 @@ label {
 	background-color: $colorPrimary;
     border: 1px solid #57778f;
     color: #fff;
-    padding: 7px 20px 10px;
     display: inline-block;
     margin: 5px;
+    padding: 7px 20px 10px;
 }
 
 .tag-block {
@@ -746,8 +740,8 @@ label {
 }
 
 .tag-holder {
-	display: inline-block;
     background-color: $colorPrimary;
+	display: inline-block;
     padding: 0;
 }
 
