@@ -337,6 +337,17 @@ label {
 		margin-left: 30px;
 	}
 
+	@include at-query($one) {
+    	margin: 0 -60px;
+
+		h2,
+		h3,
+		ul,
+		.separator-x {
+			margin-left: 60px; 
+		}
+	}
+
 	@include at-query($three) {
 		padding: 90px 50px 0 0;
 
@@ -348,12 +359,18 @@ label {
 			margin-left: auto;
 			margin-right: auto;
 		}
+
+		h2,
+		h3,
+		ul {
+			margin-left: 0; 
+		}
 	}
 }
 
 .pricing-num {
 	background: url(/img/mentor/watercolour06.png);
-	background-position: 20% 0;
+	background-position: center top;
     background-repeat: no-repeat;
     font-family: $stack1;
     font-size: 10em;
@@ -375,8 +392,9 @@ label {
 		left: -7px;
 	}
 
-	@include at-query($one) {
-		background-position: 0 0;
+	@include at-query($three) {
+		margin: -600px -200px -225px;
+	    padding: 560px 200px 180px;
 	}
 }
 
@@ -653,8 +671,8 @@ label {
 		}
 
 		.consultation {
-			float: left;
-			width: 66%;
+			float: right;
+			width: 66.666%;
 		}
 
 		.pricing {
@@ -663,7 +681,9 @@ label {
 			}
 
 			float: left;
-			width: 33%;
+			width: 33.333%;
+			margin: 0;
+		    padding-right: 0;
 		}
 	}
 
@@ -673,30 +693,6 @@ label {
 		}
 	}
 }
-
-// .s5-background {
-//     height: 40%;
-//     top: -20%;
-//     position: absolute;
-//     width: 100%;
-//     z-index: -1;
-
-//     @include at-query($one) {
-// 	    background-size: 130%;
-// 	    margin-top: -610px;
-//     }
-
-//     @include at-query($two) {
-// 	    background-size: 130%;
-// 	    margin-top: -100%;
-//     }
-
-//     @include at-query($three) {
-// 	    background-size: 50%;
-// 	    margin-left: -12%;
-//    		margin-top: -16%;
-//     }
-// }
 
 .consultation {
 	background-color: #f6fcfc;
