@@ -196,17 +196,21 @@ header {
 
 .header-background {
 	background: url('/img/mentor/watercolour01.png');
-	background-position: 20% 90%;
+	background-position: 20% 70%;
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 100%;
 	height: 100%;
 	position: absolute;
 	width: 100%;
 	z-index: -1;
 
 	@include at-query($two) {
-		background-position: -100px 70%;
+		background-position: -100px 90%;
 		background-size: 100%;
+	}
+
+	@include at-query($three) {
+		background-position: -100px 80%;
 	}
 
 	@include at-query($four) {
