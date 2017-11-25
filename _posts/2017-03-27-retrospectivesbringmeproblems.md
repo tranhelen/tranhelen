@@ -57,7 +57,6 @@ Before the team arrived, we wrote the themes down on stickies and cordoned off w
 
 <figure>
     <img src="/img/post/82-02.jpg">
-    <figcaption>Things get a bit messy</figcaption>
 </figure>
 
 Everyone was encouraged to put up their stickies as soon as they wrote it and to walk around and read  as other team members put theirs up. If they agreed with anything, they could simply write a “+1” sticky note and add it beside the original. We gave ourselves 30 minutes to do the exercise.
