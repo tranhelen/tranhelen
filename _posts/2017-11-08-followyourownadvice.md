@@ -42,19 +42,19 @@ My frequent redesigns have been accommodating for doubling content every year. A
 <figure>
 	<div class="grid">
 		<div class="grid__item one-half three--one-fifth">
-			<a href="https://dribbble.com/shots/1434766-v3-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/1434766/website_1x.png"></a>
+			<a href="https://dribbble.com/shots/1434766-v3-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/1434766/website_1x.png" alt="Version 3 of the website"></a>
 		</div>
 		<div class="grid__item one-half three--one-fifth">
-			<a href="https://dribbble.com/shots/2047524-V5-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2047524/v5.0-website-redesign_1x.png"></a>
+			<a href="https://dribbble.com/shots/2047524-V5-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2047524/v5.0-website-redesign_1x.png" alt="Version 5 of the website"></a>
 		</div>
 		<div class="grid__item one-half three--one-fifth">
-			<a href="https://dribbble.com/shots/2525431-V6-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2525431/v6_1x.png"></a>
+			<a href="https://dribbble.com/shots/2525431-V6-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2525431/v6_1x.png" alt="Version 6 of the website"></a>
 		</div>
 		<div class="grid__item one-half three--one-fifth">
-			<a href="https://dribbble.com/shots/2697004-V7-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2697004/v7_1x.png"></a>
+			<a href="https://dribbble.com/shots/2697004-V7-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2697004/v7_1x.png"></a alt="Version 7 of the website">
 		</div>
 		<div class="grid__item one-half three--one-fifth">
-			<a href="https://dribbble.com/shots/2886184-V8-0-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2886184/fullcircle_1x.png"></a>
+			<a href="https://dribbble.com/shots/2886184-V8-0-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2886184/fullcircle_1x.png"></a alt="Version 8 of the website">
 		</div>
 	</div>
 </figure>
@@ -86,10 +86,10 @@ After doing some sketches on paper I started laying things out in Photoshop:
 
 <div class="grid">
 	<div class="grid__item three--one-half">
-		<figure><img src="/img/post/86-firstiteration.jpg" class="first iteration of the main pages"></figure>
+		<figure><img src="/img/post/86-firstiteration.jpg" alt="first iteration of the main pages"></figure>
 	</div>
 	<div class="grid__item three--one-half">
-		<figure><img src="/img/post/86-firstiteration2.jpg" class="second iteration of the pages"></figure>
+		<figure><img src="/img/post/86-firstiteration2.jpg" alt="second iteration of the pages"></figure>
 	</div>
 </div>
 
@@ -107,7 +107,7 @@ After a day or so of sprinting, I felt a lot better about the direction and quic
 ## Style Guide & Development
 
 <figure class="left two-fifths three--one-fifth">
-	<a href="https://dribbble.com/shots/3914162-V9-0-Style-Guide" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/3914162/helen9-styleguide.jpg"></a>
+	<a href="https://dribbble.com/shots/3914162-V9-0-Style-Guide" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/3914162/helen9-styleguide.jpg" alt="Snapshot of my style guide"></a>
 </figure>
 
 Before I jumped into code, I wanted to double-check that I hadn't introduced any unnecessary styles so I built a small style guide to compare styles. I went back and forth between the style guide and my mock-ups to ensure I'm more or less following the rules but <em>I didn't break my back.</em> There are diminishing returns if I try to be pixel-perfect with a mock-up made for myself.
