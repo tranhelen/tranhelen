@@ -4,6 +4,7 @@ date: 2017-11-08 19:00:00 -05:00
 categories:
 - blog
 - design
+- website
 layout: post
 twitter_desc: Out of all the advice I give I tend to give this one the most often.
 twitter_image: 86-00card.jpg
