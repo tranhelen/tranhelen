@@ -1,6 +1,5 @@
 ---
 title: Lessons from 2017
-<!-- date: 2018-01-01 08:00:00 -->
 categories:
 - blog
 - life
