@@ -6,6 +6,7 @@ categories:
 - design
 layout: post
 hero: 82-01.jpg
+hero_alt: Picture of our Designers at the retrospective I'm talking about here
 twitter_desc: How to run a retrospective and get the most out of your team.
 twitter_image: 82-00card.jpg
 ---
@@ -56,13 +57,13 @@ This list was sent out _before_ the retrospective to give our Designers some tim
 Before the team arrived, we wrote the themes down on stickies and cordoned off walls for each theme. We split each wall into two sides labelling one "happy" and one "sad" and everyone brainstormed what is working and what isn't.
 
 <figure>
-    <img src="/img/post/82-02.jpg">
+    <img src="/img/post/82-02.jpg" alt="Designers participating in one of the exercises">
 </figure>
 
 Everyone was encouraged to put up their stickies as soon as they wrote it and to walk around and read  as other team members put theirs up. If they agreed with anything, they could simply write a “+1” sticky note and add it beside the original. We gave ourselves 30 minutes to do the exercise.
 
 <figure>
-    <img src="/img/post/82-03.jpg">
+    <img src="/img/post/82-03.jpg" alt="Designers participating in one of the exercises">
 </figure>
 
 As the Designers brainstormed, the leadership team would read through every theme and group like post-it notes together if the notes were related. This is to help guide the discussions afterwards and understand the urgency of the topic.
@@ -90,8 +91,7 @@ Before we started, we reviewed everything again as a group and volun-told a Desi
 Then we took a break and ate pizza and drank optional mimosas for a bit.
 
 <figure>
-    <img src="/img/post/82-04.jpg">
-    <figcaption>Design Thinking needs pizza</figcaption>
+    <img src="/img/post/82-04.jpg" alt="Designers eating pizza">
 </figure>
 
 After lunch, the teams were tasked with brainstorming possible solutions for how to fix the problems identified and/or continue doing better on the things we were already getting right. The goal was to come up with not only a solution but an implementation plan answering what, how, and who?
@@ -99,7 +99,7 @@ After lunch, the teams were tasked with brainstorming possible solutions for how
 At the end of the day, the teams presented and discussed the solutions they came up with. We used this time to ask each other unanswerable questions and think about the blockers that could come up during implementation.
 
 <figure>
-    <img src="/img/post/82-05.jpg">
+    <img src="/img/post/82-05.jpg"  alt="Designers participating in one of the exercises">
 </figure>
 
 The goal of an exercise like this is not necessarily to come up with _one_ solution or the _right_ solution. Offsites like this are great for generating new ideas or building the foundation for more creative thinking in the future.
