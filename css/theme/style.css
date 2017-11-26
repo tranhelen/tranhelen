@@ -6618,39 +6618,39 @@ blockquote.large.c2-s4-blockquote {
     #CS3
 \*------------------------------------*/
 /* line 1134, ../../sass/partials/_casestudies.scss */
-.header {
+.c3-header {
   margin: 30px 0;
 }
 @media screen and (min-width: 600px) {
   /* line 1134, ../../sass/partials/_casestudies.scss */
-  .header {
+  .c3-header {
     margin: 50px 0 30px;
   }
 }
 @media screen and (min-width: 1500px) {
   /* line 1134, ../../sass/partials/_casestudies.scss */
-  .header {
+  .c3-header {
     margin-bottom: 70px;
   }
 }
 @media screen and (min-width: 600px) {
   /* line 1145, ../../sass/partials/_casestudies.scss */
-  .header h1, .header .h1 {
+  .c3-header h1, .c3-header .h1 {
     margin-top: -70px;
   }
 }
 @media screen and (min-width: 1500px) {
   /* line 1145, ../../sass/partials/_casestudies.scss */
-  .header h1, .header .h1 {
+  .c3-header h1, .c3-header .h1 {
     margin-top: -100px;
   }
 }
 /* line 1155, ../../sass/partials/_casestudies.scss */
-.header h2, .header .h2 {
+.c3-header h2, .c3-header .h2 {
   margin-bottom: 0;
 }
 /* line 1159, ../../sass/partials/_casestudies.scss */
-.header img {
+.c3-header img {
   position: relative;
   top: -20px;
 }
