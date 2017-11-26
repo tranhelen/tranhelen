@@ -367,47 +367,52 @@ th {
 }
 
 /* line 45, ../../sass/partials/_helpers.scss */
+.hide {
+  display: none;
+}
+
+/* line 49, ../../sass/partials/_helpers.scss */
 .zero--hide {
   display: none;
 }
 
 @media screen and (min-width: 800px) {
-  /* line 49, ../../sass/partials/_helpers.scss */
+  /* line 53, ../../sass/partials/_helpers.scss */
   .two--show {
     display: block;
   }
 }
 
 @media screen and (min-width: 800px) {
-  /* line 55, ../../sass/partials/_helpers.scss */
+  /* line 59, ../../sass/partials/_helpers.scss */
   .three--container {
     margin: 0 10%;
     max-width: 1400px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 55, ../../sass/partials/_helpers.scss */
+  /* line 59, ../../sass/partials/_helpers.scss */
   .three--container {
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 800px) {
-  /* line 66, ../../sass/partials/_helpers.scss */
+  /* line 70, ../../sass/partials/_helpers.scss */
   .two--hide {
     display: none;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  /* line 72, ../../sass/partials/_helpers.scss */
+  /* line 76, ../../sass/partials/_helpers.scss */
   .three--hide {
     display: none;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  /* line 78, ../../sass/partials/_helpers.scss */
+  /* line 82, ../../sass/partials/_helpers.scss */
   .three--show {
     display: block;
   }

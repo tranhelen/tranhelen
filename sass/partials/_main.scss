@@ -285,7 +285,7 @@ ul li {
 	color: $colorTextBody;
 	font-size: em(16px);
 	line-height: 1.75;
-	margin: 0 0 15px;
+	margin: 0 0 10px;
 
 	@include at-query($three) {
 		font-size: em(20px);

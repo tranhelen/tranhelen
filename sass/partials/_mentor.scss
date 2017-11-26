@@ -159,6 +159,39 @@
 	margin: 0;
 }
 
+.pricing {
+	margin: 0 0;
+
+	h6 {
+		margin-bottom: 10px;
+	}
+}
+
+.pricing-num {
+    font-family: $stack1;
+    font-size: 10em;
+    font-weight: 600;
+    letter-spacing: -5px;
+    line-height: 160px;
+    margin: 45px 0 -50px -35px;
+    text-align: center;
+
+	.dollar {
+	    font-size: 90px;
+	    font-weight: 600;
+	    margin-right: 0;
+	    position: relative;
+	    top: -50px;
+	}
+}
+
+.pricing-sub {
+	font-family: $stack1;
+	font-style: italic;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
 .quote {
 	margin-bottom: 40px;
 }
