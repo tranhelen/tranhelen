@@ -12,11 +12,23 @@
 	margin: 20px 0 25px;
 }
 
+.mentor-benefits__body {
+	@include at-query($one) {
+		column-count: 2;
+		column-gap: 30px;
+		margin-left: 9.285%;
+	}
+}
+
 .mentor-benefits__single {
 	margin: 5px 0 10px 0;
 
 	h3 {
 		margin-bottom: 5px;
+	}
+
+	@include at-query($one) {
+		margin: 0 0 20px;
 	}
 }
 
@@ -43,6 +55,10 @@
 		@include at-query($one) {
 			margin-top: -65px;
 		}
+	}
+
+	.line-one {
+		right: 250px;
 	}
 }
 
