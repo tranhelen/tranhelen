@@ -157,7 +157,7 @@ h2 {
 
 h3 {
 	font-size: em(20px);
-	line-height: 1.53;
+	line-height: 1.375;
 	margin: 0 0 15px;
 
 	@include at-query($three) {

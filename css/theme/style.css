@@ -3529,7 +3529,7 @@ h2, .h2 {
 /* line 158, ../../sass/partials/_main.scss */
 h3, .h3 {
   font-size: 1.25em;
-  line-height: 1.53;
+  line-height: 1.375;
   margin: 0 0 15px;
 }
 @media screen and (min-width: 1130px) {
