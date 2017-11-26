@@ -21,7 +21,7 @@
 /*------------------------------------*\
     #Base
 \*------------------------------------*/
-/* line 39, ../../sass/theme/style.scss */
+/* line 39, ../../sass/theme/style-backup.scss */
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -30,17 +30,17 @@
   text-rendering: optimizeLegibility;
 }
 
-/* line 47, ../../sass/theme/style.scss */
+/* line 47, ../../sass/theme/style-backup.scss */
 ::selection {
   background: #ff0;
 }
 
-/* line 51, ../../sass/theme/style.scss */
+/* line 51, ../../sass/theme/style-backup.scss */
 ::-moz-selection {
   background: #ff0;
 }
 
-/* line 55, ../../sass/theme/style.scss */
+/* line 55, ../../sass/theme/style-backup.scss */
 img {
   width: 100%;
 }
@@ -5253,23 +5253,6 @@ input {
   .fullarchive-2017 .writing__single, .fullarchive-2016 .writing__single, .fullarchive-2015 .writing__single, .fullarchive-2014 .writing__single {
     margin: 0 0px 30px 0;
   }
-}
-
-/*------------------------------------*\
-    #Mentor
-\*------------------------------------*/
-/* line 5, ../../sass/partials/_mentor.scss */
-.mentor-hero {
-  margin: 0 -30px 30px;
-}
-
-/* line 9, ../../sass/partials/_mentor.scss */
-.mentor-benefits__single {
-  margin: 5px 0 10px 0;
-}
-/* line 12, ../../sass/partials/_mentor.scss */
-.mentor-benefits__single h3, .mentor-benefits__single .h3 {
-  margin-bottom: 5px;
 }
 
 /*------------------------------------*\
