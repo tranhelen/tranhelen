@@ -8,12 +8,6 @@
 	@extend #mc-embedded-subscribe;
 }
 
-.mentor {
-	header {
-		margin: 0;
-	}
-}
-
 .mentor-benefits {
 	margin-bottom: 25px;
 }
@@ -40,8 +34,25 @@
     }
 }
 
+.mentor-header {
+	margin: 0;
+
+	h1 {
+		margin-top: 25px;
+	}
+}
+
 .mentor-hero {
- 	margin: 0 -30px 30px;
+    margin: 0 -10%;
+    width: 120%;
+}
+
+.mentor-hero-bg {
+    margin-top: -240px;
+    position: relative;
+    left: 0px;
+    width: 115%;
+    z-index: -1;
 }
 
 .mentor-toc {
