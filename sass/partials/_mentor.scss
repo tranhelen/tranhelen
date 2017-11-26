@@ -111,6 +111,64 @@
 	}
 }
 
+.mentor-students {
+	margin: 10px 0 55px;
+}
+
+.mentor-students__body {
+	background-color: $colorBGtwo;
+	margin-bottom: -40px;
+
+	h4 {
+		position: relative;
+		top: -45px;
+	}
+
+	.avatar {
+		margin: 0 auto 30px auto;
+		width: 100px;
+
+		img {
+			border-radius: 999%;
+		}
+	}
+}
+
+.mentor-students__content {
+	margin-top: -10px;
+    padding-bottom: 1px;
+}
+
+.mentor-students__header,
+.mentor-students__footer {
+	background-repeat: no-repeat;
+}
+
+.mentor-students__footer {
+	background-image: url('/img/mentor-student-footer.svg');
+    background-size: 1400px 29px;
+    background-repeat: repeat-x;
+    height: 29px;
+}
+
+.mentor-students__header {
+	background-image: url('/img/mentor-student-header.svg');
+    background-size: 1400px 26px;
+    background-repeat: repeat-x;
+	height: 26px;
+	margin: 0;
+}
+
+.quote {
+	margin-bottom: 40px;
+}
+
+.quote-body {
+	h6 {
+		margin-bottom: 20px;
+	}
+}
+
 .topic {
 	max-width: 150px;
 }
