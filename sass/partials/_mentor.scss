@@ -9,7 +9,7 @@
 }
 
 .mentor-benefits {
-	margin-bottom: 25px;
+	margin: 20px 0 25px;
 }
 
 .mentor-benefits__single {
@@ -39,20 +39,37 @@
 
 	h1 {
 		margin-top: 25px;
+
+		@include at-query($one) {
+			margin-top: -65px;
+		}
 	}
 }
 
 .mentor-hero {
     margin: 0 -10%;
+	position: relative;
     width: 120%;
+	z-index: -1;
+
+    @include at-query($one) {
+    	margin: 0;
+    	width: 100%;
+    }
 }
 
 .mentor-hero-bg {
-    margin-top: -240px;
+    margin-top: -58%;
     position: relative;
     left: 0px;
     width: 115%;
-    z-index: -1;
+    z-index: -2;
+
+    @include at-query($one) {
+	   margin-left: 30px;
+       margin-top: -68%;
+	   width: 99%;
+    }
 }
 
 .mentor-toc {
