@@ -3659,34 +3659,34 @@ header {
 }
 
 /* line 257, ../../sass/partials/_main.scss */
-p {
+p, label {
   color: #5f6771;
   font-size: 1em;
   line-height: 1.7;
   margin: 0 0 10px;
 }
 /* line 263, ../../sass/partials/_main.scss */
-.fieldnotes p {
+.fieldnotes p, .fieldnotes label {
   font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em;
   line-height: 1.84;
 }
 @media screen and (min-width: 1130px) {
   /* line 263, ../../sass/partials/_main.scss */
-  .fieldnotes p {
+  .fieldnotes p, .fieldnotes label {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 1130px) {
   /* line 257, ../../sass/partials/_main.scss */
-  p {
+  p, label {
     font-size: 1.25em;
     margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 1500px) {
   /* line 257, ../../sass/partials/_main.scss */
-  p {
+  p, label {
     font-size: 1.5em;
   }
 }
@@ -3715,7 +3715,7 @@ ul li {
 }
 
 /* line 299, ../../sass/partials/_main.scss */
-ul li p {
+ul li p, ul li label {
   font-size: inherit;
 }
 
@@ -3726,7 +3726,7 @@ blockquote {
   margin: 20px 0 30px;
 }
 /* line 308, ../../sass/partials/_main.scss */
-blockquote p {
+blockquote p, blockquote label {
   color: #394047;
   font-style: italic;
   margin: 0 30px 15px;
@@ -3738,7 +3738,7 @@ blockquote.large {
   margin: 30px 0;
 }
 /* line 319, ../../sass/partials/_main.scss */
-blockquote.large p {
+blockquote.large p, blockquote.large label {
   font-size: 1.375em;
   font-style: italic;
   line-height: 1.45;
@@ -3746,13 +3746,13 @@ blockquote.large p {
 }
 @media screen and (min-width: 1130px) {
   /* line 319, ../../sass/partials/_main.scss */
-  blockquote.large p {
+  blockquote.large p, blockquote.large label {
     font-size: 1.875em;
   }
 }
 @media screen and (min-width: 1500px) {
   /* line 319, ../../sass/partials/_main.scss */
-  blockquote.large p {
+  blockquote.large p, blockquote.large label {
     font-size: 2.25em;
   }
 }
@@ -3776,7 +3776,7 @@ blockquote.large .author {
 }
 
 /* line 352, ../../sass/partials/_main.scss */
-figcaption p {
+figcaption p, figcaption label {
   font-size: inherit;
 }
 
@@ -3983,7 +3983,8 @@ figure img {
 }
 
 /* line 528, ../../sass/partials/_main.scss */
-input {
+input,
+textarea {
   background-color: #fff;
   border: 0;
   margin: 0;
@@ -3992,36 +3993,44 @@ input {
 }
 @media screen and (min-width: 1130px) {
   /* line 528, ../../sass/partials/_main.scss */
-  input {
+  input,
+  textarea {
     padding: 15px 25px;
   }
 }
 
-/* line 540, ../../sass/partials/_main.scss */
+/* line 541, ../../sass/partials/_main.scss */
+label {
+  display: block;
+  font-weight: 600;
+  margin: 30px 0 5px;
+}
+
+/* line 549, ../../sass/partials/_main.scss */
 .container {
   margin: 0 30px;
 }
 @media screen and (min-width: 600px) {
-  /* line 540, ../../sass/partials/_main.scss */
+  /* line 549, ../../sass/partials/_main.scss */
   .container {
     margin: 0 60px;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 540, ../../sass/partials/_main.scss */
+  /* line 549, ../../sass/partials/_main.scss */
   .container {
     margin: 0 10%;
     max-width: 1400px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 540, ../../sass/partials/_main.scss */
+  /* line 549, ../../sass/partials/_main.scss */
   .container {
     margin: 0 auto;
   }
 }
 
-/* line 557, ../../sass/partials/_main.scss */
+/* line 566, ../../sass/partials/_main.scss */
 .header-bg-watercolour {
   background-repeat: no-repeat;
   height: 50px;
@@ -4032,7 +4041,7 @@ input {
   z-index: -1;
 }
 
-/* line 567, ../../sass/partials/_main.scss */
+/* line 576, ../../sass/partials/_main.scss */
 .line-one {
   background-color: #d0a233;
   height: 3px;
@@ -4042,7 +4051,7 @@ input {
   width: 300px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 567, ../../sass/partials/_main.scss */
+  /* line 576, ../../sass/partials/_main.scss */
   .line-one {
     right: 5005%;
     top: 35px;
@@ -4050,7 +4059,7 @@ input {
   }
 }
 
-/* line 582, ../../sass/partials/_main.scss */
+/* line 591, ../../sass/partials/_main.scss */
 .line-two {
   background-color: #768fe1;
   height: 3px;
@@ -4060,7 +4069,7 @@ input {
   width: 300px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 582, ../../sass/partials/_main.scss */
+  /* line 591, ../../sass/partials/_main.scss */
   .line-two {
     right: 5005%;
     top: 35px;
@@ -4068,21 +4077,21 @@ input {
   }
 }
 
-/* line 597, ../../sass/partials/_main.scss */
+/* line 606, ../../sass/partials/_main.scss */
 .mailinglist {
   margin: 20px 0 50px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 597, ../../sass/partials/_main.scss */
+  /* line 606, ../../sass/partials/_main.scss */
   .mailinglist {
     margin: 70px 0 100px;
   }
 }
-/* line 604, ../../sass/partials/_main.scss */
+/* line 613, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__content {
   margin-top: 40px;
 }
-/* line 608, ../../sass/partials/_main.scss */
+/* line 617, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__header,
 .mailinglist .mailinglist__footer {
   background-position-x: 50%;
@@ -4090,57 +4099,57 @@ input {
   background-size: cover;
   height: 30px;
 }
-/* line 616, ../../sass/partials/_main.scss */
+/* line 625, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__header {
   background-image: url("/img/bg-watercolour-footer.svg");
   margin: 0;
 }
-/* line 621, ../../sass/partials/_main.scss */
+/* line 630, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__footer {
   background-image: url("/img/bg-watercolour-footerft.svg");
   margin-top: -10px;
 }
-/* line 626, ../../sass/partials/_main.scss */
+/* line 635, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__form {
   background-color: #fcf8ef;
   padding: 10px 0 20px;
 }
-/* line 630, ../../sass/partials/_main.scss */
+/* line 639, ../../sass/partials/_main.scss */
 .mailinglist .mailinglist__form input {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 600px) {
-  /* line 635, ../../sass/partials/_main.scss */
+  /* line 644, ../../sass/partials/_main.scss */
   .mailinglist .mailinglist__form input {
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 626, ../../sass/partials/_main.scss */
+  /* line 635, ../../sass/partials/_main.scss */
   .mailinglist .mailinglist__form {
     padding-bottom: 10px;
   }
 }
 
-/* line 646, ../../sass/partials/_main.scss */
+/* line 655, ../../sass/partials/_main.scss */
 .mailinglistpage {
   background-color: #fcf8ef;
   margin: 30px 0;
   padding: 30px 30px 0;
 }
-/* line 651, ../../sass/partials/_main.scss */
+/* line 660, ../../sass/partials/_main.scss */
 .mailinglistpage input {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 646, ../../sass/partials/_main.scss */
+  /* line 655, ../../sass/partials/_main.scss */
   .mailinglistpage {
     margin: 0;
     padding: 30px;
   }
 }
 
-/* line 661, ../../sass/partials/_main.scss */
+/* line 670, ../../sass/partials/_main.scss */
 #mc-embedded-subscribe {
   background-color: #d0a233;
   border-radius: 0;
@@ -4156,18 +4165,18 @@ input {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 672, ../../sass/partials/_main.scss */
+/* line 681, ../../sass/partials/_main.scss */
 #mc-embedded-subscribe:hover {
   background-color: #dab55c;
 }
 @media screen and (min-width: 600px) {
-  /* line 661, ../../sass/partials/_main.scss */
+  /* line 670, ../../sass/partials/_main.scss */
   #mc-embedded-subscribe {
     margin-top: 15px;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 661, ../../sass/partials/_main.scss */
+  /* line 670, ../../sass/partials/_main.scss */
   #mc-embedded-subscribe {
     font-size: 1em;
     margin: 0;
@@ -4337,7 +4346,7 @@ input {
   text-align: right;
 }
 /* line 134, ../../sass/partials/_homepage.scss */
-.hp-goals__single figcaption p {
+.hp-goals__single figcaption p, .hp-goals__single figcaption label {
   float: right;
 }
 @media screen and (min-width: 600px) {
@@ -4357,7 +4366,7 @@ input {
     z-index: 2;
   }
   /* line 148, ../../sass/partials/_homepage.scss */
-  .hp-goals__single figcaption p {
+  .hp-goals__single figcaption p, .hp-goals__single figcaption label {
     font-size: 0.8125em;
   }
 }
@@ -4434,7 +4443,7 @@ input {
   }
 }
 /* line 203, ../../sass/partials/_homepage.scss */
-.hp-goals__single.__go02 figcaption p {
+.hp-goals__single.__go02 figcaption p, .hp-goals__single.__go02 figcaption label {
   float: left;
 }
 /* line 206, ../../sass/partials/_homepage.scss */
@@ -5386,7 +5395,7 @@ input {
     padding: 0px 20px 0 2px;
   }
   /* line 112, ../../sass/partials/_casestudies.scss */
-  .cs-ol p {
+  .cs-ol p, .cs-ol label {
     font-size: inherit;
     margin-bottom: 15px;
   }
@@ -5400,7 +5409,7 @@ input {
     padding: 0px 20px 0 4px;
   }
   /* line 126, ../../sass/partials/_casestudies.scss */
-  .cs-ol p {
+  .cs-ol p, .cs-ol label {
     font-size: inherit;
     margin-bottom: 15px;
   }
@@ -6942,7 +6951,7 @@ blockquote.large.c2-s4-blockquote {
     margin: 25px 0 30px;
   }
   /* line 1377, ../../sass/partials/_casestudies.scss */
-  .c3-s3-home figcaption p {
+  .c3-s3-home figcaption p, .c3-s3-home figcaption label {
     margin-left: 30px;
     margin-top: 30px;
   }
@@ -6967,7 +6976,7 @@ blockquote.large.c2-s4-blockquote {
     margin: 80px 0 80px;
   }
   /* line 1400, ../../sass/partials/_casestudies.scss */
-  .c3-s3-home figcaption p {
+  .c3-s3-home figcaption p, .c3-s3-home figcaption label {
     margin-top: 50px;
   }
 }
@@ -6995,7 +7004,7 @@ blockquote.large.c2-s4-blockquote {
     margin-top: 140%;
   }
   /* line 1427, ../../sass/partials/_casestudies.scss */
-  .c3-s3-sdk p {
+  .c3-s3-sdk p, .c3-s3-sdk label {
     margin: 30px 0 0 0;
   }
 }
@@ -7253,14 +7262,14 @@ blockquote.large.c2-s4-blockquote {
   }
 }
 /* line 92, ../../sass/partials/_blog.scss */
-.post-single blockquote.large p {
+.post-single blockquote.large p, .post-single blockquote.large label {
   font-style: normal;
   font-weight: 600;
   line-height: 1.45;
 }
 @media screen and (min-width: 1130px) {
   /* line 92, ../../sass/partials/_blog.scss */
-  .post-single blockquote.large p {
+  .post-single blockquote.large p, .post-single blockquote.large label {
     font-size: 1.5625em;
     line-height: 1.6;
     margin: 30px -60px;
@@ -7269,7 +7278,7 @@ blockquote.large.c2-s4-blockquote {
 }
 @media screen and (min-width: 1500px) {
   /* line 92, ../../sass/partials/_blog.scss */
-  .post-single blockquote.large p {
+  .post-single blockquote.large p, .post-single blockquote.large label {
     font-size: 1.875em;
     line-height: 1.8;
     margin: 60px -100px;
