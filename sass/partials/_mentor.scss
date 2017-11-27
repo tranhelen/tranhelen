@@ -82,6 +82,10 @@
 			right: 250px;
 		}
 
+		@include at-query($three) {
+			right: 270px;
+		}
+
 		@include at-query($four) {
 			right: 4995%;
 		}
@@ -154,7 +158,11 @@
 	margin: 10px 0 55px;
 
 	@include at-query($three) {
-	    margin: 10px auto 55px;
+	    margin: 10px auto 100px;
+	}
+
+	@include at-query($four) {
+		margin-bottom: 200px;
 	    width: 1400px;
 	}
 }
@@ -171,16 +179,15 @@
 			margin-left: 9.285%;
 		}
 	}
-
-	.avatar {
-		margin: 0 auto 30px auto;
-		width: 100px;
-	}
 }
 
 .mentor-students__content {
 	margin-top: -10px;
     padding-bottom: 1px;
+
+    @include at-query($four) {
+    	margin-top: 20px;
+    }
 }
 
 .mentor-students__header,
@@ -335,11 +342,77 @@
 
 .quote {
 	margin-bottom: 40px;
+
+	@include clearfix;
+
+	@include at-query($four) {
+		margin-bottom: 60px;
+	}
+}
+
+.quote-avatar {
+	margin: 0 auto 30px auto;
+	width: 100px;
+
+	@include at-query($two) {
+		float: left;
+		width: 16.428%;
+
+		.--second & {
+			float: right;
+		}
+
+		img {
+			box-shadow: 0px 10px 30px rgba($colorShadow,0.1);
+			position: relative;
+				top: 40px;
+				left: -30px;
+
+			.--second & {
+				left: 30px;
+			}
+		}
+	}
+
+	@include at-query($three) {
+		width: 16.428%;
+
+		img {
+			left: -50px;
+
+			.--second & {
+				left: 50px;
+			}
+		}
+	}
+
+	@include at-query($four) {
+		width: 16.428%;
+	}
 }
 
 .quote-body {
 	h6 {
 		margin-bottom: 20px;
+	}
+
+	@include at-query($two) {
+		float: left;
+		margin-right: 9.285%;
+		width: 74.285%;
+
+		.--second & {
+			margin-left: 9.285%;
+			margin-right: 0;
+		}
+	}
+
+	@include at-query($three) {
+		width: 74.285%;
+	}
+
+	@include at-query($four) {
+		width: 74.285%;
 	}
 }
 
