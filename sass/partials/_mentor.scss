@@ -68,6 +68,10 @@
 		@include at-query($one) {
 			margin-top: -65px;
 		}
+
+		@include at-query($three) {
+			margin-top: -115px;
+		}
 	}
 
 	.line-one {
@@ -101,9 +105,12 @@
     z-index: -2;
 
     @include at-query($one) {
-	   margin-left: 30px;
-       margin-top: -68%;
-	   width: 99%;
+		margin: -68% 0 0 5%;
+		width: 99%;
+    }
+
+    @include at-query($three) {
+		margin: -54% 0 0 8%;
     }
 }
 
