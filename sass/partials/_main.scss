@@ -236,7 +236,7 @@ header {
 	margin: 40px 0;
 
 	@include at-query($three) {
-		margin: 100px 0;
+		margin: 100px 0 70px;
 	}
 
 	@include at-query($four) {

@@ -22,14 +22,14 @@
 	}
 
 	@include at-query($three) {
-		background-position: 0;
+		background-position: 0 0;
 		background-size: 150%;
-	    margin-top: 60px;
+	    margin: 120px 0 80px;
 		padding: 0px 50px;
 	}
 
 	@include at-query($four) {
-	    margin-top: 140px;
+	    margin: 220px 0 130px;
 		padding: 0px 100px 50px;
 	}
 }
@@ -100,12 +100,12 @@
 	}
 
 	@include at-query($three) {
-		margin-top: 35px;
+		margin-top: 65px;
 		padding-left: 30px;
 	}
 
 	@include at-query($four) {
-	    margin: 85px 0 30px ;
+	    margin: 165px 0 30px ;
 	    padding-left: 50px;
 	}
 }
@@ -232,7 +232,10 @@
 
 	.fullarchive-2016 &,
 	.fullarchive-2014 & {
+		top: 25px;
+		
 		@include at-query($four) {
+			top: 35px;
 			right: 5002%;
 		}
 	}

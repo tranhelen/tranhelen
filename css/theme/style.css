@@ -3636,7 +3636,7 @@ header {
 @media screen and (min-width: 1130px) {
   /* line 235, ../../sass/partials/_main.scss */
   header {
-    margin: 100px 0;
+    margin: 100px 0 70px;
   }
 }
 @media screen and (min-width: 1500px) {
@@ -4938,16 +4938,16 @@ label {
 @media screen and (min-width: 1130px) {
   /* line 5, ../../sass/partials/_archives.scss */
   .archive-design {
-    background-position: 0;
+    background-position: 0 0;
     background-size: 150%;
-    margin-top: 60px;
+    margin: 120px 0 80px;
     padding: 0px 50px;
   }
 }
 @media screen and (min-width: 1500px) {
   /* line 5, ../../sass/partials/_archives.scss */
   .archive-design {
-    margin-top: 140px;
+    margin: 220px 0 130px;
     padding: 0px 100px 50px;
   }
 }
@@ -5044,14 +5044,14 @@ label {
 @media screen and (min-width: 1130px) {
   /* line 94, ../../sass/partials/_archives.scss */
   .archive-popular__header {
-    margin-top: 35px;
+    margin-top: 65px;
     padding-left: 30px;
   }
 }
 @media screen and (min-width: 1500px) {
   /* line 94, ../../sass/partials/_archives.scss */
   .archive-popular__header {
-    margin: 85px 0 30px;
+    margin: 165px 0 30px;
     padding-left: 50px;
   }
 }
@@ -5202,81 +5202,86 @@ label {
 .archive-design .line-one {
   top: 30px;
 }
+/* line 233, ../../sass/partials/_archives.scss */
+.fullarchive-2016 .line-one, .fullarchive-2014 .line-one {
+  top: 25px;
+}
 @media screen and (min-width: 1500px) {
   /* line 233, ../../sass/partials/_archives.scss */
   .fullarchive-2016 .line-one, .fullarchive-2014 .line-one {
+    top: 35px;
     right: 5002%;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 240, ../../sass/partials/_archives.scss */
+  /* line 243, ../../sass/partials/_archives.scss */
   .line-one.--writing {
     right: 260px;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 240, ../../sass/partials/_archives.scss */
+  /* line 243, ../../sass/partials/_archives.scss */
   .line-one.--writing {
     right: 240px;
     top: 30px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 240, ../../sass/partials/_archives.scss */
+  /* line 243, ../../sass/partials/_archives.scss */
   .line-one.--writing {
     right: 4993%;
     top: 35px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 256, ../../sass/partials/_archives.scss */
+  /* line 259, ../../sass/partials/_archives.scss */
   .line-one.--writing-archives {
     right: 4993%;
   }
 }
 
 @media screen and (min-width: 1500px) {
-  /* line 264, ../../sass/partials/_archives.scss */
+  /* line 267, ../../sass/partials/_archives.scss */
   .fullarchive-2017 .line-two, .fullarchive-2015 .line-two {
     right: 5002%;
   }
 }
 
-/* line 272, ../../sass/partials/_archives.scss */
+/* line 275, ../../sass/partials/_archives.scss */
 .writing__group {
   padding-bottom: 10px;
 }
 
-/* line 276, ../../sass/partials/_archives.scss */
+/* line 279, ../../sass/partials/_archives.scss */
 .writing__single {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 276, ../../sass/partials/_archives.scss */
+  /* line 279, ../../sass/partials/_archives.scss */
   .writing__single {
     margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 276, ../../sass/partials/_archives.scss */
+  /* line 279, ../../sass/partials/_archives.scss */
   .writing__single {
     margin: 0 0 80px 0;
   }
-  /* line 286, ../../sass/partials/_archives.scss */
+  /* line 289, ../../sass/partials/_archives.scss */
   .archive-design__body .writing__single {
     margin: 40px 0 0;
   }
 }
-/* line 291, ../../sass/partials/_archives.scss */
+/* line 294, ../../sass/partials/_archives.scss */
 .writing__single h3, .writing__single .h3 {
   margin-bottom: 0;
 }
-/* line 295, ../../sass/partials/_archives.scss */
+/* line 298, ../../sass/partials/_archives.scss */
 .writing__single h6, .writing__single .h6 {
   margin-bottom: 10px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 299, ../../sass/partials/_archives.scss */
+  /* line 302, ../../sass/partials/_archives.scss */
   .fullarchive-2017 .writing__single, .fullarchive-2016 .writing__single, .fullarchive-2015 .writing__single, .fullarchive-2014 .writing__single {
     margin: 0 0px 30px 0;
   }
