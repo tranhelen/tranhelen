@@ -449,6 +449,10 @@
 		margin-top: 80px;
 	}
 
+	@include at-query($three) {
+		margin-top: 120px;
+	}
+
 	@include at-query($four) {
 		margin-top: 220px;
 	}
@@ -538,6 +542,10 @@
 
 .hp-writing {
 	padding: 40px 0 10px;
+
+	@include at-query($three) {
+		padding: 90px 0 10px;
+	}
 
 	@include at-query($four) {
 		padding: 190px 0 25px;

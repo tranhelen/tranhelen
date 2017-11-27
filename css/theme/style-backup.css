@@ -4762,6 +4762,12 @@ label {
     margin-top: 80px;
   }
 }
+@media screen and (min-width: 1130px) {
+  /* line 447, ../../sass/partials/_homepage.scss */
+  .hp-work {
+    margin-top: 120px;
+  }
+}
 @media screen and (min-width: 1500px) {
   /* line 447, ../../sass/partials/_homepage.scss */
   .hp-work {
@@ -4769,32 +4775,32 @@ label {
   }
 }
 
-/* line 457, ../../sass/partials/_homepage.scss */
+/* line 461, ../../sass/partials/_homepage.scss */
 .hp-work__body {
   background-color: #fcf8ef;
   margin-bottom: -20px;
 }
 @media screen and (min-width: 1500px) {
-  /* line 457, ../../sass/partials/_homepage.scss */
+  /* line 461, ../../sass/partials/_homepage.scss */
   .hp-work__body {
     margin: 0;
     padding-bottom: 25px;
   }
 }
 
-/* line 467, ../../sass/partials/_homepage.scss */
+/* line 471, ../../sass/partials/_homepage.scss */
 .hp-work__content {
   position: relative;
   top: -55px;
 }
 
-/* line 472, ../../sass/partials/_homepage.scss */
+/* line 476, ../../sass/partials/_homepage.scss */
 .hp-work__header,
 .hp-work__footer {
   background-repeat: no-repeat;
 }
 
-/* line 477, ../../sass/partials/_homepage.scss */
+/* line 481, ../../sass/partials/_homepage.scss */
 .hp-work__footer {
   background-image: url("/img/bg-watercolour-hpworkfooter.svg");
   background-size: 1600px 23px;
@@ -4802,7 +4808,7 @@ label {
   height: 23px;
 }
 
-/* line 484, ../../sass/partials/_homepage.scss */
+/* line 488, ../../sass/partials/_homepage.scss */
 .hp-work__header {
   background-image: url("/img/bg-watercolour-hpwork.svg");
   background-size: 1600px 32px;
@@ -4812,17 +4818,17 @@ label {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 492, ../../sass/partials/_homepage.scss */
+  /* line 496, ../../sass/partials/_homepage.scss */
   .hp-work__group {
     margin-top: -30px;
   }
 }
 
-/* line 498, ../../sass/partials/_homepage.scss */
+/* line 502, ../../sass/partials/_homepage.scss */
 .hp-work-single {
   margin-top: 30px;
 }
-/* line 501, ../../sass/partials/_homepage.scss */
+/* line 505, ../../sass/partials/_homepage.scss */
 .hp-work-single a {
   background-color: #fff;
   box-shadow: 0px 10px 30px rgba(121, 107, 93, 0.3);
@@ -4832,54 +4838,60 @@ label {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 508, ../../sass/partials/_homepage.scss */
+/* line 512, ../../sass/partials/_homepage.scss */
 .hp-work-single a:hover {
   transform: scale(1.05);
 }
 
-/* line 514, ../../sass/partials/_homepage.scss */
+/* line 518, ../../sass/partials/_homepage.scss */
 .hp-work-single__body {
   padding: 10px 20px 15px 20px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 514, ../../sass/partials/_homepage.scss */
+  /* line 518, ../../sass/partials/_homepage.scss */
   .hp-work-single__body {
     padding: 20px 30px 20px 30px;
   }
 }
 
 @media screen and (min-width: 800px) {
-  /* line 522, ../../sass/partials/_homepage.scss */
+  /* line 526, ../../sass/partials/_homepage.scss */
   .hp-work-single--move {
     margin-top: 70%;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 522, ../../sass/partials/_homepage.scss */
+  /* line 526, ../../sass/partials/_homepage.scss */
   .hp-work-single--move {
     margin-top: 50%;
   }
 }
 
-/* line 534, ../../sass/partials/_homepage.scss */
+/* line 538, ../../sass/partials/_homepage.scss */
 .hp-work h4, .hp-work .h4,
 .hp-writing h4,
 .hp-writing .h4 {
   margin-bottom: 20px;
 }
 
-/* line 539, ../../sass/partials/_homepage.scss */
+/* line 543, ../../sass/partials/_homepage.scss */
 .hp-writing {
   padding: 40px 0 10px;
 }
+@media screen and (min-width: 1130px) {
+  /* line 543, ../../sass/partials/_homepage.scss */
+  .hp-writing {
+    padding: 90px 0 10px;
+  }
+}
 @media screen and (min-width: 1500px) {
-  /* line 539, ../../sass/partials/_homepage.scss */
+  /* line 543, ../../sass/partials/_homepage.scss */
   .hp-writing {
     padding: 190px 0 25px;
   }
 }
 
-/* line 547, ../../sass/partials/_homepage.scss */
+/* line 555, ../../sass/partials/_homepage.scss */
 .overlay {
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -4891,7 +4903,7 @@ label {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 554, ../../sass/partials/_homepage.scss */
+/* line 562, ../../sass/partials/_homepage.scss */
 .overlay:hover {
   opacity: 0;
 }
