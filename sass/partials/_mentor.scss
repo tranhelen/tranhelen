@@ -9,19 +9,28 @@
 }
 
 .mentor-benefits {
-	margin: 20px 0 25px;
+	margin: 20px 0 35px;
+
+	@include at-query($one) {
+		margin-bottom: 5px;
+	}
+
+	@include at-query($four) {
+		margin: 70px 0 15px 0;
+	}
 }
 
-.mentor-benefits__body {
+.mentor-benefits__row {
 	@include at-query($one) {
 		column-count: 2;
 		column-gap: 30px;
 		margin-left: 9.285%;
+		width: 72.142%;
 	}
 }
 
 .mentor-benefits__single {
-	margin: 5px 0 10px 0;
+	margin: 5px 0 20px 0;
 
 	h3 {
 		margin-bottom: 5px;
@@ -29,6 +38,10 @@
 
 	@include at-query($one) {
 		margin: 0 0 20px;
+	}
+
+	@include at-query($two) {
+		margin-bottom: 30px;
 	}
 }
 
@@ -58,7 +71,13 @@
 	}
 
 	.line-one {
-		right: 250px;
+		@include at-query($one) {
+			right: 250px;
+		}
+
+		@include at-query($four) {
+			right: 4995%;
+		}
 	}
 }
 
@@ -75,7 +94,7 @@
 }
 
 .mentor-hero-bg {
-    margin-top: -58%;
+    margin-top: -60%;
     position: relative;
     left: 0px;
     width: 115%;
@@ -101,10 +120,6 @@
 
 	h6 {
 		margin: 0 0 20px 0;
-
-		@include at-query($three) {
-			margin-left: 30px;
-		}
 	}
 
 	.mentor-toc__list {
@@ -118,6 +133,12 @@
 			color: $colorAccent;
 			margin-left: -20px;
 		}
+	}
+}
+
+.mentor-toc__body {
+	@include at-query($one) {
+		margin-left: 9.285%;
 	}
 }
 
