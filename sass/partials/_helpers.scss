@@ -4,6 +4,7 @@
 
 .no-margin {
 	margin: 0;
+	padding: 0;
 }
 
 .one-one-half {
@@ -39,6 +40,10 @@
 	@include at-query($three) {
 		text-align: left;
 	}
+}
+
+.hide {
+	display: none;
 }
 
 .zero--hide {

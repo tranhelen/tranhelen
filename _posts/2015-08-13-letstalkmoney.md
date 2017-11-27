@@ -1,6 +1,7 @@
 ---
 title: Let&rsquo;s Talk Money
 date: 2015-08-12 20:00:00 -04:00
+excerpt: We&rsquo;re going to talk about money. Here are some numbers&#58; A business charges $2500 per student. There are...
 categories:
 - blog
 - life

@@ -144,7 +144,7 @@ h2 {
 	font-size: em(28px);
 	font-style: italic;
 	line-height: 1.36;
-	margin: 10px 0;
+	margin: 20px 0 10px;
 
 	@include at-query($three) {
 		font-size: em(38px);
@@ -157,7 +157,7 @@ h2 {
 
 h3 {
 	font-size: em(20px);
-	line-height: 1.53;
+	line-height: 1.375;
 	margin: 0 0 15px;
 
 	@include at-query($three) {
@@ -236,7 +236,7 @@ header {
 	margin: 40px 0;
 
 	@include at-query($three) {
-		margin: 100px 0;
+		margin: 100px 0 70px;
 	}
 
 	@include at-query($four) {
@@ -285,7 +285,7 @@ ul li {
 	color: $colorTextBody;
 	font-size: em(16px);
 	line-height: 1.75;
-	margin: 0 0 15px;
+	margin: 0 0 10px;
 
 	@include at-query($three) {
 		font-size: em(20px);
@@ -525,7 +525,8 @@ figure {
 	}
 }
 
-input {
+input,
+textarea {
 	background-color: #fff;
 	border: 0;
     margin: 0;
@@ -535,6 +536,14 @@ input {
     @include at-query($three) {
     	padding: 15px 25px;
     }
+}
+
+label {
+	display: block;
+	font-weight: 600;
+	margin: 30px 0 5px;
+
+	@extend p;
 }
 
 .container {
@@ -569,12 +578,12 @@ input {
 	height: 3px;
 	position: relative;
 		right: 320px;
-		top: 25px;
+		top: 35px;
 	width: 300px;
 
 	@include at-query($four) {
 		right: 5005%;
-		top: 35px;
+		top: 45px;
 		width: 5000%;
 	}
 }

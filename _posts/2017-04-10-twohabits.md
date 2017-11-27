@@ -22,7 +22,7 @@ The weakness of this approach was further reconfirmed for me while listening to 
 It was a hard lesson to learn but I take notes now. I have a journal system that's pretty intense, loosely based on the Bullet Journal system.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> I also have notes for 1:1s, meetings, and written documentation for anything I want to build.
 
 <figure>
-    <img src="/img/post/84-01.jpg">
+    <img src="/img/post/84-01.jpg" alt="This is what my bullet journal looks like">
 </figure>
 
 The added benefit of taking notes is that it frees up headspace. I don't have to memorize or worry about anything because I know it's stored on paper when I need to retrieve it. Memory doesn't quite work the same way.
