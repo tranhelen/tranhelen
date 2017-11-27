@@ -4765,7 +4765,7 @@ label {
 @media screen and (min-width: 1500px) {
   /* line 447, ../../sass/partials/_homepage.scss */
   .hp-work {
-    margin-top: 120px;
+    margin-top: 220px;
   }
 }
 
@@ -4875,7 +4875,7 @@ label {
 @media screen and (min-width: 1500px) {
   /* line 539, ../../sass/partials/_homepage.scss */
   .hp-writing {
-    padding: 75px 0 25px;
+    padding: 190px 0 25px;
   }
 }
 

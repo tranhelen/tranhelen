@@ -450,7 +450,7 @@
 	}
 
 	@include at-query($four) {
-		margin-top: 120px;
+		margin-top: 220px;
 	}
 }
 
@@ -540,7 +540,7 @@
 	padding: 40px 0 10px;
 
 	@include at-query($four) {
-		padding: 75px 0 25px;
+		padding: 190px 0 25px;
 	}
 }
 
