@@ -152,6 +152,11 @@
 
 .mentor-students {
 	margin: 10px 0 55px;
+
+	@include at-query($three) {
+	    margin: 10px auto 55px;
+	    width: 1400px;
+	}
 }
 
 .mentor-students__body {
@@ -160,16 +165,16 @@
 
 	h4 {
 		position: relative;
-		top: -45px;
+		top: -55px;
+
+		@include at-query($three) {
+			margin-left: 9.285%;
+		}
 	}
 
 	.avatar {
 		margin: 0 auto 30px auto;
 		width: 100px;
-
-		img {
-			border-radius: 999%;
-		}
 	}
 }
 
@@ -320,7 +325,11 @@
 	}
 
 	@include at-query($three) {
-		margin: 0;
+		margin: 0 0 30px 0;
+
+		&.--last {
+			padding: 0;
+		}
 	}
 }
 
