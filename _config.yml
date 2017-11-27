@@ -20,4 +20,4 @@ plugins:
 - jekyll-feed
 - jekyll-redirect-from
 permalink: "/:title"
-future: true
+future: false
