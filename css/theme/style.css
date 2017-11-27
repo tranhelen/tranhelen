@@ -3517,7 +3517,7 @@ h2, .h2 {
   font-size: 1.75em;
   font-style: italic;
   line-height: 1.36;
-  margin: 10px 0;
+  margin: 20px 0 10px;
 }
 @media screen and (min-width: 1130px) {
   /* line 142, ../../sass/partials/_main.scss */
@@ -4047,14 +4047,14 @@ label {
   height: 3px;
   position: relative;
   right: 320px;
-  top: 25px;
+  top: 35px;
   width: 300px;
 }
 @media screen and (min-width: 1500px) {
   /* line 576, ../../sass/partials/_main.scss */
   .line-one {
     right: 5005%;
-    top: 35px;
+    top: 45px;
     width: 5000%;
   }
 }
@@ -5291,7 +5291,7 @@ label {
 @media screen and (min-width: 1500px) {
   /* line 11, ../../sass/partials/_mentor.scss */
   .mentor-benefits {
-    margin: 70px 0 15px 0;
+    margin: 60px 0 15px 0;
   }
 }
 
@@ -5424,7 +5424,7 @@ label {
 @media screen and (min-width: 1500px) {
   /* line 117, ../../sass/partials/_mentor.scss */
   .mentor-toc {
-    margin: 40px 0 50px -30px;
+    margin: 50px 0 50px -30px;
   }
 }
 /* line 128, ../../sass/partials/_mentor.scss */
