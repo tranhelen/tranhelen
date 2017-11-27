@@ -1,10 +1,11 @@
 ---
 title: Let&rsquo;s Talk Money
 date: 2015-08-12 20:00:00 -04:00
-excerpt: We&rsquo;re going to talk about money. Here are some numbers&#58; A business charges $2500 per student. There are...
 categories:
 - blog
 - life
+excerpt: We&rsquo;re going to talk about money. Here are some numbers&#58; A business
+  charges $2500 per student. There are...
 layout: post
 twitter_desc: I talk about money and our weak correlation between it and passion.
 twitter_image: 18-00card.jpg
