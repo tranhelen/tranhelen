@@ -60,6 +60,22 @@
     	position: relative;
     	top: -20px;
     }
+
+    @include at-query($one) {
+    	padding: 10px 50px 50px 50px;
+    }
+
+    @include at-query($three) {
+	    background-position: -5px 20px;
+    	float: left;
+    	margin: 0;
+	    padding: 23px 60px 50px 60px;
+    	width: 62.858%;
+
+    	h4 {
+    		margin-bottom: 10px;
+    	}
+    }
 }
 
 .mentor-header {
@@ -121,11 +137,33 @@
     }
 }
 
+.mentor-pc {
+	@include clearfix;
+
+	@include at-query($one) {
+		margin-bottom: 50px;
+	}
+
+	@include at-query($three) {
+		margin-bottom: 20px;
+	}
+
+	@include at-query($four) {
+		margin-bottom: 150px;
+	}
+}
+
 .mentor-pricing {
 	margin: 0 0 30px;
 
 	h6 {
-		margin-bottom: 10px;
+		margin: 20px 0;
+	}
+
+	@include at-query($three) {
+		float: left;
+		padding-right: 50px;
+		width: 37.142%;
 	}
 }
 
