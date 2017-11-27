@@ -25,6 +25,9 @@
 		column-count: 2;
 		column-gap: 30px;
 		margin-left: 9.285%;
+	}
+
+	@include at-query($three) {
 		width: 72.142%;
 	}
 }
@@ -121,8 +124,12 @@
 		margin-left: -25px;
 	}
 
+	@include at-query($three) {
+		margin: 50px 0 100px -30px;
+	}
+
 	@include at-query($four) {
-		margin: 50px 0 50px -30px;
+		margin-bottom: 190px;
 	}
 
 	h6 {
@@ -139,6 +146,10 @@
 		.bullet {
 			color: $colorAccent;
 			margin-left: -20px;
+
+			@include at-query($three) {
+				margin-left: -25px;
+			}
 		}
 	}
 }
@@ -146,6 +157,11 @@
 .mentor-toc__body {
 	@include at-query($one) {
 		margin-left: 9.285%;
+	}
+
+	@include at-query($three) {
+		margin-left: 18.571%;
+		width: 62.857%;
 	}
 }
 
