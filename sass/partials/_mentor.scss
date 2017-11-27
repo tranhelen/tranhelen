@@ -117,106 +117,37 @@
     }
 }
 
-.mentor-toc {
-	margin: 0 0 0 0;
-
-	@include at-query($three) {
-		margin-left: -25px;
-	}
-
-	@include at-query($three) {
-		margin: 50px 0 100px -30px;
-	}
-
-	@include at-query($four) {
-		margin-bottom: 190px;
-	}
+.mentor-pricing {
+	margin: 0 0 30px;
 
 	h6 {
-		margin: 0 0 20px 0;
-	}
-
-	.mentor-toc__list {
-		padding: 0;
-
-		li {
-			margin: 0 0 15px;
-		}
-
-		.bullet {
-			color: $colorAccent;
-			margin-left: -20px;
-
-			@include at-query($three) {
-				margin-left: -25px;
-			}
-		}
+		margin-bottom: 10px;
 	}
 }
 
-.mentor-toc__body {
-	@include at-query($one) {
-		margin-left: 9.285%;
-	}
+.mentor-pricing-num {
+    font-family: $stack1;
+    font-size: 10em;
+    font-weight: 600;
+    letter-spacing: -5px;
+    line-height: 160px;
+    margin: 45px 0 -50px -35px;
+    text-align: center;
 
-	@include at-query($three) {
-		margin-left: 18.571%;
-		width: 62.857%;
-	}
-}
-
-.mentor-work {
-	margin: 50px 0 40px;
-}
-
-.mentor-work__body {
-	background-color: $colorBGone;
-	margin-bottom: -20px;
-
-	h4 {
-		position: relative;
-		top: -50px;
+	.dollar {
+	    font-size: 90px;
+	    font-weight: 600;
+	    margin-right: 0;
+	    position: relative;
+	    top: -50px;
 	}
 }
 
-.mentor-work__content {
-	margin-top: -30px;
-
-	h3 {
-		margin-bottom: 5px;
-	}
-
-	h4 {
-		margin-bottom: 25px;
-	}
-}
-
-.mentor-work__header,
-.mentor-work__footer {
-	background-repeat: no-repeat;
-}
-
-.mentor-work__footer {
-	background-image: url('/img/bg-watercolour-hpworkfooter.svg');
-    background-size: 1600px 23px;
-    background-repeat: repeat-x;
-    height: 23px;
-}
-
-.mentor-work__header {
-	background-image: url('/img/bg-watercolour-hpwork.svg');
-    background-size: 1600px 32px;
-    background-repeat: repeat-x;
-	height: 32px;
-	margin: 0;
-}
-
-.mentor-work__single {
-	margin: 5px 0 20px 0;
-
-	&.--last {
-		padding-bottom: 10px;
-	}
+.mentor-pricing-sub {
+	font-family: $stack1;
+	font-style: italic;
+	margin-bottom: 30px;
+	text-align: center;
 }
 
 .mentor-students {
@@ -267,37 +198,130 @@
 	margin: 0;
 }
 
-.mentor-pricing {
-	margin: 0 0 30px;
+.mentor-toc {
+	margin: 0 0 0 0;
+
+	@include at-query($three) {
+		margin-left: -25px;
+	}
+
+	@include at-query($three) {
+		margin: 50px 0 100px -30px;
+	}
+
+	@include at-query($four) {
+		margin-bottom: 190px;
+	}
 
 	h6 {
-		margin-bottom: 10px;
+		margin: 0 0 20px 0;
+	}
+
+	.mentor-toc__list {
+		padding: 0;
+
+		li {
+			margin: 0 0 15px;
+		}
+
+		.bullet {
+			color: $colorAccent;
+			margin-left: -20px;
+
+			@include at-query($three) {
+				margin-left: -25px;
+			}
+		}
 	}
 }
 
-.mentor-pricing-num {
-    font-family: $stack1;
-    font-size: 10em;
-    font-weight: 600;
-    letter-spacing: -5px;
-    line-height: 160px;
-    margin: 45px 0 -50px -35px;
-    text-align: center;
+.mentor-toc__body {
+	@include at-query($one) {
+		margin-left: 9.285%;
+	}
 
-	.dollar {
-	    font-size: 90px;
-	    font-weight: 600;
-	    margin-right: 0;
-	    position: relative;
-	    top: -50px;
+	@include at-query($three) {
+		margin-left: 18.571%;
+		width: 62.857%;
 	}
 }
 
-.mentor-pricing-sub {
-	font-family: $stack1;
-	font-style: italic;
-	margin-bottom: 30px;
-	text-align: center;
+.mentor-topics {
+	@include at-query($three) {
+		margin-bottom: 100px;
+	}
+
+	@include at-query($four) {
+		margin-bottom: 200px;
+	}
+}
+
+.mentor-work {
+	margin: 50px 0 40px;
+}
+
+.mentor-work__body {
+	background-color: $colorBGone;
+	margin-bottom: -20px;
+
+	h4 {
+		position: relative;
+		top: -60px;
+	}
+}
+
+.mentor-work__content {
+	margin-top: -30px;
+
+	h3 {
+		margin-bottom: 5px;
+	}
+
+	h4 {
+		margin-bottom: 25px;
+	}
+
+	@include at-query($one) {
+		margin-left: 9.285%;
+	}
+
+	@include at-query($three) {
+		column-count: 3;
+		column-gap: 30px;
+		width: 81.428%;
+	}
+}
+
+.mentor-work__header,
+.mentor-work__footer {
+	background-repeat: no-repeat;
+}
+
+.mentor-work__footer {
+	background-image: url('/img/bg-watercolour-hpworkfooter.svg');
+    background-size: 1600px 23px;
+    background-repeat: repeat-x;
+    height: 23px;
+}
+
+.mentor-work__header {
+	background-image: url('/img/bg-watercolour-hpwork.svg');
+    background-size: 1600px 32px;
+    background-repeat: repeat-x;
+	height: 32px;
+	margin: 0;
+}
+
+.mentor-work__single {
+	margin: 5px 0 20px 0;
+
+	&.--last {
+		padding-bottom: 10px;
+	}
+
+	@include at-query($three) {
+		margin: 0;
+	}
 }
 
 .quote {
@@ -332,6 +356,11 @@
 	text-align: center;
 
     h6 {
+    	font-size: initial;
     	margin-bottom: 20px;
+    }
+
+    @include at-query($three) {
+    	margin: 0;
     }
 }
