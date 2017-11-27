@@ -5790,7 +5790,7 @@ label {
   }
   /* line 399, ../../sass/partials/_mentor.scss */
   .quote-avatar img {
-    box-shadow: 0px 10px 30px rgba(121, 107, 93, 0.1);
+    box-shadow: 0px 10px 30px rgba(121, 107, 93, 0.2);
     position: relative;
     top: 40px;
     left: -30px;
