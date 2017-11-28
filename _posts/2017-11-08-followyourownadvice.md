@@ -51,10 +51,10 @@ My frequent redesigns have been accommodating for doubling content every year. A
 			<a href="https://dribbble.com/shots/2525431-V6-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2525431/v6_1x.png" alt="Version 6 of the website"></a>
 		</div>
 		<div class="grid__item one-half three--one-fifth">
-			<a href="https://dribbble.com/shots/2697004-V7-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2697004/v7_1x.png"></a alt="Version 7 of the website">
+			<a href="https://dribbble.com/shots/2697004-V7-0-Website-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2697004/v7_1x.png" alt="Version 7 of the website"></a>
 		</div>
 		<div class="grid__item one-half three--one-fifth">
-			<a href="https://dribbble.com/shots/2886184-V8-0-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2886184/fullcircle_1x.png"></a alt="Version 8 of the website">
+			<a href="https://dribbble.com/shots/2886184-V8-0-Redesign" class="wimage"><img src="https://cdn.dribbble.com/users/144905/screenshots/2886184/fullcircle_1x.png" alt="Version 8 of the website"></a>
 		</div>
 	</div>
 </figure>
