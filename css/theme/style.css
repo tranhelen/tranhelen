@@ -5881,7 +5881,7 @@ label {
 }
 /* line 474, ../../sass/partials/_mentor.scss */
 .topic-single h6, .topic-single .h6 {
-  font-size: initial;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1130px) {
