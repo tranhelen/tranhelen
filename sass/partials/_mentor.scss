@@ -276,6 +276,10 @@
 			margin-left: -23px;
 
 			@include at-query($three) {
+				margin-left: -25px;
+			}
+
+			@include at-query($four) {
 				margin-left: -30px;
 			}
 		}
