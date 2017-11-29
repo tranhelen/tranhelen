@@ -29,7 +29,7 @@ a {
 	}
 
 	h3 & {
-		background-position: left 24px;
+		background-position: left 26px;
 
 		@include at-query($three) {
 			background-position: left 34px;			
@@ -141,10 +141,10 @@ h1 {
 
 h2 {
 	color: $colorAccent;
-	font-size: em(28px);
+	font-size: em(30px);
 	font-style: italic;
 	line-height: 1.36;
-	margin: 20px 0 10px;
+	margin: 10px 0 10px;
 
 	@include at-query($three) {
 		font-size: em(38px);
@@ -156,7 +156,7 @@ h2 {
 }
 
 h3 {
-	font-size: em(20px);
+	font-size: em(22px);
 	line-height: 1.375;
 	margin: 0 0 15px;
 
@@ -256,7 +256,7 @@ header {
 
 p {
 	color: $colorTextBody;
-	font-size: em(16px);
+	font-size: em(18px);
 	line-height: 1.7;
 	margin: 0 0 10px;
 
@@ -283,21 +283,9 @@ p {
 ol li,
 ul li {
 	color: $colorTextBody;
-	font-size: em(16px);
+	font-size: inherit;
 	line-height: 1.75;
 	margin: 0 0 10px;
-
-	@include at-query($three) {
-		font-size: em(20px);
-	}
-
-	@include at-query($four) {
-		font-size: em(24px);
-	}
-}
-
-ul li p {
-    font-size: inherit;
 }
 
 blockquote {
@@ -421,12 +409,12 @@ ul {
 .accenttwo { color: $colorAccentTwo; }
 
 .copy {
-	font-size: em(13px);
+	font-size: em(15px);
 	line-height: 1.84;
 	margin-bottom: 5px;
 
 	a {
-		background-position: left 16px;
+		background-position: left 18px;
 
 		&:hover {
 			background-position: left 40px;
@@ -465,14 +453,14 @@ ul {
 
 .small {
 	font-family: $stack2;
-	font-size: em(13px);
+	font-size: em(14px);
 	line-height: 1.84;
 
 	a {
-		background-position: left 16px;
+		background-position: left 17px;
 
 		&:hover {
-			background-position: left 20px;
+			background-position: left 25px;
 			color: $colorTextBody;
 		}
 	}

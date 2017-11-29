@@ -45,6 +45,20 @@
 		}
 	}
 
+	.hp-video-words & {
+		@include at-query($two) {
+			top: 25px;
+		}
+
+		@include at-query($three) {
+			top: 30px;
+		}
+
+		@include at-query($four) {
+			top: 35px;
+		}
+	}
+
 	.hp-work & {
 		top: 10px;
 

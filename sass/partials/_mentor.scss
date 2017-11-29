@@ -95,11 +95,12 @@
 
 	.line-one {
 		@include at-query($one) {
-			right: 270px;
+			right: 225px;
+			top: 30px;
 		}
 		
 		@include at-query($four) {
-			right: 4995%;
+			right: 4994%;
 		}
 	}
 }
