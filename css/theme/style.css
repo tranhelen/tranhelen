@@ -5652,12 +5652,12 @@ label {
 /* line 274, ../../sass/partials/_mentor.scss */
 .mentor-toc .mentor-toc__list .bullet {
   color: #d0a233;
-  margin-left: -20px;
+  margin-left: -23px;
 }
 @media screen and (min-width: 1130px) {
   /* line 274, ../../sass/partials/_mentor.scss */
   .mentor-toc .mentor-toc__list .bullet {
-    margin-left: -25px;
+    margin-left: -30px;
   }
 }
 
