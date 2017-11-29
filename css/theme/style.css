@@ -4382,7 +4382,7 @@ label {
   }
   /* line 174, ../../sass/partials/_homepage.scss */
   .hp-goals__single figcaption p, .hp-goals__single figcaption label {
-    font-size: 0.8125em;
+    font-size: 1em;
   }
 }
 @media screen and (min-width: 1500px) {
