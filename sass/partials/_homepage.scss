@@ -33,6 +33,18 @@
 		}
 	}
 
+	.hp-header__intro & {
+		top: 15px;
+
+		@include at-query($three) {
+			top: 20px;
+		}
+
+		@include at-query($four) {
+			top: 25px;
+		}
+	}
+
 	.hp-work & {
 		top: 10px;
 
@@ -264,6 +276,10 @@
 
 .hp-header {
 	margin: 40px 0 20px;
+
+	h2 {
+		margin-top: 0;
+	}
 
 	@include at-query($one) {
 		margin-top: 100px;
