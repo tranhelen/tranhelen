@@ -189,7 +189,7 @@
 		margin: 0 0 10px 20px;
 
 		@include at-query($three) {
-			margin-left: 30px;
+			margin-left: 25px;
 		}
 	}
 
@@ -208,17 +208,26 @@
 			margin-top: 85px;
 		}
 	}
+}
 
-	.cs-toc__list {
-		padding: 0;
+.cs-toc__list {
+	padding: 0;
 
-		li {
-			margin: 0;
+	li {
+		font-size: em(18px);
+		margin: 0;
+
+		@include at-query($three) {
+			font-size: em(20px);
 		}
 
-		.bullet {
-			color: $colorAccent;
+		@include at-query($four) {
+			font-size: em(24px);
 		}
+	}
+
+	.bullet {
+		color: $colorAccent;
 	}
 }
 
@@ -320,7 +329,7 @@
 
 .line-one {
 	.c1-body & {
-		top: 20px;
+		top: 15px;
 
 		@include at-query($four) {
 			right: 5002%;
@@ -348,7 +357,7 @@
 
 .line-two {
 	.c1-body & {
-		top: 20px;
+		top: 15px;
 
 		@include at-query($four) {
 			right: 5002%;
