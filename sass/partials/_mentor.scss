@@ -2,10 +2,32 @@
     #Mentor
 \*------------------------------------*/
 
-.btTxt {
-	margin-top: 5px;
+#mc-embedded-subscribe2 {
+	background-color: $colorAccent;
+	border-radius: 0;
+	color: #fff;
+	font-family: $stack2;
+	font-size: em(13px);
+	font-weight: 600;
+	padding: 8px 15px 10px;
+	text-align: center;
+	width: 100%;
 
-	@extend #mc-embedded-subscribe;
+	&:hover {
+		background-color: lighten($colorAccent,10%);
+	}
+
+	@include at-query($one) {
+		margin-top: 30px;
+	}
+
+	@include at-query($three) {
+		font-size: em(16px);
+		padding: 15px 0;
+		text-align: center;
+	}
+
+	@include transition;
 }
 
 .mentor-benefits {
