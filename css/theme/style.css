@@ -5521,7 +5521,7 @@ label {
 @media screen and (min-width: 1130px) {
   /* line 159, ../../sass/partials/_mentor.scss */
   .mentor-pc {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
 }
 @media screen and (min-width: 1500px) {

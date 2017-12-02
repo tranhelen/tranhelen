@@ -164,7 +164,7 @@
 	}
 
 	@include at-query($three) {
-		margin-bottom: 20px;
+		margin-bottom: 100px;
 	}
 
 	@include at-query($four) {
