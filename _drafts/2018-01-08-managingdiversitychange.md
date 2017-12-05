@@ -143,13 +143,6 @@ There is likely more I haven't covered here however I've included a list of reso
 
 Here's a start on things that can be helpful in navigating this time for you. Granted a lot of these things are women-focused as that was the dimension I looked at:
 
-<ul>
-	<li><p>This is another list with bullets</p></li>
-	<li><p>This is another list with bullets</p></li>
-	<li><p>This is another list with bullets</p></li>
-	<li><p>This is another list with bullets</p></li>
-</ul>
-
 - <a href="http://www.paulaprinciple.com/">The Paula Principle</a> is a decent first step into the world of women in tech
 - <a href="https://www.changetogether.io/">Change Together</a> by TechGirlsCan and TWG (an agency in Toronto, Canada) published a short book on what they learned over a collaborative 12 month study
 - <a href="https://www.hiremorewomenintech.com/">HireMoreWomeninTech.com</a> for more ideas on how to affect change
