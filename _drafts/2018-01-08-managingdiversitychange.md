@@ -133,7 +133,7 @@ Strategies on how to deal with social inequality vary but progress tends to be m
 
 ## Results
 
-I worked on a few of these changes over the course of six months. While progress felt slow and frustrating, we did make some progress. The dimension which changed the most was the binary gender dimension with small improvements in a couple of others.[2] Admittedly, I wasn't there long enough to gauge long-term success and can only speak to what happened within a small sub-set of employees.
+I worked on a few of these changes over the course of six months. While progress felt slow and frustrating, we did make some progress. The dimension which changed the most was the binary gender dimension with small improvements in a couple of others.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> Admittedly, I wasn't there long enough to gauge long-term success and can only speak to what happened within a small sub-set of employees.
 
 My overall hope was that my actions would encourage others to participate too in improving the overall numbers and help the initiatives at Shopify (of which there are many, much credit owed to the team). It was the first time I tried to affect change at a larger scale like this and the approach I took could have used some tinkering. I fluffed more features than I think was necessary but it's impossible to say what would have happened had I not fluffed.
 
