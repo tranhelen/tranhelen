@@ -186,10 +186,14 @@
 	}
 
 	h6 {
-		margin: 0 0 10px 20px;
+		margin: 0 0 10px 22px;
 
 		@include at-query($three) {
 			margin-left: 25px;
+		}
+
+		@include at-query($four) {
+			margin-left: 30px;
 		}
 	}
 
@@ -214,16 +218,7 @@
 	padding: 0;
 
 	li {
-		font-size: em(18px);
 		margin: 0;
-
-		@include at-query($three) {
-			font-size: em(20px);
-		}
-
-		@include at-query($four) {
-			font-size: em(24px);
-		}
 	}
 
 	.bullet {

@@ -283,9 +283,21 @@ p {
 ol li,
 ul li {
 	color: $colorTextBody;
-	font-size: inherit;
+	font-size: em(18px);
 	line-height: 1.75;
 	margin: 0 0 10px;
+
+	@include at-query($three) {
+		font-size: em(20px);
+	}
+
+	@include at-query($four) {
+		font-size: em(24px);
+	}
+
+	p {
+		font-size: inherit;	
+	}
 }
 
 blockquote {
