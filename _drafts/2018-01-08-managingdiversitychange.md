@@ -137,7 +137,7 @@ I worked on a few of these changes over the course of six months. While progress
 
 My overall hope was that my actions would encourage others to participate too in improving the overall numbers and help the initiatives at Shopify (of which there are many, much credit owed to the team). It was the first time I tried to affect change at a larger scale like this and the approach I took could have used some tinkering. I fluffed more features than I think was necessary but it's impossible to say what would have happened had I not fluffed.
 
-There is likely more I haven't covered here however I've included a list of resources below which may help start your research into the area too if you're looking at this type of work in your company.
+There is likely more I haven't covered here however I've included a list of resources below which may help start your research into the area too if you're looking at this type of work in your company.<a id="anchor-3" href="#note-3" class="fieldnotes-anchor">[3]</a>
 
 ## Resources
 
@@ -156,4 +156,6 @@ Here's a start on things that can be helpful in navigating this time for you. Gr
     <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This is a good summary of why leadership should be active reinforcing this: Stefanie K. Johnson and David R. Hekman, <a href="https://hbr.org/2016/03/women-and-minorities-are-penalized-for-promoting-diversity" class="external" target="_blank">&#8220;<span class="external-body"><em>Women and Minorities Are Penalized for Promoting Diversity</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 3/23/2016</p>
 
     <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> I have received criticism that I have been biased towards the bi-gender dimension in the past. I don't deny this. My own gender was how I noticed that this system was off-balance so I spent a lot of time learning about that. I plan to become a better advocate for other minorities in the future.</p>
+
+    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> In the interest of honesty: I don't believe major strides can be made in diversity _unless_ it's heavily reinforced by the executive team. Tech culture is too unhealthy and has too much influence over how individual workers act. While we did make progress and I was happy to have found a couple of true allies, I found that the biggest issues were laziness, apathy, and my own personal exhaustion. I was assured by the fact that non-diverse companies tend to breed environments of incompetance and under-perform but I am not one to sit by and not do anything. Overall, the biggest insight that I can take home from this experience is: you can always trust someone's actions. There's way too much lip service in the tech industry. This is critical and cynical but that's kind of how the topic is sitting with me these days after this experience.</p>
 </div>
