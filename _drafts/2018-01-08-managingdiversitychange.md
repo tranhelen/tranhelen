@@ -11,19 +11,19 @@ twitter_desc: Words go here
 twitter_image: 88-00card.jpg
 ---
 
-When I was working at Shopify, I realized that the team had grown in a direction I wasn't entirely happy with. Our last growth spurt had added a slew of like-candidates which created an off-balanced team. It had taken me a while to realize this as rapid growth has a tendency to override many things in it's path.
+When I was working at Shopify, I realized that the team had grown in a direction I wasn't entirely happy with. Our last growth spurt had added a slew of like-candidates which created an off-balanced team.
 
-Since I had been reading about the topic for the previous year, I thought it was a good opportunity to try to see if I could do something to make a change immediately and set up the team better long-term. After asking a few people, I found some resources and tried to apply new approaches to what our team was doing over six months.
+Since I had been reading about the topic for a while, I thought it was a good opportunity to try to see if I could do something to make a change immediately and set up the team better long-term. After asking a few people, I found some resources and tried to apply new approaches to what our team was doing over six months.
 
-<em><strong>Note:</strong> There were/are multiple people at the past company working on this. My intention is not to criticize the company I worked for nor the people who work there. I wanted to take responsibility for change so I worked on the local team I could affect first. It's also important to note I don't work there anymore so things may have changed by now.</em>
+<em><strong>Note:</strong> There were/are multiple people at the past company working on this. I wanted to take responsibility for change so I worked on the local team I could affect first. It's also important to note I don't work there anymore so things may have changed by now.</em>
 
 ## The Problems
 
-When trying to change the make-up on a team, you're faced with some of the following obstacles (I don't claim that this is close to a full list of the issues regarding this topic:
+When trying to change the make-up on a team, you're faced with some of the following obstacles (I don't claim that this is close to a full list of the issues):
 
 ### Growth and scale
 
-The faster your company is growing, the harder it is to advocate for diversity initiatives because change, generally, takes more time. Since the problem is systemic, it must be met on many levels by all. Changing how you're approaching even one area, like hiring, takes time. This pressure is felt immensely when someone needs to fill a role: the insistence on a slower process makes you look like a inconvienant blocker.
+The faster your company is growing the harder it is to advocate for diversity initiatives because change, generally, takes more time. Since the problem is systemic it must be met on many levels by all. Changing how you're approaching even one area, like hiring, takes time. This pressure is felt immensely when someone needs to fill a role: the insistence on a slower process makes you look like a inconvienant blocker.
 
 ### Education
 
@@ -31,17 +31,17 @@ While diversity research has been around for decades now, the general awareness 
 
 ### Leadership
 
-People do better and feel more comfortable in companies in which they can see a least one or two in leadership that are like them. If there are no examples, the current leadership team has to groom someone showing promise early to pre-emptively fill the role when it's required. To make matters more complicated, if the current leadership positions are already taken by the majority, even the most talented of workers may never get a chance.
+People do better and feel more comfortable in companies in which they can see a least one or two in leadership that are like them. If there are no examples, the current leadership team has to groom someone showing promise early to pre-emptively fill the role when it's required. To make matters more complicated, if the current leadership positions are already taken by the majority, it locks people in place.
 
 ### Management
 
 If you're in a company that doesn't prioritize management (and with this, training), diversity initiatives will be quickly forgotten amongst the many other 'more important' issues. The sentence, '_this company doesn't have people managers_,' is the biggest sign of a resistant culture and not rare in a world where technical proficiency is preferred other over skill-sets.
 
-The two areas I knew I could best affect was the hiring process for the members on my team and re-evaluating how we dealt with the Paula principle internally. Below is a list of things we re-evaluated.
+The two areas I knew I could best effect was the hiring process for the members on my team and re-evaluating how we dealt with the Paula principle internally. Below is a list of things we re-evaluated.
 
 ## Hiring
 
-A lot of these initiatives were put forth by the diversity and inclusion team at Shopify:
+I borroed some initiatives from the diversity and inclusion team at Shopify and from work done by the organizations I linked in the 'Resources' section:
 
 ### Review outward-facing company marketing
 
@@ -73,15 +73,15 @@ Candidates were more likely to respond if the person reaching out was a person l
 
 ### Look beyond the obvious
 
-Lack of visibility is more obvious when hiring for a profession which depends on a portfolio. Through my own research, I found that I could find PoC and miniority candidates but had a hard time locating their portfolios if they were employed. A little more effort into reaching them and asking for what I was looking for greatly increased my chances of success. Often times, it was not that thery weren't qualified, but they feared giving off a sense of disloyalty and/or their projects were protected from being published online. You can even out visibility issues with a bit more effort.
+Lack of visibility is more obvious when hiring for a profession which depends on a portfolio. Through my own research, I found that I could find under-represented candidates but had a hard time locating their portfolios if they were employed. A little more effort into reaching them and asking for what I was looking for greatly increased my chances of success. Often times, it was not that thery weren't qualified, but they feared giving off a sense of disloyalty and/or their projects were protected from being published online.
 
 ### Be specific with recruiters
 
-Hiring Designers can be difficult because of the subjective nature of judging the craft. Since Designers come with such varied skill-sets, those who are reaching out must be primed with who to look for. _Many people_ judge (and misjudge) portfolios based on visual aesthetic but that is only one of the skill-sets of a well-functioning product team team. Providing a list of clear questions and things for recruiters to look helps guide their search.
+Hiring Designers can be difficult because of the subjective nature of judging the craft. Since Designers come with such varied skill-sets, those who are reaching out must be primed with who to look for. _Many people_ judge (and misjudge) portfolios based on visual aesthetic but that is only one of the skill-sets of a well-functioning product team team. Providing a list of clear questions and things for recruiters to look for helps guide their search.
 
 ## Retention and the Paula Principle
 
-If your leadership team is filled with mostly one group, they've taken the space. This becomes a larger issue as senior ranks become more experienced and the company matures as recognition for work can become more important for retention. If space is taken, it is unlikely that a miniority will be able to move upwards or see a future at the company. As employees tend to look to others like them for examples of success, this tends to have a double-negative effect.
+If your leadership team is filled with mostly one group, they've taken the space. This becomes a larger issue as senior ranks become more experienced and the company matures as recognition for work can become more important for retention. If space is taken, it is unlikely that an under-represented employee will be able to move upwards or see a future at the company. As employees tend to look to others like them for examples of success, this tends to have a double-negative effect.
 
 ### Clarify expectations
 
@@ -93,11 +93,11 @@ To counter-act the Paula principle, making choices like using open internal appl
 
 ### Pay attention in promotion discussions
 
-We did group discussions at Shopify to calibrate and double-check decisions about promotions and hiring. When you're in one of those conversations, listen to those around you to ensure that the way the conversation is framed isn't to bias one group or the other. Ask clarifying questions and challenge possible assumptions being made.
+We had group discussions to calibrate and double-check decisions about promotions and hiring. When you're in one of those conversations, listen to those around you to ensure that the way the conversation is framed isn't to bias one group or the other. Ask clarifying questions and challenge possible assumptions being made.
 
 ### Identify potential early and groom
 
-If you're in the position to be able to help out a report who has expressed interest in leadership, be transparent about your day-to-day and start early with training. If they show promise and interest, setting them up for success can be a great way to re-balance an unbalanced team. PoCs and minorities tend to have less opportunities than their more visible counterparts and so keeping them top of mind for new 'proving' projects helps them move upwards.
+If you're in the position to be able to help out a report who has expressed interest in leadership, be transparent about your day-to-day and start early with training. If they show promise and interest, setting them up for success can be a great way to re-balance an unbalanced team. The under-represented tend to have less opportunities than their more visible counterparts and so keeping them top of mind for new 'proving' projects helps them move upwards.
 
 ### Plan culture activities for everyone
 
@@ -105,7 +105,7 @@ Feeling unwelcome in their environment is one of the most cited reasons for empl
 
 ### Balance desired skill-sets
 
-When balancing creative roles which require both soft and technical skill-sets, be careful how these expectations are communicated and how projects are assigned. This is when things can get lopsided very quickly if it's ignored (example: one group assigned to communication heavy work while others are given technical projects which allow them to be promoted faster).
+When balancing creative roles which require both soft and technical skill-sets, be careful how these expectations are communicated and how projects are assigned. This is when things can get lopsided very quickly if it's ignored (example: one group assigned to communication heavy work while others are given technical projects which further exasperates promotional issues if the company already leans heavily towards technical expertise).
 
 ## Doing Better, Together
 
@@ -115,11 +115,11 @@ I've been talking about my work at Shopify around diversity a lot because it was
 
 A clear and consistent message must come from upper management or it won't gain the traction it needs. Change management needs to happen both from a top-down perspective and a bottom-up perspective. Frequent company discussions about diversity and inclusion can help alleviate the education needs for individual managers. Mentioning it as a dimension the company is actively trying to improve and highlighting work on it helps further reinforce the idea.
 
-Lastly, don't make this work the sole responsibility of PoC and minorities.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
+Lastly, don't make this work the sole responsibility of the under-represented.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a>
 
 ### At the manager level
 
-Most managers participate in hiring, interviewing, and recognition activities. I found that I was much more effective, too, the more I read about it so it was easier for me to navigate certain conversations about the topic. If I did it again, I would have spent more time asking for help to speed up my learning. 
+Most managers participate in hiring, interviewing, and recognition activities. I found that I was much more effective the more I read about it as it was easier for me to navigate certain conversations about the topic. If I did it again, I would have spent more time asking for help to speed up my learning. 
 
 ### As an individual contributor
 
@@ -133,15 +133,15 @@ Strategies on how to deal with social inequality vary but progress tends to be m
 
 ## Results
 
-I worked on a few of these changes over the course of six months. While progress felt slow and frustrating, we did make some progress. The dimension which changed the most was the binary gender dimension with small improvements in a couple of others.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> Admittedly, I wasn't there long enough to gauge long-term success and can only speak to what happened within a small sub-set of employees.
+I worked on a few of these changes over the course of six months. While it felt slow and frustrating, we did make some progress across multiple areas. The dimension which changed the most was the binary gender dimension with small improvements in a couple of others.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> Admittedly, I wasn't there long enough to gauge long-term success and can only speak to what happened within a small sub-set of employees.
 
-My overall hope was that my actions would encourage others to participate too in improving the overall numbers and help the initiatives at Shopify (of which there are many, much credit owed to the team). It was the first time I tried to affect change at a larger scale like this and the approach I took could have used some tinkering. I fluffed more features than I think was necessary but it's impossible to say what would have happened had I not fluffed.
+My overall hope was that my actions would encourage others to participate in improving the overall numbers and help the initiatives at Shopify (of which there are many). It was the first time I tried to affect change at a larger scale like this and the approach I took could have used some tinkering. I fluffed more features than I think was necessary but it's impossible to say what would have happened had I not fluffed.
 
 There is likely more I haven't covered here however I've included a list of resources below which may help start your research into the area too if you're looking at this type of work in your company.<a id="anchor-3" href="#note-3" class="fieldnotes-anchor">[3]</a>
 
 ## Resources
 
-Here's a start on things that can be helpful in navigating this time for you. Granted a lot of these things are women-focused as that was the dimension I looked at:
+Here's a start on things that can be helpful in navigating this time for you. Granted a lot of these things are women-focused as that was the first dimension I looked at:
 
 - <a href="http://www.paulaprinciple.com/">The Paula Principle</a> is a decent first step into the world of women in tech
 - <a href="https://www.changetogether.io/">Change Together</a> by TechGirlsCan and TWG (an agency in Toronto, Canada) published a short book on what they learned over a collaborative 12 month study
@@ -155,7 +155,7 @@ Here's a start on things that can be helpful in navigating this time for you. Gr
 <div class="fieldnotes">
     <p id="note-1"><a href="#anchor-1" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[1]</span> This is a good summary of why leadership should be active reinforcing this: Stefanie K. Johnson and David R. Hekman, <a href="https://hbr.org/2016/03/women-and-minorities-are-penalized-for-promoting-diversity" class="external" target="_blank">&#8220;<span class="external-body"><em>Women and Minorities Are Penalized for Promoting Diversity</em></span>&#8221; <span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a>, 3/23/2016</p>
 
-    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> I have received criticism that I have been biased towards the bi-gender dimension in the past. I don't deny this. My own gender was how I noticed that this system was off-balance so I spent a lot of time learning about that. I plan to become a better advocate for other minorities in the future.</p>
+    <p id="note-2"><a href="#anchor-2" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[2]</span> I have received criticism that I have been biased towards the bi-gender dimension in the past. This is my own bias. My gender was how I noticed that this system was off-balance so I spent a lot of time learning about that. I will be a better advocate for other under-represented groups in the future.</p>
 
-    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> In the interest of honesty: I don't believe major strides can be made in diversity _unless_ it's heavily reinforced by the executive team. Tech culture is too unhealthy and has too much influence over how individual workers act. While we did make progress and I was happy to have found a couple of true allies, I found that the biggest issues were laziness, apathy, and my own personal exhaustion. I was assured by the fact that non-diverse companies tend to breed environments of incompetance and under-perform but I am not one to sit by and not do anything. Overall, the biggest insight that I can take home from this experience is: you can always trust someone's actions. There's way too much lip service in the tech industry. This is critical and cynical but that's kind of how the topic is sitting with me these days after this experience.</p>
+    <p id="note-3"><a href="#anchor-3" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[3]</span> In the interest of honesty: I don't believe major strides can be made in diversity _unless_ it's heavily reinforced by the executive team. Tech culture is unhealthy and has too much influence over how individual workers act. While we did make progress and I was happy to have found a couple of true allies, I found that the biggest issues were laziness, apathy, and my own personal exhaustion. The biggest insight that I can take home from this experience is: you can always trust someone's _actions_. There's way too much lip service in the tech industry. This is critical and cynical but that's admittedly how the topic is sitting with me these days.</p>
 </div>
