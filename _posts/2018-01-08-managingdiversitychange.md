@@ -1,13 +1,13 @@
 ---
 title: Managing Diversity Change
-date: 2018-01-08 13:00:00 -05:00
+date: 2018-01-08
 categories:
 - blog
 - management
 - leadership
 - tech
 layout: post
-twitter_desc: Words go here
+twitter_desc: About managing diversity change for a growing design team in a tech company.
 twitter_image: 88-00card.jpg
 ---
 
