@@ -105,7 +105,7 @@ Feeling unwelcome in their environment is one of the most cited reasons for empl
 
 ##### Balance desired skill-sets
 
-When balancing creative roles which require both soft and technical skill-sets, be careful how these expectations are communicated and how projects are assigned. This is when things can get lopsided very quickly if it's ignored (example: one group assigned to communication heavy work while others are given technical projects which further exasperates promotional issues if the company already leans heavily towards technical expertise).
+When balancing creative roles which require both soft and technical skill-sets, be careful how these expectations are communicated and how projects are assigned. This is when things can get lopsided very quickly if it's ignored (example: one group assigned to communication heavy work while others are given technical projects which further exacerbates promotional issues if the company already leans heavily towards technical expertise).
 
 ## Doing Better, Together
 
