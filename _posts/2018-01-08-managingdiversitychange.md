@@ -41,7 +41,7 @@ The two areas I knew I could best effect was the hiring process for the members 
 
 ## Hiring
 
-I borroed some initiatives from the diversity and inclusion team at Shopify and from work done by the organizations I linked in the 'Resources' section:
+I borrowed some initiatives from the diversity and inclusion team at Shopify and from work done by the organizations I linked in the 'Resources' section:
 
 ##### Review outward-facing company marketing
 
