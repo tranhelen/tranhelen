@@ -28,11 +28,11 @@ Anders Ericsson, recognized as one of the world’s leading researchers on exper
 
 If you show up everyday at work and do the same thing, you are not progressing. No amount of ‘hours’ or imagined natural talent is going to change this.
 
-While I mainly shy away from looking at formal education for guidance, I think there is an important model worth mentioning. In most commonwealth countries or in Europe, you can continue past your post-graduate to obtain your master’s degree. This degree is anywhere from one to six years of formal study of a particular topic.
+While I mainly shy away from looking at formal education for guidance, I think there is an important model worth mentioning. In most commonwealth countries or in Europe, you can continue past your post-graduate to obtain your Masters degree. This degree is anywhere from one to six years of formal study of a particular topic.
 
 If you are in the design field (especially one which is UX-focused) it is a pretty big rarity to have a Masters of Arts. The knowledge acquired in a formal educational setting can seem impractical, given these programs focus on academics rather than hands-on experience.
 
-Our Director of Design at Shopify, Verne Ho, has written about the idea of a Design Thesis, which is very similar to a thesis program you would typically be in while obtaining your Master’s degree.<a id="anchor-4" href="#note-4" class="fieldnotes-anchor">[4]</a> You can think of this as another way of looking at deliberate practice. You find a track to devote yourself to (just start with something you like) and deliberately “practice” it until you have exhausted your resources.
+Our Director of Design at Shopify, Verne Ho, has written about the idea of a Design Thesis, which is very similar to a thesis program you would typically be in while obtaining your Masters degree.<a id="anchor-4" href="#note-4" class="fieldnotes-anchor">[4]</a> You can think of this as another way of looking at deliberate practice. You find a track to devote yourself to (just start with something you like) and deliberately “practice” it until you have exhausted your resources.
 
 ## Changing your mindset
 

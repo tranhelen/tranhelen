@@ -88,6 +88,21 @@
 		}
 	}
 
+	h4 {
+		font-size: em(25px);
+		font-style: normal;
+		margin: 5px 0 20px;
+
+		@include at-query($three) {
+			font-size: em(30px);
+			margin: 10px 0 25px;
+		}
+
+		@include at-query($four) {
+			font-size: em(34px);
+		}
+	}
+
 	blockquote.large {
 		p {
 			font-style: normal;
@@ -153,6 +168,14 @@
 
 	figcaption {
 		margin: 0;
+	}
+
+	ul { 
+		margin-bottom: 20px;
+
+		@include at-query($three) {
+			margin-bottom: 40px;
+		}
 	}
 }
 

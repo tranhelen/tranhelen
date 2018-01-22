@@ -7968,14 +7968,33 @@ blockquote.large.c2-s4-blockquote {
     font-size: 2.5em;
   }
 }
-/* line 92, ../../sass/partials/_blog.scss */
+/* line 91, ../../sass/partials/_blog.scss */
+.post-single h4, .post-single .h4 {
+  font-size: 1.5625em;
+  font-style: normal;
+  margin: 5px 0 20px;
+}
+@media screen and (min-width: 1130px) {
+  /* line 91, ../../sass/partials/_blog.scss */
+  .post-single h4, .post-single .h4 {
+    font-size: 1.875em;
+    margin: 10px 0 25px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* line 91, ../../sass/partials/_blog.scss */
+  .post-single h4, .post-single .h4 {
+    font-size: 2.125em;
+  }
+}
+/* line 107, ../../sass/partials/_blog.scss */
 .post-single blockquote.large p, .post-single blockquote.large label {
   font-style: normal;
   font-weight: 600;
   line-height: 1.45;
 }
 @media screen and (min-width: 1130px) {
-  /* line 92, ../../sass/partials/_blog.scss */
+  /* line 107, ../../sass/partials/_blog.scss */
   .post-single blockquote.large p, .post-single blockquote.large label {
     font-size: 1.5625em;
     line-height: 1.6;
@@ -7984,35 +8003,35 @@ blockquote.large.c2-s4-blockquote {
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 92, ../../sass/partials/_blog.scss */
+  /* line 107, ../../sass/partials/_blog.scss */
   .post-single blockquote.large p, .post-single blockquote.large label {
     font-size: 1.875em;
     line-height: 1.8;
     margin: 60px -100px;
   }
 }
-/* line 112, ../../sass/partials/_blog.scss */
+/* line 127, ../../sass/partials/_blog.scss */
 .post-single figure {
   margin: 20px 0 30px;
 }
 @media screen and (min-width: 1130px) {
-  /* line 112, ../../sass/partials/_blog.scss */
+  /* line 127, ../../sass/partials/_blog.scss */
   .post-single figure {
     margin: 50px 0 60px;
   }
 }
-/* line 119, ../../sass/partials/_blog.scss */
+/* line 134, ../../sass/partials/_blog.scss */
 .post-single figure.hero {
   margin: -15px -30px 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 119, ../../sass/partials/_blog.scss */
+  /* line 134, ../../sass/partials/_blog.scss */
   .post-single figure.hero {
     margin: 15px -60px 35px;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 119, ../../sass/partials/_blog.scss */
+  /* line 134, ../../sass/partials/_blog.scss */
   .post-single figure.hero {
     margin: -45px 0 -60px 0;
     position: relative;
@@ -8021,34 +8040,44 @@ blockquote.large.c2-s4-blockquote {
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 119, ../../sass/partials/_blog.scss */
+  /* line 134, ../../sass/partials/_blog.scss */
   .post-single figure.hero {
     margin: -130px 0 -80px 0;
   }
 }
 @media screen and (min-width: 1130px) {
-  /* line 137, ../../sass/partials/_blog.scss */
+  /* line 152, ../../sass/partials/_blog.scss */
   .post-single figure.hero.--wcaption {
     margin-bottom: -100px;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 137, ../../sass/partials/_blog.scss */
+  /* line 152, ../../sass/partials/_blog.scss */
   .post-single figure.hero.--wcaption {
     margin-bottom: -110px;
   }
 }
-/* line 148, ../../sass/partials/_blog.scss */
+/* line 163, ../../sass/partials/_blog.scss */
 .post-single figure.left {
   float: left;
   margin: 0 30px 0 0;
 }
-/* line 154, ../../sass/partials/_blog.scss */
+/* line 169, ../../sass/partials/_blog.scss */
 .post-single figcaption {
   margin: 0;
 }
+/* line 173, ../../sass/partials/_blog.scss */
+.post-single ul {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1130px) {
+  /* line 173, ../../sass/partials/_blog.scss */
+  .post-single ul {
+    margin-bottom: 40px;
+  }
+}
 
-/* line 159, ../../sass/partials/_blog.scss */
+/* line 182, ../../sass/partials/_blog.scss */
 .fieldnotes-anchor {
   color: #d0a233;
   font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -8060,12 +8089,12 @@ blockquote.large.c2-s4-blockquote {
   bottom: 5px;
 }
 
-/* line 170, ../../sass/partials/_blog.scss */
+/* line 193, ../../sass/partials/_blog.scss */
 .footnote {
   letter-spacing: 2px;
 }
 
-/* line 174, ../../sass/partials/_blog.scss */
+/* line 197, ../../sass/partials/_blog.scss */
 .footnote-back {
   background-image: none;
   margin-left: -20px;
@@ -8076,14 +8105,14 @@ blockquote.large.c2-s4-blockquote {
 /*------------------------------------*\
     #Snowflakes :( Suckkkk ittttt
 \*------------------------------------*/
-/* line 185, ../../sass/partials/_blog.scss */
+/* line 208, ../../sass/partials/_blog.scss */
 .book-cover {
   background: none;
   display: block;
   margin-bottom: 15px;
 }
 @media screen and (min-width: 800px) {
-  /* line 185, ../../sass/partials/_blog.scss */
+  /* line 208, ../../sass/partials/_blog.scss */
   .book-cover {
     margin: 30px 0;
   }
