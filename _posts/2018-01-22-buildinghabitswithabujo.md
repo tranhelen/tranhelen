@@ -11,7 +11,7 @@ twitter_image: 90-00card.jpg
 
 It’s what you do every day that changes you. From authors like Cal Newport to podcasters like Tim Ferris to motivational speakers like Tony Robbins, generally everyone always mentions that the key to excellence is building good habits.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> 
 
-When I was fine-tuning how to build life-long habits, I came across the Bullet Journal.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> I'm all about small changes for large impacts and this system was exactly that for me. I've been using it for the past two years and can see improvements throughout my professional and personal life.
+When I was fine-tuning how to build life-long habits, I came across the Bullet Journal.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> I'm all about small changes for large impacts and this system was exactly that for me. I've been using it for just over a year and a half and can see improvements throughout my professional and personal life.
 
 ## Why a Bullet Journal?
 
@@ -29,9 +29,11 @@ People in the BuJo community call the way you lay out a particular page a _sprea
 
 #### Dailies
 
-Dailies are my To-Do lists. They are written in the morning and contain the top one-three things to do that day.
+<figure class="left">
+    <img src="/img/post/90-01.jpg" alt="An example of my daily spread" />
+</figure>
 
-Each item is a bullet and when it’s completed, I place an x over the bullet. If I don’t complete the item I forward it to the next day with an arrow. If I find myself forwarding an item multiple times, it’s generally a sign that it’s not really that important at all or I _really_ need to get it down. If it’s not important, I cross it out and move on.
+Dailies are my To-Do lists and they follow the basic Bullet Journal guidelines for daily entries. I write them in the morning and they list the top three things to do that day (sometimes just one).
 
 There’s a few other things I do that are unique with my dailies. I would not attempt to integrate this right away into your own journal:
 - I mark ideas with an exclamation mark which I then mark into my indexes (more on that later)
@@ -43,17 +45,29 @@ Dailies help me focus on what’s important, define what’s the minimum for a s
 
 #### Weeklys
 
+<figure>
+    <img src="/img/post/90-02.jpg" alt="My weekly spread is dedicated mostly to my hobby" />
+</figure>
+
 As you use your bullet journal you will find you prefer different spreads for different areas of your life. I don’t use weekly spreads for my work but I do use weekly spreads for my main hobby.
 
 Since I don’t need to make daily decisions for bodybuilding (it’s more of a consistency sport), I keep workouts tracked on a weekly basis and include a weekly review to keep note of any changes in body composition or sensitivities to food. This is generally how I pick up on trends.
 
 #### Monthlys
 
+<figure class="left">
+    <img src="/img/post/90-03.jpg" alt="My weekly spread is dedicated mostly to my hobby" />
+</figure>
+
 My monthly spread tracks my social outings, happy moments, competition numbers, and lists my low-priority tasks.
 
 I live a social life despite being fairly introverted. I need time by myself in order to feel “balanced” so I try not to go out twice in a row or more than twice a week. The lines on the left next to the dates mark the weeks of a month and it makes it easy for me to ensure I’m not over-extending myself.
 
 My happy log covers the next three pages with three bullets for each day. I originally tried a _gratitude_ log but I got too repetitive so I started listing the things that made me happy. It gives me the same warm fuzzies and keeps me positive.
+
+<figure>
+    <img src="/img/post/90-04.jpg" alt="A close-up of my bodybuilding tracking" />
+</figure>
 
 The next pages are bodybuilding focused: detailed tracking of my measurements, diet plans, and macro targets to ensure I’m hitting my body recomposition targets during off- and on-season.
 
@@ -73,8 +87,9 @@ When I got a handle on my foundational spreads, I started doing one-off special 
 
 I’ve done the following spreads for fun:
 - **Yearly Review:** I noticed I am horrible at celebrating when I’ve accomplished something so I forced myself to pinpoint one great thing I did per month for the past year.
-- **Hiking Review:** I converted my trail memos and numbers into a spread after I finished hiking the Kungsleden as a momento for my trip. Again, to celebrate an accomplishment.
+- **Hiking Momento:** I converted my trail memos and numbers into a spread after I finished hiking the Kungsleden as a momento for my trip. Again, to celebrate an accomplishment.
 - **90-day Letter:** I write a letter to myself every quarter with what I want to accomplish over the next three months and follow up on my last letter. Boring redundant letters are generally a good sign.
+- **Sketch Notes:** I occasionally spend a few hours trying to summarize a book into a spread that I can keep for later reference. This is incredibly helpful for learning.
 - **Annual Value Check-up:** I am very attached to my values and keeping them top of mind so I [review them yearly](http://helentran.com/carvingalife) to ensure I'm keeping myself accountable to who I want to be.
 
 ### Ditched Spreads
@@ -85,7 +100,7 @@ I tried the following spreads but they didn’t work out:
 
 ## How to start
 
-Remember that your journal is _yours_ so you should only do what works for _you_. I would advise you don’t spend too much time looking at the #bulletjournal hashtag if you know you get distracted easily by what others are doing.
+Your journal is _yours_ so you should only do what works for _you_. I would advise you don’t spend too much time looking at the #bulletjournal hashtag if you know you get distracted easily by what others are doing.
 
 Clarifying what you need from your journal and writing them down in the front can help you stay focused. I use my bullet journal to:
 - keep me on track with my goals and keep myself accountable
