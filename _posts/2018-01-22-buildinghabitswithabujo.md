@@ -65,9 +65,9 @@ I live a social life despite being fairly introverted. I need time by myself in 
 
 My happy log covers the next three pages with three bullets for each day. I originally tried a _gratitude_ log but I got too repetitive so I started listing the things that made me happy. It gives me the same warm fuzzies and keeps me positive.
 
-<figure>
+<!-- <figure>
     <img src="/img/post/90-04.jpg" alt="A close-up of my bodybuilding tracking" />
-</figure>
+</figure> -->
 
 The next pages are bodybuilding focused: detailed tracking of my measurements, diet plans, and macro targets to ensure I’m hitting my body recomposition targets during off- and on-season.
 
