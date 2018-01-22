@@ -29,9 +29,9 @@ People in the BuJo community call the way you lay out a particular page a _sprea
 
 #### Dailies
 
-<figure class="left">
+<!-- <figure class="left">
     <img src="/img/post/90-01.jpg" alt="An example of my daily spread" />
-</figure>
+</figure> -->
 
 Dailies are my To-Do lists and they follow the basic Bullet Journal guidelines for daily entries. I write them in the morning and they list the top three things to do that day (sometimes just one).
 
@@ -44,10 +44,10 @@ There’s a few other things I do that are unique with my dailies. I would not a
 Dailies help me focus on what’s important, define what’s the minimum for a successful day, and keeps anxieties about “_not doing enough_” at bay.
 
 #### Weeklys
-
+<!-- 
 <figure>
     <img src="/img/post/90-02.jpg" alt="My weekly spread is dedicated mostly to my hobby" />
-</figure>
+</figure> -->
 
 As you use your bullet journal you will find you prefer different spreads for different areas of your life. I don’t use weekly spreads for my work but I do use weekly spreads for my main hobby.
 
@@ -55,9 +55,9 @@ Since I don’t need to make daily decisions for bodybuilding (it’s more of a 
 
 #### Monthlys
 
-<figure class="left">
+<!-- <figure class="left">
     <img src="/img/post/90-03.jpg" alt="My weekly spread is dedicated mostly to my hobby" />
-</figure>
+</figure> -->
 
 My monthly spread tracks my social outings, happy moments, competition numbers, and lists my low-priority tasks.
 
