@@ -19,7 +19,7 @@ _**Note**: I do have to apologize for the lack of imagery in this post. My inten
 
 A Bullet Journal (or any journal) is an under-rated tool for better decision making and habit building. My journal takes my big dreams and forces me to [break them down](http://helentran.com/goalsetting) into daily habits. It also forces me to review things repeatedly to ensure I stay focused.
 
-I started using my journal for work-related tasks but now it also monitors my social life, my bodybuilding goals, and ideas for creative projects. Over time it has involved to become my second brain.
+I started using my journal for work-related tasks but now it also monitors my social life, my bodybuilding goals, and ideas for creative projects. Over time it has evolved to become my second brain.
 
 Below I’ve detailed how my journal is laid out. It should be enough information for you to get started on yours.
 
@@ -77,7 +77,7 @@ When I got a handle on my foundational spreads, I started doing one-off special 
 
 I’ve done the following spreads for fun:
 - **Yearly Review:** I noticed I am horrible at celebrating when I’ve accomplished something so I forced myself to pinpoint one great thing I did per month for the past year.
-- **Hiking Momento:** I converted my trail memos and numbers into a spread after I finished hiking the Kungsleden as a momento for my trip. Again, to celebrate an accomplishment.
+- **Hiking Review:** I converted my trail memos and numbers into a spread after I finished hiking the Kungsleden as a souvenir for my trip. Again, to celebrate an accomplishment.
 - **90-day Letter:** I write a letter to myself every quarter with what I want to accomplish over the next three months and follow up on my last letter. Boring redundant letters are generally a good sign.
 - **Sketch Notes:** I occasionally spend a few hours trying to summarize a book into a spread that I can keep for later reference. This is incredibly helpful for learning.
 - **Annual Value Check-up:** I am very attached to my values and keeping them top of mind so I [review them yearly](http://helentran.com/carvingalife) to ensure I'm keeping myself accountable to who I want to be.
