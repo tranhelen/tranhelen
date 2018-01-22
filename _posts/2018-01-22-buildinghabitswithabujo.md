@@ -13,6 +13,8 @@ It’s what you do every day that changes you. From authors like Cal Newport to 
 
 When I was fine-tuning how to build life-long habits, I came across the Bullet Journal.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> I'm all about small changes for large impacts and this system was exactly that for me. I've been using it for just over a year and a half and can see improvements throughout my professional and personal life.
 
+_**Note**: I do have to apologize for the lack of imagery in this post. My intentions were to publish with spreads but due to a random series of events (and poor planning), this didn't happen. You can find some pictures in the announcement Twitter spread._<a id="anchor-6" href="#note-6" class="fieldnotes-anchor">[6]</a>
+
 ## Why a Bullet Journal?
 
 A Bullet Journal (or any journal) is an under-rated tool for better decision making and habit building. My journal takes my big dreams and forces me to [break them down](http://helentran.com/goalsetting) into daily habits. It also forces me to review things repeatedly to ensure I stay focused.
@@ -29,10 +31,6 @@ People in the BuJo community call the way you lay out a particular page a _sprea
 
 #### Dailies
 
-<!-- <figure class="left">
-    <img src="/img/post/90-01.jpg" alt="An example of my daily spread" />
-</figure> -->
-
 Dailies are my To-Do lists and they follow the basic Bullet Journal guidelines for daily entries. I write them in the morning and they list the top three things to do that day (sometimes just one).
 
 There’s a few other things I do that are unique with my dailies. I would not attempt to integrate this right away into your own journal:
@@ -44,10 +42,10 @@ There’s a few other things I do that are unique with my dailies. I would not a
 Dailies help me focus on what’s important, define what’s the minimum for a successful day, and keeps anxieties about “_not doing enough_” at bay.
 
 #### Weeklys
-<!-- 
+
 <figure>
-    <img src="/img/post/90-02.jpg" alt="My weekly spread is dedicated mostly to my hobby" />
-</figure> -->
+    <img src="/img/post/90-01.jpg" alt="My weekly spread is dedicated mostly to my hobby" />
+</figure>
 
 As you use your bullet journal you will find you prefer different spreads for different areas of your life. I don’t use weekly spreads for my work but I do use weekly spreads for my main hobby.
 
@@ -55,19 +53,11 @@ Since I don’t need to make daily decisions for bodybuilding (it’s more of a 
 
 #### Monthlys
 
-<!-- <figure class="left">
-    <img src="/img/post/90-03.jpg" alt="My weekly spread is dedicated mostly to my hobby" />
-</figure> -->
-
 My monthly spread tracks my social outings, happy moments, competition numbers, and lists my low-priority tasks.
 
 I live a social life despite being fairly introverted. I need time by myself in order to feel “balanced” so I try not to go out twice in a row or more than twice a week. The lines on the left next to the dates mark the weeks of a month and it makes it easy for me to ensure I’m not over-extending myself.
 
 My happy log covers the next three pages with three bullets for each day. I originally tried a _gratitude_ log but I got too repetitive so I started listing the things that made me happy. It gives me the same warm fuzzies and keeps me positive.
-
-<!-- <figure>
-    <img src="/img/post/90-04.jpg" alt="A close-up of my bodybuilding tracking" />
-</figure> -->
 
 The next pages are bodybuilding focused: detailed tracking of my measurements, diet plans, and macro targets to ensure I’m hitting my body recomposition targets during off- and on-season.
 
@@ -156,4 +146,6 @@ Oh, and: don’t overthink it.
     <p id="note-4"><a href="#anchor-4" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[4]</span> You can <a href="http://amzn.to/2BivNmq" class="external" target="_blank"><span class="external-body">buy the notebook on Amazon</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 
     <p id="note-5"><a href="#anchor-5" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[5]</span> You can <a href="http://amzn.to/2DXvXTp" class="external" target="_blank"><span class="external-body">buy the pens on Amazon</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a> or Muji</p>
+
+    <p id="note-6"><a href="#anchor-6" class="footnote-back">&#8617;&#xFE0E;</a> <span class="footnote">[6]</span> Find more pictures in the <a href="https://twitter.com/tranhelen/status/955441321937838080" class="external" target="_blank"><span class="external-body">Twitter thread</span><span class="external-box"><span class="external-box__arrow">↗&#xFE0E;</span></span></a></p>
 </div>
