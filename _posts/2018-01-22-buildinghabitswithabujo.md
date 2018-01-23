@@ -13,7 +13,7 @@ It’s what you do every day that changes you. From authors like Cal Newport to 
 
 When I was fine-tuning how to build life-long habits, I came across the Bullet Journal.<a id="anchor-2" href="#note-2" class="fieldnotes-anchor">[2]</a> I'm all about small changes for large impacts and this system was exactly that for me. I've been using it for just over a year and a half and can see improvements throughout my professional and personal life.
 
-_**Note**: I do have to apologize for the lack of imagery in this post. My intentions were to publish with spreads but due to a random series of events (and poor planning), this didn't happen. You can find some pictures in the announcement Twitter spread._<a id="anchor-6" href="#note-6" class="fieldnotes-anchor">[6]</a>
+_**Note**: I do have to apologize for the lack of imagery in this post. My intentions were to publish with spreads but due to a random series of events (and poor planning), this didn't happen. You can find some pictures in the announcement Twitter thread._<a id="anchor-6" href="#note-6" class="fieldnotes-anchor">[6]</a>
 
 ## Why a Bullet Journal?
 
@@ -42,10 +42,6 @@ There’s a few other things I do that are unique with my dailies. I would not a
 Dailies help me focus on what’s important, define what’s the minimum for a successful day, and keeps anxieties about “_not doing enough_” at bay.
 
 #### Weeklys
-
-<figure>
-    <img src="/img/post/90-01.jpg" alt="My weekly spread is dedicated mostly to my hobby" />
-</figure>
 
 As you use your bullet journal you will find you prefer different spreads for different areas of your life. I don’t use weekly spreads for my work but I do use weekly spreads for my main hobby.
 
