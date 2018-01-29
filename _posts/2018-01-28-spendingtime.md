@@ -20,8 +20,8 @@ Overall my goal has been to quantify the number of hours I spend on an activity 
 **Priorities**
 - Main Project - *25 hours*
 - Friends/Family - *12-20 hours*
-- Students - *10 hours*
-- Fitness goals - *9 hours*
+- Fitness/Health - *10 hours*
+- Students - *8 hours*
 - This website/blog - *2 hours*
 
 Doing this made huge impacts on how I worked and I've now since started applying this to micro-decisions about my new project.
