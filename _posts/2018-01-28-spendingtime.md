@@ -21,4 +21,4 @@ Giving myself this permission to be honest about the things I had on my plate gr
 
 With this clarity I started to apply this thinking to micro-decisions about new project using first-item priorities to dictate how I use my time. Since I'm in the early stages of determining product market fit, I'm dropping the 10% in polish in exchange for the 90% I know will get me the results I'm looking for saving the polish for empty moments in between testing.
 
-This month, I dropped down to 30 hours a week but I'm getting more done with less time. It likely won't continue like this once my project gains more momentum but for now I'm enjoying that I have enough time to stop and smell the flowers.
+This month I dropped down to 30 hours a week but I'm getting more done with less time. It likely won't continue like this once my project gains more momentum but for now I'm enjoying that I have enough time to stop and smell the flowers.
