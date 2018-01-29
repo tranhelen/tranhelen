@@ -13,9 +13,7 @@ I have been settling into a new life without a team or an employer for the past 
 
 For the first month as I was working on this redesign, I tracked the time I spent digitally with RescueTime. I noticed I was spending time on social media past the point of positive return and I felt overwhelmed on weekdays.
 
-I test a new work schedule: 5 hours a day, 6 days a week instead of 7 hours over 5. My gym sessions were moved to match the days as a prompt to start work immediately after. To curb any distractions, I set stricter rules around social time and time spent online.
-
-Further clarifying my priorities led me to dropping some projects I was working on like The Pastry Box Project and a book I had started.
+I test a new work schedule: 5 hours a day, 6 days a week instead of 7 hours over 5. My gym sessions were moved to match the days as a prompt to start work immediately after. Further clarifying my priorities led me to dropping some projects I was working on like The Pastry Box Project and a book I had started.
 
 Overall my goal has been to quantify the number of hours I spend on an activity and match it to my list of priorities in descending order:
 
