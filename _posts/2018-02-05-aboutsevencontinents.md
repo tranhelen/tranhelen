@@ -5,7 +5,7 @@ categories:
 - blog
 - life
 layout: post
-twitter_desc: A lesson learned about how to spend time when you're self-employed
+twitter_desc: What I thought about as I landed on the seventh continent
 twitter_image: 92-00card.jpg
 ---
 
