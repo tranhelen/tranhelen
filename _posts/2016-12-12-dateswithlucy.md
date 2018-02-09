@@ -46,7 +46,7 @@ The biggest issue I have with micro-dosing experimentations is that it seems lik
 
 ## The Results
 
-During the month I was happier and friendlier overall. I originally said I was more productive and creative on some days, but it's hard to tell if that wasn't simply the normal ebb and flow of life. In general, Lucy made me more open. This sentiment has been echoed by many dosers.
+During the month I was happier and friendlier overall. I originally said I was more productive and creative on some days but it's hard to tell if that wasn't simply the normal ebb and flow of life. In general, Lucy made me more open. This sentiment has been echoed by many dosers.
 
 The only negative side effect I noted is that it tends to make me less hungry. Since this impedes my fitness goals I stopped. In the end, micro-dosing was enjoyable but it wasn't making enough marked improvements in my life to justify continuing it. When it comes to fulfillment and happiness, living by [my values](http://helentran.com/carving-a-life) and working on my emotional IQ has had a more noticeable effect than micro-dosing and is permanent.
 
