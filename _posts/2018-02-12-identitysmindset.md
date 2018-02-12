@@ -29,9 +29,7 @@ Everything else in the sport is an _inevitability_ because their identity alread
 
 Bodybuilding is an additive art: you start with a basic shape, pick where you want the clay, and place it there with training and diet. Shedding an identity, on the other hand, is a subtractive art. You start with a ball of clay and you chisel away until something works.
 
-Since I'm switching gears to build a product I need to adjust my mindset. Part of it is letting go of something that I held so dearly for many years. This has been harder than I thought it would be.
-
-As I go deep into it, I'm starting to realize the implications of being a Designer for many years. I'm not letting all of it go, of course, but I do have to soften parts of it.
+Adjusting my mindset means letting go of something that I held onto so dearly for many years. This has been harder than I thought it would be. As I go deep into it, I'm starting to realize the full implications of my past (or still current) career. I'm not letting all of it go, of course, but I do have to soften parts of it.
 
 <blockquote class="large">
 <p>Changing your identity changes your mindset changing your habits which changes your results.</p>
