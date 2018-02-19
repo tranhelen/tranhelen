@@ -72,6 +72,4 @@ It is! Systematic approaches aren't great for everyone but I like knowing where 
 
 ## Good luck
 
-These are the things which have helped me over the years build a life I wanted to live. Not only is this simple and effective, it also has profound effects on your confidence and ability to pick up things quickly. These are both amazing traits to have in uncertain and overwhelming situations. You can stay focused on the goal because you know you can do it and you're going to do it quickly. The mental model shifts from _can I_ to _when I._ 
-
-I sound like a motivational guru, don't I? 
+These are the things which have helped me over the years build a life I wanted to live. Not only is this simple and effective, it also has profound effects on your confidence and ability to pick up things quickly. These are both amazing traits to have in uncertain and overwhelming situations. You can stay focused on the goal because you know you can do it and you're going to do it. The mental model shifts from _can I_ to _when I._ 

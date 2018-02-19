@@ -51,6 +51,8 @@ As you are trying to pair habits to others, you may realize you also have _negat
 
 One of the most powerful tools at your disposal is your own mindset. Keep a positive head on your shoulders–celebrate your wins but don't spend too much time feeling down. Stay objective, identify where you faltered, and do better next time: starting a cycle of negative self-talk will _always_ lead to a worse outcome.
 
+If you did something today: you don't have to worry about never reaching your goal, because you will. **Consistency always trumps motivation.**
+
 ### Repetition
 
 You may have heard that it takes something like 40 days (or whatever number) to build a new habit. This isn't true–it can take any number of days depending on the habit itself and its complexity. You either repeat it until it becomes second nature or you iterate on the process until you can make it second nature. This will likely require more repetitions than you think.
