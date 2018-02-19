@@ -51,7 +51,7 @@ As you are trying to pair habits to others, you may realize you also have _negat
 
 One of the most powerful tools at your disposal is your own mindset. Keep a positive head on your shoulders–celebrate your wins but don't spend too much time feeling down. Stay objective, identify where you faltered, and do better next time: starting a cycle of negative self-talk will _always_ lead to a worse outcome.
 
-If you did something today: you don't have to worry about never reaching your goal, because you will. **Consistency always trumps motivation.**
+If you did something today: you don't have to worry about never reaching your goal, because you will.
 
 ### Repetition
 
@@ -60,6 +60,8 @@ You may have heard that it takes something like 40 days (or whatever number) to 
 ## The Silver Lining
 
 The most positive thing about learning how to do this effectively is that it's a skill which compounds. You can repeat it and your discipline and willpower becomes stronger over time.
+
+<blockquote class="large">Consistency always trumps motivation.</blockquote>
 
 For more on goal-setting, check out my other post on [how to set goals](http://helentran.com/goalsetting).
 
