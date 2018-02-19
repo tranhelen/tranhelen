@@ -11,7 +11,7 @@ twitter_image: 94-00card.jpg
 
 I'm a strong believer in building habits and putting your brain on auto-pilot most of the day to free up mental headspace for hard decisions. I spend a good portion of my reflection time deconstructing goals and identifying which habits to build.
 
-After many years of experimenting, I finally have a framework which works for me.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> I was able to go from coach potato to physique competitor and long-distance hiker, learn Spanish, and make dramatic adjustments in my career in a short timeframe. You don't even need an app for it (hard to imagine, I know)!
+After many years of this, I finally have a framework which works for me.<a id="anchor-1" href="#note-1" class="fieldnotes-anchor">[1]</a> I was able to go from couch potato to physique competitor and long-distance hiker, bilingual to trilingual, and designer to design manager. You don't even need an app for it (hard to imagine, I know)!
 
 There are four steps to building a habit: clarifying, pairing, measuring, and iterating.
 
@@ -19,35 +19,33 @@ There are four steps to building a habit: clarifying, pairing, measuring, and it
 
 ### Clarifying
 
-You can't get to a destination if you don't know where the destination is. There's a reason why many fitness trainers recommend that you use a program: because they work. Break down your goal into small digestible chunks: if you want to run 25k, try to run 5k first. Then break _that_ down.
+You can't get to a destination if you don't know where the destination is. There's a reason why many fitness trainers recommend that you use a program: because they work. Break down your goal into small digestible chunks: if you want to run 25k, try to run 5k first. Then break _that_ down. Maybe it's just 0.5, then 1k, then 2.5k, then 5k.
 
-Once you have it in a smaller chunk, what would success mean? Would it mean completing it at _any_ speed? on _any_ terrain? Or should you be more specific than that? If you don't know what it is you want, you may have to identify goals that will help you figure that out.
+Once you've broken it down, define what success means. Would it mean completing it at _any_ speed? on _any_ terrain? Or should you be more specific than that? If you don't know what it is you want, you may have to identify goals that will help you figure that out.
 
 ### Pairing
 
-The easiest way to learn something is to build on top of what you already know. This is an easy way to turn short-term understanding into long-term memories. To apply that to your habits, find a habit that you _already have_ and pair it with the new one you want to build. If you want to floss every day, put it beside your toothbrush because you already brush every day. 
+The easiest way to learn something is to build on top of what you already know. This is how you turn short-term thoughts into long-term memories. To apply that to your habits, find a habit that you _already have_ and pair it with the new one you want to build. If you want to floss every day, put it beside your toothbrush because you already brush every day.
 
-This can be a bit more difficult when you are going into brand new territory but almost anything can be linked to something you already do. Aside from helping you learn the habit, it helps make the habit automatic, which is key to making it more enjoyable.
+This can be a bit more difficult when you are going into brand new territory but almost anything can be linked to something you already do. Aside from helping you learn the habit, it helps make the habit automatic, which is key to making it stick.
 
 ### Measuring
 
-> What gets measured gets managed.
+When clarifying what success means, ask yourself how you could prove success of the habit or even keep track of it. If you're trying to run more, do you have a tracker for distance or heart-rate? Can you write it down in a [journal](http://helentran.com/buildinghabitswithabujo)? Can you simply just check it off on a wall calendar?
 
-When clarifying what success means, ask yourself how you could prove success of the habit or even keep track of it. If you're trying to run more, do you have a tracker for distance or heart-rate? Can you write it down in a [journal](http://helentran.com/buildinghabitswithabujo)? 
-
-The simpler it is for you to track it, the more likely you're going to be able to do it. Try not to overthink this: it can be as simple as writing a checkmark on a wall calendar. Celebrating your wins, seeing your streaks, and keeping yourself accountable will make sure you stay on track.
+The simpler it is for you to track it, the more likely you're going to be able to do it. Do not to overthink this. Celebrating your wins, seeing your streaks, and keeping yourself accountable will make sure you stay on track.
 
 ### Iterating
 
-On a weekly or monthly basis, do a check-in with yourself. Ask yourself accountability questions: did I success during this time period? Did I do what I said I was going to do? Why or why not? What can I do to better ensure that I'm hitting my targets?
+On a weekly or monthly basis, do a check-in with yourself. Ask yourself accountability questions: did I succeed during this time period? Did I do what I said I was going to do? Why or why not? What can I do to better ensure that I'm hitting my targets?
 
-I recommend writing this down with pen and paper. Pen and paper boosts memory and it helps you learn more effectively which only helps you keep the goal top of mind.
+I recommend writing this down with pen and paper. Pen and paper boosts memory and it helps you learn more effectively.
 
 ## Other Tips
 
 ### Counterforces
 
-As you are trying to pair habits to others, you may realize you also have _negative_ anchors. If you're trying to lose weight and you reach into a nearby snack drawer when bored this will quickly overpower any new fitness habit. Try to tackle these habits first by either replacing them or removing their source.
+As you are trying to pair habits to others, you may realize you also have _negative_ anchors. If you're trying to lose weight and you reach into a nearby snack drawer when bored this will quickly overpower your new fitness habit. Try to tackle these habits first by either replacing them or removing their source.
 
 ### Sanity
 
@@ -59,7 +57,7 @@ You may have heard that it takes something like 40 days (or whatever number) to 
 
 ## The Silver Lining
 
-The most positive thing about learning how to do this effectively is that it's a skill which compounds. You can repeat it your discipline and willpower becomes stronger over time.
+The most positive thing about learning how to do this effectively is that it's a skill which compounds. You can repeat it and your discipline and willpower becomes stronger over time.
 
 For more on goal-setting, check out my other post on [how to set goals](http://helentran.com/goalsetting).
 

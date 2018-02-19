@@ -129,7 +129,6 @@ Happy journalling!
 
 Oh, and: don’t overthink it.
 
-
 <hr class="small">
 
 <div class="fieldnotes">
