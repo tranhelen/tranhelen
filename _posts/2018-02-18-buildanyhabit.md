@@ -61,7 +61,7 @@ You may have heard that it takes something like 40 days (or whatever number) to 
 
 The most positive thing about learning how to do this effectively is that it's a skill which compounds. You can repeat it and your discipline and willpower becomes stronger over time.
 
-<blockquote class="large">Consistency always trumps motivation.</blockquote>
+<blockquote class="large"><p>Consistency always trumps motivation.</p></blockquote>
 
 For more on goal-setting, check out my other post on [how to set goals](http://helentran.com/goalsetting).
 
