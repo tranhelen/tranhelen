@@ -155,18 +155,6 @@ ul li {
 	font-size: em(18px);
 	line-height: 1.75;
 	margin: 0 0 10px;
-
-	@include at-query($three) {
-		font-size: em(20px);
-	}
-
-	@include at-query($four) {
-		font-size: em(24px);
-	}
-
-	p {
-		font-size: inherit;	
-	}
 }
 
 blockquote {
@@ -174,11 +162,6 @@ blockquote {
 	border-width: 0 0 0 5px;
 	margin: 20px 0 30px;
 
-	p {
-		color: $colorTextHeader;
-		font-style: italic;
-		margin: 0 30px 15px;
-	}
 }
 
 
@@ -187,27 +170,11 @@ hr {
 	border-bottom: 3px solid $colorAccent;
 	border-radius: 999px;
 	margin: 30px auto;
-
-	@include at-query($three) {
-		margin: 50px auto;
-	}
-
-	&.small {
-		width: 30px;
-	}
-
-	&.noborder {
-		border-color: transparent;
-	}
 }
 
 input {
     font-family: $stack2;
     font-size: em(13px);
-
-    @include at-query($three) {
-    	font-size: em(16px);
-    }
 }
 
 pre,
@@ -220,14 +187,6 @@ code {
 
 code {
 	font-size: em(12px);
-
-	pre & {
-		background-color: transparent;
-		font-size: em(14px);
-	    line-height: 1.71;
-	    padding: 0;
-	    word-wrap: break-word;
-	}
 }
 
 pre {
@@ -249,54 +208,12 @@ ul {
 	font-size: em(15px);
 	line-height: 1.84;
 	margin-bottom: 5px;
-
-	a {
-		background-position: left 18px;
-
-		&:hover {
-			background-position: left 40px;
-		}
-
-		@include at-query($three) {
-			background-position: left 20px;			
-		}
-	}
-
-
-	@include at-query($one) {
-		text-align: center;
-	}
-
-	@include at-query($three) {
-		font-size: em(16px);
-	}
 }
 
 .small {
 	font-family: $stack2;
 	font-size: em(14px);
 	line-height: 1.84;
-
-	a {
-		background-position: left 17px;
-
-		&:hover {
-			background-position: left 25px;
-			color: $colorTextBody;
-		}
-	}
-
-	@include at-query($three) {
-		font-size: em(16px);
-
-		a {
-			background-position: left 20px;
-
-			&:hover {
-				background-position: left 40px;
-			}
-		}
-	}
 }
 
 #mce-success-response,
@@ -316,22 +233,10 @@ html {
 body {
 	font-family: $stack1;
 	padding-bottom: 50px;
-
-	&.--home {
-		padding: 0;
-	}
 }
 
 figure {
 	margin: 20px 0 30px 0;
-
-	a {
-		border: 0;
-	}
-
-	img {
-		box-shadow: 0px 10px 30px rgba($colorShadow,0.2);
-	}
 }
 
 input,
@@ -341,35 +246,16 @@ textarea {
     margin: 0;
     padding: 8px 15px 10px;
     width: 100%;
-
-    @include at-query($three) {
-    	padding: 15px 25px;
-    }
 }
 
 label {
 	display: block;
 	font-weight: 600;
 	margin: 30px 0 5px;
-
-	@extend p;
 }
 
 .container {
 	margin: 0 30px;
-
-	@include at-query($one) {
-		margin: 0 60px;
-	}
-
-	@include at-query($two) {
-		margin: 0 10%;
-		max-width: 1400px;
-	}
-
-	@include at-query($four) {
-		margin: 0 auto;
-	}
 }
 
 .mailinglist {
