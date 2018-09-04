@@ -61,10 +61,7 @@ $stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
 $stack2: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
-$one: 600px;
-$two: 800px;
-$three: 1130px;
-$four: 1500px;
+$one: 600px;\
 
 @import "normalize";
 
@@ -177,25 +174,6 @@ input {
     font-size: em(13px);
 }
 
-pre,
-code {
-    background-color: rgba($colorAccentTwo,0.1);
-    color: $colorTextHeader;
-    margin: 20px 0 30px;
-    padding: 5px 7px;
-}
-
-code {
-	font-size: em(12px);
-}
-
-pre {
-	padding: 15px 20px;
-	white-space: pre-wrap;       /* css-3 */
-	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-	word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-
 ul {
 	margin: 0;
 
@@ -258,70 +236,6 @@ label {
 	margin: 0 30px;
 }
 
-.mailinglist {
-	margin: 20px 0 50px;
-
-	@include at-query($four) {
-		margin: 70px 0 100px;
-	}
-
-	.mailinglist__content {
-		margin-top: 40px;
-	}
-
-	.mailinglist__header,
-	.mailinglist__footer {
-	    background-position-x: 50%;
-	    background-repeat: no-repeat;
-	    background-size: cover;
-		height: 30px;
-	}
-
-	.mailinglist__header {
-		background-image: url('/img/bg-watercolour-footer.svg');
-		margin: 0;
-	}
-
-	.mailinglist__footer {
-		background-image: url('/img/bg-watercolour-footerft.svg');
-	    margin-top: -10px;
-	}
-
-	.mailinglist__form {
-		background-color: $colorBGone;
-		padding: 10px 0 20px;
-
-		input {
-			margin-bottom: 15px;
-		}
-
-		@include at-query($one) {
-			input {
-				margin-bottom: 0;
-			}
-		}
-
-		@include at-query($two) {
-			padding-bottom: 10px;
-		}
-	}
-}
-
-.mailinglistpage {
-	background-color: $colorBGone;
-	margin: 30px 0;
-    padding: 30px 30px 0;
-
-    input {
-    	margin-bottom: 30px;
-    }
-
-    @include at-query($three) {
-    	margin: 0;
-    	padding: 30px;
-    }
-}
-
 #mc-embedded-subscribe {
 	background-color: $colorAccent;
 	border-radius: 0;
@@ -336,17 +250,4 @@ label {
 	&:hover {
 		background-color: lighten($colorAccent,10%);
 	}
-
-	@include at-query($one) {
-		margin-top: 15px;
-	}
-
-	@include at-query($three) {
-		font-size: em(16px);
-		margin: 0;
-		padding: 15px 0;
-		text-align: center;
-	}
-
-	@include transition;
 }
