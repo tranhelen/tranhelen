@@ -1,12 +1,10 @@
 ---
+layout: default
 title: On Identity
-date: 2018-09-17
+date: 2018-09-04
 categories:
-- webite
+- website
 - life
-layout: post
-twitter_desc: The four steps to building any habit for the long-term.
-twitter_image: 94-00card.jpg
 ---
 
 Here's a quote written by Eric Roth, the writer behind the screenplay based on a short story by F. Scott Fitzgerald:
