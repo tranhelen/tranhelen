@@ -57,7 +57,6 @@ img {
 }
 
 $baseFontSize: 16px;
-$stacksuper: "ltc-bodoni-175", Georgia, Times, Times New Roman, serif;
 $stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
 $stack2: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -71,9 +70,397 @@ $four: 1500px;
 
 @import "modules/mixins";
 @import "vendor/grids";
-
 @import "partials/helpers";
 
-@import "partials/main";
-@import "partials/homepage";
-@import "partials/blog";
+/*------------------------------------*\
+    #TypographyMain
+\*------------------------------------*/
+
+a {
+	color: $colorLink;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $colorTextHeader;
+	font-weight: 300;
+}
+
+.h1 { @extend h1; }
+.h2 { @extend h2; }
+.h3 { @extend h3; }
+.h4 { @extend h4; }
+.h5 { @extend h5; }
+.h6 { @extend h6; }
+
+h1 {
+	font-family: $stack1;
+	font-size: em(60px);
+	line-height: 1;
+	margin: 0;
+}
+
+h2 {
+	color: $colorAccent;
+	font-size: em(30px);
+	font-style: italic;
+	line-height: 1.36;
+	margin: 10px 0 10px;
+}
+
+h3 {
+	font-size: em(22px);
+	line-height: 1.375;
+	margin: 0 0 15px;
+}
+
+h4 {
+	font-size: 40px;
+	font-style: italic;
+    line-height: 1;
+    margin: 0;
+    padding-top: 10px;
+}
+
+h5 {
+	font-size: em(20px);
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 30px 0;
+}
+
+h6 {
+	color: $colorAccent;
+	font-family: $stack2;
+	font-size: em(13px);
+	font-weight: 600;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+header {
+	margin: 40px 0;
+}
+
+p {
+	color: $colorTextBody;
+	font-size: em(18px);
+	line-height: 1.7;
+	margin: 0 0 10px;
+}
+
+ol li,
+ul li {
+	color: $colorTextBody;
+	font-size: em(18px);
+	line-height: 1.75;
+	margin: 0 0 10px;
+
+	@include at-query($three) {
+		font-size: em(20px);
+	}
+
+	@include at-query($four) {
+		font-size: em(24px);
+	}
+
+	p {
+		font-size: inherit;	
+	}
+}
+
+blockquote {
+	border: 5px solid $colorAccent;
+	border-width: 0 0 0 5px;
+	margin: 20px 0 30px;
+
+	p {
+		color: $colorTextHeader;
+		font-style: italic;
+		margin: 0 30px 15px;
+	}
+}
+
+
+hr {
+	border: 0;
+	border-bottom: 3px solid $colorAccent;
+	border-radius: 999px;
+	margin: 30px auto;
+
+	@include at-query($three) {
+		margin: 50px auto;
+	}
+
+	&.small {
+		width: 30px;
+	}
+
+	&.noborder {
+		border-color: transparent;
+	}
+}
+
+input {
+    font-family: $stack2;
+    font-size: em(13px);
+
+    @include at-query($three) {
+    	font-size: em(16px);
+    }
+}
+
+pre,
+code {
+    background-color: rgba($colorAccentTwo,0.1);
+    color: $colorTextHeader;
+    margin: 20px 0 30px;
+    padding: 5px 7px;
+}
+
+code {
+	font-size: em(12px);
+
+	pre & {
+		background-color: transparent;
+		font-size: em(14px);
+	    line-height: 1.71;
+	    padding: 0;
+	    word-wrap: break-word;
+	}
+}
+
+pre {
+	padding: 15px 20px;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+ul {
+	margin: 0;
+
+	&.no-bullet li {
+		list-style-type: none;
+	}
+}
+
+.copy {
+	font-size: em(15px);
+	line-height: 1.84;
+	margin-bottom: 5px;
+
+	a {
+		background-position: left 18px;
+
+		&:hover {
+			background-position: left 40px;
+		}
+
+		@include at-query($three) {
+			background-position: left 20px;			
+		}
+	}
+
+
+	@include at-query($one) {
+		text-align: center;
+	}
+
+	@include at-query($three) {
+		font-size: em(16px);
+	}
+}
+
+.small {
+	font-family: $stack2;
+	font-size: em(14px);
+	line-height: 1.84;
+
+	a {
+		background-position: left 17px;
+
+		&:hover {
+			background-position: left 25px;
+			color: $colorTextBody;
+		}
+	}
+
+	@include at-query($three) {
+		font-size: em(16px);
+
+		a {
+			background-position: left 20px;
+
+			&:hover {
+				background-position: left 40px;
+			}
+		}
+	}
+}
+
+#mce-success-response,
+#mce-error-response {
+	margin: 10px 0 0;
+}
+
+/*------------------------------------*\
+    #Shared
+\*------------------------------------*/
+
+body,
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: $stack1;
+	padding-bottom: 50px;
+
+	&.--home {
+		padding: 0;
+	}
+}
+
+figure {
+	margin: 20px 0 30px 0;
+
+	a {
+		border: 0;
+	}
+
+	img {
+		box-shadow: 0px 10px 30px rgba($colorShadow,0.2);
+	}
+}
+
+input,
+textarea {
+	background-color: #fff;
+	border: 0;
+    margin: 0;
+    padding: 8px 15px 10px;
+    width: 100%;
+
+    @include at-query($three) {
+    	padding: 15px 25px;
+    }
+}
+
+label {
+	display: block;
+	font-weight: 600;
+	margin: 30px 0 5px;
+
+	@extend p;
+}
+
+.container {
+	margin: 0 30px;
+
+	@include at-query($one) {
+		margin: 0 60px;
+	}
+
+	@include at-query($two) {
+		margin: 0 10%;
+		max-width: 1400px;
+	}
+
+	@include at-query($four) {
+		margin: 0 auto;
+	}
+}
+
+.mailinglist {
+	margin: 20px 0 50px;
+
+	@include at-query($four) {
+		margin: 70px 0 100px;
+	}
+
+	.mailinglist__content {
+		margin-top: 40px;
+	}
+
+	.mailinglist__header,
+	.mailinglist__footer {
+	    background-position-x: 50%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+		height: 30px;
+	}
+
+	.mailinglist__header {
+		background-image: url('/img/bg-watercolour-footer.svg');
+		margin: 0;
+	}
+
+	.mailinglist__footer {
+		background-image: url('/img/bg-watercolour-footerft.svg');
+	    margin-top: -10px;
+	}
+
+	.mailinglist__form {
+		background-color: $colorBGone;
+		padding: 10px 0 20px;
+
+		input {
+			margin-bottom: 15px;
+		}
+
+		@include at-query($one) {
+			input {
+				margin-bottom: 0;
+			}
+		}
+
+		@include at-query($two) {
+			padding-bottom: 10px;
+		}
+	}
+}
+
+.mailinglistpage {
+	background-color: $colorBGone;
+	margin: 30px 0;
+    padding: 30px 30px 0;
+
+    input {
+    	margin-bottom: 30px;
+    }
+
+    @include at-query($three) {
+    	margin: 0;
+    	padding: 30px;
+    }
+}
+
+#mc-embedded-subscribe {
+	background-color: $colorAccent;
+	border-radius: 0;
+	color: #fff;
+	font-family: $stack2;
+	font-size: em(13px);
+	font-weight: 600;
+	padding: 8px 15px 10px;
+	text-align: center;
+	width: 100%;
+
+	&:hover {
+		background-color: lighten($colorAccent,10%);
+	}
+
+	@include at-query($one) {
+		margin-top: 15px;
+	}
+
+	@include at-query($three) {
+		font-size: em(16px);
+		margin: 0;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+	@include transition;
+}
