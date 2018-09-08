@@ -226,6 +226,11 @@ ul {
 	}
 }
 
+.time {
+	font-family: $stack2;
+	font-size: 14px;
+}
+
 #mce-success-response,
 #mce-error-response {
 	margin: 10px 0 0;
@@ -287,7 +292,7 @@ label {
     #Homepage
 \*------------------------------------*/
 
-.bio {
+.introbio {
     background-color: #ffd000;
     position: relative;
     margin-top: -109px;
@@ -314,6 +319,27 @@ label {
 	}
 }
 
+.journal {
+	background-color: #1C1C1C;
+    margin-top: 50px;
+    margin-left: 10%;
+    padding: 30px;
+    width: 90%;
+
+    p {
+    	color: #ffffff;
+    }
+
+    a {
+    	color: #fff;
+
+    	&:hover {
+    		color: $colorLink;
+    		font-style: normal;
+    	}
+    }
+}
+
 .main {
     border-bottom: 2px solid #efefef;
     width: 90%;
@@ -336,4 +362,15 @@ label {
 
 .navbio {
     position: relative;
+}
+
+.section-tag {
+    background-color: $colorLink;
+    padding: 5px 15px;
+    font-family: $stack2;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: -40px;
 }

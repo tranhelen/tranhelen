@@ -3512,6 +3512,12 @@ ul.no-bullet li {
 }
 
 /* line 229, ../../sass/theme/style.scss */
+.time {
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* line 234, ../../sass/theme/style.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 10px 0 0;
@@ -3520,23 +3526,23 @@ ul.no-bullet li {
 /*------------------------------------*\
     #Shared
 \*------------------------------------*/
-/* line 238, ../../sass/theme/style.scss */
+/* line 243, ../../sass/theme/style.scss */
 body,
 html {
   overflow-x: hidden;
 }
 
-/* line 243, ../../sass/theme/style.scss */
+/* line 248, ../../sass/theme/style.scss */
 body {
   font-family: "essonnes-text", Georgia, Times, Times New Roman, serif;
 }
 
-/* line 247, ../../sass/theme/style.scss */
+/* line 252, ../../sass/theme/style.scss */
 figure {
   margin: 20px 0 30px 0;
 }
 
-/* line 251, ../../sass/theme/style.scss */
+/* line 256, ../../sass/theme/style.scss */
 input,
 textarea {
   background-color: #fff;
@@ -3546,24 +3552,24 @@ textarea {
   width: 100%;
 }
 
-/* line 260, ../../sass/theme/style.scss */
+/* line 265, ../../sass/theme/style.scss */
 label {
   display: block;
   font-weight: 600;
   margin: 30px 0 5px;
 }
 
-/* line 266, ../../sass/theme/style.scss */
+/* line 271, ../../sass/theme/style.scss */
 .container {
   margin: 0 30px;
 }
 
-/* line 270, ../../sass/theme/style.scss */
+/* line 275, ../../sass/theme/style.scss */
 .mailinglist {
   margin: 20px 0 50px;
 }
 
-/* line 274, ../../sass/theme/style.scss */
+/* line 279, ../../sass/theme/style.scss */
 #mc-embedded-subscribe {
   background-color: #ffd000;
   border-radius: 0;
@@ -3579,8 +3585,8 @@ label {
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
-/* line 290, ../../sass/theme/style.scss */
-.bio {
+/* line 295, ../../sass/theme/style.scss */
+.introbio {
   background-color: #ffd000;
   position: relative;
   margin-top: -109px;
@@ -3589,8 +3595,8 @@ label {
   width: 70%;
   z-index: 2;
 }
-/* line 299, ../../sass/theme/style.scss */
-.bio a {
+/* line 304, ../../sass/theme/style.scss */
+.introbio a {
   border-bottom: 1px solid white;
   color: #fff;
   -webkit-transition: all 0.5s ease-out;
@@ -3598,39 +3604,73 @@ label {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 305, ../../sass/theme/style.scss */
-.bio a:hover {
+/* line 310, ../../sass/theme/style.scss */
+.introbio a:hover {
   border-color: rgba(255, 255, 255, 0);
 }
-/* line 310, ../../sass/theme/style.scss */
-.bio .bio__link {
+/* line 315, ../../sass/theme/style.scss */
+.introbio .bio__link {
   color: #fff;
   margin-left: 50px;
   margin-right: -105px;
 }
 
-/* line 317, ../../sass/theme/style.scss */
+/* line 322, ../../sass/theme/style.scss */
+.journal {
+  background-color: #1C1C1C;
+  margin-top: 50px;
+  margin-left: 10%;
+  padding: 30px;
+  width: 90%;
+}
+/* line 329, ../../sass/theme/style.scss */
+.journal p {
+  color: #ffffff;
+}
+/* line 333, ../../sass/theme/style.scss */
+.journal a {
+  color: #fff;
+}
+/* line 336, ../../sass/theme/style.scss */
+.journal a:hover {
+  color: #ffd000;
+  font-style: normal;
+}
+
+/* line 343, ../../sass/theme/style.scss */
 .main {
   border-bottom: 2px solid #efefef;
   width: 90%;
   margin-left: 10%;
 }
-/* line 322, ../../sass/theme/style.scss */
+/* line 348, ../../sass/theme/style.scss */
 .main ul {
   margin: 10px 0 0;
   padding: 0;
 }
-/* line 327, ../../sass/theme/style.scss */
+/* line 353, ../../sass/theme/style.scss */
 .main ul li {
   display: inline-block;
 }
-/* line 330, ../../sass/theme/style.scss */
+/* line 356, ../../sass/theme/style.scss */
 .main ul li a {
   color: #333333;
   margin-right: 20px;
 }
 
-/* line 337, ../../sass/theme/style.scss */
+/* line 363, ../../sass/theme/style.scss */
 .navbio {
   position: relative;
+}
+
+/* line 367, ../../sass/theme/style.scss */
+.section-tag {
+  background-color: #ffd000;
+  padding: 5px 15px;
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  top: -40px;
 }

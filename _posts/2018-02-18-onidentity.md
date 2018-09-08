@@ -2,9 +2,7 @@
 layout: default
 title: On Identity
 date: 2018-09-07
-categories:
-- website
-- life
+excerpt: A quote from screenwriter Eric Roth&#58; &quot;For what it&apos;s worth&#58; it&apos;s never too late or, in my case, too early to be&quot;
 ---
 
 A quote from screenwriter Eric Roth:
