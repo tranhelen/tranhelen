@@ -4,20 +4,21 @@ layout: default
 ---
 
 <header class="navbio">
-	<img src="img/portrait-kyle.jpg" alt="Portrait of Helen Tran by Kyle Kirkwood" />
+	<img src="img/portrait-kyle.jpg" class="portrait" alt="Portrait of Helen Tran by Kyle Kirkwood" />
 	<div class="bio">
-		<h5>Entrepreneur <a href="" class="bio__link">Bio</a></h5>
+		<h5>Entrepreneur <span class="bio__link"><a href="">Bio</a> ⬎</span></h5>
 		<h1>Helen Tran</h1>
-		<h4>Obsessed with growth in all domains</h4>
+		<h6>I'm about a lot of things</h6>
 	</div>
-	<nav class="main">
-		<ul class="no-bullet">
-			<li><a href="">Journal</a></li>
-			<li><a href="">Bio</a></li>
-			<li><a href="">Contact</a></li>
-		</ul>
-	</nav>
 </header>
+<nav class="main">
+	<ul class="no-bullet">
+		<li><a href="" class="em">Journal</a></li>
+		<li><a href="" class="em">Bio</a></li>
+		<li><a href="" class="em">Bookshelf</a></li>
+		<li><a href="" class="em">Contact</a></li>
+	</ul>
+</nav>
 
 <section class="journal">
 	{% for post in site.posts limit:1 %}

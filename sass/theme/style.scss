@@ -16,15 +16,14 @@
 
 /* Colour Variables */
 	/* Main */
-	$colorAccent: #d0a233;
-	$colorAccentTwo: #768fe1;
+	$colorAccent: #ffd000;
 
 	/* Text */
 	$colorTextHeader: #394047;
 	$colorTextBody: #5f6771; 
 
 	/* Links */
-	$colorLink: #768fe1;
+	$colorLink: #ffd000;
 	
 	/* Other */
 	$colorShadow: #796b5d;
@@ -57,8 +56,9 @@ img {
 }
 
 $baseFontSize: 16px;
-$stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
-$stack2: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stacktitle: "essonnes-headline", Georgia, Times, Times New Roman, serif;
+$stack1: "essonnes-text", Georgia, Times, Times New Roman, serif;
+$stack2: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
 $one: 600px;
@@ -77,8 +77,26 @@ $four: 1500px;
 \*------------------------------------*/
 
 a {
-	color: $colorLink;
+	border-bottom: 1px solid rbga($colorLink,0.5);
     text-decoration: none;
+
+    @include transition;
+
+    &:hover {
+    	border: 0;
+    }
+
+    &.em {
+		font-family: $stack2;
+		font-size: 12px;
+		font-weight: 600;
+		color: $colorLink;
+	    text-transform: uppercase;
+
+	    &:hover {
+	    	background-color: $colorLink;
+	    }
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -94,10 +112,16 @@ h1, h2, h3, h4, h5, h6 {
 .h6 { @extend h6; }
 
 h1 {
-	font-family: $stack1;
-	font-size: em(60px);
-	line-height: 1;
+	font-family: $stacktitle;
+	font-size: em(70px);
+	font-weight: 600;
+	line-height: 60px;
 	margin: 0;
+	font-style: italic;
+
+	.bio & {
+		text-align: right;
+	}
 }
 
 h2 {
@@ -123,23 +147,21 @@ h4 {
 }
 
 h5 {
-	font-size: em(20px);
-	font-weight: 600;
-	line-height: 1.5;
-	margin: 0 0 30px 0;
-}
-
-h6 {
-	color: $colorAccent;
 	font-family: $stack2;
-	font-size: em(13px);
+	font-size: em(15px);
 	font-weight: 600;
-	margin: 0;
 	text-transform: uppercase;
 }
 
-header {
-	margin: 40px 0;
+h6 {
+	font-family: $stack2;
+	font-size: em(13px);
+	margin: 0;
+
+	.bio & {
+		font-style: italic;
+		margin-top: 10px;
+	}
 }
 
 p {
@@ -179,7 +201,7 @@ input {
 
 pre,
 code {
-    background-color: rgba($colorAccentTwo,0.1);
+    background-color: rgba($colorAccent,                                            0.1);
     color: $colorTextHeader;
     margin: 20px 0 30px;
     padding: 5px 7px;
@@ -220,7 +242,6 @@ html {
 
 body {
 	font-family: $stack1;
-	padding-bottom: 50px;
 }
 
 figure {
@@ -260,4 +281,59 @@ label {
 	padding: 8px 15px 10px;
 	text-align: center;
 	width: 100%;
+}
+
+/*------------------------------------*\
+    #Homepage
+\*------------------------------------*/
+
+.bio {
+    background-color: #ffd000;
+    position: relative;
+    margin-top: -109px;
+    padding: 30px;
+    text-align: right;
+    width: 70%;
+    z-index: 2;
+
+	a {
+		border-bottom: 1px solid rgba(#fff,1);
+		color: #fff;
+
+		@include transition;
+
+		&:hover {
+			border-color: rgba(#fff,0);
+		}
+	}
+
+	.bio__link {
+		color: #fff;
+		margin-left: 50px;
+		margin-right: -105px;
+	}
+}
+
+.main {
+    border-bottom: 2px solid #efefef;
+    width: 90%;
+    margin-left: 10%;
+
+    ul {
+    	margin: 10px 0 0;
+    	padding: 0;
+    }
+
+    ul li {
+    	display: inline-block;
+
+    	a {
+    		color: #333333;
+    		margin-right: 20px;
+    	}
+    }
+}
+
+.navbio {
+    position: relative;
 }

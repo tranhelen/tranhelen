@@ -21,7 +21,7 @@
 /*------------------------------------*\
     #Base
 \*------------------------------------*/
-/* line 39, ../../sass/theme/style.scss */
+/* line 38, ../../sass/theme/style.scss */
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -30,17 +30,17 @@
   text-rendering: optimizeLegibility;
 }
 
-/* line 47, ../../sass/theme/style.scss */
+/* line 46, ../../sass/theme/style.scss */
 ::selection {
   background: #ff0;
 }
 
-/* line 51, ../../sass/theme/style.scss */
+/* line 50, ../../sass/theme/style.scss */
 ::-moz-selection {
   background: #ff0;
 }
 
-/* line 55, ../../sass/theme/style.scss */
+/* line 54, ../../sass/theme/style.scss */
 img {
   width: 100%;
 }
@@ -314,20 +314,6 @@ th {
   padding: 0;
 }
 
-/*------------------------------------*\
-    #Animations
-\*------------------------------------*/
-@keyframes arrowbounce {
-  0%, 100%, 40%, 80% {
-    transform: translateY(0);
-  }
-  20% {
-    transform: translateX(-10px);
-  }
-  60% {
-    transform: translateX(-5px);
-  }
-}
 /*------------------------------------*\
     This file has been modified by me, Helen Tran, to suit my needs. The biggest and most important change being the adjustment of Harry Roberts' inline-block technique to use floats instead.
     Probably best to grab the real thing: http://csswizardry.com/csswizardry-grids/
@@ -3364,41 +3350,67 @@ th {
 \*------------------------------------*/
 /* line 79, ../../sass/theme/style.scss */
 a {
-  color: #768fe1;
+  border-bottom: 1px solid rbga(#ffd000, 0.5);
   text-decoration: none;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* line 85, ../../sass/theme/style.scss */
+a:hover {
+  border: 0;
+}
+/* line 89, ../../sass/theme/style.scss */
+a.em {
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffd000;
+  text-transform: uppercase;
+}
+/* line 96, ../../sass/theme/style.scss */
+a.em:hover {
+  background-color: #ffd000;
 }
 
-/* line 84, ../../sass/theme/style.scss */
+/* line 102, ../../sass/theme/style.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #394047;
   font-weight: 300;
 }
 
-/* line 96, ../../sass/theme/style.scss */
+/* line 114, ../../sass/theme/style.scss */
 h1, .h1 {
-  font-family: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
-  font-size: 3.75em;
-  line-height: 1;
+  font-family: "essonnes-headline", Georgia, Times, Times New Roman, serif;
+  font-size: 4.375em;
+  font-weight: 600;
+  line-height: 60px;
   margin: 0;
+  font-style: italic;
+}
+/* line 122, ../../sass/theme/style.scss */
+.bio h1, .bio .h1 {
+  text-align: right;
 }
 
-/* line 103, ../../sass/theme/style.scss */
+/* line 127, ../../sass/theme/style.scss */
 h2, .h2 {
-  color: #d0a233;
+  color: #ffd000;
   font-size: 1.875em;
   font-style: italic;
   line-height: 1.36;
   margin: 10px 0 10px;
 }
 
-/* line 111, ../../sass/theme/style.scss */
+/* line 135, ../../sass/theme/style.scss */
 h3, .h3 {
   font-size: 1.375em;
   line-height: 1.375;
   margin: 0 0 15px;
 }
 
-/* line 117, ../../sass/theme/style.scss */
+/* line 141, ../../sass/theme/style.scss */
 h4, .h4 {
   font-size: 40px;
   font-style: italic;
@@ -3407,30 +3419,27 @@ h4, .h4 {
   padding-top: 10px;
 }
 
-/* line 125, ../../sass/theme/style.scss */
+/* line 149, ../../sass/theme/style.scss */
 h5, .h5 {
-  font-size: 1.25em;
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9375em;
   font-weight: 600;
-  line-height: 1.5;
-  margin: 0 0 30px 0;
-}
-
-/* line 132, ../../sass/theme/style.scss */
-h6, .h6 {
-  color: #d0a233;
-  font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.8125em;
-  font-weight: 600;
-  margin: 0;
   text-transform: uppercase;
 }
 
-/* line 141, ../../sass/theme/style.scss */
-header {
-  margin: 40px 0;
+/* line 156, ../../sass/theme/style.scss */
+h6, .h6 {
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8125em;
+  margin: 0;
+}
+/* line 161, ../../sass/theme/style.scss */
+.bio h6, .bio .h6 {
+  font-style: italic;
+  margin-top: 10px;
 }
 
-/* line 145, ../../sass/theme/style.scss */
+/* line 167, ../../sass/theme/style.scss */
 p {
   color: #5f6771;
   font-size: 1.125em;
@@ -3438,7 +3447,7 @@ p {
   margin: 0 0 10px;
 }
 
-/* line 152, ../../sass/theme/style.scss */
+/* line 174, ../../sass/theme/style.scss */
 ol li,
 ul li {
   color: #5f6771;
@@ -3447,42 +3456,42 @@ ul li {
   margin: 0 0 10px;
 }
 
-/* line 160, ../../sass/theme/style.scss */
+/* line 182, ../../sass/theme/style.scss */
 blockquote {
-  border: 5px solid #d0a233;
+  border: 5px solid #ffd000;
   border-width: 0 0 0 5px;
   margin: 20px 0 30px;
 }
 
-/* line 168, ../../sass/theme/style.scss */
+/* line 190, ../../sass/theme/style.scss */
 hr {
   border: 0;
-  border-bottom: 3px solid #d0a233;
+  border-bottom: 3px solid #ffd000;
   border-radius: 999px;
   margin: 30px auto;
 }
 
-/* line 175, ../../sass/theme/style.scss */
+/* line 197, ../../sass/theme/style.scss */
 input {
-  font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em;
 }
 
-/* line 180, ../../sass/theme/style.scss */
+/* line 202, ../../sass/theme/style.scss */
 pre,
 code {
-  background-color: rgba(118, 143, 225, 0.1);
+  background-color: rgba(255, 208, 0, 0.1);
   color: #394047;
   margin: 20px 0 30px;
   padding: 5px 7px;
 }
 
-/* line 188, ../../sass/theme/style.scss */
+/* line 210, ../../sass/theme/style.scss */
 code {
   font-size: 0.75em;
 }
 
-/* line 192, ../../sass/theme/style.scss */
+/* line 214, ../../sass/theme/style.scss */
 pre {
   padding: 15px 20px;
   white-space: pre-wrap;
@@ -3493,16 +3502,16 @@ pre {
   /* Internet Explorer 5.5+ */
 }
 
-/* line 199, ../../sass/theme/style.scss */
+/* line 221, ../../sass/theme/style.scss */
 ul {
   margin: 0;
 }
-/* line 202, ../../sass/theme/style.scss */
+/* line 224, ../../sass/theme/style.scss */
 ul.no-bullet li {
   list-style-type: none;
 }
 
-/* line 207, ../../sass/theme/style.scss */
+/* line 229, ../../sass/theme/style.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 10px 0 0;
@@ -3511,24 +3520,23 @@ ul.no-bullet li {
 /*------------------------------------*\
     #Shared
 \*------------------------------------*/
-/* line 216, ../../sass/theme/style.scss */
+/* line 238, ../../sass/theme/style.scss */
 body,
 html {
   overflow-x: hidden;
 }
 
-/* line 221, ../../sass/theme/style.scss */
+/* line 243, ../../sass/theme/style.scss */
 body {
-  font-family: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
-  padding-bottom: 50px;
+  font-family: "essonnes-text", Georgia, Times, Times New Roman, serif;
 }
 
-/* line 226, ../../sass/theme/style.scss */
+/* line 247, ../../sass/theme/style.scss */
 figure {
   margin: 20px 0 30px 0;
 }
 
-/* line 230, ../../sass/theme/style.scss */
+/* line 251, ../../sass/theme/style.scss */
 input,
 textarea {
   background-color: #fff;
@@ -3538,32 +3546,91 @@ textarea {
   width: 100%;
 }
 
-/* line 239, ../../sass/theme/style.scss */
+/* line 260, ../../sass/theme/style.scss */
 label {
   display: block;
   font-weight: 600;
   margin: 30px 0 5px;
 }
 
-/* line 245, ../../sass/theme/style.scss */
+/* line 266, ../../sass/theme/style.scss */
 .container {
   margin: 0 30px;
 }
 
-/* line 249, ../../sass/theme/style.scss */
+/* line 270, ../../sass/theme/style.scss */
 .mailinglist {
   margin: 20px 0 50px;
 }
 
-/* line 253, ../../sass/theme/style.scss */
+/* line 274, ../../sass/theme/style.scss */
 #mc-embedded-subscribe {
-  background-color: #d0a233;
+  background-color: #ffd000;
   border-radius: 0;
   color: #fff;
-  font-family: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em;
   font-weight: 600;
   padding: 8px 15px 10px;
   text-align: center;
   width: 100%;
+}
+
+/*------------------------------------*\
+    #Homepage
+\*------------------------------------*/
+/* line 290, ../../sass/theme/style.scss */
+.bio {
+  background-color: #ffd000;
+  position: relative;
+  margin-top: -109px;
+  padding: 30px;
+  text-align: right;
+  width: 70%;
+  z-index: 2;
+}
+/* line 299, ../../sass/theme/style.scss */
+.bio a {
+  border-bottom: 1px solid white;
+  color: #fff;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* line 305, ../../sass/theme/style.scss */
+.bio a:hover {
+  border-color: rgba(255, 255, 255, 0);
+}
+/* line 310, ../../sass/theme/style.scss */
+.bio .bio__link {
+  color: #fff;
+  margin-left: 50px;
+  margin-right: -105px;
+}
+
+/* line 317, ../../sass/theme/style.scss */
+.main {
+  border-bottom: 2px solid #efefef;
+  width: 90%;
+  margin-left: 10%;
+}
+/* line 322, ../../sass/theme/style.scss */
+.main ul {
+  margin: 10px 0 0;
+  padding: 0;
+}
+/* line 327, ../../sass/theme/style.scss */
+.main ul li {
+  display: inline-block;
+}
+/* line 330, ../../sass/theme/style.scss */
+.main ul li a {
+  color: #333333;
+  margin-right: 20px;
+}
+
+/* line 337, ../../sass/theme/style.scss */
+.navbio {
+  position: relative;
 }
