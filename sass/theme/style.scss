@@ -61,10 +61,9 @@ $stack1: "essonnes-text", Georgia, Times, Times New Roman, serif;
 $stack2: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
-$one: 600px;
-$two: 800px;
-$three: 1130px;
-$four: 1500px;
+$one: 800px;
+$two: 1130px;
+$three: 1500px;
 
 @import "normalize";
 
@@ -111,6 +110,7 @@ a {
 
 	    &:hover {
 	    	background-color: $colorAccent;
+	    	color: #000;
 	    }
     }
 
@@ -340,19 +340,32 @@ label {
 
 .bio {
 	margin: 100px 30px 0;
+
+	@include at-query($one) {
+		margin-left: 20%;
+		margin-top: 190px;
+
+		h3 {
+			margin-top: 30px;
+		}
+	}
 }
 
 .bio__body {
 	border-left: 5px solid $colorAccent;
 	margin-top: 30px;
 	padding: 0 0 60px 30px;
+
+	@include at-query($one) {
+		padding-bottom: 160px;
+	}
 }
 
 
 .introbio {
     background-color: #ffd000;
     position: relative;
-    margin-top: -109px;
+    margin-top: -110px;
     padding: 30px;
     text-align: right;
     width: 70%;
@@ -378,6 +391,11 @@ label {
 		margin-left: 50px;
 		margin-right: -105px;
 	}
+
+	@include at-query($one) {
+		margin-top: -225px;
+		width: 50%;
+	}
 }
 
 .journal {
@@ -397,6 +415,12 @@ label {
     	&:hover {
     		font-style: normal;
     	}
+    }
+
+    @include at-query($one) {
+    	margin-left: 20%;
+    	margin-top: 160px;
+    	width: 80%;
     }
 }
 
@@ -418,10 +442,27 @@ label {
     		margin-right: 20px;
     	}
     }
+
+    @include at-query($one) {
+    background-color: #fff;
+	position: absolute;
+	    right: 0;
+	    top: 0;
+    }
 }
 
 .navbio {
     position: relative;
+}
+
+.portrait {
+	@include at-query($one) {
+	    border-right: 5px solid $colorAccent;
+	    margin-left: 50%;
+		position: relative;
+    		z-index: 1;
+	    width: 50%;
+	}
 }
 
 .section-tag {

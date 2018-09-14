@@ -61,10 +61,6 @@
 		margin: 0 10%;
 		max-width: 1400px;
 	}
-
-	@include at-query($four) {
-		margin: 0 auto;
-	}
 }
 
 .two--hide {
