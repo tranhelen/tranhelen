@@ -106,11 +106,18 @@ a {
 		font-size: 12px;
 		font-weight: 600;
 		color: $colorLink;
+		padding: 0 3px;
 	    text-transform: uppercase;
 
 	    &:hover {
-	    	background-color: $colorLink;
+	    	background-color: $colorAccent;
 	    }
+    }
+
+    .main & {
+    	&::after {
+    		opacity: 0;
+    	}
     }
 }
 
@@ -183,6 +190,7 @@ h6 {
 
 p {
 	color: $colorTextBody;
+	font-family: $stack1;
 	font-size: em(18px);
 	line-height: 1.7;
 	margin: 0 0 10px;
@@ -418,8 +426,8 @@ label {
 }
 
 .section-tag {
-    background-color: $colorLink;
-    padding: 5px 15px;
+    background-color: $colorAccent;
+    padding: 4px 15px 5px;
     font-family: $stack2;
     font-size: 12px;
     font-weight: bold;
