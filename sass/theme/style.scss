@@ -19,11 +19,11 @@
 	$colorAccent: #ffd000;
 
 	/* Text */
-	$colorTextHeader: #394047;
-	$colorTextBody: #5f6771; 
+	$colorTextHeader: #333;
+	$colorTextBody: #333; 
 
 	/* Links */
-	$colorLink: #ffd000;
+	$colorLink: #000;
 	
 	/* Other */
 	$colorShadow: #796b5d;
@@ -77,14 +77,29 @@ $four: 1500px;
 \*------------------------------------*/
 
 a {
-	border-bottom: 1px solid rbga($colorLink,0.5);
+	color: $colorLink;
+	position: relative;
     text-decoration: none;
 
     @include transition;
 
-    &:hover {
-    	border: 0;
-    }
+	&::after {
+		content: '';
+		position: absolute;
+		height: 1px;
+		width: 100%;
+		bottom: 2px;
+		right: 0;
+		background: rgba($colorTextBody,0.5);
+
+		opacity: 1;
+
+		@include transition;
+	}
+
+	&:hover::after {
+		opacity: 0;
+	}
 
     &.em {
 		font-family: $stack2;
@@ -125,6 +140,7 @@ h1 {
 }
 
 h2 {
+	font-family: $stacktitle;
 	color: $colorAccent;
 	font-size: em(30px);
 	font-style: italic;
@@ -133,8 +149,9 @@ h2 {
 }
 
 h3 {
-	font-size: em(22px);
-	line-height: 1.375;
+	font-family: $stacktitle;
+	font-size: em(24px);
+	line-height: 1.5;
 	margin: 0 0 15px;
 }
 
@@ -226,6 +243,13 @@ ul {
 	}
 }
 
+.copy {
+	font-family: $stack2;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
 .time {
 	font-family: $stack2;
 	font-size: 14px;
@@ -272,6 +296,20 @@ label {
 	margin: 0 30px;
 }
 
+.footer-main {
+	background-color: $colorAccent;
+	padding: 10px 40px 40px;
+	text-align: center;
+
+	.section-tag {
+	    background-color: #000;
+	    color: #fff;
+	    margin-bottom: 0;
+	    top: -25px;
+	    display: inline-block;
+	}
+}
+
 .mailinglist {
 	margin: 20px 0 50px;
 }
@@ -291,6 +329,17 @@ label {
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
+
+.bio {
+	margin: 100px 30px 0;
+}
+
+.bio__body {
+	border-left: 5px solid $colorAccent;
+	margin-top: 30px;
+	padding: 0 0 60px 30px;
+}
+
 
 .introbio {
     background-color: #ffd000;
@@ -312,6 +361,10 @@ label {
 		}
 	}
 
+	h6 {
+		margin-top: 10px;
+	}
+
 	.bio__link {
 		color: #fff;
 		margin-left: 50px;
@@ -321,7 +374,7 @@ label {
 
 .journal {
 	background-color: #1C1C1C;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 10%;
     padding: 30px;
     width: 90%;
