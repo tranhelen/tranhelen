@@ -4,37 +4,66 @@ layout: default
 ---
 
 <header class="navbio">
-	<img src="img/portrait-kyle.jpg" class="portrait" alt="Portrait of Helen Tran by Kyle Kirkwood" />
-	<div class="introbio">
+	<img src="img/portrait-kyle.jpg" class="portrait" alt="Portrait of Helen Tran by Kyle Kirkwood" 
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000"
+	data-aos-delay="100">
+	<div class="introbio"
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000">
 		<h5>Entrepreneur <span class="bio__link"><a href="#bio" class="scrollTo">Bio</a> ⬎</span></h5>
 		<h1>Helen Tran</h1>
 		<h6>I'm about a lot of things</h6>
 	</div>
 </header>
-<nav class="main">
+<nav class="main" 
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000">
 	<ul class="no-bullet">
-		<li><a href="" class="em">Journal</a></li>
-		<li><a href="" class="em">Bio</a></li>
-		<li><a href="" class="em">Bookshelf</a></li>
-		<li><a href="" class="em">Contact</a></li>
+		<li><a href="journal.html" class="em">Journal</a></li>
+		<li><a href="#bio" class="scrollTo em">Bio</a></li>
+		<li><a href="#contact" class="scrollTo em">Contact</a></li>
 	</ul>
 </nav>
 
-<section class="journal">
-	<span class="section-tag">Journal</span>
+<section class="journal"
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000">
+	<span class="section-tag"
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000">Journal</span>
 	{% for post in site.posts limit:1 %}
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	<p class="time">Published {{ post.date | date:'%B %Y' }}</p>
+	<div class="journal-single"
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000">
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<p class="time">Published {{ post.date | date:'%B %Y' }}</p>
 
-	<p>{{ post.excerpt | strip_html | truncatewords: 20 }} <a href="{{ post.url }}" class="em">Read more</a> →</p>
+		<p>{{ post.excerpt | strip_html | truncatewords: 20 }} <a href="{{ post.url }}" class="em">Read more</a> →</p>
+	</div>
 	{% endfor %}
 </section>
 <section class="bio" id="bio">
-	<span class="section-tag">Bio</span>
+	<span class="section-tag"
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000">Bio</span>
 
-	<h3>I am the Founder of <a href="http://tryjupiter.com">Jupiter</a>, a Physique Competitor, Product Designer, and Design Educator. I was born and raised in Toronto and am proud to call myself a 7-Continent citizen.</h3>
+	<h3
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000">I am the Founder of <a href="http://tryjupiter.com">Jupiter</a>, a Physique Competitor, Product Designer, and Design Educator. I was born and raised in Toronto and am proud to call myself a 7-Continent citizen.</h3>
 
-	<div class="bio__body">
+	<div class="bio__body"
+	data-aos="fade-zoom-in"
+	data-aos-easing="ease-in-back"
+	data-aos-duration="1000">
 		<p>I have spent 12 years designing and creating things, mostly software. From 2013-2017 I was at <a href="http://shopify.com">Shopify</a> as it scaled from 300 to 3000+ employees. I am most proud of working on the foundations of sales channels (now their App Platform) and helping to build out a Product Design team of 30 as a Design Lead.</p>
 		<p>In Canada my design work is used by a few large grocery chains and by mostly everyone buying a movie ticket online. Worldwide, my work has impacted 500,000+ merchants, the developers building for them, and consumers buying through various social media networks.</p>
 		<p>Currently I am building a company which creates software for beauty professionals at <a href="http://tryjupiter.com">Jupiter</a> and teach Design methods and skills to others.</p>
