@@ -6,7 +6,7 @@ layout: default
 <header class="navbio">
 	<img src="img/portrait-kyle.jpg" class="portrait" alt="Portrait of Helen Tran by Kyle Kirkwood" />
 	<div class="introbio">
-		<h5>Entrepreneur <span class="bio__link"><a href="">Bio</a> ⬎</span></h5>
+		<h5>Entrepreneur <span class="bio__link"><a href="#bio" class="scrollTo">Bio</a> ⬎</span></h5>
 		<h1>Helen Tran</h1>
 		<h6>I'm about a lot of things</h6>
 	</div>
@@ -29,7 +29,7 @@ layout: default
 	<p>{{ post.excerpt | strip_html | truncatewords: 20 }} <a href="{{ post.url }}" class="em">Read more</a> →</p>
 	{% endfor %}
 </section>
-<section class="bio">
+<section class="bio" id="bio">
 	<span class="section-tag">Bio</span>
 
 	<h3>I am the Founder of <a href="http://tryjupiter.com">Jupiter</a>, a Physique Competitor, Product Designer, and Design Educator. I was born and raised in Toronto and am proud to call myself a 7-Continent citizen.</h3>

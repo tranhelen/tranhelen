@@ -29,7 +29,7 @@
 	$colorShadow: #796b5d;
 	$colorBGone: #fcf8ef;
 	$colorBGtwo: #f6fafc;
-	$selection: #ff0;
+	$selection: $colorAccent;
 
 /*------------------------------------*\
     #Base
@@ -395,7 +395,6 @@ label {
     	color: #fff;
 
     	&:hover {
-    		color: $colorLink;
     		font-style: normal;
     	}
     }

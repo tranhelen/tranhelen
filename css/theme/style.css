@@ -32,12 +32,12 @@
 
 /* line 46, ../../sass/theme/style.scss */
 ::selection {
-  background: #ff0;
+  background: #ffd000;
 }
 
 /* line 50, ../../sass/theme/style.scss */
 ::-moz-selection {
-  background: #ff0;
+  background: #ffd000;
 }
 
 /* line 54, ../../sass/theme/style.scss */
@@ -3695,37 +3695,36 @@ label {
 }
 /* line 397, ../../sass/theme/style.scss */
 .journal a:hover {
-  color: #000;
   font-style: normal;
 }
 
-/* line 404, ../../sass/theme/style.scss */
+/* line 403, ../../sass/theme/style.scss */
 .main {
   border-bottom: 2px solid #efefef;
   width: 90%;
   margin-left: 10%;
 }
-/* line 409, ../../sass/theme/style.scss */
+/* line 408, ../../sass/theme/style.scss */
 .main ul {
   margin: 10px 0 0;
   padding: 0;
 }
-/* line 414, ../../sass/theme/style.scss */
+/* line 413, ../../sass/theme/style.scss */
 .main ul li {
   display: inline-block;
 }
-/* line 417, ../../sass/theme/style.scss */
+/* line 416, ../../sass/theme/style.scss */
 .main ul li a {
   color: #333333;
   margin-right: 20px;
 }
 
-/* line 424, ../../sass/theme/style.scss */
+/* line 423, ../../sass/theme/style.scss */
 .navbio {
   position: relative;
 }
 
-/* line 428, ../../sass/theme/style.scss */
+/* line 427, ../../sass/theme/style.scss */
 .section-tag {
   background-color: #ffd000;
   padding: 4px 15px 5px;
