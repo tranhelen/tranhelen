@@ -3279,7 +3279,7 @@ th {
   }
 }
 
-@media screen and (min-width: 1130px) {
+@media screen and (min-width: 1000px) {
   /* line 33, ../../sass/partials/_helpers.scss */
   .two--text-left {
     text-align: left;
@@ -3303,14 +3303,14 @@ th {
   display: none;
 }
 
-@media screen and (min-width: 1130px) {
+@media screen and (min-width: 1000px) {
   /* line 53, ../../sass/partials/_helpers.scss */
   .two--show {
     display: block;
   }
 }
 
-@media screen and (min-width: 1130px) {
+@media screen and (min-width: 1000px) {
   /* line 59, ../../sass/partials/_helpers.scss */
   .three--container {
     margin: 0 10%;
@@ -3318,7 +3318,7 @@ th {
   }
 }
 
-@media screen and (min-width: 1130px) {
+@media screen and (min-width: 1000px) {
   /* line 66, ../../sass/partials/_helpers.scss */
   .two--hide {
     display: none;
