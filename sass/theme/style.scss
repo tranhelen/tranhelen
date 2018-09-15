@@ -361,6 +361,14 @@ label {
 	}
 }
 
+.home-body {
+	background-color: #fff;
+	position: relative;
+
+	@include at-query($one) {
+		background-color: transparent;
+	}
+}
 
 .introbio {
     background-color: #ffd000;
@@ -428,9 +436,10 @@ label {
     border-bottom: 2px solid #efefef;
     width: 90%;
     margin-left: 10%;
+    padding-top: 10px;
 
     ul {
-    	margin: 10px 0 0;
+    	margin: 0;
     	padding: 0;
     }
 
@@ -453,9 +462,17 @@ label {
 
 .navbio {
     position: relative;
+    padding-top: 126%;
+
+    @inlude at-query($one) {
+    	padding-top: none;
+    }
 }
 
 .portrait {
+	position: fixed;
+		top: 0;
+
 	@include at-query($one) {
 	    border-right: 5px solid $colorAccent;
 	    margin-left: 50%;
