@@ -64,6 +64,7 @@ $stack2: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $one: 600px;
 $two: 800px;
 $three: 1060px;
+$four: 1200px;
 
 @import "normalize";
 
@@ -367,6 +368,18 @@ label {
 	    margin-left: 45%;
 	    max-width: 780px;
 	}
+
+	@include at-query($four) {
+		margin-top: 330px;
+
+		h3 {
+			width: 80%;
+		}
+
+		.section-tag {
+			left: -10px;
+		}
+	}
 }
 
 .bio__body {
@@ -376,6 +389,12 @@ label {
 
 	@include at-query($one) {
 		padding-bottom: 160px;
+	}
+
+	@include at-query($four) {
+	    margin-top: 60px;
+	    margin-left: 60px;
+	    padding: 0 0 250px 60px;
 	}
 }
 
@@ -445,6 +464,10 @@ label {
 			margin-top: 100px;
 		}
 	}
+
+	@include at-query($four) {
+		margin-right: 40%;
+	}
 }
 
 .journal {
@@ -459,12 +482,18 @@ label {
     }
 
     a {
-    	color: #fff;
+    	border-bottom: 1px solid $colorAccent;
+    	color: $colorAccent;
 
     	&:hover {
     		font-style: normal;
     	}
     }
+
+	h2 a {
+		border: 0;
+		color: #fff;
+	}
 
     @include at-query($one) {
     	margin-left: 20%;
@@ -482,6 +511,11 @@ label {
     	margin: 200px auto;
     	max-width: 1550px;
     	padding: 60px 10%;
+    }
+
+    @include at-query($four) {
+	    margin-top: 140px;
+	    padding-top: 885px;
     }
 }
 
@@ -535,6 +569,16 @@ label {
     		margin-right: 0;
     	}
     }
+
+    @include at-query($four) {
+    	border: 0;
+	    left: 0;
+	    max-width: 1600px;
+	    right: 0;
+	    padding-right: 745px;
+	    margin: auto;
+	    width: 100%;
+    }
 }
 
 .navbio {
@@ -570,8 +614,11 @@ label {
 
 	@include at-query($three) {
 	    margin-right: 60px;
-		max-width: 640px;
-	    width: 35%;
+	}
+
+	@include at-query($four) {
+		float: right;
+		width: 640px;
 	}
 }
 
