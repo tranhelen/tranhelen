@@ -61,8 +61,8 @@ $stack1: "essonnes-text", Georgia, Times, Times New Roman, serif;
 $stack2: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
-$one: 800px;
-$two: 1000px;
+$one: 600px;
+$two: 800px;
 $three: 1500px;
 
 @import "normalize";
@@ -316,6 +316,14 @@ label {
 	    top: -25px;
 	    display: inline-block;
 	}
+
+	@include at-query($two) {
+		padding: 50px 40px 90px;
+
+		.section-tag {
+			top: -60px;
+		}
+	}
 }
 
 .mailinglist {
@@ -349,6 +357,10 @@ label {
 			margin-top: 30px;
 		}
 	}
+
+	@include at-query($two) {
+		margin-left: 35%;
+	}
 }
 
 .bio__body {
@@ -367,6 +379,7 @@ label {
 
 	@include at-query($one) {
 		background-color: transparent;
+		position: unset;
 	}
 }
 
@@ -404,6 +417,11 @@ label {
 		margin-top: -225px;
 		width: 50%;
 	}
+
+	@include at-query($two) {
+	    margin-left: 26%;
+	    width: 40%;
+	}
 }
 
 .journal {
@@ -430,6 +448,23 @@ label {
     	margin-top: 160px;
     	width: 80%;
     }
+
+    @include at-query($two) {
+    	margin-left: 5%;
+    	padding: 60px 90px;
+    	width: 95%;
+    }
+}
+
+.journal-listing {
+    @include clearfix;
+}
+
+.journal-single {
+	@include at-query($two) {
+		float: left;
+		width: 50%;
+	}
 }
 
 .main {
@@ -453,10 +488,22 @@ label {
     }
 
     @include at-query($one) {
-    background-color: #fff;
-	position: absolute;
-	    right: 0;
-	    top: 0;
+	    background-color: #fff;
+		position: absolute;
+		    right: 0;
+		    top: 0;
+    }
+
+    @include at-query($two) {
+	    margin-right: 45%;
+    	padding: 50px 0;
+		text-align: right;
+	    width: 55%;
+
+    	ul li a {
+    		margin-left: 20px;
+    		margin-right: 0;
+    	}
     }
 }
 
@@ -464,8 +511,8 @@ label {
     position: relative;
     padding-top: 126%;
 
-    @inlude at-query($one) {
-    	padding-top: none;
+    @include at-query($one) {
+    	padding-top: 0;
     }
 }
 
@@ -480,6 +527,11 @@ label {
     		z-index: 1;
 	    width: 50%;
 	}
+
+	@include at-query($two) {
+		margin-left: 60%;
+		width: 40%;
+	}
 }
 
 .section-tag {
@@ -491,4 +543,8 @@ label {
     text-transform: uppercase;
     position: relative;
     top: -40px;
+
+    @include at-query($two) {
+    	top: -70px;
+    }
 }

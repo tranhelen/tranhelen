@@ -39,17 +39,19 @@ layout: default
 		data-aos="fade-up"
 		data-aos-easing="ease-out-quad"
 		data-aos-duration="800">Journal</span>
-		{% for post in site.posts limit:1 %}
-		<div class="journal-single"
-		data-aos="fade-up"
-		data-aos-easing="ease-out-quad"
-		data-aos-duration="800">
-			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			<p class="time">Published {{ post.date | date:'%B %Y' }}</p>
+		<div class="journal-listing">
+			{% for post in site.posts limit:1 %}
+			<div class="journal-single"
+			data-aos="fade-up"
+			data-aos-easing="ease-out-quad"
+			data-aos-duration="800">
+				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<p class="time">Published {{ post.date | date:'%B %Y' }}</p>
 
-			<p>{{ post.excerpt | strip_html | truncatewords: 20 }} <a href="{{ post.url }}" class="em">Read more</a> →</p>
+				<p>{{ post.excerpt | strip_html | truncatewords: 20 }} <a href="{{ post.url }}" class="em">Read more</a> →</p>
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
 	</section>
 	<section class="bio" id="bio"
 		data-aos="fade-up"
