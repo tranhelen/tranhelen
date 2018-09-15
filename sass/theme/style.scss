@@ -63,7 +63,7 @@ $stack2: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 /* Breakpoints */
 $one: 600px;
 $two: 800px;
-$three: 1500px;
+$three: 1060px;
 
 @import "normalize";
 
@@ -321,6 +321,7 @@ label {
 		padding: 50px 40px 90px;
 
 		.section-tag {
+			left: -10px;
 			top: -60px;
 		}
 	}
@@ -360,6 +361,11 @@ label {
 
 	@include at-query($two) {
 		margin-left: 35%;
+	}
+
+	@include at-query($three) {
+	    margin-left: 45%;
+	    max-width: 780px;
 	}
 }
 
@@ -422,6 +428,23 @@ label {
 	    margin-left: 26%;
 	    width: 40%;
 	}
+
+	@include at-query($three) {
+	    float: right;
+	    margin-top: -420px;
+	    margin-right: 35%;
+	    margin-left: unset;
+		width: 500px;
+
+		h1 {
+		    margin-left: 50%;
+		    width: 50%;
+		}
+
+		h5 {
+			margin-top: 100px;
+		}
+	}
 }
 
 .journal {
@@ -454,6 +477,12 @@ label {
     	padding: 60px 90px;
     	width: 95%;
     }
+
+    @include at-query($three) {
+    	margin: 200px auto;
+    	max-width: 1550px;
+    	padding: 60px 10%;
+    }
 }
 
 .journal-listing {
@@ -463,6 +492,7 @@ label {
 .journal-single {
 	@include at-query($two) {
 		float: left;
+		max-width: 500px;
 		width: 50%;
 	}
 }
@@ -514,6 +544,11 @@ label {
     @include at-query($one) {
     	padding-top: 0;
     }
+
+    @include at-query($three) {
+    	max-width: 1600px;
+    	margin: 0 auto;
+    }
 }
 
 .portrait {
@@ -531,6 +566,12 @@ label {
 	@include at-query($two) {
 		margin-left: 60%;
 		width: 40%;
+	}
+
+	@include at-query($three) {
+	    margin-right: 60px;
+		max-width: 640px;
+	    width: 35%;
 	}
 }
 
