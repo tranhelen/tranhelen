@@ -197,25 +197,6 @@ input {
     font-size: em(13px);
 }
 
-pre,
-code {
-    background-color: rgba($colorAccent,                                            0.1);
-    color: $colorTextHeader;
-    margin: 20px 0 30px;
-    padding: 5px 7px;
-}
-
-code {
-	font-size: em(12px);
-}
-
-pre {
-	padding: 15px 20px;
-	white-space: pre-wrap;       /* css-3 */
-	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-	word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-
 ul {
 	margin: 0;
 
@@ -225,15 +206,17 @@ ul {
 }
 
 .copy {
-	font-family: $stack2;
-	font-size: 12px;
+	@extend h5;
+
+	font-size: em(12px);
 	text-transform: uppercase;
 }
 
 
 .time {
-	font-family: $stack2;
-	font-size: 14px;
+	@extend h5;
+	
+	margin-bottom: 10px;
 }
 
 #mce-success-response,
