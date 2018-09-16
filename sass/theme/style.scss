@@ -322,7 +322,6 @@ label {
 		padding: 50px 40px 90px;
 
 		.section-tag {
-			left: -10px;
 			top: -60px;
 		}
 	}
@@ -351,6 +350,10 @@ label {
 .bio {
 	margin: 100px 30px 0;
 
+	.section-tag {
+		left: -10px;
+	}
+
 	@include at-query($one) {
 		margin-left: 20%;
 		margin-top: 190px;
@@ -374,10 +377,6 @@ label {
 
 		h3 {
 			width: 80%;
-		}
-
-		.section-tag {
-			left: -10px;
 		}
 	}
 }
@@ -477,10 +476,6 @@ label {
     padding: 30px;
     width: 90%;
 
-    p {
-    	color: #ffffff;
-    }
-
     a {
     	border-bottom: 1px solid $colorAccent;
     	color: $colorAccent;
@@ -493,6 +488,14 @@ label {
 	h2 a {
 		border: 0;
 		color: #fff;
+	}
+
+    p {
+    	color: #ffffff;
+    }
+    
+	.section-tag {
+		left: -10px;
 	}
 
     @include at-query($one) {
