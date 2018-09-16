@@ -218,6 +218,15 @@ ul {
 	margin: 10px 0 0;
 }
 
+#mc_embed_signup {
+	margin-top: 30px;
+
+	@include at-query($three) {
+		margin: 60px auto;
+		width: 300px;
+	}
+}
+
 /*------------------------------------*\
     #Shared
 \*------------------------------------*/
@@ -225,14 +234,27 @@ ul {
 input,
 textarea {
 	background-color: #fff;
-	border: 0;
-    margin: 0;
+	border: 2px solid #efefef;
+    margin: 0 0 15px;
     padding: 8px 15px 10px;
     width: 100%;
 }
 
 .container {
-	margin: 0 30px;
+	margin: 60px 30px;
+
+	@include at-query($two) {
+		margin: 90px auto;
+		max-width: 630px;
+	}
+
+	@include at-query($three) {
+		margin: 120px auto;
+	}
+
+	@include at-query($four) {
+		margin: 260px auto;
+	}
 }
 
 .footer-main {
@@ -257,19 +279,14 @@ textarea {
 	}
 }
 
-.mailinglist {
-	margin: 20px 0 50px;
-}
-
 #mc-embedded-subscribe {
-	background-color: $colorAccent;
-	border-radius: 0;
+	background-color: #000;
+	border: 0;
 	color: #fff;
-	font-family: $stack2;
-	font-size: em(13px);
-	font-weight: 600;
+	font: 600 em(14px) $stack2;
 	padding: 8px 15px 10px;
 	text-align: center;
+	text-transform: uppercase;
 	width: 100%;
 }
 
@@ -328,6 +345,16 @@ textarea {
 	}
 }
 
+/*------------------------------------*\
+    #Subpage
+\*------------------------------------*/
+
+.--subpage {
+	h1 {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+}
 
 /*------------------------------------*\
     #Unclassified
