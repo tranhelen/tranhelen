@@ -420,7 +420,31 @@ textarea {
 	}
 }
 
-.introbio {
+.home-body {
+	background-color: #fff;
+	position: relative;
+
+	@include at-query($one) {
+		background-color: transparent;
+		position: unset;
+	}
+}
+
+.home-topbio {
+    padding-top: 126%;
+    position: relative;
+
+    @include at-query($one) {
+    	padding-top: 0;
+    }
+
+    @include at-query($three) {
+    	max-width: 1600px;
+    	margin: 0 auto;
+    }
+}
+
+.home-topbiocard {
     background-color: #ffd000;
     margin-top: -110px;
     padding: 30px;
@@ -480,30 +504,6 @@ textarea {
 
 	@include at-query($four) {
 		margin-right: 40%;
-	}
-}
-
-.home-bio {
-    padding-top: 126%;
-    position: relative;
-
-    @include at-query($one) {
-    	padding-top: 0;
-    }
-
-    @include at-query($three) {
-    	max-width: 1600px;
-    	margin: 0 auto;
-    }
-}
-
-.home-body {
-	background-color: #fff;
-	position: relative;
-
-	@include at-query($one) {
-		background-color: transparent;
-		position: unset;
 	}
 }
 
