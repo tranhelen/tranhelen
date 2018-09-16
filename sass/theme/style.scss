@@ -171,8 +171,8 @@ p {
 
 ol li,
 ul li {
-	color: $colorTextBody;
-	font-size: em(18px);
+	@extend p;
+
 	line-height: 1.75;
 	margin: 0 0 10px;
 }
@@ -182,14 +182,6 @@ blockquote {
 	border-width: 0 0 0 5px;
 	margin: 20px 0 30px;
 
-}
-
-
-hr {
-	border: 0;
-	border-bottom: 3px solid $colorAccent;
-	border-radius: 999px;
-	margin: 30px auto;
 }
 
 input {
