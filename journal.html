@@ -3,21 +3,20 @@ title: Helen Tran; Entrepreneur
 layout: default
 ---
 
-<div class="journal-body">
+{% include nav-subpage.html %}
 
-	{% include nav-subpage.html %}
-
-	<section class="journal"
-		data-aos="fade-up"
-		data-aos-easing="ease-out-quad"
-		data-aos-duration="800">
-		<span class="section-tag"
-		data-aos="fade-up"
-		data-aos-easing="ease-out-quad"
-		data-aos-duration="800">Journal</span>
-		<div class="journal-listing">
+<section class="journals journals--single"
+	data-aos="fade-up"
+	data-aos-easing="ease-out-quad"
+	data-aos-duration="800">
+	<div class="journals-listing">
+		<div class="journals--single__body">
+			<span class="section-tag"
+			data-aos="fade-up"
+			data-aos-easing="ease-out-quad"
+			data-aos-duration="800">Journal</span>
 			{% for post in site.posts limit:1 %}
-			<div class="journal-single"
+			<div class="journals-single"
 			data-aos="fade-up"
 			data-aos-easing="ease-out-quad"
 			data-aos-duration="800">
@@ -28,5 +27,6 @@ layout: default
 			</div>
 			{% endfor %}
 		</div>
-	</section>
-</div>
+	</div>
+	<div class="hr--vertical --journals"></div>
+</section>

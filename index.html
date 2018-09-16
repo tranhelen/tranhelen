@@ -31,7 +31,7 @@ layout: default
 		</ul>
 	</nav>
 
-	<section class="journal journal--home"
+	<section class="journals journals--home"
 		data-aos="fade-up"
 		data-aos-easing="ease-out-quad"
 		data-aos-duration="800">
@@ -39,9 +39,9 @@ layout: default
 		data-aos="fade-up"
 		data-aos-easing="ease-out-quad"
 		data-aos-duration="800">Journal</span>
-		<div class="journal-listing">
+		<div class="journals-listing">
 			{% for post in site.posts limit:1 %}
-			<div class="journal-single"
+			<div class="journals-single"
 			data-aos="fade-up"
 			data-aos-easing="ease-out-quad"
 			data-aos-duration="800">
@@ -53,6 +53,7 @@ layout: default
 			{% endfor %}
 		</div>
 	</section>
+
 	<section class="bio" id="bio"
 		data-aos="fade-up"
 		data-aos-easing="ease-out-quad"
