@@ -48,6 +48,11 @@ text-rendering:optimizeLegibility;
 	background: $selection;
 }
 
+body,
+html {
+	overflow-x: hidden;
+}
+
 img {
 	width: 100%;
 }
@@ -276,6 +281,16 @@ textarea {
     }
 }
 
+.home-body {
+	background-color: #fff;
+	position: relative;
+
+	@include at-query($one) {
+		background-color: transparent;
+		position: unset;
+	}
+}
+
 .portrait {
 	position: fixed;
 		top: 0;
@@ -307,8 +322,6 @@ textarea {
 /*------------------------------------*\
     #Unclassified
 \*------------------------------------*/
-
-
 
 .bio {
 	margin: 100px 30px 0;
@@ -357,16 +370,6 @@ textarea {
 	    margin-top: 60px;
 	    margin-left: 60px;
 	    padding: 0 0 250px 60px;
-	}
-}
-
-.home-body {
-	background-color: #fff;
-	position: relative;
-
-	@include at-query($one) {
-		background-color: transparent;
-		position: unset;
 	}
 }
 
@@ -498,12 +501,7 @@ textarea {
 	}
 }
 
-.main {
-    border-bottom: 2px solid #efefef;
-    width: 90%;
-    margin-left: 10%;
-    padding-top: 10px;
-
+.nav {
     a {
     	&::after {
     		opacity: 0;
@@ -523,6 +521,13 @@ textarea {
     		margin-right: 20px;
     	}
     }
+}
+
+.nav--main {
+    border-bottom: 2px solid #efefef;
+    width: 90%;
+    margin-left: 10%;
+    padding-top: 10px;
 
     @include at-query($one) {
 	    background-color: #fff;
