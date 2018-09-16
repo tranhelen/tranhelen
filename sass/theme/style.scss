@@ -175,10 +175,14 @@ ul li {
 }
 
 blockquote {
-	border: 5px solid $colorAccent;
-	border-width: 0 0 0 5px;
+	border: 2px solid $colorAccent;
+	border-width: 0 0 0 2px;
 	margin: 20px 0 30px;
+    padding-left: 30px;
 
+    p {
+    	font-style: italic;
+    }
 }
 
 input {
@@ -279,6 +283,78 @@ textarea {
 	}
 }
 
+.journals {
+	background-color: #1C1C1C;
+    margin: 70px 0 70px 10%;
+    padding: 30px;
+    width: 90%;
+
+    a {
+    	border-bottom: 1px solid $colorAccent;
+    	color: $colorAccent;
+
+    	&:hover {
+    		font-style: normal;
+    	}
+    }
+
+	h2 a {
+		border: 0;
+		color: #fff;
+	}
+
+    p {
+    	color: #ffffff;
+    }
+
+	.journals-listing {
+	    @include clearfix;
+	}
+
+	.section-tag {
+		left: -10px;
+	}
+
+    @include at-query($one) {
+    	margin-left: 20%;
+    	margin-top: 160px;
+    	width: 80%;
+    }
+
+    @include at-query($two) {
+    	margin-left: 5%;
+    	padding: 60px 90px;
+    	width: 95%;
+    }
+}
+
+.nav {
+    border-bottom: 2px solid #efefef;
+
+    a::after {
+    	opacity: 0;
+    }
+
+    .no-bullet a {
+		margin-right: 20px;
+    }
+}
+
+.section-tag {
+    background-color: $colorAccent;
+    padding: 4px 15px 5px;
+    font-family: $stack2;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: -40px;
+
+    @include at-query($two) {
+    	top: -70px;
+    }
+}
+
 #mc-embedded-subscribe {
 	background-color: #000;
 	border: 0;
@@ -318,76 +394,24 @@ textarea {
 	}
 }
 
-.portrait {
-	position: fixed;
-		top: 0;
-
-	@include at-query($one) {
-	    border-right: 5px solid $colorAccent;
-	    margin-left: 50%;
-		position: relative;
-    		z-index: 1;
-	    width: 50%;
-	}
-
-	@include at-query($two) {
-		margin-left: 60%;
-		width: 40%;
-	}
-
-	@include at-query($three) {
-	    margin-right: 60px;
-	}
-
-	@include at-query($four) {
-		float: right;
-		width: 640px;
-	}
-}
-
-/*------------------------------------*\
-    #Subpage
-\*------------------------------------*/
-
-.hr--vertical {
-	background-color: $colorAccent;
-	height: 260px;
-	margin: auto;
-	position: absolute;
-		left: 0;
-	    right: 0;
-	width: 5px;
-
-	&.--journals {
-	    left: 0;
-	    right: auto;
-    	top: 270px;
-		
+.journals--home {
+	.journals-single {
 		@include at-query($two) {
-			top: 330px;
-		}
-
-		@include at-query($three) {
-			right: 82%;
-			top: 300px;
-		}
-
-		@include at-query($four) {
-		    right: 1190px;
-		    bottom: -260px;			
+			float: left;
+			max-width: 500px;
+			width: 50%;
 		}
 	}
-}
 
-.nav {
-    border-bottom: 2px solid #efefef;
-
-    a::after {
-    	opacity: 0;
+    @include at-query($three) {
+    	margin: 200px auto;
+    	max-width: 1550px;
+    	padding: 60px 10%;
     }
 
-    .no-bullet a {
-		margin-right: 20px;
+    @include at-query($four) {
+	    margin-top: 140px;
+	    padding-top: 885px;
     }
 }
 
@@ -426,6 +450,100 @@ textarea {
 	        right: 0;
 	    width: 100%;
     }
+}
+
+.portrait {
+	position: fixed;
+		top: 0;
+
+	@include at-query($one) {
+	    border-right: 5px solid $colorAccent;
+	    margin-left: 50%;
+		position: relative;
+    		z-index: 1;
+	    width: 50%;
+	}
+
+	@include at-query($two) {
+		margin-left: 60%;
+		width: 40%;
+	}
+
+	@include at-query($three) {
+	    margin-right: 60px;
+	}
+
+	@include at-query($four) {
+		float: right;
+		width: 640px;
+	}
+}
+
+/*------------------------------------*\
+    #Subpage
+\*------------------------------------*/
+
+.--subpage {
+	h1 {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.p--mailinglist {
+		text-align: center;
+	}
+}
+
+.--post {
+	h1 {
+		margin-bottom: 15px;
+	}
+
+	.time {
+		margin-bottom: 30px;
+	}
+
+	@include at-query($two) {
+		h1 {
+			margin-bottom: 30px;
+			text-align: center;
+		}
+
+		.time {
+			margin-bottom: 60px;
+			text-align: center;
+		}
+	}
+}
+
+.hr--vertical {
+	background-color: $colorAccent;
+	height: 260px;
+	margin: auto;
+	position: absolute;
+		left: 0;
+	    right: 0;
+	width: 5px;
+
+	&.--journals {
+	    left: 0;
+	    right: auto;
+    	top: 270px;
+		
+		@include at-query($two) {
+			top: 330px;
+		}
+
+		@include at-query($three) {
+			right: 82%;
+			top: 300px;
+		}
+
+		@include at-query($four) {
+		    right: 1190px;
+		    bottom: -260px;			
+		}
+	}
 }
 
 .nav--subpage {
@@ -473,14 +591,31 @@ textarea {
 	}
 }
 
-.--subpage {
-	h1 {
-		margin-bottom: 30px;
-		text-align: center;
+/*------------------------------------*\
+    #Journals
+\*------------------------------------*/
+
+.journals--single {
+	.journals-single {
+		@include at-query($two) {
+			max-width: 500px;
+			width: 50%;
+		}
 	}
 
-	.p--mailinglist {
-		text-align: center;
+	.journals--single__body {
+		@include at-query($three) {
+			margin: 0 auto;
+			max-width: 1200px;
+		}
+	}
+
+	@include at-query($three) {
+		margin: 260px 0;
+	}
+
+	@include at-query($four) {
+		margin-top: 360px;
 	}
 }
 
@@ -599,110 +734,4 @@ textarea {
 	@include at-query($four) {
 		margin-right: 40%;
 	}
-}
-
-.journals {
-	background-color: #1C1C1C;
-    margin: 70px 0 70px 10%;
-    padding: 30px;
-    width: 90%;
-
-    a {
-    	border-bottom: 1px solid $colorAccent;
-    	color: $colorAccent;
-
-    	&:hover {
-    		font-style: normal;
-    	}
-    }
-
-	h2 a {
-		border: 0;
-		color: #fff;
-	}
-
-    p {
-    	color: #ffffff;
-    }
-
-	.journals-listing {
-	    @include clearfix;
-	}
-
-	.section-tag {
-		left: -10px;
-	}
-
-    @include at-query($one) {
-    	margin-left: 20%;
-    	margin-top: 160px;
-    	width: 80%;
-    }
-
-    @include at-query($two) {
-    	margin-left: 5%;
-    	padding: 60px 90px;
-    	width: 95%;
-    }
-}
-
-.journals--home {
-	.journals-single {
-		@include at-query($two) {
-			float: left;
-			max-width: 500px;
-			width: 50%;
-		}
-	}
-
-    @include at-query($three) {
-    	margin: 200px auto;
-    	max-width: 1550px;
-    	padding: 60px 10%;
-    }
-
-    @include at-query($four) {
-	    margin-top: 140px;
-	    padding-top: 885px;
-    }
-}
-
-.journals--single {
-	.journals-single {
-		@include at-query($two) {
-			max-width: 500px;
-			width: 50%;
-		}
-	}
-
-	.journals--single__body {
-		@include at-query($three) {
-			margin: 0 auto;
-			max-width: 1200px;
-		}
-	}
-
-	@include at-query($three) {
-		margin: 260px 0;
-	}
-
-	@include at-query($four) {
-		margin-top: 360px;
-	}
-}
-
-
-.section-tag {
-    background-color: $colorAccent;
-    padding: 4px 15px 5px;
-    font-family: $stack2;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
-    top: -40px;
-
-    @include at-query($two) {
-    	top: -70px;
-    }
 }
