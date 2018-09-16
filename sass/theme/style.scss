@@ -100,7 +100,7 @@ a {
 	}
 
     &.em {
-    	font: 600 em(12px) $stack2;
+    	font: 600 12px $stack2;
 		color: $colorLink;
 		padding: 0 3px;
 	    text-transform: uppercase;
@@ -184,8 +184,13 @@ input {
 ul {
 	margin: 0;
 
-	&.no-bullet li {
-		list-style-type: none;
+	&.no-bullet {
+		padding: 0;
+
+		li {
+			display: inline-block;
+			list-style-type: none;
+		}
 	}
 }
 
@@ -502,32 +507,22 @@ textarea {
 }
 
 .nav {
-    a {
-    	&::after {
-    		opacity: 0;
-    	}
+    border-bottom: 2px solid #efefef;
+
+    a::after {
+    	opacity: 0;
     }
 
-    ul {
-    	margin: 0;
-    	padding: 0;
-    }
-
-    ul li {
-    	display: inline-block;
-
-    	a {
-    		color: #333333;
-    		margin-right: 20px;
-    	}
+    .no-bullet a {
+		color: #333333;
+		margin-right: 20px;
     }
 }
 
 .nav--main {
-    border-bottom: 2px solid #efefef;
-    width: 90%;
     margin-left: 10%;
     padding-top: 10px;
+    width: 90%;
 
     @include at-query($one) {
 	    background-color: #fff;
@@ -538,27 +533,55 @@ textarea {
 
     @include at-query($two) {
 	    margin-right: 45%;
-    	padding: 50px 0;
 		text-align: right;
 	    width: 55%;
 
-    	ul li a {
-    		margin-left: 20px;
-    		margin-right: 0;
+    	a {
+    		margin: 0 0 0 20px;
     	}
+    }
+
+    @include at-query($three) {
+    	padding: 50px 0;
     }
 
     @include at-query($four) {
     	border: 0;
-	    left: 0;
+		margin: auto;
 	    max-width: 1600px;
-	    right: 0;
-	    padding-right: 745px;
-	    margin: auto;
+		padding-right: 745px;
+	        left: 0;
+	        right: 0;
 	    width: 100%;
     }
 }
 
+.nav--subpage {
+	border: 0;
+	padding: 0 30px;
+
+	.link-back {
+		float: left;
+		position: relative;
+			top: 20px;
+		width: 20%;
+	}
+
+	.no-bullet {
+		border-bottom: 2px solid #efefef;
+		float: right;
+		margin-right: -30px;
+	 	padding: 12px 0;
+		text-align: right;
+		width: 80%;
+
+		li {
+			margin: 0;
+		}
+	}
+
+	@include clearfix;
+}
 
 
 .section-tag {
