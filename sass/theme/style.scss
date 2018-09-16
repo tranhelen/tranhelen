@@ -370,6 +370,119 @@ textarea {
     #Homepage
 \*------------------------------------*/
 
+.bio {
+	margin: 100px 30px 0;
+
+	.section-tag {
+		left: -10px;
+	}
+
+	@include at-query($one) {
+		margin-left: 20%;
+		margin-top: 190px;
+
+		h3 {
+			margin-top: 30px;
+		}
+	}
+
+	@include at-query($two) {
+		margin-left: 35%;
+	}
+
+	@include at-query($three) {
+	    margin-left: 45%;
+	    max-width: 780px;
+	}
+
+	@include at-query($four) {
+		margin-top: 330px;
+
+		h3 {
+			width: 80%;
+		}
+	}
+}
+
+.bio__body {
+	border-left: 5px solid $colorAccent;
+	margin-top: 30px;
+	padding: 0 0 60px 30px;
+
+	@include at-query($one) {
+		padding-bottom: 160px;
+	}
+
+	@include at-query($four) {
+	    margin-top: 60px;
+	    margin-left: 60px;
+	    padding: 0 0 250px 60px;
+	}
+}
+
+.introbio {
+    background-color: #ffd000;
+    margin-top: -110px;
+    padding: 30px;
+    position: relative;
+    text-align: right;
+    width: 70%;
+    z-index: 2;
+
+	h5 {
+		font-style: italic;
+		margin-top: 10px;
+	}
+
+	a {
+		border-bottom: 1px solid rgba(#fff,1);
+		color: #fff;
+
+		@include transition;
+
+		&:hover {
+			border-color: rgba(#fff,0);
+		}
+	}
+
+	.bio__link {
+		color: #fff;
+		margin-left: 50px;
+		margin-right: -105px;
+	}
+
+	@include at-query($one) {
+		margin-top: -225px;
+		width: 50%;
+	}
+
+	@include at-query($two) {
+	    margin-left: 26%;
+	    width: 40%;
+	}
+
+	@include at-query($three) {
+	    float: right;
+	    margin-top: -420px;
+	    margin-right: 35%;
+	    margin-left: unset;
+		width: 500px;
+
+		h1 {
+		    margin-left: 50%;
+		    width: 50%;
+		}
+
+		h4 {
+			margin-top: 100px;
+		}
+	}
+
+	@include at-query($four) {
+		margin-right: 40%;
+	}
+}
+
 .home-bio {
     padding-top: 126%;
     position: relative;
@@ -616,122 +729,5 @@ textarea {
 
 	@include at-query($four) {
 		margin-top: 360px;
-	}
-}
-
-/*------------------------------------*\
-    #Unclassified
-\*------------------------------------*/
-
-.bio {
-	margin: 100px 30px 0;
-
-	.section-tag {
-		left: -10px;
-	}
-
-	@include at-query($one) {
-		margin-left: 20%;
-		margin-top: 190px;
-
-		h3 {
-			margin-top: 30px;
-		}
-	}
-
-	@include at-query($two) {
-		margin-left: 35%;
-	}
-
-	@include at-query($three) {
-	    margin-left: 45%;
-	    max-width: 780px;
-	}
-
-	@include at-query($four) {
-		margin-top: 330px;
-
-		h3 {
-			width: 80%;
-		}
-	}
-}
-
-.bio__body {
-	border-left: 5px solid $colorAccent;
-	margin-top: 30px;
-	padding: 0 0 60px 30px;
-
-	@include at-query($one) {
-		padding-bottom: 160px;
-	}
-
-	@include at-query($four) {
-	    margin-top: 60px;
-	    margin-left: 60px;
-	    padding: 0 0 250px 60px;
-	}
-}
-
-.introbio {
-    background-color: #ffd000;
-    position: relative;
-    margin-top: -110px;
-    padding: 30px;
-    text-align: right;
-    width: 70%;
-    z-index: 2;
-
-	h5 {
-		font-style: italic;
-		margin-top: 10px;
-	}
-
-	a {
-		border-bottom: 1px solid rgba(#fff,1);
-		color: #fff;
-
-		@include transition;
-
-		&:hover {
-			border-color: rgba(#fff,0);
-		}
-	}
-
-	.bio__link {
-		color: #fff;
-		margin-left: 50px;
-		margin-right: -105px;
-	}
-
-	@include at-query($one) {
-		margin-top: -225px;
-		width: 50%;
-	}
-
-	@include at-query($two) {
-	    margin-left: 26%;
-	    width: 40%;
-	}
-
-	@include at-query($three) {
-	    float: right;
-	    margin-top: -420px;
-	    margin-right: 35%;
-	    margin-left: unset;
-		width: 500px;
-
-		h1 {
-		    margin-left: 50%;
-		    width: 50%;
-		}
-
-		h4 {
-			margin-top: 100px;
-		}
-	}
-
-	@include at-query($four) {
-		margin-right: 40%;
 	}
 }

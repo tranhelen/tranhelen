@@ -656,31 +656,169 @@ ul .journals li {
     #Homepage
 \*------------------------------------*/
 /* line 373, ../../sass/theme/style.scss */
+.bio {
+  margin: 100px 30px 0;
+}
+/* line 376, ../../sass/theme/style.scss */
+.bio .section-tag {
+  left: -10px;
+}
+@media screen and (min-width: 600px) {
+  /* line 373, ../../sass/theme/style.scss */
+  .bio {
+    margin-left: 20%;
+    margin-top: 190px;
+  }
+  /* line 384, ../../sass/theme/style.scss */
+  .bio h3, .bio .h3 {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 373, ../../sass/theme/style.scss */
+  .bio {
+    margin-left: 35%;
+  }
+}
+@media screen and (min-width: 1060px) {
+  /* line 373, ../../sass/theme/style.scss */
+  .bio {
+    margin-left: 45%;
+    max-width: 780px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 373, ../../sass/theme/style.scss */
+  .bio {
+    margin-top: 330px;
+  }
+  /* line 401, ../../sass/theme/style.scss */
+  .bio h3, .bio .h3 {
+    width: 80%;
+  }
+}
+
+/* line 407, ../../sass/theme/style.scss */
+.bio__body {
+  border-left: 5px solid #ffd000;
+  margin-top: 30px;
+  padding: 0 0 60px 30px;
+}
+@media screen and (min-width: 600px) {
+  /* line 407, ../../sass/theme/style.scss */
+  .bio__body {
+    padding-bottom: 160px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 407, ../../sass/theme/style.scss */
+  .bio__body {
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 0 0 250px 60px;
+  }
+}
+
+/* line 423, ../../sass/theme/style.scss */
+.introbio {
+  background-color: #ffd000;
+  margin-top: -110px;
+  padding: 30px;
+  position: relative;
+  text-align: right;
+  width: 70%;
+  z-index: 2;
+}
+/* line 432, ../../sass/theme/style.scss */
+.introbio h5, .introbio .h5, .introbio .copy, .introbio .time {
+  font-style: italic;
+  margin-top: 10px;
+}
+/* line 437, ../../sass/theme/style.scss */
+.introbio a {
+  border-bottom: 1px solid white;
+  color: #fff;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/* line 443, ../../sass/theme/style.scss */
+.introbio a:hover {
+  border-color: rgba(255, 255, 255, 0);
+}
+/* line 448, ../../sass/theme/style.scss */
+.introbio .bio__link {
+  color: #fff;
+  margin-left: 50px;
+  margin-right: -105px;
+}
+@media screen and (min-width: 600px) {
+  /* line 423, ../../sass/theme/style.scss */
+  .introbio {
+    margin-top: -225px;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 800px) {
+  /* line 423, ../../sass/theme/style.scss */
+  .introbio {
+    margin-left: 26%;
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1060px) {
+  /* line 423, ../../sass/theme/style.scss */
+  .introbio {
+    float: right;
+    margin-top: -420px;
+    margin-right: 35%;
+    margin-left: unset;
+    width: 500px;
+  }
+  /* line 471, ../../sass/theme/style.scss */
+  .introbio h1, .introbio .h1 {
+    margin-left: 50%;
+    width: 50%;
+  }
+  /* line 476, ../../sass/theme/style.scss */
+  .introbio h4, .introbio .h4 {
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 423, ../../sass/theme/style.scss */
+  .introbio {
+    margin-right: 40%;
+  }
+}
+
+/* line 486, ../../sass/theme/style.scss */
 .home-bio {
   padding-top: 126%;
   position: relative;
 }
 @media screen and (min-width: 600px) {
-  /* line 373, ../../sass/theme/style.scss */
+  /* line 486, ../../sass/theme/style.scss */
   .home-bio {
     padding-top: 0;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 373, ../../sass/theme/style.scss */
+  /* line 486, ../../sass/theme/style.scss */
   .home-bio {
     max-width: 1600px;
     margin: 0 auto;
   }
 }
 
-/* line 387, ../../sass/theme/style.scss */
+/* line 500, ../../sass/theme/style.scss */
 .home-body {
   background-color: #fff;
   position: relative;
 }
 @media screen and (min-width: 600px) {
-  /* line 387, ../../sass/theme/style.scss */
+  /* line 500, ../../sass/theme/style.scss */
   .home-body {
     background-color: transparent;
     position: unset;
@@ -688,7 +826,7 @@ ul .journals li {
 }
 
 @media screen and (min-width: 800px) {
-  /* line 398, ../../sass/theme/style.scss */
+  /* line 511, ../../sass/theme/style.scss */
   .journals--home .journals-single {
     float: left;
     max-width: 500px;
@@ -696,7 +834,7 @@ ul .journals li {
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 397, ../../sass/theme/style.scss */
+  /* line 510, ../../sass/theme/style.scss */
   .journals--home {
     margin: 200px auto;
     max-width: 1550px;
@@ -704,21 +842,21 @@ ul .journals li {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 397, ../../sass/theme/style.scss */
+  /* line 510, ../../sass/theme/style.scss */
   .journals--home {
     margin-top: 140px;
     padding-top: 885px;
   }
 }
 
-/* line 418, ../../sass/theme/style.scss */
+/* line 531, ../../sass/theme/style.scss */
 .nav--main {
   margin-left: 10%;
   padding-top: 10px;
   width: 90%;
 }
 @media screen and (min-width: 600px) {
-  /* line 418, ../../sass/theme/style.scss */
+  /* line 531, ../../sass/theme/style.scss */
   .nav--main {
     background-color: #fff;
     position: absolute;
@@ -727,25 +865,25 @@ ul .journals li {
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 418, ../../sass/theme/style.scss */
+  /* line 531, ../../sass/theme/style.scss */
   .nav--main {
     margin-right: 45%;
     text-align: right;
     width: 55%;
   }
-  /* line 435, ../../sass/theme/style.scss */
+  /* line 548, ../../sass/theme/style.scss */
   .nav--main a {
     margin: 0 0 0 20px;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 418, ../../sass/theme/style.scss */
+  /* line 531, ../../sass/theme/style.scss */
   .nav--main {
     padding: 50px 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 418, ../../sass/theme/style.scss */
+  /* line 531, ../../sass/theme/style.scss */
   .nav--main {
     border: 0;
     margin: auto;
@@ -757,13 +895,13 @@ ul .journals li {
   }
 }
 
-/* line 455, ../../sass/theme/style.scss */
+/* line 568, ../../sass/theme/style.scss */
 .portrait {
   position: fixed;
   top: 0;
 }
 @media screen and (min-width: 600px) {
-  /* line 455, ../../sass/theme/style.scss */
+  /* line 568, ../../sass/theme/style.scss */
   .portrait {
     border-right: 5px solid #ffd000;
     margin-left: 50%;
@@ -773,20 +911,20 @@ ul .journals li {
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 455, ../../sass/theme/style.scss */
+  /* line 568, ../../sass/theme/style.scss */
   .portrait {
     margin-left: 60%;
     width: 40%;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 455, ../../sass/theme/style.scss */
+  /* line 568, ../../sass/theme/style.scss */
   .portrait {
     margin-right: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 455, ../../sass/theme/style.scss */
+  /* line 568, ../../sass/theme/style.scss */
   .portrait {
     float: right;
     width: 640px;
@@ -796,38 +934,38 @@ ul .journals li {
 /*------------------------------------*\
     #Subpage
 \*------------------------------------*/
-/* line 487, ../../sass/theme/style.scss */
+/* line 600, ../../sass/theme/style.scss */
 .--subpage h1, .--subpage .h1 {
   margin-bottom: 30px;
   text-align: center;
 }
-/* line 492, ../../sass/theme/style.scss */
+/* line 605, ../../sass/theme/style.scss */
 .--subpage .p--mailinglist {
   text-align: center;
 }
 
-/* line 498, ../../sass/theme/style.scss */
+/* line 611, ../../sass/theme/style.scss */
 .--post h1, .--post .h1 {
   margin-bottom: 15px;
 }
-/* line 502, ../../sass/theme/style.scss */
+/* line 615, ../../sass/theme/style.scss */
 .--post .time {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 507, ../../sass/theme/style.scss */
+  /* line 620, ../../sass/theme/style.scss */
   .--post h1, .--post .h1 {
     margin-bottom: 30px;
     text-align: center;
   }
-  /* line 512, ../../sass/theme/style.scss */
+  /* line 625, ../../sass/theme/style.scss */
   .--post .time {
     margin-bottom: 60px;
     text-align: center;
   }
 }
 
-/* line 519, ../../sass/theme/style.scss */
+/* line 632, ../../sass/theme/style.scss */
 .hr--vertical {
   background-color: #ffd000;
   height: 260px;
@@ -837,45 +975,45 @@ ul .journals li {
   right: 0;
   width: 5px;
 }
-/* line 528, ../../sass/theme/style.scss */
+/* line 641, ../../sass/theme/style.scss */
 .hr--vertical.--journals {
   left: 0;
   right: auto;
   top: 270px;
 }
 @media screen and (min-width: 800px) {
-  /* line 528, ../../sass/theme/style.scss */
+  /* line 641, ../../sass/theme/style.scss */
   .hr--vertical.--journals {
     top: 330px;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 528, ../../sass/theme/style.scss */
+  /* line 641, ../../sass/theme/style.scss */
   .hr--vertical.--journals {
     right: 82%;
     top: 300px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 528, ../../sass/theme/style.scss */
+  /* line 641, ../../sass/theme/style.scss */
   .hr--vertical.--journals {
     right: 1190px;
     bottom: -260px;
   }
 }
 
-/* line 549, ../../sass/theme/style.scss */
+/* line 662, ../../sass/theme/style.scss */
 .nav--subpage {
   border: 0;
   padding: 0 30px;
 }
-/* line 553, ../../sass/theme/style.scss */
+/* line 666, ../../sass/theme/style.scss */
 .nav--subpage .link-back {
   float: left;
   position: relative;
   top: 20px;
 }
-/* line 559, ../../sass/theme/style.scss */
+/* line 672, ../../sass/theme/style.scss */
 .nav--subpage .no-bullet {
   border-bottom: 2px solid #efefef;
   float: right;
@@ -884,7 +1022,7 @@ ul .journals li {
   text-align: right;
   width: 80%;
 }
-/* line 567, ../../sass/theme/style.scss */
+/* line 680, ../../sass/theme/style.scss */
 .nav--subpage .no-bullet li {
   margin: 0;
 }
@@ -898,21 +1036,21 @@ ul .journals li {
   clear: both;
 }
 @media screen and (min-width: 800px) {
-  /* line 575, ../../sass/theme/style.scss */
+  /* line 688, ../../sass/theme/style.scss */
   .nav--subpage .no-bullet {
     text-align: left;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 549, ../../sass/theme/style.scss */
+  /* line 662, ../../sass/theme/style.scss */
   .nav--subpage {
     padding: 0 60px;
   }
-  /* line 583, ../../sass/theme/style.scss */
+  /* line 696, ../../sass/theme/style.scss */
   .nav--subpage .link-back {
     top: 60px;
   }
-  /* line 587, ../../sass/theme/style.scss */
+  /* line 700, ../../sass/theme/style.scss */
   .nav--subpage .no-bullet {
     margin-right: -60px;
     padding: 52px 0;
@@ -923,169 +1061,28 @@ ul .journals li {
     #Journals
 \*------------------------------------*/
 @media screen and (min-width: 800px) {
-  /* line 599, ../../sass/theme/style.scss */
+  /* line 712, ../../sass/theme/style.scss */
   .journals--single .journals-single {
     max-width: 500px;
     width: 50%;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 606, ../../sass/theme/style.scss */
+  /* line 719, ../../sass/theme/style.scss */
   .journals--single .journals--single__body {
     margin: 0 auto;
     max-width: 1200px;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 598, ../../sass/theme/style.scss */
+  /* line 711, ../../sass/theme/style.scss */
   .journals--single {
     margin: 260px 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 598, ../../sass/theme/style.scss */
+  /* line 711, ../../sass/theme/style.scss */
   .journals--single {
     margin-top: 360px;
-  }
-}
-
-/*------------------------------------*\
-    #Unclassified
-\*------------------------------------*/
-/* line 626, ../../sass/theme/style.scss */
-.bio {
-  margin: 100px 30px 0;
-}
-/* line 629, ../../sass/theme/style.scss */
-.bio .section-tag {
-  left: -10px;
-}
-@media screen and (min-width: 600px) {
-  /* line 626, ../../sass/theme/style.scss */
-  .bio {
-    margin-left: 20%;
-    margin-top: 190px;
-  }
-  /* line 637, ../../sass/theme/style.scss */
-  .bio h3, .bio .h3 {
-    margin-top: 30px;
-  }
-}
-@media screen and (min-width: 800px) {
-  /* line 626, ../../sass/theme/style.scss */
-  .bio {
-    margin-left: 35%;
-  }
-}
-@media screen and (min-width: 1060px) {
-  /* line 626, ../../sass/theme/style.scss */
-  .bio {
-    margin-left: 45%;
-    max-width: 780px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  /* line 626, ../../sass/theme/style.scss */
-  .bio {
-    margin-top: 330px;
-  }
-  /* line 654, ../../sass/theme/style.scss */
-  .bio h3, .bio .h3 {
-    width: 80%;
-  }
-}
-
-/* line 660, ../../sass/theme/style.scss */
-.bio__body {
-  border-left: 5px solid #ffd000;
-  margin-top: 30px;
-  padding: 0 0 60px 30px;
-}
-@media screen and (min-width: 600px) {
-  /* line 660, ../../sass/theme/style.scss */
-  .bio__body {
-    padding-bottom: 160px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  /* line 660, ../../sass/theme/style.scss */
-  .bio__body {
-    margin-top: 60px;
-    margin-left: 60px;
-    padding: 0 0 250px 60px;
-  }
-}
-
-/* line 676, ../../sass/theme/style.scss */
-.introbio {
-  background-color: #ffd000;
-  position: relative;
-  margin-top: -110px;
-  padding: 30px;
-  text-align: right;
-  width: 70%;
-  z-index: 2;
-}
-/* line 685, ../../sass/theme/style.scss */
-.introbio h5, .introbio .h5, .introbio .copy, .introbio .time {
-  font-style: italic;
-  margin-top: 10px;
-}
-/* line 690, ../../sass/theme/style.scss */
-.introbio a {
-  border-bottom: 1px solid white;
-  color: #fff;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-/* line 696, ../../sass/theme/style.scss */
-.introbio a:hover {
-  border-color: rgba(255, 255, 255, 0);
-}
-/* line 701, ../../sass/theme/style.scss */
-.introbio .bio__link {
-  color: #fff;
-  margin-left: 50px;
-  margin-right: -105px;
-}
-@media screen and (min-width: 600px) {
-  /* line 676, ../../sass/theme/style.scss */
-  .introbio {
-    margin-top: -225px;
-    width: 50%;
-  }
-}
-@media screen and (min-width: 800px) {
-  /* line 676, ../../sass/theme/style.scss */
-  .introbio {
-    margin-left: 26%;
-    width: 40%;
-  }
-}
-@media screen and (min-width: 1060px) {
-  /* line 676, ../../sass/theme/style.scss */
-  .introbio {
-    float: right;
-    margin-top: -420px;
-    margin-right: 35%;
-    margin-left: unset;
-    width: 500px;
-  }
-  /* line 724, ../../sass/theme/style.scss */
-  .introbio h1, .introbio .h1 {
-    margin-left: 50%;
-    width: 50%;
-  }
-  /* line 729, ../../sass/theme/style.scss */
-  .introbio h4, .introbio .h4 {
-    margin-top: 100px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  /* line 676, ../../sass/theme/style.scss */
-  .introbio {
-    margin-right: 40%;
   }
 }
