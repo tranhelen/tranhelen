@@ -26,9 +26,6 @@
 	$colorLink: #000;
 	
 	/* Other */
-	$colorShadow: #796b5d;
-	$colorBGone: #fcf8ef;
-	$colorBGtwo: #f6fafc;
 	$selection: $colorAccent;
 
 /*------------------------------------*\
@@ -69,7 +66,7 @@ $four: 1200px;
 @import "normalize";
 
 @import "modules/mixins";
-@import "vendor/grids";
+// @import "vendor/grids";
 @import "partials/helpers";
 
 /*------------------------------------*\
@@ -135,64 +132,39 @@ h1, h2, h3, h4, h5, h6 {
 .h6 { @extend h6; }
 
 h1 {
-	font-family: $stacktitle;
-	font-size: em(70px);
-	font-weight: 600;
+	font: italic 600 em(70px) $stacktitle;
 	line-height: 60px;
 	margin: 0;
-	font-style: italic;
-
-	.bio & {
-		text-align: right;
-	}
 }
 
 h2 {
-	font-family: $stacktitle;
-	color: $colorAccent;
-	font-size: em(30px);
-	font-style: italic;
+	font: italic 300 em(30px) $stacktitle;
 	line-height: 1.36;
 	margin: 10px 0 10px;
 }
 
 h3 {
-	font-family: $stacktitle;
-	font-size: em(24px);
+	font: 300 em(24px) $stack1;
 	line-height: 1.5;
 	margin: 0 0 15px;
 }
 
 h4 {
-	font-size: 40px;
-	font-style: italic;
-    line-height: 1;
-    margin: 0;
-    padding-top: 10px;
-}
-
-h5 {
 	font-family: $stack2;
 	font-size: em(15px);
 	font-weight: 600;
 	text-transform: uppercase;
 }
 
-h6 {
+h5 {
 	font-family: $stack2;
 	font-size: em(13px);
 	margin: 0;
-
-	.bio & {
-		font-style: italic;
-		margin-top: 10px;
-	}
 }
 
 p {
 	color: $colorTextBody;
-	font-family: $stack1;
-	font-size: em(18px);
+	font: em(18px) $stack1;
 	line-height: 1.7;
 	margin: 0 0 10px;
 }
@@ -347,6 +319,54 @@ label {
     #Homepage
 \*------------------------------------*/
 
+.home-bio {
+    padding-top: 126%;
+    position: relative;
+
+    @include at-query($one) {
+    	padding-top: 0;
+    }
+
+    @include at-query($three) {
+    	max-width: 1600px;
+    	margin: 0 auto;
+    }
+}
+
+.portrait {
+	position: fixed;
+		top: 0;
+
+	@include at-query($one) {
+	    border-right: 5px solid $colorAccent;
+	    margin-left: 50%;
+		position: relative;
+    		z-index: 1;
+	    width: 50%;
+	}
+
+	@include at-query($two) {
+		margin-left: 60%;
+		width: 40%;
+	}
+
+	@include at-query($three) {
+	    margin-right: 60px;
+	}
+
+	@include at-query($four) {
+		float: right;
+		width: 640px;
+	}
+}
+
+
+/*------------------------------------*\
+    #Unclassified
+\*------------------------------------*/
+
+
+
 .bio {
 	margin: 100px 30px 0;
 
@@ -416,6 +436,11 @@ label {
     width: 70%;
     z-index: 2;
 
+	h5 {
+		font-style: italic;
+		margin-top: 10px;
+	}
+
 	a {
 		border-bottom: 1px solid rgba(#fff,1);
 		color: #fff;
@@ -425,10 +450,6 @@ label {
 		&:hover {
 			border-color: rgba(#fff,0);
 		}
-	}
-
-	h6 {
-		margin-top: 10px;
 	}
 
 	.bio__link {
@@ -459,7 +480,7 @@ label {
 		    width: 50%;
 		}
 
-		h5 {
+		h4 {
 			margin-top: 100px;
 		}
 	}
@@ -493,7 +514,7 @@ label {
     p {
     	color: #ffffff;
     }
-    
+
 	.section-tag {
 		left: -10px;
 	}
@@ -584,46 +605,7 @@ label {
     }
 }
 
-.navbio {
-    position: relative;
-    padding-top: 126%;
 
-    @include at-query($one) {
-    	padding-top: 0;
-    }
-
-    @include at-query($three) {
-    	max-width: 1600px;
-    	margin: 0 auto;
-    }
-}
-
-.portrait {
-	position: fixed;
-		top: 0;
-
-	@include at-query($one) {
-	    border-right: 5px solid $colorAccent;
-	    margin-left: 50%;
-		position: relative;
-    		z-index: 1;
-	    width: 50%;
-	}
-
-	@include at-query($two) {
-		margin-left: 60%;
-		width: 40%;
-	}
-
-	@include at-query($three) {
-	    margin-right: 60px;
-	}
-
-	@include at-query($four) {
-		float: right;
-		width: 640px;
-	}
-}
 
 .section-tag {
     background-color: $colorAccent;

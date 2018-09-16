@@ -1,55 +1,35 @@
 {% include header.html %}
 
+<nav class="post" 
+	data-aos="fade-up"
+	data-aos-easing="ease-out-quad"
+	data-aos-duration="800"
+	data-aos-delay="100">
+	<ul class="no-bullet">
+		<li><a href="javascript: history.go(-1)" class="em">← Back</a></li>
+		<li><a class="em active">Journal</a></li>
+		<li><a href="./#bio" class="scrollTo em">Bio</a></li>
+		<li><a href="#contact" class="scrollTo em">Contact</a></li>
+	</ul>
+</nav>
+
 <div class="post-single">
 
-	<nav class="post" 
-		data-aos="fade-up"
-		data-aos-easing="ease-out-quad"
+	<h1 class="text-center"
+		data-aos="fade-up" 
 		data-aos-duration="800"
-		data-aos-delay="100">
-		<ul class="no-bullet">
-			<li><a href="javascript: history.go(-1)" class="em">← Back</a></li>
-			<li><a class="em active">Journal</a></li>
-			<li><a href="./#bio" class="scrollTo em">Bio</a></li>
-			<li><a href="#contact" class="scrollTo em">Contact</a></li>
-		</ul>
-	</nav>
-	
-	<div class="container">
-		<div class="grid">
-			<div class="grid__item push--two--two-elevenths two--seven-elevenths">
-				{% if page.hero %}
-				<figure class="hero{% if page.hero_caption %} --wcaption{% endif %}" 
-					data-aos="fade-up" 
-					data-aos-delay="1000"
-					data-aos-duration="1000"
-					data-aos-easing="ease-out-quad">
-					<img src="/img/post/{{ page.hero }}" alt="{{ page.hero_alt }}">
-					{% if page.hero_caption %}
-						<figcaption><p>{{ page.hero_caption }}</p></figcaption>
-					{% endif %}
-				</figure>
-				{% endif %}
-			</div>
-		</div>
-		
-		<h1 class="text-center"
-			data-aos="fade-up" 
-			data-aos-delay="1000"
-			data-aos-duration="1000"
-			data-aos-easing="ease-out-quad">{{ page.title }}</h1>
+		data-aos-easing="ease-out-quad">{{ page.title }}</h1>
+	<p class="time"
+		data-aos="fade-up" 
+		data-aos-duration="800"
+		data-aos-easing="ease-out-quad">Published {{ page.date | date:'%B %Y' }}</p>
 
-		<div class="grid">
-			<div class="grid__item push--one--one-eighth one--six-eighths push--two--two-elevenths two--seven-elevenths">
-				<div class="post-single__body" 
-					data-aos="fade-up" 
-					data-aos-delay="1000"
-					data-aos-duration="1000"
-					data-aos-easing="ease-out-quad">
-					{{ content }}
-				</div>
-			</div>
-		</div>
+	<div class="post-single__body" 
+		data-aos="fade-up" 
+		data-aos-delay="300"
+		data-aos-duration="800"
+		data-aos-easing="ease-out-quad">
+		{{ content }}
 	</div>
 </div>
 
