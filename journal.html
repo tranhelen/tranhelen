@@ -4,18 +4,8 @@ layout: default
 ---
 
 <div class="journal-body">
-	<nav class="nav nav--subpage" 
-		data-aos="fade-up"
-		data-aos-easing="ease-out-quad"
-		data-aos-duration="800"
-		data-aos-delay="100">
-		<a href="javascript: history.go(-1)" class="em link-back">← Back</a>
-		<ul class="no-bullet">
-			<li><a class="em active">Journal</a></li>
-			<li><a href="./#bio" class="scrollTo em">Bio</a></li>
-			<li><a href="#contact" class="scrollTo em">Contact</a></li>
-		</ul>
-	</nav>
+
+	{% include nav-subpage.html %}
 
 	<section class="journal"
 		data-aos="fade-up"

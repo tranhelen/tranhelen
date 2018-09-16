@@ -110,6 +110,11 @@ a {
 	    	color: #000;
 	    }
     }
+
+    &.active {
+    	background-color: $colorAccent;
+    	color: #000;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -514,7 +519,6 @@ textarea {
     }
 
     .no-bullet a {
-		color: #333333;
 		margin-right: 20px;
     }
 }
@@ -564,7 +568,6 @@ textarea {
 		float: left;
 		position: relative;
 			top: 20px;
-		width: 20%;
 	}
 
 	.no-bullet {
@@ -581,6 +584,25 @@ textarea {
 	}
 
 	@include clearfix;
+
+	@include at-query($two) {
+		.no-bullet {
+			text-align: left;
+		}		
+	}
+
+	@include at-query($three) {
+		padding: 0 60px;
+
+		.link-back {
+			top: 60px;
+		}
+
+		.no-bullet {
+			margin-right: -60px;
+			padding: 52px 0;
+		}
+	}
 }
 
 
