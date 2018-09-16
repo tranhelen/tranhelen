@@ -1,18 +1,32 @@
-	<footer class="mailinglist">
-		{% include mailinglist.html %}
-
-		<div class="mailinglist__content">
-			<div class="container">
-				<p class="copy"><a href="/">Home</a> • Find me on <a href="http://twitter.com/tranhelen">Twitter</a>, <a href="http://instagram.com/tranhelen">Instagram</a>, and <a href="http://dribbble.com/tranhelen">Dribbble</a></p>
-				<p class="copy">Copyright &copy; 2017 Helen Tran. Portrait and video portrait by <a href="http://jeremiahwarren.com/">Jeremiah Warren</a>.</p>
-			</div>
-		</div>
+	<footer class="footer-main" id="contact">
+		<span class="section-tag">Contact</span>
+		<p>Find me on <a href="http://twitter.com/tranhelen">Twitter</a>, <a href="http://instagram.com/tranhelen">Instagram</a>, and <a href="http://dribbble.com/tranhelen">Dribbble</a>. <a href="mailinglist.html">Subscribe</a> for updates.</p>
+		<p class="copy">Copyright &copy; Helen Tran</p>
 	</footer>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="/js/aos.js"></script>
-<script src="/js/detectmobilebrowser.js"></script>
+<script>
+	$(function() {
+	  $('.scrollTo').click(function() {
+	    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000, "swing");
+	        return false;
+	      }
+	    }
+	  });
+	});
+
+	function goBack() {
+	    window.history.back()
+	}
+</script>
 <script>
 	AOS.init();
 

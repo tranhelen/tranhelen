@@ -16,21 +16,17 @@
 
 /* Colour Variables */
 	/* Main */
-	$colorAccent: #d0a233;
-	$colorAccentTwo: #768fe1;
+	$colorAccent: #ffd000;
 
 	/* Text */
-	$colorTextHeader: #394047;
-	$colorTextBody: #5f6771; 
+	$colorTextHeader: #333;
+	$colorTextBody: #333; 
 
 	/* Links */
-	$colorLink: #768fe1;
+	$colorLink: #000;
 	
 	/* Other */
-	$colorShadow: #796b5d;
-	$colorBGone: #fcf8ef;
-	$colorBGtwo: #f6fafc;
-	$selection: #ff0;
+	$selection: $colorAccent;
 
 /*------------------------------------*\
     #Base
@@ -52,31 +48,686 @@ text-rendering:optimizeLegibility;
 	background: $selection;
 }
 
+body,
+html {
+	overflow-x: hidden;
+}
+
 img {
 	width: 100%;
 }
 
 $baseFontSize: 16px;
-$stacksuper: "ltc-bodoni-175", Georgia, Times, Times New Roman, serif;
-$stack1: "adobe-caslon-pro", Georgia, Times, Times New Roman, serif;
-$stack2: "europa", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stacktitle: "essonnes-headline", Georgia, Times, Times New Roman, serif;
+$stack1: "essonnes-text", Georgia, Times, Times New Roman, serif;
+$stack2: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
 $one: 600px;
 $two: 800px;
-$three: 1130px;
-$four: 1500px;
+$three: 1060px;
+$four: 1200px;
 
 @import "normalize";
-
 @import "modules/mixins";
-@import "vendor/grids";
 
-@import "partials/helpers";
+/*------------------------------------*\
+    #TypographyMain
+\*------------------------------------*/
 
-@import "partials/main";
-@import "partials/homepage";
-@import "partials/archives";
-@import "partials/mentor";
-@import "partials/casestudies";
-@import "partials/blog";
+a {
+	color: $colorLink;
+	position: relative;
+    text-decoration: none;
+
+    @include transition;
+
+	&::after {
+		background: rgba($colorTextBody,0.5);
+		content: '';
+		height: 1px;
+		opacity: 1;
+		position: absolute;
+			bottom: 2px;
+			right: 0;
+			width: 100%;
+
+		@include transition;
+	}
+
+	&:hover::after {
+		opacity: 0;
+	}
+
+    &.em {
+    	font: 600 12px $stack2;
+		color: $colorLink;
+		padding: 0 3px;
+	    text-transform: uppercase;
+
+	    &:hover {
+	    	background-color: $colorAccent;
+	    	color: #000;
+	    }
+    }
+
+    &.active {
+    	background-color: $colorAccent;
+    	color: #000;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $colorTextHeader;
+	font-weight: 300;
+}
+
+.h1 { @extend h1; }
+.h2 { @extend h2; }
+.h3 { @extend h3; }
+.h4 { @extend h4; }
+.h5 { @extend h5; }
+
+h1 {
+	font: italic 600 em(70px) $stacktitle;
+	line-height: 60px;
+	margin: 0;
+}
+
+h2 {
+	font: italic 300 em(30px) $stacktitle;
+	line-height: 1.36;
+	margin: 10px 0 10px;
+}
+
+h3 {
+	font: 300 em(24px) $stack1;
+	line-height: 1.5;
+	margin: 0 0 15px;
+}
+
+h4 {
+	font-family: $stack2;
+	font-size: em(15px);
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: $stack2;
+	font-size: em(13px);
+	margin: 0;
+}
+
+p {
+	color: $colorTextBody;
+	font: em(18px) $stack1;
+	line-height: 1.7;
+	margin: 0 0 10px;
+}
+
+ol li,
+ul li {
+	@extend p;
+
+	line-height: 1.75;
+	margin: 0 0 10px;
+}
+
+blockquote {
+	border: 2px solid $colorAccent;
+	border-width: 0 0 0 2px;
+	margin: 20px 0 30px;
+    padding-left: 30px;
+
+    p {
+    	font-style: italic;
+    }
+}
+
+input {
+    font-family: $stack2;
+    font-size: em(13px);
+}
+
+ul {
+	margin: 0;
+
+	&.no-bullet {
+		padding: 0;
+
+		li {
+			display: inline-block;
+			list-style-type: none;
+		}
+	}
+}
+
+.copy {
+	@extend h5;
+
+	font-size: em(12px);
+	text-transform: uppercase;
+}
+
+
+.time {
+	@extend h5;
+	
+	margin-bottom: 10px;
+}
+
+#mce-success-response,
+#mce-error-response {
+	margin: 10px 0 0;
+}
+
+#mc_embed_signup {
+	margin-top: 30px;
+
+	@include at-query($three) {
+		margin: 60px auto;
+		width: 300px;
+	}
+}
+
+/*------------------------------------*\
+    #Shared
+\*------------------------------------*/
+
+input,
+textarea {
+	background-color: #fff;
+	border: 2px solid #efefef;
+    margin: 0 0 15px;
+    padding: 8px 15px 10px;
+    width: 100%;
+}
+
+.container {
+	margin: 60px 30px;
+
+	@include at-query($two) {
+		margin: 90px auto;
+		max-width: 630px;
+	}
+
+	@include at-query($three) {
+		margin: 120px auto;
+	}
+
+	@include at-query($four) {
+		margin: 260px auto;
+	}
+}
+
+.footer-main {
+	background-color: $colorAccent;
+	padding: 10px 40px 40px;
+	text-align: center;
+
+	.section-tag {
+	    background-color: #000;
+	    color: #fff;
+	    margin-bottom: 0;
+	    top: -25px;
+	    display: inline-block;
+	}
+
+	@include at-query($two) {
+		padding: 50px 40px 90px;
+
+		.section-tag {
+			top: -60px;
+		}
+	}
+}
+
+.journals {
+	background-color: #1C1C1C;
+    margin: 70px 0 70px 10%;
+    padding: 30px;
+    width: 90%;
+
+    a {
+    	border-bottom: 1px solid $colorAccent;
+    	color: $colorAccent;
+
+    	&:hover {
+    		font-style: normal;
+    	}
+    }
+
+	h2 a {
+		border: 0;
+		color: #fff;
+	}
+
+    p {
+    	color: #ffffff;
+    }
+
+	.journals-listing {
+	    @include clearfix;
+	}
+
+	.section-tag {
+		left: -10px;
+	}
+
+    @include at-query($one) {
+    	margin-left: 20%;
+    	margin-top: 160px;
+    	width: 80%;
+    }
+
+    @include at-query($two) {
+    	margin-left: 5%;
+    	padding: 60px 90px;
+    	width: 95%;
+    }
+}
+
+.nav {
+    border-bottom: 2px solid #efefef;
+
+    a::after {
+    	opacity: 0;
+    }
+
+    .no-bullet a {
+		margin-right: 20px;
+    }
+}
+
+.section-tag {
+    background-color: $colorAccent;
+    padding: 4px 15px 5px;
+    font-family: $stack2;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: -40px;
+
+    @include at-query($two) {
+    	top: -70px;
+    }
+}
+
+#mc-embedded-subscribe {
+	background-color: #000;
+	border: 0;
+	color: #fff;
+	font: 600 em(14px) $stack2;
+	padding: 8px 15px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+/*------------------------------------*\
+    #Homepage
+\*------------------------------------*/
+
+.bio {
+	margin: 100px 30px 0;
+
+	.section-tag {
+		left: -10px;
+	}
+
+	@include at-query($one) {
+		margin-left: 20%;
+		margin-top: 190px;
+
+		h3 {
+			margin-top: 30px;
+		}
+	}
+
+	@include at-query($two) {
+		margin-left: 35%;
+	}
+
+	@include at-query($three) {
+	    margin-left: 45%;
+	    max-width: 780px;
+	}
+
+	@include at-query($four) {
+		margin-top: 330px;
+
+		h3 {
+			width: 80%;
+		}
+	}
+}
+
+.bio__body {
+	border-left: 5px solid $colorAccent;
+	margin-top: 30px;
+	padding: 0 0 60px 30px;
+
+	@include at-query($one) {
+		padding-bottom: 160px;
+	}
+
+	@include at-query($four) {
+	    margin-top: 60px;
+	    margin-left: 60px;
+	    padding: 0 0 250px 60px;
+	}
+}
+
+.home-body {
+	background-color: #fff;
+	position: relative;
+
+	@include at-query($one) {
+		background-color: transparent;
+		position: unset;
+	}
+}
+
+.home-topbio {
+    padding-top: 126%;
+    position: relative;
+
+    @include at-query($one) {
+    	padding-top: 0;
+    }
+
+    @include at-query($three) {
+    	max-width: 1600px;
+    	margin: 0 auto;
+    }
+}
+
+.home-topbiocard {
+    background-color: #ffd000;
+    margin-top: -110px;
+    padding: 30px;
+    position: relative;
+    text-align: right;
+    width: 70%;
+    z-index: 2;
+
+	h5 {
+		font-style: italic;
+		margin-top: 10px;
+	}
+
+	a {
+		border-bottom: 1px solid rgba(#fff,1);
+		color: #fff;
+
+		@include transition;
+
+		&:hover {
+			border-color: rgba(#fff,0);
+		}
+	}
+
+	.bio__link {
+		color: #fff;
+		margin-left: 50px;
+		margin-right: -105px;
+	}
+
+	@include at-query($one) {
+		margin-top: -225px;
+		width: 50%;
+	}
+
+	@include at-query($two) {
+	    margin-left: 26%;
+	    width: 40%;
+	}
+
+	@include at-query($three) {
+	    float: right;
+	    margin-top: -420px;
+	    margin-right: 35%;
+	    margin-left: unset;
+		width: 500px;
+
+		h1 {
+		    margin-left: 50%;
+		    width: 50%;
+		}
+
+		h4 {
+			margin-top: 100px;
+		}
+	}
+
+	@include at-query($four) {
+		margin-right: 40%;
+	}
+}
+
+.journals--home {
+	.journals-single {
+		@include at-query($two) {
+			float: left;
+			max-width: 500px;
+			width: 50%;
+		}
+	}
+
+    @include at-query($three) {
+    	margin: 200px auto;
+    	max-width: 1550px;
+    	padding: 60px 10%;
+    }
+
+    @include at-query($four) {
+	    margin-top: 140px;
+	    padding-top: 885px;
+    }
+}
+
+.nav--main {
+    margin-left: 10%;
+    padding-top: 10px;
+    width: 90%;
+
+    @include at-query($one) {
+	    background-color: #fff;
+		position: absolute;
+		    right: 0;
+		    top: 0;
+    }
+
+    @include at-query($two) {
+	    margin-right: 45%;
+		text-align: right;
+	    width: 55%;
+
+    	a {
+    		margin: 0 0 0 20px;
+    	}
+    }
+
+    @include at-query($three) {
+    	padding: 50px 0;
+    }
+
+    @include at-query($four) {
+    	border: 0;
+		margin: auto;
+	    max-width: 1600px;
+		padding-right: 745px;
+	        left: 0;
+	        right: 0;
+	    width: 100%;
+    }
+}
+
+.portrait {
+	position: fixed;
+		top: 0;
+
+	@include at-query($one) {
+	    border-right: 5px solid $colorAccent;
+	    margin-left: 50%;
+		position: relative;
+    		z-index: 1;
+	    width: 50%;
+	}
+
+	@include at-query($two) {
+		margin-left: 60%;
+		width: 40%;
+	}
+
+	@include at-query($three) {
+	    margin-right: 60px;
+	}
+
+	@include at-query($four) {
+		float: right;
+		width: 640px;
+	}
+}
+
+/*------------------------------------*\
+    #Subpage
+\*------------------------------------*/
+
+.--subpage {
+	h1 {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.p--mailinglist {
+		text-align: center;
+	}
+}
+
+.--post {
+	h1 {
+		margin-bottom: 15px;
+	}
+
+	.time {
+		margin-bottom: 30px;
+	}
+
+	@include at-query($two) {
+		h1 {
+			margin-bottom: 30px;
+			text-align: center;
+		}
+
+		.time {
+			margin-bottom: 60px;
+			text-align: center;
+		}
+	}
+}
+
+.hr--vertical {
+	background-color: $colorAccent;
+	height: 260px;
+	margin: auto;
+	position: absolute;
+		left: 0;
+	    right: 0;
+	width: 5px;
+
+	&.--journals {
+	    left: 0;
+	    right: auto;
+    	top: 270px;
+		
+		@include at-query($two) {
+			top: 330px;
+		}
+
+		@include at-query($three) {
+			right: 82%;
+			top: 300px;
+		}
+
+		@include at-query($four) {
+		    right: 1190px;
+		    bottom: -260px;			
+		}
+	}
+}
+
+.nav--subpage {
+	border: 0;
+	padding: 0 30px;
+
+	.link-back {
+		float: left;
+		position: relative;
+			top: 20px;
+	}
+
+	.no-bullet {
+		border-bottom: 2px solid #efefef;
+		float: right;
+		margin-right: -30px;
+	 	padding: 12px 0;
+		text-align: right;
+		width: 80%;
+
+		li {
+			margin: 0;
+		}
+	}
+
+	@include clearfix;
+
+	@include at-query($two) {
+		.no-bullet {
+			text-align: left;
+		}		
+	}
+
+	@include at-query($three) {
+		padding: 0 60px;
+
+		.link-back {
+			top: 60px;
+		}
+
+		.no-bullet {
+			margin-right: -60px;
+			padding: 52px 0;
+		}
+	}
+}
+
+/*------------------------------------*\
+    #Journals
+\*------------------------------------*/
+
+.journals--single {
+	.journals-single {
+		@include at-query($two) {
+			max-width: 500px;
+			width: 50%;
+		}
+	}
+
+	.journals--single__body {
+		@include at-query($three) {
+			margin: 0 auto;
+			max-width: 1200px;
+		}
+	}
+
+	@include at-query($three) {
+		margin: 260px 0;
+	}
+
+	@include at-query($four) {
+		margin-top: 360px;
+	}
+}
