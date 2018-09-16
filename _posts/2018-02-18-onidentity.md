@@ -17,4 +17,4 @@ This quote for me has a lot to do with the common identity struggle a lot face. 
 
 I've since shifted gears and to help me move forward a lot of my .com has been removed. I've been working on <a href="http://tryjupiter.com">Jupiter</a> since April and it's not for Designers or anyone in tech. It's not for consumers either and I feel a great sense of peace in this direction.
 
-I'm in it but not of it.
+In it but not of it.
