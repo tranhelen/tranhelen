@@ -15,6 +15,6 @@ Alicia Keys says something in the Netflix documentary The Women's List as she pa
 
 This quote for me has a lot to do with the common identity struggle a lot face. When I left my last position, I thought often about the story I was telling myself and how that story impacted how I viewed the world. I had come up with a slew of projects to keep myself entertained for some time but I realized I was becoming increasingly indifferent to them.
 
-I've since shifted gears and to help me move forward a lot of my .com has been removed. I've been working on <a href="http://tryjupiter.com">Jupiter</a> since April and it's not for Designers or anyone in tech. It's not for consumers either and I feel a great sense of peace in this direction.
+I've since shifted gears and to help me move forward a lot of my .com has been removed. I've been working on <a href="http://tryjupiter.com">Jupiter</a> since April and it's not for Designers or anyone in tech. I feel a great sense of peace in this direction.
 
 In it but not of it.
