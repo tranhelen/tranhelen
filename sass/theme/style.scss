@@ -265,6 +265,8 @@ textarea {
 	background-color: $colorAccent;
 	padding: 10px 40px 40px;
 	text-align: center;
+    position: relative;
+    z-index: 1;
 
 	.section-tag {
 	    background-color: #000;
@@ -276,6 +278,7 @@ textarea {
 
 	@include at-query($two) {
 		padding: 50px 40px 90px;
+		position: unset;
 
 		.section-tag {
 			top: -60px;
