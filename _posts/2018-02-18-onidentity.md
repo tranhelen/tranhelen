@@ -11,7 +11,7 @@ A quote from screenwriter Eric Roth:
 
 The last time I started over was about five years ago. This decision intiated the biggest growth spurt of my life launching me in a trajectory I would have never dreamed of. I consider it to be my origin story of sorts and I've often hoped to repeat the process again albeit in a less drmatic way.
 
-Alicia Keys paraphrases a Stevie Wonder lyric, in the Netflix documentary *The Women's List* ," "So make sure that you're in it, but not of it."
+Alicia Keys paraphrases a Stevie Wonder lyric, in the Netflix documentary *The Women's List*, "So make sure that you're in it, but not of it."
 
 This quote for me has a lot to do with the common identity struggle a lot face. When I left my last position, I thought often about the story I was telling myself and how that story impacted how I viewed the world. I had come up with a slew of projects to keep myself entertained but found myself growing indifferent to them over time.
 
