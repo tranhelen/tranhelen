@@ -670,6 +670,11 @@ textarea {
 		float: left;
 		position: relative;
 			top: 20px;
+
+		.arrow {
+			position: relative;
+				top: 1px;
+		}
 	}
 
 	.no-bullet {

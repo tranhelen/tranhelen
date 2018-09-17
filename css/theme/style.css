@@ -1016,7 +1016,12 @@ ul .journals li {
   position: relative;
   top: 20px;
 }
-/* line 675, ../../sass/theme/style.scss */
+/* line 674, ../../sass/theme/style.scss */
+.nav--subpage .link-back .arrow {
+  position: relative;
+  top: 1px;
+}
+/* line 680, ../../sass/theme/style.scss */
 .nav--subpage .no-bullet {
   border-bottom: 2px solid #efefef;
   float: right;
@@ -1025,7 +1030,7 @@ ul .journals li {
   text-align: right;
   width: 80%;
 }
-/* line 683, ../../sass/theme/style.scss */
+/* line 688, ../../sass/theme/style.scss */
 .nav--subpage .no-bullet li {
   margin: 0;
 }
@@ -1039,7 +1044,7 @@ ul .journals li {
   clear: both;
 }
 @media screen and (min-width: 800px) {
-  /* line 691, ../../sass/theme/style.scss */
+  /* line 696, ../../sass/theme/style.scss */
   .nav--subpage .no-bullet {
     text-align: left;
   }
@@ -1049,11 +1054,11 @@ ul .journals li {
   .nav--subpage {
     padding: 0 60px;
   }
-  /* line 699, ../../sass/theme/style.scss */
+  /* line 704, ../../sass/theme/style.scss */
   .nav--subpage .link-back {
     top: 60px;
   }
-  /* line 703, ../../sass/theme/style.scss */
+  /* line 708, ../../sass/theme/style.scss */
   .nav--subpage .no-bullet {
     margin-right: -60px;
     padding: 52px 0;
@@ -1064,27 +1069,27 @@ ul .journals li {
     #Journals
 \*------------------------------------*/
 @media screen and (min-width: 800px) {
-  /* line 715, ../../sass/theme/style.scss */
+  /* line 720, ../../sass/theme/style.scss */
   .journals--single .journals-single {
     max-width: 500px;
     width: 50%;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 722, ../../sass/theme/style.scss */
+  /* line 727, ../../sass/theme/style.scss */
   .journals--single .journals--single__body {
     margin: 0 auto;
     max-width: 1200px;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 714, ../../sass/theme/style.scss */
+  /* line 719, ../../sass/theme/style.scss */
   .journals--single {
     margin: 260px 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 714, ../../sass/theme/style.scss */
+  /* line 719, ../../sass/theme/style.scss */
   .journals--single {
     margin-top: 360px;
   }
