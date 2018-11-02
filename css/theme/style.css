@@ -568,7 +568,7 @@ textarea {
 .journals {
   background-color: #1C1C1C;
   margin: 70px 0 70px 10%;
-  padding: 30px;
+  padding: 30px 30px 10px;
   width: 90%;
 }
 /* line 305, ../../sass/theme/style.scss */
@@ -601,6 +601,16 @@ ul .journals li {
   clear: both;
 }
 /* line 327, ../../sass/theme/style.scss */
+.journals .journals-single {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 800px) {
+  /* line 327, ../../sass/theme/style.scss */
+  .journals .journals-single {
+    padding-right: 30px;
+  }
+}
+/* line 335, ../../sass/theme/style.scss */
 .journals .section-tag {
   left: -10px;
 }
@@ -616,25 +626,25 @@ ul .journals li {
   /* line 299, ../../sass/theme/style.scss */
   .journals {
     margin-left: 5%;
-    padding: 60px 90px;
+    padding: 60px 60px 30px 90px;
     width: 95%;
   }
 }
 
-/* line 344, ../../sass/theme/style.scss */
+/* line 352, ../../sass/theme/style.scss */
 .nav {
   border-bottom: 2px solid #efefef;
 }
-/* line 347, ../../sass/theme/style.scss */
+/* line 355, ../../sass/theme/style.scss */
 .nav a::after {
   opacity: 0;
 }
-/* line 351, ../../sass/theme/style.scss */
+/* line 359, ../../sass/theme/style.scss */
 .nav .no-bullet a {
   margin-right: 20px;
 }
 
-/* line 356, ../../sass/theme/style.scss */
+/* line 364, ../../sass/theme/style.scss */
 .section-tag {
   background-color: #ffd000;
   padding: 4px 15px 5px;
@@ -646,13 +656,13 @@ ul .journals li {
   top: -40px;
 }
 @media screen and (min-width: 800px) {
-  /* line 356, ../../sass/theme/style.scss */
+  /* line 364, ../../sass/theme/style.scss */
   .section-tag {
     top: -70px;
   }
 }
 
-/* line 371, ../../sass/theme/style.scss */
+/* line 379, ../../sass/theme/style.scss */
 #mc-embedded-subscribe {
   background-color: #000;
   border: 0;
@@ -667,63 +677,63 @@ ul .journals li {
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
-/* line 386, ../../sass/theme/style.scss */
+/* line 394, ../../sass/theme/style.scss */
 .bio {
   margin: 100px 30px 0;
 }
-/* line 389, ../../sass/theme/style.scss */
+/* line 397, ../../sass/theme/style.scss */
 .bio .section-tag {
   left: -10px;
 }
 @media screen and (min-width: 600px) {
-  /* line 386, ../../sass/theme/style.scss */
+  /* line 394, ../../sass/theme/style.scss */
   .bio {
     margin-left: 20%;
     margin-top: 190px;
   }
-  /* line 397, ../../sass/theme/style.scss */
+  /* line 405, ../../sass/theme/style.scss */
   .bio h3, .bio .h3 {
     margin-top: 30px;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 386, ../../sass/theme/style.scss */
+  /* line 394, ../../sass/theme/style.scss */
   .bio {
     margin-left: 35%;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 386, ../../sass/theme/style.scss */
+  /* line 394, ../../sass/theme/style.scss */
   .bio {
     margin-left: 45%;
     max-width: 780px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 386, ../../sass/theme/style.scss */
+  /* line 394, ../../sass/theme/style.scss */
   .bio {
     margin-top: 330px;
   }
-  /* line 414, ../../sass/theme/style.scss */
+  /* line 422, ../../sass/theme/style.scss */
   .bio h3, .bio .h3 {
     width: 80%;
   }
 }
 
-/* line 420, ../../sass/theme/style.scss */
+/* line 428, ../../sass/theme/style.scss */
 .bio__body {
   border-left: 5px solid #ffd000;
   margin-top: 30px;
   padding: 0 0 60px 30px;
 }
 @media screen and (min-width: 600px) {
-  /* line 420, ../../sass/theme/style.scss */
+  /* line 428, ../../sass/theme/style.scss */
   .bio__body {
     padding-bottom: 160px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 420, ../../sass/theme/style.scss */
+  /* line 428, ../../sass/theme/style.scss */
   .bio__body {
     margin-top: 60px;
     margin-left: 60px;
@@ -731,39 +741,39 @@ ul .journals li {
   }
 }
 
-/* line 436, ../../sass/theme/style.scss */
+/* line 444, ../../sass/theme/style.scss */
 .home-body {
   background-color: #fff;
   position: relative;
 }
 @media screen and (min-width: 600px) {
-  /* line 436, ../../sass/theme/style.scss */
+  /* line 444, ../../sass/theme/style.scss */
   .home-body {
     background-color: transparent;
     position: unset;
   }
 }
 
-/* line 446, ../../sass/theme/style.scss */
+/* line 454, ../../sass/theme/style.scss */
 .home-topbio {
   padding-top: 126%;
   position: relative;
 }
 @media screen and (min-width: 600px) {
-  /* line 446, ../../sass/theme/style.scss */
+  /* line 454, ../../sass/theme/style.scss */
   .home-topbio {
     padding-top: 0;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 446, ../../sass/theme/style.scss */
+  /* line 454, ../../sass/theme/style.scss */
   .home-topbio {
     max-width: 1600px;
     margin: 0 auto;
   }
 }
 
-/* line 460, ../../sass/theme/style.scss */
+/* line 468, ../../sass/theme/style.scss */
 .home-topbiocard {
   background-color: #ffd000;
   margin-top: -110px;
@@ -773,12 +783,12 @@ ul .journals li {
   width: 70%;
   z-index: 2;
 }
-/* line 469, ../../sass/theme/style.scss */
+/* line 477, ../../sass/theme/style.scss */
 .home-topbiocard h5, .home-topbiocard .h5, .home-topbiocard .copy, .home-topbiocard .time {
   font-style: italic;
   margin-top: 10px;
 }
-/* line 474, ../../sass/theme/style.scss */
+/* line 482, ../../sass/theme/style.scss */
 .home-topbiocard a {
   border-bottom: 1px solid white;
   color: #fff;
@@ -787,32 +797,32 @@ ul .journals li {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 480, ../../sass/theme/style.scss */
+/* line 488, ../../sass/theme/style.scss */
 .home-topbiocard a:hover {
   border-color: rgba(255, 255, 255, 0);
 }
-/* line 485, ../../sass/theme/style.scss */
+/* line 493, ../../sass/theme/style.scss */
 .home-topbiocard .bio__link {
   color: #fff;
   margin-left: 50px;
   margin-right: -105px;
 }
 @media screen and (min-width: 600px) {
-  /* line 460, ../../sass/theme/style.scss */
+  /* line 468, ../../sass/theme/style.scss */
   .home-topbiocard {
     margin-top: -225px;
     width: 50%;
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 460, ../../sass/theme/style.scss */
+  /* line 468, ../../sass/theme/style.scss */
   .home-topbiocard {
     margin-left: 26%;
     width: 40%;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 460, ../../sass/theme/style.scss */
+  /* line 468, ../../sass/theme/style.scss */
   .home-topbiocard {
     float: right;
     margin-top: -420px;
@@ -820,25 +830,25 @@ ul .journals li {
     margin-left: unset;
     width: 500px;
   }
-  /* line 508, ../../sass/theme/style.scss */
+  /* line 516, ../../sass/theme/style.scss */
   .home-topbiocard h1, .home-topbiocard .h1 {
     margin-left: 50%;
     width: 50%;
   }
-  /* line 513, ../../sass/theme/style.scss */
+  /* line 521, ../../sass/theme/style.scss */
   .home-topbiocard h4, .home-topbiocard .h4 {
     margin-top: 100px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 460, ../../sass/theme/style.scss */
+  /* line 468, ../../sass/theme/style.scss */
   .home-topbiocard {
     margin-right: 40%;
   }
 }
 
 @media screen and (min-width: 800px) {
-  /* line 524, ../../sass/theme/style.scss */
+  /* line 532, ../../sass/theme/style.scss */
   .journals--home .journals-single {
     float: left;
     max-width: 500px;
@@ -846,7 +856,7 @@ ul .journals li {
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 523, ../../sass/theme/style.scss */
+  /* line 531, ../../sass/theme/style.scss */
   .journals--home {
     margin: 200px auto;
     max-width: 1550px;
@@ -854,21 +864,21 @@ ul .journals li {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 523, ../../sass/theme/style.scss */
+  /* line 531, ../../sass/theme/style.scss */
   .journals--home {
     margin-top: 140px;
     padding-top: 885px;
   }
 }
 
-/* line 544, ../../sass/theme/style.scss */
+/* line 552, ../../sass/theme/style.scss */
 .nav--main {
   margin-left: 10%;
   padding-top: 10px;
   width: 90%;
 }
 @media screen and (min-width: 600px) {
-  /* line 544, ../../sass/theme/style.scss */
+  /* line 552, ../../sass/theme/style.scss */
   .nav--main {
     background-color: #fff;
     position: absolute;
@@ -877,25 +887,25 @@ ul .journals li {
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 544, ../../sass/theme/style.scss */
+  /* line 552, ../../sass/theme/style.scss */
   .nav--main {
     margin-right: 45%;
     text-align: right;
     width: 55%;
   }
-  /* line 561, ../../sass/theme/style.scss */
+  /* line 569, ../../sass/theme/style.scss */
   .nav--main a {
     margin: 0 0 0 20px;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 544, ../../sass/theme/style.scss */
+  /* line 552, ../../sass/theme/style.scss */
   .nav--main {
     padding: 50px 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 544, ../../sass/theme/style.scss */
+  /* line 552, ../../sass/theme/style.scss */
   .nav--main {
     border: 0;
     margin: auto;
@@ -907,13 +917,13 @@ ul .journals li {
   }
 }
 
-/* line 581, ../../sass/theme/style.scss */
+/* line 589, ../../sass/theme/style.scss */
 .portrait {
   position: fixed;
   top: 0;
 }
 @media screen and (min-width: 600px) {
-  /* line 581, ../../sass/theme/style.scss */
+  /* line 589, ../../sass/theme/style.scss */
   .portrait {
     border-right: 5px solid #ffd000;
     margin-left: 50%;
@@ -923,20 +933,20 @@ ul .journals li {
   }
 }
 @media screen and (min-width: 800px) {
-  /* line 581, ../../sass/theme/style.scss */
+  /* line 589, ../../sass/theme/style.scss */
   .portrait {
     margin-left: 60%;
     width: 40%;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 581, ../../sass/theme/style.scss */
+  /* line 589, ../../sass/theme/style.scss */
   .portrait {
     margin-right: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 581, ../../sass/theme/style.scss */
+  /* line 589, ../../sass/theme/style.scss */
   .portrait {
     float: right;
     width: 640px;
@@ -946,38 +956,38 @@ ul .journals li {
 /*------------------------------------*\
     #Subpage
 \*------------------------------------*/
-/* line 613, ../../sass/theme/style.scss */
+/* line 621, ../../sass/theme/style.scss */
 .--subpage h1, .--subpage .h1 {
   margin-bottom: 30px;
   text-align: center;
 }
-/* line 618, ../../sass/theme/style.scss */
+/* line 626, ../../sass/theme/style.scss */
 .--subpage .p--mailinglist {
   text-align: center;
 }
 
-/* line 624, ../../sass/theme/style.scss */
+/* line 632, ../../sass/theme/style.scss */
 .--post h1, .--post .h1 {
   margin-bottom: 15px;
 }
-/* line 628, ../../sass/theme/style.scss */
+/* line 636, ../../sass/theme/style.scss */
 .--post .time {
   margin-bottom: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 633, ../../sass/theme/style.scss */
+  /* line 641, ../../sass/theme/style.scss */
   .--post h1, .--post .h1 {
     margin-bottom: 30px;
     text-align: center;
   }
-  /* line 638, ../../sass/theme/style.scss */
+  /* line 646, ../../sass/theme/style.scss */
   .--post .time {
     margin-bottom: 60px;
     text-align: center;
   }
 }
 
-/* line 645, ../../sass/theme/style.scss */
+/* line 653, ../../sass/theme/style.scss */
 .hr--vertical {
   background-color: #ffd000;
   height: 260px;
@@ -987,50 +997,50 @@ ul .journals li {
   right: 0;
   width: 5px;
 }
-/* line 654, ../../sass/theme/style.scss */
+/* line 662, ../../sass/theme/style.scss */
 .hr--vertical.--journals {
   left: 0;
   right: auto;
   top: 270px;
 }
 @media screen and (min-width: 800px) {
-  /* line 654, ../../sass/theme/style.scss */
+  /* line 662, ../../sass/theme/style.scss */
   .hr--vertical.--journals {
     top: 330px;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 654, ../../sass/theme/style.scss */
+  /* line 662, ../../sass/theme/style.scss */
   .hr--vertical.--journals {
     right: 82%;
     top: 300px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 654, ../../sass/theme/style.scss */
+  /* line 662, ../../sass/theme/style.scss */
   .hr--vertical.--journals {
     right: 1190px;
     bottom: -260px;
   }
 }
 
-/* line 675, ../../sass/theme/style.scss */
+/* line 683, ../../sass/theme/style.scss */
 .nav--subpage {
   border: 0;
   padding: 0 30px;
 }
-/* line 679, ../../sass/theme/style.scss */
+/* line 687, ../../sass/theme/style.scss */
 .nav--subpage .link-back {
   float: left;
   position: relative;
   top: 20px;
 }
-/* line 684, ../../sass/theme/style.scss */
+/* line 692, ../../sass/theme/style.scss */
 .nav--subpage .link-back .arrow {
   position: relative;
   top: 1px;
 }
-/* line 690, ../../sass/theme/style.scss */
+/* line 698, ../../sass/theme/style.scss */
 .nav--subpage .no-bullet {
   border-bottom: 2px solid #efefef;
   float: right;
@@ -1039,7 +1049,7 @@ ul .journals li {
   text-align: right;
   width: 80%;
 }
-/* line 698, ../../sass/theme/style.scss */
+/* line 706, ../../sass/theme/style.scss */
 .nav--subpage .no-bullet li {
   margin: 0;
 }
@@ -1053,21 +1063,21 @@ ul .journals li {
   clear: both;
 }
 @media screen and (min-width: 800px) {
-  /* line 706, ../../sass/theme/style.scss */
+  /* line 714, ../../sass/theme/style.scss */
   .nav--subpage .no-bullet {
     text-align: left;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 675, ../../sass/theme/style.scss */
+  /* line 683, ../../sass/theme/style.scss */
   .nav--subpage {
     padding: 0 60px;
   }
-  /* line 714, ../../sass/theme/style.scss */
+  /* line 722, ../../sass/theme/style.scss */
   .nav--subpage .link-back {
     top: 60px;
   }
-  /* line 718, ../../sass/theme/style.scss */
+  /* line 726, ../../sass/theme/style.scss */
   .nav--subpage .no-bullet {
     margin-right: -60px;
     padding: 52px 0;
@@ -1075,30 +1085,34 @@ ul .journals li {
 }
 
 /*------------------------------------*\
-    #Journals (For Listings)
+    #Journals (For Listings on Home & Journal page)
 \*------------------------------------*/
+/* line 738, ../../sass/theme/style.scss */
+.journals--single .journals-single {
+  margin-bottom: 30px;
+}
 @media screen and (min-width: 800px) {
-  /* line 730, ../../sass/theme/style.scss */
+  /* line 738, ../../sass/theme/style.scss */
   .journals--single .journals-single {
     max-width: 500px;
     width: 50%;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 737, ../../sass/theme/style.scss */
+  /* line 747, ../../sass/theme/style.scss */
   .journals--single .journals--single__body {
     margin: 0 auto;
     max-width: 1200px;
   }
 }
 @media screen and (min-width: 1060px) {
-  /* line 729, ../../sass/theme/style.scss */
+  /* line 737, ../../sass/theme/style.scss */
   .journals--single {
     margin: 260px 0;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 729, ../../sass/theme/style.scss */
+  /* line 737, ../../sass/theme/style.scss */
   .journals--single {
     margin-top: 360px;
   }
@@ -1107,24 +1121,24 @@ ul .journals li {
 /*------------------------------------*\
     #Journal Single (Called Post)
 \*------------------------------------*/
-/* line 758, ../../sass/theme/style.scss */
+/* line 768, ../../sass/theme/style.scss */
 .post-single__body h2, .post-single__body .h2 {
   font-style: normal;
   margin: 30px 0;
 }
-/* line 763, ../../sass/theme/style.scss */
+/* line 773, ../../sass/theme/style.scss */
 .post-single__body p, .post-single__body ol li, ol .post-single__body li,
 .post-single__body ul li,
 ul .post-single__body li {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 800px) {
-  /* line 768, ../../sass/theme/style.scss */
+  /* line 778, ../../sass/theme/style.scss */
   .post-single__body h2, .post-single__body .h2 {
     font-size: 2.5em;
     text-align: center;
   }
-  /* line 773, ../../sass/theme/style.scss */
+  /* line 783, ../../sass/theme/style.scss */
   .post-single__body hr.--small {
     margin: 30px auto;
   }

@@ -299,7 +299,7 @@ textarea {
 .journals {
 	background-color: #1C1C1C;
     margin: 70px 0 70px 10%;
-    padding: 30px;
+    padding: 30px 30px 10px;
     width: 90%;
 
     a {
@@ -324,6 +324,14 @@ textarea {
 	    @include clearfix;
 	}
 
+	.journals-single {
+		margin-bottom: 30px; 
+
+		@include at-query($two) {
+			padding-right: 30px
+		}
+	}
+
 	.section-tag {
 		left: -10px;
 	}
@@ -336,7 +344,7 @@ textarea {
 
     @include at-query($two) {
     	margin-left: 5%;
-    	padding: 60px 90px;
+    	padding: 60px 60px 30px 90px;
     	width: 95%;
     }
 }
@@ -723,11 +731,13 @@ textarea {
 }
 
 /*------------------------------------*\
-    #Journals (For Listings)
+    #Journals (For Listings on Home & Journal page)
 \*------------------------------------*/
 
 .journals--single {
 	.journals-single {
+		margin-bottom: 30px; 
+
 		@include at-query($two) {
 			max-width: 500px;
 			width: 50%;
