@@ -660,22 +660,21 @@ textarea {
 	width: 5px;
 
 	&.--journals {
-	    left: 0;
+	    left: 30px;
 	    right: auto;
-    	top: 270px;
-		
+		bottom: -260px;
+
 		@include at-query($two) {
-			top: 330px;
+			left: 90px;
 		}
 
 		@include at-query($three) {
+			left: 0;
 			right: 82%;
-			top: 300px;
 		}
 
 		@include at-query($four) {
-		    right: 1190px;
-		    bottom: -260px;			
+		    right: 1160px;
 		}
 	}
 }
@@ -735,28 +734,47 @@ textarea {
 \*------------------------------------*/
 
 .journals--single {
+    margin-left: 10%;
+	width: auto;
+
+	@include at-query($one) {
+		margin-left: 20%;
+	}
+
+	@include at-query($two) {
+		margin-left: 0;
+		margin-right: 20%;
+	}
+
+	@include at-query($three) {
+		margin: 260px 5% 260px 0;
+	}
+
+	.section-tag {
+		left: -10px;
+	}
+}
+
+.journals--single__body {
+	@include clearfix;
+
 	.journals-single {
 		margin-bottom: 30px; 
 
 		@include at-query($two) {
+			float: left;
 			max-width: 500px;
 			width: 50%;
 		}
 	}
 
-	.journals--single__body {
-		@include at-query($three) {
-			margin: 0 auto;
-			max-width: 1200px;
-		}
-	}
-
 	@include at-query($three) {
-		margin: 260px 0;
+		margin: 0 auto;
+		max-width: 1200px;
 	}
 
 	@include at-query($four) {
-		margin-top: 360px;
+		// margin-top: 360px;
 	}
 }
 

@@ -11,11 +11,13 @@ layout: default
 	data-aos-duration="800">
 	<div class="journals-listing">
 		<div class="journals--single__body">
-			<span class="section-tag"
-			data-aos="fade-up"
-			data-aos-easing="ease-out-quad"
-			data-aos-duration="800">Journal</span>
-			{% for post in site.posts limit:1 %}
+			<div class="banana">
+				<span class="section-tag"
+				data-aos="fade-up"
+				data-aos-easing="ease-out-quad"
+				data-aos-duration="800">Journal</span>
+			</div>
+			{% for post in site.posts limit:2 %}
 			<div class="journals-single"
 			data-aos="fade-up"
 			data-aos-easing="ease-out-quad"
