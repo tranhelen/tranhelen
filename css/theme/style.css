@@ -1169,3 +1169,9 @@ ul .post-single__body li {
     margin: 30px auto;
   }
 }
+@media screen and (min-width: 1060px) {
+  /* line 807, ../../sass/theme/style.scss */
+  .post-single__body hr.--small {
+    margin: 60px auto;
+  }
+}

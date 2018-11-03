@@ -802,4 +802,10 @@ textarea {
 			margin: 30px auto;
 		}
 	}
+
+	@include at-query($three) {
+		hr.--small {
+			margin: 60px auto;
+		}
+	}
 }
