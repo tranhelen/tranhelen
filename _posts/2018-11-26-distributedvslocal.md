@@ -21,9 +21,9 @@ Distributed may be more convenient but if we look at work as more than simply a 
 
 I also believe strongly that personal experiences bias how people build–everything is art. I question if encouraging someone to live a more isolated life (facing inwards towards their family units) produces an individual who can build something for someone whose bread and butter is face-to-face interactions. They can, obviously, but would they be better if they were more socially practiced?
 
-When I consider my own experiences, I understand I'm biased towards choosing a local team. Many people don't talk about it for fear of repercussions, but, multi-location offices are hard. Out of sight, out of mind–and that's the most graceful of explanations. It takes a considerable amount of emotional work to undo things if it goes wrong. Trust circles exist for a reason.
+When I consider my own experiences, I understand I'm biased towards choosing a local team. Many people don't talk about it for fear of repercussions, but, multi-location offices are hard. Out of sight, out of mind–and that's the most graceful of explanations. It takes a considerable amount of emotional work to undo things if it goes wrong.
 
-To-date my favourite team of my career has been a local team. We grew up next to each other and years later it feels like nothing has changed. Would I trust them more than the average colleague? I'm not beyond saying: it's likely.
+To-date my favourite team of my career has been a local team. We grew up next to each other and years later being in the same room feels like putting on an old glove. Would I trust them more than the average colleague? I'm not beyond saying: it's likely.
 
 These relationships weren't formed in large formal steps–they happened accidentally. In the same physical space, I became used to their temperature setting complaints, their favourite coffee mug, and that annoying way they tap their foot when they work. It's always the small things.
 
