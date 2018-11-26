@@ -809,3 +809,27 @@ textarea {
 		}
 	}
 }
+
+.cite {
+	font-style: italic;
+
+	a::after {
+		background: none;	
+	}
+}
+
+.citations {
+	p {
+		font-family: $stack2;
+		font-size: em(12px);
+		text-indent: -20px;
+	}
+
+	.citations-back {
+		font-weight: bold;
+
+		&::after {
+			background: None;
+		}
+	}
+}
