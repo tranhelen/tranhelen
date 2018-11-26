@@ -25,7 +25,7 @@ When I consider my own experiences, I understand I'm biased towards choosing a l
 
 To-date my favourite team of my career has been a local team. We grew up next to each other and years later being in the same room feels like putting on an old glove. Would I trust them more than the average colleague? I'm not beyond saying: it's likely.
 
-These relationships weren't formed in large formal steps–they happened accidentally. In the same physical space, I became used to their temperature setting complaints, their favourite coffee mug, and that annoying way they tap their foot when they work. It's always the small things.
+These relationships weren't formed in large formal steps–they happened accidentally. In the same physical space, I became used to their temperature setting complaints, their favourite coffee mug, how they decorate the Christmas tree, and that annoying way they tap their foot when they work. It's always the small things.
 
 <hr class="--small" />
 
