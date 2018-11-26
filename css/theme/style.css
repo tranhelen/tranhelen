@@ -378,7 +378,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .copy, .time, h6 {
 /* line 131, ../../sass/theme/style.scss */
 h1, .h1 {
   font: italic 600 4.375em "essonnes-headline", Georgia, Times, Times New Roman, serif;
-  line-height: 60px;
+  line-height: 70px;
   margin: 0;
 }
 
