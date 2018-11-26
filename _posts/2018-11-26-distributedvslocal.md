@@ -5,7 +5,7 @@ date: 2018-11-26
 excerpt: We've finished our first round of hiring at Jupiter last week and this question of a distributed or local team has crossed my mind
 ---
 
-We've finished our first round of hiring at Jupiter last week and this question of a distributed or local team has crossed my mind more than a few times. From am idealogical perspective, I like distributed work. However growing Jupiter requires me to still carefully analyze my own precious beliefs. Is it right for the product or business? The answer wasn't clear.
+We've finished our first round of hiring at Jupiter last week and this question of a distributed or local team has crossed my mind more than a few times. From am ideological perspective, I like distributed work. However growing Jupiter requires me to still carefully analyze my own precious beliefs. Is it right for the product or business? The answer wasn't clear.
 
 Most of what I've read from tech workers who are pushing remote work (and my, does it feel like a push) revolves around the quality of their individual contributions and their own desires. They're not wrong: happier employees produce better work. Although it seems to me this defensive stance is born out of bad experiences with poor management than it is directly related to distributed work creating inherently better products.
 
