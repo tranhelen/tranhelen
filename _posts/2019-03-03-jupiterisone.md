@@ -2,7 +2,7 @@
 layout: post
 title: Jupiter is One
 date: 2019-03-03
-excerpt: Things you never knew you didn't want&#x3a; a hairbrush which tells you how dry your hair is, a smart mirror
+excerpt: On March 1st, Rich and I celebrated the one year anniversary of incorporating Jupiter. Over the course of the year
 ---
 
 On March 1st, Rich and I celebrated the one year anniversary of incorporating Jupiter. Over the course of the year we have:
