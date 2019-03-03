@@ -2,7 +2,7 @@
 layout: post
 title: Jupiter is One
 date: 2019-03-03
-excerpt: On March 1st, Rich and I celebrated the one year anniversary of incorporating Jupiter. Over the course
+excerpt: On March 1st, Rich and I celebrated the one year anniversary of incorporating Jupiter. Over the
 ---
 
 On March 1st, Rich and I celebrated the one year anniversary of incorporating Jupiter. Over the course of the year we have:
