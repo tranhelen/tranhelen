@@ -57,6 +57,6 @@ We haven't made that many decisions I regret–just one in a year. I think that'
 
 I quit my last position at Shopify half an hour after I realized I wasn't happy–I had nothing lined up and spent months wondering if I should remain in tech and continue to make software. I read books, went on a long walk, wrote 80% of a product design book, and went to Antarctica.
 
-I'm more than two years out from that time. I think you can always tell if something is really meant for you when you're ready to walk away. In retrospect I simply needed a challenge which suited my strengths–tech CEO it is for now.
+I'm more than two years out from that time. I think you can always tell if something is really meant for you when you're ready to walk away. In retrospect I simply needed a challenge which suited my strengths–Tech CEO... for now.
 
 I'm so grateful to be in this position and I hope the future years are as nourishing as this one has been.
