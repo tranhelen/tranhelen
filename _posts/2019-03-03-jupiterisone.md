@@ -11,15 +11,15 @@ On March 1st, Rich and I celebrated the one year anniversary of incorporating Ju
 - Run a successful hiring campaign, leading us to two (awesome) developers
 - Grown a list of ~1000 people waiting for launch, but for now, are beta testing with ~130 active users
 
-I had all intentions going in to better document our journey along the way. However once in the hamster wheel it became difficult to understand which decisions were private and/or inconsequential.
+I had all intentions going in to better document our journey along the way. Once in the hamster wheel though, it became difficult to understand which decisions were private and/or inconsequential.
 
-It's been a year though and this moment is worthy of a check-in. It needs to be acknowledged.
+It's been a year now and this moment is worthy of a check-in. Some acknowledgement is due.
 
 ## What I Remember Learning
 
 ### Hiring and Time
 
-I leaned on a lot of what I learned at Shopify about hiring. We pooled candidates, reached out to heads of bootcamps and schools, promoted it on every (free) network we could, and spent four weeks going through every application we received.
+I leaned on a lot of what I learned at Shopify about hiring. We pooled candidates, reached out to heads of bootcamps and schools, promoted it on every (free) network we could, and spent four weeks going through every application.
 
 Our results are as follows:
 - ~400 total applicants
@@ -37,17 +37,17 @@ Both of us came in saying we didn't want to work "hustle hours." When you have a
 
 Over time I have realized my life works as an integrated mesh. A pull in one area pulled everything around it too. Things in my personal life had to shift to accommodate for deep work sessions and many days I'm strictly scheduled to make sure I get in my training, deep work, and self-care.
 
-All that being said, I did notice that doing that for too long caused me to feel restricted. One week of easing up on a routine every few weeks gave me the mental break I needed to stay efficient and content.
+All that being said, I did notice that doing that for too long caused me to feel restricted. Every few weeks I'll ease up on the routine to give myself the mental break required to stay efficient and content.
 
-Peace of mind means I can take my time to make better decisions. I can let data rest instead of reacting. As a result, I'm more confident, can move on better, and have room to analyze for lessons learned and outcomes after-the-fact.
+Peace of mind gives me time time to make better decisions. I can let data rest instead of reacting. As a result, I'm more confident, can move on from past decisions faster, and have room to analyze for lessons learned and outcomes after-the-fact.
 
-This has been a habit I've been building over the years but Jupiter has reinforced it over time: peace of mind is everything–especially with a start-up.
+This has been a habit which started years ago but Jupiter has reinforced it over time: peace of mind needs to be protected–especially in a start-up.
 
 ### Most Things Don't Matter
 
-Finding other things in my life I love has been sustaining. I often observe others (or even myself) losing the context of life–fixating or ruminating on the business or things which won't move the needle, because that's all you have.
+I often observe others (or even myself) losing the context of life–fixating or ruminating on the business or things which won't move the needle, because that's all you have. Finding other things in my life I love has been sustaining.
 
-I've been forcefully putting boundaries on myself for peace of mind, as mentioned, but also to ensure that I never lose context. The sun will continue to shine and my lizard needs bugs to eat. In the grand scheme of things, most decisions don't really matter and most decisions can be reversed. It's not worth giving yourself anxiety over every little thing.
+Putting boundaries on myself for peace of mind, as mentioned, also ensures that I never lose context. The sun continues to shine and my lizard needs bugs to eat. In the grand scheme of things, most decisions don't really matter and most decisions can be reversed. It's not worth giving yourself anxiety over every little thing.
 
 The key is to make sure you knew it was a decision to begin with. No one has complete information but if you go in with eyes wide open, the consequences aren't ever that melodramatic.
 
