@@ -55,8 +55,8 @@ We haven't made that many decisions I regret–just one in a year. I think that'
 
 ## Jupiter is a Breath of Fresh Air
 
-I quit my last position at Shopify half an hour after I realized I wasn't happy–I had nothing lined up and spent months wondering if I should remain in tech and continue to make software. I read books, went on a long walk, wrote 80% of a product design book, and went to Antarctica.
+I left my last position at Shopify half an hour after knowing I was unhappy–nothing was lined up and  months were spent wondering if I should remain in tech. I read books, went on a long walk, wrote 80% of a product design book, researched different career paths, and went to Antarctica.
 
-I'm more than two years out from that time. I think you can always tell if something is really meant for you when you're ready to walk away. In retrospect I simply needed a challenge which suited my strengths–Tech CEO... for now.
+It's been more than two years from that time. I think you can always tell if something is really meant for you when you're ready to walk away. In retrospect I simply needed a challenge which suited my strengths.
 
 I'm so grateful to be in this position and I hope the future years are as nourishing as this one has been.
