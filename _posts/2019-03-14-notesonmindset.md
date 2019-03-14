@@ -1,0 +1,30 @@
+---
+layout: post
+title: Notes on Mindset
+date: 2019-03-10
+excerpt: Pick a weight which is heavy but light enough that you can make it to ten. Lift it with your
+---
+
+I like watching athletes work out.
+
+_Pick a weight which is heavy enough to tax you at the tenth rep. Lift: 1-2-3-4-5-6-7...8...9..._
+
+There's a pivotal moment right here. When most people drop the weight, athletes keep going. Their body will shake and the last rep will be slower but it'll be done.
+
+This past year I've been in the process of breaking down mindset... I have a goal to reach but I never had imagined calling myself an athlete. I've had to break down the mindset as much as possible to push myself in training. You can't build muscle if you don't tear muscle unfortunately.
+
+Here's what I know so far:
+
+## Empowerment can be learned
+
+It sounds like common sense but when faced with pain (any sort), you will develop a system of excuses to get out. It's your survival instinct. You can build up by setting small goals. As you hit them over and over again, your belief in your own potential grows and suddenly what seemed painful before will no longer be. If you focus on your progress, not your outcomes, you can rewire yourself.
+
+## Ruminating is pointless
+
+You'll often never see an athlete ruminate on their weaknesses. Similar to CBT (cognitive behavioural therapy), they have figured out their triggers and choose to stop thinking about things before they spiral. It's not to say they don't see their weaknesses: it is that there is no outcome of thinking about them too long, so they don't.
+
+## Compassion helps strengthen
+
+They also don't ruminate on missteps. If it's a bad day or a bad rep, they do it again or reset the next day. Beating themselves up over one thing they did _creates_ failure. If they move on, it's one of many things that happened that day. No psychodrama. No big deal.
+
+Pushing your body requires mastery of your mind. Some people think it's changing _how_ you think, which is not wrong, but it's equally as important to pay attention to _what_ you think about. The last 20% is always the hardest.
