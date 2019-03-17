@@ -11,6 +11,6 @@ Everyone wants to talk about metrics, product-market-fit, advertising, exponenti
 
 I'm starting to believe the whole reason behind why hustle culture exists is to avoid thinking about the elephant in the room: we can't really predict the outcome. If I let my mind linger on it too long, I start to worry about the team, business, or product and then I hear myself attempting to block the thoughts with work.
 
-Except, I've been down that path before–I've worked 80+ hours a week and it doesn't produce better outcomes. It produces tired founders with sad personal lives.
+Except, I've been down that path before–I've worked 80+ hours a week and it doesn't produce better outcomes. It produces tired founders with sad personal lives. We decided we weren't going to become that.
 
-We had decided we weren't going to become that already. But I would be remiss if I didn't acknowledge how long that tunnel seems to be.
+But I would be remiss if I didn't acknowledge how long this tunnel seems to be.
