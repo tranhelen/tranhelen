@@ -17,6 +17,6 @@ The second time, I've learned enough to identify _this is the second time this h
 
 The third time almost always occurs in perfect conditions. In occurrence one and two, I've identified the common factors which caused the problem. I think, erroneously, if those conditions don't exist next time maybe it'll work out. Sure enough, the third time: they don't exist.
 
-I'm being tested. If I walk away even from the 'perfect' conditions I'll know. It's tempting because _this_ time I know a lot better and I've identified the problem. I walk away and the reason why doesn't matter: I will no longer seek it.
+I'm being tested. If I walk away even from the 'perfect' conditions I'll know. It's tempting because _this_ time I know a lot better and I've identified the problem. I say no to myself and the reason why doesn't matter: I will no longer seek it.
 
 The peace of mind from walking away is more valuable than trying again.
