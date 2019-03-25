@@ -15,4 +15,6 @@ The second time the lesson appears, I've learned enough to identity _this is the
 
 The third time the lesson appears, it almost always occurs in perfect conditions. I have learned from occurrence one and two that there are common factors which caused the problem. I think, erroneously, perhaps, that if those conditions exist again it will never work out. The third time: they don't exist.
 
-This is when I've learned the lesson. When I walk away, even from the perfect conditions, because the situation won't work for me for whatever reason. I will no longer seek the reason and the peace of mind from simply walking away is more valuable than trying again.
+This is when I've learned the lesson. When I walk away, even from the perfect conditions, because the situation won't work for me. The reason doesn't even matter: I will no longer seek it.
+
+The peace of mind from walking away is more valuable than trying again.
