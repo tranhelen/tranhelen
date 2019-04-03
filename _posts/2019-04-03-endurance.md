@@ -19,12 +19,14 @@ Design has always been a craft; evidence must be collected with your hands. It i
 
 Endurance is required to break down an end goal into its smaller parts and test each part individually (whether it's aesthetics or not) until you find the greater sum. The core of time spent is in observing, iterating, and seeing it through it's execution.
 
-If your product is not in front of someone, aesthetically pleasing or not, you don't have any evidence. Without evidence, you're not doing very much and that lack of pragmatism is what's going to continue allowing our profession to be cast aside.
+It's hard because, frankly, it's not that exciting from an outside observer's point of view _which is why not everyone is a Designer_. Someone has to watch.
+
+If your product is not in front of someone and evolving, aesthetically pleasing or not, you don't have any evidence. Without evidence, you're not doing very much. That lack of pragmatism is dangerous to a profession of crafters.
 
 "Design Thinking" _is_ bullshit.  
 However, "Aesthetics Matter" is _also_ bullshit.
 
-Design is a craft. Crafts require you to _do work_ and our craft, at the very least, _demands evidence of usage._
+Crafts require you to _do work_ and our craft, at the very least, _demands evidence of usage._
 
 <hr class="--small" />
 
