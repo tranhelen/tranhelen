@@ -21,7 +21,7 @@ Endurance is required to break down an end goal into its smaller parts and test 
 
 It's hard because, frankly, it's not that exciting from an outside observer's point of view which is why _not everyone can be a Designer_. Someone has to watch.
 
-If your product is not in front of someone and evolving, aesthetically pleasing or not, you don't have any evidence. Without evidence, you're not doing very much. That lack of pragmatism is dangerous to a profession of crafters.
+If your product is not in front of someone and evolving, aesthetically pleasing or not, there is no evidence. Without evidence, nothing has been made, much less made better. What do you call a crafter who hasn't made anything?
 
 "Design Thinking" _is_ bullshit.  
 However, "Aesthetics Matter" is _also_ bullshit.
