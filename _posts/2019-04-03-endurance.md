@@ -19,7 +19,7 @@ Design has always been a craft; evidence must be collected with your hands. It i
 
 Endurance is required to break down an end goal into its smaller parts and test each part individually (whether it's aesthetics or not) until you find the greater sum. The core of time spent is in observing, iterating, and seeing it through it's execution.
 
-It's hard because, frankly, it's not that exciting from an outside observer's point of view _which is why not everyone is a Designer_. Someone has to watch.
+It's hard because, frankly, it's not that exciting from an outside observer's point of view which is why _not everyone can be a Designer_. Someone has to watch.
 
 If your product is not in front of someone and evolving, aesthetically pleasing or not, you don't have any evidence. Without evidence, you're not doing very much. That lack of pragmatism is dangerous to a profession of crafters.
 
