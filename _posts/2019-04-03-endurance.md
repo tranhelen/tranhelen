@@ -23,7 +23,7 @@ It's hard because, frankly, it's not that exciting from an outside observer's po
 
 If your product is not in front of someone and evolving, aesthetically pleasing or not, there is no evidence. Without evidence, nothing has been made, much less made better. What do you call a crafter who hasn't made anything?
 
-Aesthetics should be baked in to something which is intentionally built. That is as far as those two things go. Design, however, requires you to _do work_ and, at the very least, _demands evidence of usage._
+_Aesthetics_ should be baked in to something which is _intentionally built_. That is as far as those two topics go. Design, however, requires you to _do work_ and, at the very least, _demands evidence of usage._
 
 <hr class="--small" />
 
