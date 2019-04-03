@@ -2,7 +2,7 @@
 layout: post
 title: Hard Lessons and the Rule of Three
 date: 2019-03-25
-excerpt: 
+excerpt: Easy lessons are ones which have immediate feedback, touching a hot stove, what
 ---
 
 Easy lessons are ones which have immediate feedback: touching a hot stove, what foods your body is allergic to, or even how to ask for a raise at work. Everyone can put together the cause and consequences of getting them right or wrong.
