@@ -23,4 +23,4 @@ My coach said this to me during my last prep season, "you tend to get into your 
 
 <hr class="--small" />
 
-This entire time I thought, 'strengths make things easy,' but it goes deeper than that. Strengths are what happens if you don't _try_ to do anything. If you get out of your own way. It takes some time to understand what that really means for you but you have to let time pass. It's all instinct.
+This entire time I thought, 'strengths make things easy,' but it goes deeper than that. Strengths will run even if you don't _try_ to do anything. It takes some time to understand what that really means for you but you have to let time pass. Get out of your own way. It's all instinct.
