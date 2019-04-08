@@ -9,6 +9,10 @@ My lizard, Omelette, spends a good portion of her time sitting on a log basking 
 
 I've had a lot of pets over the years and I'm beginning to understand the peace of owning a lizard. They're not engineered by us to be anything except colourful. They're just lizards. All instinct.
 
+<figure class="journal__image">
+    <img src="/img/posts/040819-omelette.jpg" alt="Picture of Omelette" />
+</figure>
+
 <hr class="--small" />
 
 I've been learning a lot about _inevitability_ lately. I spent the early portion of my 20s optimizing for minor percentile increases. The increases compounded and formed the foundation of my skillset but... at some point, the pushing stopped working.
