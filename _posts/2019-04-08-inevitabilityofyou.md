@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Inevitability of 'You'
+title: Inevitability of 'You'
 date: 2019-04-08
 excerpt: My lizard, Omelette, spends a good portion of her time sitting on a log basking under
 ---
