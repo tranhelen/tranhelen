@@ -19,7 +19,7 @@ I've been learning a lot about _inevitability_ lately. I spent the early portion
 
 Only recently I've been leaning off the gas pedal and it doesn't seem to change my situation much. Goals are set. Improvements are made. Goals are achieved. I'm goal oriented–this is what I do by default. The _inevitability of me_ runs without management.
 
-My coach said this to me during my last prep season, "you tend to get into your head." This runs like a broken record in my head now. It was his way of telling me, "Hey, everything's cool. Stop worrying." Sometimes you have to let time pass.
+My coach said this to me during my last prep season, "you tend to get into your head." It stopped me in my tracks and it's been running like my own personal anthem since then. It was his way of telling me, "Hey, everything's cool. Stop worrying." Sometimes you have to let time pass.
 
 <hr class="--small" />
 
