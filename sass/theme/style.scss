@@ -23,7 +23,8 @@
 	$colorTextBody: #333; 
 
 	/* Links */
-	$colorLink: #000;
+	$colorLink: #1c93d2;
+	$colorLinkMuted: #000;
 	
 	/* Other */
 	$selection: $colorAccent;
@@ -98,11 +99,10 @@ img {
 }
 
 $baseFontSize: 16px;
-// $stacktitle: "essonnes-headline", Georgia, Times, Times New Roman, serif;
-// $stack1: "essonnes-text", Georgia, Times, Times New Roman, serif;
 $stacktitle: "Feijoa Display", Georgia, Times, Times New Roman, serif;
 $stack1: "Feijoa", "essonnes-text", Georgia, Times, Times New Roman, serif;
-$stack2: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stack2: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stack3: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
 $one: 600px;
@@ -118,44 +118,32 @@ $four: 1200px;
 
 a {
 	color: $colorLink;
+	font-family: $stack1;
 	position: relative;
     text-decoration: none;
 
     @include transition;
 
 	&::after {
-		background: rgba($colorTextBody,0.5);
+		background: rgba($colorLink,0.5);
 		content: '';
 		height: 1px;
 		opacity: 1;
 		position: absolute;
-			bottom: 2px;
+			bottom: 1px;
 			right: 0;
 			width: 100%;
 
 		@include transition;
 	}
 
+	&:hover {
+		color: $colorLinkMuted;
+	}
+
 	&:hover::after {
 		opacity: 0;
 	}
-
-    &.em {
-    	font: 600 12px $stack2;
-		color: $colorLink;
-		padding: 0 3px;
-	    text-transform: uppercase;
-
-	    &:hover {
-	    	background-color: $colorAccent;
-	    	color: #000;
-	    }
-    }
-
-    &.active {
-    	background-color: $colorAccent;
-    	color: #000;
-    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -438,6 +426,42 @@ textarea {
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
+
+body,
+html {
+	height: 100%;
+}
+
+.sidebar {
+	margin: 15% 10% 10%;
+	padding-left: 7%;
+	position: absolute;
+		left: 0;
+		top: 0;
+	z-index: 0;
+
+	.logo {
+		margin: 0 0 10px -12px;
+		width: 80%;
+	}
+
+	a#link-bio {
+		display: inline-block;
+		font-size: em(14px);
+		font-weight: bold;
+	}
+}
+
+.hp_main {
+	border-left: 1px solid #c7d0e3;
+	height: 100%;
+	margin-left: 10%;
+	padding: 60% 0 0 10%;
+	position: absolute;
+		left: 0;
+		top: 0;
+	z-index: -1;
+}
 
 .bio {
 	margin: 100px 30px 0;
