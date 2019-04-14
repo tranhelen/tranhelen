@@ -32,6 +32,46 @@
     #Base
 \*------------------------------------*/
 
+@font-face {
+	font-family: "Feijoa Display";
+	src: url('/fonts/FeijoaWeb-Display.eot');
+	src: url('/fonts/FeijoaWeb-Display.eot?#iefix') format('embedded-opentype'),
+		   url('/fonts/FeijoaWeb-Display.woff2') format('woff2'),
+		   url('/fonts/FeijoaWeb-Display.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Feijoa";
+	src: url('/fonts/FeijoaWeb-Medium.eot');
+	src: url('/fonts/FeijoaWeb-Medium.eot?#iefix') format('embedded-opentype'),
+		   url('/fonts/FeijoaWeb-Medium.woff2') format('woff2'),
+		   url('/fonts/FeijoaWeb-Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Feijoa";
+	src: url('/fonts/FeijoaWeb-Bold.eot');
+	src: url('/fonts/FeijoaWeb-Bold.eot?#iefix') format('embedded-opentype'),
+		   url('/fonts/FeijoaWeb-Bold.woff2') format('woff2'),
+		   url('/fonts/FeijoaWeb-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Feijoa";
+	src: url('/fonts/FeijoaWeb-MediumItalic.eot');
+	src: url('/fonts/FeijoaWeb-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		   url('/fonts/FeijoaWeb-MediumItalic.woff2') format('woff2'),
+		   url('/fonts/FeijoaWeb-MediumItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+
 * {
 box-sizing: border-box;
 -webkit-font-smoothing:antialiased;
@@ -58,8 +98,10 @@ img {
 }
 
 $baseFontSize: 16px;
-$stacktitle: "essonnes-headline", Georgia, Times, Times New Roman, serif;
-$stack1: "essonnes-text", Georgia, Times, Times New Roman, serif;
+// $stacktitle: "essonnes-headline", Georgia, Times, Times New Roman, serif;
+// $stack1: "essonnes-text", Georgia, Times, Times New Roman, serif;
+$stacktitle: "Feijoa Display", Georgia, Times, Times New Roman, serif;
+$stack1: "Feijoa", "essonnes-text", Georgia, Times, Times New Roman, serif;
 $stack2: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
@@ -128,13 +170,13 @@ h1, h2, h3, h4, h5, h6 {
 .h5 { @extend h5; }
 
 h1 {
-	font: italic 600 em(70px) $stacktitle;
+	font: 600 em(70px) $stacktitle;
 	line-height: 70px;
 	margin: 0;
 }
 
 h2 {
-	font: italic 300 em(30px) $stacktitle;
+	font: 300 em(30px) $stacktitle;
 	line-height: 1.36;
 	margin: 10px 0 10px;
 }
@@ -781,6 +823,18 @@ textarea {
 
 	@include at-query($four) {
 		// margin-top: 360px;
+	}
+}
+
+.stats {
+	font-family: $stack2;
+	font-size: em(14px);
+	margin-bottom: 20px;
+
+	@include at-query($one) {
+		font-size: em(16px);
+		margin-left: 10%;
+		width: 80%;
 	}
 }
 

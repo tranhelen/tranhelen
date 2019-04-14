@@ -43,7 +43,7 @@ Tech stands to learn something from great hair stylists.
 <hr class="--small" />
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Tiffany, K., Robertson, A., Plaugic, L., Lopatt, E. (2017, Jan 4). <em>Do beauty gadgets have to be terrible?</em> Retrieved from <a href="https://www.theverge.com/2017/1/4/14169564/ces-2017-beauty-tech-smart-hairbrush-makeup">theverge.com</a> </p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Tiffany, K., Robertson, A., Plaugic, L., Lopatt, E. (2017, Jan 4). <em>Do beauty gadgets have to be terrible?</em> Retrieved from <a href="https://www.theverge.com/2017/1/4/14169564/ces-2017-beauty-tech-smart-hairbrush-makeup">theverge.com</a></p>
 
     <p><a name="note-2" href="#back-2" class="citations-back">&#x21A9;</a> Rudimentary but better than data dashboards.</p>
 </div>
