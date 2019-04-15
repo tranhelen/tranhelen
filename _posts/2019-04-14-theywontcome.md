@@ -26,11 +26,11 @@ In the meantime, we've been building out an email list through a website, Instag
 </tr>
 </table>
 
-Most recently we've decided to start pre-selling our subscriptions and as of today we've sold 10 pre-paid annual subscriptions. We're officially **post revenue**, and all of the sales came from the non-product related work we were doing: telling people.
+Most recently we've decided to start pre-selling our subscriptions and as of today we've sold 10 pre-paid annual subscriptions. We're officially **post revenue** and all of the sales came from the non-product related work we were doing: telling people.
 
 <hr class="--small" />
 
-If I had let myself believe, _"if you build it, they will come,"_ we could have languished in product build mode before finding out if anyone was going to pay for it. If anything, I wish we had done this sooner.
+If I had let myself believe, _"if you build it, they will come,"_ we could have languished in product build mode before finding out if anyone was going to pay for it. With our run-rate this could have put us in a very dangerous position. If anything, I wish we had done this sooner.
 
 They didn't "come" in the magical sort of way entrepreneur-optimism wants but they gave us money to continue building and it's a welcomed light signal to receive in the midst of start-up darkness. Over the next three-six months our metrics may be able to tell us how viable this business really is.
 
