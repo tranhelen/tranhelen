@@ -105,10 +105,7 @@ $stack2: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $stack3: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
-$one: 600px;
-$two: 800px;
-$three: 1060px;
-$four: 1200px;
+$one: 800px;
 
 @import "modules/mixins";
 
@@ -276,11 +273,6 @@ hr {
 
 #mc_embed_signup {
 	margin-top: 30px;
-
-	@include at-query($three) {
-		margin: 60px auto;
-		width: 300px;
-	}
 }
 
 /*------------------------------------*\
@@ -298,59 +290,6 @@ textarea {
 
 .container {
 	margin: 60px 30px;
-
-	@include at-query($two) {
-		margin: 90px auto;
-		max-width: 630px;
-	}
-
-	@include at-query($three) {
-		margin: 120px auto;
-	}
-
-	@include at-query($four) {
-		margin: 260px auto;
-	}
-}
-
-.footer-main {
-	background-color: $colorAccent;
-	padding: 10px 40px 40px;
-	text-align: center;
-    position: relative;
-    z-index: 1;
-
-	.section-tag {
-	    background-color: #000;
-	    color: #fff;
-	    margin-bottom: 0;
-	    top: -25px;
-	    display: inline-block;
-	}
-
-	@include at-query($two) {
-		padding: 50px 40px 90px;
-		position: unset;
-
-		.section-tag {
-			top: -60px;
-		}
-	}
-}
-
-.section-tag {
-    background-color: $colorAccent;
-    padding: 4px 15px 5px;
-    font-family: $stack2;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
-    top: -40px;
-
-    @include at-query($two) {
-    	top: -70px;
-    }
 }
 
 #mc-embedded-subscribe {
@@ -387,6 +326,14 @@ textarea {
 		margin: 0 0 10px -5%;
 		width: 70%;
 	}
+
+	@include at-query($one) {
+		float: left;
+		margin: 0;
+		padding: 510px 0 0 49px;
+		position: initial;
+		width: 30%;
+	}
 }
 
 .hp_main {
@@ -419,6 +366,15 @@ textarea {
 		position: relative;
 			left: -25px;
 	}
+
+	@include at-query($one) {
+		width: 70%;
+		float: left;
+		margin: 0;
+		max-width: 600px;
+		padding: 200px 0;
+		position: initial;
+	}
 }
 
 /*------------------------------------*\
@@ -443,18 +399,6 @@ textarea {
 
 	.time {
 		margin-bottom: 30px;
-	}
-
-	@include at-query($two) {
-		h1 {
-			margin-bottom: 30px;
-			text-align: center;
-		}
-
-		.time {
-			margin-bottom: 60px;
-			text-align: center;
-		}
 	}
 }
 
@@ -487,25 +431,6 @@ textarea {
 	}
 
 	@include clearfix;
-
-	@include at-query($two) {
-		.no-bullet {
-			text-align: left;
-		}		
-	}
-
-	@include at-query($three) {
-		padding: 0 60px;
-
-		.link-back {
-			top: 60px;
-		}
-
-		.no-bullet {
-			margin-right: -60px;
-			padding: 52px 0;
-		}
-	}
 }
 
 /*------------------------------------*\
@@ -544,23 +469,6 @@ textarea {
 
 	p {
 		margin-bottom: 20px;
-	}
-
-	@include at-query($two) {
-		h2 {
-			font-size: em(40px);
-			text-align: center;
-		}
-
-		hr.--small {
-			margin: 30px auto;
-		}
-	}
-
-	@include at-query($three) {
-		hr.--small {
-			margin: 60px auto;
-		}
 	}
 }
 
