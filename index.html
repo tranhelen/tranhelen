@@ -33,7 +33,7 @@ layout: default
 			<p class="time"
 			data-aos="fade-up"
 			data-aos-easing="ease-out-quad"
-			data-aos-duration="800">Published {{ post.date | date:'%B %Y' }}</p>
+			data-aos-duration="800">Published {{ post.date | date:'%B %d, %Y' }}</p>
 
 			<p
 			data-aos="fade-up"
@@ -54,7 +54,7 @@ layout: default
 			<h3 class="hp-journallink">
 				<a href="{{ post.url }}">{{ post.title }}</a>
 			</h3>
-			<h5 class="time">Published {{ post.date | date:'%B %Y' }}</h5>
+			<h5 class="time">Published {{ post.date | date:'%B %d, %Y' }}</h5>
 		</div>
 		{% endfor %}
 	</div>
