@@ -21,13 +21,6 @@
     #Base
 \*------------------------------------*/
 @font-face {
-  font-family: "Feijoa Display";
-  src: url("/fonts/FeijoaWeb-Display.eot");
-  src: url("/fonts/FeijoaWeb-Display.eot?#iefix") format("embedded-opentype"), url("/fonts/FeijoaWeb-Display.woff2") format("woff2"), url("/fonts/FeijoaWeb-Display.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "Feijoa";
   src: url("/fonts/FeijoaWeb-Medium.eot");
   src: url("/fonts/FeijoaWeb-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/FeijoaWeb-Medium.woff2") format("woff2"), url("/fonts/FeijoaWeb-Medium.woff") format("woff");
@@ -48,7 +41,7 @@
   font-weight: normal;
   font-style: italic;
 }
-/* line 76, ../../sass/theme/style.scss */
+/* line 66, ../../sass/theme/style.scss */
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -57,33 +50,51 @@
   text-rendering: optimizeLegibility;
 }
 
-/* line 84, ../../sass/theme/style.scss */
+/* line 74, ../../sass/theme/style.scss */
 ::selection {
-  background: #ffd000;
+  background: #b9e7ff;
 }
 
-/* line 88, ../../sass/theme/style.scss */
+/* line 78, ../../sass/theme/style.scss */
 ::-moz-selection {
-  background: #ffd000;
+  background: #b9e7ff;
 }
 
-/* line 92, ../../sass/theme/style.scss */
+/* line 82, ../../sass/theme/style.scss */
 body,
 html {
   margin: 0;
   overflow-x: hidden;
 }
 
-/* line 98, ../../sass/theme/style.scss */
+/* line 88, ../../sass/theme/style.scss */
 img {
   width: 100%;
 }
 
 /* Breakpoints */
 /*------------------------------------*\
+    #Helpers
+\*------------------------------------*/
+/* line 5, ../../sass/partials/_helpers.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 9, ../../sass/partials/_helpers.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 13, ../../sass/partials/_helpers.scss */
+.text-right {
+  text-align: right;
+}
+
+/*------------------------------------*\
     #TypographyMain
 \*------------------------------------*/
-/* line 117, ../../sass/theme/style.scss */
+/* line 107, ../../sass/theme/style.scss */
 a {
   color: #1c93d2;
   font-family: "Feijoa", Georgia, Times, Times New Roman, serif;
@@ -94,58 +105,66 @@ a {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
-/* line 125, ../../sass/theme/style.scss */
+/* line 115, ../../sass/theme/style.scss */
 a:hover {
   color: #000;
   text-decoration: none;
 }
 
-/* line 131, ../../sass/theme/style.scss */
+/* line 121, ../../sass/theme/style.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .copy, .time, h6 {
   color: #333;
   font-weight: 300;
 }
 
-/* line 142, ../../sass/theme/style.scss */
+/* line 132, ../../sass/theme/style.scss */
 h1, .h1 {
-  font: 600 4.375em "Feijoa Display", Georgia, Times, Times New Roman, serif;
-  line-height: 70px;
+  font: 2.5em "Feijoa", Georgia, Times, Times New Roman, serif;
+  line-height: 50px;
   margin: 0;
 }
 
-/* line 152, ../../sass/theme/style.scss */
+/* line 138, ../../sass/theme/style.scss */
+h2, .h2 {
+  font: 1.875em "Feijoa", Georgia, Times, Times New Roman, serif;
+}
+
+/* line 142, ../../sass/theme/style.scss */
 h2.hp-journallink, .hp-journallink.h2 {
-  font: 1.875em "Feijoa Display", Georgia, Times, Times New Roman, serif;
   margin: 10px 0 10px;
 }
-/* line 156, ../../sass/theme/style.scss */
+/* line 145, ../../sass/theme/style.scss */
 h2.hp-journallink a, .hp-journallink.h2 a {
   color: #666;
   font-weight: normal;
   text-decoration: none;
 }
-/* line 161, ../../sass/theme/style.scss */
+/* line 150, ../../sass/theme/style.scss */
 h2.hp-journallink a:hover, .hp-journallink.h2 a:hover {
   color: #1c93d2;
 }
 
-/* line 167, ../../sass/theme/style.scss */
+/* line 156, ../../sass/theme/style.scss */
+h3, .h3 {
+  font: 1.5em "Feijoa", Georgia, Times, Times New Roman, serif;
+}
+
+/* line 160, ../../sass/theme/style.scss */
 h3.hp-journallink, .hp-journallink.h3 {
-  font: 1.5em "Feijoa Display", Georgia, Times, Times New Roman, serif;
   margin: 20px 0 0;
 }
-/* line 171, ../../sass/theme/style.scss */
+/* line 163, ../../sass/theme/style.scss */
 h3.hp-journallink a, .hp-journallink.h3 a {
   color: #999;
   font-weight: normal;
   text-decoration: none;
 }
-/* line 176, ../../sass/theme/style.scss */
+/* line 168, ../../sass/theme/style.scss */
 h3.hp-journallink a:hover, .hp-journallink.h3 a:hover {
   color: #1c93d2;
 }
 
-/* line 182, ../../sass/theme/style.scss */
+/* line 174, ../../sass/theme/style.scss */
 h4, .h4 {
   color: #9faecd;
   font: 300 1.125em "Feijoa", Georgia, Times, Times New Roman, serif;
@@ -153,12 +172,12 @@ h4, .h4 {
   text-transform: uppercase;
   margin: 0;
 }
-/* line 189, ../../sass/theme/style.scss */
+/* line 181, ../../sass/theme/style.scss */
 h4.flip, .flip.h4 {
   transform: rotate(-90deg);
 }
 
-/* line 194, ../../sass/theme/style.scss */
+/* line 186, ../../sass/theme/style.scss */
 h5, .h5, .copy, .time {
   color: #999;
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -167,7 +186,7 @@ h5, .h5, .copy, .time {
   text-transform: uppercase;
 }
 
-/* line 202, ../../sass/theme/style.scss */
+/* line 194, ../../sass/theme/style.scss */
 p, ol li,
 ul li {
   color: #666;
@@ -176,74 +195,79 @@ ul li {
   margin: 0 0 10px;
 }
 
-/* line 209, ../../sass/theme/style.scss */
+/* line 201, ../../sass/theme/style.scss */
 ol li,
 ul li {
   line-height: 1.75;
   margin: 0 0 10px;
 }
 
-/* line 217, ../../sass/theme/style.scss */
+/* line 209, ../../sass/theme/style.scss */
 blockquote {
-  border: 2px solid #ffd000;
+  border: 2px solid #ffd001;
   border-width: 0 0 0 2px;
   margin: 20px 0 30px;
   padding-left: 30px;
 }
-/* line 223, ../../sass/theme/style.scss */
+/* line 215, ../../sass/theme/style.scss */
 blockquote p, blockquote ol li, ol blockquote li,
 blockquote ul li,
 ul blockquote li {
   font-style: italic;
 }
 
-/* line 228, ../../sass/theme/style.scss */
+/* line 220, ../../sass/theme/style.scss */
+figure {
+  margin: 30px -30px;
+}
+
+/* line 225, ../../sass/theme/style.scss */
+hr.--small {
+  border: 0;
+  background-color: #ffd001;
+  height: 5px;
+  margin: 20px auto 30px;
+  width: 30px;
+}
+
+/* line 234, ../../sass/theme/style.scss */
 input {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.8125em;
 }
 
-/* line 233, ../../sass/theme/style.scss */
+/* line 239, ../../sass/theme/style.scss */
 ul {
   margin: 0;
 }
-/* line 236, ../../sass/theme/style.scss */
+/* line 242, ../../sass/theme/style.scss */
 ul.no-bullet {
   padding: 0;
 }
-/* line 239, ../../sass/theme/style.scss */
+/* line 245, ../../sass/theme/style.scss */
 ul.no-bullet li {
   display: inline-block;
   list-style-type: none;
 }
 
-/* line 247, ../../sass/theme/style.scss */
-hr.--small {
-  border: 0;
-  background-color: #ffd000;
-  height: 5px;
-  margin: 20px 0;
-  width: 30px;
-}
-
-/* line 256, ../../sass/theme/style.scss */
+/* line 252, ../../sass/theme/style.scss */
 .copy {
   font-size: 0.75em;
   text-transform: uppercase;
 }
 
-/* line 264, ../../sass/theme/style.scss */
+/* line 260, ../../sass/theme/style.scss */
 .time {
   margin-bottom: 20px;
 }
 
-/* line 270, ../../sass/theme/style.scss */
+/* line 266, ../../sass/theme/style.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 10px 0 0;
 }
 
-/* line 275, ../../sass/theme/style.scss */
+/* line 271, ../../sass/theme/style.scss */
 #mc_embed_signup {
   margin-top: 30px;
 }
@@ -251,7 +275,7 @@ hr.--small {
 /*------------------------------------*\
     #Shared
 \*------------------------------------*/
-/* line 283, ../../sass/theme/style.scss */
+/* line 279, ../../sass/theme/style.scss */
 input,
 textarea {
   background-color: #fff;
@@ -261,12 +285,14 @@ textarea {
   width: 100%;
 }
 
-/* line 292, ../../sass/theme/style.scss */
+/* line 288, ../../sass/theme/style.scss */
 .container {
-  margin: 60px 30px;
+  margin: 0 auto 30px;
+  max-width: 600px;
+  padding: 30px;
 }
 
-/* line 296, ../../sass/theme/style.scss */
+/* line 294, ../../sass/theme/style.scss */
 #mc-embedded-subscribe {
   background-color: #000;
   border: 0;
@@ -281,7 +307,7 @@ textarea {
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
-/* line 311, ../../sass/theme/style.scss */
+/* line 309, ../../sass/theme/style.scss */
 .sidebar {
   margin: 15% 10% 10%;
   padding-left: 14%;
@@ -290,20 +316,20 @@ textarea {
   top: 0;
   z-index: 0;
 }
-/* line 319, ../../sass/theme/style.scss */
+/* line 317, ../../sass/theme/style.scss */
 .sidebar #link-bio {
   display: inline-block;
   font-size: 0.875em;
   font-weight: bold;
 }
-/* line 325, ../../sass/theme/style.scss */
+/* line 323, ../../sass/theme/style.scss */
 .sidebar .logo {
   display: block;
   margin: 0 0 10px -5%;
   width: 70%;
 }
 @media screen and (min-width: 800px) {
-  /* line 311, ../../sass/theme/style.scss */
+  /* line 309, ../../sass/theme/style.scss */
   .sidebar {
     float: left;
     margin: 0;
@@ -313,7 +339,7 @@ textarea {
   }
 }
 
-/* line 340, ../../sass/theme/style.scss */
+/* line 338, ../../sass/theme/style.scss */
 .hp_main {
   border-left: 1px solid #c7d0e3;
   margin-left: 15%;
@@ -323,14 +349,14 @@ textarea {
   top: 0;
   z-index: -1;
 }
-/* line 349, ../../sass/theme/style.scss */
+/* line 347, ../../sass/theme/style.scss */
 .hp_main .flip {
   display: inline-block;
   position: relative;
   left: -35%;
   top: 75px;
 }
-/* line 356, ../../sass/theme/style.scss */
+/* line 354, ../../sass/theme/style.scss */
 .hp_main .indicator {
   background-color: #c7d0e3;
   display: inline-block;
@@ -340,13 +366,13 @@ textarea {
   left: -14%;
   top: 15px;
 }
-/* line 366, ../../sass/theme/style.scss */
+/* line 364, ../../sass/theme/style.scss */
 .hp_main .indicator-link {
   position: relative;
   left: -25px;
 }
 @media screen and (min-width: 800px) {
-  /* line 340, ../../sass/theme/style.scss */
+  /* line 338, ../../sass/theme/style.scss */
   .hp_main {
     width: 70%;
     float: left;
@@ -357,19 +383,21 @@ textarea {
   }
 }
 
-/* line 381, ../../sass/theme/style.scss */
+/* line 379, ../../sass/theme/style.scss */
 #bio {
   background-color: #0067d0;
   transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.4s;
   transform: translateY(-100%);
-  z-index: 100;
+  position: absolute;
+  z-index: -100;
   opacity: 0;
   padding: 30px;
 }
-/* line 388, ../../sass/theme/style.scss */
+/* line 387, ../../sass/theme/style.scss */
 #bio.show {
   transform: translateY(0);
   opacity: 1;
+  z-index: 100;
 }
 /* line 395, ../../sass/theme/style.scss */
 #bio h1, #bio .h1 {
@@ -395,86 +423,37 @@ ul #bio li {
 }
 
 /*------------------------------------*\
-    #Subpage
+    #Journal Single
 \*------------------------------------*/
-/* line 421, ../../sass/theme/style.scss */
-.--subpage h1, .--subpage .h1 {
-  margin-bottom: 30px;
-  text-align: center;
+/* line 420, ../../sass/theme/style.scss */
+nav {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 12px;
 }
-/* line 426, ../../sass/theme/style.scss */
-.--subpage .p--mailinglist {
-  text-align: center;
-}
-
-/* line 432, ../../sass/theme/style.scss */
-.--post h1, .--post .h1 {
-  margin-bottom: 15px;
-}
-/* line 436, ../../sass/theme/style.scss */
-.--post .time {
-  margin-bottom: 30px;
+/* line 425, ../../sass/theme/style.scss */
+nav div {
+  flex-grow: 1;
 }
 
-/* line 441, ../../sass/theme/style.scss */
-.nav--subpage {
-  border: 0;
-  padding: 0 30px;
-}
-/* line 445, ../../sass/theme/style.scss */
-.nav--subpage .link-back {
-  float: left;
-  position: relative;
-  top: 20px;
-}
-/* line 450, ../../sass/theme/style.scss */
-.nav--subpage .link-back .arrow {
-  position: relative;
-  top: 1px;
-}
-/* line 456, ../../sass/theme/style.scss */
-.nav--subpage .no-bullet {
-  border-bottom: 2px solid #efefef;
-  float: right;
-  margin-right: -30px;
-  padding: 12px 0;
-  text-align: right;
-  width: 80%;
-}
-/* line 464, ../../sass/theme/style.scss */
-.nav--subpage .no-bullet li {
-  margin: 0;
-}
-/* line 2, ../../sass/modules/_mixins.scss */
-.nav--subpage:before, .nav--subpage:after {
-  content: "";
-  display: table;
-}
-/* line 6, ../../sass/modules/_mixins.scss */
-.nav--subpage:after {
-  clear: both;
-}
-
-/*------------------------------------*\
-    #Journals (For Listings on Home & Journal page)
-\*------------------------------------*/
-/* line 476, ../../sass/theme/style.scss */
+/* line 430, ../../sass/theme/style.scss */
 .journals {
   margin: 5px 8% 0 10%;
 }
-/* line 479, ../../sass/theme/style.scss */
+/* line 433, ../../sass/theme/style.scss */
 .journals h2, .journals .h2 {
   margin: 0;
 }
 
-/* line 484, ../../sass/theme/style.scss */
+/* line 438, ../../sass/theme/style.scss */
 .stats {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
   margin-bottom: 20px;
+  width: 100%;
 }
 @media screen and (min-width: 800px) {
-  /* line 484, ../../sass/theme/style.scss */
+  /* line 438, ../../sass/theme/style.scss */
   .stats {
     font-size: 1em;
     margin-left: 10%;
@@ -485,40 +464,28 @@ ul #bio li {
 /*------------------------------------*\
     #Journal Single (Called Post)
 \*------------------------------------*/
-/* line 501, ../../sass/theme/style.scss */
-.post-single__body h2, .post-single__body .h2 {
-  font-style: normal;
-  margin: 30px 0;
-}
-/* line 506, ../../sass/theme/style.scss */
-.post-single__body p, .post-single__body ol li, ol .post-single__body li,
-.post-single__body ul li,
-ul .post-single__body li {
-  margin-bottom: 20px;
-}
-
-/* line 511, ../../sass/theme/style.scss */
+/* line 455, ../../sass/theme/style.scss */
 .cite {
   font-style: italic;
 }
-/* line 514, ../../sass/theme/style.scss */
+/* line 458, ../../sass/theme/style.scss */
 .cite a::after {
   background: none;
 }
 
-/* line 520, ../../sass/theme/style.scss */
+/* line 464, ../../sass/theme/style.scss */
 .citations p, .citations ol li, ol .citations li,
 .citations ul li,
 ul .citations li {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.75em;
   text-indent: -20px;
 }
-/* line 526, ../../sass/theme/style.scss */
+/* line 470, ../../sass/theme/style.scss */
 .citations .citations-back {
   font-weight: bold;
 }
-/* line 529, ../../sass/theme/style.scss */
+/* line 473, ../../sass/theme/style.scss */
 .citations .citations-back::after {
   background: None;
 }

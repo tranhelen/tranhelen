@@ -13,15 +13,15 @@ In the meantime, we've been building out an email list through a website, Instag
 
 <table class="stats">
 <tr>
-    <td>Leads:</td>
+    <td><strong>Leads</strong></td>
     <td>1175<a href="#note-1" name="back-1">*</a></td>
 </tr>
 <tr>
-    <td>Facebook spend:</td>
+    <td><strong>Facebook spend</strong></td>
     <td>$5952.46 (CAD)</td>
 </tr>
 <tr>
-    <td>Cost per Lead:</td>
+    <td><strong>Cost per Lead</strong></td>
     <td>$5.06</td>
 </tr>
 </table>

@@ -1,7 +1,15 @@
-<nav class="nav nav--subpage" 
-    data-aos="fade-up"
-    data-aos-easing="ease-out-quad"
-    data-aos-duration="800"
-    data-aos-delay="100">
-    <span class="link-back">&#8592; <a href="index.html" class="em">Home</a></span>
+<nav>
+    {% if page.previous.url %}
+        <div>&#8592; <a href="{{ page.previous.url }}" class="em">Prev</a></div>
+    {% endif %}
+    {% if page.previous.url == null %}
+        <div>&nbsp;</div>
+    {% endif %}
+    <div class="text-center"><a href="index.html" class="em">Home</a></div>
+    {% if page.next.url %}
+        <div class="text-right"><a href="{{ page.next.url }}" class="em">Next</a> &#8594;</div>
+    {% endif %}
+    {% if page.next.url == null %}
+        <div>&nbsp;</div>
+    {% endif %}
 </nav>

@@ -15,13 +15,6 @@
           transition: all 0.5s ease-out;
 }
 
-@mixin transition-fast {
-  -webkit-transition: all 0.25s ease-out;
-     -moz-transition: all 0.25s ease-out;
-       -o-transition: all 0.25s ease-out;
-          transition: all 0.25s ease-out;
-}
-
 @mixin at-query ($breakpoint) {
     @media screen and (min-width: $breakpoint) {
         @content;

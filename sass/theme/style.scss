@@ -16,7 +16,7 @@
 
 /* Colour Variables */
 	/* Main */
-	$colorAccent: #ffd000;
+	$colorAccent: #ffd001;
 
 	/* Text */
 	$colorTextHeader: #333;
@@ -27,21 +27,11 @@
 	$colorLinkMuted: #000;
 	
 	/* Other */
-	$selection: $colorAccent;
+	$selection: #b9e7ff;
 
 /*------------------------------------*\
     #Base
 \*------------------------------------*/
-
-@font-face {
-	font-family: "Feijoa Display";
-	src: url('/fonts/FeijoaWeb-Display.eot');
-	src: url('/fonts/FeijoaWeb-Display.eot?#iefix') format('embedded-opentype'),
-		   url('/fonts/FeijoaWeb-Display.woff2') format('woff2'),
-		   url('/fonts/FeijoaWeb-Display.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
 
 @font-face {
 	font-family: "Feijoa";
@@ -100,7 +90,6 @@ img {
 }
 
 $baseFontSize: 16px;
-$stacktitle: "Feijoa Display", Georgia, Times, Times New Roman, serif;
 $stack1: "Feijoa", Georgia, Times, Times New Roman, serif;
 $stack2: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $stack3: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -108,6 +97,7 @@ $stack3: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 /* Breakpoints */
 $one: 800px;
 
+@import "partials/helpers";
 @import "modules/mixins";
 
 /*------------------------------------*\
@@ -140,17 +130,16 @@ h1, h2, h3, h4, h5, h6 {
 .h5 { @extend h5; }
 
 h1 {
-	font: 600 em(70px) $stacktitle;
-	line-height: 70px;
+	font: em(40px) $stack1;
+	line-height: 50px;
 	margin: 0;
 }
 
 h2 {
-
+	font: em(30px) $stack1;
 }
 
 h2.hp-journallink {
-	font: em(30px) $stacktitle;
 	margin: 10px 0 10px;
 
 	a {
@@ -164,8 +153,11 @@ h2.hp-journallink {
 	}
 }
 
+h3 {
+	font: em(24px) $stack1;
+}
+
 h3.hp-journallink {
-	font: em(24px) $stacktitle;
 	margin: 20px 0 0;
 
 	a {
@@ -225,6 +217,20 @@ blockquote {
     }
 }
 
+figure {
+	margin: 30px -30px;
+}
+
+hr {
+	&.--small {
+		border: 0;
+		background-color: $colorAccent;
+		height: 5px;
+		margin: 20px auto 30px;
+		width: 30px;
+	}
+}
+
 input {
     font-family: $stack2;
     font-size: em(13px);
@@ -240,16 +246,6 @@ ul {
 			display: inline-block;
 			list-style-type: none;
 		}
-	}
-}
-
-hr {
-	&.--small {
-		border: 0;
-		background-color: $colorAccent;
-		height: 5px;
-		margin: 20px 0;
-		width: 30px;
 	}
 }
 
@@ -290,7 +286,9 @@ textarea {
 }
 
 .container {
-	margin: 60px 30px;
+	margin: 0 auto 30px;
+	max-width: 600px;
+	padding: 30px;
 }
 
 #mc-embedded-subscribe {
@@ -382,12 +380,14 @@ textarea {
 	background-color: #0067d0;
 	transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.4s;
 	transform: translateY(-100%);
-	z-index: 100;
+	position: absolute;
+	z-index: -100;
 	opacity: 0;
 
 	&.show {
 		transform: translateY(0);
 		opacity: 1;
+		z-index: 100;
 	}
 
 	padding: 30px;
@@ -404,7 +404,7 @@ textarea {
 	img {
 		width: 30%;
 		float: left;
-    margin-right: 30px;
+    	margin-right: 30px;
 	}
 
 	p {
@@ -414,64 +414,18 @@ textarea {
 }
 
 /*------------------------------------*\
-    #Subpage
+    #Journal Single
 \*------------------------------------*/
 
-.--subpage {
-	h1 {
-		margin-bottom: 30px;
-		text-align: center;
-	}
+nav {
+	display: flex;
+	flex-direction: row;
+	margin: 30px 12px;
 
-	.p--mailinglist {
-		text-align: center;
-	}
-}
-
-.--post {
-	h1 {
-		margin-bottom: 15px;
-	}
-
-	.time {
-		margin-bottom: 30px;
+	div {
+		flex-grow: 1;
 	}
 }
-
-.nav--subpage {
-	border: 0;
-	padding: 0 30px;
-
-	.link-back {
-		float: left;
-		position: relative;
-			top: 20px;
-
-		.arrow {
-			position: relative;
-				top: 1px;
-		}
-	}
-
-	.no-bullet {
-		border-bottom: 2px solid #efefef;
-		float: right;
-		margin-right: -30px;
-	 	padding: 12px 0;
-		text-align: right;
-		width: 80%;
-
-		li {
-			margin: 0;
-		}
-	}
-
-	@include clearfix;
-}
-
-/*------------------------------------*\
-    #Journals (For Listings on Home & Journal page)
-\*------------------------------------*/
 
 .journals {
 	margin: 5px 8% 0 10%;
@@ -482,9 +436,10 @@ textarea {
 }
 
 .stats {
-	font-family: $stack2;
+	font-family: $stack3;
 	font-size: em(14px);
 	margin-bottom: 20px;
+	width: 100%;
 
 	@include at-query($one) {
 		font-size: em(16px);
@@ -497,17 +452,6 @@ textarea {
     #Journal Single (Called Post)
 \*------------------------------------*/
 
-.post-single__body {
-	h2 {
-		font-style: normal;
-		margin: 30px 0;
-	}
-
-	p {
-		margin-bottom: 20px;
-	}
-}
-
 .cite {
 	font-style: italic;
 
@@ -518,7 +462,7 @@ textarea {
 
 .citations {
 	p {
-		font-family: $stack2;
+		font-family: $stack3;
 		font-size: em(12px);
 		text-indent: -20px;
 	}
