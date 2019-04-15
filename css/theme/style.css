@@ -337,9 +337,14 @@ textarea {
     position: initial;
     width: 30%;
   }
+  /* line 336, ../../sass/theme/style.scss */
+  .sidebar .logo {
+    width: 80%;
+    max-width: 300px;
+  }
 }
 
-/* line 338, ../../sass/theme/style.scss */
+/* line 343, ../../sass/theme/style.scss */
 .hp_main {
   border-left: 1px solid #c7d0e3;
   margin-left: 15%;
@@ -349,11 +354,11 @@ textarea {
   top: 0;
   z-index: -1;
 }
-/* line 347, ../../sass/theme/style.scss */
+/* line 352, ../../sass/theme/style.scss */
 .hp_main .flip {
   display: inline-block;
 }
-/* line 351, ../../sass/theme/style.scss */
+/* line 356, ../../sass/theme/style.scss */
 .hp_main .indicator {
   background-color: #c7d0e3;
   display: inline-block;
@@ -363,33 +368,33 @@ textarea {
   left: -14%;
   top: 15px;
 }
-/* line 361, ../../sass/theme/style.scss */
+/* line 366, ../../sass/theme/style.scss */
 .hp_main .indicator-link {
   position: relative;
   left: -25px;
 }
 @media screen and (min-width: 800px) {
-  /* line 338, ../../sass/theme/style.scss */
+  /* line 343, ../../sass/theme/style.scss */
   .hp_main {
     width: 70%;
     float: left;
     margin: 0;
-    max-width: 600px;
+    max-width: 650px;
     padding: 200px 0;
     position: initial;
   }
 }
 
-/* line 376, ../../sass/theme/style.scss */
+/* line 381, ../../sass/theme/style.scss */
 .hp_main_content {
   margin: 0 5% 0 10%;
 }
-/* line 379, ../../sass/theme/style.scss */
+/* line 384, ../../sass/theme/style.scss */
 .hp_main_content h2, .hp_main_content .h2 {
   margin: 0;
 }
 
-/* line 384, ../../sass/theme/style.scss */
+/* line 389, ../../sass/theme/style.scss */
 .hp_birb {
   margin-left: -50px;
   width: 60px;
@@ -397,16 +402,16 @@ textarea {
   z-index: -101;
 }
 
-/* line 391, ../../sass/theme/style.scss */
+/* line 396, ../../sass/theme/style.scss */
 .journallisting--single {
   margin-bottom: 30px;
 }
-/* line 394, ../../sass/theme/style.scss */
+/* line 399, ../../sass/theme/style.scss */
 .journallisting--single.--first {
   margin-bottom: 50px;
 }
 
-/* line 399, ../../sass/theme/style.scss */
+/* line 404, ../../sass/theme/style.scss */
 #bio {
   background-color: #0067d0;
   transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.4s;
@@ -416,13 +421,13 @@ textarea {
   opacity: 0;
   padding: 30px;
 }
-/* line 407, ../../sass/theme/style.scss */
+/* line 412, ../../sass/theme/style.scss */
 #bio.show {
   transform: translateY(0);
   opacity: 1;
   z-index: 100;
 }
-/* line 415, ../../sass/theme/style.scss */
+/* line 420, ../../sass/theme/style.scss */
 #bio h1, #bio .h1 {
   font-weight: normal;
   color: #fff;
@@ -431,13 +436,13 @@ textarea {
   font-family: "Feijoa", Georgia, Times, Times New Roman, serif;
   margin-left: 30px;
 }
-/* line 424, ../../sass/theme/style.scss */
+/* line 429, ../../sass/theme/style.scss */
 #bio img {
   width: 30%;
   float: left;
   margin-right: 30px;
 }
-/* line 430, ../../sass/theme/style.scss */
+/* line 435, ../../sass/theme/style.scss */
 #bio p, #bio ol li, ol #bio li,
 #bio ul li,
 ul #bio li {
@@ -448,18 +453,18 @@ ul #bio li {
 /*------------------------------------*\
     #Journal Single
 \*------------------------------------*/
-/* line 440, ../../sass/theme/style.scss */
+/* line 445, ../../sass/theme/style.scss */
 nav {
   display: flex;
   flex-direction: row;
   margin: 30px 12px;
 }
-/* line 445, ../../sass/theme/style.scss */
+/* line 450, ../../sass/theme/style.scss */
 nav div {
   flex-grow: 1;
 }
 
-/* line 450, ../../sass/theme/style.scss */
+/* line 455, ../../sass/theme/style.scss */
 .stats {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -469,7 +474,7 @@ nav div {
   margin: 30px 0 20px;
 }
 @media screen and (min-width: 800px) {
-  /* line 450, ../../sass/theme/style.scss */
+  /* line 455, ../../sass/theme/style.scss */
   .stats {
     font-size: 1em;
     margin: 30px 10%;
@@ -480,16 +485,16 @@ nav div {
 /*------------------------------------*\
     #Journal Single (Called Post)
 \*------------------------------------*/
-/* line 471, ../../sass/theme/style.scss */
+/* line 476, ../../sass/theme/style.scss */
 .cite {
   font-style: italic;
 }
-/* line 474, ../../sass/theme/style.scss */
+/* line 479, ../../sass/theme/style.scss */
 .cite a::after {
   background: none;
 }
 
-/* line 480, ../../sass/theme/style.scss */
+/* line 485, ../../sass/theme/style.scss */
 .citations p, .citations ol li, ol .citations li,
 .citations ul li,
 ul .citations li {
@@ -497,11 +502,11 @@ ul .citations li {
   font-size: 0.75em;
   text-indent: -20px;
 }
-/* line 486, ../../sass/theme/style.scss */
+/* line 491, ../../sass/theme/style.scss */
 .citations .citations-back {
   font-weight: bold;
 }
-/* line 489, ../../sass/theme/style.scss */
+/* line 494, ../../sass/theme/style.scss */
 .citations .citations-back::after {
   background: None;
 }

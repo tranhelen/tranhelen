@@ -1,11 +1,11 @@
 ---
 layout: post
-title: They Won't Come
+title: They Won&rsquo;t Come
 date: 2019-04-14
-excerpt: I really love this whole idea of "if you build it, they will come," or that other similar phrase, "just build a good product." Thing is, it's sort of a fantasy. It sounds nice but it doesn't ring true for most human relationships. How does someone know you exist until you show up?
+excerpt: I really love this whole idea of "if you build it, they will come," or that other similar phrase, "just build a good product." It's a fantasy though. It sounds nice but it doesn't ring true for most human relationships. How does someone know you exist unless you show up?
 ---
 
-I really love this whole idea of _"if you build it, they will come,"_ or that other similar phrase, _"just build a good product."_ Thing is, it's sort of a fantasy. It sounds nice but it doesn't ring true for most human relationships. How does someone know you exist until you show up?
+I really love this whole idea of _"if you build it, they will come,"_ or that other similar phrase, _"just build a good product."_ It's a fantasy though. It sounds nice but it doesn't ring true for most human relationships. How does someone know you exist unless you show up?
 
 I spent a few months talking to different people in the beauty industry for Jupiter and interviewing them before one line of code was written. Jupiter's original spec'd out features are still being built and we're one year out from our official full-time starting date.
 

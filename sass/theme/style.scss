@@ -332,6 +332,11 @@ textarea {
 		padding: 510px 0 0 49px;
 		position: initial;
 		width: 30%;
+
+		.logo {
+			width: 80%;
+			max-width: 300px;
+		}
 	}
 }
 
@@ -367,7 +372,7 @@ textarea {
 		width: 70%;
 		float: left;
 		margin: 0;
-		max-width: 600px;
+		max-width: 650px;
 		padding: 200px 0;
 		position: initial;
 	}
