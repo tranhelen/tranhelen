@@ -438,12 +438,16 @@ nav {
 .stats {
 	font-family: $stack3;
 	font-size: em(14px);
-	margin-bottom: 20px;
 	width: 100%;
 
+	border: 1px solid $colorAccent;
+	padding: 30px;
+	margin: 30px 0 20px;
+	
 	@include at-query($one) {
 		font-size: em(16px);
-		margin-left: 10%;
+		margin: 30px 10%;
+
 		width: 80%;
 	}
 }
