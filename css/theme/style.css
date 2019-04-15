@@ -174,7 +174,7 @@ h4, .h4 {
 }
 /* line 181, ../../sass/theme/style.scss */
 h4.flip, .flip.h4 {
-  transform: rotate(-90deg);
+  transform: translate(-98px, 75px) rotate(-90deg);
 }
 
 /* line 186, ../../sass/theme/style.scss */
@@ -352,11 +352,8 @@ textarea {
 /* line 347, ../../sass/theme/style.scss */
 .hp_main .flip {
   display: inline-block;
-  position: relative;
-  left: -35%;
-  top: 75px;
 }
-/* line 354, ../../sass/theme/style.scss */
+/* line 351, ../../sass/theme/style.scss */
 .hp_main .indicator {
   background-color: #c7d0e3;
   display: inline-block;
@@ -366,7 +363,7 @@ textarea {
   left: -14%;
   top: 15px;
 }
-/* line 364, ../../sass/theme/style.scss */
+/* line 361, ../../sass/theme/style.scss */
 .hp_main .indicator-link {
   position: relative;
   left: -25px;
@@ -383,7 +380,7 @@ textarea {
   }
 }
 
-/* line 379, ../../sass/theme/style.scss */
+/* line 376, ../../sass/theme/style.scss */
 #bio {
   background-color: #0067d0;
   transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.4s;
@@ -393,13 +390,13 @@ textarea {
   opacity: 0;
   padding: 30px;
 }
-/* line 387, ../../sass/theme/style.scss */
+/* line 384, ../../sass/theme/style.scss */
 #bio.show {
   transform: translateY(0);
   opacity: 1;
   z-index: 100;
 }
-/* line 395, ../../sass/theme/style.scss */
+/* line 392, ../../sass/theme/style.scss */
 #bio h1, #bio .h1 {
   font-weight: normal;
   color: #fff;
@@ -408,13 +405,13 @@ textarea {
   font-family: "Feijoa", Georgia, Times, Times New Roman, serif;
   margin-left: 30px;
 }
-/* line 404, ../../sass/theme/style.scss */
+/* line 401, ../../sass/theme/style.scss */
 #bio img {
   width: 30%;
   float: left;
   margin-right: 30px;
 }
-/* line 410, ../../sass/theme/style.scss */
+/* line 407, ../../sass/theme/style.scss */
 #bio p, #bio ol li, ol #bio li,
 #bio ul li,
 ul #bio li {
@@ -425,27 +422,27 @@ ul #bio li {
 /*------------------------------------*\
     #Journal Single
 \*------------------------------------*/
-/* line 420, ../../sass/theme/style.scss */
+/* line 417, ../../sass/theme/style.scss */
 nav {
   display: flex;
   flex-direction: row;
   margin: 30px 12px;
 }
-/* line 425, ../../sass/theme/style.scss */
+/* line 422, ../../sass/theme/style.scss */
 nav div {
   flex-grow: 1;
 }
 
-/* line 430, ../../sass/theme/style.scss */
+/* line 427, ../../sass/theme/style.scss */
 .journals {
-  margin: 5px 8% 0 10%;
+  margin: 0 5% 0 10%;
 }
-/* line 433, ../../sass/theme/style.scss */
+/* line 430, ../../sass/theme/style.scss */
 .journals h2, .journals .h2 {
   margin: 0;
 }
 
-/* line 438, ../../sass/theme/style.scss */
+/* line 435, ../../sass/theme/style.scss */
 .stats {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -455,7 +452,7 @@ nav div {
   margin: 30px 0 20px;
 }
 @media screen and (min-width: 800px) {
-  /* line 438, ../../sass/theme/style.scss */
+  /* line 435, ../../sass/theme/style.scss */
   .stats {
     font-size: 1em;
     margin: 30px 10%;
@@ -466,16 +463,16 @@ nav div {
 /*------------------------------------*\
     #Journal Single (Called Post)
 \*------------------------------------*/
-/* line 459, ../../sass/theme/style.scss */
+/* line 456, ../../sass/theme/style.scss */
 .cite {
   font-style: italic;
 }
-/* line 462, ../../sass/theme/style.scss */
+/* line 459, ../../sass/theme/style.scss */
 .cite a::after {
   background: none;
 }
 
-/* line 468, ../../sass/theme/style.scss */
+/* line 465, ../../sass/theme/style.scss */
 .citations p, .citations ol li, ol .citations li,
 .citations ul li,
 ul .citations li {
@@ -483,11 +480,11 @@ ul .citations li {
   font-size: 0.75em;
   text-indent: -20px;
 }
-/* line 474, ../../sass/theme/style.scss */
+/* line 471, ../../sass/theme/style.scss */
 .citations .citations-back {
   font-weight: bold;
 }
-/* line 477, ../../sass/theme/style.scss */
+/* line 474, ../../sass/theme/style.scss */
 .citations .citations-back::after {
   background: None;
 }

@@ -179,7 +179,7 @@ h4 {
 	margin: 0;
 
 	&.flip {
-		transform: rotate(-90deg);
+		transform: translate(-98px, 75px) rotate(-90deg);
 	}
 }
 
@@ -346,9 +346,6 @@ textarea {
 
 	.flip {
 		display: inline-block;
-		position: relative;
-			left: -35%;
-			top: 75px;
 	}
 
 	.indicator {
@@ -428,7 +425,7 @@ nav {
 }
 
 .journals {
-	margin: 5px 8% 0 10%;
+	margin: 0 5% 0 10%;
 
 	h2 {
 		margin: 0;
