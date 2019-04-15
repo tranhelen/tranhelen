@@ -136,6 +136,7 @@ h1 {
 
 	@include at-query($one) {
 		font: em(50px) $stack1;
+		line-height: 55px;
 	}
 }
 
