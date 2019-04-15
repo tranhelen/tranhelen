@@ -237,9 +237,15 @@ hr {
 	}
 }
 
-input {
+input,
+textarea {
+	background-color: #fff;
+	border: 2px solid #efefef;
     font-family: $stack2;
     font-size: em(13px);
+    margin: 0 0 15px;
+    padding: 8px 15px 10px;
+    width: 100%;
 }
 
 ul {
@@ -255,64 +261,17 @@ ul {
 	}
 }
 
-.copy {
-	@extend h5;
-
-	font-size: em(12px);
-	text-transform: uppercase;
-}
-
-
 .time {
 	@extend h5;
 	
 	margin-bottom: 20px;
 }
 
-#mce-success-response,
-#mce-error-response {
-	margin: 10px 0 0;
-}
-
-#mc_embed_signup {
-	margin-top: 30px;
-}
-
-/*------------------------------------*\
-    #Shared
-\*------------------------------------*/
-
-input,
-textarea {
-	background-color: #fff;
-	border: 2px solid #efefef;
-    margin: 0 0 15px;
-    padding: 8px 15px 10px;
-    width: 100%;
-}
-
-.container {
-	margin: 0 auto 30px;
-	max-width: 600px;
-	padding: 30px;
-}
-
-#mc-embedded-subscribe {
-	background-color: #000;
-	border: 0;
-	color: #fff;
-	font: 600 em(14px) $stack2;
-	padding: 8px 15px 10px;
-	text-align: center;
-	text-transform: uppercase;
-	width: 100%;
-}
-
 /*------------------------------------*\
     #Homepage
 \*------------------------------------*/
 
-.sidebar {
+.hp_sidebar {
 	margin: 15% 10% 10%;
 	padding-left: 14%;
 	position: absolute;
@@ -399,11 +358,7 @@ textarea {
     z-index: -101;
 }
 
-.hp_portrait {
-
-}
-
-.journallisting--single {
+.hp_journal--single {
 	margin-bottom: 30px;
 
 	&.--first {
@@ -415,6 +370,7 @@ textarea {
 	background-color: #0067d0;
 	transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.4s;
 	transform: translateY(-100%);
+	padding: 10% 15% 5%;
 	position: absolute;
 	opacity: 0;
 	z-index: -100;
@@ -424,8 +380,6 @@ textarea {
 		opacity: 1;
 		z-index: 100;
 	}
-
-	padding: 10% 15% 5%;
 
 	h1 {
 		font-weight: normal;
@@ -453,7 +407,7 @@ textarea {
 		transform: translate(-60%, 240px) rotate(-90deg);
 	}
 
-	.hp_portrait {
+	.bio_portrait {
 		box-shadow: 0 0 25px rgba(#000000, 0.3);
 		float: left;
 		margin: 5px 5% 1% -30px;
@@ -461,6 +415,17 @@ textarea {
 		width: 30%;
 	}
 
+	.bio_nav {
+		margin: 30px -10px 0;
+
+		.bio_close {
+			float: right;
+			position: relative;
+				top: 2px;
+			width: 16px;
+		}
+	}
+	
 	.bio_some {
 		display: inline-block;
 		list-style-type: none;
@@ -472,53 +437,17 @@ textarea {
 			width: 16px;
 		}
 	}
-
-	.nav-bio {
-		margin: 30px -10px 0;
-
-		.bio_close {
-			float: right;
-			position: relative;
-				top: 2px;
-			width: 16px;
-		}
-	}
 }
 
 /*------------------------------------*\
     #Journal Single
 \*------------------------------------*/
 
-nav {
-	display: flex;
-	flex-direction: row;
-	margin: 30px 12px;
-
-	div {
-		flex-grow: 1;
-	}
-}
-
-.stats {
-	font-family: $stack3;
-	font-size: em(14px);
-	width: 100%;
-
-	border: 1px solid $colorAccent;
+.post-container {
+	margin: 0 auto 30px;
+	max-width: 600px;
 	padding: 30px;
-	margin: 30px 0 20px;
-	
-	@include at-query($one) {
-		font-size: em(16px);
-		margin: 30px 10%;
-
-		width: 80%;
-	}
 }
-
-/*------------------------------------*\
-    #Journal Single (Called Post)
-\*------------------------------------*/
 
 .cite {
 	font-style: italic;
@@ -542,4 +471,55 @@ nav {
 			background: None;
 		}
 	}
+}
+
+.nav_journals {
+	display: flex;
+	flex-direction: row;
+	margin: 30px 12px;
+
+	.nav-journals__sub {
+		flex-grow: 1;
+	}
+}
+
+.stats {
+	font-family: $stack3;
+	font-size: em(14px);
+	width: 100%;
+
+	border: 1px solid $colorAccent;
+	padding: 30px;
+	margin: 30px 0 20px;
+	
+	@include at-query($one) {
+		font-size: em(16px);
+		margin: 30px 10%;
+
+		width: 80%;
+	}
+}
+
+/*------------------------------------*\
+    #Mailing List
+\*------------------------------------*/
+
+#mc-embedded-subscribe {
+	background-color: #000;
+	border: 0;
+	color: #fff;
+	font: 600 em(14px) $stack2;
+	padding: 8px 15px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+#mce-success-response,
+#mce-error-response {
+	margin: 10px 0 0;
+}
+
+#mc_embed_signup {
+	margin-top: 30px;
 }
