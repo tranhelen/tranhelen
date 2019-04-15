@@ -133,6 +133,10 @@ h1 {
 	font: em(40px) $stack1;
 	line-height: 50px;
 	margin: 0;
+
+	@include at-query($one) {
+		font: em(50px) $stack1;
+	}
 }
 
 h2 {
@@ -234,6 +238,10 @@ hr {
 		height: 5px;
 		margin: 20px auto 30px;
 		width: 30px;
+
+		@include at-query($one) {
+			margin: 50px auto 60px;
+		}
 	}
 }
 
@@ -265,6 +273,10 @@ ul {
 	@extend h5;
 	
 	margin-bottom: 20px;
+
+	@include at-query($one) {
+		margin-bottom: 60px;
+	}
 }
 
 /*------------------------------------*\
@@ -447,6 +459,16 @@ ul {
 	margin: 0 auto 30px;
 	max-width: 600px;
 	padding: 30px;
+
+	@include at-query($one) {
+		padding: 100px 0;
+
+		p {
+			font-size: em(17px);
+			line-height: 1.8;
+			margin-bottom: 15px;
+		}
+	}
 }
 
 .cite {
