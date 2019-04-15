@@ -273,10 +273,6 @@ ul {
 	@extend h5;
 	
 	margin-bottom: 20px;
-
-	@include at-query($one) {
-		margin-bottom: 60px;
-	}
 }
 
 /*------------------------------------*\
@@ -312,6 +308,7 @@ ul {
 
 		.logo {
 			width: 80%;
+			margin-left: -20px;
 			max-width: 300px;
 		}
 	}
@@ -385,6 +382,7 @@ ul {
 	padding: 10% 15% 5%;
 	position: absolute;
 	opacity: 0;
+	width: 100%;
 	z-index: -100;
 
 	&.show {
@@ -413,10 +411,11 @@ ul {
 		margin-left: 30px;
 	}
 
-	.flip {
-		color: #fff;
-		position: absolute;
-		transform: translate(-60%, 240px) rotate(-90deg);
+	.bio_close {
+		float: right;
+		position: relative;
+			top: 2px;
+		width: 16px;
 	}
 
 	.bio_portrait {
@@ -429,13 +428,6 @@ ul {
 
 	.bio_nav {
 		margin: 30px -10px 0;
-
-		.bio_close {
-			float: right;
-			position: relative;
-				top: 2px;
-			width: 16px;
-		}
 	}
 	
 	.bio_some {
@@ -447,6 +439,58 @@ ul {
 			display: inline-block;
 			margin: 0 15px 0 0;
 			width: 16px;
+		}
+	}
+
+	.flip {
+		color: #fff;
+		position: absolute;
+		transform: translate(-60%, 240px) rotate(-90deg);
+	}
+	
+	@include at-query($one) {
+		h1 {
+			font-size: em(36px);
+			line-height: 50px;
+			max-width: 600px;
+			margin: 0 0 5% 10%;
+		}
+
+		.bio_close {
+			position: relative;
+				top: 2px;
+			width: 24px;
+		}
+
+		.bio_nav {
+			margin: 10% -15% 0;
+		}
+
+		.bio_portrait {
+			margin: 0 5% 3% 0;
+			max-width: 300px;
+		}
+
+		.bio_some {
+			li {
+				margin-right: 30px;
+				width: 24px;
+			}
+		}
+
+		.bio--max {
+			margin: 0 auto;
+			max-width: 1000px;
+
+			p {
+				font-size: em(17px);
+				line-height: 1.8;
+				margin-bottom: 15px;
+			}
+		}
+
+		.flip {
+			transform: translate(-140%, 8px) rotate(-90deg);
 		}
 	}
 }
@@ -467,6 +511,10 @@ ul {
 			font-size: em(17px);
 			line-height: 1.8;
 			margin-bottom: 15px;
+		}
+
+		.time {
+			margin-bottom: 60px;
 		}
 	}
 }
