@@ -204,6 +204,12 @@ ul li {
 
 	line-height: 1.75;
 	margin: 0 0 10px;
+
+	&.inline {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
 }
 
 blockquote {
@@ -393,6 +399,10 @@ textarea {
     z-index: -101;
 }
 
+.hp_portrait {
+
+}
+
 .journallisting--single {
 	margin-bottom: 30px;
 
@@ -406,8 +416,8 @@ textarea {
 	transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.4s;
 	transform: translateY(-100%);
 	position: absolute;
-	z-index: -100;
 	opacity: 0;
+	z-index: -100;
 
 	&.show {
 		transform: translateY(0);
@@ -415,26 +425,63 @@ textarea {
 		z-index: 100;
 	}
 
-	padding: 30px;
+	padding: 10% 15% 5%;
 
 	h1 {
 		font-weight: normal;
 		color: #fff;
-		font-size: 25px;
-		line-height: 35px;
+		font-size: em(24px);
+		line-height: 34px;
 		font-family: $stack1;
-		margin-left: 30px;
-	}
+		margin: 0 0 20px 30px;
+		max-width: 500px;
 
-	img {
-		width: 30%;
-		float: left;
-    	margin-right: 30px;
+		a {
+			color: #fff;
+			font-weight: normal;
+		}
 	}
 
 	p {
-		color: #fff;
+		color: #e9f7ff;
 		margin-left: 30px;
+	}
+
+	.flip {
+		color: #fff;
+		position: absolute;
+		transform: translate(-60%, 240px) rotate(-90deg);
+	}
+
+	.hp_portrait {
+		box-shadow: 0 0 25px rgba(#000000, 0.3);
+		float: left;
+		margin: 5px 5% 1% -30px;
+		max-width: 160px;
+		width: 30%;
+	}
+
+	.bio_some {
+		display: inline-block;
+		list-style-type: none;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin: 0 15px 0 0;
+			width: 16px;
+		}
+	}
+
+	.nav-bio {
+		margin: 30px -10px 0;
+
+		.bio_close {
+			float: right;
+			position: relative;
+				top: 2px;
+			width: 16px;
+		}
 	}
 }
 
