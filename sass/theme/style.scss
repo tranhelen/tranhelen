@@ -250,9 +250,9 @@ textarea {
 	background-color: #fff;
 	border: 2px solid #efefef;
     font-family: $stack2;
-    font-size: em(13px);
+    font-size: em(14px);
     margin: 0 0 15px;
-    padding: 8px 15px 10px;
+    padding: 10px 18px 10px;
     width: 100%;
 }
 
@@ -577,14 +577,32 @@ ul {
     #Mailing List
 \*------------------------------------*/
 
+.mailinglist {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 30px;
+
+	@include at-query($one) {
+		padding: 60px 30px;
+	}
+}
+
+.mailinglist-nav {
+	margin: 30px 0;
+	
+
+	@include at-query($one) {
+		margin-bottom: 60px 0;
+	}
+}
+
 #mc-embedded-subscribe {
 	background-color: #000;
 	border: 0;
 	color: #fff;
-	font: 600 em(14px) $stack2;
-	padding: 8px 15px 10px;
+	font: 700 em(14px) $stack2;
+	padding: 10px 18px 10px;
 	text-align: center;
-	text-transform: uppercase;
 	width: 100%;
 }
 
@@ -594,5 +612,6 @@ ul {
 }
 
 #mc_embed_signup {
-	margin-top: 30px;
+	margin: 30px auto;
+	max-width: 400px;
 }
