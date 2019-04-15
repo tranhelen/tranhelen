@@ -2,7 +2,7 @@
 layout: post
 title: They Won't Come
 date: 2019-04-14
-excerpt: I really love this whole idea of "if you build it, they will come," or that other dismissive
+excerpt: I really love this whole idea of "if you build it, they will come," or that other similar phrase, "just build a good product." Thing is, it's sort of a fantasy. It sounds nice but it doesn't ring true for most human relationships. How does someone know you exist until you show up?
 ---
 
 I really love this whole idea of _"if you build it, they will come,"_ or that other similar phrase, _"just build a good product."_ Thing is, it's sort of a fantasy. It sounds nice but it doesn't ring true for most human relationships. How does someone know you exist until you show up?
@@ -26,7 +26,7 @@ In the meantime, we've been building out an email list through a website, Instag
 </tr>
 </table>
 
-Most recently we've decided to start pre-selling our subscriptions and as of today we've sold 9 pre-paid annual subscriptions. We're officially **post revenue**, and all of the sales come from the non-product related work we were doing: telling people.
+Most recently we've decided to start pre-selling our subscriptions and as of today we've sold 10 pre-paid annual subscriptions. We're officially **post revenue**, and all of the sales came from the non-product related work we were doing: telling people.
 
 <hr class="--small" />
 

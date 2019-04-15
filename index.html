@@ -4,13 +4,63 @@ layout: default
 ---
 
 <header class="sidebar">
-	<img src="img/logo.png" class="logo" alt="Image of Helen Tran.com styled">
-	<a href="#openbio" id="link-bio">Who is this?</a>
+	<img src="img/logo.png" class="logo" alt="Image of Helen Tran.com styled"
+	data-aos="fade-up"
+	data-aos-easing="ease-out-quad"
+	data-aos-duration="800">
+	<a href="#openbio" id="link-bio"
+	data-aos="fade-up"
+	data-aos-easing="ease-out-quad"
+	data-aos-duration="800">Who is this?</a>
 </header>
 
 <div class="hp_main">
+	<section class="journals journals--home"
+	data-aos="fade-up"
+	data-aos-easing="ease-out-quad"
+	data-aos-duration="800">
+		{% for post in site.posts limit:1 %}
+		<div class="journals-single">
+			<h4 class="flip">Writing</h3>
+			<h2 class="hp-journallink">
+				<span class="indicator"
+				data-aos="fade-up"
+				data-aos-easing="ease-out-quad"
+				data-aos-duration="800">&nbsp;</span>
+				<a href="{{ post.url }}"
+				data-aos="fade-up"
+				data-aos-easing="ease-out-quad"
+				data-aos-duration="800"
+				class="indicator-link">{{ post.title }}</a>
+			</h2>
+			<p class="time"
+			data-aos="fade-up"
+			data-aos-easing="ease-out-quad"
+			data-aos-duration="800">Published {{ post.date | date:'%B %Y' }}</p>
 
-	This is a test
+			<p
+			data-aos="fade-up"
+			data-aos-easing="ease-out-quad"
+			data-aos-duration="800">{{ post.excerpt | strip_html }}</p>
+			<p
+			data-aos="fade-up"
+			data-aos-easing="ease-out-quad"
+			data-aos-duration="800"><a href="{{ post.url }}">Read the rest</a> →</p>
+		</div>
+		{% endfor %}
+
+		{% for post in site.posts offset:1 %}
+		<div class="journals-single"
+		data-aos="fade-up"
+		data-aos-easing="ease-out-quad"
+		data-aos-duration="800">
+			<h3 class="hp-journallink">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</h3>
+			<p class="time">Published {{ post.date | date:'%B %Y' }}</p>
+		</div>
+		{% endfor %}
+</section>
 </div>
 <!-- 
 <div class="home-body">

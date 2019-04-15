@@ -20,7 +20,7 @@
 
 	/* Text */
 	$colorTextHeader: #333;
-	$colorTextBody: #333; 
+	$colorTextBody: #666; 
 
 	/* Links */
 	$colorLink: #1c93d2;
@@ -100,7 +100,7 @@ img {
 
 $baseFontSize: 16px;
 $stacktitle: "Feijoa Display", Georgia, Times, Times New Roman, serif;
-$stack1: "Feijoa", "essonnes-text", Georgia, Times, Times New Roman, serif;
+$stack1: "Feijoa", Georgia, Times, Times New Roman, serif;
 $stack2: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $stack3: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -119,30 +119,14 @@ $four: 1200px;
 a {
 	color: $colorLink;
 	font-family: $stack1;
+	font-weight: bold;
 	position: relative;
-    text-decoration: none;
 
     @include transition;
 
-	&::after {
-		background: rgba($colorLink,0.5);
-		content: '';
-		height: 1px;
-		opacity: 1;
-		position: absolute;
-			bottom: 1px;
-			right: 0;
-			width: 100%;
-
-		@include transition;
-	}
-
 	&:hover {
 		color: $colorLinkMuted;
-	}
-
-	&:hover::after {
-		opacity: 0;
+		text-decoration: none;
 	}
 }
 
@@ -164,33 +148,62 @@ h1 {
 }
 
 h2 {
-	font: 300 em(30px) $stacktitle;
-	line-height: 1.36;
-	margin: 10px 0 10px;
+
 }
 
-h3 {
-	font: 300 em(24px) $stack1;
-	line-height: 1.5;
-	margin: 0 0 15px;
+h2.hp-journallink {
+	font: em(30px) $stacktitle;
+	margin: 10px 0 10px;
+
+	a {
+		color: #666;
+		font-weight: normal;
+		text-decoration: none;
+
+		&:hover {
+			color: $colorLink;
+		}
+	}
+}
+
+h3.hp-journallink {
+	font: em(24px) $stacktitle;
+	margin: 20px 0 0;
+
+	a {
+		color: #999;
+		font-weight: normal;
+		text-decoration: none;
+
+		&:hover {
+			color: $colorLink;
+		}
+	}
 }
 
 h4 {
-	font-family: $stack2;
-	font-size: em(15px);
-	font-weight: 600;
-	text-transform: uppercase;
+    color: #9faecd;
+	font: 300 em(18px) $stack1;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+	margin: 0;
+
+	&.flip {
+		transform: rotate(-90deg);
+	}
 }
 
 h5 {
-	font-family: $stack2;
-	font-size: em(13px);
+	color: #999;
+	font-family: $stack3;
+	font-size: em(12px);
 	margin: 0;
+	text-transform: uppercase;
 }
 
 p {
 	color: $colorTextBody;
-	font: em(18px) $stack1;
+	font: em(16px) $stack1;
 	line-height: 1.7;
 	margin: 0 0 10px;
 }
@@ -253,7 +266,7 @@ hr {
 .time {
 	@extend h5;
 	
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 #mce-success-response,
@@ -325,78 +338,6 @@ textarea {
 	}
 }
 
-.journals {
-	background-color: #1C1C1C;
-    margin: 70px 0 70px 10%;
-    padding: 30px 30px 10px;
-    width: 90%;
-
-    a {
-    	border-bottom: 1px solid $colorAccent;
-    	color: $colorAccent;
-
-    	&:hover {
-    		font-style: normal;
-    	}
-    }
-
-	h2 a {
-		border: 0;
-		color: #fff;
-	}
-
-    p {
-    	color: #ffffff;
-    }
-
-	.journals-listing {
-	    @include clearfix;
-	}
-
-	.journals-single {
-		margin-bottom: 30px; 
-
-		@include at-query($two) {
-			padding-right: 30px
-		}
-	}
-
-	.section-tag {
-		left: -10px;
-	}
-
-    @include at-query($one) {
-    	margin-left: 20%;
-    	margin-top: 160px;
-    	width: 80%;
-    }
-
-    @include at-query($two) {
-    	margin-left: 5%;
-    	padding: 60px 60px 30px 90px;
-    	width: 95%;
-    }
-}
-
-.journal__image {
-	img {
-		margin: 15px -20%;
-		width: 140%;
-	}
-}
-
-.nav {
-    border-bottom: 2px solid #efefef;
-
-    a::after {
-    	opacity: 0;
-    }
-
-    .no-bullet a {
-		margin-right: 20px;
-    }
-}
-
 .section-tag {
     background-color: $colorAccent;
     padding: 4px 15px 5px;
@@ -427,261 +368,56 @@ textarea {
     #Homepage
 \*------------------------------------*/
 
-body,
-html {
-	height: 100%;
-}
-
 .sidebar {
 	margin: 15% 10% 10%;
-	padding-left: 7%;
+	padding-left: 14%;
 	position: absolute;
 		left: 0;
 		top: 0;
 	z-index: 0;
 
-	.logo {
-		margin: 0 0 10px -12px;
-		width: 80%;
-	}
-
-	a#link-bio {
+	#link-bio {
 		display: inline-block;
 		font-size: em(14px);
 		font-weight: bold;
+	}
+
+	.logo {
+		display: block;
+		margin: 0 0 10px -5%;
+		width: 70%;
 	}
 }
 
 .hp_main {
 	border-left: 1px solid #c7d0e3;
-	height: 100%;
-	margin-left: 10%;
-	padding: 60% 0 0 10%;
+	margin-left: 15%;
+	padding: 45% 0 150px 0;
 	position: absolute;
 		left: 0;
 		top: 0;
 	z-index: -1;
-}
 
-.bio {
-	margin: 100px 30px 0;
-
-	.section-tag {
-		left: -10px;
-	}
-
-	@include at-query($one) {
-		margin-left: 20%;
-		margin-top: 190px;
-
-		h3 {
-			margin-top: 30px;
-		}
-	}
-
-	@include at-query($two) {
-		margin-left: 35%;
-	}
-
-	@include at-query($three) {
-	    margin-left: 45%;
-	    max-width: 780px;
-	}
-
-	@include at-query($four) {
-		margin-top: 330px;
-
-		h3 {
-			width: 80%;
-		}
-	}
-}
-
-.bio__body {
-	border-left: 5px solid $colorAccent;
-	margin-top: 30px;
-	padding: 0 0 60px 30px;
-
-	@include at-query($one) {
-		padding-bottom: 160px;
-	}
-
-	@include at-query($four) {
-	    margin-top: 60px;
-	    margin-left: 60px;
-	    padding: 0 0 250px 60px;
-	}
-}
-
-.home-body {
-	background-color: #fff;
-	position: relative;
-
-	@include at-query($one) {
-		background-color: transparent;
-		position: unset;
-	}
-}
-
-.home-topbio {
-    padding-top: 126%;
-    position: relative;
-
-    @include at-query($one) {
-    	padding-top: 0;
-    }
-
-    @include at-query($three) {
-    	max-width: 1600px;
-    	margin: 0 auto;
-    }
-}
-
-.home-topbiocard {
-    background-color: #ffd000;
-    margin-top: -110px;
-    padding: 30px;
-    position: relative;
-    text-align: right;
-    width: 70%;
-    z-index: 2;
-
-	h5 {
-		font-style: italic;
-		margin-top: 10px;
-	}
-
-	a {
-		border-bottom: 1px solid rgba(#fff,1);
-		color: #fff;
-
-		@include transition;
-
-		&:hover {
-			border-color: rgba(#fff,0);
-		}
-	}
-
-	.bio__link {
-		color: #fff;
-		margin-left: 50px;
-		margin-right: -105px;
-	}
-
-	@include at-query($one) {
-		margin-top: -225px;
-		width: 50%;
-	}
-
-	@include at-query($two) {
-	    margin-left: 26%;
-	    width: 40%;
-	}
-
-	@include at-query($three) {
-	    float: right;
-	    margin-top: -420px;
-	    margin-right: 35%;
-	    margin-left: unset;
-		width: 500px;
-
-		h1 {
-		    margin-left: 50%;
-		    width: 50%;
-		}
-
-		h4 {
-			margin-top: 100px;
-		}
-	}
-
-	@include at-query($four) {
-		margin-right: 40%;
-	}
-}
-
-.journals--home {
-	.journals-single {
-		@include at-query($two) {
-			float: left;
-			max-width: 500px;
-			width: 50%;
-		}
-	}
-
-    @include at-query($three) {
-    	margin: 200px auto;
-    	max-width: 1550px;
-    	padding: 60px 10%;
-    }
-
-    @include at-query($four) {
-	    margin-top: 140px;
-	    padding-top: 885px;
-    }
-}
-
-.nav--main {
-    margin-left: 10%;
-    padding-top: 10px;
-    width: 90%;
-
-    @include at-query($one) {
-	    background-color: #fff;
-		position: absolute;
-		    right: 0;
-		    top: 0;
-    }
-
-    @include at-query($two) {
-	    margin-right: 45%;
-		text-align: right;
-	    width: 55%;
-
-    	a {
-    		margin: 0 0 0 20px;
-    	}
-    }
-
-    @include at-query($three) {
-    	padding: 50px 0;
-    }
-
-    @include at-query($four) {
-    	border: 0;
-		margin: auto;
-	    max-width: 1600px;
-		padding-right: 745px;
-	        left: 0;
-	        right: 0;
-	    width: 100%;
-    }
-}
-
-.portrait {
-	position: fixed;
-		top: 0;
-
-	@include at-query($one) {
-	    border-right: 5px solid $colorAccent;
-	    margin-left: 50%;
+	.flip {
+		display: inline-block;
 		position: relative;
-    		z-index: 1;
-	    width: 50%;
+			left: -35%;
+			top: 75px;
 	}
 
-	@include at-query($two) {
-		margin-left: 60%;
-		width: 40%;
+	.indicator {
+		background-color: #c7d0e3;
+		display: inline-block;
+		height: 3px;
+		width: 20px;
+		position: relative;
+			left: -14%;
+			top: 15px;
 	}
 
-	@include at-query($three) {
-	    margin-right: 60px;
-	}
-
-	@include at-query($four) {
-		float: right;
-		width: 640px;
+	.indicator-link {
+		position: relative;
+			left: -25px;
 	}
 }
 
@@ -718,35 +454,6 @@ html {
 		.time {
 			margin-bottom: 60px;
 			text-align: center;
-		}
-	}
-}
-
-.hr--vertical {
-	background-color: $colorAccent;
-	height: 260px;
-	margin: auto;
-	position: absolute;
-		left: 0;
-	    right: 0;
-	width: 5px;
-
-	&.--journals {
-	    left: 30px;
-	    right: auto;
-		bottom: -260px;
-
-		@include at-query($two) {
-			left: 90px;
-		}
-
-		@include at-query($three) {
-			left: 0;
-			right: 82%;
-		}
-
-		@include at-query($four) {
-		    right: 1160px;
 		}
 	}
 }
@@ -805,48 +512,11 @@ html {
     #Journals (For Listings on Home & Journal page)
 \*------------------------------------*/
 
-.journals--single {
-    margin-left: 10%;
-	width: auto;
+.journals {
+	margin: 5px 8% 0 10%;
 
-	@include at-query($one) {
-		margin-left: 20%;
-	}
-
-	@include at-query($two) {
-		margin-left: 0;
-		margin-right: 20%;
-	}
-
-	@include at-query($three) {
-		margin: 260px 5% 260px 0;
-	}
-
-	.section-tag {
-		left: -10px;
-	}
-}
-
-.journals--single__body {
-	@include clearfix;
-
-	.journals-single {
-		margin-bottom: 30px; 
-
-		@include at-query($two) {
-			float: left;
-			max-width: 500px;
-			width: 50%;
-		}
-	}
-
-	@include at-query($three) {
-		margin: 0 auto;
-		max-width: 1200px;
-	}
-
-	@include at-query($four) {
-		// margin-top: 360px;
+	h2 {
+		margin: 0;
 	}
 }
 
