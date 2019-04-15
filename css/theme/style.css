@@ -381,6 +381,32 @@ textarea {
 }
 
 /* line 376, ../../sass/theme/style.scss */
+.hp_main_content {
+  margin: 0 5% 0 10%;
+}
+/* line 379, ../../sass/theme/style.scss */
+.hp_main_content h2, .hp_main_content .h2 {
+  margin: 0;
+}
+
+/* line 384, ../../sass/theme/style.scss */
+.hp_birb {
+  margin-left: -50px;
+  width: 60px;
+  position: absolute;
+  z-index: -101;
+}
+
+/* line 391, ../../sass/theme/style.scss */
+.journallisting--single {
+  margin-bottom: 30px;
+}
+/* line 394, ../../sass/theme/style.scss */
+.journallisting--single.--first {
+  margin-bottom: 50px;
+}
+
+/* line 399, ../../sass/theme/style.scss */
 #bio {
   background-color: #0067d0;
   transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.4s;
@@ -390,13 +416,13 @@ textarea {
   opacity: 0;
   padding: 30px;
 }
-/* line 384, ../../sass/theme/style.scss */
+/* line 407, ../../sass/theme/style.scss */
 #bio.show {
   transform: translateY(0);
   opacity: 1;
   z-index: 100;
 }
-/* line 392, ../../sass/theme/style.scss */
+/* line 415, ../../sass/theme/style.scss */
 #bio h1, #bio .h1 {
   font-weight: normal;
   color: #fff;
@@ -405,13 +431,13 @@ textarea {
   font-family: "Feijoa", Georgia, Times, Times New Roman, serif;
   margin-left: 30px;
 }
-/* line 401, ../../sass/theme/style.scss */
+/* line 424, ../../sass/theme/style.scss */
 #bio img {
   width: 30%;
   float: left;
   margin-right: 30px;
 }
-/* line 407, ../../sass/theme/style.scss */
+/* line 430, ../../sass/theme/style.scss */
 #bio p, #bio ol li, ol #bio li,
 #bio ul li,
 ul #bio li {
@@ -422,27 +448,18 @@ ul #bio li {
 /*------------------------------------*\
     #Journal Single
 \*------------------------------------*/
-/* line 417, ../../sass/theme/style.scss */
+/* line 440, ../../sass/theme/style.scss */
 nav {
   display: flex;
   flex-direction: row;
   margin: 30px 12px;
 }
-/* line 422, ../../sass/theme/style.scss */
+/* line 445, ../../sass/theme/style.scss */
 nav div {
   flex-grow: 1;
 }
 
-/* line 427, ../../sass/theme/style.scss */
-.journals {
-  margin: 0 5% 0 10%;
-}
-/* line 430, ../../sass/theme/style.scss */
-.journals h2, .journals .h2 {
-  margin: 0;
-}
-
-/* line 435, ../../sass/theme/style.scss */
+/* line 450, ../../sass/theme/style.scss */
 .stats {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -452,7 +469,7 @@ nav div {
   margin: 30px 0 20px;
 }
 @media screen and (min-width: 800px) {
-  /* line 435, ../../sass/theme/style.scss */
+  /* line 450, ../../sass/theme/style.scss */
   .stats {
     font-size: 1em;
     margin: 30px 10%;
@@ -463,16 +480,16 @@ nav div {
 /*------------------------------------*\
     #Journal Single (Called Post)
 \*------------------------------------*/
-/* line 456, ../../sass/theme/style.scss */
+/* line 471, ../../sass/theme/style.scss */
 .cite {
   font-style: italic;
 }
-/* line 459, ../../sass/theme/style.scss */
+/* line 474, ../../sass/theme/style.scss */
 .cite a::after {
   background: none;
 }
 
-/* line 465, ../../sass/theme/style.scss */
+/* line 480, ../../sass/theme/style.scss */
 .citations p, .citations ol li, ol .citations li,
 .citations ul li,
 ul .citations li {
@@ -480,11 +497,11 @@ ul .citations li {
   font-size: 0.75em;
   text-indent: -20px;
 }
-/* line 471, ../../sass/theme/style.scss */
+/* line 486, ../../sass/theme/style.scss */
 .citations .citations-back {
   font-weight: bold;
 }
-/* line 474, ../../sass/theme/style.scss */
+/* line 489, ../../sass/theme/style.scss */
 .citations .citations-back::after {
   background: None;
 }

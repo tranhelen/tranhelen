@@ -5,58 +5,60 @@ layout: default
 
 <header class="sidebar">
 	<img src="img/logo.png" class="logo" alt="Image of Helen Tran.com styled">
-	<a href="#" class="openbio">Who is this?</a>
+	<a href="#" class="openbio"
+		data-aos="fade-up"
+		data-aos-easing="ease-out-quad"
+		data-aos-duration="800">Who is this?</a>
 </header>
 
 <div class="hp_main">
 	<h4 class="flip">Writing</h3>
-	<div class="hp_main_content">
-		<section class="journals journals--home"
+	<div class="hp_main_content"
 		data-aos="fade-up"
 		data-aos-easing="ease-out-quad"
 		data-aos-duration="800">
-			{% for post in site.posts limit:1 %}
-			<div class="journals-single">
-				<h2 class="hp-journallink">
-					<span class="indicator"
-					data-aos="fade-up"
-					data-aos-easing="ease-out-quad"
-					data-aos-duration="800">&nbsp;</span>
-					<a href="{{ post.url }}"
-					data-aos="fade-up"
-					data-aos-easing="ease-out-quad"
-					data-aos-duration="800"
-					class="indicator-link">{{ post.title }}</a>
-				</h2>
-				<p class="time"
+		{% for post in site.posts limit:1 %}
+		<div class="journallisting--single --first">
+			<h2 class="hp-journallink">
+				<span class="indicator"
 				data-aos="fade-up"
 				data-aos-easing="ease-out-quad"
-				data-aos-duration="800">Published {{ post.date | date:'%B %Y' }}</p>
+				data-aos-duration="800">&nbsp;</span>
+				<a href="{{ post.url }}"
+				data-aos="fade-up"
+				data-aos-easing="ease-out-quad"
+				data-aos-duration="800"
+				class="indicator-link">{{ post.title }}</a>
+			</h2>
+			<p class="time"
+			data-aos="fade-up"
+			data-aos-easing="ease-out-quad"
+			data-aos-duration="800">Published {{ post.date | date:'%B %Y' }}</p>
 
-				<p
-				data-aos="fade-up"
-				data-aos-easing="ease-out-quad"
-				data-aos-duration="800">{{ post.excerpt | strip_html }}</p>
-				<p
-				data-aos="fade-up"
-				data-aos-easing="ease-out-quad"
-				data-aos-duration="800"><a href="{{ post.url }}">Read the rest</a> &#8594;</p>
-			</div>
-			{% endfor %}
+			<p
+			data-aos="fade-up"
+			data-aos-easing="ease-out-quad"
+			data-aos-duration="800">{{ post.excerpt | strip_html }}</p>
+			<p
+			data-aos="fade-up"
+			data-aos-easing="ease-out-quad"
+			data-aos-duration="800"><a href="{{ post.url }}">Read the rest</a> &#8594;</p>
+		</div>
+		{% endfor %}
 
-			{% for post in site.posts offset:1 %}
-			<div class="journals-single"
+		{% for post in site.posts offset:1 %}
+		<div class="journallisting--single"
 			data-aos="fade-up"
 			data-aos-easing="ease-out-quad"
 			data-aos-duration="800">
-				<h3 class="hp-journallink">
-					<a href="{{ post.url }}">{{ post.title }}</a>
-				</h3>
-				<p class="time">Published {{ post.date | date:'%B %Y' }}</p>
-			</div>
-			{% endfor %}
-		</section>
+			<h3 class="hp-journallink">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</h3>
+			<p class="time">Published {{ post.date | date:'%B %Y' }}</p>
+		</div>
+		{% endfor %}
 	</div>
+	<img src="/img/birb.png" class="hp_birb" alt="Picture of birb">
 </div>
 
 <div id="bio">

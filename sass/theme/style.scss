@@ -373,6 +373,29 @@ textarea {
 	}
 }
 
+.hp_main_content {
+	margin: 0 5% 0 10%;
+
+	h2 {
+		margin: 0;
+	}
+}
+
+.hp_birb {
+    margin-left: -50px;
+    width: 60px;
+    position: absolute;
+    z-index: -101;
+}
+
+.journallisting--single {
+	margin-bottom: 30px;
+
+	&.--first {
+		margin-bottom: 50px;
+	}
+}
+
 #bio {
 	background-color: #0067d0;
 	transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1), opacity 0.4s;
@@ -421,14 +444,6 @@ nav {
 
 	div {
 		flex-grow: 1;
-	}
-}
-
-.journals {
-	margin: 0 5% 0 10%;
-
-	h2 {
-		margin: 0;
 	}
 }
 
