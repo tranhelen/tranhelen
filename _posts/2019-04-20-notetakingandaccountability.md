@@ -40,7 +40,7 @@ The brain is powerful and it's not really into exerting itself beyond its percei
 
 <hr class="--small" />
 
-This is nothing new–it's particularly popular in the entrepreneurial and goal-setting circles. Some people call them decision journals, scientists have their Scientific Process, and even the Navy Seals have their own: AARs (After Action Reviews).
+This is nothing new–it's particularly popular in the entrepreneurial and goal-setting circles. Some people call them decision journals, scientists have their Scientific Process, and even the Navy Seals have their own: AARs (After Action Reviews).<a href="#note-1" name="back-1">*</a></td>
 
 All my projects now start with a brief and end with a review:
 
@@ -70,3 +70,9 @@ All my projects now start with a brief and end with a review:
 When it's written out–dare I say–things become _easy_. The baked in assumption is iteration _will_ make it better and it forces you to _get on with it_ instead of spending time pointlessly ruminating.
 
 It's simple. It's boring. It works.
+
+<hr class="--small" />
+
+<div class="citations">
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> "This sounds like the design process!" you exclaim. Yes, it is that too, although I don't think many teams do enough note-taking.</p>
+</div>
