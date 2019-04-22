@@ -40,7 +40,7 @@ The brain is powerful and it's not really into exerting itself beyond its percei
 
 <hr class="--small" />
 
-This is nothing new–it's particularly popular in the entrepreneurial and goal-setting circles. Some people call them decision journals, scientists have their Scientific Process, and even the Navy Seals have their own: AARs (After Action Reviews).<a href="#note-1" name="back-1">*</a></td>
+This is nothing new–it's particularly popular in the entrepreneurial and goal-setting circles. Some people call them decision journals, scientists have their Scientific Process, and even the Navy Seals have their own: AARs (After Action Reviews).<a href="#note-1" name="back-1">*</a>
 
 All my projects now start with a brief and end with a review:
 
