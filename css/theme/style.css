@@ -591,6 +591,20 @@ ul .citations li {
   padding: 30px;
   margin: 30px 0 20px;
 }
+/* line 571, ../../sass/theme/style.scss */
+.stats ol {
+  margin: 0 0 0 -20px;
+}
+/* line 574, ../../sass/theme/style.scss */
+.stats ol li {
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.875em;
+  margin: 0;
+}
+/* line 581, ../../sass/theme/style.scss */
+.stats hr.--small {
+  margin: 20px auto 10px;
+}
 @media screen and (min-width: 800px) {
   /* line 561, ../../sass/theme/style.scss */
   .stats {
@@ -598,36 +612,44 @@ ul .citations li {
     margin: 30px 10%;
     width: 80%;
   }
+  /* line 590, ../../sass/theme/style.scss */
+  .stats ol {
+    margin: 0 0 0 -10px;
+  }
+  /* line 593, ../../sass/theme/style.scss */
+  .stats ol li {
+    font-size: 1em;
+  }
 }
 
 /*------------------------------------*\
     #Mailing List
 \*------------------------------------*/
-/* line 582, ../../sass/theme/style.scss */
+/* line 604, ../../sass/theme/style.scss */
 .mailinglist {
   margin: 0 auto;
   max-width: 600px;
   padding: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 582, ../../sass/theme/style.scss */
+  /* line 604, ../../sass/theme/style.scss */
   .mailinglist {
     padding: 60px 30px;
   }
 }
 
-/* line 592, ../../sass/theme/style.scss */
+/* line 614, ../../sass/theme/style.scss */
 .mailinglist-nav {
   margin: 30px 0;
 }
 @media screen and (min-width: 800px) {
-  /* line 592, ../../sass/theme/style.scss */
+  /* line 614, ../../sass/theme/style.scss */
   .mailinglist-nav {
     margin-bottom: 60px 0;
   }
 }
 
-/* line 601, ../../sass/theme/style.scss */
+/* line 623, ../../sass/theme/style.scss */
 #mc-embedded-subscribe {
   background-color: #000;
   border: 0;
@@ -638,13 +660,13 @@ ul .citations li {
   width: 100%;
 }
 
-/* line 611, ../../sass/theme/style.scss */
+/* line 633, ../../sass/theme/style.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 10px 0 0;
 }
 
-/* line 616, ../../sass/theme/style.scss */
+/* line 638, ../../sass/theme/style.scss */
 #mc_embed_signup {
   margin: 30px auto;
   max-width: 400px;

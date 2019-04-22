@@ -40,12 +40,33 @@ The brain is powerful and it's not really into exerting itself beyond its percei
 
 <hr class="--small" />
 
-This habit is now deeply secured in my work life and every project I start has three documents attached to it: 
+This is nothing new–it's particularly popular in the entrepreneurial and goal-setting circles. Some people call them decision journals, scientists have their Scientific Process, and even the Navy Seals have their own: AARs (After Action Reviews).
 
-1. <b>Brief;</b> clarify the objectives, what is expected to happen, how to measure success
-2. <b>Notes;</b> detailed notes about the project
-3. <b>Retrospective;</b> what was the outcome, what was learned, and how to improve next time
+All my projects now start with a brief and end with a review:
 
-A lot of this has been particularly popular in the entrepreneurial and goal-setting circles. Some people call them decision journals, scientists call it the Scientific Process, the Navy Seals call them AAR (After Action Reviews), and self-help obsessives call them reflection journals or bullet journals.
+<table class="stats">
+<tr>
+    <td><strong>Brief</strong>
+    <br>
+        <ol>
+        <li>What are the objectives?</li>
+        <li>What do we expect to happen?</li>
+        <li>What does success look like?</li>
+        </ol>
+    <hr class="--small" /></td>
+</tr>
+<tr>
+    <td><strong>Review</strong>
+    <br>
+        <ol>
+        <li>What was the outcome?</li>
+        <li>Was my hypothesis correct?</li>
+        <li>What did we learn for next time?</li>
+        </ol>
+    </td>
+</tr>
+</table>
+
+When it's written out–dare I say–things become _easy_. The baked in assumption is iteration _will_ make it better and it forces you to _get on with it_ instead of spending time pointlessly ruminating.
 
 It's simple. It's boring. It works.
