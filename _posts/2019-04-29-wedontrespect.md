@@ -53,7 +53,7 @@ Back to Rosanne,
 
 Rosanne is talking about something which a lot of us are afraid to address: _if I'm being honest with myself, am I a dilettante?_ I think we often hide from the responsibility of mastery with excuses which seem reasonable in isolation yet fall apart when examined as a pattern.
 
-I, myself, had done a very good job at going deeper than most but not going deep enough in anything. I went shallow-deep into beauty photography, management, bodybuilding, and a host of other subjects but I never applied myself to the fullest extent I knew I could have.
+I, myself, had done a very good job at going deeper than most but not going deep enough in anything. I went shallow-deep into beauty photography, management, writing, bodybuilding, and a host of other subjects but I never applied myself to the fullest extent I knew I could have.
 
 In the past few years I have pushed myself further and further into discomfort. I am determined for the next phase of my life to reflect my commitment. It's not for the respect of an old dream-man named Art, though, it's for me: _I_ don't want to live a life of a dilettante.
 
