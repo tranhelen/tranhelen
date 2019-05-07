@@ -205,10 +205,10 @@ p {
 
 ol li,
 ul li {
-	@extend p;
-
+	color: $colorTextBody;
+	font: em(16px) $stack1;
 	line-height: 1.75;
-	margin: 0 0 10px;
+	margin: 0 0 5px;
 
 	&.inline {
 		margin: 0;
@@ -258,7 +258,7 @@ textarea {
 }
 
 ul {
-	margin: 0;
+	margin: 0 0 30px;
 
 	&.no-bullet {
 		padding: 0;
@@ -518,6 +518,11 @@ ol {
 			margin-bottom: 15px;
 		}
 
+		ul li,
+		ol li {
+			font-size: em(17px);
+		}
+
 		.time {
 			margin-bottom: 60px;
 		}
@@ -583,12 +588,12 @@ ol {
 	}
 	
 	@include at-query($one) {
-		font-size: em(16px);
-		margin: 30px 10%;
-		width: 80%;
+		font-size: em(15px);
+		margin: 30px 5%;
+		width: 90%;
 
 		ol {
-			margin: 0 0 0 -10px;
+			margin: 10px 0 0 -10px;
 
 			li {
 				font-size: em(16px);
