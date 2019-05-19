@@ -339,7 +339,7 @@ ol {
 		width: 20px;
 		position: relative;
 			left: -14%;
-			top: 15px;
+			top: 35px;
 	}
 
 	.indicator-link {
@@ -376,7 +376,11 @@ ol {
 	margin-bottom: 30px;
 
 	&.--first {
-		margin-bottom: 50px;
+		margin: -20px 0 50px;
+
+		h2 {
+			margin: 0 0 0 24px;
+		}
 	}
 }
 
@@ -515,7 +519,7 @@ ol {
 
 	@include at-query($one) {
 		padding: 100px 0;
-		
+
 		p {
 			font-size: em(17px);
 			line-height: 1.8;
