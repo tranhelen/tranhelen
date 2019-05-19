@@ -15,7 +15,7 @@ Teach me the stories of Japan, _Harvest Business Review_.
 
 ## Competing Viewpoints
 
-After reading <span class="cite">"Strategic Intent,"<a href="#note-1" name="back-1">*</a></span>, I am noting that HBR wants me to:
+After reading <span class="cite">"Strategic Intent,"<a href="#note-1" name="back-1">*</a></span>, I am noting HBR wants me to:
 
 - Stop focusing on competitors
 - Emphasize organizational learning
@@ -43,7 +43,7 @@ The general topics are: competitors, information sharing, and goal-setting. Some
 
 ## Wading Through Tall Grass
 
-There are so many stories of success and no one can say with certainty what is worth paying attention to. We identify common patterns and even then research on leadership and business strategy is in its infancy (only within the past 40 years have we begun studying in earnest).
+There are so many stories of success and no one can say with certainty what is worth paying attention to. We identify common patterns and even then, research on leadership and business strategy is in its infancy.
 
 We also can't use the past to predict the future because the future is born in everyone's blindspot. That's what the whole _disruption_ thing is about.
 
@@ -67,7 +67,7 @@ The centrist voice says,
 
 ### Goal-Setting
 
-Top-down management and leadership plans have been shown to occasionally thwart innovation through blind compliance. Also, setting a goal about revenue is obvious: _every_ company's goal is revenue. Value is not synonymous with money (Amazon).
+Top-down management and leadership plans have been shown to occasionally thwart innovation through blind compliance. Also, setting a goal about revenue is obvious: _every_ company's goal is revenue. Value is not synonymous with money.
 
 The centrist voice says,
 

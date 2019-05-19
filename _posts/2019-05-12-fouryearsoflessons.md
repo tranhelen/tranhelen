@@ -2,10 +2,10 @@
 layout: post
 title: Four Years of Lessons
 date: 2019-05-12
-excerpt: I've been punched in the gut twice in a month and am still gathering myself together. As a permissive move for myself, I have gathered past journals and resurfaced my learned lessons from...
+excerpt: I've had the wind knocked out of me twice in a month and am still gathering myself together. As a permissive move for myself, I have gathered past journals and resurfaced my learned...
 ---
 
-I've been punched in the gut twice in a month and am still gathering myself together. As a permissive move for myself, I have gathered past journals and resurfaced my learned lessons from the last four years. I never published 2018.
+I've had the wind knocked out of me twice in a month and am still gathering myself together. As a permissive move for myself, I have gathered past journals and resurfaced my learned lessons from the last four years. I never published 2018.
 
 It's a filler episode this week with a bonus scene. _Who doesn't love a filler?_
 

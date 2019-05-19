@@ -5,7 +5,7 @@ date: 2019-04-29
 excerpt: A few years ago I was deep in the midst of a long walk through an area north of the Arctic circle. In the evenings I would read before falling asleep. I'd like to share this passage about a dream Rosanne...
 ---
 
-A few years ago I was deep in the midst of a long walk through an area north of the Arctic circle. In the evenings I would read before falling asleep. I'd like to share this passage about a dream Rosanne Cash (singer/songwriter) once had,
+A few years ago I was in the midst of a long walk through an area north of the Arctic circle. In the evenings I would read before falling asleep and I'd like to share this passage about a dream Rosanne Cash (singer/songwriter) once had which has stuck with me ever since:
 
 > Just as I was beginning to record King's, I had read an interview with her in which she said that in committing to artistic growth, you had to "refine your skills to support your instincts." This made such a deep impression on me that I clipped the article to save it.
 
@@ -13,11 +13,11 @@ A few years ago I was deep in the midst of a long walk through an area north of 
 
 > He turned his head slowly from Linda to me and looked me up and down with obvious disdain and an undisguised lack of interest. "We don't respect dilettantes," he spat out, and turned back to Linda.
 
-This passage has stuck with me for years. Cash writes, upon awakening, she was filled with humiliation. She had written a few songs with some success but it felt false somehow. So, she changed her approach. Back to this in a bit.
+Cash writes, upon awakening, she was filled with humiliation. She had written a few songs with some success but it felt false somehow. So, she changed her approach. Back to this in a bit.
 
 <hr class="--small" />
 
-After I read about Cash's dream, I had many silent hours to answer some questions as I walked. Was I actually good at the things I felt good at? Did I deserve to feel prideful of any of my life? How much time had I put into it? Will I be happy with the results in five years if I continue with my current habits?
+I had many silent hours to answer questions as I walked. Was I actually good at the things I felt good at? Did I deserve to feel prideful of any of my life? How much time had I put into it? Will I be happy with the results in five years if I continue with my current habits?
 
 <figure class="journal__image">
     <img src="/img/posts/042919-kungsleden.jpg" alt="Picture of the Kungsleden, which I took on my first walk in 2016" />
@@ -25,13 +25,13 @@ After I read about Cash's dream, I had many silent hours to answer some question
 
 In the spirit of honesty the short answer was, "No."
 
-Up to that point, my life was a series of deep obsessions yet I didn't feel steady in any of them. I was a dilettante, and like Rosanne, I had to change my tactics.
+Up until that point, my life was a series of deep obsessions yet I didn't feel steady in any of them. I was a dilettante, and like Rosanne, I wanted to change my tactics.
 
 <hr class="--small" />
 
-True mastery is hard. It doesn't take a random 10,000 hours. It takes a _very specific_ 10,000 hours and even so, 10,000 hours is a _median_ not a rule.<a href="#note-1" name="back-1">*</a> You can be the person who takes 20,000 hours or 8000 hours and there's a statistically large possibility you aren't even going to be the cream of the crop.
+True mastery is hard. It doesn't take a random 10,000 hours. It takes a _very specific_ 10,000 hours and even so, 10,000 hours is a _median_ not a rule.<a href="#note-1" name="back-1">*</a> You can be the person who takes 20,000 hours or 8000 hours and there's a statistically large possibility you aren't going to be the cream of the crop.
 
-The 10,000 hours require you to pay attention to how you learn. The harder the challenge, the more you learn. Except... we're wired to stay comfortable. People remain in the same spot for years in sports, academia, and in the professional realm.
+The 10,000 hours require you to pay attention to _how_ you learn. The harder the challenge, the more you learn. Except... we're wired to stay comfortable. People remain in the same spot for years in sports, academia, and in the professional realm.
 
 I strongly believe this after years of being a lifelong student: if you are comfortable, you're not learning. As my friend Ilia said to me last week, "Comfort is a bitch."
 
