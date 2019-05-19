@@ -536,14 +536,14 @@ ol {
   }
   /* line 523, ../../sass/theme/style.scss */
   .post-container p {
-    font-size: 1.0625em;
+    font-size: 1.125em;
     line-height: 1.8;
     margin-bottom: 15px;
   }
   /* line 529, ../../sass/theme/style.scss */
   .post-container ul li,
   .post-container ol li {
-    font-size: 1.0625em;
+    font-size: 1.125em;
   }
   /* line 534, ../../sass/theme/style.scss */
   .post-container .time {
