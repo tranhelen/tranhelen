@@ -11,13 +11,13 @@ This, of course, is easier said than done. You can agree to the rules but no one
 
 <hr class="--small" />
 
-Many gym-goers will start their fitness journey by completely exhausting themselves getting trackers, new gear, and new clothes. It never occurs to them that some of the best athletes in this world mostly look like this at the gym. _He's barely wearing shorts._
+Many gym-goers will start their fitness journey by exhausting themselves getting trackers, new gear, and new clothes. It never occurs to them that some of the best athletes in this world mostly look like this at the gym. _He's barely wearing shorts._
 
 <figure class="journal__image">
     <img src="/img/posts/042019-kai.jpg" alt="Picture of Kai Greene at the gym" />
 </figure>
 
-The most effective technique isn't fancy and I'm about to reveal it here: write it down and beat it every week.
+The most effective technique isn't fancy and here it is: write what you're doing down and beat it every week.
 
 <table class="stats">
 <tr>
@@ -36,7 +36,7 @@ The most effective technique isn't fancy and I'm about to reveal it here: write 
 
 If you don't write it down, you will justify putting in less effort because you're not in the mood. You will forget or you will even outright lie to yourself and say you did better than last time.
 
-The brain is powerful and it's not really into exerting itself beyond its perceived boundaries.
+The brain is powerful and it's not into exerting itself beyond its perceived boundaries.
 
 <hr class="--small" />
 
