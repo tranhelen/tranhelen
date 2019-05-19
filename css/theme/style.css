@@ -521,64 +521,68 @@ ol {
   max-width: 600px;
   padding: 30px;
 }
+/* line 512, ../../sass/theme/style.scss */
+.post-container .time {
+  margin: 5px 0 30px;
+}
 @media screen and (min-width: 800px) {
   /* line 507, ../../sass/theme/style.scss */
   .post-container {
     padding: 100px 0;
   }
-  /* line 515, ../../sass/theme/style.scss */
+  /* line 519, ../../sass/theme/style.scss */
   .post-container p {
     font-size: 1.0625em;
     line-height: 1.8;
     margin-bottom: 15px;
   }
-  /* line 521, ../../sass/theme/style.scss */
+  /* line 525, ../../sass/theme/style.scss */
   .post-container ul li,
   .post-container ol li {
     font-size: 1.0625em;
   }
-  /* line 526, ../../sass/theme/style.scss */
+  /* line 530, ../../sass/theme/style.scss */
   .post-container .time {
-    margin-bottom: 60px;
+    margin: 10px 0 60px;
   }
 }
 
-/* line 532, ../../sass/theme/style.scss */
+/* line 536, ../../sass/theme/style.scss */
 .cite {
   font-style: italic;
 }
-/* line 535, ../../sass/theme/style.scss */
+/* line 539, ../../sass/theme/style.scss */
 .cite a::after {
   background: none;
 }
 
-/* line 541, ../../sass/theme/style.scss */
+/* line 545, ../../sass/theme/style.scss */
 .citations p {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.75em;
   text-indent: -20px;
 }
-/* line 547, ../../sass/theme/style.scss */
+/* line 551, ../../sass/theme/style.scss */
 .citations .citations-back {
   font-weight: bold;
 }
-/* line 550, ../../sass/theme/style.scss */
+/* line 554, ../../sass/theme/style.scss */
 .citations .citations-back::after {
   background: None;
 }
 
-/* line 556, ../../sass/theme/style.scss */
+/* line 560, ../../sass/theme/style.scss */
 .nav_journals {
   display: flex;
   flex-direction: row;
   margin: 30px 12px;
 }
-/* line 561, ../../sass/theme/style.scss */
+/* line 565, ../../sass/theme/style.scss */
 .nav_journals .nav-journals__sub {
   flex-grow: 1;
 }
 
-/* line 566, ../../sass/theme/style.scss */
+/* line 570, ../../sass/theme/style.scss */
 .stats {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -587,32 +591,32 @@ ol {
   padding: 30px;
   margin: 30px 0 20px;
 }
-/* line 576, ../../sass/theme/style.scss */
+/* line 580, ../../sass/theme/style.scss */
 .stats ol {
   margin: 0 0 0 -20px;
 }
-/* line 579, ../../sass/theme/style.scss */
+/* line 583, ../../sass/theme/style.scss */
 .stats ol li {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
   margin: 0;
 }
-/* line 586, ../../sass/theme/style.scss */
+/* line 590, ../../sass/theme/style.scss */
 .stats hr.--small {
   margin: 20px auto 10px;
 }
 @media screen and (min-width: 800px) {
-  /* line 566, ../../sass/theme/style.scss */
+  /* line 570, ../../sass/theme/style.scss */
   .stats {
     font-size: 0.9375em;
     margin: 30px 5%;
     width: 90%;
   }
-  /* line 595, ../../sass/theme/style.scss */
+  /* line 599, ../../sass/theme/style.scss */
   .stats ol {
     margin: 10px 0 0 -10px;
   }
-  /* line 598, ../../sass/theme/style.scss */
+  /* line 602, ../../sass/theme/style.scss */
   .stats ol li {
     font-size: 1em;
   }
@@ -621,31 +625,31 @@ ol {
 /*------------------------------------*\
     #Mailing List
 \*------------------------------------*/
-/* line 609, ../../sass/theme/style.scss */
+/* line 613, ../../sass/theme/style.scss */
 .mailinglist {
   margin: 0 auto;
   max-width: 600px;
   padding: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 609, ../../sass/theme/style.scss */
+  /* line 613, ../../sass/theme/style.scss */
   .mailinglist {
     padding: 60px 30px;
   }
 }
 
-/* line 619, ../../sass/theme/style.scss */
+/* line 623, ../../sass/theme/style.scss */
 .mailinglist-nav {
   margin: 30px 0;
 }
 @media screen and (min-width: 800px) {
-  /* line 619, ../../sass/theme/style.scss */
+  /* line 623, ../../sass/theme/style.scss */
   .mailinglist-nav {
     margin-bottom: 60px 0;
   }
 }
 
-/* line 628, ../../sass/theme/style.scss */
+/* line 632, ../../sass/theme/style.scss */
 #mc-embedded-subscribe {
   background-color: #000;
   border: 0;
@@ -656,13 +660,13 @@ ol {
   width: 100%;
 }
 
-/* line 638, ../../sass/theme/style.scss */
+/* line 642, ../../sass/theme/style.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 10px 0 0;
 }
 
-/* line 643, ../../sass/theme/style.scss */
+/* line 647, ../../sass/theme/style.scss */
 #mc_embed_signup {
   margin: 30px auto;
   max-width: 400px;

@@ -509,9 +509,13 @@ ol {
 	max-width: 600px;
 	padding: 30px;
 
+	.time {
+		margin: 5px 0 30px;
+	}
+
 	@include at-query($one) {
 		padding: 100px 0;
-
+		
 		p {
 			font-size: em(17px);
 			line-height: 1.8;
@@ -524,7 +528,7 @@ ol {
 		}
 
 		.time {
-			margin-bottom: 60px;
+			margin: 10px 0 60px;
 		}
 	}
 }
