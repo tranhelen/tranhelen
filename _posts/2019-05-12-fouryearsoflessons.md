@@ -2,12 +2,12 @@
 layout: post
 title: Four Years of Lessons
 date: 2019-05-12
-excerpt: I've had the wind knocked out of me twice in a month and am still gathering myself together. As a permissive move for myself, I have gathered past journals and resurfaced my learned...
+excerpt: I've had the wind knocked out of me twice in a month and am still gathering myself together. As a permissive move for myself, in avoidance of my publishing schedule, I have gathered past journals...
 ---
 
-I've had the wind knocked out of me twice in a month and am still gathering myself together. As a permissive move for myself, I have gathered past journals and resurfaced my learned lessons from the last four years. I never published 2018.
+I've had the wind knocked out of me twice in a month and am still gathering myself together. As a permissive move for myself, in avoidance of my publishing schedule, I have gathered past journals and resurfaced my learned lessons from the last four years.
 
-It's a filler episode this week with a bonus scene. _Who doesn't love a filler?_
+2018 was never published so that's your bonus. A filler episode with a bonus scene? Now, wouldn't love that?
 
 <hr class="--small">
 
@@ -60,14 +60,13 @@ It's a filler episode this week with a bonus scene. _Who doesn't love a filler?_
 
 ## 2018 - The Year of Refilling
 
-1. Don't trust all ground.
-2. All things take longer than expected.
-3. Staying home brings its own rewards.
-4. Carry only your own problems.
-5. Your time is yours.
-6. Say 'no' more and as kindly as you can.
-7. Mindless travelling is mindless.
-8. Live football games are awesome.
+1. All things take longer than expected.
+2. Staying home brings its own rewards.
+3. Carry only your own problems.
+4. Your time is yours.
+5. Say 'no' more and as kindly as you can.
+6. Mindless travelling is mindless.
+7. Live football games are awesome.
 
 <hr class="--small">
 
