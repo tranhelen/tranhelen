@@ -510,8 +510,12 @@ ol {
 
 .post-container {
 	margin: 0 auto 30px;
-	max-width: 600px;
+	max-width: 660px;
 	padding: 30px;
+	
+	h2, h3 {
+		margin: 45px 0 30px;
+	}
 
 	figcaption {
 		border: 1px solid #e7e7e7;
