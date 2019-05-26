@@ -9,6 +9,6 @@ I've been forming links in an unstructured manner about the following trends. Un
 
 - There is a lack-of-leadership crisis across all industries and across the world.
 - Taste will become as valuable as creativity, as output becomes increasingly more homogenous.
-- An overemphasis on technology means an underemphasis on spirituality, which we sorely need now more than ever.
+- An overemphasis on technology means an underemphasis on spirituality which is creating a lot of anxiety, depression, and overall isolation.
 
 I occasionally think all this cynicism is from working in a largely toxic industry but my non-techy friends tell me stories of this happening outside too. I felt obligated to type that.
