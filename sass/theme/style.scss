@@ -280,6 +280,17 @@ ul {
 }
 
 ol {
+	&.no-number {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style-type: none;
+		}
+	}
+}
+
+ol {
 	margin-left: -40px;
 }
 
@@ -554,7 +565,7 @@ ol {
 
 		ul li,
 		ol li {
-			font-size: em(18px);
+			font-size: inherit;
 		}
 
 		.time {
@@ -615,6 +626,10 @@ ol {
 			font-size: em(14px);
 			margin: 0;
 		}
+
+		&.no-number {
+			margin: 0 0 0 0;
+		}
 	}
 
 	hr.--small {
@@ -631,6 +646,10 @@ ol {
 
 			li {
 				font-size: em(16px);
+			}
+
+			&.no-number {
+				margin: 10px 0 0;
 			}
 		}
 	}
