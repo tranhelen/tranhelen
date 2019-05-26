@@ -123,7 +123,7 @@ The point of this is not to say we should never have constraints in software des
 
 You could say that art is always a conversation between society and the creator–there's no way to produce without some sort of frame. But I think this is an apathetic approach to it: we can change how freeing or constraining interfaces can be.
 
-I want everyone to own their piece.
+Everyone should own their point of view without hindrance. I think the internet would be better off for it.
 
 <hr class="--small">
 
