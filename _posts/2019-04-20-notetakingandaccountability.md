@@ -71,7 +71,7 @@ When it's written out–dare I say–things become _easy_. The baked in assumpti
 
 It's simple. It's boring. It works.
 
-<hr class="--small" />
+<hr class="--end">
 
 <div class="citations">
     <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> "This sounds like the design process!" you exclaim. Yes, it is that too, although I don't think many teams do enough note-taking.</p>

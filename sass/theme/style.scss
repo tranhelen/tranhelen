@@ -233,16 +233,25 @@ figure {
 }
 
 hr {
+	margin: 20px auto 30px;
+
+	@include at-query($one) {
+		margin: 50px auto 60px;
+	}
+
 	&.--small {
 		border: 0;
 		background-color: $colorAccent;
-		height: 5px;
-		margin: 20px auto 30px;
-		width: 30px;
+		border-radius: 999px;
+		height: 6px;
+		width: 6px;
+	}
 
-		@include at-query($one) {
-			margin: 50px auto 60px;
-		}
+	&.--end {
+		border: 0;
+		background-color: $colorAccent;
+		height: 3px;
+		width: 100%;
 	}
 }
 

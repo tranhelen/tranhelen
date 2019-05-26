@@ -25,7 +25,7 @@ If your product is not in front of someone and evolving, aesthetically pleasing 
 
 _Aesthetics_ should be baked in to something which is _intentionally built_. That is as far as those two topics go. Design as a whole requires you to do work though and that work is **collecting evidence of usage**.
 
-<hr class="--small" />
+<hr class="--end">
 
 <div class="citations">
     <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Jen, Natasha. "<em>Design Thinking is Bullshit.</em>" 99U, 7 Jun. 2017, <a href="https://99u.adobe.com/videos/55967/natasha-jen-design-thinking-is-bullshit">99u.adobe.com</a>. </p>

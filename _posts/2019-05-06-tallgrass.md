@@ -92,7 +92,7 @@ This past week I've refined my playbook to look something like this:
 
 I think that just about covers it.
 
-<hr class="--small">
+<hr class="--end">
 
 <div class="citations">
     <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Hamel, Gary. Parhalad, C.K.. "<em>Strategic Intent.</em>" Harvest Business Review, Jul. 2005, <a href="https://hbr.org/2005/07/strategic-intent">hbr.org</a>. </p>

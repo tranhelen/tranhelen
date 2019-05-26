@@ -33,7 +33,7 @@ We had long discussions about the consequences of distributed vs local vs both a
 
 This non-decision is now under the category labelled as, "Likely Doesn't Matter." You can't know for sure so you work with what you have, go in with eyes wide open, and you'll learn the hard way if it's wrong soon enough.
 
-<hr class="--small" />
+<hr class="--end">
 
 <div class="citations">
     <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Duhigg, Charles. (2016, Feb 25). <em>What Google Learned From Its Quest to Build the Perfect Team.</em> Retrieved from <a href="https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">nytimes.com</a> </p>

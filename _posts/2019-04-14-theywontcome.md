@@ -36,7 +36,7 @@ They didn't "come" in the magical sort of way entrepreneur-optimism wants but th
 
 > As you build it, tell people to come.
 
-<hr class="--small" />
+<hr class="--end">
 
 <div class="citations">
     <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Usage of the word 'Lead' here is a bit undefined. We do not know how qualified they are yet.</p>

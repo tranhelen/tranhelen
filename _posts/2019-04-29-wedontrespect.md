@@ -57,7 +57,7 @@ I, myself, had done a very good job at going deeper than most but not going deep
 
 In the past few years I have pushed myself further and further into discomfort. I am determined for the next phase of my life to reflect my commitment. It's not for the respect of an old dream-man named Art, though, it's for me: _I_ don't want to live a life of a dilettante.
 
-<hr class="--small" />
+<hr class="--end">
 
 <div class="citations">
     <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Let's not even get into Malcolm Gladwell misinterpreting the 10,000 hours study itself... something acknowledged by the author of the paper, Anders Ericsson.</p>
