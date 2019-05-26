@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Responsive Content Display
-date: 2019-05-25
+title: Progressive Productivity
+date: 2019-06-02
 excerpt: Creating things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering...
 ---
 
@@ -123,7 +123,7 @@ The point of this is not to say we should never have constraints in software des
 
 You could say that art is always a conversation between society and the creator–there's no way to produce without some sort of frame. But I think this is an apathetic approach to it: we can change how freeing or constraining interfaces can be.
 
-I want everyone to own their piece.
+This is a really long way to conclude that I need to redesign this journal into a real one at some point.
 
 <hr class="--small">
 
