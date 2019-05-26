@@ -526,6 +526,19 @@ ol {
   padding: 30px;
 }
 /* line 516, ../../sass/theme/style.scss */
+.post-container figcaption {
+  border: 1px solid #e7e7e7;
+  border-width: 1px 0;
+  margin-top: 15px;
+  padding: 8px 0;
+}
+/* line 522, ../../sass/theme/style.scss */
+.post-container figcaption p {
+  font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.75em !important;
+  margin: 0;
+}
+/* line 529, ../../sass/theme/style.scss */
 .post-container .time {
   margin: 5px 0 30px;
 }
@@ -534,59 +547,59 @@ ol {
   .post-container {
     padding: 100px 0;
   }
-  /* line 523, ../../sass/theme/style.scss */
+  /* line 536, ../../sass/theme/style.scss */
   .post-container p {
     font-size: 1.125em;
     line-height: 1.8;
     margin-bottom: 15px;
   }
-  /* line 529, ../../sass/theme/style.scss */
+  /* line 542, ../../sass/theme/style.scss */
   .post-container ul li,
   .post-container ol li {
     font-size: 1.125em;
   }
-  /* line 534, ../../sass/theme/style.scss */
+  /* line 547, ../../sass/theme/style.scss */
   .post-container .time {
     margin: 10px 0 60px;
   }
 }
 
-/* line 540, ../../sass/theme/style.scss */
+/* line 553, ../../sass/theme/style.scss */
 .cite {
   font-style: italic;
 }
-/* line 543, ../../sass/theme/style.scss */
+/* line 556, ../../sass/theme/style.scss */
 .cite a::after {
   background: none;
 }
 
-/* line 549, ../../sass/theme/style.scss */
+/* line 562, ../../sass/theme/style.scss */
 .citations p {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.75em;
   text-indent: -20px;
 }
-/* line 555, ../../sass/theme/style.scss */
+/* line 568, ../../sass/theme/style.scss */
 .citations .citations-back {
   font-weight: bold;
 }
-/* line 558, ../../sass/theme/style.scss */
+/* line 571, ../../sass/theme/style.scss */
 .citations .citations-back::after {
   background: None;
 }
 
-/* line 564, ../../sass/theme/style.scss */
+/* line 577, ../../sass/theme/style.scss */
 .nav_journals {
   display: flex;
   flex-direction: row;
   margin: 30px 12px;
 }
-/* line 569, ../../sass/theme/style.scss */
+/* line 582, ../../sass/theme/style.scss */
 .nav_journals .nav-journals__sub {
   flex-grow: 1;
 }
 
-/* line 574, ../../sass/theme/style.scss */
+/* line 587, ../../sass/theme/style.scss */
 .stats {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
@@ -595,32 +608,32 @@ ol {
   padding: 30px;
   margin: 30px 0 20px;
 }
-/* line 584, ../../sass/theme/style.scss */
+/* line 597, ../../sass/theme/style.scss */
 .stats ol {
   margin: 0 0 0 -20px;
 }
-/* line 587, ../../sass/theme/style.scss */
+/* line 600, ../../sass/theme/style.scss */
 .stats ol li {
   font-family: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.875em;
   margin: 0;
 }
-/* line 594, ../../sass/theme/style.scss */
+/* line 607, ../../sass/theme/style.scss */
 .stats hr.--small {
   margin: 20px auto 10px;
 }
 @media screen and (min-width: 800px) {
-  /* line 574, ../../sass/theme/style.scss */
+  /* line 587, ../../sass/theme/style.scss */
   .stats {
     font-size: 0.9375em;
     margin: 30px 5%;
     width: 90%;
   }
-  /* line 603, ../../sass/theme/style.scss */
+  /* line 616, ../../sass/theme/style.scss */
   .stats ol {
     margin: 10px 0 0 -10px;
   }
-  /* line 606, ../../sass/theme/style.scss */
+  /* line 619, ../../sass/theme/style.scss */
   .stats ol li {
     font-size: 1em;
   }
@@ -629,31 +642,31 @@ ol {
 /*------------------------------------*\
     #Mailing List
 \*------------------------------------*/
-/* line 617, ../../sass/theme/style.scss */
+/* line 630, ../../sass/theme/style.scss */
 .mailinglist {
   margin: 0 auto;
   max-width: 600px;
   padding: 30px;
 }
 @media screen and (min-width: 800px) {
-  /* line 617, ../../sass/theme/style.scss */
+  /* line 630, ../../sass/theme/style.scss */
   .mailinglist {
     padding: 60px 30px;
   }
 }
 
-/* line 627, ../../sass/theme/style.scss */
+/* line 640, ../../sass/theme/style.scss */
 .mailinglist-nav {
   margin: 30px 0;
 }
 @media screen and (min-width: 800px) {
-  /* line 627, ../../sass/theme/style.scss */
+  /* line 640, ../../sass/theme/style.scss */
   .mailinglist-nav {
     margin-bottom: 60px 0;
   }
 }
 
-/* line 636, ../../sass/theme/style.scss */
+/* line 649, ../../sass/theme/style.scss */
 #mc-embedded-subscribe {
   background-color: #000;
   border: 0;
@@ -664,13 +677,13 @@ ol {
   width: 100%;
 }
 
-/* line 646, ../../sass/theme/style.scss */
+/* line 659, ../../sass/theme/style.scss */
 #mce-success-response,
 #mce-error-response {
   margin: 10px 0 0;
 }
 
-/* line 651, ../../sass/theme/style.scss */
+/* line 664, ../../sass/theme/style.scss */
 #mc_embed_signup {
   margin: 30px auto;
   max-width: 400px;

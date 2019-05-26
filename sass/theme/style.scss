@@ -513,6 +513,19 @@ ol {
 	max-width: 600px;
 	padding: 30px;
 
+	figcaption {
+		border: 1px solid #e7e7e7;
+		border-width: 1px 0;
+		margin-top: 15px;
+		padding: 8px 0;
+	
+		p {
+			font-family: $stack3;
+			font-size: em(12px)!important;
+			margin: 0;
+		}
+	}
+	
 	.time {
 		margin: 5px 0 30px;
 	}

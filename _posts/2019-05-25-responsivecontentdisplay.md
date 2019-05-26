@@ -16,7 +16,7 @@ Last week I published [this post](http://helentran.com/trendsinbulletpoints) and
 <table class="stats">
 <tr>
     <td>> It's just a journal. Post it.<br />
-        But it feels insignificant.<br />
+        But, it feels insignificant.<br />
         > Journal, though.<br />
         Should I write something more... important?<br />
         > You're not NPR.
