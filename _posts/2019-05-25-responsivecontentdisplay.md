@@ -88,7 +88,7 @@ Let's pause this line of thought and take a look at something in Paris.
 Have you heard of the Musée de l'Orangerie? The musuem houses eight paintings from Claude Monet's famous Water Lilies collection, known as the Nymphéas. Paintings from this collection are on display all over the world but this particular exhibit is special: it was custom-made for the work.
 
 <figure>
-    <img src="/img/posts/052519-monet.jpg" alt="Explanation of responsive content display with ducks">
+    <img src="/img/posts/052519-monet.jpg" alt="Picture of Water Lillies collection in Paris">
 </figure>
 
 Monet worked with the head architect of the Louvre, Camille Lefèvre, to create a place for these canvases: natural light, plain walls, and sparse interior decoration. The work informed the space.
@@ -100,13 +100,13 @@ This musuem is what I think about when I see creative work displayed on the inte
 ## Responsive Content Display
 
 <figure>
-    <img src="/img/posts/052519-ducks1.jpg" alt="Explanation of responsive content display with ducks">
+    <img src="/img/posts/052519-ducks1.jpg" alt="Explanation of responsive content display with duck pictures">
 </figure>
 
 When Responsive Design was introduced, the idea was rooted in design serving its content<span class="cite"><a href="#note-1" name="back-1">*</a></span> except I'm not sure if we've pulled it all the way through. The browser window is changing for the device but the way the information is inputted and what happens during the output is not.
 
 <figure>
-    <img src="/img/posts/052519-ducks2.jpg" alt="Explanation of responsive content display with ducks, part 2">
+    <img src="/img/posts/052519-ducks2.jpg" alt="Explanation of responsive content display with duck pictures, part 2">
 </figure>
 
 Content is now filtered through something else: the designer of the software. It's a lot like how websites used to be way back when developers created the majority of things:
@@ -123,7 +123,7 @@ The point of this is not to say we should never have constraints in software des
 
 You could say that art has always a conversation between society and the creator–there's no way to produce without some sort of frame. But I think this is an apathetic approach to it: we can change how freeing or constraining interfaces can be.
 
-Everyone should own their point of view without a forced collaboration. We'll get more out of it.
+Everyone should own their point of view without a forced collaboration. We'd get more out of it.
 
 <hr class="--small">
 
