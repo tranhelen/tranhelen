@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Responsive Content Display
-date: 2019-05-19
-excerpt: I've been forming links in an unstructured manner about the following trends. Until I can articulate them better, I'm putting a pin in the following thoughts...
+date: 2019-05-25
+excerpt: Creating things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering...
 ---
 
 Creating things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering question which has never been addressed.
