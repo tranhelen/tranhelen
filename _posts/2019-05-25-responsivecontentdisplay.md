@@ -43,7 +43,7 @@ Take a look at Instagram as an example. The square photo restriction felt like i
 
 Although more photographic ratios are allowed now, there remains a couple which aren't, and so we're still making concessions.
 
-If you're a photographer who wants prints than we're talking about cropping an image twice for display–once for print, once for the 'gram. Or maybe you never print. Maybe you just do it for Instagram. That feels strange to me.
+If you're a photographer who wants prints than we're talking about cropping an image twice for display–once for print, once for the 'gram. Or maybe you never print. Maybe you just do it for 'gram. That feels strange to me.
 
 ### Other Blogs Have This Issue
 
@@ -54,9 +54,9 @@ If you're a photographer who wants prints than we're talking about cropping an i
     </figcaption>
 </figure>
 
-I've long desired to do something like this on my .com yet the further along I go, the less appropriate it feels. When I look at it in-context of Rands' website, it feels _right_ for a journal to have a link out like this. On my own .com: my frame doesn't allow for that sort of note-keeping.
+Rands' blog has something like this: links out to other websites with a relevant quote. I've long desired to do something like this yet the further along I go, the less appropriate it feels. When I look at it in-context of his website, it feels _right_ for a journal to have this. My frame doesn't allow for that sort of note-keeping though.
 
-Medium runs into this display problem, manifested in a different way, as their display forces amateur (or comedic) writers to deal with the perception of being either _too serious_ or _not serious enough_.
+Medium runs into this content display problem, manifested in a different way, as their display forces amateur (or comedic) writers to deal with the perception of being either _too serious_ or _not serious enough_. I have a theory it is because of the aesthetics: too much elevation changes the perception of the content.
 
 <figure>
     <img src="/img/posts/052519-burrito.jpg" alt="Screenshot of a Medium article">
@@ -71,31 +71,29 @@ Do you think this encourages _more_ burrito work or _less_?
 
 ### Feels Late to Compliment Tumblr
 
-I had no idea what was going on in Tumblr anymore but had good memories of it. So, I rejoined to capture this screenshot of the Recommendations tab:
+I had no idea what was going on in Tumblr anymore but had good memories of it. I rejoined to capture this screenshot of the Recommendations tab:
 
 <figure>
     <img src="/img/posts/052519-tumblr.jpg" alt="Screenshot of Tumblr recommendations tab">
 </figure>
 
-Tumblr isn't frame-free but it's the closest we have been in non-creator-originated-displays. The content simply exists. It doesn't look like it was filtered on its way out. In its chaos, it's more creative.
+Tumblr isn't frame-free but it's the closest we have been in non-creator-originated-displays. The content simply exists. It doesn't look like it was filtered on its way out. In its chaos, it allows for more creativity.
 
-Let's move our minds outside of the digital world for a second. If we're going to understand anything about creation display, maybe a great place to go would be Paris.
+Let's pause this line of thought and take a look at something in Paris.
 
 <hr class="--small">
 
 ## Water Lilies
 
+Have you heard of the Musée de l'Orangerie? The musuem houses eight paintings from Claude Monet's famous Water Lilies collection, known as the Nymphéas. Paintings from this collection are on display all over the world but this particular exhibit is special: it was custom-made for the work.
+
 <figure>
     <img src="/img/posts/052519-monet.jpg" alt="Explanation of responsive content display with ducks">
 </figure>
 
-This is Musée de l'Orangerie. The musuem houses eight paintings from Claude Monet's famous Water Lilies collection, known as the Nymphéas. Paintings from this collection are on display all over the world but this particular exhibit is special: it was custom-made for the work.
-
 Monet worked with the head architect of the Louvre, Camille Lefèvre, to create a place for these canvases: natural light, plain walls, and sparse interior decoration. The work informed the space.
 
-This musuem is what I think about when I see creative work on the internet. I want it to feel the same but it doesn't. I can't stop thinking about the frames.
-
-Let's head back to our computers.
+This musuem is what I think about when I see creative work displayed on the internet. I want the internet to feel the same as this musuem but it doesn't. I can't stop thinking seeing the frames.
 
 <hr class="--small">
 
@@ -115,15 +113,17 @@ Content is now filtered through something else: the designer of the software. It
 
 > Oh, it says it needs to be a 1:1 JPG. No... wait, 1:1 JPG under 10MB. Does this work? No... what about this?
 
+Everything is now a collaboration.
+
 <hr class="--small">
 
 ## The Filtration
 
-The point of this is not to say we should never have constraints in software design but to highlight how a software designer (with another point of view) can change what a creator produces. The expression is filtered.
+The point of this is not to say we should never have constraints in software design but to highlight how a software designer (with another point of view) can change what a creator produces.
 
-You could say that art is always a conversation between society and the creator–there's no way to produce without some sort of frame. But I think this is an apathetic approach to it: we can change how freeing or constraining interfaces can be.
+You could say that art has always a conversation between society and the creator–there's no way to produce without some sort of frame. But I think this is an apathetic approach to it: we can change how freeing or constraining interfaces can be.
 
-Everyone should own their point of view without hindrance. I think the internet would be better off for it.
+Everyone should own their point of view without a forced collaboration. We'll get more out of it.
 
 <hr class="--small">
 
