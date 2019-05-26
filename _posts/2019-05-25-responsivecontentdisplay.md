@@ -2,10 +2,10 @@
 layout: post
 title: Responsive Content Display
 date: 2019-05-25
-excerpt: Creating things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering...
+excerpt: Diplaying created things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering...
 ---
 
-Creating things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering question which has never been addressed.
+Diplaying created things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering question which has never been addressed.
 
 > Why does it feel like I'm creating in a box?
 
@@ -28,7 +28,7 @@ My publication-fear was deeply rooted in how I chose to display my writing. I ha
 
 <hr class="--small">
 
-## Little Boxes on the Hillside
+## Frames
 
 Creating is very fragile. Everything you do and experience affects your output. Conscious or not, we're always looking at the frame which houses our work.
 
@@ -39,7 +39,7 @@ Creating is very fragile. Everything you do and experience affects your output. 
     </figcaption>
 </figure>
 
-Take Instagram as an example. The square photo restriction felt like it had a lot to do with the devices at the time. As time went on, users became more _aware_ of the frame and creative output was altered specifically because of the unique crop.
+Take a look at Instagram as an example. The square photo restriction felt like it had a lot to do with the devices at the time. As time went on, users became more _aware_ of the frame and creative output was altered specifically because of the unique crop.
 
 Although more photographic ratios are allowed now, there remains a couple which aren't, and so we're still making concessions.
 
