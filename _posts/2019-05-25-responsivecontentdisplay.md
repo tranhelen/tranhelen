@@ -93,9 +93,9 @@ This is Musée de l'Orangerie. The musuem houses eight paintings from Claude Mon
 
 Monet worked with the head architect of the Louvre, Camille Lefèvre, to create a place for these canvases: natural light, plain walls, and sparse interior decoration. The work informed the space.
 
-This is what I think about when I see creative work on the internet. I think about this musuem because I sat in that room once for hours. I know how it _feels_ and internet display is different. I can't stop thinking about the frames.
+This musuem is what I think about when I see creative work on the internet. I want it to feel the same but it doesn't. I can't stop thinking about the frames.
 
-Back to computers.
+Let's head back to our computers.
 
 <hr class="--small">
 
