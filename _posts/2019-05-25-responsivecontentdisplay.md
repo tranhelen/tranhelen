@@ -5,7 +5,7 @@ date: 2019-05-19
 excerpt: I've been forming links in an unstructured manner about the following trends. Until I can articulate them better, I'm putting a pin in the following thoughts...
 ---
 
-Creating things on the internet feels both freeing and limited. The tools I love are made by others and this seems misaligned with expression of oneself. I have a long-simmering feeling which has never been addressed.
+Creating things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering question which has never been addressed.
 
 > Why does it feel like I'm creating in a box?
 
@@ -24,9 +24,7 @@ Last week I published [this post](http://helentran.com/trendsinbulletpoints) and
 </tr>
 </table>
 
-My publication-fear was deeply rooted in how I chose to display my writing. I have a buried desire to publish my more thoughtful work so I designed with that ideal in mind.
-
-The consequence of doing caused me to feel trapped and I, very effectively, throttled my own creativity. What other boxes am I creating in?
+My publication-fear was deeply rooted in how I chose to display my writing. I have a buried desire to publish my more thoughtful work so I designed with that ideal in mind. The consequence of doing so made me to feel trapped and I, very effectively, throttled my own creativity.
 
 <hr class="--small">
 
@@ -45,7 +43,9 @@ Take Instagram as an example. The square photo restriction felt like it had a lo
 
 Although more photographic ratios are allowed now, there remains a couple which aren't, and so we're still making concessions.
 
-### Medium is Like This
+If you're a photographer who wants prints than we're talking about cropping an image twice for display–once for print, once for the 'gram. Or maybe you never print. Maybe you just do it for Instagram. That feels strange to me.
+
+### Other Blogs Have This Issue
 
 <figure>
     <img src="/img/posts/052519-rands.jpg" alt="Screenshot of Rands' website">
@@ -54,9 +54,9 @@ Although more photographic ratios are allowed now, there remains a couple which 
     </figcaption>
 </figure>
 
-I've long desired to do something like this on my .com yet the further along I go, the less appropriate it feels. When I look at it in-context of Rands' website, it feels _right_ for a journal to do this. On my own .com: my frame doesn't allow for that sort of note-keeping.
+I've long desired to do something like this on my .com yet the further along I go, the less appropriate it feels. When I look at it in-context of Rands' website, it feels _right_ for a journal to have a link out like this. On my own .com: my frame doesn't allow for that sort of note-keeping.
 
-Medium runs into this some display, manifested in a different way, as their display forces amateur (or comedic) writers to deal with the perception of being either _too serious_ or _not serious enough_.
+Medium runs into this display problem, manifested in a different way, as their display forces amateur (or comedic) writers to deal with the perception of being either _too serious_ or _not serious enough_.
 
 <figure>
     <img src="/img/posts/052519-burrito.jpg" alt="Screenshot of a Medium article">
@@ -65,7 +65,9 @@ Medium runs into this some display, manifested in a different way, as their disp
     </figcaption>
 </figure>
 
-The top comments indicate some level of expectation which were evidentally ever met and it's not clear why the expectation was held to begin with. Again, this isn't NPR. He's writing about a _burrito_.
+The top comments indicate some level of expectation which were evidentally never met and it's not clear why the expectation was held to begin with. Again, this isn't NPR. He's writing about a _burrito_.
+
+Do you think this encourages _more_ burrito work or _less_?
 
 ### Feels Late to Compliment Tumblr
 
@@ -75,7 +77,9 @@ I had no idea what was going on in Tumblr anymore but had good memories of it. S
     <img src="/img/posts/052519-tumblr.jpg" alt="Screenshot of Tumblr recommendations tab">
 </figure>
 
-Tumblr isn't frame-free but it's the closest we have been in designer-created software design. The content simply exists. It doesn't look like it was filtered on its way out. In its chaos, it's more creative.
+Tumblr isn't frame-free but it's the closest we have been in non-creator-originated-displays. The content simply exists. It doesn't look like it was filtered on its way out. In its chaos, it's more creative.
+
+Let's move our minds outside of the digital world for a second. If we're going to understand anything about creation display, maybe a great place to go would be Paris.
 
 <hr class="--small">
 
@@ -85,11 +89,13 @@ Tumblr isn't frame-free but it's the closest we have been in designer-created so
     <img src="/img/posts/052519-monet.jpg" alt="Explanation of responsive content display with ducks">
 </figure>
 
-This is Musée de l'Orangerie in Paris. The musuem houses eight paintings from Claude Monet's famous Water Lilies collection, known as the Nymphéas. Paintings from this collection are on display all over the world but this particular exhibit is special: it was custom-made.
+This is Musée de l'Orangerie. The musuem houses eight paintings from Claude Monet's famous Water Lilies collection, known as the Nymphéas. Paintings from this collection are on display all over the world but this particular exhibit is special: it was custom-made for the work.
 
 Monet worked with the head architect of the Louvre, Camille Lefèvre, to create a place for these canvases: natural light, plain walls, and sparse interior decoration. The work informed the space.
 
-This is often what I think about when I think about creative work on the internet. That, often, we have it backwards.
+This is what I think about when I see creative work on the internet. I think about this musuem because I sat in that room once for hours. I know how it _feels_ and internet creation is just a different feeling altogether.
+
+Back to computers.
 
 <hr class="--small">
 
@@ -99,23 +105,25 @@ This is often what I think about when I think about creative work on the interne
     <img src="/img/posts/052519-ducks1.jpg" alt="Explanation of responsive content display with ducks">
 </figure>
 
-When Responsive Design was introduced, the idea was rooted in design serving its content<span class="cite"><a href="#note-1" name="back-1">*</a></span> and I still don't know if we really learned the lesson. It feels a lot like we've made the _frame_ responsive yet have continued to design constraints.
+When Responsive Design was introduced, the idea was rooted in design serving its content<span class="cite"><a href="#note-1" name="back-1">*</a></span> except I'm not sure if we've pulled it all the way through. The browser window is changing for the device but the way the information is inputted and what happens during the output is not.
 
 <figure>
     <img src="/img/posts/052519-ducks2.jpg" alt="Explanation of responsive content display with ducks, part 2">
 </figure>
 
-The size of the box in which the outcome appears changes, but now it's occasionally filtered through something else: the Designers' imposed constraints.
+Content is now filtered through something else: the designer of the software. It's a lot like how websites used to be way back when developers created the majority of things:
+
+> Oh, it says it needs to be a 1:1 JPG. No... wait, 1:1 JPG under 10MB. Does this work? No... what about this?
 
 <hr class="--small">
 
 ## The Filtration
 
-The point of this is not to say we should never have constraints in creative work but to highlight how software design (someone else's point of view) changes what a creator produces. The expression is filtered.
+The point of this is not to say we should never have constraints in software design but to highlight how a software designer (with another point of view) can change what a creator produces. The expression is filtered.
 
-You could say that art is always a conversation between society and the creator–there's no way to produce without some sort of _frame_ or _box_. But I think this is an apathetic approach to it: we can change how freeing or constraining interfaces can be.
+You could say that art is always a conversation between society and the creator–there's no way to produce without some sort of frame. But I think this is an apathetic approach to it: we can change how freeing or constraining interfaces can be.
 
-I suppose at some point I should redesign this journal into a real one.
+This is a really long way to conclude that I need to redesign this journal into a real one at some point.
 
 <hr class="--small">
 
