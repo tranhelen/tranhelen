@@ -134,7 +134,7 @@ One day Jupiter will require me to break this to put in more hours and when that
 
     <p><a name="note-3" href="#back-3" class="citations-back">&#x21A9;</a> I've defined work as <em>deep work</em> which isn't all that easy. But, from the outside, looking at the hours I'm sure people get the impression that I don't work at all.</p>
 
-    <p><a name="note-4" href="#back-4" class="citations-back">&#x21A9;</a> 'Studying' is a catch-all term for my schooling and the reading I do for Jupiter. My role occasionally requires dipping into a couple of books here and there to round out my perspective. I consider that necessary for my work yet outside of the boundaries of practical activities.</p>
+    <p><a name="note-4" href="#back-4" class="citations-back">&#x21A9;</a> 'Studying' is a term for the reading I do for Jupiter. My role occasionally requires dipping into a couple of books here and there to round out my perspective. I consider that necessary for my work yet outside of the boundaries of practical activities.</p>
 
     <p><a name="note-5" href="#back-5" class="citations-back">&#x21A9;</a> 'Holiday time' is defined to me as: time away without my computer.</p>
 </div>
