@@ -77,7 +77,7 @@ I had no idea what was going on in Tumblr anymore but had good memories of it. I
     <img src="/img/posts/052519-tumblr.jpg" alt="Screenshot of Tumblr recommendations tab">
 </figure>
 
-Tumblr isn't frame-free but it's the closest we have been in non-creator-originated-displays. The content simply exists. It doesn't look like it was filtered on its way out. In its chaos, it allows for more creativity.
+Tumblr isn't frame-free but it's the closest we have been in non-creator-originated-displays. The content doesn't look like it was filtered on its way out. In its chaos, it allows for more creativity.
 
 Let's pause this line of thought and take a look at something in Paris.
 
@@ -93,7 +93,7 @@ Have you heard of the Musée de l'Orangerie? The musuem houses eight paintings f
 
 Monet worked with the head architect of the Louvre, Camille Lefèvre, to create a place for these canvases: natural light, plain walls, and sparse interior decoration. The work informed the space.
 
-This musuem is what I think about when I see creative work displayed on the internet. I want the internet to feel the same as this musuem but it doesn't. I can't stop thinking seeing the frames.
+This musuem is what I think about when I see creative work displayed on the internet. I want the internet to feel the same as this musuem but it doesn't. I can't stop  seeing the frames.
 
 <hr class="--small">
 
