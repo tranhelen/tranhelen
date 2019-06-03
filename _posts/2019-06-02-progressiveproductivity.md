@@ -66,9 +66,9 @@ New sticky note looked like this:
     <td><strong>Productivity Goal</strong>
     <br>
         <ol class="no-number">
-        <li>25 hrs, sans Slack</li>
-        <li>25 hrs, sans meetings</li>
-        <li>25 hrs, sans studying</li>
+        <li>[ x ] 25 hrs, sans Slack</li>
+        <li>[ ] 25 hrs, sans meetings</li>
+        <li>[ ] 25 hrs, sans studying</li>
         </ol>
     </td>
     <td><strong>Weeks</strong>
@@ -88,15 +88,13 @@ From here, RescueTime was asked to ignore more activities: Slack, any sort of me
     <td><strong>Productivity Goal</strong>
     <br>
         <ol class="no-number">
-        <li>30 hrs, deep work</li>
-        <li>32 hrs, deep work</li>
-        <li>32 hrs, deep work</li>
-        <li>32 hrs, deep work</li>
+        <li>[ ] 30 hrs, deep work</li>
+        <li>[ ] 32.5 hrs, deep work</li>
+        <li>[ ] 35 hrs, deep work</li>
         </ol>
     </td>
     <td><strong>Weeks</strong>
         <ol class="no-number">
-        <li>[ x ][ x ][ x ][ x ]</li>
         <li>[ x ][ x ][ x ][ x ]</li>
         <li>[ x ][ x ][ x ][ x ]</li>
         <li>[ x ][ x ][ x ][ x ]</li>
