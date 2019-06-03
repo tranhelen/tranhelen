@@ -88,9 +88,9 @@ From here, RescueTime was asked to ignore more activities: Slack, any sort of me
     <td><strong>Productivity Goal</strong>
     <br>
         <ol class="no-number">
-        <li>[ ] 30 hrs, deep work</li>
-        <li>[ ] 32.5 hrs, deep work</li>
-        <li>[ ] 35 hrs, deep work</li>
+        <li>[ x ] 30 hrs, deep work</li>
+        <li>[ x ] 32.5 hrs, deep work</li>
+        <li>[ x ] 35 hrs, deep work</li>
         </ol>
     </td>
     <td><strong>Weeks</strong>
