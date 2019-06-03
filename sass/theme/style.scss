@@ -557,15 +557,12 @@ ol {
 	@include at-query($one) {
 		padding: 100px 0;
 
-		p {
+		p,
+		ul li p,
+		ol li p {
 			font-size: em(18px);
 			line-height: 1.8;
 			margin-bottom: 15px;
-		}
-
-		ul li,
-		ol li {
-			font-size: em(18px);
 		}
 
 		.time {
@@ -575,7 +572,13 @@ ol {
 }
 
 .cite {
-	font-style: italic;
+	font-family: $stack3;
+
+	a {
+		font-size: em(12px);
+		text-decoration: none;
+		vertical-align: super;
+	}
 
 	a::after {
 		background: none;	
@@ -586,11 +589,19 @@ ol {
 	p {
 		font-family: $stack3;
 		font-size: em(12px);
-		text-indent: -20px;
+		text-indent: -33px;
+		
+		a { 
+			font-family: inherit;
+			font-size: inherit;
+		}
 	}
 
 	.citations-back {
 		font-weight: bold;
+		position: relative;
+			top: 2px;
+		text-decoration: none;
 
 		&::after {
 			background: None;
