@@ -73,7 +73,7 @@ New sticky note looked like this:
     </td>
     <td><strong>Weeks</strong>
         <ol class="no-number">
-        <li>[ ][ ][ ][ ]</li>
+        <li>[ x ][ x ][ x ][ x ]</li>
         <li>[ ][ ][ ][ ]</li>
         <li>[ ][ ][ ][ ]</li>
         </ol>
@@ -81,9 +81,7 @@ New sticky note looked like this:
 </tr>
 </table>
 
-In this phase I started asking RescueTime to ignore more things: Slack, any sort of meetings on Hangouts or Slack, and my studying.<span class="cite"><a href="#note-5" name="back-5">5</a></span>
-
-Once that was completed I ramped up on time:
+From here, RescueTime was asked to ignore more activities: Slack, any sort of meetings on Hangouts or Slack, and my studying.<span class="cite"><a href="#note-5" name="back-5">5</a></span> Once that was completed I ramped up on time:
 
 <table class="stats">
 <tr>
@@ -99,9 +97,9 @@ Once that was completed I ramped up on time:
     <td><strong>Weeks</strong>
         <ol class="no-number">
         <li>[ x ][ x ][ x ][ x ]</li>
-        <li>[ ][ ][ ][ ]</li>
-        <li>[ ][ ][ ][ ]</li>
-        <li>[ ][ ][ ][ ]</li>
+        <li>[ x ][ x ][ x ][ x ]</li>
+        <li>[ x ][ x ][ x ][ x ]</li>
+        <li>[ x ][ x ][ x ][ x ]</li>
         </ol>
     </td>
 </tr>
@@ -111,15 +109,15 @@ The plan was realized months ago and I've since remained at the last stage. I'm 
 
 ### Vacation
 
-Something this schedule doesn't accommodate for at all is vacation days. This is by design and may change in the future: I don't have any because it was designed so I would be relaxed.
+Something this schedule doesn't accommodate for is vacation. This is by design and may change in the future: I don't have any because it was designed so I would be relaxed.
 
-I work very inconsistent hours–sometimes eight to ten hours at once, sometimes a few hours with breaks in-between. Allowing for this keeps me quite rested and I tend to overwork my hours. At the end of the month, if I work past my goal hours I decide if I want to 'bank it' to accrue holiday time.<span class="cite"><a href="#note-6" name="back-6">6</a></span> Sometimes I don't bank it at all. 
+I work very inconsistent hours–sometimes eight to ten hours at once, sometimes a few hours with breaks in-between. This schedule keeps me well-rested and I tend to overwork my hours anyway. At the end of the month, if I work past my goal hours I decide if I want to 'bank it' to accrue holiday time.<span class="cite"><a href="#note-6" name="back-6">6</a></span> Sometimes I don't bank it at all. 
 
 At the stage the company is in, I want to consistently be putting in hours. While I am absent some days I haven't really taken time off for quite awhile now.
 
 ## Results
 
-I'm the most productive _and_ calmest I've been in my career. I consider this of critical importance for my team: I handle a lot of the operations, marketing, and design. Allowing for founder burn-out would be reckless and irresponsible.
+I'm the most productive _and_ calmest I've been in my career. I consider this of critical importance for my team: I handle operations, marketing, and design. Allowing for founder burn-out would be reckless and irresponsible.
 
 One day Jupiter will require me to break this to put in more hours and when that day comes, I won't be running on empty. Ready to go.
 
