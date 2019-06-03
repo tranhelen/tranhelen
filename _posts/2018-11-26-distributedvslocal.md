@@ -11,7 +11,7 @@ Most of what I've read from tech workers who are pushing remote work (and my, do
 
 <hr class="--small" />
 
-Google's <span class="cite">Project Aristotle<a href="#note-1" name="back-1">*</a></span> studied high-performing teams in a quest to answer, "What makes a team effective at Google?" After looking at 180 teams studying variables like skill sets, emotional intelligence, and personality traits, they conclude what mattered most was psychological safety. I think about this study all the time.<span class="cite"><a href="#note-2" name="back-2">**</a></span>
+Google's <span class="cite">Project Aristotle<a href="#note-1" name="back-1">1</a></span> studied high-performing teams in a quest to answer, "What makes a team effective at Google?" After looking at 180 teams studying variables like skill sets, emotional intelligence, and personality traits, they conclude what mattered most was psychological safety. I think about this study all the time.<span class="cite"><a href="#note-2" name="back-2">2</a></span>
 
 Psychological safety requires a more than healthy amount of trust. It's impossible to make any hard conclusions on the best way to build it but one easy way is to continously see your coworker in a variety of situations to build a more rounded understanding of who they are. This is hard to do in a distributed model.
 
@@ -36,7 +36,7 @@ This non-decision is now under the category labelled as, "Likely Doesn't Matter.
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Duhigg, Charles. (2016, Feb 25). <em>What Google Learned From Its Quest to Build the Perfect Team.</em> Retrieved from <a href="https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">nytimes.com</a> </p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Duhigg, Charles. (2016, Feb 25). <em>What Google Learned From Its Quest to Build the Perfect Team.</em> Retrieved from <a href="https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">nytimes.com</a> </p>
 
-    <p><a name="note-2" href="#back-2" class="citations-back">&#x21A9;</a> The majority of this report doesn't speak to physical prescence being a factor to high-performing teams but my assumption here is that trust is highly affected by physical prescence.</p>
+    <p><a name="note-2" href="#back-2" class="citations-back">&#x21A9;</a> 2 The majority of this report doesn't speak to physical prescence being a factor to high-performing teams but my assumption here is that trust is highly affected by physical prescence.</p>
 </div>

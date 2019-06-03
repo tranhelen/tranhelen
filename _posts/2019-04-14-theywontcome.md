@@ -14,7 +14,7 @@ In the meantime, we've been building out an email list through a website, Instag
 <table class="stats">
 <tr>
     <td><strong>Leads</strong></td>
-    <td>1175<a href="#note-1" name="back-1">*</a></td>
+    <td>1175<span class="cite"><a href="#note-1" name="back-1">1</a></span></td>
 </tr>
 <tr>
     <td><strong>Facebook spend</strong></td>
@@ -39,5 +39,5 @@ They didn't "come" in the magical sort of way entrepreneur-optimism wants but th
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Usage of the word 'Lead' here is a bit undefined. We do not know how qualified they are yet.</p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Usage of the word 'Lead' here is a bit undefined. We do not know how qualified they are yet.</p>
 </div>

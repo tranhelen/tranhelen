@@ -15,7 +15,7 @@ Teach me the stories of Japan, _Harvest Business Review_.
 
 ## Competing Viewpoints
 
-After reading <span class="cite">"Strategic Intent,"<a href="#note-1" name="back-1">*</a></span>, I am noting HBR wants me to:
+After reading <span class="cite">"Strategic Intent,"<span class="cite"><a href="#note-1" name="back-1">1</a></span>, I am noting HBR wants me to:
 
 - Stop focusing on competitors
 - Emphasize organizational learning
@@ -95,7 +95,7 @@ I think that just about covers it.
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Hamel, Gary. Parhalad, C.K.. "<em>Strategic Intent.</em>" Harvest Business Review, Jul. 2005, <a href="https://hbr.org/2005/07/strategic-intent">hbr.org</a>. </p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Hamel, Gary. Parhalad, C.K.. "Strategic Intent." <em>Harvest Business Review</em>, Jul. 2005, <a href="https://hbr.org/2005/07/strategic-intent">hbr.org</a>. </p>
 </div>
 
 

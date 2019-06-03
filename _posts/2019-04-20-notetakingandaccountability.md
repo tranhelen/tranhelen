@@ -40,7 +40,7 @@ The brain is powerful and it's not into exerting itself beyond its perceived bou
 
 <hr class="--small" />
 
-This is nothing new–it's particularly popular in the entrepreneurial and goal-setting circles. Some people call them decision journals, scientists have their Scientific Process, and even the Navy Seals have their own: AARs (After Action Reviews).<a href="#note-1" name="back-1">*</a>
+This is nothing new–it's particularly popular in the entrepreneurial and goal-setting circles. Some people call them decision journals, scientists have their Scientific Process, and even the Navy Seals have their own: AARs (After Action Reviews).<span class="cite"><a href="#note-1" name="back-1">1</a></span>
 
 All my projects now start with a brief and end with a review:
 
@@ -74,5 +74,5 @@ It's simple. It's boring. It works.
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> "This sounds like the design process!" you exclaim. Yes, it is that too, although I don't think many teams do enough note-taking.</p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 "This sounds like the design process!" you exclaim. Yes, it is that too, although I don't think many teams do enough note-taking.</p>
 </div>

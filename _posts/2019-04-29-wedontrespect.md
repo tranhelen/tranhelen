@@ -29,7 +29,7 @@ Up until that point, my life was a series of deep obsessions yet I didn't feel s
 
 <hr class="--small" />
 
-True mastery is hard. It doesn't take a random 10,000 hours. It takes a _very specific_ 10,000 hours and even so, 10,000 hours is a _median_ not a rule.<a href="#note-1" name="back-1">*</a> You can be the person who takes 20,000 hours or 8000 hours and there's a statistically large possibility you aren't going to be the cream of the crop.
+True mastery is hard. It doesn't take a random 10,000 hours. It takes a _very specific_ 10,000 hours and even so, 10,000 hours is a _median_ not a rule.<span class="cite"><a href="#note-1" name="back-1">1</a></span> You can be the person who takes 20,000 hours or 8000 hours and there's a statistically large possibility you aren't going to be the cream of the crop.
 
 The 10,000 hours require you to pay attention to _how_ you learn. The harder the challenge, the more you learn. Except... we're wired to stay comfortable. People remain in the same spot for years in sports, academia, and in the professional realm.
 
@@ -60,5 +60,5 @@ In the past few years I have pushed myself further and further into discomfort. 
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Let's not even get into Malcolm Gladwell misinterpreting the 10,000 hours study itself... something acknowledged by the author of the paper, Anders Ericsson.</p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Let's not even get into Malcolm Gladwell misinterpreting the 10,000 hours study itself... something acknowledged by the author of the paper, Anders Ericsson.</p>
 </div>

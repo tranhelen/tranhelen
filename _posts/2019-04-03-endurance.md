@@ -5,7 +5,7 @@ date: 2019-04-03
 excerpt: Natasha Jen spoke at 99U Conference in 2017 about design thinking in her talk titled,
 ---
 
-Natasha Jen spoke at 99U Conference in 2017 about design thinking in her talk titled, <span class="cite">"Design Thinking is Bullshit,"<a href="#note-1" name="back-1">*</a></span> and I have thought on and off about this for quite some time. Her title and introduction buries her lead: real designers surround themselves with evidence.
+Natasha Jen spoke at 99U Conference in 2017 about design thinking in her talk titled, <span class="cite">"Design Thinking is Bullshit,"<a href="#note-1" name="back-1">1</a></span> and I have thought on and off about this for quite some time. Her title and introduction buries her lead: real designers surround themselves with evidence.
 
 <figure class="journal__image">
     <img src="/img/posts/040319-natasha.jpg" alt="Picture of Natasha speaking" />
@@ -28,5 +28,5 @@ _Aesthetics_ should be baked in to something which is _intentionally built_. Tha
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Jen, Natasha. "<em>Design Thinking is Bullshit.</em>" 99U, 7 Jun. 2017, <a href="https://99u.adobe.com/videos/55967/natasha-jen-design-thinking-is-bullshit">99u.adobe.com</a>. </p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Jen, Natasha. "<em>Design Thinking is Bullshit.</em>" 99U, 7 Jun. 2017, <a href="https://99u.adobe.com/videos/55967/natasha-jen-design-thinking-is-bullshit">99u.adobe.com</a>. </p>
 </div>

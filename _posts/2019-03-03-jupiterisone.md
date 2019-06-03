@@ -7,9 +7,11 @@ excerpt: On March 1st, Rich and I celebrated the one year anniversary of incorpo
 
 On March 1st, Rich and I celebrated the one year anniversary of incorporating Jupiter. Over the course of the year we have:
 
-- Built a 50% feature complete product (aiming for Minimum Lovable Product, or what we refer to as MLP)
-- Run a successful hiring campaign, leading us to two (awesome) developers
-- Grown a list of ~1000 people waiting for launch, but for now, are beta testing with ~130 active users
+<ul>
+    <li><p>Built a 50% feature complete product (aiming for Minimum Lovable Product, or what we refer to as MLP)</p></li>
+    <li><p>Run a successful hiring campaign, leading us to two (awesome) developers</p></li>
+    <li><p>Grown a list of ~1000 people waiting for launch, but for now, are beta testing with ~130 active users</p></li>
+</ul>
 
 I had all intentions going in to better document our journey along the way. Once in the hamster wheel though, it became difficult to understand which decisions were private and/or inconsequential.
 
@@ -22,10 +24,13 @@ It's been a year now and this moment is worthy of a check-in. Some acknowledgeme
 I leaned on a lot of what I learned at Shopify about hiring. We pooled candidates, reached out to heads of bootcamps and schools, promoted it on every (free) network we could, and spent four weeks going through every application.
 
 Our results are as follows:
-- ~400 total applicants
-- ~30 applicants were interviewed
-- Various skill levels from new to extremely experienced
-- Hired three with two joining the team
+
+<ul>
+    <li><p>~400 total applicants</p></li>
+    <li><p>~30 applicants were interviewed</p></li>
+    <li><p>Various skill levels from new to extremely experienced</p></li>
+    <li><p>Hired three with two joining the team</p></li>
+</ul>
 
 We intend to keep much of the process the same next time except do it over an extended period of time (purely for exhaustion reasons). We made our first mistake here with hiring because we didn't fully understand how much it cost to onboard someone.
 

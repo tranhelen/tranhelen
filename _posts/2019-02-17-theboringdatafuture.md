@@ -10,7 +10,7 @@ Things you never knew you didn't want:
 - A smart mirror which tells you your face has wrinkles
 - A facial toning device which identifies which area of your face is sagging faster
 
-These are all real products which hit the floor at CES in 2017. In a <span class="cite">Verge article about beauty tech<a href="#note-1" name="back-1">*</a></span>, one of the writers says,
+These are all real products which hit the floor at CES in 2017. In a <span class="cite">Verge article about beauty tech<a href="#note-1" name="back-1">1</a></span>, one of the writers says,
 
 > ... all this thing does is give me data that produces more work.
 
@@ -32,7 +32,7 @@ I'm skeptical.
 
 > "If I knew X, what happens after?"
 
-When information was scarce and every piece of information which came through was stronger than the emptiness around it, it made sense to grab more data. With the world's knowledge base at our fingertips, this no longer brings value. We need curators (influencers) and analysts (recommendation engines)<span class="cite"><a href="#note-2" name="back-2">**</a></span> more than we need more data.
+When information was scarce and every piece of information which came through was stronger than the emptiness around it, it made sense to grab more data. With the world's knowledge base at our fingertips, this no longer brings value. We need curators (influencers) and analysts (recommendation engines)<span class="cite"><a href="#note-2" name="back-2">2</a></span> more than we need more data.
 
 Quantity of information is not correlated with value. We should be collecting the data, synthesizing it into a way which makes sense for our users' contexts, and making it _easier_ on them. This means: more efficient, less decisions, and overall, less management.
 
@@ -43,7 +43,7 @@ Tech stands to learn something from great hair stylists.
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Tiffany, K., Robertson, A., Plaugic, L., Lopatt, E. (2017, Jan 4). <em>Do beauty gadgets have to be terrible?</em> Retrieved from <a href="https://www.theverge.com/2017/1/4/14169564/ces-2017-beauty-tech-smart-hairbrush-makeup">theverge.com</a></p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Tiffany, K., Robertson, A., Plaugic, L., Lopatt, E. (2017, Jan 4). <em>Do beauty gadgets have to be terrible?</em> Retrieved from <a href="https://www.theverge.com/2017/1/4/14169564/ces-2017-beauty-tech-smart-hairbrush-makeup">theverge.com</a></p>
 
-    <p><a name="note-2" href="#back-2" class="citations-back">&#x21A9;</a> Rudimentary but better than data dashboards.</p>
+    <p><a name="note-2" href="#back-2" class="citations-back">&#x21A9;</a> 2 Rudimentary but better than data dashboards.</p>
 </div>

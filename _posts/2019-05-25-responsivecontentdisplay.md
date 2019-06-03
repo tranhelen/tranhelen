@@ -103,7 +103,7 @@ This musuem is what I think about when I see creative work displayed on the inte
     <img src="/img/posts/052519-ducks1.jpg" alt="Explanation of responsive content display with duck pictures">
 </figure>
 
-When Responsive Design was introduced, the idea was rooted in design serving its content<span class="cite"><a href="#note-1" name="back-1">*</a></span> except I'm not sure if we've pulled it all the way through. The browser window is changing for the device but the way the information is inputted and what happens during the output is not.
+When Responsive Design was introduced, the idea was rooted in design serving its content<span class="cite"><a href="#note-1" name="back-1">1</a></span> except I'm not sure if we've pulled it all the way through. The browser window is changing for the device but the way the information is inputted and what happens during the output is not.
 
 <figure>
     <img src="/img/posts/052519-ducks2.jpg" alt="Explanation of responsive content display with duck pictures, part 2">
@@ -128,5 +128,5 @@ Everyone should own their point of view without a forced collaboration. We'd get
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> Marcotte, Ethan. "<em>Responsive Web Design.</em>" A List Apart, May. 2010, <a href="https://alistapart.com/article/responsive-web-design/">alistapart.com</a>. </p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Marcotte, Ethan. "Responsive Web Design." <em>A List Apart<em>, May. 2010, <a href="https://alistapart.com/article/responsive-web-design/">alistapart.com</a>. </p>
 </div>
