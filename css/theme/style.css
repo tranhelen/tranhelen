@@ -574,8 +574,8 @@ ol {
   }
   /* line 560, ../../sass/theme/style.scss */
   .post-container p,
-  .post-container ul li p,
-  .post-container ol li p {
+  .post-container ul li,
+  .post-container ol li {
     font-size: 1.125em;
     line-height: 1.8;
     margin-bottom: 15px;
