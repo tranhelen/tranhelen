@@ -25,7 +25,7 @@ That's certainly a confident bio. But, before we start labelling her as anything
 
 I have recently come across the concept of self-efficacy. Albert Bandura, a psychologist working at Stanford University, defines self-efficacy as the following and makes a distinction between it and confidence:<span class="cite"><a href="#note-1" name="back-1">1</a></span>
 
-> ... self-efficacy does differ from self-confidence, but only in so far as confidence is a nonspecific term that is used colloquially to refer to the strength of a person’s belief. Bandura (1997) argues that confidence does not specify what the certainty is about, whereas self-efficacy refers to a belief about a person’s specific capabilities and how they relate to their anticipation that they can produce specific outcomes.
+> ...confidence does not specify what the certainty is about, whereas self-efficacy refers to a belief about a person’s specific capabilities and how they relate to their anticipation that they can produce specific outcomes.
 
 In summary, self-efficacy means: "I can confirm I am capable of something and thus believe I will achieve," while confidence is, "I believe," with no indication of the speaker's competance.
 
@@ -33,7 +33,7 @@ Self-efficacy, in his theory, is outlined as a key factor in persistence,
 
 > Efficacy expectations determine how much effort people will expend and how long they will persist in the face of obstacles and aversive experiences. The stronger the perceived self-efficacy, the more active the efforts. Those will persist [...] gain corrective experiences that reinforce their sense of efficacy, thereby eventually eliminating their defensive behavior. Those who cease their coping efforts prematurely will retain their self-debilitating expectations and fears for a long time.
 
-This is important because people will avoid situations (fear) they believe exceed their coping abilities. Furthermore, in numerous studies about providing false feedback (you don't fear this, have confidence, etc.), we have concluded that you can't tell someone to get over a fear by saying it doesn't exist.<span class="cite"><a href="#note-2" name="back-2">2</a></span>
+People will avoid situations (fear) they believe exceed their coping abilities. Furthermore, in numerous studies about providing false feedback (you don't fear this, have confidence, etc.), we have concluded that you can't tell someone to get over a fear by saying it doesn't exist.<span class="cite"><a href="#note-2" name="back-2">2</a></span>
 
 In summary: self-efficacy is different from confidence and is a key factor in persistence which is linked to higher performance. You also can't tell someone to _have_ confidence because it doesn't change their behaviour.
 
