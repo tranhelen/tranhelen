@@ -2,10 +2,10 @@
 layout: post
 title: Confidence Isn't Enough
 date: 2019-06-11
-excerpt: Have you ever been told, "Just have some confidence" or some version of "fake it 'till you make it"? I didn't question this phrase for a long time however something has popped up in my...
+excerpt: Have you ever been told, "just have some confidence" or some version of "fake it 'till you make it"? I didn't question this phrase for a long time however something has popped up in my...
 ---
 
-Have you ever been told, "_Just have some confidence_"? I didn't question this phrase for a long time. Something has popped up in my teaching, my career, and my studies, though, worth recognition: you can't just _have_ confidence. It's not something you take–especially from thin air. A perscription without an outcome.
+Have you ever been told, "_just have some confidence_"? I didn't question this phrase for a long time. Something has popped up in my teaching, my career, and my studies, though, worth recognition: you can't just _have_ confidence. It's not something you take–especially from thin air. A perscription without an outcome.
 
 The best way to illustrate my point is by directing you to someone else: Sophia Chang. She's a very popular artist but is new to me:
 
