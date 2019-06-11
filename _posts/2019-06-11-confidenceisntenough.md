@@ -45,15 +45,15 @@ Self-efficacy can be built over time either by yourself or with a coach or mento
 
 ### Accomplishments
 
-It goes without saying that you need to put some time deliberately learning a activity. Start small with something you _know_ you can do. The more you fail, the more you think you're going to fail–so you _have_ to start small. **Collect evidence of your success** through documentation. Social media is great for this but so is a simple notebook. Don't overthink it.
+Start small with something you _know_ you can do then gradually build. The more you fail, the more you think you're going to fail–so you _have_ to start small. **Collect evidence of your success** through documentation. Social media is great for this but so is a simple notebook. Don't overthink it.
 
 ### Experience
 
-Find others who are doing what you eventually want to do. Interestingly enough, it is identified that we learn more from people who struggle at achieving something than someone who appears to achieve it very easily.<span class="cite"><a href="#note-3" name="back-3">3</a></span> This simply means finding someone who is willing to teach and walk you through their failures. Break down their actions and link it to consequences.
+Find others who are doing what you eventually want to be able to do. Interestingly enough, it is identified that we learn more from people who struggle at achieving something than someone who appears to achieve it very easily.<span class="cite"><a href="#note-3" name="back-3">3</a></span> This could mean finding someone who is willing to walk you through their failures. Break down their actions and link it to consequences.
 
 ### Persuasion
 
-This is likely one of the easiest things to find: a supportive friend. "Have confidence" perscriptions are part of this too, which only underscores that it's only one part of the larger picture. One thing people don't think about often is: your support needs to come from a _credible_ source (credible is subjective here). If you don't believe the person who insists you can do it, it has the opposite effect.
+This is likely one of the easiest things to find: a supportive friend. "Have confidence" perscriptions are part of this too, which underscores that it's only one part of the larger picture. One thing: your support needs to come from a _credible_ source (credible is subjective here). If you don't believe the person who insists you can do it, it will increase your doubts.
 
 ### Emotional states
 
