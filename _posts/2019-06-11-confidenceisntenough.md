@@ -75,7 +75,7 @@ I didn't forget about Sophia.
 
 A lot of unhealthy online design discourse is centered about celebrity status or popularity when I believe it should be reframed as an exercise in _collecting evidence of your career_. After all, <a href="http://helentran.com/endurance">design is evidence</a> and isn't that what a portfolio is all about?
 
-I wanted to highlight Sophia's website because I think it's a great example of someone who has _more_ than confidence and I was thinking about how unfair it would be to her and to anyone else who wants to emulate her to tell them to simply _have confidence._
+I wanted to highlight Sophia's website because it's a great example of someone who has _more_ than confidence and I was thinking about how unfair it would be to her and to anyone else who wants to emulate her to tell them to simply _have confidence._
 
 It doesn't work that way: you have to do the work, you have to build yourself the right environment to continue doing the work, and you have to collect evidence.
 
