@@ -33,7 +33,7 @@ Self-efficacy, in his theory, is outlined as a key factor in persistence,
 
 > Efficacy expectations determine how much effort people will expend and how long they will persist in the face of obstacles and aversive experiences. The stronger the perceived self-efficacy, the more active the efforts. Those will persist [...] gain corrective experiences that reinforce their sense of efficacy, thereby eventually eliminating their defensive behavior. Those who cease their coping efforts prematurely will retain their self-debilitating expectations and fears for a long time.
 
-This is important because people will avoid situations (fear) they believe exceed their coping abilities. Furthermore, in numerous studies about providing false feedback (you don't fear this thing you fear, have confidence, etc.), in the presence of what's causing the fearful behaviour, we have concluded that you can't tell someone to get over a fear by saying it doesn't exist.<span class="cite"><a href="#note-2" name="back-2">2</a></span>
+This is important because people will avoid situations (fear) they believe exceed their coping abilities. Furthermore, in numerous studies about providing false feedback (you don't fear this, have confidence, etc.), we have concluded that you can't tell someone to get over a fear by saying it doesn't exist.<span class="cite"><a href="#note-2" name="back-2">2</a></span>
 
 In summary: self-efficacy is different from confidence and is a key factor in persistence which is linked to higher performance. You also can't tell someone to _have_ confidence because it doesn't change their behaviour.
 
