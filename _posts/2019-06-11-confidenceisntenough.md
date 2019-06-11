@@ -5,7 +5,7 @@ date: 2019-06-11
 excerpt: Have you ever been told, "just have some confidence" or some version of "fake it 'till you make it"? I didn't question this phrase for a long time however something has popped up in my...
 ---
 
-Have you ever been told, "_just have some confidence_"? I didn't question this phrase for a long time. I've recently recognized something from my teaching, my career, and my studies: you can't just _have_ confidence. It's a perscription without an outcome.
+Have you ever been told, "_just have some confidence_"? I didn't question this phrase for a long time. I've recently recognized something from my teaching, my career, and my studies: you can't just _have_ confidence. It's a prescription without an outcome.
 
 The best way to illustrate my point is by directing you to someone else: Sophia Chang. She's a very popular artist but is new to me:
 
