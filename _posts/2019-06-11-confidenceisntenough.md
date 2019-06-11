@@ -27,7 +27,7 @@ I have recently come across the concept of self-efficacy. Albert Bandura, a psyc
 
 > ... self-efficacy does differ from self-confidence, but only in so far as confidence is a nonspecific term that is used colloquially to refer to the strength of a person’s belief. Bandura (1997) argues that confidence does not specify what the certainty is about, whereas self-efficacy refers to a belief about a person’s specific capabilities and how they relate to their anticipation that they can produce specific outcomes.
 
-In summary, self-efficacy means: "I understand and can confirm I am capable of something and thus believe this," while confidence is, "I believe," with no indication of the speaker's competance.
+In summary, self-efficacy means: "I can confirm I am capable of something and thus believe I will achieve," while confidence is, "I believe," with no indication of the speaker's competance.
 
 Self-efficacy, in his theory, is outlined as a key factor in persistence,
 
@@ -37,7 +37,7 @@ This is important because people will avoid situations (fear) they believe excee
 
 In summary: self-efficacy is different from confidence and is a key factor in persistence which is linked to higher performance. You also can't tell someone to _have_ confidence because it doesn't change their behaviour.
 
-how do you build your self-efficacy?
+So, how do you build your self-efficacy?
 
 ## Practical Tips
 
