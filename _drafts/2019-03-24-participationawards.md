@@ -13,7 +13,7 @@ All my personality sorter tests (strengthfinder, enneagram, myers-briggs) agree 
 
 All good things are are built with participation though.
 
-It's hard to participate. The amount of data is too large to sit with, and even in bite-sized chunks it speeds by too quickly. I say and do things I regret and then feel ashamed for participating. Even so, I still think there's a lesson to learn here about participation awards.
+It's hard to participate. The amount of data is too large to sit with and even in bite-sized chunks it speeds by too quickly. I say and do things I regret and then feel ashamed for participating. Even so, I still think there's a lesson to learn here about participation awards.
 
 The connection we have online with each other tenuous at best. We want to all say exactly what's on our mind and then we feel like quitting the topic or behaviour will somehow fix it.
 
