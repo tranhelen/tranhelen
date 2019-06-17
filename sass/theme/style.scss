@@ -618,6 +618,18 @@ ol {
 	}
 }
 
+.note {
+	background-color: #fafafa;
+	border: 1px solid #efefef;
+    margin: 0 0 30px;
+	padding: 15px 15px 1px;
+
+	p {
+		font-family: $stack3;
+		font-size: em(12px);
+	}
+}
+
 .stats {
 	font-family: $stack3;
 	font-size: em(14px);
@@ -662,6 +674,20 @@ ol {
 				margin: 10px 0 0;
 			}
 		}
+	}
+}
+
+.video {
+	height: 0;
+	padding-top: 56.25%;
+	position: relative;
+
+	iframe {
+		height: 100%; 
+		position: absolute;
+			left: 0;
+			top: 0;
+		width: 100%;
 	}
 }
 
