@@ -128,5 +128,5 @@ Everyone should own their point of view without a forced collaboration. We'd get
 <hr class="--end">
 
 <div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Marcotte, Ethan. "Responsive Web Design." <em>A List Apart<em>, May. 2010, <a href="https://alistapart.com/article/responsive-web-design/">alistapart.com</a>. </p>
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Marcotte, Ethan. "Responsive Web Design." <em>A List Apart</em>, May. 2010, <a href="https://alistapart.com/article/responsive-web-design/">alistapart.com</a>.</p>
 </div>
