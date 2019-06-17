@@ -1,8 +1,8 @@
 ---
 layout: post
-title: One Step at a Time
+title: Hard Work and Play
 date: 2019-06-17
-excerpt: Post not finished
+excerpt: One of our goals at Jupiter is to build a non-homogenous team. While performance itself is gender-neutral, I've sought out sources to explain How-We-Got-Here in order to deepen my...
 ---
 
 <div class="note">
@@ -71,7 +71,7 @@ As I did more, I craved more and eventually found bodybuilding. Once I went out 
 
 I take my trail lessons with me, one step at a time, with confidence growing every day. Starting another company doesn't seem like that big a deal now.
 
-## Hard work and play
+## Hard Work and Play
 
 Everyone in tech is delivered the same hustle-porn story: work hard in this career and you will be rewarded. Not enough people talk about ways you can build self-efficacy and I offer this story up as another data point.<span class="cite"><a href="#note-4" name="back-4">4</a></span> 
 
