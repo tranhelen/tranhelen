@@ -69,7 +69,7 @@ As I did more, I craved more and eventually found bodybuilding. Once I went out 
     <img src="/img/posts/061719-bodybuilding.jpg" alt="My progression in bodybuilding" />
 </figure>
 
-I take my trail lessons with me, one step at a time, with confidence growing every day. Starting another company doesn't seem like that big a deal now.
+I take my trail lessons with me, one step at a time, with confidence growing every day. Starting another company doesn't seem like that big a deal now. _I've been nearly naked on-stage, for god's sake._
 
 ## Hard Work and Play
 
