@@ -25,7 +25,7 @@ While thinking about this though, I thought: why am _I_ still here?
 
 My parents had a laissez-faire approach to life and me: whatever. So, I wasn't one of the many who were raised to avoid risks (or pushed to take them) until I left the confines of my house and started meeting everyone else. I was told I wasn't good at sports and I shouldn't bother.
 
-I often think about this in conjunction with this commercial by Dove,
+I often think about this in conjunction with this commercial by P&G,
 
 <figure class="video">
     <iframe src="https://www.youtube.com/embed/yIxA3o84syY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
