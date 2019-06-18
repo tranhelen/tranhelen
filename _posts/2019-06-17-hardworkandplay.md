@@ -61,21 +61,21 @@ Somewhere on the trail I found something I had never thought was in me and it wa
     <img src="/img/posts/061719-part2.jpg" alt="Pictures from trails around the world" />
 </figure>
 
-The hobby changed my career and helped frame hard work and effort in a way I understood. I wasn't connecting with Silicon Valley-esque ambition; I connected with my steps, one after another, and it walked me towards finish lines I never thought I'd reach.
+The hobby changed my career and helped frame hard work and effort in a way I understood. I wasn't connecting with Silicon Valley-esque ambition; I connected with my steps, one after another, and they walked me towards finish lines I never thought I'd reach.
 
-As I did more, I craved more and eventually found bodybuilding. Once I went out on stage for the first time I heard that voice again: _I can't do this_. I chased the fear again and am still chasing it now.
+As I did more, I craved more and eventually found bodybuilding. When I went out on stage for the first time I heard that voice again: _I can't do this_. I chased the fear again and am still chasing it now.
 
 <figure class="journal__image">
     <img src="/img/posts/061719-bodybuilding.jpg" alt="My progression in bodybuilding" />
 </figure>
 
-I take my trail lessons with me, one step at a time, with confidence growing every day. I know I have more to give. Starting a company doesn't seem like that big a deal now. _I've been nearly naked on-stage, for god's sake._
+I take my trail lessons with me with confidence growing every day. I know I have more to give. Starting a company doesn't seem like that big a deal now. _I've been nearly naked on-stage, for god's sake._
 
 ## Hard Work and Play
 
 Everyone in tech is delivered the same hustle-porn story: work hard in this career and you will be rewarded. Not enough people talk about ways you can build self-efficacy and I offer this story up as another data point.<span class="cite"><a href="#note-4" name="back-4">4</a></span> 
 
-Building confidence outside of work deepened my belief patterns: _I can do this_. This extended over into my career and kept me going as I was building my self-efficacy. My hobbies built my fundamental goal-setting skills, my discipline, and my patience for delayed rewards... exactly as the researchers identified: through  play.
+Building confidence outside of work deepened my belief patterns: _I can do this_. This extended into my career and kept me going as I was building my self-efficacy. My hobbies built my fundamental goal-setting skills, my discipline, and my patience for delayed rewards... exactly as the researchers identified: through  play.
 
 Live fully outside of your career. The energy will come back in spades.
 
