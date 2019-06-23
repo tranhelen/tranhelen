@@ -2,10 +2,10 @@
 layout: post
 title: The Balancing Act
 date: 2019-06-23
-excerpt: You sink in ten years of your life and you feel stretched. At the end of the decade you look back and you say to yourself, "Well, that didn't need to be so stressful," and so that's what you tell...
+excerpt: You sink ten years of your life into your career and you feel stretched. At the end of the decade you look back and you say to yourself, "Well, that didn't need to be so stressful," and so that's what...
 ---
 
-You sink in ten years of your life and you feel stretched. At the end of the decade you look back and you say to yourself, "Well, that didn't need to be so stressful," and so that's what you tell people entering the industry: chill out, work less, it's going to be okay. Find work-life balance.
+You sink ten years of your life into your career and you feel stretched. At the end of the decade you look back and you say to yourself, "Well, that didn't need to be so stressful," and so that's what you tell people entering the industry: chill out, work less, it's going to be okay. _Find work-life balance._
 
 I feel a little bit irresponsible when I tell people that because it's not really what I want to say.
 
@@ -26,9 +26,9 @@ I bring this up because I can't help but believe two things which are seemingly 
 - You don't have to work yourself to death
 - The time I spent working myself to death gave me a leg-up and paved the way for the rest of my career
 
-The excessive work hours I pulled off in my early 20s _were_ balanced. I needed nothing else at the time. My career was my escape from an otherwise dull life and my body and mind responded by giving me the energy I needed to pull it off. Always in balance.
+The excessive work hours I pulled off in my early 20s _were_ balanced. I needed nothing else at the time. My career was my escape from an otherwise dull life and my body and mind responded by giving me the energy I needed to pull it off. When that was no longer the case, my body revolvted to bring me back to normal. Always in balance.
 
-When I look back, I'm looking back through my _current context_ and so I say, "you don't need to work so hard." But that's only because it would throw my life off-balance _now_... I have a different body with different energy needs.
+When I look back, I'm looking back through my _current context_ and so I say, "you don't need to work so hard." But that's only because it would throw my life off-balance _now_... I have a different body with needs.
 
 My point is: balance is a scale on your own open sea. No one else can tell which way the winds will blow or how rough it'll be out there. You have to listen to your intuition and look out for yourself.
 
