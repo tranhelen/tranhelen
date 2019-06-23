@@ -28,7 +28,7 @@ I bring this up because I can't help but believe two things which are seemingly 
 - You don't have to work yourself to death
 - The time I spent working myself to death gave me a leg-up and paved the way for the rest of my career
 
-The excessive work hours I pulled off in my early 20s _were_ balanced. I needed nothing else at the time. My career was my escape from an otherwise dull life and my body and mind responded by giving me the energy I needed to pull it off. When that was no longer the case, my body revolvted to bring me back to normal. Always in balance.
+The work hours I pulled off in my early 20s _were_ balanced. I needed nothing else at the time. My career was my escape from an otherwise dull life and my body and mind responded by giving me the energy I needed to pull it off. When that was no longer the case, my body revolvted to bring me back to normal. Always in balance.
 
 When I look back, I'm looking back through my _current context_ and so I say, "you don't need to work so hard." But that's only because it would throw my life off-balance _now_... I have a different body with needs.
 
