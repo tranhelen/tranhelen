@@ -13,7 +13,9 @@ I feel a little bit irresponsible when I tell people that because it's not reall
 
 I want to tell them I went through a deep depression and then was told I had been  _chronically depressed since childhood_–25 years. I want to tell them I burned out a couple times. I want to tell them I've said things to people I deeply regret and acted poorly in times when it wasn't called for because I was so stressed.
 
-But then I want to tell them the most important, bittersweet, part: it all had to happen. Some years I needed to work sixteen hours in a day week-after-week, or have my heart broken and try not to cry in meetings, or become involved in an abusive relationship, or fear for my safety in a foreign country, or build a product I didn't care for. All of that needed to happen at the time that it did, in the order that it did, and no one could have ever saved me from it with a few well-meaning phrases.
+But then I want to tell them the most important, bittersweet, part: it all had to happen to become a better colleague. Some years I needed to work sixteen hours in a day week-after-week, or have my heart broken and try not to cry in meetings, or become involved in an abusive relationship, or fear for my safety in a foreign country, or build a product I didn't care for.
+
+All of that needed to happen at the time that it did, in the order that it did, and no one could have ever saved me from it with a few well-meaning phrases. While most of the events happened outside of work, it undoubtedly changed everything about me at work.
 
 So, what do I think about seeking work-life balance? It likely won't come in the controlled way you seek.
 
