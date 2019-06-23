@@ -30,7 +30,7 @@ I bring this up because I can't help but believe two things which are seemingly 
 
 The work hours I pulled off in my early 20s _were_ balanced. I needed nothing else at the time. My career was my escape from an otherwise dull life and my body and mind responded by giving me the energy I needed to pull it off. When that was no longer the case, my body revolvted to bring me back to normal. Always in balance.
 
-When I look back, I'm looking back through my _current context_ and so I say, "you don't need to work so hard." But that's only because it would throw my life off-balance _now_... I have a different body with needs.
+When I look back, I'm looking back through my _current context_ and so I say, "you don't need to work so hard." But that's only because it would throw my life off-balance _now_... I have different priorities.
 
 My point is: balance is a scale on your own open sea. No one else can tell which way the winds will blow or how rough it'll be out there. You have to listen to your intuition and look out for yourself.
 
