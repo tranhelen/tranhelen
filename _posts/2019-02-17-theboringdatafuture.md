@@ -6,6 +6,7 @@ excerpt: Things you never knew you didn't want&#x3a; a hairbrush which tells you
 ---
 
 Things you never knew you didn't want:
+
 - A hairbrush which tells you how dry your hair is
 - A smart mirror which tells you your face has wrinkles
 - A facial toning device which identifies which area of your face is sagging faster
