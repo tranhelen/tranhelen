@@ -9,6 +9,6 @@ It's hard to summarize what you've learned after you travel to seven continents 
 
 > In one way, travelling has narrowed my mind. What I have discovered is something very ordinary and unexciting, which is that humans are the same everywhere and that the degree of variation between members of our species is very slight.
 
-It's as accurate as can be: I find a comfort in the unexciting discovery. I draw from it a special compassion built over years of observation. We're all kind of the same. Like Hitchens, I believe it's banal. Unlike Hitchens, I think this is what makes us interesting.
+It's as accurate as can be: I find a comfort in the unexciting discovery... drawing from it a special compassion built over years of observation. We're all kind of the same. Like Hitchens, I believe it to be banal.
 
-To figure out the interesting part, you _have_ to learn how to love them.
+If you want to make it interesting, you _have_ to learn how to love them.
