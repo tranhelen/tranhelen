@@ -2,7 +2,7 @@
 layout: post
 title: Shifted Attention
 date: 2019-07-07
-excerpt: My long term vision for <a href="http://tryjupiter.com">Jupiter</a> is not to remain in the beauty...
+excerpt: My long term vision for <a href="http://tryjupiter.com">Jupiter</a> is not to remain in the beauty vertical. This is where we started for reasons which you'll understand shortly, but suffice to say...
 ---
 
 **My long term vision for <a href="http://tryjupiter.com">Jupiter</a> is not to remain in the beauty vertical.** This is where we started for reasons which you'll understand shortly, but suffice to say, it was unexpected. My hobbies are bodybuilding, video games, thru-hiking, and reptiles. Not exactly anyone's idea of traditional femininity.
