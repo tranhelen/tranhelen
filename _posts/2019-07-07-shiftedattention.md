@@ -38,10 +38,10 @@ I respect these women, so why not afford myself the same?
 
 ## Very Little Difference
 
-As I go deeper into this vertical I'm realizing that my biggest hang-up with working in beauty was a learned judgement after years of centering the conversation around men. I thought, for some reason, I would be considered _lesser_ because I was in beauty. Which, I can be, if I continue to allow my attention to be pointed that way.
+I'm realizing that my biggest hang-up with working in beauty was a learned judgement after years of centering the conversation around men. I thought, for some reason, I would be considered _lesser_ because I was in beauty. Which, I can be, if I continue to allow my attention to be pointed that way.
 
 As it turns out, there's very little difference between shipping software "for women" and shipping software for the general populace because women are part of the general populace.
 
-Women are underserved, throughout history and in the present, in every way, all around the world. I happen to be part of that demographic and am in a very rare group of people within it who can execute. It would be absurd for me not to use this to my advantage.
+They are underserved, throughout history and in the present, in every way worldwide. I happen to be part of that demographic and am in a very rare group of people within it who can execute. It would be absurd for me not to use this to my advantage.
 
 Alright, I'm listening now. What do women need?
