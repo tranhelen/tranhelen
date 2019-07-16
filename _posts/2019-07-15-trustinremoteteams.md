@@ -23,10 +23,6 @@ My interest lay in the findings below:
 
 In short: I want to keep the team taking the risks generally associated with higher performance. This is impacted by trust levels and team trust is _especially_ important on remote teams.
 
-<div class="note">
-    <p>Sidenote: documentation of interactions helped, not specifically to build trust, but reduce the perception of risks coming from lack of trust. Some of these things we do are listed below.</p>
-</div>
-
 ### Carefully Placed Water Coolers
 
 There's a couple of ways our team is trying and/or has brainstormed to help replace the lack of IRL water coolers. We take these for granted in the face-to-face world and it's far too easy to simply forget things (or people!) exist when they're not in front of you.
