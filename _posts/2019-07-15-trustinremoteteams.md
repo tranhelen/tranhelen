@@ -13,7 +13,7 @@ To date, no one has been able to conclusively prove to me that it's _better_ in 
 
 ## Trust & Performance
 
-I have recently purchased a research report from the Journal of Applied Pscyhology, written in 2016, asking if trust matters more in virtual teams.<span class="cite"><a href="#note-1" name="back-1">1</a></span> Anyone who has experience managing any team understands the general finding of the report, "**team trust is overall, positively related to team effectiveness criteria**." Not surprising, I'm sure.
+I have recently purchased a research report from the Journal of Applied Pscyhology, written in 2016, asking if trust matters more in virtual teams.<span class="cite"><a href="#note-1" name="back-1">1</a></span> Anyone who has experience managing any team understands the general finding of the report, "**team trust is overall, positively related to team effectiveness**." Not surprising, I'm sure.
 
 My interest lay in the findings below:
 
@@ -21,11 +21,11 @@ My interest lay in the findings below:
 
 > the meta-analysis showed significantly stronger correlations between team trust and team performance in virtual as compared to face-to-face teams
 
-In short: I want to keep the team taking the risks generally associated with higher performance. This is impacted by trust levels and team trust is _especially_ important on remote teams.
+In short: Trust levels are specifically _more_ important on remote teams and impact their ability to perform at higher levels.
 
 ### Carefully Placed Water Coolers
 
-There's a couple of ways our team is trying and/or has brainstormed to help replace the lack of IRL water coolers. We take these for granted in the face-to-face world and it's far too easy to simply forget things (or people!) exist when they're not in front of you.
+There's a couple of ways our team is trying and/or has brainstormed to help replace the lack of IRL water coolers. We take these for granted in the face-to-face world and it's far too easy to simply forget people exist when they're not in front of you.
 
 - **Weekend updates** - Every Monday we all get together and recap our weekends. People tend to be pretty happy when recalling a good memory and most weekends are pretty awesome because they're weekends<span class="cite"><a href="#note-2" name="back-2">2</a></span>
 - **Lightning talks** - Every Monday, the team leader<span class="cite"><a href="#note-3" name="back-3">3</a></span> does a five minute talk about something they've learned or are interested in
@@ -47,13 +47,13 @@ The full list seems like a lot however it only takes about two to three hours we
 
 ### Explicit Language and Documentation
 
-It can be easy to talk over people or miss people wanting to talk on a video screen because of connection issues. We've noticed being deliberate about our language and then following it up with documentation helps with this:
+It can be easy to talk over people or miss people wanting to talk through video. It also can be easy for people to perceive that they are missing out on something because they are remote. Being deliberate about our language and adding documentation helps with this:
 
 - **Stand-up** - After each stand-up update, every team member asks for comments/questions, and then chooses the next person who will do their update
 - **Stand-up > Slack** - If someone is referencing an item or thing to read, we post it into Slack so they can reference it on their own time
 - **Cookie jar** - We have a document set up in Notion with screenshots of good events we have celebrated
 
-Documenting things after-the-fact or during can help build trust by reducing the perception that they'll "miss out" on something because they are remote.
+There's more to this than what I've listed however we're still testing out new things as team members join. There is no one size fits all when it comes to personalities.
 
 <hr class="--small">
 
