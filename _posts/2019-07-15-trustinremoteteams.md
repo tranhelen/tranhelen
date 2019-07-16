@@ -43,11 +43,13 @@ The full list seems like a lot however it only takes about two to three hours we
 
 ### Explicit Language and Documentation
 
-It can be easy to talk over people or miss people wanting to talk on a video screen because of connection issues. We've noticed being deliberate about our language helps with this:
+It can be easy to talk over people or miss people wanting to talk on a video screen because of connection issues. We've noticed being deliberate about our language and then following it up with documentation helps with this:
 
 - **Stand-up** - After each stand-up update, every team member asks for comments/questions, and then chooses the next person who will do their update
 - **Stand-up > Slack** - If someone is referencing an item or thing to read, we post it into Slack so they can reference it on their own time
 - **Cookie jar** - We have a document set up in Notion with screenshots of good events we have celebrated
+
+Documenting things after-the-fact or during can help build trust by reducing the perception that they'll "miss out" on something because they are remote.
 
 <hr class="--small">
 
