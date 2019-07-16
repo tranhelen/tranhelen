@@ -55,7 +55,9 @@ It can be easy to talk over people or miss people wanting to talk on a video scr
 
 <hr class="--small">
 
-Learning how to manage and lead a remote team is a variation of good management of an in-person team. The general tenet remains the same: being deliberate will go far. Everything else is just a whole lotta faith and a whole lotta trust.
+The results of remote work don't appear to be any better so it's a nice benefit to be able to offer candidates who are looking for more flexible working environemnts. From a management and leadership perspective it is, so far, only a slight adjustment.
+
+The general tenet of good management remains the same: being deliberate will go far. Everything else is just a whole lotta faith and a whole lotta trust.
 
 <hr class="--end">
 
