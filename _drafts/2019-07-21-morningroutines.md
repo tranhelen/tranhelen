@@ -41,10 +41,6 @@ These activities run in addition to what I consider to be general 'good practice
 
 The full list seems like a lot however it only takes about two to three hours weekly with five team members. We're adding a mandatory fun week in a few months for... mandatory fun.
 
-<figure class="journal__image">
-    <img src="/img/posts/071519-leslie.gif" alt="How I feel when I plan events at work" />
-</figure>
-
 ### Explicit Language and Documentation
 
 It can be easy to talk over people or miss people wanting to talk on a video screen because of connection issues. We've noticed being deliberate about our language and then following it up with documentation helps with this:
