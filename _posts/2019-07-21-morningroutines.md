@@ -21,7 +21,7 @@ The largest adjustment in the past two years to my schedule has been my morning 
     <td>
         <ol class="no-number"><br>
             <br><li>Wake-up when the sun rises</li>
-            <li>Cleanliness, eat breakfast #1</li>
+            <li>Make the bed, cleanliness, eat breakfast #1</li>
             <li>Training and transport</li>
             <li>Eat breakfast #2</li>
             <li>Work day starts</li>
@@ -43,7 +43,7 @@ The largest adjustment in the past two years to my schedule has been my morning 
     <td>
         <ol class="no-number"><br>
             <br><li>Wake-up when the sun rises</li>
-            <li>Cleanliness, eat breakfast #1</li>
+            <li>Make the bed, cleanliness, eat breakfast #1</li>
             <li>Work day starts</li>
             <li>Eat breakfast #2</li>
             <li>Work day continues</li>
