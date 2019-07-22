@@ -5,7 +5,7 @@ date: 2019-07-21
 excerpt: The largest adjustment in the past two years to my schedule has been my morning routine. I don't believe it's a direct...
 ---
 
-The largest adjustment in the past two years to my schedule has been my morning routine. I don't believe it's a direct _performance_ although it has done a lot for my mental health which, in turn, is good for performance.  My mornings, every morning, look like this:
+The largest adjustment in the past two years to my schedule has been my morning routine. I don't believe it's a _direct_ performance improvement although it has done a lot for my mental health which, in turn, is arguably good for performance. Every morning look like this:
 
 <table class="stats">
 <tr>
@@ -21,8 +21,8 @@ The largest adjustment in the past two years to my schedule has been my morning 
     <td>
         <ol class="no-number"><br>
             <br><li>Wake-up when the sun rises</li>
-            <li>Cleanliness, eat breakfast</li>
-            <li>Training</li>
+            <li>Cleanliness, eat breakfast #1</li>
+            <li>Training and transport</li>
             <li>Eat breakfast #2</li>
             <li>Work day starts</li>
         </ol>
@@ -43,10 +43,10 @@ The largest adjustment in the past two years to my schedule has been my morning 
     <td>
         <ol class="no-number"><br>
             <br><li>Wake-up when the sun rises</li>
-            <li>Cleanliness, eat breakfast</li>
-            <li>Personal work<span class="cite"><a href="#note-1" name="back-1">1</a></span></li>
-            <li>Eat breakfast #2</li>
+            <li>Cleanliness, eat breakfast #1</li>
             <li>Work day starts</li>
+            <li>Eat breakfast #2</li>
+            <li>Work day continues</li>
         </ol>
     </td>
 </tr>
@@ -54,13 +54,7 @@ The largest adjustment in the past two years to my schedule has been my morning 
 
 It's nothing revolutionary. What I've found is this:
 
-- **Putting myself first in the day delivers the best 'me' to everyone else** - I schedule activities which I need to do to be healthy, remain calm, and feel fulfilled first. When I'm at my best, people get my best.
-- **Allowing my priorities to override and move on quickly reduces guilt** - If the routine is disrupted by my priorities, it's fine. I carry on with whatever is to be done and revert back when I can. No need to re-process.
+- **Putting myself first in the day delivers the best 'me' to everyone else** - I schedule activities which I need to do to be healthy, remain calm, and feel fulfilled _first_.
+- **Allowing my priorities to override and move on quickly** - If the routine is disrupted, carry on with whatever is to be done and revert back. No need to over-analyze it or guilt-trip myself about not fulfilling an arbitrary idea of who I think I should be.
 
-YMMV.
-
-<hr class="--end">
-
-<div class="citations">
-    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 'Personal work' are activities I do for my enrichment like studying and writing.</p>
-</div>
+This is a long-winded way to say I used to think over-optimizing myself would lead to large gains. It did not. YMMV.
