@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FAQ for Juniors
-date: 2019-07-21
+date: 2019-07-28
 excerpt: The largest adjustment in the past two years to my schedule has been my morning routine. I don't believe it's a direct...
 ---
 
