@@ -44,7 +44,7 @@ It should go without saying that's a spectrum and intermediates are slotted alon
 To get yourself some practice:
 - Find yourself some peers to work with, or better yet, a developer who is also learning to build  alongside (hackathons, networking events, and Twitter are good places to start).
 - Get involved in fun activities to practice your intrapersonal skills. Great design can die during execution and you need to be able to work with different types of people and personalities. It doesn't have to be related to design. Go dancing.
-- Go talk to people and design apps which will help them in their daily lives. Try to learn some coding. _Anything you do now_ is better than nothing.
+- Talk to people and design apps which will help them in their daily lives. Try to learn some coding. _Anything you do now_ is better than nothing.
 
 ## What else can I learn?
 
