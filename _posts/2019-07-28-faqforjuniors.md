@@ -63,6 +63,7 @@ There aren't many. We know you're nervous, take your time.
 
 - **Do your job without asking for permission.** No one is going to say, "and we've put aside three weeks during this period for you to talk to these people." You bake that into your process and you do it regardless of whether or not you have an opportunity to present the research officially. It is to make _your_ work better.
 - **Build positive habits.** You're going to need coping mechanisms to make you feel good: affirmations, physical activity (my personal favourite), journaling, meditation, therapy, hang with sunshine people, etc. Beginners often waste energy processing negative thoughts.
+- **Learn how to accept failure with grace.** This is going to be a hard one. When you don't get the job you think you deserve, it may not have anything to do with you and if it did, it doesn't mean you are worth less. Sleep on any criticism, tomorrow is a new day.
 - **Stay open to learning.** Not knowing doesn't mean you have imposter syndrome. That is not what that phrase means. If you don't know, you simply do not know. Everyone can teach you something so pay attention.
 
 <hr class="--end">
