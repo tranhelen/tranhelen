@@ -23,7 +23,7 @@ It should go without saying that's a spectrum and intermediates are slotted alon
 
 ## What should I put in my portfolio?
 
-- Three-five examples og work you want to continue doing and it doesn't have to be real work.
+- Three-five examples of work you want to continue doing and it doesn't have to be real work.
 - Product Designers: each case study should have a hypothesis, a description of the process you went through to get to the end result, and some sort of summary.
 - UX Designers: replace hypothesis with flow or sequential events.
 - Interaction Designer: replace hypothesis with end user goal.
