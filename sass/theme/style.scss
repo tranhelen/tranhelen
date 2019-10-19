@@ -66,7 +66,7 @@ img {
 
 $baseFontSize: 16px;
 $stack1: "poynter-oldstyle-text", Georgia, Times, Times New Roman, serif;
-$stack2: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stack2: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
 $one: 800px;
