@@ -32,7 +32,10 @@ layout: default
     {% endfor %}
 
     {% for post in site.posts offset:1 %}
-    <div class="hp_journal--single">
+    <div class="hp_journal--single"
+    data-aos="fade-up"
+    data-aos-easing="ease-out-quad"
+    data-aos-duration="800">
         <h3 class="hp-journallink">
             <a href="{{ post.url }}">{{ post.title }}</a>
         </h3>
