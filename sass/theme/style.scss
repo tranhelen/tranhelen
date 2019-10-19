@@ -80,15 +80,13 @@ $one: 800px;
 
 a {
 	color: $colorLink;
-	font-family: $stack2;
-	font-weight: bold;
-	position: relative;
+    font-family: $stack2;
+	text-decoration: none;
 
     @include transition;
 
 	&:hover {
 		color: $colorLinkMuted;
-		text-decoration: none;
 	}
 }
 
@@ -455,6 +453,7 @@ ol {
 .post-container {
 	margin: 0 auto 30px;
 	max-width: 660px;
+    padding: 30px;
 	
 	h2, h3 {
 		margin: 45px 0 30px;
@@ -477,6 +476,8 @@ ol {
 	}
 
 	@include at-query($one) {
+        padding: 0;
+        
 		p,
 		ul li,
 		ol li {
@@ -527,7 +528,21 @@ ol {
 }
 
 .nav_journals {
-	margin: 20px 0 100px;
+    margin: 20px 0 100px;
+
+    a {
+        margin-right: 20px;
+    }
+
+    b {
+        color: #000;
+        display: inline-block;
+        width: 150px;
+    }
+
+    &.--footer {
+        margin: 100px 0 50px;
+    }
 }
 
 .note {
