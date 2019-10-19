@@ -19,7 +19,7 @@
 	$colorAccent: #ffd001;
 
 	/* Text */
-	$colorTextHeader: #333;
+	$colorTextHeader: #000;
 	$colorTextBody: #666; 
 
 	/* Links */
@@ -65,7 +65,7 @@ img {
 }
 
 $baseFontSize: 16px;
-$stack1: poynter-oldstyle-text, Georgia, Times, Times New Roman, serif;
+$stack1: "poynter-oldstyle-text", Georgia, Times, Times New Roman, serif;
 $stack2: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
@@ -80,7 +80,6 @@ $one: 800px;
 
 a {
 	color: $colorLink;
-    font-family: $stack2;
 	text-decoration: none;
 
     @include transition;
@@ -92,6 +91,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
     color: $colorTextHeader;
+    font-weight: 600;
 }
 
 .h1 { @extend h1; }
@@ -108,33 +108,18 @@ h1 {
 }
 
 h2 {
-	font: em(30px) $stack1;
-}
-
-h2.hp-journallink {
-	margin: 10px 0 10px;
-
-	a {
-		color: #666;
-		font-weight: normal;
-		text-decoration: none;
-
-		&:hover {
-			color: $colorLink;
-		}
-	}
+	font-size: em(30px);
 }
 
 h3 {
-	font: em(24px) $stack1;
+	font-size: em(24px);
 }
 
-h3.hp-journallink {
-	margin: 20px 0 0;
+.hp-journallink {
+	margin: 20px 0 10px;
 
 	a {
-		color: #999;
-		font-weight: normal;
+        color: $colorTextHeader;
 		text-decoration: none;
 
 		&:hover {
@@ -270,104 +255,18 @@ ol {
     #Homepage
 \*------------------------------------*/
 
-.hp_sidebar {
-	margin: 15% 10% 10%;
-	padding-left: 14%;
-	position: absolute;
-		left: 0;
-		top: 0;
-	z-index: 0;
+.container {
+    margin: 0 auto 30px;
+	max-width: 660px;
+    padding: 0 30px;
 
-	#link-bio {
-		display: inline-block;
-		font-size: em(14px);
-		font-weight: bold;
-	}
-
-	.logo {
-		display: block;
-		margin: 0 0 10px -5%;
-		width: 70%;
-	}
-
-	@include at-query($one) {
-		float: left;
-		margin: 0;
-		padding: 510px 0 0 49px;
-		position: initial;
-		width: 30%;
-
-		.logo {
-			width: 80%;
-			margin-left: -10px;
-			max-width: 300px;
-		}
-	}
-}
-
-.hp_main {
-	border-left: 1px solid #c7d0e3;
-	margin-left: 15%;
-	padding: 45% 0 150px 0;
-	position: absolute;
-		left: 0;
-		top: 0;
-	z-index: -1;
-
-	.flip {
-		display: inline-block;
-	}
-
-	.indicator {
-		background-color: #c7d0e3;
-		display: inline-block;
-		height: 3px;
-		width: 20px;
-		position: relative;
-			left: -14%;
-			top: 35px;
-	}
-
-	.indicator-link {
-		position: relative;
-			left: -25px;
-	}
-
-	@include at-query($one) {
-		width: 70%;
-		float: left;
-		margin: 0;
-		max-width: 650px;
-		padding: 200px 0;
-		position: initial;
-	}
-}
-
-.hp_main_content {
-	margin: 0 5% 0 10%;
-
-	h2 {
-		margin: 0;
-	}
-}
-
-.hp_birb {
-    margin-left: -50px;
-    width: 60px;
-    position: absolute;
-    z-index: -101;
+    @include at-query($one) {
+        padding: 0;
+    }
 }
 
 .hp_journal--single {
-	margin-bottom: 30px;
-
-	&.--first {
-		margin: -20px 0 50px;
-
-		h2 {
-			margin: 0 0 0 24px;
-		}
-	}
+	margin-bottom: 50px;
 }
 
 #bio {
@@ -451,10 +350,6 @@ ol {
 \*------------------------------------*/
 
 .post-container {
-	margin: 0 auto 30px;
-	max-width: 660px;
-    padding: 30px;
-	
 	h2, h3 {
 		margin: 45px 0 30px;
 	}
