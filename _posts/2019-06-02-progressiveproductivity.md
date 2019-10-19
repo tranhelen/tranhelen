@@ -22,7 +22,6 @@ This is measured by a productivity score:
 Not a fan of this for a few reasons:
 
 1. Tracking all your time means measuring time you're not working (i.e. enjoying your life). Non-actionable information is noise.
-
 2. The productivity score fosters feelings of guilt and pressure which I consider mentally unhealthy and have theories on how it affects self-efficacy.<span class="cite"><a href="#note-2" name="back-2">2</a></span>
 
 For a few months I let RescueTime run and track every activity on my computer (didn't install it on my phone). After amassing enough data, I went through everything and asked RescueTime to ignore everything which wasn't work related.
