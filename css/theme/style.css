@@ -155,7 +155,7 @@ h5, .h5, .time {
 
 /* line 151, ../../sass/theme/style.scss */
 p {
-  color: #666;
+  color: #333;
   font: 1em "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.7;
   margin: 0 0 10px;
@@ -164,7 +164,7 @@ p {
 /* line 158, ../../sass/theme/style.scss */
 ol li,
 ul li {
-  color: #666;
+  color: #333;
   font: 1em "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.75;
   margin: 0 0 5px;
@@ -207,7 +207,7 @@ hr {
 /* line 194, ../../sass/theme/style.scss */
 hr.--small {
   border: 0;
-  background-color: #ffd001;
+  background-color: #000;
   border-radius: 999px;
   height: 6px;
   width: 6px;
@@ -215,7 +215,7 @@ hr.--small {
 /* line 202, ../../sass/theme/style.scss */
 hr.--end {
   border: 0;
-  background-color: #ffd001;
+  background-color: #000;
   height: 3px;
   width: 100%;
 }
@@ -456,14 +456,14 @@ ol {
 
 /* line 444, ../../sass/theme/style.scss */
 .note {
-  background-color: #fafafa;
-  border: 1px solid #efefef;
+  background-color: #fff;
+  border: 2px solid #000;
   margin: 0 0 30px;
-  padding: 15px 15px 1px;
+  padding: 15px 20px 1px;
 }
 /* line 450, ../../sass/theme/style.scss */
 .note p {
-  font-size: 0.75em;
+  font-size: 0.875em;
 }
 
 /* line 455, ../../sass/theme/style.scss */

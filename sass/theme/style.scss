@@ -20,7 +20,7 @@
 
 	/* Text */
 	$colorTextHeader: #000;
-	$colorTextBody: #666; 
+	$colorTextBody: #333; 
 
 	/* Links */
 	$colorLink: #1c93d2;
@@ -193,7 +193,7 @@ hr {
 
 	&.--small {
 		border: 0;
-		background-color: $colorAccent;
+		background-color: #000;
 		border-radius: 999px;
 		height: 6px;
 		width: 6px;
@@ -201,7 +201,7 @@ hr {
 
 	&.--end {
 		border: 0;
-		background-color: $colorAccent;
+		background-color: #000;
 		height: 3px;
 		width: 100%;
 	}
@@ -442,13 +442,13 @@ ol {
 }
 
 .note {
-	background-color: #fafafa;
-	border: 1px solid #efefef;
+	background-color: #fff;
+	border: 2px solid #000;
     margin: 0 0 30px;
-	padding: 15px 15px 1px;
+	padding: 15px 20px 1px;
 
 	p {
-		font-size: em(12px);
+		font-size: em(14px);
 	}
 }
 
