@@ -1,0 +1,76 @@
+I"<p>We are six months into running a distributed team. When we were originally making the decision between local vs. distributed, I wrote <a href="http://helentran.com/distributedvslocal">this blog post</a> which outlined my reservations.</p>
+
+<p>To date, no one has been able to conclusively prove to me that it’s <em>better</em> in regards to output. For now, all I can say is that it’s <em>different</em>.</p>
+
+<hr class="--small" />
+
+<h2 id="trust--performance">Trust &amp; Performance</h2>
+
+<p>I have recently purchased a research report from the Journal of Applied Pscyhology, written in 2016, asking if trust matters more in virtual teams.<span class="cite"><a href="#note-1" name="back-1">1</a></span> Anyone who has experience managing any team understands the general finding of the report, “<strong>team trust is overall, positively related to team effectiveness</strong>.” Not surprising, I’m sure.</p>
+
+<p>My interest lay in the findings below:</p>
+
+<blockquote>
+  <p>with respect to team performance data, team trust was significantly related with both task and contextual performance of teams, in line with our theoretical rationale that team trust leads to higher risk-taking behaviors of team members</p>
+</blockquote>
+
+<blockquote>
+  <p>the meta-analysis showed significantly stronger correlations between team trust and team performance in virtual as compared to face-to-face teams</p>
+</blockquote>
+
+<p>In short: Trust levels are specifically <em>more</em> important on remote teams and impact their ability to perform at higher levels.</p>
+
+<h3 id="carefully-placed-water-coolers">Carefully Placed Water Coolers</h3>
+
+<p>There’s a couple of ways our team is trying and/or has brainstormed to help replace the lack of IRL water coolers. We take these for granted in the face-to-face world and it’s far too easy to simply forget people exist when they’re not in front of you.</p>
+
+<ul>
+  <li><strong>Weekend updates</strong> - Every Monday we all get together and recap our weekends. People tend to be pretty happy when recalling a good memory and most weekends are pretty awesome because they’re weekends<span class="cite"><a href="#note-2" name="back-2">2</a></span></li>
+  <li><strong>Lightning talks</strong> - Every Monday, the team leader<span class="cite"><a href="#note-3" name="back-3">3</a></span> does a five minute talk about something they’ve learned or are interested in</li>
+  <li><strong>Launch</strong> - When features are ready every two weeks to publish, everyone available jumps on a call together and watch someone push out the build to celebrate</li>
+  <li><strong>Pairing sessions</strong> - We’re getting into a more regular rhythm of pairing sessions together in-person and remotely.</li>
+</ul>
+
+<p>These activities run in addition to what I consider to be general ‘good practice’ management:</p>
+
+<ul>
+  <li><strong>Sprint planning</strong> - We use 2-week sprints to split up our work which requires planning on the dev side to understand technical requirements and a team-wide discussion about what has shipped and what will be shipping</li>
+  <li><strong>Retrospectives</strong> - Quarter to talk through team process, communication, and the business in general</li>
+  <li><strong>Stand-ups</strong> - Daily at 11AM EST video call</li>
+  <li><strong>1:1s</strong> - With their direct manager on their own schedule</li>
+</ul>
+
+<p>The full list seems like a lot however it only takes about two to three hours weekly with five team members. We’re adding a mandatory fun week in a few months for… mandatory fun.</p>
+
+<figure class="journal__image">
+    <img src="/img/posts/071519-leslie.gif" alt="How I feel when I plan events at work" />
+</figure>
+
+<h3 id="explicit-language-and-documentation">Explicit Language and Documentation</h3>
+
+<p>It can be easy to talk over people or miss people wanting to talk through video. It also can be easy for people to perceive that they are missing out on something because they are remote. Being deliberate about our language and adding documentation helps with this:</p>
+
+<ul>
+  <li><strong>Stand-up</strong> - After each stand-up update, every team member asks for comments/questions, and then chooses the next person who will do their update</li>
+  <li><strong>Stand-up &gt; Slack</strong> - If someone is referencing an item or thing to read, we post it into Slack so they can reference it on their own time</li>
+  <li><strong>Cookie jar</strong> - We have a document set up in Notion with screenshots of good events we have celebrated</li>
+</ul>
+
+<p>There’s more to this than what I’ve listed however we’re still testing out new things as team members join. There is no one size fits all when it comes to personalities.</p>
+
+<hr class="--small" />
+
+<p>The results of remote work don’t appear to be any better so it’s a nice benefit to be able to offer candidates who are looking for more flexible working environments. From a management and leadership perspective it is, so far, only a slight adjustment.</p>
+
+<p>The general tenet of good management remains the same: being deliberate will go far. Everything else is just a whole lotta faith and a whole lotta trust.</p>
+
+<hr class="--end" />
+
+<div class="citations">
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Breuer, Christina &amp; Hüffmeier, Joachim &amp; Hertel, Guido. (2016). <em>Does Trust Matter More in Virtual Teams? A Meta-Analysis of Trust and Team Effectiveness Considering Virtuality and Documentation as Moderators.</em> The Journal of applied psychology. 101. 10.1037/apl0000113.</p>
+
+    <p><a name="note-2" href="#back-2" class="citations-back">&#x21A9;</a> 2 I try to encourage everyone to life full lives outside of work and I wonder if this update on Monday creates a sort of urgency to do so in order to update a team. It is a curiousity I'm tracking here.</p>
+
+    <p><a name="note-3" href="#back-3" class="citations-back">&#x21A9;</a> 3 This likely calls for it's own blog post. We have a new routine called <strong>Leader Week</strong>, which rotates leadership responsibilities between team members. It's pretty cool.</p>
+</div>
+:ET

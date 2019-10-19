@@ -1,0 +1,130 @@
+I"�<p>Diplaying created things on the internet feels both freeing and constrained. The tools I use are made by others and this seems misaligned with expression of oneself. I have a long-simmering question which has never been addressed.</p>
+
+<blockquote>
+  <p>Why does it feel like I’m creating in a box?</p>
+</blockquote>
+
+<hr class="--small" />
+
+<p>Last week I published <a href="http://helentran.com/trendsinbulletpoints">this post</a> and this nonsense bounced around in my head for <em>five days</em> prior to:</p>
+
+<table class="stats">
+<tr>
+    <td>&gt; It's just a journal. Post it.<br />
+        But, it feels insignificant.<br />
+        &gt; Journal, though.<br />
+        Should I write something more... important?<br />
+        &gt; You're not NPR.
+    </td>
+</tr>
+</table>
+
+<p>My publication-fear was deeply rooted in how I chose to display my writing. I have a buried desire to publish my more thoughtful work so I designed with that ideal in mind. The consequence of doing so made me to feel trapped and I, very effectively, throttled my own creativity.</p>
+
+<hr class="--small" />
+
+<h2 id="frames">Frames</h2>
+
+<p>Creating is very fragile. Everything you do and experience affects your output. Conscious or not, we’re always looking at the frame which houses our work.</p>
+
+<figure>
+    <img src="/img/posts/052519-insta.jpg" alt="Screenshot of original Instagram app" />
+    <figcaption>
+        <p>Image credit: <a href="https://designmodo.com/comparing-ios-designs-apps/">DesignModo.com</a></p>
+    </figcaption>
+</figure>
+
+<p>Take a look at Instagram as an example. The square photo restriction felt like it had a lot to do with the devices at the time. As time went on, users became more <em>aware</em> of the frame and creative output was altered specifically because of the unique crop.</p>
+
+<p>Although more photographic ratios are allowed now, there remains a couple which aren’t, and so we’re still making concessions.</p>
+
+<p>If you’re a photographer who wants prints than we’re talking about cropping an image twice for display–once for print, once for the ‘gram. Or maybe you never print. Maybe you just do it for ‘gram. That feels strange to me.</p>
+
+<h3 id="other-blogs-have-this-issue">Other Blogs Have This Issue</h3>
+
+<figure>
+    <img src="/img/posts/052519-rands.jpg" alt="Screenshot of Rands' website" />
+    <figcaption>
+        <p>Screenshot of <a href="http://randsinrepose.com">RandsInRepose.com</a></p>
+    </figcaption>
+</figure>
+
+<p>Rands’ blog has something like this: links out to other websites with a relevant quote. I’ve long desired to do something like this yet the further along I go, the less appropriate it feels. When I look at it in-context of his website, it feels <em>right</em> for a journal to have this. My frame doesn’t allow for that sort of note-keeping though.</p>
+
+<p>Medium runs into this content display problem, manifested in a different way, as their display forces amateur (or comedic) writers to deal with the perception of being either <em>too serious</em> or <em>not serious enough</em>. I have a theory it is because of the aesthetics: too much elevation changes the perception of the content.</p>
+
+<figure>
+    <img src="/img/posts/052519-burrito.jpg" alt="Screenshot of a Medium article" />
+    <figcaption>
+        <p>Screenshot of blog post, "<a href="https://medium.com/@jackdire/dear-guy-who-just-made-my-burrito-fd08c0babb57">Dear Guy Who Just Made My Burrito</a>"</p>
+    </figcaption>
+</figure>
+
+<p>The top comments indicate some level of expectation which were evidentally never met and it’s not clear why the expectation was held to begin with. Again, this isn’t NPR. He’s writing about a <em>burrito</em>.</p>
+
+<p>Do you think this encourages <em>more</em> burrito work or <em>less</em>?</p>
+
+<h3 id="feels-late-to-compliment-tumblr">Feels Late to Compliment Tumblr</h3>
+
+<p>I had no idea what was going on in Tumblr anymore but had good memories of it. I rejoined to capture this screenshot of the Recommendations tab:</p>
+
+<figure>
+    <img src="/img/posts/052519-tumblr.jpg" alt="Screenshot of Tumblr recommendations tab" />
+</figure>
+
+<p>Tumblr isn’t frame-free but it’s the closest we have been in non-creator-originated-displays. The content doesn’t look like it was filtered on its way out. In its chaos, it allows for more creativity.</p>
+
+<p>Let’s pause this line of thought and take a look at something in Paris.</p>
+
+<hr class="--small" />
+
+<h2 id="water-lilies">Water Lilies</h2>
+
+<p>Have you heard of the Musée de l’Orangerie? The musuem houses eight paintings from Claude Monet’s famous Water Lilies collection, known as the Nymphéas. Paintings from this collection are on display all over the world but this particular exhibit is special: it was custom-made for the work.</p>
+
+<figure>
+    <img src="/img/posts/052519-monet.jpg" alt="Picture of Water Lillies collection in Paris" />
+</figure>
+
+<p>Monet worked with the head architect of the Louvre, Camille Lefèvre, to create a place for these canvases: natural light, plain walls, and sparse interior decoration. The work informed the space.</p>
+
+<p>This musuem is what I think about when I see creative work displayed on the internet. I want the internet to feel the same as this musuem but it doesn’t. I can’t stop  seeing the frames.</p>
+
+<hr class="--small" />
+
+<h2 id="responsive-content-display">Responsive Content Display</h2>
+
+<figure>
+    <img src="/img/posts/052519-ducks1.jpg" alt="Explanation of responsive content display with duck pictures" />
+</figure>
+
+<p>When Responsive Design was introduced, the idea was rooted in design serving its content<span class="cite"><a href="#note-1" name="back-1">1</a></span> except I’m not sure if we’ve pulled it all the way through. The browser window is changing for the device but the way the information is inputted and what happens during the output is not.</p>
+
+<figure>
+    <img src="/img/posts/052519-ducks2.jpg" alt="Explanation of responsive content display with duck pictures, part 2" />
+</figure>
+
+<p>Content is now filtered through something else: the designer of the software. It’s a lot like how websites used to be way back when developers created the majority of things:</p>
+
+<blockquote>
+  <p>Oh, it says it needs to be a 1:1 JPG. No… wait, 1:1 JPG under 10MB. Does this work? No… what about this?</p>
+</blockquote>
+
+<p>Everything is now a collaboration.</p>
+
+<hr class="--small" />
+
+<h2 id="the-filtration">The Filtration</h2>
+
+<p>The point of this is not to say we should never have constraints in software design but to highlight how a software designer (with another point of view) can change what a creator produces.</p>
+
+<p>You could say that art has always a conversation between society and the creator–there’s no way to produce without some sort of frame. But I think this is an apathetic approach to it: we can change how freeing or constraining interfaces can be.</p>
+
+<p>Everyone should own their point of view without a forced collaboration. We’d get more out of it.</p>
+
+<hr class="--end" />
+
+<div class="citations">
+    <p><a name="note-1" href="#back-1" class="citations-back">&#x21A9;</a> 1 Marcotte, Ethan. "Responsive Web Design." <em>A List Apart</em>, May. 2010, <a href="https://alistapart.com/article/responsive-web-design/">alistapart.com</a>.</p>
+</div>
+:ET

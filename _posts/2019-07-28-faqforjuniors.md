@@ -2,10 +2,10 @@
 layout: post
 title: FAQ for Juniors
 date: 2019-07-28
-excerpt: The largest adjustment in the past two years to my schedule has been my morning routine. I don't believe it's a direct...
+excerpt: These questions come up often from junior designers who I meet along the way and I figured it might make sense to keep them here...
 ---
 
-These questions come up often from junior designers who I meet along the way and I figured it might make sense to keep them here instead of repeatedly typing it out every time.
+These questions come up often from junior designers who I meet along the way and I figured it might make sense to keep them here instead of typing it out every time.
 
 <div class="note">
     <p>Take this all with a grain of salt. It is based off my personal experience with hiring Designers, teaching Design, and being one myself for more than ten years. This doesn't necessarily mean I'm right in every situation or context.</p>
