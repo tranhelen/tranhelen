@@ -4,9 +4,7 @@ layout: default
 ---
 
 <div class="container">
-    <nav class="nav_journals">
-        <p><b>Helen Tran</b> <a href="index.html">Blog</a> <a href="about.html">About</a></p>
-    </nav>
+    {% include nav-subpage.html %}
 
 	<div data-aos="fade-up"
 		data-aos-easing="ease-out-quad"
@@ -44,5 +42,7 @@ layout: default
 			<h5 class="time">Published {{ post.date | date:'%B %d, %Y' }}</h5>
 		</div>
 		{% endfor %}
-	</div>
+    </div>
+    
+    {% include nav-subpage-footer.html %}
 </div>

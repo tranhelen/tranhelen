@@ -92,6 +92,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
     color: $colorTextHeader;
     font-weight: 600;
+    font-family: $stack1;
 }
 
 .h1 { @extend h1; }
