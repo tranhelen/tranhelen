@@ -1,7 +1,13 @@
-    {% include header.html %}
-    
-    <body class="--home">
+{% include header.html %}
 
-    {{ content }}
-      
-    {% include footer.html %}
+<body class="--home">
+    <div class="container">
+        {% include nav.html %}
+        
+        {{ content }}
+        
+        {% include nav-footer.html %}
+    </div>
+</body>
+
+{% include footer.html %}

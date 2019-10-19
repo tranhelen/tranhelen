@@ -3,46 +3,40 @@ title: Helen Tran; Entrepreneur
 layout: default
 ---
 
-<div class="container">
-    {% include nav-subpage.html %}
+<div data-aos="fade-up"
+    data-aos-easing="ease-out-quad"
+    data-aos-duration="800">
+    {% for post in site.posts limit:1 %}
+    <div class="hp_journal--single --first">
+        <h1 class="hp-journallink">
+            <a href="{{ post.url }}"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-quad"
+            data-aos-duration="800"
+            class="indicator-link">{{ post.title }}</a>
+        </h1>
+        <p class="time"
+        data-aos="fade-up"
+        data-aos-easing="ease-out-quad"
+        data-aos-duration="800">Published {{ post.date | date:'%B %d, %Y' }}</p>
 
-	<div data-aos="fade-up"
-		data-aos-easing="ease-out-quad"
-		data-aos-duration="800">
-		{% for post in site.posts limit:1 %}
-		<div class="hp_journal--single --first">
-			<h2 class="hp-journallink">
-				<a href="{{ post.url }}"
-				data-aos="fade-up"
-				data-aos-easing="ease-out-quad"
-				data-aos-duration="800"
-				class="indicator-link">{{ post.title }}</a>
-			</h2>
-			<p class="time"
-			data-aos="fade-up"
-			data-aos-easing="ease-out-quad"
-			data-aos-duration="800">Published {{ post.date | date:'%B %d, %Y' }}</p>
-
-			<p
-			data-aos="fade-up"
-			data-aos-easing="ease-out-quad"
-			data-aos-duration="800">{{ post.excerpt | strip_html }}</p>
-			<p
-			data-aos="fade-up"
-			data-aos-easing="ease-out-quad"
-			data-aos-duration="800"><a href="{{ post.url }}">Read the rest</a></p>
-		</div>
-		{% endfor %}
-
-		{% for post in site.posts offset:1 %}
-		<div class="hp_journal--single">
-			<h3 class="hp-journallink">
-				<a href="{{ post.url }}">{{ post.title }}</a>
-			</h3>
-			<h5 class="time">Published {{ post.date | date:'%B %d, %Y' }}</h5>
-		</div>
-		{% endfor %}
+        <p
+        data-aos="fade-up"
+        data-aos-easing="ease-out-quad"
+        data-aos-duration="800">{{ post.excerpt | strip_html }}</p>
+        <p
+        data-aos="fade-up"
+        data-aos-easing="ease-out-quad"
+        data-aos-duration="800"><a href="{{ post.url }}">Read the rest</a></p>
     </div>
-    
-    {% include nav-subpage-footer.html %}
+    {% endfor %}
+
+    {% for post in site.posts offset:1 %}
+    <div class="hp_journal--single">
+        <h3 class="hp-journallink">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </h3>
+        <h5 class="time">Published {{ post.date | date:'%B %d, %Y' }}</h5>
+    </div>
+    {% endfor %}
 </div>

@@ -1,26 +1,27 @@
 {% include header.html %}
 
-<div class="container post-container">
-    {% include nav-subpage.html %}
+<body class="journal-single">
+    <div class="container post-container">
+        {% include nav.html %}
 
-	<h1 data-aos="fade-up" 
-		data-aos-duration="800"
-		data-aos-easing="ease-out-quad">{{ page.title }}</h1>
-	<h5 class="time"
-		data-aos="fade-up" 
-		data-aos-duration="800"
-		data-aos-easing="ease-out-quad">Published {{ page.date | date:'%B %d, %Y' }}</h5>
+        <h1 data-aos="fade-up" 
+            data-aos-duration="800"
+            data-aos-easing="ease-out-quad">{{ page.title }}</h1>
+        <h5 class="time"
+            data-aos="fade-up" 
+            data-aos-duration="800"
+            data-aos-easing="ease-out-quad">Published {{ page.date | date:'%B %d, %Y' }}</h5>
 
-	<div class="post-single__body" 
-		data-aos="fade-up" 
-		data-aos-delay="300"
-		data-aos-duration="800"
-		data-aos-easing="ease-out-quad">
-		
-		{{ content }}
+        <div class="post-single__body" 
+            data-aos="fade-up" 
+            data-aos-delay="300"
+            data-aos-duration="800"
+            data-aos-easing="ease-out-quad">
+            
+            {{ content }}
+        </div>
+        
+        {% include nav-footer.html %}
     </div>
-    
-    {% include nav-subpage-footer.html %}
-</div>
 
 {% include footer.html %}
