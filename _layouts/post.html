@@ -1,14 +1,12 @@
 {% include header.html %}
 
-{% include nav-subpage.html %}
-
 <div class="post-container">
+    {% include nav-subpage.html %}
 
-	<h1 class="text-center"
-		data-aos="fade-up" 
+	<h1 data-aos="fade-up" 
 		data-aos-duration="800"
 		data-aos-easing="ease-out-quad">{{ page.title }}</h1>
-	<h5 class="time text-center"
+	<h5 class="time"
 		data-aos="fade-up" 
 		data-aos-duration="800"
 		data-aos-easing="ease-out-quad">Published {{ page.date | date:'%B %d, %Y' }}</h5>
@@ -20,9 +18,9 @@
 		data-aos-easing="ease-out-quad">
 		
 		{{ content }}
-	</div>
+    </div>
+    
+    {% include nav-subpage.html %}
 </div>
-
-{% include nav-subpage.html %}
 
 {% include footer.html %}

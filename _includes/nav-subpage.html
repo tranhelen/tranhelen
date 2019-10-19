@@ -1,15 +1,3 @@
 <nav class="nav_journals">
-    {% if page.previous.url %}
-        <div class="nav-journals__sub">&#8592; <a href="{{ page.previous.url }}" class="em">Prev</a></div>
-    {% endif %}
-    {% if page.previous.url == null %}
-        <div class="nav-journals__sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-    {% endif %}
-    <div class="text-center"><a href="index.html" class="em">Home</a></div>
-    {% if page.next.url %}
-        <div class="nav-journals__sub text-right"><a href="{{ page.next.url }}" class="em">Next</a> &#8594;</div>
-    {% endif %}
-    {% if page.next.url == null %}
-        <div class="nav-journals__sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-    {% endif %}
+    <p><b>Helen Tran</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Blog</a></p>
 </nav>

@@ -33,36 +33,6 @@
     #Base
 \*------------------------------------*/
 
-@font-face {
-	font-family: "Feijoa";
-	src: url('/fonts/FeijoaWeb-Medium.eot');
-	src: url('/fonts/FeijoaWeb-Medium.eot?#iefix') format('embedded-opentype'),
-		   url('/fonts/FeijoaWeb-Medium.woff2') format('woff2'),
-		   url('/fonts/FeijoaWeb-Medium.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Feijoa";
-	src: url('/fonts/FeijoaWeb-Bold.eot');
-	src: url('/fonts/FeijoaWeb-Bold.eot?#iefix') format('embedded-opentype'),
-		   url('/fonts/FeijoaWeb-Bold.woff2') format('woff2'),
-		   url('/fonts/FeijoaWeb-Bold.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Feijoa";
-	src: url('/fonts/FeijoaWeb-MediumItalic.eot');
-	src: url('/fonts/FeijoaWeb-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		   url('/fonts/FeijoaWeb-MediumItalic.woff2') format('woff2'),
-		   url('/fonts/FeijoaWeb-MediumItalic.woff') format('woff');
-	font-weight: normal;
-	font-style: italic;
-}
-
 * {
 box-sizing: border-box;
 -webkit-font-smoothing:antialiased;
@@ -81,8 +51,13 @@ text-rendering:optimizeLegibility;
 
 body,
 html {
+    background-color: #eaf8ff;
 	margin :0;
-	overflow-x: hidden;
+    overflow-x: hidden;
+    
+    &.--home {
+        background-color: #fff;
+    }
 }
 
 img {
@@ -90,9 +65,8 @@ img {
 }
 
 $baseFontSize: 16px;
-$stack1: "Feijoa", Georgia, Times, Times New Roman, serif;
-$stack2: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$stack3: "ibm-plex-mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$stack1: poynter-oldstyle-text, Georgia, Times, Times New Roman, serif;
+$stack2: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Breakpoints */
 $one: 800px;
@@ -106,7 +80,7 @@ $one: 800px;
 
 a {
 	color: $colorLink;
-	font-family: $stack1;
+	font-family: $stack2;
 	font-weight: bold;
 	position: relative;
 
@@ -119,8 +93,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: $colorTextHeader;
-	font-weight: 300;
+    color: $colorTextHeader;
 }
 
 .h1 { @extend h1; }
@@ -130,14 +103,10 @@ h1, h2, h3, h4, h5, h6 {
 .h5 { @extend h5; }
 
 h1 {
-	font: em(40px) $stack1;
-	line-height: 50px;
-	margin: 0;
-
-	@include at-query($one) {
-		font: em(50px) $stack1;
-		line-height: 55px;
-	}
+	font: 600 em(40px) $stack1;
+	line-height: 40px;
+    margin: 0;
+    width: 250px;
 }
 
 h2 {
@@ -189,16 +158,15 @@ h4 {
 }
 
 h5 {
-	color: #999;
-	font-family: $stack3;
-	font-size: em(12px);
+    color: #666;
+	font: 600 em(12px) $stack2;
 	margin: 0;
 	text-transform: uppercase;
 }
 
 p {
 	color: $colorTextBody;
-	font: em(16px) $stack1;
+	font: em(16px) $stack2;
 	line-height: 1.7;
 	margin: 0 0 10px;
 }
@@ -206,7 +174,7 @@ p {
 ol li,
 ul li {
 	color: $colorTextBody;
-	font: em(16px) $stack1;
+	font: em(16px) $stack2;
 	line-height: 1.75;
 	margin: 0 0 5px;
 
@@ -405,25 +373,7 @@ ol {
 }
 
 #bio {
-	background-color: #0067d0;
-	transition: transform 1.7s cubic-bezier(0.075, 0.82, 0.165, 1);
-	transform: translateY(-100%);
-	padding: 10% 15% 5%;
-	position: absolute;
-	width: 100%;
-	z-index: 100;
-
-	&.show {
-		transform: translateY(0);
-	}
-
-	a {
-		color: #fff;
-	}
-
 	h1 {
-		font-weight: normal;
-		color: #fff;
 		font-size: em(24px);
 		line-height: 34px;
 		font-family: $stack1;
@@ -436,15 +386,7 @@ ol {
 	}
 
 	p {
-		color: #e9f7ff;
 		margin-left: 30px;
-	}
-
-	.bio_close {
-		float: right;
-		position: relative;
-			top: 2px;
-		width: 16px;
 	}
 
 	.bio_portrait {
@@ -457,18 +399,6 @@ ol {
 
 	.bio_nav {
 		margin: 30px -10px 0;
-	}
-	
-	.bio_some {
-		display: inline-block;
-		list-style-type: none;
-		padding: 0;
-
-		li {
-			display: inline-block;
-			margin: 0 15px 0 0;
-			width: 16px;
-		}
 	}
 
 	.flip {
@@ -483,12 +413,6 @@ ol {
 			line-height: 50px;
 			max-width: 600px;
 			margin: 0 0 5% 10%;
-		}
-
-		.bio_close {
-			position: relative;
-				top: 2px;
-			width: 24px;
 		}
 
 		.bio_nav {
@@ -531,7 +455,6 @@ ol {
 .post-container {
 	margin: 0 auto 30px;
 	max-width: 660px;
-	padding: 30px;
 	
 	h2, h3 {
 		margin: 45px 0 30px;
@@ -544,7 +467,6 @@ ol {
 		padding: 8px 0;
 	
 		p {
-			font-family: $stack3;
 			font-size: em(12px)!important;
 			margin: 0;
 		}
@@ -555,8 +477,6 @@ ol {
 	}
 
 	@include at-query($one) {
-		padding: 100px 0;
-
 		p,
 		ul li,
 		ol li {
@@ -573,7 +493,6 @@ ol {
 
 .cite {
 	a {
-		font-family: $stack3;
 		font-size: em(12px);
 		text-decoration: none;
 		vertical-align: super;
@@ -586,7 +505,6 @@ ol {
 
 .citations {
 	p {
-		font-family: $stack3;
 		font-size: em(12px);
 		text-indent: -33px;
 		
@@ -609,13 +527,7 @@ ol {
 }
 
 .nav_journals {
-	display: flex;
-	flex-direction: row;
-	margin: 30px 12px;
-
-	.nav-journals__sub {
-		flex-grow: 1;
-	}
+	margin: 20px 0 100px;
 }
 
 .note {
@@ -625,13 +537,11 @@ ol {
 	padding: 15px 15px 1px;
 
 	p {
-		font-family: $stack3;
 		font-size: em(12px);
 	}
 }
 
 .stats {
-	font-family: $stack3;
 	font-size: em(14px);
 	width: 100%;
 
@@ -644,7 +554,6 @@ ol {
 		margin: 0 0 0 -20px;
 
 		li {
-			font-family: $stack3;
 			font-size: em(14px);
 			margin: 0;
 		}
