@@ -48,7 +48,7 @@ I walked my first 100km backpacking trip alone. It took me under a week. From th
 <hr class="--small" />
 
 <figure class="journal__image">
-    <img src="/img/posts/061719-kungsleden2.jpg" alt="Pictures from the Kungsleden trail" />
+    <img src="/img/posts/061719-kungsleden2.gif" alt="Pictures from the Kungsleden trail" />
 </figure>
 
 Hiking made the difference.  
@@ -58,7 +58,7 @@ Doing it alone made all the difference.
 Somewhere on the trail I found something I had never thought was in me and it was further reinforced by amazement expressed by people I met along the way. From then on, I would hike even harder trails: in all conditions, at extreme heights, on all continents, and become relentless in my pursuit for self-challenge.
 
 <figure class="journal__image">
-    <img src="/img/posts/061719-part2.jpg" alt="Pictures from trails around the world" />
+    <img src="/img/posts/061719-part2.gif" alt="Pictures from trails around the world" />
 </figure>
 
 The hobby changed my career and helped frame hard work and effort in a way I understood. I wasn't connecting with Silicon Valley-esque ambition; I connected with my steps, one after another, and they walked me towards finish lines I never thought I'd reach.
@@ -66,7 +66,7 @@ The hobby changed my career and helped frame hard work and effort in a way I und
 As I did more, I craved more and eventually found bodybuilding. When I went out on stage for the first time I heard that voice again: _I can't do this_. I chased the fear again and am still chasing it now.
 
 <figure class="journal__image">
-    <img src="/img/posts/061719-bodybuilding.jpg" alt="My progression in bodybuilding" />
+    <img src="/img/posts/061719-bodybuilding.gif" alt="My progression in bodybuilding" />
 </figure>
 
 I take my trail lessons with me with confidence growing every day. I know I have more to give. Starting a company doesn't seem like that big a deal now. _I've been nearly naked on-stage, for god's sake._

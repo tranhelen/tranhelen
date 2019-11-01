@@ -48,7 +48,7 @@ If you're a photographer who wants prints than we're talking about cropping an i
 ### Other Blogs Have This Issue
 
 <figure>
-    <img src="/img/posts/052519-rands.jpg" alt="Screenshot of Rands' website">
+    <img src="/img/posts/052519-rands.gif" alt="Screenshot of Rands' website">
     <figcaption>
         <p>Screenshot of <a href="http://randsinrepose.com">RandsInRepose.com</a></p>
     </figcaption>
