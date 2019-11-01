@@ -108,9 +108,13 @@ h1 {
     width: 250px;
 
     &.--bio {
-        font-size: em(60px);
-        line-height: 65px;
-        width: 500px;
+        width: unset;
+
+        @include at-query($one) {
+            font-size: em(60px);
+            line-height: 65px;
+            width: 500px;
+        }
     }
 }
 
