@@ -22,9 +22,9 @@ Unfortunately this decision means we're at the mercy of that beta experience. We
 
 Mobile-first + Expo cost us weeks.
 
-## Fuck-up #2: We took too long to ask our market for money.
+## Fuck-up #2: We took too long to ask for money.
 
-The app was designed by its market because we picked them first. The features came from talking to the people who we wanted to serve. Some of the them were informed by what they told us and some of them were designed based off observation.
+The app was designed by its market because we picked them first. The features came from these conversations and were direct requests. Some of them were designed based off observation.
 
 Rich and I spent the first 'stage' of Jupiter building together from April 2018 - November 2018 while talking to customers along the way. 8 months. The MVP was past done by this point (from my recollection) and it still took us 3 months after that to open up payments.
 
