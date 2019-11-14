@@ -2,7 +2,7 @@
 layout: post
 title: IAP, Apple, and Other Fuck-ups
 date: 2019-11-10
-excerpt: 18 months have gone past and we're at month 19 at Jupiter. We've made some mistakes but they weren't in the areas I thought we would...
+excerpt: 18 months have gone past and we're at month 19 at Jupiter. We've made some mistakes. I wish it was the software that was the hard part...
 ---
 
 18 months have gone past and we're at month 19 at Jupiter. We've made some mistakes.
