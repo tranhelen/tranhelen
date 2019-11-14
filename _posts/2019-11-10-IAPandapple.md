@@ -60,9 +60,13 @@ And what if, after all this delay, we find it's not going to sell _more_? I'm ha
 
 <hr class="--small">
 
-I still love what we've built. I still love my market. I still want to do this. My loyalty to this company won't fade but... I'm tired of the slow ramp of death. Every day feels _more forever_ than the _forever_ day before it. And we started with the **best case scenario** for a bootstrapped start-up.
+I still love what we've built. I still love my market. I still want to do this. My loyalty to this company won't fade but... I'm tired of the slow ramp of death. Every day feels _more forever_ than the _forever_ day before it. I think we could have been in this position a few months ago had we made better decisions.
 
 I'm convinced start-up founders raise money or create busywork for themselves because of the _forever_ nature of building a SaaS company and they're trying not to die of frustrated boredom. If you're tackling a problem more complex than a single note, it takes longer than you want it to. And that sucks.
+
+<div class="note">
+    <p>While I get my position makes this hard to understand, this post does not speak for anyone else at the company. I'd imagine they have their own thoughts and reflections around the timeframe.</p>
+</div>
 
 <hr class="--end">
 
