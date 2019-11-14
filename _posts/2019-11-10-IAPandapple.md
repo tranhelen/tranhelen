@@ -9,6 +9,10 @@ excerpt: 18 months have gone past and we're at month 19 at Jupiter. We've made s
 
 I _wish_ it was the software that was the hard part but most of the challenge appears to be in balancing creating the software and creating the business in tandem. From what is found online it appears people usually fall short in design and marketing: not talking to their customers enough. That isn't a weakness of ours, fortunately, yet mistakes abound regardless.
 
+<div class="note">
+    <p>While I get my position makes this hard to understand, this post does not speak for anyone else at the company. I'd imagine they have their own thoughts and reflections around this whole process.</p>
+</div>
+
 ## Fuck-up #1: Mobile-first.
 
 Mobile apps come with a huge barrier: the TestFlight beta app. I can't tell you enough how much I loathe this app. Even the most motivated users don't like the idea of downloading an app to download another app and it's completely unclear what value they get out of the process anyway.
@@ -63,10 +67,6 @@ And what if, after all this delay, we find it's not going to sell _more_? I'm ha
 I still love what we've built. I still love my market. I still want to do this. My loyalty to this company won't fade but... I'm tired of the slow ramp of death. Every day feels _more forever_ than the _forever_ day before it. I think we could have been in this position a few months ago had we made better decisions.
 
 I'm convinced start-up founders raise money or create busywork for themselves because of the _forever_ nature of building a SaaS company and they're trying not to die of frustrated boredom. If you're tackling a problem more complex than a single note, it takes longer than you want it to. And that sucks.
-
-<div class="note">
-    <p>While I get my position makes this hard to understand, this post does not speak for anyone else at the company. I'd imagine they have their own thoughts and reflections around the timeframe.</p>
-</div>
 
 <hr class="--end">
 
