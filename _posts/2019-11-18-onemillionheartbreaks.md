@@ -30,7 +30,7 @@ We think we all make logical decisions but the majority of our problems stem fro
 
 <hr class="--small">
 
-It's okay to be heartbroken over all the minor and major disappointments of your life. It's not okay to get stuck on them though. Leaving the rest to Dolly,
+It's okay to be heartbroken over all the minor and major disappointments of your life. It's likely a sign that you are moving in the right direction... just make sure you're not stuck admiring the heartbreaks. Leaving the rest to Dolly,
 
 > You better stop whining, pining  
 Get your dreams in line  
