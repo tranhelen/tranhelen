@@ -52,8 +52,10 @@ Similar to tech: many of us claim the hustle _needs to happen_ or you won't see 
 
 To test this theory, I have been applying the art of _non-hustle_ to both bodybuilding and how I work at Jupiter. We have yet to see market traction with Jupiter but I do know this: I'm more content that I've ever been in any other tech job and this peace of mind is more important to me than ever before.
 
-Sustainability has become king because I love building software enough to continue with it for the foreseeable future. It plays to my strengths and now that I'm closer to my customers, I feel the full breadth of being a designer once again. I get to watch them use our software and listen to them talk about their lives. When they tell me they don't like what we've built, I love the process even more. Since I know this to be true, it is up to me to build the right environment to sustain this continuation.
+I love building software enough to continue with it for the foreseeable future. It plays to my strengths and now that I'm closer to my customers, I feel the full breadth of being a designer again. I get to watch people use our software and listen to them talk about their lives. When they tell me they don't like what we've built, I love the process even more. 
 
-Physique building is very similar except the failures and wins are much more obvious. If theory is applied correctly and optimally, the results of my work are in the mirror or in the eyes of others. This isn't the case with my technical career where the positive and ethical impact of my work can be unclear and hard to measure. Building in a non-physical realm can be very unfilling in that respect.
+**Sustainability has become king.** What is true is that I need this feeling to continue and therefore I must build the right environment to sustain it. So, I need to figure out my balance.
+
+The process of finding balance in physique building is similar except wins and failures are more obvious. If theory is applied correctly and optimally, the results of my work are in the mirror or in the eyes of others. This isn't the case with my technical career where the positive and ethical impact of my work can be unclear and hard to measure. Building in a non-physical realm can be very unfilling in that respect.
 
 Still, the lessons are there if I'm paying attention. And I get to review the material twice.
