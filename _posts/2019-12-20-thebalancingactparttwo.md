@@ -34,11 +34,15 @@ In the tech world, we call this burn-out. We push working past the point of opti
 
 Finding balance is the key to building a world-class physique but this work is hard. There is no formula for it despite what snake oil salesmen claim. Some bodies have higher recovery times (tends to be females, en masse), some bodies have never seen a day of exercise (tends to happen in sedentary computer folk), and some bodies don't respond to certain programs (genetic disposition in sports is still a thing).
 
-Since there is no formula, many will claim all sorts of things to obtain that feeling of accomplishment. Eric Helms, another natural Bodybuilder and Educator says this:
+Since there is no formula, many will claim all sorts of things to obtain that feeling of accomplishment to motivate themselves further down their path (or sell a path to others).
 
-> It's not a matter of willpower. It's not a matter of hardcoreness. It's a matter of: it's easy. It's easy for you to go all-in. That's your personality. So just don't pretend that when you go all-in that it's because you have this incredible work ethic. Just be aware that you're actually taking the path of least resistence, not the path of optimality. [...] But, if you want to get to your true potential, maybe you need to not do what's easy to you, which looks hard and which you can post about being hard, but actually what takes a little more moderation.
+Eric Helms, another natural Bodybuilder and Educator says this (emphasis mine):
+
+> People make fun of balance but [...] the word balance [...] physically means standing on a narrow object and trying to resist forces in either direction of doing too little or too much. [...] **Balance requires constant attention.** [...] **balance is difficult. And moderation does not absolutely equal mediocrity.**
 
 Similar to tech: many of us claim the hustle _needs to happen_ or you won't see results. This is a half truth. The level of hustling required doesn't need to be extreme because results will appear regardless of effort or timeframe.
+
+> It's not a matter of willpower. It's not a matter of hardcoreness. It's a matter of: it's easy. It's easy for you to go all-in. That's your personality. So just don't pretend that when you go all-in that it's because you have this incredible work ethic. [...] ...you're actually taking the path of least resistence, not the path of optimality. [...] But, if you want to get to your true potential, maybe you need to not do what's easy to you, which looks hard and which you can post about being hard, but actually what takes a little more moderation.
 
 <hr class="--small">
 
