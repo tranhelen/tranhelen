@@ -3,11 +3,11 @@ Helen Tran
 
 About the Repo
 ---------
-This repository holds the source code for [helentran.com](http://helentran.com), my main prescence and playground online. This site is powered by [Jekyll](http://jekyllrb.com/).
+This repository holds the old source code for [helentran.com](http://helentran.com). This site is used to be powered by [Jekyll](http://jekyllrb.com/) and github pages but has since moved over to Notion + Super. Leaving this up for reference.
 
 License
 ---------
-This repo is meant to be available for educational purposes/reference. This is not a Jekyll theme, it is my portfolio. Do not re-use the design/layout or content contained within.
+This repo is meant to be available for educational purposes/reference. 
 
 Contact
 ---------
